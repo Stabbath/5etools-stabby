@@ -1,0 +1,158 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "stabbysorcerer",
+				"abbreviation": "Stabby",
+				"full": "Stabby's Classes",
+				"version": "1",
+				"url": "none",
+				"authors": [
+					"Francisco \"Stabby\" Pesquita"
+				],
+				"convertedBy": [
+					"Francisco \"Stabby\" Pesquita"
+				]
+			}
+		],
+		"dateAdded": 1586966344, 
+		"dateLastModified": 1657399173,
+		"_dateLastModifiedHash": "aa8d6f9bda"
+	},
+	"subclass": [
+		{
+			"name": "Sorcerous Origin: Pain",
+			"shortName": "Pain",
+			"source": "stabbysorcerer",
+			"page": 0,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassFeatures": [
+				"Sorcerous Origin: Pain|Sorcerer||Pain|stabbysorcerer|1",
+				"Debilitating Spells|Sorcerer||Pain|stabbysorcerer|6",
+				"Share and Ease Sorrows|Sorcerer||Pain|stabbysorcerer|14",
+				"Avatar of Pain|Sorcerer||Pain|stabbysorcerer|18"
+			]
+		}
+	],
+	
+	
+	
+	
+	
+	
+	
+
+	
+	"subclassFeature": [
+		{
+			"name": "Sorcerous Origin: Pain",
+			"source": "stabbysorcerer",
+			"page": 0,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Pain",
+			"subclassSource": "stabbysorcerer",
+			"level": 1,
+			"entries": [
+				"A sadomasochistic sorcerer who fuels and is fueled by pain.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Pain is Power|Sorcerer||Pain|stabbysorcerer|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Piercing Spells|Sorcerer||Pain|stabbysorcerer|1"
+				}
+			]
+		},
+		{
+			"name": "Pain is Power",
+			"source": "stabbysorcerer",
+			"page": 0,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Pain",
+			"subclassSource": "stabbysorcerer",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"At 1st level, you feel reinvigorated whenever in the presence of intense moments of pain; especially if you're directly involved.",
+				"Whenever a creature within 30 feet of you suffers a critical hit, you regain 1 sorcery point. If that creature or its attacker is you, you instead regain 2 sorcery points."
+			]
+		},
+		{
+			"name": "Piercing Spells",
+			"source": "stabbysorcerer",
+			"page": 0,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Pain",
+			"subclassSource": "stabbysorcerer",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"Also at 1st level, you have a knack for hitting your foes where it huts.",
+				"Your critical range with spell and weapon attacks is increased to 19-20."
+			]
+		},
+		{
+			"name": "Debilitating Spells",
+			"source": "stabbysorcerer",
+			"page": 0,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Pain",
+			"subclassSource": "stabbysorcerer",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, your spells can cause vulnerability in their targets.",
+				"Whenever you deal damage to a creature with a spell, you can force it to make a Constitution saving throw against your spellcasting save DC. On a failure, it then loses resistance and gains vulnerability to all damage types constituting the damage dealt by that spell, excepting ones it is immune to, until the end of your next turn. You can use this feature a number of times per long rest equal to your Charisma modifier (minimum 1)."
+			]
+		},
+		{
+			"name": "Share and Ease Sorrows",
+			"source": "stabbysorcerer",
+			"page": 0,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Pain",
+			"subclassSource": "stabbysorcerer",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, you can sometimes force others to feel your pain, or lessen theirs.",
+				"Whenever you take damage, you can use your reaction to have a creature within 30 feet of you bound to temporarily share your suffering. Until the start of your next turn, all damage you take is taken by that creature as well, including the triggering damage.",
+				"Alternatively, you can use a reaction when you see another creature take damage, to halve all damage it takes until the start of its next turn, including the triggering damage.",
+				"Once you use one of these features, you can't use either again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Avatar of Pain",
+			"source": "stabbysorcerer",
+			"page": 0,
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassShortName": "Pain",
+			"subclassSource": "stabbysorcerer",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"At 18th level, you unlock the ability to become a living embodiment of suffering, amplifying the pain of all those around you while reducing yours. You can use an action to deepen your attunement to your powers for 1 minute, becoming a focus point for the inflicting of pain around you. While this feature is active, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain resistance to all damage.",
+						"Whenever a creature within 30 feet of you takes damage, it takes additional damage equal to your Charisma modifier (minimum 1).",
+						"All attacks made within 30 feet of you have their critical range expanded to 19-20.",
+						"Your critical range with spell and weapon attacks is further increased to 18-20.",
+						"You can use your Share or Ease Sorrow feature an additional time before this effect expires."
+					]
+				},
+				"This effect ends early if you become unconscious or die. Once you have used this feature, you can't use it again until you finish a long rest."
+			]
+		}
+	]
+}
+		

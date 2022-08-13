@@ -1,0 +1,194 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "stabbydruid",
+				"abbreviation": "Stabby",
+				"full": "Stabby's Classes",
+				"version": "1",
+				"url": "none",
+				"authors": [
+					"Francisco \"Stabby\" Pesquita"
+				],
+				"convertedBy": [
+					"Francisco \"Stabby\" Pesquita"
+				]
+			}
+		],
+		"dateAdded": 1586966344, 
+		"dateLastModified": 1657399173,
+		"_dateLastModifiedHash": "aa8d6f9bda"
+	},
+	"subclass": [
+		{
+			"name": "Circle of Spirits",
+			"shortName": "Spirits",
+			"source": "stabbydruid",
+			"page": 0,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassFeatures": [
+				"Circle of Spirits|Druid||Spirits|stabbydruid|2",
+				"Prophesy|Druid||Spirits|stabbydruid|6",
+				"The Other Side|Druid||Spirits|stabbydruid|10",
+				"Otherworldly Resistance|Druid||Spirits|stabbydruid|14"
+			]
+		}
+	],
+	
+	
+	
+	
+	
+	
+	
+
+	
+	"subclassFeature": [
+		{
+			"name": "Circle of Spirits",
+			"source": "stabbydruid",
+			"page": 0,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Spirits",
+			"subclassSource": "stabbydruid",
+			"level": 2,
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Circle Spells|Druid||Spirits|stabbydruid|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tongues of the Forgotten|Druid||Spirits|stabbydruid|2"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spiritual Guidance|Druid||Spirits|stabbydruid|2"
+				}
+			]
+		},
+		{
+			"name": "Circle Spells",
+			"source": "stabbydruid",
+			"page": 0,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Spirits",
+			"subclassSource": "stabbydruid",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Your mystical connection to the spirits of the past infuses you with the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to your circle, as listed below. Once you gain access to a circle spell, you always have it prepared, and it doesn’t count against the number of spells you can prepare each day. If you gain access to a spell that doesn’t appear on the druid spell list, the spell is nonetheless a druid spell for you.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Druid Level",
+						"Circle Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell forewarning|stabbyspells}, {@spell locate object}"
+						],
+						[
+							"5th",
+							"{@spell speak with dead}, {@spell spirit guardians}"
+						],
+						[
+							"7th",
+							"{@spell guardian of faith}, {@spell locate creature}"
+						],
+						[
+							"9th",
+							"{@spell conjure undead spirits|stabbyspells}, {@spell legend lore}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Tongues of the Forgotten",
+			"source": "stabbydruid",
+			"page": 0,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Spirits",
+			"subclassSource": "stabbydruid",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"The spirits that surround you and fill the world unbeknownst to others speak in all manner of tongues, sometimes ones long forgotten. Starting at 2nd level, your connection to them allows you to grasp the meaning of all language.",
+				"You can understand all language, spoken or written (though not speak it)."
+			]
+		},
+		{
+			"name": "Spiritual Guidance",
+			"source": "stabbydruid",
+			"page": 0,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Spirits",
+			"subclassSource": "stabbydruid",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Also at 2nd level, you can channel spirits of the past to provide you with intuitions from their experience whenever you attempt something you lack experience in.",
+				"You can add half your proficiency modifier (rounded down) to any ability check you make that you lack proficiency with."
+			]
+		},
+		{
+			"name": "Prophesy",
+			"source": "stabbydruid",
+			"page": 0,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Spirits",
+			"subclassSource": "stabbydruid",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"By 6th level, your connection to the spirits of the land and the dead grants you access to a stream of endless knowledge and experience, enhancing your powers of divination.",
+				"Once per short or long rest, you may cast a divination spell of 5th level or lower that you have prepared without expending a spell slot. If the spell would have a chance of returning a random reading due to multiple castings, that chance is always 0% when you cast it this way, and this casting does not increase the chance for later castings.",
+				"You also learn the following additional circle spells: {@spell identify}, {@spell augury}, and {@spell clairvoyance}."
+			]
+		},
+		{
+			"name": "The Other Side",
+			"source": "stabbydruid",
+			"page": 0,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Spirits",
+			"subclassSource": "stabbydruid",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, your contact with the beings beyond the veil is habitual, improving your ability to establish it.",
+				"Whenever you cast a spell which allows you to conjure or summon a creature (but not animate one from a corpse), you can consider the spell to be cast as though it were one spell slot level higher than the spell slot you expended.",
+				"You also learn one additional circle spell: {@spell contact other plane}."
+			]
+		},
+		{
+			"name": "Otherworldly Resistance",
+			"source": "stabbydruid",
+			"page": 0,
+			"className": "Druid",
+			"classSource": "PHB",
+			"subclassShortName": "Spirits",
+			"subclassSource": "stabbydruid",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, your continuous contact with spirits of all sorts has made you resistant to their wiles.",
+				"You cannot be possessed nor {@condition charmed}, and you have advantage on all Wisdom and Charisma saving throws against Celestials, Elementals, Fey, Fiends and Undead creatures."
+			]
+		}
+	]
+}
+		

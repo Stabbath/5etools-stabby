@@ -1,0 +1,312 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "stabbyfighter",
+				"abbreviation": "Stabby",
+				"full": "Stabby's Classes",
+				"version": "1",
+				"url": "none",
+				"authors": [
+					"Francisco \"Stabby\" Pesquita"
+				],
+				"convertedBy": [
+					"Francisco \"Stabby\" Pesquita"
+				]
+			}
+		],
+		"dateAdded": 1586966344, 
+		"dateLastModified": 1657399173,
+		"_dateLastModifiedHash": "aa8d6f9bda"
+	},
+	"subclass": [
+		{
+			"name": "Lobber",
+			"shortName": "Lobber",
+			"source": "stabbyfighter",
+			"page": 0,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassFeatures": [
+				"Lobber|Fighter||Lobber|stabbyfighter|3",
+				"Strong Throwing Arm|Fighter||Lobber|stabbyfighter|7",
+				"Combination Fighter|Fighter||Lobber|stabbyfighter|10",
+				"Relentless Barrage|Fighter||Lobber|stabbyfighter|15",
+				"Heavy Hurler|Fighter||Lobber|stabbyfighter|18"
+			]
+		},
+		{
+			"name": "Defender",
+			"shortName": "Defender",
+			"source": "stabbyfighter",
+			"page": 0,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassFeatures": [
+				"Defender|Fighter||Defender|stabbyfighter|3",
+				"Defensive Instincts|Fighter||Defender|stabbyfighter|7",
+				"Improved Magnetizing Presence|Fighter||Defender|stabbyfighter|10",
+				"Additional Fighting Style|Fighter||Defender|stabbyfighter|10",
+				"Deflect Missile|Fighter||Defender|stabbyfighter|15",
+				"Improved Magnetizing Presence|Fighter||Defender|stabbyfighter|18",
+				"Critical Defense|Fighter||Defender|stabbyfighter|18"
+			]
+		}
+	],
+	
+	
+	
+	
+	
+	
+	
+
+	
+	"subclassFeature": [
+		{
+			"name": "Defender",
+			"source": "stabbyfighter",
+			"page": 0,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Defender",
+			"subclassSource": "stabbyfighter",
+			"level": 3,
+			"entries": [
+				"A fighter who excels at defensive manoeuvres and keeping his allies safe.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Born Ready|Fighter||Defender|stabbyfighter|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Magnetizing Presence|Fighter||Defender|stabbyfighter|3"
+				}
+			]
+		},
+		{
+			"name": "Born Ready",
+			"source": "stabbyfighter",
+			"page": 0,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Defender",
+			"subclassSource": "stabbyfighter",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you choose this archetype at 3rd level, you don't feel dressed unless you're armored.",
+				"You don't suffer any penalties from sleeping in armor, and your movement is not slowed when you fail to meet the strength requirements for armor.",
+				"Additionally, you can don or doff a shield as a bonus action on your turn."
+			]
+		},
+		{
+			"name": "Magnetizing Presence",
+			"source": "stabbyfighter",
+			"page": 0,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Defender",
+			"subclassSource": "stabbyfighter",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Also at 3rd level, you learn to draw your foes' attacks towards you.",
+				"As a bonus action, creatures you choose within 10 feet of you must make a Wisdom saving throw against your Challenging Save DC (8 + your Proficiency Bonus + your Charisma Modifier), if the target fails it has disadvantage on attacks rolls against anyone but you until the end of your next turn.",
+				"You can use this features a number of times equals to your Charisma modifier until you finish a long rest."
+			]
+		},
+		{
+			"name": "Defensive Instincts",
+			"source": "stabbyfighter",
+			"page": 0,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Defender",
+			"subclassSource": "stabbyfighter",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"When you reach 7th level, your defensive capabilities are enhanced.",
+				"When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to take the attack instead. You can choose to do so before or after the attack roll but before the damage roll.",
+				"Additionally, you can take the Dodge action as a bonus action on your turn when you do not move on that turn."
+			]
+		},
+		{
+			"name": "Improved Magnetizing Presence",
+			"source": "stabbyfighter",
+			"page": 0,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Defender",
+			"subclassSource": "stabbyfighter",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, your magnetising presence is enhanced.",
+				"Its range increases to 30ft, but creatures beyond 10ft have advantage on their saving throw to resist it."
+			]
+		},
+		{
+			"name": "Additional Fighting Style",
+			"source": "stabbyfighter",
+			"page": 0,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Defender",
+			"subclassSource": "stabbyfighter",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Also at 10th level, you can choose an additional option from the Fighting Style class feature."
+			]
+		},
+		{
+			"name": "Deflect Missile",
+			"source": "stabbyfighter",
+			"page": 0,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Defender",
+			"subclassSource": "stabbyfighter",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, you learn how to deflect missiles coming towards you using the curves of your armor and shield.",
+				"If a creature you can see attacks you with a ranged weapon attack and misses you can use your reaction to try to use your defense to change the trajectory of the missile to hit another creature within 30 feet of you. You use the attackers roll, reduce it by 5 and add 1d10 + your Strength or Dexterity modifier to the attack."
+			]
+		},
+		{
+			"name": "Improved Magnetizing Presence",
+			"source": "stabbyfighter",
+			"page": 0,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Defender",
+			"subclassSource": "stabbyfighter",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"At 18th level, your Magnetising Presence is further improved.",
+				"Targets who fail their save instead are forced to take an offensive action that has either you or your location as its target, and cannot make attacks against anyone but you, if they make any attacks, unless as part of a spell which must target more than creature with its attacks."
+			]
+		},
+		{
+			"name": "Critical Defense",
+			"source": "stabbyfighter",
+			"page": 0,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Defender",
+			"subclassSource": "stabbyfighter",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Also at 18th level, you become impervious to critical hits.",
+				"As long as you are not incapacitated, whenever an attack against you would be a critical, it is instead a normal hit."
+			]
+		},
+
+
+
+
+
+
+
+
+		{
+			"name": "Lobber",
+			"source": "stabbyfighter",
+			"page": 0,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Lobber",
+			"subclassSource": "stabbyfighter",
+			"level": 3,
+			"entries": [
+				"A fighter who excels at thrown weapon combat even in a melee, and specializes in it to great effect.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Thrown Weapon Expert|Fighter||Lobber|stabbyfighter|3"
+				}
+			]
+		},
+		{
+			"name": "Thrown Weapon Expert",
+			"source": "stabbyfighter",
+			"page": 0,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Lobber",
+			"subclassSource": "stabbyfighter",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"At 3rd level when you choose this archetype, you develop impecable dexterity in handling weapons.",
+				"Whenever you use an attack action on your turn, you can use a bonus action to draw and make a ranged attack with a weapon with the Thrown property.",
+				"Additionally, you can freely draw and/or stow away a weapon each time you make an attack with a melee weapon, as part of that attack."
+			]
+		},
+		{
+			"name": "Strong Throwing Arm",
+			"source": "stabbyfighter",
+			"page": 0,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Lobber",
+			"subclassSource": "stabbyfighter",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, your capable of casting projectiles impressive distances.",
+				"Your range with thrown weapons increases by +20/+40. For example, a javelin has a range of 50/160 for you, and a Dagger has a range of 40/100."
+			]
+		},
+		{
+			"name": "Combination Fighter",
+			"source": "stabbyfighter",
+			"page": 0,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Lobber",
+			"subclassSource": "stabbyfighter",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, your quickness in alternating combat styles gives you an edge in catching opponents unawares.",
+				"After hitting an enemy with a melee weapon attack, you can give yourself advantage on your next ranged attack with a melee weapon that turn, and vice versa. You can use this feature a number of times equal to your proficiency modifier, and recover spent uses whenever you finish a long rest."
+			]
+		},
+		{
+			"name": "Relentless Barrage",
+			"source": "stabbyfighter",
+			"page": 0,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Lobber",
+			"subclassSource": "stabbyfighter",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, you become able to chain further thrown attacks when in a combat surge.",
+				"When you use your Action Surge, you can make one additional attack with a thrown weapon before or after this additional action, drawing it for free."
+			]
+		},
+		{
+			"name": "Heavy Hurler",
+			"source": "stabbyfighter",
+			"page": 0,
+			"className": "Fighter",
+			"classSource": "PHB",
+			"subclassShortName": "Lobber",
+			"subclassSource": "stabbyfighter",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Any melee weapon that does not have the Heavy property, except for Shortswords, Rapiers, Flails, and Whips, gains the Thrown property for you, with a range of 20/60ft. This range is not increased by your other subclass features.",
+				"Additionally, weapons that do normally have a Thrown property have their range increased by an additional +20/+40."
+			]
+		}
+	]
+}
+		

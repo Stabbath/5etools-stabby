@@ -1,0 +1,298 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "stabbywarlock",
+				"abbreviation": "Stabby",
+				"full": "Stabby's Classes",
+				"version": "1",
+				"url": "none",
+				"authors": [
+					"Francisco \"Stabby\" Pesquita"
+				],
+				"convertedBy": [
+					"Francisco \"Stabby\" Pesquita"
+				]
+			}
+		],
+		"dateAdded": 1586966344, 
+		"dateLastModified": 1657399173,
+		"_dateLastModifiedHash": "aa8d6f9bda"
+	},
+	"subclass": [
+		{
+			"name": "The Wyrm",
+			"shortName": "Wyrm",
+			"source": "stabbywarlock",
+			"page": 0,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassFeatures": [
+				"The Wyrm|Warlock||Wyrm|stabbywarlock|1",
+				"Elemental Affinity|Warlock||Wyrm|stabbywarlock|6",
+				"Draconic Recharge|Warlock||Wyrm|stabbywarlock|10",
+				"Dragon Wings|Warlock||Wyrm|stabbywarlock|14"
+			]
+		},
+		{
+			"name": "The Master",
+			"shortName": "The Master",
+			"source": "stabbywarlock",
+			"page": 0,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassFeatures": [
+				"The Master|Warlock||The Master|stabbywarlock|1",
+				"Arbitrary Success|Warlock||The Master|stabbywarlock|6",
+				"Meta-Knowledge|Warlock||The Master|stabbywarlock|10",
+				"Plot Armor|Warlock||The Master|stabbywarlock|14"
+			]
+		}	
+	],
+	
+	
+	
+	
+	
+	
+	
+
+	
+	"subclassFeature": [
+		{
+			"name": "The Master",
+			"source": "stabbywarlock",
+			"page": 0,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "The Master",
+			"subclassSource": "stabbywarlock",
+			"level": 1,
+			"entries": [
+				"Your patron is a force beyond this world, beyond all worlds reachable by you. It is a mystical entity which, you are convinced, secretly governs all that happens in the world, and the fates and actions of all creatures in it, whether according to some grand plan or off of spontaneous whim. You know it only as the Master.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Expanded Spell List|Warlock||The Master|stabbywarlock|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fudgy Fate|Warlock||The Master|stabbywarlock|1"
+				}
+			]
+		},
+		{
+			"name": "Expanded Spell List",
+			"source": "stabbywarlock",
+			"page": 0,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "The Master",
+			"subclassSource": "stabbywarlock",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"The Master lets you choose from an expanded list of spells when you learn a warlock spell. All spells of all levels (up to 9th), excepting ones that do not have your DM's blessing for whatever reason, are added to your warlock spell list."
+			]
+		},
+		{
+			"name": "Fudgy Fate",
+			"source": "stabbywarlock",
+			"page": 0,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "The Master",
+			"subclassSource": "stabbywarlock",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"Starting at 1st level, you have a number of fudge points equal to your proficiency modifier, which you can spend to affect the randomness of the world around you.",
+				"Whenever you roll a die, you may spend a fudge point to roll it again, and take the result of your choice. If it's a damage die and it's one of several dice rolled for a single damage instance, you can do this to 2 dice for each fudge point spent.",
+				"You may also use a fudge point to force disadvantage on another creature's attack roll against you.",
+				"You regain all spent fudge points when you finish a long rest."
+			]
+		},
+		{
+			"name": "Arbitrary Success",
+			"source": "stabbywarlock",
+			"page": 0,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "The Master",
+			"subclassSource": "stabbywarlock",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, your deep connection with the Master has lead to your sometimes benefitting from a bit of cosmic favoritism.",
+				"Once per short or long rest, when you would make an ability check, you can replace it with a Charisma (Persuasion) check against the same DC, as you attempt to convince the Master that it would make absolute sense that you would automatically succeed on this activity. If you do so, you cannot spend any fudge points to repeat the check."
+			]
+		},
+		{
+			"name": "Meta-Knowledge",
+			"source": "stabbywarlock",
+			"page": 0,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "The Master",
+			"subclassSource": "stabbywarlock",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, your connection to your patron permits you access to knowledge not accessible by other means.",
+				"You may cast the {@spell augury}, {@spell divination}, and {@spell commune} spells as rituals, and only as rituals. Your patron is, in this case, considered completely omniscient, apart from the outcomes of dice rolls and other such random events, and consequences arising from them. Once you have used this feature a number of times equal to your Charisma modifier (minimum 1), you must finish a long rest before you can cast any of these spells in this manner again."
+			]
+		},
+		{
+			"name": "Plot Armor",
+			"source": "stabbywarlock",
+			"page": 0,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "The Master",
+			"subclassSource": "stabbywarlock",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, you seem unnaturally resistant to death, sometimes against all logic.",
+				"Whenever you would take damage, you may instead choose to ignore it. Once you have done so, you can't do so again until you finish a short or long rest."
+			]
+		},	
+	
+	
+	
+	
+	
+	
+	
+	
+		{
+			"name": "The Wyrm",
+			"source": "stabbywarlock",
+			"page": 0,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Wyrm",
+			"subclassSource": "stabbywarlock",
+			"level": 1,
+			"entries": [
+				"Your patron is an ancient dragon who has attained a level of power beyond most others of its kind. It might be a powerful ancient dragon with grander abilities in an unknown world, slumbering and contacting you through your dreams, or it might even be Tiamat or Bahamut itself, or a similar draconic entity. It could even be a Dracolich from a distant realm. You may met this entity in person and performed a ritual necessary for it to grant you your powers, or it may have reached out from beyond the veil.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Expanded Spell List|Warlock||Wyrm|stabbywarlock|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dragon Senses|Warlock||Wyrm|stabbywarlock|1"
+				}
+			]
+		},
+		{
+			"name": "Expanded Spell List",
+			"source": "stabbywarlock",
+			"page": 0,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Wyrm",
+			"subclassSource": "stabbywarlock",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"The Wyrm lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to your warlock spell list for you.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Spell Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell burning hands}, {@spell chromatic orb}"
+						],
+						[
+							"2nd",
+							"{@spell dragon's breath|xge}, {@spell see invisibility}"
+						],
+						[
+							"3rd",
+							"{@spell fireball}, {@spell lightning bolt}"
+						],
+						[
+							"4th",
+							"{@spell locate creature}, {@spell vitriolic sphere|xge}"
+						],
+						[
+							"5th",
+							"{@spell cone of cold}, {@spell cloudkill}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Dragon Senses",
+			"source": "stabbywarlock",
+			"page": 0,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Wyrm",
+			"subclassSource": "stabbywarlock",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"At 1st level, your pact heightens your senses to the level of those of a dragon.",
+				"You gain expertise in Perception, and darkvision to a range of 60 feet. If your race already grants you darkvision, instead extend its range by 30 feet.",
+				"Additionally, you can use an action to focus your senses and detect treasure and objects of worth within 1 mile. If a treasure hoard befitting your level exists within range, you can smell its direction and impressiveness. You can use this feature once per short or long rest."
+			]
+		},
+		{
+			"name": "Elemental Affinity",
+			"source": "stabbywarlock",
+			"page": 0,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Wyrm",
+			"subclassSource": "stabbywarlock",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, when you cast a spell that deals damage of a type associated with your Patron (discuss this with your DM), you add your Charisma modifier to that damage.",
+				"(Same feature as a Draconic Bloodline Sorcerer.)"
+			]
+		},
+		{
+			"name": "Draconic Recharge",
+			"source": "stabbywarlock",
+			"page": 0,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Wyrm",
+			"subclassSource": "stabbywarlock",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, you gain the ability to recover magical energy used to produce effects associated with your patron.",
+				"Whenever you spend a spell slot to cast a spell which forces one or more creatures to make a saving throw to avoid becoming Frightened of you or suffering damage of a type associated with your Patron (as defined with your DM in your previous subclass feature), you may roll a d6. On a 5-6, you regain one spell slot that can be at most one level lower than the spent spell slot, and no higher than 5th level."
+			]
+		},
+		{
+			"name": "Dragon Wings",
+			"source": "stabbywarlock",
+			"page": 0,
+			"className": "Warlock",
+			"classSource": "PHB",
+			"subclassShortName": "Wyrm",
+			"subclassSource": "stabbywarlock",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, you gain the ability to sprout a pair of dragon wings from your back, gaining a flying speed equal to your current speed. You can create these wings as a bonus action on your turn. They last until you dismiss them as a bonus action on your turn. You can’t manifest your wings while wearing armor unless the armor is made to accommodate them, and clothing not made to accommodate your wings might be destroyed when you manifest them.",
+				"(Same feature as a Draconic Bloodline Sorcerer.)"				
+			]
+		}
+	]
+}
+		

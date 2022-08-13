@@ -1,0 +1,440 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "stabbybackgrounds",
+				"abbreviation": "Stabby",
+				"full": "Stabby's Backgrounds",
+				"version": "1",
+				"url": "none",
+				"authors": [
+					"Francisco \"Stabby\" Pesquita"
+				],
+				"convertedBy": [
+					"Francisco \"Stabby\" Pesquita"
+				]
+			}
+		],
+		"dateAdded": 1586966344, 
+		"dateLastModified": 1657399173,
+		"_dateLastModifiedHash": "aa8d6f9bda"
+	},
+	"background": [
+		{
+			"name": "Farmer",
+			"source": "stabbybackgrounds",
+			"page": 0,
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"animal handling",
+							"nature",
+							"perception"
+						],
+						"count": 2
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"vehicles (land)",
+							"farmer's tools"
+						]
+					}
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"item": "shovel|phb"
+						},
+						{
+							"item": "common clothes|phb",
+							"displayName": "a set of {@item common clothes}"
+						},
+						{
+							"item": "pouch|phb",
+							"containsValue": 1000
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "Two of your choice from {@skill Animal Handling}, {@skill Nature}, and {@skill Perception}"
+						},
+						{
+							"type": "item",
+							"name": "Tools:",
+							"entry": "Vehicles (Land) and Farmer's Tools"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "A {@item shovel|phb}, a set of {@item common clothes|phb}, a belt {@item pouch|phb} containing 10 gp, and your choice of the following: a {@creature mastiff} with a leash, a {@creature mule} with a {@item pack saddle|phb}, or a set of {@item farmer's tools|stabby}. Optionally, you may have a trinket with you which reminds you of home, family, or a special event or person from your past."
+						}
+					]
+				},
+				{
+					"name": "Feature: Rustic Hospitality",
+					"type": "entries",
+					"entries": [
+						"Since you come from the ranks of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you."
+					],
+					"data": {
+						"isFeature": true
+					}
+				}
+			]
+		},
+		{
+			"name": "Fisher",
+			"source": "stabbybackgrounds",
+			"page": 0,
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"nature",
+							"perception",
+							"survival"
+						],
+						"count": 2
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"vehicles (sea)",
+							"fishing tackle"
+						]
+					}
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"item": "fishing tackle|phb"
+						},
+						{
+							"item": "net|phb"
+						},
+						{
+							"item": "bucket|phb"
+						},
+						{
+							"item": "common clothes|phb",
+							"displayName": "a set of {@item common clothes|phb}"
+						},
+						{
+							"item": "pouch|phb",
+							"containsValue": 1000
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "Two of your choice from {@skill Nature}, {@skill Perception}, and {@skill Survival}"
+						},
+						{
+							"type": "item",
+							"name": "Tools:",
+							"entry": "Vehicles (Sea) and Fishing Tackle"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "{@item Fishing tackle|phb}, a {@item net|phb}, a {@item bucket|phb}, a set of {@item common clothes|phb}, a belt {@item pouch|phb} containing 10 gp. Optionally, you may have an interesting trinket you found while fishing, or a trophy from an impressive specimen you caught."
+						}
+					]
+				},
+				{
+					"name": "Feature: Rustic Hospitality",
+					"type": "entries",
+					"entries": [
+						"Since you come from the ranks of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you."
+					],
+					"data": {
+						"isFeature": true
+					}
+				}
+			]
+		},
+		{
+			"name": "Hedge Knight",
+			"source": "stabbybackgrounds",
+			"page": 0,
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"athletics",
+							"history",
+							"insight",
+							"persuasion"
+						],
+						"count": 2
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"musical instrument",
+							"smith's tools",
+							"dragonchess set",
+							"none"
+						]
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 1
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"item": "riding horse|phb"
+						},
+						{
+							"item": "riding saddle|phb"
+						},
+						{
+							"item": "riding bit and bridle|phb"
+						},
+						{
+							"item": "saddlebags|phb"
+						},
+						{
+							"item": "common clothes|phb",
+							"displayName": "a set of {@item common clothes|phb}"
+						},
+						{
+							"item": "fine clothes|phb",
+							"displayName": "a set of {@item common clothes|phb}"
+						},
+						{
+							"item": "pouch|phb",
+							"containsValue": 1500
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "Two of your choice from {@skill Athletics}, {@skill History}, {@skill Insight} and {@skill Persuasion}"
+						},
+						{
+							"type": "item",
+							"name": "Tools:",
+							"entry": "A {@item musical instrument|phb} of your choice, {@item smith's tools|phb}, {@item dragonchess set|phb|dragonchess}, or none"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "One common language of your choice, or two if you do not take a tool proficiency"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "A tattered tabard or {@item shield} with your coat of arms, a {@creature riding horse} equipped with a {@item riding saddle|phb}, {@item bit and bridle|phb}, and {@item saddlebags|phb}, a set of {@item traveler's clothes|phb}, a set of {@item fine clothes|phb}, a {@item waterskin|phb} full of wine, and a belt {@item pouch|phb} containing 15 gp. Optionally, you may have a trophy won at a tournament, or a memento from a damsel whose favour you won or from someone you saved from bandits or monsters."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Hunter",
+			"source": "stabbybackgrounds",
+			"page": 0,
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"athletics",
+							"nature",
+							"perception",
+							"survival"
+						],
+						"count": 2
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"leatherworker's tools",
+							"woodcarver's tools",
+							"tinker's tools",
+							"herbalism kit"
+						],
+						"count": 2
+					}
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"item": "hunting trap|phb",
+							"quantity": 2
+						},
+						{
+							"item": "dagger|phb"
+						},
+						{
+							"item": "traveler's clothes|phb",
+							"displayName": "a set of {@item common clothes|phb}"
+						},
+						{
+							"item": "pouch|phb",
+							"containsValue": 1000
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "Two of your choice from {@skill Athletics}, {@skill Nature}, {@skill Perception} and {@skill Survival}"
+						},
+						{
+							"type": "item",
+							"name": "Tools:",
+							"entry": "Two of your choice from {@item leatherworker's tools|phb}, {@item woodcarver's tools|phb}, {@item tinker's tools|phb} and {@item herbalism kit|phb}"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "2 {@item hunting trap|phb|hunting traps}, a {@item dagger|phb}, a ranged weapon you're proficient with and one full container of ammunition for it, the tools chosen for proficiency, a trophy from a challenging hunt, a set of {@item traveler's clothes|phb} and a belt {@item pouch|phb} containing 10 gp."
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Inquisitor",
+			"source": "stabbybackgrounds",
+			"page": 0,
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"insight",
+							"intimidation",
+							"investigation",
+							"religion"
+						],
+						"count": 2
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"implements of torture",
+							"none"
+						],
+						"count": 1
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"anyStandard": 1
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"item": "holy symbol|phb",
+							"displayName": "a holy symbol (representing the the inquisition; it also serves as a badge identifying you as an inquisitor)"
+						},
+						{
+							"item": "prayer book|phb"
+						},
+						{
+							"item": "manacles|phb"
+						},
+						{
+							"item": "chain (10 feet)|phb"
+						},
+						{
+							"item": "traveler's clothes|phb"
+						},
+						{
+							"item": "pouch|phb",
+							"containsValue": 1500
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies:",
+							"entry": "Two of your choice from {@skill Insight}, {@skill Intimidation}, {@skill Investigation} and {@skill Religion}"
+						},
+						{
+							"type": "item",
+							"name": "Tools:",
+							"entry": "{@item Implements of torture|stabby}, or none"
+						},
+						{
+							"type": "item",
+							"name": "Languages:",
+							"entry": "One language of your choice, or two if you don't take the tool proficiency"
+						},
+						{
+							"type": "item",
+							"name": "Equipment:",
+							"entry": "A {@item holy symbol|phb} (representing the the inquisition; it also serves as a badge identifying you as an inquisitor), a {@item prayer book|phb}, a set of {@item manacles|phb}, a {@item chain (10 feet)|phb|10-foot chain}, a set of {@item traveler's clothes|phb}, and a belt {@item pouch|phb} containing 15 gp. Optionally, you may have a memento from an emotionally-meaningful investigation you carried out, such as a thank-you letter from someone wrongfully accused who was nearly executed but who you cleared of suspicion, or something belonging to someone you mistakenly judged a heretic, only to later find out you had made a mistake."
+						}
+					]
+				}
+			]
+		}
+	]
+}

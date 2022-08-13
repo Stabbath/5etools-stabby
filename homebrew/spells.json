@@ -1,0 +1,4154 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "stabbyspells",
+				"abbreviation": "Stabby",
+				"full": "Stabby's Spells",
+				"version": "1",
+				"url": "none",
+				"authors": [
+					"Francisco \"Stabby\" Pesquita"
+				],
+				"convertedBy": [
+					"Francisco \"Stabby\" Pesquita"
+				]
+			}
+		],
+		"dateAdded": 1586966344, 
+		"dateLastModified": 1657399173,
+		"_dateLastModifiedHash": "aa8d6f9bda"
+	},
+	"spell": [
+		{
+			"name": "Caustic Touch",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Your touch corrodes or even melts a creature you touch. Make a melee spell attack against the target. On a hit, the target takes {@damage 1d8} acid damage. If the target is unarmored or has natural armor, it takes an additional {@damage 1d6} acid damage.",
+				"At 5th level, the damage dice increase to {@damage 2d8} and {@damage 2d6}. At 11th level they increase to {@damage 3d8} and {@damage 3d6}, and at 17th level they increase to {@damage 4d8} and {@damage 4d6}."
+			],
+			"scalingLevelDice": [
+				{
+					"label": "acid damage",
+					"scaling": {
+						"1": "1d8",
+						"5": "2d8",
+						"11": "3d8",
+						"17": "4d8"
+					}
+				},
+				{
+					"label": "additional acid damage vs. unarmored and natural armor",
+					"scaling": {
+						"1": "1d6",
+						"5": "2d6",
+						"11": "3d6",
+						"17": "4d6"
+					}
+				}
+			],
+			"damageInflict": [
+				"acid"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Envenom",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a weapon which deals piercing or slashing damage"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"As part of casting this spell, you make an attack using the component weapon against a target within range. On a hit, the target suffers the attack's normal effects, and becomes {@condition poisoned} until the end of its next turn.",
+				"At 5th level, the target also takes {@damage 1d6} poison damage on a hit, and {@damage 1d6} additional poison damage if it is already {@condition poisoned}. Both damage instances increase by an additional {@damage 1d6} at 11th level and again at 17th level."
+			],
+			"scalingLevelDice": [
+				{
+					"label": "poison damage",
+					"scaling": {
+						"5": "1d6",
+						"11": "2d6",
+						"17": "3d6"
+					}
+				},
+				{
+					"label": "bonus poison damage vs. poisoned",
+					"scaling": {
+						"5": "1d6",
+						"11": "2d6",
+						"17": "3d6"
+					}
+				}
+			],
+			"damageInflict": [
+				"poison"
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Fingersnap",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You snap your fingers, and the soundwave from it is replicated and amplified in the ears of a creature you can see within range. The creature must make a Constitution saving throw. On a failure, it takes {@damage 1d10} thunder damage, and is {@condition deafened} until the end of its next turn. A creature that is incapable of hearing is immune to this spell.",
+				"At 5th level, the melee attack deals an additional {@damage 1d10} damage. This additional damage increases further to a total of {@damage 3d10} at 11th level and {@damage 4d10} at 17th level."
+			],
+			"scalingLevelDice": {
+				"label": "thunder damage",
+				"scaling": {
+					"1": "1d10",
+					"5": "2d10",
+					"11": "3d10",
+					"17": "4d10"
+				}
+			},
+			"savingThrow": [
+				"constitution"
+			],
+			"conditionInflict": [
+				"deafened"
+			],
+			"damageInflict": [
+				"thunder"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Shining Blade",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a melee weapon"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"As part of the action used to cast the spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and is blasted with radiant energy from your glowing weapon and illuminated. The target emits bright light to a range of 15 feet and dim light a further 15 feet and cannot benefit from invisibility until the start of your next turn.",
+				"At 5th level, the melee attack also deals an additional {@damage 1d8} radiant damage. This damage increases to {@damage 2d8} at 11th level and {@damage 3d8} at 17th level."
+			],
+			"scalingLevelDice": {
+				"label": "radiant damage",
+				"scaling": {
+					"5": "1d8",
+					"11": "2d8",
+					"17": "3d8"
+				}
+			},
+			"damageInflict": [
+				"radiant"
+			],
+			"miscTags": [
+				"LGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Manipulate Senses",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You touch a creature and subtly stimulate its senses. That creature feels either a non-damaging instantaneous physical sensation of your choice, or a very brief spurt of an emotion of your choice, which may be general or directed at something of your choice. You may alternatively alter its current general mood in a small way.",
+				"If the effect would be perceived by the creature as negative, it makes a Wisdom saving throw, and the spell has no effect on it if it succeeds. A creature who succeeds on its save becomes immune to your castings of this spell for 24 hours.",
+				"The sensation may be enough, for example, to calm a performer with stage fright, or soothe an insomniac mourning widow enough so that she can get some rest, or cause a target to be just slightly on edge, enough that they'll be predisposed to lash out if something is done to harm or incovenience them. This spell cannot, however, impact a target's actions entirely on its own, nor can it remove conditions such as Charmed and Frightened, nor override any sensation or emotion caused by magic.",
+				"This spell does not affect undead nor constructs."
+			],
+			"affectsCreatureType": [
+				"aberration",
+				"beast",
+				"celestial",
+				"dragon",
+				"elemental",
+				"fey",
+				"fiend",
+				"giant",
+				"humanoid",
+				"monstrosity",
+				"ooze",
+				"plant"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Acid Reflux",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You twist a creature's entrails and force its own body to work against it via its internal acidic content, such as its stomach acid. Choose a creature you can see within range. The target makes a Constitution saving throw. On a failure, it takes {@damage 2d10} acid damage and become incapacitated until the end of its next turn. On a success, it takes half as much damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 2nd level or higher, its damage increases by 1d10 per level above 1st."
+					]
+				}
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"damageInflict": [
+				"acid"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Electrostatic Discharge",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You cause a creature you can see within range to build up an excessive electric charge. For the duration, the first time each round (resetting at the end of its turn) that that creature is touched or attacked in melee, the attacker or toucher suffers {@damage 1d8} lightning damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@damage 1d8} for each level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"lightning"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Mageblade",
+						"source": "stabbymageblade"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Forewarning",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you or a creature you see within range are targeted by an attack or an effect which forces a Dexterity saving throw and you can see its source"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You see a brief glimpse of the instant future, and what's to come from the triggering event. With a quick reaction and shout, you can improve your or other creatures' odds of avoiding it, magically calling their attention and focus to it for a moment.",
+				"The creature being targeted must be within range, but the source may be outside of it, as long as you can see both. If the triggering event is an attack, you impose disadvantage on that attack. Otherwise, if the triggering event is an effect which forces a Dexterity saving throw, the target gains advantage on it."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 3rd level or higher, all other creatures forced to make the same Dexterity saving throw as a target also gain advantage on it; and if a triggering attack is part of an action which allows the attacker to make several attacks, all of those attacks that target creatures within range are made with disadvantage."
+					]
+				}
+			],
+			"miscTags": [
+				"MAC"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Mageblade",
+						"source": "stabbymageblade"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Gag Order",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You point at a creature you can see within range, and command it to stay silent. That creature makes a Wisdom saving throw, and is Muted for the duration on a failure. A Muted creature is incapable of speaking or producing any vocal sound, and cannot cast spells that require a verbal component. An affected creature may use an action on its turn attempting to force its voice through and impose its will over the limitation, repeating the saving throw, and ending the spell early on a success."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature per level above 1st."
+					]
+				}
+			],
+			"conditionInflict": [
+				"muted"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Mageblade",
+						"source": "stabbymageblade"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Rock Shower",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You cause shards from the ground, walls and destructible objects around you to break free and rise into the air along with nearby loose rocks and small objects, and shower a point within range with them. The target point must be a minimum of 30 feet away from you.",
+				"A barrage of rocky projectiles strikes an area within range. The area can be either a 10-foot radius sphere or a 20-foot radius sphere, but the spell's damage is halved if you choose the second option. Creatures within its area of effect must succeed on a Dexterity saving throw or take {@damage 2d6} bludgeoning damage.",
+				"Additionally, until the start of your next turn, ranged weapon attacks that cross the affected area are made with disadvantage."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 2nd level or higher, its damage is increased by {@damage 2d6} for each level above 1st."
+					]
+				}
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"damageInflict": [
+				"bludgeoning"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Coat with Venom",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a large insect's venom sac"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You cover weapons and ammunition within range with venom. Choose up to two slashing or piercing weapons or personal ammunition containers (such as quivers) within range. Until the spell ends, the first attack that hits each turn using one of those weapons or ammunition deals an additional {@damage 1d4} poison damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 3rd level or higher, you can target one additional weapon or ammunition container per level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"poison"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Mageblade",
+						"source": "stabbymageblade"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Magic Letter",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a parchment or piece of paper bearing the intended message and a feather"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You magically animate a parchment or piece of paper you can see wihin range, folding it and shaping it into a primitive paper bird or other flying creature. As part of casting this spell, choose a target location anywhere on the same plane you are on. The magic letter takes flight and makes its way through the air towards its destination, trying to stay at a safe height. If cast underground, unless you know the path back to the surface from your position, there is a 75% chance that the letter gets lost and collapses in a dead-end cave, failing to reach its destination.",
+				"The letter covers a distance of 100 miles per day, never stopping for a single moment until it has reached its destination. When this spell is cast, the DM rolls a d100 in secret. If the roll is less than or equal to the number of days the letter has to travel to reach the destination, it fails to reach its destination - lost to some environmental hazard, or hunted by a creature thinking it was prey, perhaps. If the letter succeeds in its mission, it unfolds itself back into its original shape, and slides into a logical place at the destination wherein a letter might most reasonably be dropped.",
+				"The magic letter is a Tiny object with a flying speed of 40 feet, 10 hit points, and an AC of 16."
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Repel",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 2,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You touch a creature within range that is no larger than Medium, and attempt to push it away by magic force. The creature makes a Strength saving throw. On a failure, roll a {@dice d4} and multiply the result by 5. The target is pushed that many feet away from you, and takes 1 force damage for every 5 feet it was moved. On its next turn, if the target wishes to move or teleport closer to you, it must first succeed on a Charisma saving throw, and is unable to on a failure."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 3rd level or higher, the push distance is increased by 5 feet, for each level above 2nd."
+					]
+				}
+			],
+			"savingThrow": [
+				"strength",
+				"charisma"
+			],
+			"damageInflict": [
+				"force"
+			],
+			"areaTags": [
+				"FMV",
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Mageblade",
+						"source": "stabbymageblade"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Stonefist",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Your fist briefly takes on a stony texture and grows to twice its size, before returning to normal. As part of casting the spell, make a melee spell attack against a target within your melee reach. On a hit, the target takes your unarmed attack damage plus your spellcasting ability modifier, and an additional {@damage 2d8} bludgeoning damage, and it makes a Strength saving throw. On a failure, you can choose to either knock it prone or throw it 10 feet in any direction."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 3rd level or higher, its damage increases by 1d8 for each level above 2nd."
+					]
+				}
+			],
+			"spellAttack": [
+				"M"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"damageInflict": [
+				"bludgeoning"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Vampirism",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"A willing creature you within range is imbued with vampiric power. Whenever the target hits with a weapon attack, it regains hit points equal to its ability modifier for the ability used in that attack."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+					]
+				}
+			],
+			"miscTags": [
+				"HL"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Adorn",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 3,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a flower wreath, or fashion accessory"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You make one humanoid within range, including its clothing, armor, weapons, and other belongings on its person, look wondrously attractive or terrifying to all who behold it until the spell ends or until you use your action to dismiss it.",
+				"Each creature looking at the affected humanoid sees its physical appearance and that of its belongings changed and refined in whichever way is either most attractive or most terrifying to it (your choice when you cast the spell: {@condition charmed||charm} or {@condition frightened||frighten}), possibly even seeing it as a different race or in a radically different outfit.",
+				"When a creature first sees the target, it makes a Wisdom saving throw. On a failure, it is either {@condition charmed} or {@condition frightened} (based on the effect chosen) by it for the remaining duration of the spell. A creature {@condition charmed} this way feels a strong bond with the charmer for the duration.",
+				"A creature who is hostile to the affected humanoid has advantage on its saving throw, and a creature in combat with it automatically succeeds. If the affected humanoid takes an action that is perceived by a charmed or frightened creature as harmful to it, the creature repeats the saving throw with advantage, and the effect ends on it if it succeeds."
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"conditionInflict": [
+				"charmed",
+				"frightened"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Cold Void",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a tiny smooth iron sphere"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A sudden change in air pressure pulls creatures towards a point as a brief wave of cold washes over the area.",
+				"Each creature in a 20-foot-radius sphere centered on a point within range must make a Constitution saving throw. A creature takes {@damage 5d6} cold damage on a failed save, or half as much on a success. Affected creatures must also make a Strength saving throw, and are pulled up to 10 feet towards the target point and knocked {@condition prone} on a failure.",
+				"Non-magical flames in the area are put out and loose objects that aren't being worn nor carried are automatically pulled 10 feet towards the target point."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 4th level or higher, its damage increases by 1d6 for each level above 3rd."
+					]
+				}
+			],
+			"savingThrow": [
+				"constitution",
+				"strength"
+			],
+			"damageInflict": [
+				"cold"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"miscTags": [
+				"FMV"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Mageblade",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Conjure Armaments",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small bag of scrap iron"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"You create weapons and armor in an unoccupied space within range to outfit up to eight creatures, which all glow faintly, exhibiting their magical nature. For each creature outfitted, you create your choice of a chain shirt or chain mail, and you create one of the following weapon sets: a light crossbow and a bolt case with 20 bolts, a mace and a shield, or a spear. Creatures are considered proficient in their use of these weapons and armor, and they count as magical for the purpose of overcoming resistances.",
+				"When the spell expires, the conjured items magically fade away and disappear."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 5th level or higher, weapons and armor created this way count as +1 magical weapons. At 7th level this increases to +2. At 9th level, this increases to +3. Additionally, the spell allows you to outfit up to an additional two creatures for each level above 3rd."
+					]
+				}
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Corrosive Breath",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cone",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a pinch of oxidized iron dust"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A misty cloud of acid bursts out as you blow the oxidized dust from your hand. Each creature in a 30-foot cone must make a Dexterity saving throw. On a failure, a creature takes {@damage 5d10} acid damage, and all non-magical weapons, shields and armor it is wearing or wielding that aren't mithril or adamantine receive a permanent -1 malus to AC or to damage rolls, appropriately. A suit of armor that has its base AC reduced to 10 is destroyed, as is a weapon that has its damage bonus reduced to -5.",
+				"Non-magical objects in the area are similarly damaged and destroyed."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 4th level or higher, its damage increases by {@damage 1d10} per level above 3rd."
+					]
+				}
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"damageInflict": [
+				"acid"
+			],
+			"areaTags": [
+				"N"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Force Explosion",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 3,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a tiny platinum sphere"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You cause a sudden burst of force to strike creatures within 20 feet of a point within range. Affected creatures must succeed on a Constitution saving throw, or be {@condition stunned} until the end of their next turn. Affected creatures also take {@damage 3d10} force damage, or half as much on a successful save."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 4th level or higher, its damage increases by {@damage 1d10} per level above 3rd."
+					]
+				}
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"damageInflict": [
+				"force"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "PHB"
+					},
+					{
+						"name": "Mageblade",
+						"source": "stabbymageblade"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Influence Ability",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You tamper with the vital energy of living creatures around you. Choose an ability score, and choose one of the effects listed below. All creatures coming within 30 feet of you for the duration of the spell, including yourself, suffer that effect while they remain within that range.",
+				{
+					"type": "list",
+					"items": [
+						"They have advantage on ability checks made with the chosen ability score as long as they are in the area.",
+						"They must make a Constitution saving throw when first coming within its radius. On a failure, they have disadvantage on skill checks made with the chosen ability score while they remain in the area."
+					]
+				},
+				"Undead and constructs are unaffected by this spell."
+			],
+			"affectsCreatureType": [
+				"aberration",
+				"beast",
+				"celestial",
+				"dragon",
+				"elemental",
+				"fey",
+				"fiend",
+				"giant",
+				"humanoid",
+				"monstrosity",
+				"ooze",
+				"plant"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					}
+				]
+			}
+		},
+		{
+			"name": "Twilight Cloak",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 3,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a small piece of dark fabric"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You conjure and wrap yourself in a mystical cloak, which shines when it first appears but quickly fades to a glint and then darkness after you cast the spell.",
+				"For the duration, you are {@condition invisible} in dim light and darkness, and are considered lightly obscured when standing in light that isn't sunlight, your form appearing translucent. Whenever you make an attack roll or cast a spell, you lose this benefit, and recover it at the start of your next turn."
+			],
+			"conditionInflict": [
+				"invisible"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Mageblade",
+						"source": "stabbymageblade"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Yaeldrin's Travelling Forge",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a lump of charcoal; and enough soil or mineral matter to fill a 5-foot cube"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"You magically manipulate enough soil or mineral matter within range and shape it into a forge that takes up a 5-foot cube and a contiguous anvil attached to it, created on an unoccupied space within range. The material used to create these is transmuted into magical metal; the structure is nearly impervious to environmental damage and resistant to the elements.",
+				"As part of casting the spell, the lump of charcoal is placed inside the forge, and a magical smokeless fire sparks from it, which cannot be extinguished for as long as the spell lasts. The fire and its heat do not spread beyond the confines of the forge and have no effect on creatures, but can melt any earthly mineral. The flame emits bright light to a range of 15 feet and dim light for an additional 15 feet.",
+				"When the spell ends, the transmuted matter collapses into non-magical lumps of its original materials and the flame is extinguished. You can choose to end the spell early as an action.",
+				"Created by Tiago das Neves, edited by Francisco Pesquita."
+			],
+			"miscTags": [
+				"LGT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Blaze",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Your calves and feet are wreathed in flames, leaving charred ground behind you as you move.",
+				"As part of casting this spell, and as a bonus action on each of your turns for the duration of the spell, you can take the Dash action. Whenever you take the Dash action on your turn, any creature you move within 5 feet of that turn must make a Dexterity saving throw, taking {@damage 4d6} fire damage on a failure, or half as much on a success. A creature can only be damaged this way by you once per round."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 5th level or higher, its damage increases by {@damage 1d6} for each level above 4th."
+					]
+				}
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Mageblade",
+						"source": "stabbymageblade"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Channel Dead",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 4,
+			"school": "N",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "something belonging to the dead you wish to channel"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You beseech a spirit of the dead to return for a moment to this plane, offering your body as a conduit for its presence. You must speak its name, and it must be dead. At the end of the casting time, make a Charisma (Persuasion) check. The base DC for it is 20, affected by the following modifiers:",
+				{
+					"type": "table",
+					"colLabels": [
+						"Familiarity",
+						"DC mod"
+					],
+					"colStyles": [
+						"col-10",
+						"col-2 text-center no-wrap"
+					],
+					"rows": [
+						[
+							"Acquaintance (you have met the target)",
+							"-3"
+						],
+						[
+							"Familiar (you know the target well)",
+							"-7"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"Material Component",
+						"DC mod"
+					],
+					"colStyles": [
+						"col-10",
+						"col-2 text-center no-wrap"
+					],
+					"rows": [
+						[
+							"Something owned by it in life",
+							"+0"
+						],
+						[
+							"Something of great importance to it",
+							"-4"
+						],
+						[
+							"A part of its remains",
+							"-7"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"colLabels": [
+						"Location",
+						"DC mod"
+					],
+					"colStyles": [
+						"col-10",
+						"col-2 text-center no-wrap"
+					],
+					"rows": [
+						[
+							"A place it was habitually at",
+							"-2"
+						],
+						[
+							"A place of great importance to it",
+							"-5"
+						],
+						[
+							"Its resting place or the place of its death",
+							"-10"
+						]
+					]
+				},
+				"If you succeed, then you become {@condition paralyzed} and {@condition unconscious} for the duration of the spell. Your body retains the ability to speak while {@condition paralyzed} this way, but it is the channeled spirit who speaks through it, rather than you. You also retain the ability to concentrate on this spell and this spell alone, and the ability to break said concentration. The spirit may perceive through your senses and communicate freely using your voice.",
+				"The spirit may refuse the invitation even if you succeed on this skill check. Regardless of the spirit's refusal or failure on the check, the spell slot is spent.",
+				"When the spell ends, you may opt to expend another spell slot to instantly cast this spell again, maintaining an uninterrupted connection with the spirit. If you don't, the spirit is jaunted back into the beyond and you regain control of your body. The spirit may, if it so decides, depart your body at any time before the spell's full duration, causing the spell to end prematurely.",
+				"If you cast this spell more than once before finishing a long rest, each cast after the first causes you to gain one level of exhaustion. This happens even if this repeated casting is the special case of continuing the spell to preserve the connection."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 5th level or higher, the ability check's DC is decreased by 2 per level above 4th."
+					]
+				}
+			],
+			"abilityCheck": [
+				"charisma"
+			],
+			"conditionInflict": [
+				"unconscious",
+				"paralyzed",
+				"exhaustion"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Compel Honesty",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 4,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"areaTags": [
+				"ST"
+			],
+			"entries": [
+				"Through magical means, you force a creature within range to be truthful for the duration. Choose a creature within range. That target makes a Wisdom saving throw. On a failure, for the spell's duration, it cannot knowingly tell a lie, and it must do anything it verbally agrees to do, as long as it has the opportunity to do so while the spell lasts and as its agreement was verbally made during the spell's duration.",
+				"A creature immune to being {@condition charmed} automatically succeeds on its saving throw.",
+				"The target is not aware of these effects, and if its intentions were originally to be dishonest, it will rationalize its sincerity and sense of duty as it having had a change of heart on its own."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 5th level, its duration is increased to 1 day. At 6th level or higher, its duration is instead 10 days."
+					]
+				}
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Concussive Percussion",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You tap a quick rhythm onto a creature as you hum an incantation, causing a brief but aggressive tremor to overtake it and its muscles to seize up. Make a melee spell attack against a creature within reach. On a hit, the creature suffers {@damage 8d8} thunder damage, and must succeed on a Constitution saving throw or become {@condition paralyzed}. If the creature becomes {@condition paralyzed}, it repeats the saving throw at the end of each of its turns, and ends the condition on itself on a success."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 5th level or higher, its damage increases by 1d8 per level above 4th."
+					]
+				}
+			],
+			"spellAttack": [
+				"R"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Mageblade",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Frost Bridge",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"When you cast this spell, choose a point on the ground within range. You take water from a nearby body of water or even vapours from the air itself, moving it in clouds of droplets through the air towards the point of your choosing, where it solidifies into an ice block 6 inches thick and with a surface area as specified below. As an action on each of your turns for the duration of the spell, you can lengthen any platform you previously placed with this spell in the same way, as long as the point of extension is within range.",
+				"If there is a body of water within range, the surface area per action can be as large as ten 5-foot squares. If the water is taken from water vapour in the air, the surface area per action can be no larger than two 5-foot squares, or up to four 5-foot squares in a very humid environment. The icy surface created does not need to be flat; you can shape it as a ramp or a set of steps.",
+				"For each 5-foot square of ice you assemble, you can spend additional surface area to raise vertical barriers on that section, creating half cover or full cover (for an average-sized Medium creature) on one or more sides of the square. Each side providing half cover costs an additional 5-foot square of surface area, while a side providing full cover costs an additional 10-foot square of surface area.",
+				"Each section of ice can be made slippery if you choose so upon creating it, but is otherwise a stable surface.",
+				"Each 5-foot square section of ice created with this spell, including vertical cover, has an AC equal to your spell save DC, 30 hit points, resistance to non-magical damage, and vulnerability to fire damage. Whenever a section would take cold damage, it instead regains that many hit points.",
+				"When the spell ends, the entire platform starts to melt at an exponential pace, and completely turns to water, plunging downwards, after a delay of one round."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Manipulate Vigor",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a piece of a bull's horn"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"conditionInflict": [
+				"exhaustion"
+			],
+			"areaTags": [
+				"S"
+			],
+			"miscTags": [
+				"HL"
+			],
+			"affectsCreatureType": [
+				"aberration",
+				"beast",
+				"celestial",
+				"dragon",
+				"elemental",
+				"fey",
+				"fiend",
+				"giant",
+				"humanoid",
+				"monstrosity",
+				"ooze",
+				"plant"
+			],
+			"entries": [
+				"This spell tampers with the vigor of living creatures near you. Choose a point within range, and choose one of the following effects. Creatures within 25 feet of that point at the time of casting suffer the chosen effect.",
+				{
+					"type": "list",
+					"items": [
+						"Afected creatures must make a Constitution saving throw. On a failure, they gain one level of {@condition exhaustion}, lose their reaction until the end of their next turn, and can take either an action or a bonus action on their next turn, but not both. They receive a cumulative +5 bonus to their save against this effect for each time they have gained exhaustion as a consequence of this spell in the last 24 hours.",
+						"Affected creatures lose one level of exhaustion. If a creature has no {@condition exhaustion}, they instead regain 1d6 HP. Affected creatures also get an additional action on their next turn, but can only use it to Attack (one weapon attack only), Dash, Disengage, or Dodge. For each creature who would lose one level of exhaustion but has been previously affected by this spell in the last 24 hours, you must succeed on a spellcasting ability check against a DC of 10 + 5 for each time they have had their exhaustion reduced by this spell in that period. If you fail, that creature receives no benefit from this casting of the spell."
+					]
+				},
+				"Undead and constructs are unaffected by this spell."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					}
+				]
+			}
+		},
+		{
+			"name": "Strike of Ethereal Propulsion",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 4,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a melee weapon"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"miscTags": [
+				"FMV"
+			],
+			"entries": [
+				"As part of the action used to cast the spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. Your weapon becomes faintly transparent and misty in appearance as you swing it.",
+				"On a hit, the target suffers the attack's normal effects, and takes an additional {@damage 8d10} force damage. The target is jaunted into the ethereal plane, and reappears at the start of its next turn on a point of its choice within 30 feet of its previous position."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 5th level or higher, the bonus damage increases by 1d10 per level above 4th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Mageblade",
+						"source": "stabbymageblade"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Truce",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 4,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a symbol of peace, such as an olive branch, a live dove, or a buried hatchet"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"areaTags": [
+				"S"
+			],
+			"entries": [
+				"You call upon the better nature of those around you to try and find common ground. All creatures within range must make a Wisdom saving throw. Creatures with an Intelligence score of 3 or lower automatically succeed on their saving throw. On a failure, any aggressive emotion will be tempered, and they will temporarily have a neutral attitude towards any other creature within the same area which they were previously hostile towards. For the duration, they cannot take any action with the intent of harming another creature. If an affected creature takes damage, the effect instantly ends on it.",
+				"For the duration of the spell, you gain advantage on Charisma ability checks made to mediate or make peace between any two parties, yours included.",
+				"When the spell ends, unless they have verbally resolved their issues with the creatures they were hostile towards, affected creatures regain their previous hostility."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 5th level or higher, its range increases by 30 feet for each level above 5th. At 9th level, its range becomes 1 mile."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Wither",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 4,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"m": "a withered flower you press against the target"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"entries": [
+				"Make a melee spell attack against a creature within reach. On a hit, it takes {@damage 4d8} necrotic damage, and must make a Constitution saving throw. On a failure, its body starts to decay at an accelerated pace. Any healing it receives is halved, and it takes 1d8 necrotic damage at the start of each of its turns for the duration. Also at the start of each of its turns, roll a d6. On a roll of 3-6, it suffers an effect as listed on the table below. If the result would be a condition that the creature is currently afflicted with as a result of this spell, reroll the die.",
+				"At the end of each of its turns, the creature repeats the saving throw, and the effect ends early on a success.",
+				{
+					"type": "table",
+					"colLabels": [
+						"d6",
+						"Effect"
+					],
+					"colStyles": [
+						"col-2 text-center no-wrap",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1-2",
+							"No effect."
+						],
+						[
+							"3",
+							"It becomes {@condition deafened} until the spell ends."
+						],
+						[
+							"4",
+							"It becomes {@condition poisoned} until the spell ends."
+						],
+						[
+							"5",
+							"It becomes {@condition blinded} until the spell ends."
+						],
+						[
+							"6",
+							"It gains one level of {@condition exhaustion}."
+						]						
+					]
+				},
+				"If a creature dies while affected by this spell, its body shrivels up and dries out, and it is considered to have been dead for a year for the purpose of resurrection."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 5th level or higher, the initial damage increases by {@damage 1d8} for each level above 4th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		
+		
+		
+		{
+			"name": "Acrid Smoke",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a pinch of soot, dusted sulfur and powdered asbestos"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"damageInflict": [
+				"acid",
+				"poison"
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"S"
+			],
+			"entries": [
+				"You toss dust into the air towards a point within range, causing a light shower and thick wet mist to appear and affect creatures within the area of a 20-foot sphere centered on that point, condensing and dissipating as quickly as it appeared. Creatures in the area must succeed on a Constitution saving throw, or take {@damage 4d8} acid and {@damage 4d8} poison damage and become {@condition poisoned} for the duration. On a success, a creature takes half as much damage and is not {@condition poisoned}. A creature {@creature poisoned} this way repeats the saving throw at the end of each of its turns, and ends the condition early on a success.",
+				"Affected creatures also lose their sense of taste and smell for 8 hours, even if they succeed on the save."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 6th level or higher, both damage instances increase by {@damage 1d8} per level above 5th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Clear Ice",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 300
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small transparent object, such as a glass shard"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"damageInflict": [
+				"bludgeoning",
+				"cold"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"areaTags": [
+				"S"
+			],
+			"entries": [
+				"Water is pulled from the air and ground and condensed onto the surface, and nearly instantly converted into a thin layer of crystal-clear ice in an area of your choice. Creatures with a passive perception score lower than 15 cannot distinguish the icy area from its surroundings.",
+				"Select a point within range. Terrain within 60 feet of it becomes difficult terrain, and any creature on it moving half its speed or more in a single turn must succeed on a Dexterity saving throw or fall {@condition prone} and take {@damage 2d6} bludgeoning + {@damage 2d6} cold damage. It must repeat the saving throw after each multiple of half its speed that it moves. A creature crawling on the surface does not need to make a saving throw, but takes {@damage 1d6} cold damage for every 10 feet it moves on this surface.",
+				"Creatures in the area have disadvantage on Strength and Dexterity saving throws and ability checks."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Mageblade",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Conjure Undead Spirits",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 5,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "bones or some other vestige of long dead humanoids"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"miscTags": [
+				"SMN"
+			],
+			"entries": [
+				"Tapping into the spirit world, you call forth spirits from ages past to take form and aid you in battle. You summon a number of spirits of your choice, but no more than 4, with a combined challenge rating of at most 3, selected from the list below. They appear in unoccupied spaces of your choice within range.",
+				{
+					"type": "table",
+					"colLabels": [
+						"CR",
+						"Creature Stat Block"
+					],
+					"colStyles": [
+						"col-2 text-center no-wrap",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1/2",
+							"{@creature Shadow}"
+						],
+						[
+							"1",
+							"{@creature Specter}"
+						],
+						[
+							"2",
+							"{@creature Will-o-wisp}"
+						],
+						[
+							"4",
+							"{@creature Ghost}"
+						]						
+					]
+				},
+				"The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you). If you don't issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions. When the spell ends, they fade back into oblivion and disappear from the world.",
+				"The GM has the creature's statistics."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 6th level or higher, the challenge rating increases by 1 for each slot level above 5th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Midnight",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a black bauble worth at least 100 gp",
+				"cost": 10000
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"damageInflict": [
+				"cold"
+			],
+			"areaTags": [
+				"Y"
+			],
+			"entries": [
+				"Total darkness covers a location you specify within range. Until the spell ends, magical darkness fills a 30-foot-radius, 40-foot-high cylinder. When the cylinder appears, each creature in it must make a Constitution saving throw, taking {@damage 4d10} cold damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw whenever it ends its turn in the cylinder. If you're within 60 feet of the cylinder, you can move it up to 60 feet as a bonus action on your turn.",
+				"Magical light in the area created by a spell of 5th level or lower is suspended for the duration, unless it's a {@spell dawn} spell. An area covered by both a midnight spell and a {@spell dawn} spell is unaffected by both."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 6th level or higher, its damage increases by {@damage 1d10} for each slot level above 5th, and the maximum level of magical light suspended by the spell increases to be of the same level as that of the used spell slot."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Alter Ego",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 5,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a tiny ragdoll worth at least 1 cp",
+				"cost": 1
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You create an illusory but tangible copy of yourself on an unoccupied space within range, which has your core physical appearance, and whose clothing or equipment you may freely customise in appearance. After you cast the spell, you may give it a single command, which may be as simple or short, broad or elaborate as you like, and it will fulfill it. Once it has fulfilled it, it instantly disappears, leaving in its place the ragdoll used in the casting – though you may include \"find somewhere hidden to disappear\" as part of your command to it. The duplicate has your ability scores, but is however incapable of doing anything besides move and speak. It can carry a conversation and has your speech patterns and voice as well as your memories, but it does not have any of your skill proficiencies nor any knowledge that you acquired by study or practice rather than experience. For example, it is incapable of using tools without being given specific instructions upon its creation, but it can find its way back home from your location as long as you yourself have traveled and remember the way. In any case, it is capable only of doing whatever you instruct it to do – if you instruct it to return to the King and relay a message, it will ignore anyone it meets on the way that it does not deem useful to accomplish this goal, and will not take part in any conversation other than conversations which may be necessary to achieve it, such as telling a guard that it must relay a message to the King himself, and then speaking that message before the intended recipient.",
+				"If the duplicate takes any damage or fails a saving throw, the spell instantly ends and it disappears. You know when this happens, and whether the Alter Ego has fulfilled its duty. The spell also ends prematurely if you cast it again."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell at 6th level, its duration is extended to 8 hours. It is extended further to 1 day at 7th level, 3 days at 8th level, and 30 days at 9th level."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Modify Mood",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 5,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"affectsCreatureType": [
+				"aberration",
+				"beast",
+				"celestial",
+				"dragon",
+				"elemental",
+				"fey",
+				"fiend",
+				"giant",
+				"humanoid",
+				"monstrosity",
+				"ooze",
+				"plant"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"entries": [
+				"You tamper with the emotional state or attitude of a creature of your choice within range. The creature makes a Wisdom saving throw, and makes it with advantage if it is engaged in combat. The spell has no effect on a success. Otherwise, it suffers your choice of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"Its current emotional disposition is molded by you. This can vary from forcing into a violent maniacal rage to putting it in a state of extreme relaxation and contentment or absolute apathy.",
+						"It has the way it feels about someone or something, or even an abstract concept, molded by you. This can vary from forcing it to fall in love with someone or something to driving it to hatred towards that thing."
+					]
+				},
+				"The chosen effect lasts up to 1 hour, and the creature may repeat the saving throw every 10 minutes, ending the effect early on a success. At the end of the duration, the creature thinks its change of mood was natural and whatever they did during was done of their own volition – although they may regardless be confused about their own emotions.",
+				"Undead and constructs are unaffected by this spell."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 6th level or higher, you can target two additional creatures per level above 5th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Offering",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 5,
+			"school": "C",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "any combination of art, gems, coins or items of interest to your deity or patron worth at least twice as much as the standard price of your request"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You commune with your deity or patron, and request material assistance, making an offering to persuade it. You may request any number and type of non-magical item, such as weapons, armor, or even construction materials and tools of any type.",
+				"If your offering is worthy, having a combined gp value equal to at least twice that of the requested items and containing nothing offending to your deity or patron, it disappears at the end of the casting time, and the requested materials appear stacked up as close to the offering's position as possible, on the nearest unoccupied spaces."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Overcharge",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"spellAttack": [
+				"M"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"damageInflict": [
+				"lightning"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"entries": [
+				"When you cast this spell, you begin storing an excess electrical charge within yourself which increases over time, and deals massive damage when unleashed. The damage dealt by this spell starts at 1d12, and increases by 1d12 at the start of each of your turns, accumulating over time.",
+				"While the spell lasts, you can use an action to make a melee spell attack against a creature of your choice. On a hit, the spell ends and the target takes the spell's accumulated lightning damage. On a miss, nothing happens, and the spell's build-up continues.",
+				"If the spell expires after its maximum duration or if your concentration on it is broken, the charge is unleashed locally. Halve the spell's accumulated damage dice: you take that much lightning damage, and all creatures within 5 feet of you must succeed on a Dexterity saving throw or else take that much damage as well. On a success, they take half as much"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 6th level or higher, its base damage increases by 1d12 per level above 5th."	
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Mageblade",
+						"source": "stabbymageblade"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Acid Rain",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 6,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 300
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a pinch of sulfur dust or a vial of sulfurous water"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"damageInflict": [
+				"acid"
+			],
+			"areaTags": [
+				"Y"
+			],
+			"entries": [
+				"You summon grey clouds to the sky above you, gathering them and causing rain. Rain within a 120-foot-radius sky-high cyllinder centered on a point within range takes on a caustic nature, damaging everything it strikes. Creatures starting their turn within the area suffer 2d10 acid damage, and non-magical items degrade, receiving a cumulative -1 penalty to attack and damage rolls (if a weapon) or to AC (if armor). Other items are similarly damaged or destroyed. If an item's cumulative penalty reaches -5, it becomes unusable and is destroyed as it dissolves.",
+				"If it was already raining when you cast this spell, the spell's damage increases by 1d10. If the air temperature is below the freezing point of water, the rain is replaced by snow and the spell's damage and item penalties are halved."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 7th level or higher, its damage increases by 1d10 per level above 6th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Conflagration",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 6,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"areaTags": [
+				"S"
+			],
+			"entries": [
+				"While the spell lasts, roaring flames swirl around you, scorching everything within 30 feet of you. At the end of each of your turns while the spell lasts, creatures in the area other than you must make a Constitution saving throw or take {@damage 6d6} fire damage. They take half as much on a success. You also take half as much. Objects in the area not being worn nor carried are ignited."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 7th level or higher, its damage is increased by 2d6 per level above 6th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Poisoned Feast",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 6,
+			"school": "C",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a gem-encrusted bowl worth at least 1000 gp, which the spell consumes, and an apple seed"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"conditionInflict": [
+				"poisoned",
+				"stunned"
+			],	
+			"entries": [
+				"You bring forth a great feast, including magnificent food and drink, which in all manners is indistinguishable from a heroes' feast. The feast takes 1 hour to consume and disappears at the end of that time, and its effects don’t set in until this hour is over. Up to twelve other creatures can partake of the feast, and you can select up to three of them along with yourself to be immune to its effects.",
+				"A creature that partakes of the feast becomes {@condition poisoned} and its hit point maximum is reduced by 2d10 for 24 hours. For the first 1 hour after consuming the feast, the creature is additionally {@condition stunned}, wracked with pain and nausea. At the end of each minute during that hour, the creature may attempt a Constitution saving throw, and ends the {@condition stunned} condition on itself on a success (but retains the 24-hour penalties)."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Spectral Orchestra",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 6,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a conducting baton made of a material other than iron or silver"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"damageInflict": [
+				"psychic",
+				"thunder"
+			],
+			"miscTags": [
+				"THP"
+			],
+			"entries": [
+				"You summon a ghostly orchestra, with dozens of translucent individual illusory spirits, each with a different instrument, who begin to play a piece of your choice and follow you as you move. The piece played sounds jarring to your foes, and inspiring to your allies. The spirits are immaterial and cannot be harmed nor touched, and do nothing but play their instrument; they can however be targeted by {@spell dispel magic} and similar effects.",
+				"Whenever a creature starts their turn within 120 feet of you, you may cause one of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"You force it to make a Constitution saving throw. It takes {@damage 2d8} psychic and {@damage 2d8} thunder damage on a failure, or half as much on a success. Whether it succeeds or fails the saving throw, it is deafened until the end of its turn.",
+						"It gains temporary hit points equal to twice your spellcasting ability modifier, and all effects causing it to be {@condition charmed} or {@condition frightened} are dispelled."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		
+		
+		
+		{
+			"name": "Elemental Chaos",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 7,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a multicolored opal worth at least 500 gp",
+				"cost": 50000
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"savingThrow": [
+				"constitution",
+				"dexterity",
+				"strength"
+			],
+			"damageInflict": [
+				"fire",
+				"cold",
+				"bludgeoning",
+				"thunder",
+				"lightning",
+				"acid",
+				"force"
+			],
+			"conditionInflict": [
+				"deafened"
+			],
+			"areaTags": [
+				"Y",
+				"S",
+				"L"
+			],
+			"miscTags": [
+				"FMV"
+			],
+			"entries": [
+				"You open an unstable energetic portal to the Elemental Chaos on a surface of your choice within range. The portal takes the shape of a 15-foot-radius circle. Creatures standing inside the circle are affected in unpredictable ways which change radically each round as the portal shifts. The portal is not traversable.",
+				"As a bonus action on your turn, if the center of the portal is still within range of you, you can move it along the surface it is on up to 15 feet in a direction of your choice.",
+				"At the end of the turn that you cast this spell, and at the end of each of your turns thereafter, roll a d8, and look at the effect from the table. That effect lasts until the spell ends or a new effect begins. If your roll would give you the same effect as is currently active, reroll until you get a different one.",
+				{
+					"type": "table",
+					"colLabels": [
+						"d8",
+						"Name",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1 text-center no-wrap",
+						"col-3",
+						"col-8"
+					],
+					"rows": [
+						[
+							"1",
+							"Fire",
+							"Roaring flames burst out from the portal, in a 15-foot-tall cylinder on top of the portal. Creatures in the area or entering must succeed on a Dexterity saving throw or take 6d6 fire damage."
+						],
+						[
+							"2",
+							"Cold",
+							"A bitter cold seems to sap all warmth from the area in a flash, as even sweat is nearly instantly turned to frost. All creatures within a 20-foot-radius sphere centered on the portal must succeed on a Constitution saving throw or take 5d8 cold damage and have their speed reduced by 10 feet when they start their turn in the area or enter it."
+						],
+						[
+							"3",
+							"Geyser",
+							"An enormous amount of water jets out from the portal. A 30-foot-tall cylinder on top of the portal is filled with water, which splashes its surroundings but does not meaningfully leave this area. Creatures standing inside the portal when this effect begins are thrown 60 feet into the air with a randomly slanted upwards trajectory away from the portal. If the portal forces a creature to collide with a wall, ceiling, floor or other hard surface, the creature takes 6d6 bludgeoning damage. If the creature is pushed against the surface it was standing on, it may make a Strength saving throw to halve the damage taken."
+						],
+						[
+							"4",
+							"Wind",
+							"A strong wind blows out of (or pulls things into) the portal. Randomly choose a direction which crosses the portal. All creatures that are up to 30 feet away from the portal in a straight line along that direction must succeed on a Strength saving throw or be pulled straight towards it, being Restrained until the effect ends and taking 3d10 bludgeoning damage when they collide with it. They are also knocked prone against the surface the portal is on (which could be vertical or even a ceiling)."
+						],
+						[
+							"5",
+							"Rock Spikes",
+							"Shifting rock layers can be seen underneath, which crack and burst out in jagged formations into the open space. Creatures in a 15-foot-tall cylinder on top of the portal must succeed on a Dexterity saving throw or take 5d8 bludgeoning damage. Creatures in the inner 10-foot-radius of the cylinder benefit from half cover against attacks from any direction and are lightly obscured, and the area becomes difficult terrain."
+						],
+						[
+							"6",
+							"Storm",
+							"Dark clouds become visible below, and a breeze can be felt as the air crackles. Creatures inside a 20-foot-tall 20-foot-radius cylinder centered on the portal when this effect begins must succeed on a Constitution saving throw or take 2d8 thunder damage and be Deafened until the end of their next turn. Creatures starting their turn in the area or entering it for the first time in a round must succeed on a Dexterity saving throw or take 2d12 lightning damage."
+						],
+						[
+							"7",
+							"Acid",
+							"Acid spews upwards from the portal. Creatures within a 20-foot radius sphere centered on the portal must succeed on a Dexterity saving throw or take 4d10 acid damage."
+						],
+						[
+							"8",
+							"Ash Cloud",
+							"Creatures within a 15-foot-tall cylinder on top of the portal who breathe are forced to cough and can speak only falteringly, and all creatures in that area take 2d4 fire damage when they first enter it or start their turn in it. The area is also heavily obscured."
+						]
+					]
+				},
+				"Whenever a creature succeeds in any saving throw against one of these effects, it still takes half of the damage it would have taken, but resists any other effects imposed by it. Additionally, any creature touching the surface of the portal on its turn takes 1d10 force damage."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Greater Influence Ability",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 7,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You tamper with the vital energy of living creatures around you. Choose an ability score, and choose one of the effects listed below. All creatures coming within 30 feet of you for the duration of the spell, including yourself, suffer that effect while they remain within that range.",
+				{
+					"type": "list",
+					"items": [
+						"They have advantage on ability checks, saving throws and attack rolls made with the chosen ability score.",
+						"They must make a Constitution saving throw when first coming within its radius. On a failure, they have disadvantage on ability checks, saving throws and attack rolls made with the chosen ability score."
+					]
+				},
+				"Undead and constructs are unaffected by this spell."
+			],
+			"affectsCreatureType": [
+				"aberration",
+				"beast",
+				"celestial",
+				"dragon",
+				"elemental",
+				"fey",
+				"fiend",
+				"giant",
+				"humanoid",
+				"monstrosity",
+				"ooze",
+				"plant"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					}
+				]
+			}
+		},
+		{
+			"name": "Miasma",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 7,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You conjure an invisible cloud of rot and sickness that causes ill sensations in those breathing it. When you cast this spell, choose a point within range: all 5-foot squares within 20 feet of it are plagued with this foul cloud, which spreads along the ground and reaches up to a height of 10 feet above it.",
+				"At the start of each of your turns before the spell ends, the miasma extends to any squares adjacent to other squares already affected by the miasma and which remain within 120 feet of you. If it spreads onto a square occupied by an undead creature or onto a corpse or similarly significant mass of rotting organic matter, such as a pantry of perishable food (but not, for example, fruit still attached to a living tree), the miasma additionally automatically spreads to all squares within 10 feet of the rotting object, and its processes of natural decay accelerate. A dead creature affected by this, for the purpose of resurrection spells, is considered to have been dead for 1 hour for each round it remains within the miasma.",
+				"Undead creatures starting their turn on a space affected by the miasma regain a number of hit points equal to your spellcasting modifier.",
+				"Non-undead creatures other than yourself starting their turn in the miasma instead take {@damage 2d8} poison damage, and must succeed on a Constitution saving throw or be {@condition poisoned} until they leave the miasma, and for 1 minute afterwards. After leaving the miasma, they must repeat the saving throw at the end of each of their turns, and end the condition on themselves on a success, but suffer {@damage 2d8} poison damage on a failure.",
+				"When the spell ends, the miasma clears from all previously affected squares."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 8th level or higher, both of its damage instances increase by 1d8 per level above 7th."
+					]
+				}
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"damageInflict": [
+				"poison"
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Mortal Vow",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 7,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"m": "a thin platinum chain"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Select a willing creature of your choice within range who is capable of speech.",
+				"For as long as you maintain concentration and physical contact and both of you hold onto an end of the platinum chain, the creature is surrounded by a visible magical aura. Every promise the target makes that is within its reasonable control is magically bound to the very essence of its being. The creature will respect promises made under such an effect under grievous penalty until its death or until the conclusion of its promise, if a reasonable point of conclusion exists (e.g. a promise to destroy an object is fulfilled when the object is destroyed) or if a condition for stopping is spoken in the vow (e.g. a promise to protect someone until they come of age).",
+				"The character can go against the intent of the promise, as long as he does not go against what is defined by its wording, the limitations of which are determined by the DM.",
+				"Whenever the character thinks of doing anything that would go against the wording of the promise, it is afflicted with a sharp stinging headache, and takes 1d10 psychic damage. The creature then realises that it would be breaking its oath, and has the chance to rethink it. The character innately knows the consequence of breaking an oath spoken under this spell.",
+				"If any single action the character attempts would go against the wording of the promise, he must pass a Charisma saving throw.",
+				"On a failure, the character takes an additional 6d10 psychic damage, is unable to go against the oath and cannot attempt to do so again for 24 hours.",
+				"On a success, the character is able to follow through on whatever it is attempting, and dies immediately after concluding its vow-breaking action.",
+				"For example, a character who promises to reforge an artifact which cannot by any means be reforged will not be bound to this promise, but a character who promises to protect someone will be bound to do so. If a duration or ending condition is not specified during the vow, then it is considered to be binding until death.",
+				"The effects of this spell can only be removed from a character by the casting of a {@spell remove curse} or {@spell dispel magic} of 9th level."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 9th-level, it can't be dispelled except by use of a Wish spell or divine intervention."
+					]
+				}
+			],
+			"savingThrow": [
+				"charisma"
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Raise Undead Behemoth",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 7,
+			"school": "N",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a pint of your blood, and a black onyx stone worth at least 300 gp",
+				"cost": 30000
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"miscTags": [
+				"SMN"
+			],
+			"entries": [
+				"Choose a corpse of a Large or larger creature that was neither undead nor a construct and with a challenge rating of 7 or lower within range. You bring an animating spirit back into its body, raising it as an Undead behemoth.",
+				"On each of your turns, you can use a bonus action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can Command any or all of them at the same time, issuing the same Command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general Command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against Hostile creatures. Once given an order, the creature continues to follow it until its task is complete.",
+				"The creature is under your control for 24 hours, after which it stops obeying any command you've given it and becomes hostile towards you. To maintain the control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over the creature, rather than animating a new one.",
+				"The creature retains the statistics it had in life, but its type changes to undead and it can no longer speak the languages it knew in life (although it can understand the languages you speak). It gains immunity to poison damage and the {@condition poisoned} condition, and it gains the following feature:",
+				{
+					"type": "entries",
+					"name": "Undead Fortitude",
+					"entries": [
+						"If damage reduces the undead behemoth to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the undead behemoth drops to 1 hit point instead."
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 8th level or higher, the challenge rating increases by 2 for each slot level above 7th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Sky's Wrath",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 7,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 300
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"savingThrow": [
+				"constitution",
+				"dexterity"
+			],
+			"damageInflict": [
+				"lightning",
+				"thunder"
+			],
+			"conditionInflict": [
+				"deafened"
+			],
+			"entries": [
+				"You must be beneath the open sky (or be reasonably close to an opening to it) in order to cast this spell. You cause a massive lightning strike to surge down from the skies, cracking through the sky. Choose a creature or point within range. Creatures within 60 feet of it must succeed on a Constitution saving throw, or take 2d8 thunder damage and become deafened until the end of their next turn. Creatures within 10 feet of it must also succeed on a Dexterity saving throw or take 6d10 lightning damage. If you target a creature directly with this spell, that creature instead takes 8d10 lightning damage and other creatures within 10 feet of it instead take 4d10 lightning damage. Creatures who succeed on either save halve the corresponding damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 8th level or higher, its lightning damage is increased by 1d10 (for all targets) and its thunder damage is increased by 1d8, per level above 7th."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		
+		
+		
+		{
+			"name": "Blizzard",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 8,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "miles",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"damageInflict": [
+				"cold"
+			],
+			"damageResist": [
+				"fire"
+			],
+			"miscTags": [
+				"FMV"
+			],
+			"entries": [
+				"You conjure a heavy snow storm in a 1-mile radius circle centered on a point within range that you can see. Water freezes within range, frost covers the land, and tiny shards of ice and snow flood the area and flitter violently through the air. Heavy winds threaten the structural integrity of anything in the area. Open flames are extinguished within the area and cannot be ignited for the duration.",
+				"Creatures within the area have their speed halved and have resistance to fire damage, and take cold damage equal to your spellcasting ability modifier when they start their turn in the area. Creatures within the area see their surroundings within 30 feet as lightly obscured, and anything beyond it as heavily obscured. Additionally, all ranged attacks within the area are made with disadvantage.",
+				"A creature starting its turn in the area must also succeed on a Strength saving throw or be pushed 5 feet in a random direction.",
+				"The effects do not extend through walls, so any space that is closed off from the outdoors is considered to be exempt from the spells effects – if whatever is separating it from the outdoors can resist the strong winds.",
+				"When casting this spell, you can optionally expand its area of effect radius to 10 miles, but the spell does no damage when you do so."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 9th level, its duration increases to 8 hours."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Drain Vigor",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 8,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"spellAttack": [
+				"M"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"conditionInflict": [
+				"exhaustion"
+			],
+			"miscTags": [
+				"HL"
+			],
+			"entries": [
+				"Make a melee spell attack against a creature. On a hit, the target gains a level of exhaustion, and must succeed on a Constitution saving throw at the end of each of its turns for the duration of the spell or gain another level of exhaustion. Whenever the target gains a level of exhaustion this way, you reduce your exhaustion by 1, or otherwise regain 2d6 hit points if your exhaustion is 0.",
+				"This spell can also be ended early by a {@spell remove curse} spell cast at an equal or higher level, targeting the creature."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Mass Raise Dead",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 8,
+			"school": "N",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "1000 gp worth of diamonds per target",
+				"cost": 100000
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"miscTags": [
+				"HL"
+			],
+			"entries": [
+				"You return up to five dead creatures within range to life, provided that they have been dead no longer than 10 days. If the creatures' souls are both willing and at liberty to rejoin the bodies, the creatures return to life with 1 hit point.",
+				"This spell also neutralizes any poison and cures non-magical diseases that affected the creatures at the time they died. This spell doesn't, however, remove magical diseases, curses, or similar effects. If these aren't first removed prior to casting the spell, they take effect when the creature returns to life. The spell can't return an undead creature to life.",
+				"This spell closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival - its head, for instance - the spell has no effect on it.",
+				"Coming back from the dead is an ordeal. The targets take a -4 penalty to all attack rolls, saving throws, and ability checks. Every time a target finishes a long rest, the penalty is reduced by 1 until it disappears."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "System Shock",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 8,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a powder made of pixie dust and rare powdered plants, worth 200 gp, which the spell consumes",
+				"cost": 20000
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"entries": [
+				"Choose a creature within range. It must succeed on a Constitution saving throw or be wracked with seizures, becoming {@condition stunned} for the duration of the spell. If an effect would cause the creature to be {@condition stunned} again while under this effect, it must succeed on a Constitution saving throw or die. At the end of each of its turns, the creature repeats the original save, and ends this spell early on a success."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		
+		
+		
+		
+		
+		{
+			"name": "Army of the Dead",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 9,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 1000
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "5 gallons of blood, a bag of bone dust, the skull of a blood relative, and a single black onyx stone worth at least 3000 gp",
+				"cost": 300000
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"miscTags": [
+				"SMN"
+			],
+			"entries": [
+				"This spell creates an army of undead servants. All piles of bones and corpses of Medium or Small humanoids and beasts within range are imbued with a foul mimicry of life, raising them as undead creatures. Each pile of bones becomes a {@creature skeleton} and each corpse becomes a {@creature zombie} (the DM has the creatures’ game statistics). Special corpses and bone piles in the area may be animated as special creatures, at your DM's discretion, such as a {@creature minotaur skeleton} or a {@creature zombie beholder}, but any creature whose undead form would have a challenge rating of 5 or higher fails to be animated this way.",
+				"On each of your turns, you can use a bonus action to mentally command any creature you made with this spell if the creature is within 1 mile of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands to a creature, it takes offensive action against hostile creatures, or otherwise roams randomly. Once given an order, the creature continues to follow it until its task is complete.",
+				"This army is under your control for 24 hours, after which it stops obeying any command you've given it. To maintain control of this army for another 24 hours, you must cast this spell again within range of them before the current 24-hour period ends. This use of the spell reasserts your control over the summoned army, rather than creating a new one."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	]
+}
