@@ -22,6 +22,7 @@
 			"focus": [
 				"Artificer"
 			],
+			"value": 340000,
 			"entries": [
 				"This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of artisan's tool of your choice (see the \"Equipment\" chapter in the {@book Player's Handbook|PHB} for a list of {@item artisan's tools|PHB}). Whatever form the tool takes, you are proficient with it.",
 				"While holding this tool, you gain a +1 bonus to the spell attack rolls and the saving throw DCs of your artificer spells.",
@@ -46,6 +47,7 @@
 			"weight": 1,
 			"bonusSpellAttack": "+1",
 			"bonusSpellSaveDc": "+1",
+			"value": 225000,
 			"entries": [
 				"This amulet bears the symbol of a deity inlaid with precious stones or metals. While you wear the holy symbol, you gain a +1 bonus to spell attack rolls and the saving throw DCs of your spells.",
 				"While you wear this amulet, you can use your Channel Divinity feature without expending one of the feature's uses. Once this property is used, it can't be used again until the next dawn."
@@ -69,6 +71,7 @@
 			"focus": [
 				"Wizard"
 			],
+			"value": 225000,
 			"entries": [
 				"While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your wizard spells.",
 				"You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 1."
@@ -92,6 +95,7 @@
 			"focus": [
 				"Sorcerer"
 			],
+			"value": 225000,
 			"entries": [
 				"To attune to this vial, you must place a few drops of your blood into it. The vial can't be opened while your attunement to it lasts. If your attunement to the vial ends, the contained blood turns to ash. You can use the vial as a spellcasting focus for your spells while wearing or holding it, and you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells.",
 				"In addition, when you roll any Hit Dice to recover hit points while you are carrying the vial, you can regain 5 sorcery points. This property of the vial can't be used again until the next dawn."
@@ -109,6 +113,7 @@
 				}
 			],
 			"wondrous": true,
+			"value": 225000,
 			"entries": [
 				"This finely detailed belt is made of dragonhide. While wearing it, you gain a +1 bonus to the saving throw DCs of your ki features. In addition, you can use an action to regain ki points equal to a roll of your Martial Arts die. You can't use this action again until the next dawn."
 			]
@@ -144,6 +149,7 @@
 				"Ranger"
 			],
 			"weapon": true,
+			"value": 350000,
 			"entries": [
 				"This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a +1 bonus to attack and damage rolls made with it, and you gain a +1 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use the sickle as a spellcasting focus for your druid and ranger spells.",
 				"When you cast a spell that restores hit points, you can roll a {@dice d4} and add the number rolled to the amount of hit points restored, provided you are holding the sickle."
@@ -166,6 +172,7 @@
 			"grantsProficiency": true,
 			"bonusSpellAttack": "+1",
 			"bonusSpellSaveDc": "+1",
+			"value": 225000,
 			"entries": [
 				"While holding this {@item drum|PHB}, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your bard spells.",
 				"As an action, you can play the {@item drum|PHB} to regain one use of your Bardic Inspiration feature. This property of the {@item drum|PHB} can't be used again until the next dawn."
@@ -187,6 +194,7 @@
 			"weight": 2,
 			"bonusSpellAttack": "+1",
 			"bonusSpellSaveDc": "+1",
+			"value": 225000,
 			"entries": [
 				"While holding this rod, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
 				"In addition, you can regain one warlock spell slot as an action while holding the rod. You can't use this property again until you finish a long rest."
@@ -211,6 +219,7 @@
 			],
 			"weight": 1,
 			"bonusSpellAttack": "+1",
+			"value": 100000,
 			"entries": [
 				"While you are holding this wand, you gain a +1 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack."
 			],
@@ -980,6 +989,7 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"weight": 12,
+			"value": 40000,
 			"entries": [
 				"This ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. Sloshing sounds can be heard from within the jug when it is shaken, even if the jug is empty.",
 				"You can use an action and name one liquid from the table below to cause the jug to produce the chosen liquid. Afterward, you can uncork the jug as an action and pour that liquid out, up to 2 gallons per minute. The maximum amount of liquid the jug can produce depends on the liquid you named.",
@@ -1327,6 +1337,7 @@
 					"con": 19
 				}
 			},
+			"value": 400000,
 			"entries": [
 				"Your Constitution score is 19 while you wear this amulet. It has no effect on you if your Constitution score is already 19 or higher without it."
 			],
@@ -1345,6 +1356,7 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"weight": 1,
+			"value": 200000,
 			"entries": [
 				"While wearing this amulet, you are hidden from {@filter divination|spells|school=D} magic. You can't be targeted by such magic or perceived through magical scrying sensors."
 			],
@@ -1973,6 +1985,7 @@
 			"focus": [
 				"Sorcerer"
 			],
+			"value": 240000,
 			"entries": [
 				"This crystal is a solidified shard of the Astral Plane, swirling with silver mist. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.",
 				"When you use a Metamagic option on a spell while you are holding or wearing the shard, immediately after casting the spell you can teleport to an unoccupied space you can see within 30 feet of you."
@@ -2585,6 +2598,7 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"weight": 15,
+			"value": 340000,
 			"entries": [
 				"This bag has an interior space considerably larger than its outside dimensions, roughly 2 feet in diameter at the mouth and 4 feet deep. The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet. The bag weighs 15 pounds, regardless of its contents. Retrieving an item from the bag requires an action.",
 				"If the bag is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth, unharmed, but the bag must be put right before it can be used again. Breathing creatures inside the bag can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate.",
@@ -2611,6 +2625,7 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"weight": 0.5,
+			"value": 240000,
 			"entries": [
 				"This ordinary bag, made from gray cloth, appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object.",
 				"You can use an action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling a {@dice d8} and consulting the table. The creature vanishes at the next dawn or when it is reduced to 0 hit points.",
@@ -2675,6 +2690,7 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"weight": 0.5,
+			"value": 240000,
 			"entries": [
 				"This ordinary bag, made from rust cloth, appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object.",
 				"You can use an action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling a {@dice d8} and consulting the table. The creature vanishes at the next dawn or when it is reduced to 0 hit points.",
@@ -2739,6 +2755,7 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"weight": 0.5,
+			"value": 240000,
 			"entries": [
 				"This ordinary bag, made from tan cloth, appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object.",
 				"You can use an action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling a {@dice d8} and consulting the table. The creature vanishes at the next dawn or when it is reduced to 0 hit points.",
@@ -3217,6 +3234,7 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"tattoo": true,
+			"value": 400000,
 			"entries": [
 				"Produced by a special needle, this magic tattoo depicts protective imagery and uses ink that resembles liquid metal.",
 				{
@@ -3244,6 +3262,7 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"tattoo": true,
+			"value": 200000,
 			"entries": [
 				"Produced by a special needle, this magic tattoo depicts protective imagery and uses ink that resembles liquid metal.",
 				{
@@ -3606,6 +3625,7 @@
 					"str": 21
 				}
 			},
+			"value": 400000,
 			"entries": [
 				"While wearing this belt, your Strength score changes to 21. The item has no effect on you if your Strength without the belt is equal to or greater than the belt's score."
 			],
@@ -4938,6 +4958,7 @@
 			"tier": "major",
 			"rarity": "uncommon",
 			"wondrous": true,
+			"value": 120000,
 			"entries": [
 				"While you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have advantage on Dexterity ({@skill Stealth}) checks that rely on moving silently."
 			],
@@ -4953,6 +4974,7 @@
 			"tier": "minor",
 			"rarity": "common",
 			"wondrous": true,
+			"value": 5500,
 			"entries": [
 				"Only humanoids can wear these boots. While wearing the boots, you can choose to have them leave tracks like those of another kind of humanoid of your size."
 			]
@@ -4966,6 +4988,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"wondrous": true,
+			"value": 80000,
 			"entries": [
 				"While you wear these boots, you can use an action to cast the {@spell levitate} spell on yourself at will."
 			],
@@ -4990,6 +5013,7 @@
 					"walk": 2
 				}
 			},
+			"value": 260000,
 			"entries": [
 				"While you wear these boots, you can use a bonus action and click the boots' heels together. If you do, the boots double your walking speed, and any creature that makes an opportunity attack against you has disadvantage on the attack roll. If you click your heels together again, you end the effect.",
 				"When the boots' property has been used for a total of 10 minutes, the magic ceases to function until you finish a long rest."
@@ -5014,6 +5038,7 @@
 					"walk": 30
 				}
 			},
+			"value": 58000,
 			"entries": [
 				"While you wear these boots, your walking speed becomes 30 feet, unless your walking speed is higher, and your speed isn't reduced if you are encumbered or wearing heavy armor. In addition, you can jump three times the normal distance, though you can't jump farther than your remaining movement would allow."
 			],
@@ -5034,6 +5059,7 @@
 			"rarity": "uncommon",
 			"reqAttune": true,
 			"wondrous": true,
+			"value": 395000,
 			"entries": [
 				"These furred boots are snug and feel quite warm. While you wear them, you gain the following benefits:",
 				{
@@ -5196,6 +5222,7 @@
 			"wondrous": true,
 			"grantsProficiency": true,
 			"bonusWeaponDamage": "+2",
+			"value": 175000,
 			"entries": [
 				"While wearing these bracers, you have proficiency with the longbow and shortbow, and you gain a +2 bonus to damage rolls on ranged attacks made with such weapons."
 			],
@@ -5214,6 +5241,7 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"bonusAc": "+2",
+			"value": 320000,
 			"entries": [
 				"While wearing these bracers, you gain a +2 bonus to AC if you are wearing no armor and using no shield."
 			],
@@ -5463,6 +5491,7 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"weight": 3,
+			"value": 440000,
 			"entries": [
 				"This wooden broom, which weighs 3 pounds, functions like a mundane broom until you stand astride it and speak its command word. It then hovers beneath you and can be ridden in the air. It has a flying speed of 50 feet. It can carry up to 400 pounds, but its flying speed becomes 30 feet while carrying over 200 pounds. The broom stops hovering when you land.",
 				"You can send the broom to travel alone to a destination within 1 mile of you if you speak the command word, name the location, and are familiar with that place. The broom comes back to you when you speak another command word, provided that the broom is still within 1 mile of you."
@@ -5872,6 +5901,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
+			"value": 100000,
 			"entries": [
 				"While wearing this cap underwater, you can speak its command word as an action to create a bubble of air around your head. It allows you to breathe normally underwater. This bubble stays with you until you speak the command word again, the cap is removed, or you are no longer underwater."
 			],
@@ -5887,6 +5917,7 @@
 			"tier": "major",
 			"rarity": "rare",
 			"wondrous": true,
+			"value": 425000,
 			"entries": [
 				"This cape smells faintly of brimstone. While wearing it, you can use it to cast the {@spell dimension door} spell as an action. This property of the cape can't be used again until the next dawn.",
 				"When you disappear, you leave behind a cloud of smoke, and you appear in a similar cloud of smoke at your destination. The smoke lightly obscures the space you left and the space you appear in, and it dissipates at the end of your next turn. A light or stronger wind disperses the smoke."
@@ -6443,6 +6474,7 @@
 			"rarity": "rare",
 			"wondrous": true,
 			"weight": 1,
+			"value": 180000,
 			"entries": [
 				"This hollow metal tube measures about 1 foot long and weighs 1 pound. You can strike it as an action, pointing it at an object within 120 feet of you that can be opened, such as a door, lid, or lock. The chime issues a clear tone, and one lock or latch on the object opens unless the sound can't reach the object. If no locks or latches remain, the object itself opens.",
 				"The chime can be used ten times. After the tenth time it cracks and becomes useless."
@@ -6579,6 +6611,7 @@
 			"tier": "major",
 			"rarity": "uncommon",
 			"wondrous": true,
+			"value": 136000,
 			"entries": [
 				"While wearing this circlet, you can use an action to cast the {@spell scorching ray} spell with it. When you make the spell's attacks, you do so with an attack bonus of {@hit 5}. The circlet can't be used this way again until the next dawn."
 			],
@@ -6750,6 +6783,7 @@
 			"tier": "minor",
 			"rarity": "common",
 			"wondrous": true,
+			"value": 1600,
 			"entries": [
 				"While wearing this cloak, you can use a bonus action to make it billow dramatically."
 			]
@@ -6781,6 +6815,7 @@
 			"rarity": "uncommon",
 			"reqAttune": true,
 			"wondrous": true,
+			"value": 250000,
 			"entries": [
 				"While you wear this cloak with its hood up, Wisdom ({@skill Perception}) checks made to see you have disadvantage, and you have advantage on Dexterity ({@skill Stealth}) checks made to hide, as the cloak's color shifts to camouflage you. Pulling the hood up or down requires an action."
 			],
@@ -6813,6 +6848,7 @@
 			"tier": "minor",
 			"rarity": "common",
 			"wondrous": true,
+			"value": 7000,
 			"entries": [
 				"While wearing this cloak, you can use a bonus action to change the style, color, and apparent quality of the garment. The cloak's weight doesn't change. Regardless of its appearance, the cloak can't be anything but a cloak. Although it can duplicate the appearance of other magic cloaks, it doesn't gain their magical properties."
 			],
@@ -6829,6 +6865,7 @@
 			"wondrous": true,
 			"bonusAc": "+1",
 			"bonusSavingThrow": "+1",
+			"value": 220000,
 			"entries": [
 				"You gain a +1 bonus to AC and saving throws while you wear this cloak."
 			],
@@ -6870,6 +6907,7 @@
 					"swim": 60
 				}
 			},
+			"value": 145000,
 			"entries": [
 				"While wearing this cloak with its hood up, you can breathe underwater, and you have a swimming speed of 60 feet. Pulling the hood up or down requires an action."
 			],
@@ -6885,6 +6923,7 @@
 			"tier": "minor",
 			"rarity": "common",
 			"wondrous": true,
+			"value": 42000,
 			"entries": [
 				"This copper amulet contains tiny interlocking gears and is powered by magic from Mechanus, a plane of clockwork predictability. A creature that puts an ear to the amulet can hear faint ticking and whirring noises coming from within.",
 				"When you make an attack roll while wearing the amulet, you can forgo rolling the {@dice d20} to get a 10 on the die. Once used, this property can't be used again until the next dawn."
@@ -7036,6 +7075,7 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"tattoo": true,
+			"value": 200000,
 			"entries": [
 				"Produced by a special needle, this magic tattoo has long intertwining designs.",
 				{
@@ -8111,6 +8151,7 @@
 			"focus": [
 				"Warlock"
 			],
+			"value": 24000,
 			"entries": [
 				"This amulet is fashioned from a single shard of resilient extraplanar material originating from the realm of your warlock patron. While you are wearing it, you gain the following benefits:",
 				{
@@ -8188,6 +8229,7 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"weight": 2,
+			"value": 85000,
 			"entries": [
 				"This stoppered flask sloshes when shaken, as if it contains water. The decanter weighs 2 pounds.",
 				"You can use an action to remove the stopper and speak one of three command words, whereupon an amount of fresh water or salt water (your choice) pours out of the flask. The water stops pouring out at the start of your next turn. Choose from the following options:",
@@ -9815,6 +9857,7 @@
 			"tier": "major",
 			"rarity": "rare",
 			"wondrous": true,
+			"value": 215000,
 			"entries": [
 				"You can use an action to place these shackles on an {@condition incapacitated} creature. The shackles adjust to fit a creature of Small to Large size. In addition to serving as mundane manacles, the shackles prevent a creature bound by them from using any method of extradimensional movement, including teleportation or travel to a different plane of existence. They don't prevent the creature from passing-through an interdimensional portal.",
 				"You and any creature you designate when you use the shackles can use an action to remove them. Once every 30 days, the bound creature can make a DC 30 Strength ({@skill Athletics}) check. On a success, the creature breaks free and destroys the shackles."
@@ -10417,6 +10460,7 @@
 			"tier": "minor",
 			"rarity": "common",
 			"wondrous": true,
+			"value": 4000,
 			"entries": [
 				"This fearsome steel helm makes your eyes glow red while you wear it."
 			],
@@ -10440,6 +10484,7 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"weight": 1,
+			"value": 86000,
 			"entries": [
 				"This small sphere of thick glass weighs 1 pound. If you are within 60 feet of it, you can speak its command word and cause it to emanate the {@spell light} or {@spell daylight} spell. Once used, the {@spell daylight} effect can't be used again until the next dawn.",
 				"You can speak another command word as an action to make the illuminated globe rise into the air and float no more than 5 feet off the ground. The globe hovers in this way until you or another creature grasps it. If you move more than 60 feet from the hovering globe, it follows you until it is within 60 feet of you. It takes the shortest route to do so. If prevented from moving, the globe sinks gently to the ground and becomes inactive, and its light winks out."
@@ -10883,6 +10928,7 @@
 			"tier": "minor",
 			"rarity": "common",
 			"wondrous": true,
+			"value": 8500,
 			"entries": [
 				"While held up to your ear, this horn suppresses the effects of the {@condition deafened} condition on you, allowing you to hear normally."
 			]
@@ -11025,6 +11071,7 @@
 			"wondrous": true,
 			"tattoo": true,
 			"bonusWeapon": "+1",
+			"value": 200000,
 			"entries": [
 				"Produced by a special needle, this magic tattoo depicts clawlike forms and other jagged shapes.",
 				{
@@ -11129,6 +11176,7 @@
 			],
 			"wondrous": true,
 			"weight": 1,
+			"value": 240000,
 			"entries": [
 				"This crackling crystal contains the essence of an elemental plane. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.",
 				"Roll a {@dice d4} and consult the Elemental Essence Shards table to determine the shard's essence and property. When you use a Metamagic option on a spell while you are holding or wearing the shard, you can use that property.",
@@ -11385,6 +11433,7 @@
 			"ac": 13,
 			"grantsProficiency": true,
 			"bonusAc": "+1",
+			"value": 450000,
 			"entries": [
 				"You gain a +1 bonus to AC while you wear this armor. You are considered proficient with this armor even if you lack proficiency with medium armor."
 			],
@@ -11518,6 +11567,7 @@
 			"tier": "minor",
 			"rarity": "common",
 			"wondrous": true,
+			"value": 20000,
 			"entries": [
 				"This spellbook, along with anything written on its pages, can't be damaged by fire or immersion in water. In addition, the spellbook doesn't deteriorate with age."
 			]
@@ -11684,6 +11734,7 @@
 			"rarity": "common",
 			"reqAttune": true,
 			"wondrous": true,
+			"value": 18500,
 			"entries": [
 				"This artificial eye replaces a real one that was lost or removed. While the ersatz eye is embedded in your eye socket, it can't be removed by anyone other than you, and you can see through the tiny orb as though it were a normal eye."
 			]
@@ -11729,6 +11780,7 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"weight": 1,
+			"value": 94000,
 			"entries": [
 				"Smoke leaks from the lead-stoppered mouth of this brass bottle, which weighs 1 pound. When you use an action to remove the stopper, a cloud of thick smoke pours out in a 60-foot radius from the bottle. The cloud's area is heavily obscured. Each minute the bottle remains open and within the cloud, the radius increases by 10 feet until it reaches its maximum radius of 120 feet.",
 				"The cloud persists as long as the bottle is open. Closing the bottle requires you to speak its command word as an action. Once the bottle is closed, the cloud disperses after 10 minutes. A moderate wind (11 to 20 miles per hour) can also disperse the smoke after 1 minute, and a strong wind (21 or more miles per hour) can do so after 1 round."
@@ -11925,6 +11977,7 @@
 			"wondrous": true,
 			"recharge": "dawn",
 			"charges": 3,
+			"value": 40000,
 			"entries": [
 				"These crystal lenses fit over the eyes. They have 3 charges. While wearing them, you can expend 1 charge as an action to cast the {@spell charm person} spell (save DC 13) on a humanoid within 30 feet of you, provided that you and the target can see each other. The lenses regain all expended charges daily at dawn."
 			],
@@ -11944,6 +11997,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
+			"value": 120000,
 			"entries": [
 				"These crystal lenses fit over the eyes. While wearing them, you can see much better than normal out to a range of 1 foot. You have advantage on Intelligence ({@skill Investigation}) checks that rely on sight while searching an area or studying an object within that range."
 			],
@@ -11960,6 +12014,7 @@
 			"rarity": "uncommon",
 			"reqAttune": true,
 			"wondrous": true,
+			"value": 60000,
 			"entries": [
 				"These crystal lenses fit over the eyes. While wearing them, you have advantage on Wisdom ({@skill Perception}) checks that rely on sight. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across."
 			],
@@ -12133,6 +12188,7 @@
 			"focus": [
 				"Sorcerer"
 			],
+			"value": 240000,
 			"entries": [
 				"This writhing crystal is steeped in the warped essence of the Far Realm. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.",
 				"When you use a Metamagic option on a spell while you are holding or wearing the shard, you can cause a slimy tentacle to rip through the fabric of reality and strike one creature you can see within 30 feet of you. The creature must succeed on a Charisma saving throw against your spell save DC or take {@damage 3d6} psychic damage and become {@condition frightened} of you until the start of your next turn."
@@ -12203,6 +12259,7 @@
 			"focus": [
 				"Sorcerer"
 			],
+			"value": 75000,
 			"entries": [
 				"This warm crystal glints with the sunset colors of the Feywild sky and evokes whispers of emotional memory. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.",
 				"When you use a Metamagic option on a spell while you are holding or wearing the shard, you can roll on the {@table Wild Magic Surge|PHB} table in the {@book Player's Handbook|PHB}. If the result is a spell, it is too wild to be affected by your Metamagic, and if it normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration.",
@@ -12643,6 +12700,7 @@
 			"tier": "major",
 			"rarity": "rare",
 			"wondrous": true,
+			"value": 166000,
 			"entries": [
 				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
 				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
@@ -12662,6 +12720,7 @@
 			"tier": "major",
 			"rarity": "rare",
 			"wondrous": true,
+			"value": 406000,
 			"entries": [
 				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
 				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
@@ -12681,6 +12740,7 @@
 			"tier": "major",
 			"rarity": "rare",
 			"wondrous": true,
+			"value": 50000,
 			"entries": [
 				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
 				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
@@ -12702,6 +12762,7 @@
 			"wondrous": true,
 			"bonusWeapon": "+1",
 			"charges": 24,
+			"value": 367000,
 			"entries": [
 				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
 				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
@@ -12722,6 +12783,82 @@
 			]
 		},
 		{
+			"name": "Figurine of Wondrous Power, Ivory Goat (Terror)",
+			"source": "DMG",
+			"page": 169,
+			"srd": true,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"bonusWeapon": "+1",
+			"value": 166000,
+			"entries": [
+				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
+				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
+				"The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
+				"These ivory statuettes of goats are always created in sets of three. Each goat looks unique and functions differently from the others. Their properties are as follows:",
+				{
+					"type": "list",
+					"items": [
+						"The goat of terror becomes a {@creature giant goat} for up to 3 hours. The goat can't attack, but you can remove its horns and use them as weapons. One horn becomes a +1 lance, and the other becomes a +2 longsword. Removing a horn requires an action, and the weapons disappear and the horns return when the goat reverts to figurine form. In addition, the goat radiates a 30-foot-radius aura of terror while you are riding it. Any creature hostile to you that starts its turn in the aura must succeed on a DC 15 Wisdom saving throw or be {@condition frightened} of the goat for 1 minute, or until the goat reverts to figurine form. The {@condition frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once it successfully saves against the effect, a creature is immune to the goat's aura for the next 24 hours. Once the figurine has been used, it can't be used again until 15 days have passed."
+					]
+				}
+			],
+			"lootTables": [
+				"Magic Item Table G"
+			]
+		},
+		{
+			"name": "Figurine of Wondrous Power, Ivory Goat (Traveling)",
+			"source": "DMG",
+			"page": 169,
+			"srd": true,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"charges": 24,
+			"value": 157000,
+			"entries": [
+				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
+				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
+				"The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
+				"These ivory statuettes of goats are always created in sets of three. Each goat looks unique and functions differently from the others. Their properties are as follows:",
+				{
+					"type": "list",
+					"items": [
+						"The goat of traveling can become a Large goat with the same statistics as a {@creature riding horse}. It has 24 charges, and each hour or portion thereof it spends in beast form costs 1 charge. While it has charges, you can use it as often as you wish. When it runs out of charges, it reverts to a figurine and can't be used again until 7 days have passed, when it regains all its charges."
+					]
+				}
+			],
+			"lootTables": [
+				"Magic Item Table G"
+			]
+		},		{
+			"name": "Figurine of Wondrous Power, Ivory Goat (Travail)",
+			"source": "DMG",
+			"page": 169,
+			"srd": true,
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"value": 44000,
+			"entries": [
+				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
+				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
+				"The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
+				"These ivory statuettes of goats are always created in sets of three. Each goat looks unique and functions differently from the others. Their properties are as follows:",
+				{
+					"type": "list",
+					"items": [
+						"The goat of travail becomes a {@creature giant goat} for up to 3 hours. Once it has been used, it can't be used again until 30 days have passed."
+					]
+				}
+			],
+			"lootTables": [
+				"Magic Item Table G"
+			]
+		},
+		{
 			"name": "Figurine of Wondrous Power, Marble Elephant",
 			"source": "DMG",
 			"page": 170,
@@ -12729,11 +12866,11 @@
 			"tier": "major",
 			"rarity": "rare",
 			"wondrous": true,
+			"value": 418000,
 			"entries": [
 				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
 				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
 				"The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
-				"{@creature elephant||Marble Elephant}.",
 				"This marble statuette is about 4 inches high and long. It can become an {@creature elephant} for up to 24 hours. Once it has been used, it can't be used again until 7 days have passed."
 			],
 			"lootTables": [
@@ -12768,6 +12905,7 @@
 			"tier": "major",
 			"rarity": "rare",
 			"wondrous": true,
+			"value": 145000,
 			"entries": [
 				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
 				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
@@ -12806,6 +12944,7 @@
 			"tier": "major",
 			"rarity": "uncommon",
 			"wondrous": true,
+			"value": 126000,
 			"entries": [
 				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
 				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
@@ -13384,6 +13523,7 @@
 					"str": 19
 				}
 			},
+			"value": 111500,
 			"entries": [
 				"Your Strength score is 19 while you wear these gauntlets. They have no effect on you if your Strength is already 19 or higher without them."
 			],
@@ -13435,6 +13575,7 @@
 			"wondrous": true,
 			"weight": 1,
 			"charges": 50,
+			"value": 35000,
 			"entries": [
 				"This prism has 50 charges. While you are holding it, you can use an action to speak one of three command words to cause one of the following effects:",
 				{
@@ -13552,6 +13693,7 @@
 			"weight": 13,
 			"ac": 12,
 			"bonusAc": "+1",
+			"value": 350000,
 			"entries": [
 				"While wearing this armor, you gain a +1 bonus to AC. You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor."
 			],
@@ -13662,6 +13804,7 @@
 			"rarity": "uncommon",
 			"reqAttune": true,
 			"wondrous": true,
+			"value": 85000,
 			"entries": [
 				"These gloves seem to almost meld into your hands when you don them. When a ranged weapon attack hits you while you're wearing them, you can use your reaction to reduce the damage by {@dice 1d10} + your Dexterity modifier, provided that you have a free hand. If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in that hand."
 			],
@@ -13697,6 +13840,7 @@
 			"rarity": "uncommon",
 			"reqAttune": true,
 			"wondrous": true,
+			"value": 70000,
 			"entries": [
 				"While wearing these gloves, climbing and swimming don't cost you extra movement, and you gain a +5 bonus to Strength ({@skill Athletics}) checks made to climb or swim."
 			],
@@ -13711,6 +13855,7 @@
 			"tier": "major",
 			"rarity": "uncommon",
 			"wondrous": true,
+			"value": 280000,
 			"entries": [
 				"These gloves are {@condition invisible} while worn. While wearing them, you gain a +5 bonus to Dexterity ({@skill Sleight of Hand}) checks and Dexterity checks made to pick locks."
 			],
@@ -13756,6 +13901,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
+			"value": 190000,
 			"entries": [
 				"While wearing these dark lenses, you have {@sense darkvision} out to a range of 60 feet. If you already have {@sense darkvision}, wearing the goggles increases its range by 60 feet."
 			],
@@ -14517,6 +14663,7 @@
 			"weight": 0.02,
 			"recharge": "dawn",
 			"charges": 3,
+			"value": 46000,
 			"entries": [
 				"This emblem is the symbol of a deity or a spiritual tradition. As an action, you can attach the emblem to a suit of armor or a shield or remove it.",
 				"The emblem has 3 charges. When you or a creature you can see within 30 feet of you suffers a critical hit while you're wearing the armor or wielding the shield that bears the emblem, you can use your reaction to expend 1 charge to turn the critical hit into a normal hit instead.",
@@ -14825,6 +14972,7 @@
 			"rarity": "uncommon",
 			"reqAttune": true,
 			"wondrous": true,
+			"value": 60000,
 			"entries": [
 				"While wearing this hat, you can use an action to cast the {@spell disguise self} spell from it at will. The spell ends if the hat is removed."
 			],
@@ -14844,6 +14992,7 @@
 			"wondrous": true,
 			"recharge": "dawn",
 			"charges": 3,
+			"value": 12000,
 			"entries": [
 				"This hat has 3 charges. While holding the hat, you can use an action to expend 1 of its charges and speak a command word that summons your choice of a {@creature bat}, a {@creature frog}, or a {@creature rat}. The summoned creature magically appears in the hat and tries to get away from you as quickly as possible. The creature is neither friendly nor hostile, and it isn't under your control. It behaves as an ordinary creature of its kind and disappears after 1 hour or when it drops to 0 hit points. The hat regains all expended charges daily at dawn."
 			]
@@ -14864,6 +15013,7 @@
 			"focus": [
 				"Wizard"
 			],
+			"value": 24000,
 			"entries": [
 				"This antiquated, cone\u2014shaped hat is adorned with gold crescent moons and stars. While you are wearing it, you gain the following benefits:",
 				{
@@ -14941,6 +15091,7 @@
 					"int": 19
 				}
 			},
+			"value": 200000,
 			"entries": [
 				"Your Intelligence score is 19 while you wear this headband. It has no effect on you if your Intelligence is already 19 or higher without it."
 			],
@@ -15083,6 +15234,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
+			"value": 120000,
 			"entries": [
 				"While wearing this helm, you can use an action to cast the {@spell comprehend languages} spell from it at will."
 			],
@@ -15127,6 +15279,7 @@
 			"rarity": "uncommon",
 			"reqAttune": true,
 			"wondrous": true,
+			"value": 250000,	
 			"entries": [
 				"While wearing this helm, you can use an action to cast the {@spell detect thoughts} spell (save DC 13) from it. As long as you maintain concentration on the spell, you can use a bonus action to send a telepathic message to a creature you are focused on. It can reply\u2014using a bonus action to do so\u2014while your focus on it continues.",
 				"While focusing on a creature with {@spell detect thoughts}, you can use an action to cast the {@spell suggestion} spell (save DC 13) from the helm on that creature. Once used, the suggestion property can't be used again until the next dawn."
@@ -15466,6 +15619,7 @@
 			"rarity": "rare",
 			"wondrous": true,
 			"weight": 5,
+			"value": 432000,
 			"entries": [
 				"This backpack has a central pouch and two side pouches, each of which is an extradimensional space. Each side pouch can hold up to 20 pounds of material, not exceeding a volume of 2 cubic feet. The large central pouch can hold up to 8 cubic feet or 80 pounds of material. The backpack always weighs 5 pounds, regardless of its contents.",
 				"Placing an object in the haversack follows the normal rules for interacting with objects. Retrieving an item from the haversack requires you to use an action. When you reach into the haversack for a specific item, the item is always magically on top.",
@@ -15494,6 +15648,7 @@
 			"wondrous": true,
 			"recharge": "dawn",
 			"charges": 10,
+			"value": 9600,
 			"entries": [
 				"This belt pouch appears empty and has 10 charges. While holding the pouch, you can use an action to expend 1 of its charges, speak the name of any nonmagical food seasoning (such as salt, pepper, saffron, or cilantro), and remove a pinch of the desired seasoning from the pouch. A pinch is enough to season a single meal. The pouch regains {@dice 1d6 + 4} expended charges daily at dawn."
 			]
@@ -15798,6 +15953,7 @@
 			"wondrous": true,
 			"recharge": "dawn",
 			"charges": 4,
+			"value": 15500,
 			"entries": [
 				"This horn has 4 charges. When you use an action to blow it, one creature of your choice can hear the horns blare, provided the creature is within 600 feet of the horn and not {@condition deafened}. No other creature hears sound coming from the horn. The horn regains {@dice 1d4} expended charges daily at dawn."
 			]
@@ -16346,6 +16502,7 @@
 			"tier": "minor",
 			"rarity": "rare",
 			"wondrous": true,
+			"value": 320000,
 			"entries": [
 				"These iron horseshoes come in a set of four. While all four shoes are affixed to the hooves of a horse or similar creature, they increase the creature's walking speed by 30 feet."
 			],
@@ -16692,6 +16849,7 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"tattoo": true,
+			"value": 20000,
 			"entries": [
 				"Produced by a special needle, this magic tattoo features beautiful calligraphy, images of writing implements, and the like.",
 				{
@@ -16739,6 +16897,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"weight": 2,
+			"value": 100000,
 			"entries": [
 				"This flat iron rod has a button on one end. You can use an action to press the button, which causes the rod to become magically fixed in place. Until you or another creature uses an action to push the button again, the rod doesn't move, even if it is defying gravity. The rod can hold up to 8,000 pounds of weight. More weight causes the rod to deactivate and fall. A creature can use an action to make a DC 30 Strength check, moving the fixed rod up to 10 feet on a success."
 			],
@@ -17019,6 +17178,7 @@
 			"rarity": "common",
 			"reqAttune": true,
 			"wondrous": true,
+			"value": 13000,
 			"entries": [
 				"While you are playing this musical instrument, you can create harmless, illusory visual effects within a 5-foot-radius sphere centered on the instrument. If you are a bard, the radius increases to 15 feet. Sample visual effects include luminous musical notes, a spectral dancer, butterflies, and gently falling snow. The magical effects have neither substance nor sound, and they are obviously illusory. The effects end when you stop playing."
 			]
@@ -17034,6 +17194,7 @@
 			"wondrous": true,
 			"recharge": "dawn",
 			"charges": 3,
+			"value": 13000,
 			"entries": [
 				"This musical instrument has 3 charges. While you are playing it, you can use an action to expend 1 charge from the instrument and write a magical message on a nonmagical object or surface that you can see within 30 feet of you. The message can be up to six words long and is written in a language you know. If you are a bard, you can scribe an additional seven words and choose to make the message glow faintly, allowing it to be seen in nonmagical darkness. Casting {@spell dispel magic} on the message erases it. Otherwise, the message fades away after 24 hours.",
 				"The instrument regains all expended charges daily at dawn."
@@ -17162,6 +17323,7 @@
 			],
 			"wondrous": true,
 			"weight": 2,
+			"value": 277500,
 			"entries": [
 				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take {@damage 2d4} psychic damage.",
 				"You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
@@ -17198,6 +17360,7 @@
 			],
 			"wondrous": true,
 			"weight": 2,
+			"value": 260000,
 			"entries": [
 				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take {@damage 2d4} psychic damage.",
 				"You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
@@ -17235,6 +17398,7 @@
 			],
 			"wondrous": true,
 			"weight": 2,
+			"value": 277000,
 			"entries": [
 				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take {@damage 2d4} psychic damage.",
 				"You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
@@ -17358,6 +17522,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"wondrous": true,
+			"value": 60000,
 			"entries": [
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
@@ -17549,6 +17714,7 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"bonusAc": "+1",
+			"value": 180000,
 			"entries": [
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
@@ -17674,6 +17840,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"wondrous": true,
+			"value": 255000,
 			"entries": [
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
@@ -18211,6 +18378,7 @@
 			"range": "30/120",
 			"dmg1": "1d6",
 			"dmgType": "P",
+			"value": 80000,
 			"entries": [
 				"This javelin is a magic weapon. When you hurl it and speak its command word, it transforms into a bolt of lightning, forming a line 5 feet wide that extends out from you to a target within 120 feet. Each creature in the line excluding you and the target must make a DC 13 Dexterity saving throw, taking {@damage 4d6} lightning damage on a failed save, and half as much damage on a successful one. The lightning bolt turns back into a javelin when it reaches the target. Make a ranged weapon attack against the target. On a hit, the target takes damage from the javelin plus {@damage 4d6} lightning damage.",
 				"The javelin's property can't be used again until the next dawn. In the meantime, the javelin can still be used as a magic weapon."
@@ -18909,6 +19077,7 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"weight": 2,
+			"value": 150000,
 			"entries": [
 				"While lit, this {@item hooded lantern|phb} burns for 6 hours on 1 pint of oil, shedding bright light in a 30-foot radius and dim light for an additional 30 feet. {@condition Invisible} creatures and objects are visible as long as they are in the lantern's bright light. You can use an action to lower the hood, reducing the light to dim light in a 5-foot radius."
 			],
@@ -19628,6 +19797,7 @@
 			"tier": "minor",
 			"rarity": "common",
 			"wondrous": true,
+			"value": 20000,
 			"entries": [
 				"This lock appears to be an ordinary lock (of the type described in chapter 5 of the Player's Handbook) and comes with a single key. The tumblers in this lock magically adjust to thwart burglars. Dexterity checks made to pick the lock have disadvantage."
 			]
@@ -20575,6 +20745,7 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"tattoo": true,
+			"value": 20000,
 			"entries": [
 				"Produced by a special needle, this magic tattoo appears on your body as whatever you desire.",
 				{
@@ -20836,6 +21007,7 @@
 			"weight": 1,
 			"recharge": "dawn",
 			"charges": 3,
+			"value": 78000,
 			"entries": [
 				"The medallion has 3 charges. While wearing it, you can use an action and expend 1 charge to cast the {@spell detect thoughts} spell (save DC 13) from it. The medallion regains {@dice 1d3} expended charges daily at dawn."
 			],
@@ -21636,6 +21808,7 @@
 			"tier": "minor",
 			"rarity": "common",
 			"wondrous": true,
+			"value": 35000,
 			"entries": [
 				"A question mark is worked into the head of this key. The key has a {@chance 5} chance of unlocking any lock into which it's inserted. Once it unlocks something, the key disappears."
 			]
@@ -21660,6 +21833,7 @@
 				"Druid",
 				"Ranger"
 			],
+			"value": 90000,
 			"entries": [
 				"This cloak shifts color and texture to blend with the terrain surrounding you. While wearing the cloak, you can use it as a spellcasting focus for your druid and ranger spells.",
 				"While you are in an area that is lightly obscured, you can {@action Hide} as a bonus action even if you are being directly observed."
@@ -21758,6 +21932,7 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"weight": 1,
+			"value": 125000,
 			"entries": [
 				"While wearing this necklace, you can breathe normally in any environment, and you have advantage on saving throws made against harmful gases and vapors (such as {@spell cloudkill} and {@spell stinking cloud} effects, inhaled poisons, and the breath weapons of some dragons)."
 			],
@@ -22503,6 +22678,7 @@
 			"rarity": "common",
 			"wondrous": true,
 			"weight": 3,
+			"value": 6000,
 			"entries": [
 				"While holding this orb, you can use an action to determine which way is north. This property functions only on the Material Plane."
 			],
@@ -22736,6 +22912,7 @@
 			"rarity": "common",
 			"wondrous": true,
 			"weight": 3,
+			"value": 7500,
 			"entries": [
 				"While holding this orb, you can use an action to determine whether it is morning, afternoon, evening, or nighttime outside. This property functions only on the Material Plane."
 			]
@@ -22993,6 +23170,7 @@
 			"focus": [
 				"Sorcerer"
 			],
+			"value": 240000,
 			"entries": [
 				"This flickering crystal holds the essence of an Outer Plane. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.",
 				"Roll a {@dice d4} and consult the Outer Essence Shards table to determine the shard's essence and property. When you use a Metamagic option on a spell while you are holding or wearing the shard, you can use that property.",
@@ -23419,6 +23597,7 @@
 				}
 			],
 			"wondrous": true,
+			"value": 249000,
 			"entries": [
 				"While this pearl is on your person, you can use an action to speak its command word and regain one expended spell slot. If the expended slot was of 4th level or higher, the new slot is 3rd level. Once you have used the pearl, it can't be used again until the next dawn."
 			],
@@ -23659,6 +23838,7 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"weight": 1,
+			"value": 120000,
 			"entries": [
 				"While you wear this pendant, you stabilize whenever you are dying at the start of your turn. In addition, whenever you roll a Hit Die to regain hit points, double the number of hit points it restores."
 			],
@@ -23772,6 +23952,7 @@
 			"tier": "minor",
 			"rarity": "common",
 			"wondrous": true,
+			"value": 800,
 			"entries": [
 				"While smoking this pipe, you can use an action to exhale a puff of smoke that takes the form of a single creature, such as a dragon, a flumph, or a froghemoth. The form must be small enough to fit in a 1-foot cube and loses its shape after a few seconds, becoming an ordinary puff of smoke."
 			],
@@ -23789,6 +23970,7 @@
 			"weight": 2,
 			"recharge": "dawn",
 			"charges": 3,
+			"value": 450000,
 			"entries": [
 				"You must be proficient with wind instruments to use these pipes. They have 3 charges. You can use an action to play them and expend 1 charge to create an eerie, spellbinding tune. Each creature within 30 feet of you that hears you play must succeed on a DC 15 Wisdom saving throw or become {@condition frightened} of you for 1 minute. If you wish, all creatures in the area that aren't hostile toward you automatically succeed on the saving throw. A creature that fails the saving throw can repeat it at the end of each of its turns, ending the effect on itself on a success. A creature that succeeds on its saving throw is immune to the effect of these pipes for 24 hours. The pipes regain {@dice 1d3} expended charges daily at dawn."
 			],
@@ -23810,6 +23992,7 @@
 			"weight": 2,
 			"recharge": "dawn",
 			"charges": 3,
+			"value": 75000,
 			"entries": [
 				"You must be proficient with wind instruments to use these pipes. While you are attuned to the pipes, ordinary rats and giant rats are indifferent toward you and will not attack you unless you threaten or harm them.",
 				"The pipes have 3 charges. If you play the pipes as an action, you can use a bonus action to expend 1 to 3 charges, calling forth one {@creature swarm of rats} with each expended charge, provided that enough rats are within half a mile of you to be called in this fashion (as determined by the DM). If there aren't enough rats to form a swarm, the charge is wasted. Called swarms move toward the music by the shortest available route but aren't under your control otherwise. The pipes regain {@dice 1d3} expended charges daily at dawn.",
@@ -24213,6 +24396,7 @@
 			"tier": "minor",
 			"rarity": "common",
 			"wondrous": true,
+			"value": 1200,
 			"entries": [
 				"While holding this 10-foot pole, you can speak a command word and transform it into a fishing pole with a hook, a line, and a reel. Speaking the command word again changes the fishing pole back into a normal 10-foot pole."
 			]
@@ -24224,6 +24408,7 @@
 			"tier": "minor",
 			"rarity": "common",
 			"wondrous": true,
+			"value": 1000,
 			"entries": [
 				"While holding this 10-foot pole, you can use an action to speak a command word and cause it to collapse into a 1-foot-long rod, for ease of storage. The pole's weight doesn't change. You can use an action to speak a different command word and cause the rod to revert to a pole; however, the rod will elongate only as far as the surrounding space allows."
 			],
@@ -24317,6 +24502,7 @@
 			"tier": "minor",
 			"rarity": "common",
 			"wondrous": true,
+			"value": 6000,
 			"entries": [
 				"If you plant an ordinary shrub in this 10-pound clay pot and let it grow for 30 days, the shrub magically transforms into an {@creature awakened shrub} at the end of that time. When the shrub awakens, its roots break the pot, destroying it.",
 				"The awakened shrub is friendly toward you. Absent commands from you, it does nothing."
@@ -25957,6 +26143,7 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"weight": 2,
+			"value": 37500,
 			"entries": [
 				"Each of the quiver's three compartments connects to an extradimensional space that allows the quiver to hold numerous items while never weighing more than 2 pounds. The shortest compartment can hold up to sixty {@item arrow|phb|arrows}, {@item crossbow bolt|phb|bolts}, or similar objects. The midsize compartment holds up to eighteen {@item javelin|phb|javelins} or similar objects. The longest compartment holds up to six long objects, such as bows, {@item quarterstaff|phb|quarterstaffs}, or {@item spear|phb|spears}.",
 				"You can draw any item the quiver contains as if doing so from a regular quiver or scabbard."
@@ -26331,6 +26518,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
+			"value": 415000,
 			"entries": [
 				"{#itemEntry Ring of Resistance}"
 			]
@@ -26389,6 +26577,7 @@
 			"rarity": "rare",
 			"recharge": "dawn",
 			"charges": 3,
+			"value": 150000,
 			"entries": [
 				"This ring has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing the ring, you can use an action to expend 1 of its charges to cast one of the following spells:",
 				{
@@ -26425,6 +26614,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
+			"value": 415000,
 			"entries": [
 				"{#itemEntry Ring of Resistance}"
 			]
@@ -26515,6 +26705,7 @@
 			"tier": "major",
 			"rarity": "rare",
 			"reqAttune": true,
+			"value": 98000,
 			"entries": [
 				"When you fall while wearing this ring, you descend 60 feet per round and take no damage from falling."
 			],
@@ -26578,6 +26769,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
+			"value": 415000,
 			"entries": [
 				"{#itemEntry Ring of Resistance}"
 			]
@@ -26644,6 +26836,7 @@
 			"tier": "major",
 			"rarity": "uncommon",
 			"reqAttune": true,
+			"value": 60000,
 			"entries": [
 				"While wearing this ring, you can cast the {@spell jump} spell from it as a bonus action at will, but can target only yourself when you do so."
 			],
@@ -26669,6 +26862,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
+			"value": 415000,
 			"entries": [
 				"{#itemEntry Ring of Resistance}"
 			]
@@ -26682,6 +26876,7 @@
 			"tier": "major",
 			"rarity": "uncommon",
 			"reqAttune": true,
+			"value": 180000,
 			"entries": [
 				"While wearing this ring, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it.",
 				"You can use an action to cause the ring to become {@condition invisible} until you use another action to make it visible, until you remove the ring, or until you die.",
@@ -26743,6 +26938,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
+			"value": 415000,
 			"entries": [
 				"{#itemEntry Ring of Resistance}"
 			]
@@ -26759,6 +26955,7 @@
 			"reqAttune": true,
 			"bonusAc": "+1",
 			"bonusSavingThrow": "+1",
+			"value": 300000,
 			"entries": [
 				"You gain a +1 bonus to AC and saving throws while wearing this ring."
 			],
@@ -26973,6 +27170,7 @@
 					"swim": 40
 				}
 			},
+			"value": 80000,
 			"entries": [
 				"You have a swimming speed of 40 feet while wearing this ring."
 			],
@@ -27022,6 +27220,7 @@
 			"reqAttune": true,
 			"recharge": "dawn",
 			"charges": 3,
+			"value": 350000,
 			"entries": [
 				"This ring has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. While wearing the ring, you can use an action to expend 1 to 3 of its charges to make a ranged spell attack against one creature you can see within 60 feet of you. The ring produces a spectral ram's head and makes its attack roll with a +7 bonus. On a hit, for each charge you spend, the target takes {@damage 2d10} force damage and is pushed 5 feet away from you.",
 				"Alternatively, you can expend 1 to 3 of the ring's charges as an action to try to break an object you can see within 60 feet of you that isn't being worn or carried. The ring makes a Strength check with a +5 bonus for each charge you spend."
@@ -27065,6 +27264,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
+			"value": 415000,
 			"entries": [
 				"{#itemEntry Ring of Resistance}"
 			]
@@ -27092,6 +27292,7 @@
 			"tier": "major",
 			"rarity": "uncommon",
 			"reqAttune": true,
+			"value": 420000,
 			"entries": [
 				"While wearing this ring, you have resistance to cold damage. In addition, you and everything you wear and carry are unharmed by temperatures as low as -50 degrees Fahrenheit."
 			],
@@ -27143,6 +27344,7 @@
 			"type": "RG",
 			"tier": "major",
 			"rarity": "uncommon",
+			"value": 80000,
 			"entries": [
 				"While wearing this ring, you can stand on and move across any liquid surface as if it were solid ground."
 			],
@@ -27247,6 +27449,7 @@
 			"tier": "major",
 			"rarity": "rare",
 			"reqAttune": true,
+			"value": 400000,
 			"entries": [
 				"While wearing this ring, you can use an action to speak its command word. When you do so, you can see into and through solid matter for 1 minute. This vision has a radius of 30 feet. To you, solid objects within that radius appear transparent and don't prevent light from passing through them. The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances block the vision, as does a thin sheet of lead.",
 				"Whenever you use the ring again before taking a long rest, you must succeed on a DC 15 Constitution saving throw or gain one level of {@condition exhaustion}."
@@ -27740,6 +27943,7 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"weight": 3,
+			"value": 31500,
 			"entries": [
 				"This 60-foot length of silk rope weighs 3 pounds and can hold up to 3,000 pounds. If you hold one end of the rope and use an action to speak the command word, the rope animates. As a bonus action, you can command the other end to move toward a destination you choose. That end moves 10 feet on your turn when you first command it and 10 feet on each of your turns until reaching its destination, up to its maximum length away, or until you tell it to stop. You can also tell the rope to fasten itself securely to an object or to unfasten itself, to knot or unknot itself, or to coil itself for carrying.",
 				"If you tell the rope to knot, large knots appear at 1-foot intervals along the rope. While knotted, the rope shortens to a 50-foot length and grants advantage on checks made to climb it.",
@@ -27776,6 +27980,7 @@
 			"tier": "minor",
 			"rarity": "common",
 			"wondrous": true,
+			"value": 9000,
 			"entries": [
 				"You can cut this 50-foot coil of hempen rope into any number of smaller pieces, and then use an action to speak a command word and cause the pieces to knit back together. The pieces must be in contact with each other and not otherwise in use. A rope of mending is forever shortened if a section of it is lost or destroyed."
 			]
@@ -27860,6 +28065,7 @@
 			],
 			"wondrous": true,
 			"focus": true,
+			"value": 6000,
 			"entries": [
 				"Etched with eldritch runes, this 1-inch-diameter ruby allows you to use a simple or martial weapon as a spellcasting focus for your spells. For this property to work, you must attach the ruby to the weapon by pressing the ruby against it for at least 10 minutes. Thereafter, the ruby can't be removed unless you detach it as an action or the weapon is destroyed. Not even an {@spell antimagic field} causes it to fall off. The ruby does fall off the weapon if your attunement to the ruby ends."
 			]
@@ -28197,6 +28403,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
+			"value": 25000,
 			"entries": [
 				"While in this saddle on a mount, you can't be dismounted against your will if you're conscious, and attack rolls against the mount have disadvantage."
 			],
@@ -28748,6 +28955,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
+			"value": 20000,
 			"entries": [
 				"Sending stones come in pairs, with each smooth stone carved to match the other so the pairing is easily recognized. While you touch one stone, you can use an action to cast the {@spell sending} spell from it. The target is the bearer of the other stone. If no creature bears the other stone, you know that fact as soon as you use the stone and don't cast the spell.",
 				"Once {@spell sending} is cast through the stones, they can't be used again until the next dawn. If one of the stones in a pair is destroyed, the other one becomes nonmagical."
@@ -28769,6 +28977,7 @@
 			"rarity": "uncommon",
 			"weight": 6,
 			"ac": 2,
+			"value": 72000,
 			"entries": [
 				"While holding this shield, you have advantage on initiative rolls and Wisdom ({@skill Perception}) checks. The shield is emblazoned with a symbol of an eye."
 			],
@@ -28835,6 +29044,7 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"tattoo": true,
+			"value": 400000,
 			"entries": [
 				"Produced by a special needle, this magic tattoo is dark in color and abstract.",
 				{
@@ -28877,6 +29087,7 @@
 			"focus": [
 				"Sorcerer"
 			],
+			"value": 240000,
 			"entries": [
 				"This dull, cold crystal sits heavy and leaden, saturated by the Shadowfell's despair. As an action, you can attach the shard to a Tiny object (such as a weapon or a piece of jewelry) or detach it. It falls off if your attunement to it ends. You can use the shard as a spellcasting focus while you hold or wear it.",
 				"When you use a Metamagic option on a spell while you are holding or wearing the shard, you can momentarily curse one creature targeted by the spell; choose one ability score, and until the end of your next turn, the creature has disadvantage on ability checks and saving throws that use that ability."
@@ -29112,6 +29323,7 @@
 			"rarity": "common",
 			"weight": 6,
 			"ac": 2,
+			"value": 2000,
 			"entries": [
 				"The front of this shield is shaped in the likeness of a face. While bearing the shield, you can use a bonus action to alter the face's expression."
 			]
@@ -29854,6 +30066,7 @@
 					"climb": "walk"
 				}
 			},
+			"value": 30000,
 			"entries": [
 				"While you wear these light shoes, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. You have a climbing speed equal to your walking speed. However, the slippers don't allow you to move this way on a slippery surface, such as one covered by ice or oil."
 			],
@@ -30923,6 +31136,7 @@
 			"dmgType": "B",
 			"dmg2": "1d8",
 			"staff": true,
+			"value": 1500,
 			"entries": [
 				"If you place an object weighing no more than 1 pound (such as a shard of crystal, an egg, or a stone) above the tip of the staff while holding it, the object floats an inch from the staff's tip and remains there until it is removed or until the staff is no longer in your possession. The staff can have up to three such objects floating over its tip at any given time. While holding the staff, you can make one or more of the objects slowly spin or turn in place."
 			]
@@ -30944,6 +31158,7 @@
 			"recharge": "dawn",
 			"charges": 10,
 			"staff": true,
+			"value": 2500,
 			"entries": [
 				"This wooden staff is decorated with bird carvings. It has 10 charges. While holding it, you can use an action to expend 1 charge from the staff and cause it to create one of the following sounds out to a range of 60 feet: a finch's chirp, a raven's caw, a duck's quack, a chicken's cluck, a goose's honk, a loon's call, a turkey's gobble, a seagull's cry, an owl's hoot, or an eagle's shriek.",
 				"The staff regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the staff explodes in a harmless cloud of bird feathers and is lost forever."
@@ -30986,6 +31201,7 @@
 			"dmgType": "B",
 			"dmg2": "1d8",
 			"staff": true,
+			"value": 260000,
 			"entries": [
 				"While holding this staff, you can use an action to expend 1 of its 10 charges to cast {@spell charm person}, {@spell command}, or {@spell comprehend languages} from it using your spell save DC. The staff can also be used as a magic quarterstaff.",
 				"If you are holding the staff and fail a saving throw against an enchantment spell that targets only you, you can turn your failed save into a successful one. You can't use this property of the staff again until the next dawn. If you succeed on a save against an enchantment spell that targets only you, with or without the staff's intervention, you can use your reaction to expend 1 charge from the staff and turn the spell back on its caster as if you had cast the spell.",
@@ -31171,6 +31387,7 @@
 			"recharge": "dawn",
 			"charges": 10,
 			"staff": true,
+			"value": 2000,
 			"entries": [
 				"This wooden staff has 10 charges. While holding it, you can use an action to expend 1 charge from the staff and cause a flower to sprout from a patch of earth or soil within 5 feet of you, or from the staff itself. Unless you choose a specific kind of flower, the staff creates a mildscented daisy. The flower is harmless and nonmagical, and it grows or withers as a normal flower would. The staff regains {@dice 1d6 + 4} expended charges daily at dawn. If you expend the last charge, roll a {@dice d20}. On a 1, the staff turns into flower petals and is lost forever."
 			]
@@ -31492,6 +31709,7 @@
 			"dmgType": "B",
 			"dmg2": "1d8",
 			"staff": true,
+			"value": 125000,
 			"entries": [
 				"You can use a bonus action to speak this staff's command word and make the head of the staff become that of an animate poisonous snake for 1 minute. By using another bonus action to speak the command word again, you return the staff to its normal inanimate form.",
 				"You can make a melee attack using the snake head, which has a reach of 5 feet. Your proficiency bonus applies to the attack roll. On a hit, the target takes {@damage 1d6} piercing damage and must succeed on a DC 15 Constitution saving throw or take {@damage 3d6} poison damage.",
@@ -31735,6 +31953,7 @@
 			"dmgType": "B",
 			"dmg2": "1d8",
 			"staff": true,
+			"value": 420000,
 			"entries": [
 				"You can use an action to speak this staff's command word and throw the staff on the ground within 10 feet of you. The staff becomes a {@creature giant constrictor snake} under your control and acts on its own initiative count. By using a bonus action to speak the command word again, you return the staff to its normal form in a space formerly occupied by the snake.",
 				"On your turn, you can mentally command the snake if it is within 60 feet of you and you aren't {@condition incapacitated}. You decide what action the snake takes and where it moves during its next turn, or you can issue it a general command, such as to attack your enemies or guard a location.",
@@ -31896,6 +32115,7 @@
 			"recharge": "dawn",
 			"charges": 3,
 			"staff": true,
+			"value": 245000,
 			"entries": [
 				"This staff has 3 charges and regains {@dice 1d3} expended charges daily at dawn.",
 				"The staff can be wielded as a magic quarterstaff. On a hit, it deals damage as a normal quarterstaff, and you can expend 1 charge to deal an extra {@damage 2d10} necrotic damage to the target. In addition, the target must succeed on a DC 15 Constitution saving throw or have disadvantage for 1 hour on any ability check or saving throw that uses Strength or Constitution."
@@ -32256,6 +32476,7 @@
 			"wondrous": true,
 			"bonusSavingThrow": "+1",
 			"bonusAbilityCheck": "+1",
+			"value": 320000,
 			"entries": [
 				"While this polished agate is on your person, you gain a +1 bonus to ability checks and saving throws."
 			],
@@ -33354,6 +33575,7 @@
 			"rarity": "common",
 			"reqAttune": true,
 			"wondrous": true,
+			"value": 1800,
 			"entries": [
 				"While this stuffed doll is within 5 feet of you, you can spend a short rest telling it to say up to six phrases, none of which can be more than six words long, and set an observable condition under which the doll speaks each phrase. You can also replace old phrases with new ones. Whatever the condition, it must occur within 5 feet of the doll to make it speak. For example, whenever someone picks up the doll, it might say, \"I want a piece of candy.\" The doll's phrases are lost when your attunement to the doll ends."
 			],
@@ -33400,6 +33622,7 @@
 			"tier": "minor",
 			"rarity": "common",
 			"wondrous": true,
+			"value": 5000,
 			"entries": [
 				"This tankard has a stern face sculpted into one side. You can drink ale, wine, or any other nonmagical alcoholic beverage poured into it without becoming inebriated. The tankard has no effect on magical liquids or harmful substances such as poison."
 			]
@@ -35144,6 +35367,7 @@
 			"dmg2": "1d8",
 			"recharge": "dawn",
 			"charges": 3,
+			"value": 20500,
 			"entries": [
 				"This trident is a magic weapon. It has 3 charges. While you carry it, you can use an action and expend 1 charge to cast {@spell dominate beast} (save DC 15) from it on a beast that has an innate swimming speed. The trident regains {@dice 1d3} expended charges daily at dawn."
 			],
@@ -36933,6 +37157,7 @@
 			"tier": "minor",
 			"rarity": "common",
 			"wondrous": true,
+			"value": 16500,
 			"entries": [
 				"When you grasp this walking cane and use a bonus action to speak the command word, it transforms into an ordinary longsword and ceases to be magical."
 			]
@@ -37187,6 +37412,7 @@
 			"weight": 1,
 			"recharge": "dawn",
 			"charges": 7,
+			"value": 415000,
 			"entries": [
 				"This wand has 7 charges for the following properties. It regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed.",
 				{
@@ -37223,6 +37449,7 @@
 			"weight": 1,
 			"recharge": "dawn",
 			"charges": 3,
+			"value": 4000,
 			"entries": [
 				"This wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and create orchestral music by waving it around. The music can be heard out to a range of 60 feet and ends when you stop waving the wand.",
 				"The wand regains all expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, a sad tuba sound plays as the wand crumbles to dust and is destroyed."
@@ -37240,6 +37467,7 @@
 			"weight": 1,
 			"recharge": "dawn",
 			"charges": 7,
+			"value": 280000,
 			"entries": [
 				"This wand has 7 charges. While holding it, you can use an action and expend 1 charge to speak its command word. For the next minute, you know the direction of the nearest creature hostile to you within 60 feet, but not its distance from you. The wand can sense the presence of hostile creatures that are ethereal, {@condition invisible}, disguised, or hidden, as well as those in plain sight. The effect ends if you stop holding the wand.",
 				"The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed."
@@ -37379,6 +37607,7 @@
 			"weight": 1,
 			"recharge": "dawn",
 			"charges": 3,
+			"value": 60000,
 			"entries": [
 				"This wand has 3 charges. While holding it, you can expend 1 charge as an action to cast the {@spell detect magic} spell from it. The wand regains {@dice 1d3} expended charges daily at dawn."
 			],
@@ -37402,6 +37631,7 @@
 			"weight": 1,
 			"recharge": "dawn",
 			"charges": 7,
+			"value": 248000,
 			"entries": [
 				"This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell magic missile} spell from it. For 1 charge, you cast the 1st-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.",
 				"The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed."
@@ -37576,6 +37806,7 @@
 			"weight": 1,
 			"recharge": "dawn",
 			"charges": 7,
+			"value": 9000,
 			"entries": [
 				"This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges and create a harmless burst of multicolored light at a point you can see up to 60 feet away. The burst of light is accompanied by a crackling noise that can be heard up to 300 feet away. The light is as bright as a torch flame but lasts only a second.",
 				"The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand erupts in a harmless pyrotechnic display and is destroyed."
@@ -37591,6 +37822,7 @@
 			"weight": 1,
 			"recharge": "dawn",
 			"charges": 3,
+			"value": 3500,
 			"entries": [
 				"This wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and target a humanoid you can see within 30 feet of you. The target must succeed on a DC 10 Charisma saving throw or be forced to scowl for 1 minute.",
 				"The wand regains all expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand transforms into a {@item wand of smiles|xge}."
@@ -37607,6 +37839,7 @@
 			"weight": 1,
 			"recharge": "dawn",
 			"charges": 3,
+			"value": 66000,
 			"entries": [
 				"The wand has 3 charges. While holding it, you can use an action to expend 1 of its charges, and if a secret door or trap is within 30 feet of you, the wand pulses and points at the one nearest to you. The wand regains {@dice 1d3} expended charges daily at dawn."
 			],
@@ -37625,6 +37858,7 @@
 			"weight": 1,
 			"recharge": "dawn",
 			"charges": 3,
+			"value": 3500,
 			"entries": [
 				"This wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and target a humanoid you can see within 30 feet of you. The target must succeed on a DC 10 Charisma saving throw or be forced to smile for 1 minute.",
 				"The wand regains all expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand transforms into a {@item wand of scowls|xge}."
@@ -37664,6 +37898,7 @@
 			"weight": 1,
 			"recharge": "dawn",
 			"charges": 7,
+			"value": 235000,
 			"entries": [
 				"This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the {@spell web} spell (save DC 15) from it.",
 				"The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed."
@@ -37714,6 +37949,7 @@
 			"weight": 1,
 			"recharge": "dawn",
 			"charges": 7,
+			"value": 125000,
 			"entries": [
 				"This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges and choose a target within 120 feet of you. The target can be a creature, an object, or a point in space. Roll {@dice d100} and consult the following table to discover what happens.",
 				"If the effect causes you to cast a spell from the wand, the spell's save DC is 15. If the spell normally has a range expressed in feet, its range becomes 120 feet if it isn't already.",
@@ -38714,6 +38950,7 @@
 			"tier": "major",
 			"rarity": "uncommon",
 			"wondrous": true,
+			"value": 25000,
 			"entries": [
 				"While holding this fan, you can use an action to cast the {@spell gust of wind} spell (save DC 13) from it. Once used, the fan shouldn't be used again until the next dawn. Each time it is used again before then, it has a cumulative {@chance 20} chance of not working and tearing into useless, nonmagical tatters."
 			],
@@ -38801,6 +39038,7 @@
 					"fly": "walk"
 				}
 			},
+			"value": 172500,
 			"entries": [
 				"While you wear these boots, you have a flying speed equal to your walking speed. You can use the boots to fly for up to 4 hours, all at once or in several shorter flights, each one using a minimum of 1 minute from the duration. If you are flying when the duration expires, you descend at a rate of 30 feet per round until you land.",
 				"The boots regain 2 hours of flying capability for every 12 hours they aren't in use."
@@ -39622,6 +39860,7 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"weight": 0.5,
+			"value": 240000,
 			"items": [
 				"Bag of Tricks, Gray",
 				"Bag of Tricks, Rust",

@@ -524,6 +524,7 @@
 			"rarity": "common",
 			"type": "HW",
 			"wondrous": true,
+			"value": 15000,
 			"entries": [
 				"A plate helm adorned with small bird-like wings on its sides and a visor covering the face that can be raised or lowered to cover or uncover the wearer’s face.",
 				"The helm has 3 charges. While the visor is lowered, the user can use an action to cast the Message spell.",
@@ -549,6 +550,7 @@
 			"type": "G",
 			"baseItem": "manacles|phb",
 			"wondrous": true,
+			"value": 165000,
 			"entries": [
 				"A creature cuffed with these manacles is incapable of casting spells until they are removed or destroyed. They have 20 hit points, AC 19, and they are immune to magical damage and resistant to all other damage. Escaping them, breaking them, or picking the lock all have a DC of 25. They also come with a key, which can be used to unlock them as an action."
 			]
@@ -560,6 +562,7 @@
 			"rarity": "uncommon",
 			"type": "FW",
 			"wondrous": true,
+			"value": 200000,
 			"entries": [
 				"While attuned to this item and wearing it on your feet, you can take the Dash or Disengage actions as a bonus action."
 			],
@@ -571,6 +574,7 @@
 			"page": 0,
 			"rarity": "uncommon",
 			"wondrous": true,
+			"value": 30000,
 			"entries": [
 				"This whetstone visibly emanates an elemental energy when touched by a creature attuned to it: for example, a lightning-charged whestone may emit visible (but harmless) sparks or lightning arcs along its surface when held. A charged whetstone is infused with an element granting damage of one of the following types: acid, cold, fire, lightning, thunder.",
 				"You can use a bonus action to run the whetstone along a weapon (even a wooden or ranged one). Doing so causes attacks made with that weapon do deal 1d4 additional damage of the item's damage type on every hit for 1 minute.",
@@ -586,6 +590,7 @@
 			"rarity": "uncommon",
 			"type": "NW",
 			"wondrous": true,
+			"value": 200000,
 			"entries": [
 				"This lavish bejeweled choker fills you with confidence and determination when attuned to and worn. Your Charisma score is 19 while you wear this choker. It has no effect on you if your Charisma is already 19 or higher."
 			],
@@ -604,6 +609,7 @@
 			"type": "T",
 			"baseItem": "navigator's tools|phb",
 			"wondrous": true,
+			"value": 160000,
 			"entries": [
 				"This item can be used as part of a set of navigator's tools.",
 				"As an action, a creature proficient with navigator's tools can use this item's magical leanings to know the exact distance to the nearest shore in a direction of its choice."
@@ -616,6 +622,7 @@
 			"rarity": "uncommon",
 			"type": "PRO",
 			"wondrous": true,
+			"value": 83500,
 			"entries": [
 				"This artificial eye replaces a real one that was lost or removed. While the ersatz eye is embedded in your eye socket, it can't be removed by anyone other than you, and you can see through the tiny orb as though it were a normal eye.",
 				"While within your eye socket and attuned to, you remain aware of your visual surroundings even while sleeping. You also have advantage on Wisdom (Perception) checks that rely on sight, and you cannot be surprised."
@@ -628,6 +635,7 @@
 			"page": 0,
 			"rarity": "uncommon",
 			"wondrous": true,
+			"value": 12000,
 			"entries": [
 				"A magic cup, or sometimes a mug or other fluid container.",
 				"While upright, the magic cup automatically keeps itself full with whichever non-magical beverage the creature holding it desires. The fluid magically changes if the creature's desire changes. When tipped over, the cup dries up, and nothing spills out.",
@@ -641,6 +649,7 @@
 			"rarity": "uncommon",
 			"type": "HNDW",
 			"wondrous": true,
+			"value": 61500,
 			"entries": [
 				"While wearing these gauntlets, you can cast mage hand at will, and the spectral hand you summon is invisible.",
 				"You can also use either gauntlet to grapple a creature from a distance of up to 30 feet. You can use each gauntlet to grapple a different creature, though not in place of the same attack. Grappling this way works as normal in all other regards."
@@ -658,6 +667,7 @@
 			"type": "HNDW",
 			"baseItem": "smith's tools|phb",
 			"wondrous": true,
+			"value": 61500,
 			"entries": [
 				"Despite looking somewhat heavy, when you wear these fingered gauntlets you feel your hands become stronger and more dextrous while smithing, moving with ease. The wearer gets +1 bonus to ability checks relating to using the smith’s tools.",
 				"Created by Tiago Neves."
@@ -669,6 +679,7 @@
 			"page": 0,
 			"rarity": "uncommon",
 			"wondrous": true,
+			"value": 86000,
 			"entries": [
 				"This large black sphere seems to absorb all light and not reflect so much as a glint, causing it to look like a flat circle from any angle. It feels warm to the touch.",
 				"As an action, you can speak its command word and cause it to absorb all natural light within 60 feet of it, causing natural darkness in that area that moves with it. You can stop this at any time by speaking its command word again as an action."
@@ -682,6 +693,7 @@
 			"type": "T",
 			"baseItem": "thieves' tools|phb",
 			"wondrous": true,
+			"value": 140000,
 			"entries": [
 				"This item can be used as part of a set of thieves' tools, has 4 charges, and can only be used by a creature proficient with thieves' tools.",
 				"A creature proficient with thieves' tools can spend 1 charge to cast knock, or 1 charge to use it as a wand of secrets: if a secret door or trap is within 30 feet of it, the lockpick pulses and points at the one nearest to it. ",
@@ -710,6 +722,7 @@
 			"net": true,
 			"weapon": true,
 			"baseItem": "net|phb",
+			"value": 35000,
 			"entries": [
 				"When you make an attack roll with this weapon against a creature that is currently flying, you have advantage on the attack roll, and its range is extended to 30/60. Such a creature, if hit, safely descends to the ground at a rate of 60 feet per turn as long as it remains restrained by the net. Additionally, this net has an increased DC of 13 for Strength checks made to free a creature restrained by it, and it cannot be destroyed by normal attacks.",
 				{
@@ -727,6 +740,7 @@
 			"page": 0,
 			"rarity": "uncommon",
 			"type": "RD",
+			"value": 270000,
 			"entries": [
 				"This rod has 5 charges. The rod recovers {@dice 1d4 + 1} charges daily at dawn. You can spend them to cause the following effects:",
 				{
@@ -760,6 +774,7 @@
 			"page": 0,
 			"rarity": "uncommon",
 			"type": "RD",
+			"value": 210000,
 			"entries": [
 				"This rod has 5 charges. You can spend any number of charges from it to cast {@spell hunter's mark} at a level equal to the number of charges spent.",
 				"The rod recovers {@dice 1d4 + 1} charges daily at dawn."
@@ -837,6 +852,7 @@
 			"hammer": true,
 			"weapon": true,
 			"baseItem": "light hammer",
+			"value": 196000,
 			"entries": [
 				"You can use an action to throw this hammer in a circle around you. It orbits you at a fixed distance of your choice up to 20 feet, and moves with you if you move. Whenever a creature enters a space at that distance from you or starts its turn on it, it must succeed on a Dexterity saving throw against a DC equal to 8 + your attack bonus with the hammer, or take {@damage 1d4} bludgeoning damage."
 			]
@@ -877,6 +893,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
+			"value": 376000,
 			"entries": [
 				"{#itemEntry Cloak of Resistance|stabbyitems}"
 			]
@@ -893,6 +910,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
+			"value": 376000,
 			"entries": [
 				"{#itemEntry Cloak of Resistance|stabbyitems}"
 			]
@@ -909,6 +927,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
+			"value": 376000,
 			"entries": [
 				"{#itemEntry Cloak of Resistance|stabbyitems}"
 			]
@@ -941,6 +960,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
+			"value": 376000,
 			"entries": [
 				"{#itemEntry Cloak of Resistance|stabbyitems}"
 			]
@@ -973,6 +993,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
+			"value": 376000,
 			"entries": [
 				"{#itemEntry Cloak of Resistance|stabbyitems}"
 			]
@@ -1021,6 +1042,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
+			"value": 376000,
 			"entries": [
 				"{#itemEntry Cloak of Resistance|stabbyitems}"
 			]
@@ -1044,6 +1066,7 @@
 			"rarity": "rare",
 			"wondrous": true,
 			"hasRefs": true,
+			"value": 104000,
 			"entries": [
 				"{#itemEntry Figurine of Wondrous Power|stabbyitems}",
 				"This aquamarine statuette is of a crouching toad. It can become a {@creature giant toad} for up to 8 hours. Once it has been used, it can't be used again until 5 days have passed."
@@ -1056,6 +1079,7 @@
 			"rarity": "rare",
 			"wondrous": true,
 			"hasRefs": true,
+			"value": 220000,
 			"entries": [
 				"{#itemEntry Figurine of Wondrous Power|stabbyitems}",
 				"This cobalt statuette is of a slick sea horse. It can become a {@creature giant sea horse} for as long as it remains underwater. Once it has been used, it can't be used again until 7 days have passed."
@@ -1311,6 +1335,7 @@
 			"page": 0,
 			"rarity": "rare",
 			"type": "RD",
+			"value": 450000,
 			"entries": [
 				"This rod can hold up to 20 charges.  As part of a short rest, you can hold the jagged rod against your chest to fuel it with your life force. You can spend any number of your hit dice, and the rod gains a number of charges equal to the result. You do not recover hit points from hit dice spent this way.",
 				"You can use the rod and expend its charges as an action to activate one of the following effects:",
@@ -2700,6 +2725,7 @@
 		{
 			"name": "Multiform Weapon",
 			"type": "GV",
+			"value": 28000,
 			"requires": [
 				{
 					"type": "M"
@@ -2713,6 +2739,7 @@
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "uncommon",
+				"value": 28000,
 				"entries": [
 					"You can change the shape of this weapon by thought as a bonus action, converting it into a simple or martial weapon of a different type of your choice, which retains this magical property."
 				]

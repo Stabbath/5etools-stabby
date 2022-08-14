@@ -53,6 +53,7 @@
 		{
 			"name": "+1 Shield (*)",
 			"type": "GV",
+			"value": 101000,
 			"requires": [
 				{
 					"type": "S"
@@ -70,6 +71,7 @@
 				"tier": "major",
 				"rarity": "uncommon",
 				"bonusAc": "+1",
+				"value": 101000,
 				"entries": [
 					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC."
 				]

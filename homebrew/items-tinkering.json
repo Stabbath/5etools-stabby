@@ -375,12 +375,24 @@
 			"name": "Prosthetic Limb, Medium",
 			"source": "stabbytinkering",
 			"page": 0,
-			"value": 30000,
+			"value": 24000,
 			"rarity": "common",
 			"type": "PRO",
 			"wondrous": true,
 			"entries": [
 				"Medium prosthetic limbs include, for example, hands and feet. When attached to an appropriate body part in place of an appropriate missing part, it locks onto the body and becomes functionally usable."
+			]
+		},
+		{
+			"name": "Prosthetic Limb, Large",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 36000,
+			"rarity": "common",
+			"type": "PRO",
+			"wondrous": true,
+			"entries": [
+				"Large prosthetic limbs include, for example, arms and legs. When attached to an appropriate body part in place of an appropriate missing part, it locks onto the body and becomes functionally usable."
 			]
 		},
 		{
