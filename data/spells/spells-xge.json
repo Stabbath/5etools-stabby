@@ -51,6 +51,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -126,6 +130,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
 					{
 						"name": "Druid",
 						"source": "PHB"
@@ -211,6 +219,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
 					{
 						"name": "Sorcerer",
 						"source": "PHB"
@@ -496,6 +508,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Bard",
 						"source": "PHB"
 					},
@@ -590,6 +606,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
 					{
 						"name": "Warlock",
 						"source": "PHB"
@@ -704,6 +724,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
 					{
 						"name": "Cleric",
 						"source": "PHB"
@@ -948,6 +972,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Bard",
 						"source": "PHB"
 					},
@@ -1031,6 +1059,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
 					{
 						"name": "Druid",
 						"source": "PHB"
@@ -1125,6 +1157,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Druid",
 						"source": "PHB"
 					},
@@ -1207,6 +1243,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
 					{
 						"name": "Druid",
 						"source": "PHB"
@@ -1569,6 +1609,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -1740,6 +1784,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Druid",
 						"source": "PHB"
 					},
@@ -1814,6 +1862,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
 					{
 						"name": "Bard",
 						"source": "PHB"
@@ -2045,6 +2097,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Bard",
 						"source": "PHB"
 					},
@@ -2125,6 +2181,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -2200,6 +2260,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
 					{
 						"name": "Druid",
 						"source": "PHB"
@@ -2480,6 +2544,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Druid",
 						"source": "PHB"
 					},
@@ -2660,6 +2728,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
 					{
 						"name": "Druid",
 						"source": "PHB"
@@ -3034,6 +3106,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -3180,6 +3256,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Druid",
 						"source": "PHB"
 					},
@@ -3268,6 +3348,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Druid",
 						"source": "PHB"
 					},
@@ -3355,6 +3439,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Druid",
 						"source": "PHB"
 					},
@@ -3440,6 +3528,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Druid",
 						"source": "PHB"
 					},
@@ -3523,6 +3615,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Druid",
 						"source": "PHB"
 					},
@@ -3584,6 +3680,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Wizard",
 						"source": "PHB"
 					}
@@ -3642,6 +3742,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
 					{
 						"name": "Cleric",
 						"source": "PHB"
@@ -3783,6 +3887,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Druid",
 						"source": "PHB"
 					}
@@ -3913,6 +4021,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
 					{
 						"name": "Bard",
 						"source": "PHB"
@@ -4135,6 +4247,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -4285,6 +4401,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -4367,6 +4487,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Druid",
 						"source": "PHB"
 					},
@@ -4430,6 +4554,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Warlock",
 						"source": "PHB"
 					},
@@ -4483,6 +4611,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
 					{
 						"name": "Sorcerer",
 						"source": "PHB"
@@ -4559,6 +4691,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Druid",
 						"source": "PHB"
 					}
@@ -4631,6 +4767,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Druid",
 						"source": "PHB"
 					}
@@ -4686,6 +4826,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
 					{
 						"name": "Bard",
 						"source": "PHB"
@@ -5047,6 +5191,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Druid",
 						"source": "PHB"
 					},
@@ -5121,6 +5269,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -5176,6 +5328,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
 					{
 						"name": "Bard",
 						"source": "PHB"
@@ -5503,6 +5659,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Warlock",
 						"source": "PHB"
 					},
@@ -5643,6 +5803,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
 					{
 						"name": "Sorcerer",
 						"source": "PHB"
@@ -5884,6 +6048,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
 					{
 						"name": "Bard",
 						"source": "PHB"
@@ -6187,6 +6355,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Bard",
 						"source": "PHB"
 					},
@@ -6269,6 +6441,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
 					{
 						"name": "Druid",
 						"source": "PHB"
@@ -6424,6 +6600,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
 					{
 						"name": "Cleric",
 						"source": "PHB"
@@ -6598,6 +6778,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
 					{
 						"name": "Sorcerer",
 						"source": "PHB"
@@ -6834,6 +7018,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Druid",
 						"source": "PHB"
 					},
@@ -6910,6 +7098,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
 					{
 						"name": "Bard",
 						"source": "PHB"
@@ -6992,6 +7184,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Druid",
 						"source": "PHB"
 					},
@@ -7073,6 +7269,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
 					{
 						"name": "Druid",
 						"source": "PHB"
@@ -7243,6 +7443,10 @@
 			],
 			"classes": {
 				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
 					{
 						"name": "Druid",
 						"source": "PHB"

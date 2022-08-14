@@ -520,6 +520,10 @@
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
 						"name": "Artificer",
 						"source": "TCE"
 					},
