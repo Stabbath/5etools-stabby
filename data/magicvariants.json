@@ -2906,7 +2906,7 @@
 					"type": "AF"
 				}
 			],
-			"value": "2.5 gp + base",
+			"value": 250,
 			"ammo": true,
 			"inherits": {
 				"namePrefix": "Walloping ",
@@ -2914,7 +2914,7 @@
 				"page": 139,
 				"tier": "minor",
 				"rarity": "common",
-				"valueExpression": "[[baseItem.value]] + 250",
+				"valueExpression": "[[baseItem.value]]*1.5 + 250",
 				"entries": [
 					" This ammunition packs a wallop. A creature hit by the ammunition must succeed on a DC 10 Strength saving throw or be knocked {@condition prone}."
 				]
