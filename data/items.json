@@ -3336,6 +3336,7 @@
 			"rarity": "rare",
 			"wondrous": true,
 			"weight": 0.0625,
+			"value": 175000,
 			"entries": [
 				"This small black sphere measures ¾ of an inch in diameter and weighs an ounce. Typically, {@dice 1d4 + 4} {@italic beads of force} are found together.",
 				"You can use an action to throw the bead up to 60 feet. The bead explodes on impact and is destroyed. Each creature within a 10-foot radius of where the bead landed must succeed on a DC 15 Dexterity saving throw or take {@damage 5d4} force damage. A sphere of transparent force then encloses the area for 1 minute. Any creature that failed the save and is completely within the area is trapped inside this sphere. Creatures that succeeded on the save, or are partially within the area, are pushed away from the center of the sphere until they are no longer inside it. Only breathable air can pass through the sphere's wall. No attack or other effect can.",
@@ -3351,6 +3352,7 @@
 			"page": 136,
 			"tier": "minor",
 			"rarity": "common",
+			"value": 500,
 			"wondrous": true,
 			"entries": [
 				"This spongy, flavorless, gelatinous bead dissolves on your tongue and provides as much nourishment as 1 day of rations."
@@ -3365,6 +3367,7 @@
 			"page": 136,
 			"tier": "minor",
 			"rarity": "common",
+			"value": 500,
 			"wondrous": true,
 			"entries": [
 				"This spongy, flavorless, gelatinous bead dissolves in liquid, transforming up to a pint of the liquid into fresh, cold drinking water. The bead has no effect on magical liquids or harmful substances such as poison."
@@ -5759,6 +5762,7 @@
 			"rarity": "very rare",
 			"reqAttune": true,
 			"wondrous": true,
+			"value": 3750000,
 			"entries": [
 				"This slender taper is dedicated to a deity and shares that deity's alignment. The candle's alignment can be detected with the {@spell detect evil and good} spell. The DM chooses the god and associated alignment or determines the alignment randomly.",
 				{
@@ -5828,6 +5832,7 @@
 			"page": 136,
 			"tier": "minor",
 			"rarity": "common",
+			"value": 250,
 			"wondrous": true,
 			"entries": [
 				"The flame of this candle is not extinguished when immersed in water. It gives off light and heat like a normal candle."
@@ -10694,6 +10699,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
+			"value": 40000,
 			"entries": [
 				"Found in a small packet, this powder resembles very fine sand. There is enough of it for one use. When you use an action to throw the dust into the air, you and each creature and object within 10 feet of you become {@condition invisible} for {@dice 2d4} minutes. The duration is the same for all subjects, and the dust is consumed when its magic takes effect. If a creature affected by the dust attacks or casts a spell, the invisibility ends for that creature."
 			],
@@ -10710,6 +10716,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
+			"value": 60000,
 			"entries": [
 				"This small packet contains {@dice 1d6 + 4} pinches of dust. You can use an action to sprinkle a pinch of it over water. The dust turns a cube of water 15 feet on a side into one marble-sized pellet, which floats or rests near where the dust was sprinkled. The pellet's weight is negligible.",
 				"Someone can use an action to smash the pellet against a hard surface, causing the pellet to shatter and release the water the dust absorbed. Doing so ends that pellet's magic.",
@@ -10727,6 +10734,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
+			"value": 120000,
 			"entries": [
 				"Found in a small container, this powder resembles very fine sand. It appears to be {@item dust of disappearance}, and an {@spell identify} spell reveals it to be such. There is enough of it for one use.",
 				"When you use an action to throw a handful of the dust into the air, you and each creature that needs to breathe within 30 feet of you must succeed on a DC 15 Constitution saving throw or become unable to breathe while sneezing uncontrollably. A creature affected in this way is {@condition incapacitated} and suffocating. As long as it is conscious, a creature can repeat the saving throw at the end of each of its turns, ending the effect on it on a success. The {@spell lesser restoration} spell can also end the effect on a creature."
@@ -10936,6 +10944,7 @@
 			"rarity": "very rare",
 			"wondrous": true,
 			"weight": 1,
+			"value": 4750000,
 			"entries": [
 				"This painted brass bottle weighs 1 pound. When you use an action to remove the stopper, a cloud of thick smoke flows out of the bottle. At the end of your turn, the smoke disappears with a flash of harmless fire, and an {@creature efreeti} appears in an unoccupied space within 30 feet of you.",
 				"The first time the bottle is opened, the DM rolls to determine what happens.",
@@ -11281,6 +11290,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
+			"value": 100000,
 			"entries": [
 				"This gem contains a mote of elemental energy. When you use an action to break the gem, an {@creature air elemental} is summoned as if you had cast the {@spell conjure elemental} spell, and the gem's magic is lost."
 			],
@@ -11296,6 +11306,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
+			"value": 100000,
 			"entries": [
 				"This gem contains a mote of elemental energy. When you use an action to break the gem, a {@creature water elemental} is summoned as if you had cast the {@spell conjure elemental} spell, and the gem's magic is lost."
 			],
@@ -11311,6 +11322,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
+			"value": 100000,
 			"entries": [
 				"This gem contains a mote of elemental energy. When you use an action to break the gem, a {@creature fire elemental} is summoned as if you had cast the {@spell conjure elemental} spell, and the gem's magic is lost."
 			],
@@ -11326,6 +11338,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
+			"value": 100000,
 			"entries": [
 				"This gem contains a mote of elemental energy. When you use an action to break the gem, an {@creature earth elemental} is summoned as if you had cast the {@spell conjure elemental} spell, and the gem's magic is lost."
 			],
@@ -11352,6 +11365,7 @@
 			"type": "P",
 			"tier": "minor",
 			"rarity": "rare",
+			"value": 100000,
 			"entries": [
 				"When you drink this potion, it cures any disease afflicting you, and it removes the {@condition blinded}, {@condition deafened}, {@condition paralyzed}, and {@condition poisoned} conditions. The clear red liquid has tiny bubbles of light in it."
 			],
@@ -15765,6 +15779,7 @@
 			"rarity": "rare",
 			"wondrous": true,
 			"weight": 2,
+			"value": 125000,
 			"entries": [
 				"You can use an action to speak the horn's command word and then blow the horn, which emits a thunderous blast in a 30-foot cone that is audible 600 feet away. Each creature in the cone must make a DC 15 Constitution saving throw. On a failed save, a creature takes {@damage 5d6} thunder damage and is {@condition deafened} for 1 minute. On a successful save, a creature takes half as much damage and isn't {@condition deafened}. Creatures and objects made of glass or crystal have disadvantage on the saving throw and take {@damage 10d6} thunder damage instead of {@dice 5d6}.",
 				"Each use of the horn's magic has a {@chance 20} chance of causing the horn to explode. The explosion deals {@damage 10d6} fire damage to the blower and destroys the horn."
@@ -17707,6 +17722,7 @@
 			"rarity": "rare",
 			"wondrous": true,
 			"weight": 1,
+			"value": 120000,
 			"entries": [
 				"This rusty iron sphere measures 3 inches in diameter and weighs 1 pound. You can use an action to speak the command word and throw the sphere at a Huge or smaller creature you can see within 60 feet of you. As the sphere moves through the air, it opens into a tangle of metal bands.",
 				"Make a ranged attack roll with an attack bonus equal to your Dexterity modifier plus your proficiency bonus. On a hit, the target is {@condition restrained} until you take a bonus action to speak the command word again to release it. Doing so, or missing with the attack, causes the bands to contract and become a sphere once more.",
@@ -20383,6 +20399,7 @@
 			"rarity": "very rare",
 			"wondrous": true,
 			"weight": 5,
+			"value": 1560000,
 			"entries": [
 				"This tome contains information and incantations necessary to make a particular type of golem. The DM chooses the type or determines it randomly. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can't use a manual of golems and attempts to read it takes {@damage 6d6} psychic damage.",
 				"To create a {@creature clay golem}, you must spend 30 days, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay 65,000 gp to purchase supplies. Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands."
@@ -20398,6 +20415,7 @@
 			"rarity": "very rare",
 			"wondrous": true,
 			"weight": 5,
+			"value": 1200000,
 			"entries": [
 				"This tome contains information and incantations necessary to make a particular type of golem. The DM chooses the type or determines it randomly. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can't use a manual of golems and attempts to read it takes {@damage 6d6} psychic damage.",
 				"To create a {@creature flesh golem}, you must spend 60 days, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay 50,000 gp to purchase supplies. Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands."
@@ -20433,6 +20451,7 @@
 			"rarity": "very rare",
 			"wondrous": true,
 			"weight": 5,
+			"value": 2400000,
 			"entries": [
 				"This tome contains information and incantations necessary to make a particular type of golem. The DM chooses the type or determines it randomly. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can't use a manual of golems and attempts to read it takes {@damage 6d6} psychic damage.",
 				"To create an {@creature iron golem}, you must spend 120 days, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay 100,000 gp to purchase supplies. Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands."
@@ -20468,6 +20487,7 @@
 			"rarity": "very rare",
 			"wondrous": true,
 			"weight": 5,
+			"value": 1920000,
 			"entries": [
 				"This tome contains information and incantations necessary to make a particular type of golem. The DM chooses the type or determines it randomly. To decipher and use the manual, you must be a spellcaster with at least two 5th-level spell slots. A creature that can't use a manual of golems and attempts to read it takes {@damage 6d6} psychic damage.",
 				"To create a {@creature stone golem}, you must spend 90 days, working without interruption with the manual at hand and resting no more than 8 hours per day. You must also pay 80,000 gp to purchase supplies. Once you finish creating the golem, the book is consumed in eldritch flames. The golem becomes animate when the ashes of the manual are sprinkled on it. It is under your control, and it understands and obeys your spoken commands."
@@ -22254,6 +22274,7 @@
 			"type": "P",
 			"tier": "minor",
 			"rarity": "rare",
+			"value": 275000,
 			"entries": [
 				"Beads of this cloudy gray oil form on the outside of its container and quickly evaporate. The oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of the {@spell etherealness} spell for 1 hour."
 			],
@@ -22273,6 +22294,7 @@
 			"tier": "minor",
 			"rarity": "very rare",
 			"bonusWeapon": "+3",
+			"value": 610000,
 			"entries": [
 				"This clear, gelatinous oil sparkles with tiny, ultrathin silver shards. The oil can coat one slashing or piercing weapon or up to 5 pieces of slashing or piercing ammunition. Applying the oil takes 1 minute. For 1 hour, the coated item is magical and has a +3 bonus to attack and damage rolls."
 			],
@@ -22288,6 +22310,7 @@
 			"type": "P",
 			"tier": "minor",
 			"rarity": "uncommon",
+			"value": 60000,
 			"entries": [
 				"This sticky black unguent is thick and heavy in the container, but it flows quickly when poured. The oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of a {@spell freedom of movement} spell for 8 hours.",
 				"Alternatively, the oil can be poured on the ground as an action, where it covers a 10-foot square, duplicating the effect of the {@spell grease} spell in that area for 8 hours."
@@ -23585,6 +23608,7 @@
 			"tier": "minor",
 			"rarity": "common",
 			"wondrous": true,
+			"value": 20000,
 			"entries": [
 				"This tiny vial contains magic perfume, enough for one use. You can use an action to apply the perfume to yourself, and its effect lasts 1 hour. For the duration, you have advantage on all Charisma checks directed at humanoids of challenge rating 1 or lower. Those subjected to the perfume's effect are not aware that they've been influenced by magic."
 			]
@@ -23691,6 +23715,7 @@
 			"type": "P",
 			"tier": "minor",
 			"rarity": "uncommon",
+			"value": 6000,
 			"entries": [
 				"The next time you see a creature within 10 minutes after drinking this philter, you become {@condition charmed} by that creature for 1 hour. If the creature is of a species and gender you are normally attracted to, you regard it as your true love while you are {@condition charmed}. This potion's rose-hued, effervescent liquid contains one easy-to-miss bubble shaped like a heart."
 			],
@@ -24309,6 +24334,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"hasRefs": true,
+			"value": 60000,
 			"entries": [
 				"{#itemEntry Potion of Resistance}"
 			]
@@ -24332,6 +24358,7 @@
 			"type": "P",
 			"tier": "minor",
 			"rarity": "uncommon",
+			"value": 18000,
 			"entries": [
 				"When you drink this potion, you can cast the {@spell animal friendship} spell (save DC 13) for 1 hour at will. Agitating this muddy liquid brings little bits into view: a fish scale, a hummingbird tongue, a cat claw, or a squirrel hair."
 			],
@@ -24387,6 +24414,7 @@
 			"type": "P",
 			"tier": "minor",
 			"rarity": "rare",
+			"value": 120000,
 			"entries": [
 				"When you drink this potion, you gain the effect of the {@spell clairvoyance} spell. An eyeball bobs in this yellowish liquid but vanishes when the potion is opened."
 			],
@@ -24405,6 +24433,7 @@
 			"type": "P",
 			"tier": "minor",
 			"rarity": "common",
+			"value": 3200,
 			"modifySpeed": {
 				"equal": {
 					"climb": "walk"
@@ -24430,6 +24459,7 @@
 					"str": 27
 				}
 			},
+			"value": 800000,
 			"entries": [
 				"When you drink this potion, your Strength score changes to 27 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.",
 				"This potion's transparent liquid has floating in it a sliver of fingernail from a {@creature cloud giant}."
@@ -24450,6 +24480,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"hasRefs": true,
+			"value": 60000,
 			"entries": [
 				"{#itemEntry Potion of Resistance}"
 			]
@@ -24472,6 +24503,7 @@
 			"type": "P",
 			"tier": "minor",
 			"rarity": "rare",
+			"value": 60000,
 			"entries": [
 				"When you drink this potion, you gain the \"reduce\" effect of the {@spell enlarge/reduce} spell for {@dice 1d4} hours (no concentration required). The red in the potion's liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process."
 			],
@@ -24499,6 +24531,7 @@
 			"type": "P",
 			"tier": "minor",
 			"rarity": "uncommon",
+			"value": 33000,
 			"entries": [
 				"After drinking this potion, you can use a bonus action to exhale fire at a target within 30 feet of you. The target must make a DC 13 Dexterity saving throw, taking {@damage 4d6} fire damage on a failed save, or half as much damage on a successful one. The effect ends after you exhale the fire three times or when 1 hour has passed. This potion's orange liquid flickers, and smoke fills the top of the container and wafts out whenever it is opened."
 			],
@@ -24519,6 +24552,7 @@
 					"str": 25
 				}
 			},
+			"value": 300000,
 			"entries": [
 				"When you drink this potion, your Strength score changes to 25 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.",
 				"This potion's transparent liquid has floating in it a sliver of fingernail from a {@creature fire giant}."
@@ -24539,6 +24573,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"hasRefs": true,
+			"value": 60000,
 			"entries": [
 				"{#itemEntry Potion of Resistance}"
 			]
@@ -24557,6 +24592,7 @@
 					"fly": "walk"
 				}
 			},
+			"value": 90000,
 			"entries": [
 				"When you drink this potion, you gain a flying speed equal to your walking speed for 1 hour and can hover. If you're in the air when the potion wears off, you fall unless you have some other means of staying aloft. This potion's clear liquid floats at the top of its container and has cloudy white impurities drifting in it."
 			],
@@ -24576,6 +24612,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"hasRefs": true,
+			"value": 80000,
 			"entries": [
 				"{#itemEntry Potion of Resistance}"
 			]
@@ -24593,6 +24630,7 @@
 					"str": 23
 				}
 			},
+			"value": 100000,
 			"entries": [
 				"When you drink this potion, your Strength score changes to 23 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.",
 				"This potion's transparent liquid has floating in it a sliver of fingernail from a {@creature frost giant}."
@@ -24609,6 +24647,7 @@
 			"type": "P",
 			"tier": "minor",
 			"rarity": "rare",
+			"value": 85000,
 			"entries": [
 				"When you drink this potion, you gain the effect of the {@spell gaseous form} spell for 1 hour (no concentration required) or until you end the effect as a bonus action. This potion's container seems to hold fog that moves and pours like water."
 			],
@@ -24639,6 +24678,7 @@
 			"type": "P",
 			"tier": "minor",
 			"rarity": "uncommon",
+			"value": 15000,
 			"entries": [
 				"You regain {@dice 4d4 + 4} hit points when you drink this potion. The potion's red liquid glimmers when agitated."
 			],
@@ -24655,6 +24695,7 @@
 			"type": "P",
 			"tier": "minor",
 			"rarity": "uncommon",
+			"value": 60000,
 			"entries": [
 				"When you drink this potion, you gain the \"enlarge\" effect of the {@spell enlarge/reduce} spell for {@dice 1d4} hours (no concentration required). The red in the potion's liquid continuously expands from a tiny bead to color the clear liquid around it and then contracts. Shaking the bottle fails to interrupt this process."
 			],
@@ -24696,6 +24737,7 @@
 			"type": "P",
 			"tier": "minor",
 			"rarity": "rare",
+			"value": 42000,
 			"entries": [
 				"For 1 hour after drinking it, you gain 10 temporary hit points that last for 1 hour. For the same duration, you are under the effect of the {@spell bless} spell (no concentration required). This blue potion bubbles and steams as if boiling."
 			],
@@ -24719,6 +24761,7 @@
 					"str": 21
 				}
 			},
+			"value": 40000,
 			"entries": [
 				"When you drink this potion, your Strength score changes to 21 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.",
 				"This potion's transparent liquid has floating in it a sliver of fingernail from a {@creature hill giant}."
@@ -24736,6 +24779,7 @@
 			"type": "P",
 			"tier": "minor",
 			"rarity": "very rare",
+			"value": 225000,
 			"entries": [
 				"This potion's container looks empty but feels as though it holds liquid. When you drink it, you become {@condition invisible} for 1 hour. Anything you wear or carry is {@condition invisible} with you. The effect ends early if you attack or cast a spell."
 			],
@@ -24765,6 +24809,7 @@
 			],
 			"tier": "minor",
 			"rarity": "rare",
+			"value": 700000,
 			"entries": [
 				"For 1 minute after you drink this potion, you have resistance to all damage. The potion's syrupy liquid looks like liquefied iron."
 			],
@@ -24784,6 +24829,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"hasRefs": true,
+			"value": 60000,
 			"entries": [
 				"{#itemEntry Potion of Resistance}"
 			]
@@ -24795,6 +24841,7 @@
 			"type": "P",
 			"tier": "minor",
 			"rarity": "very rare",
+			"value": 450000,
 			"entries": [
 				"When you drink this potion, your physical age is reduced by {@dice 1d6 + 6} years, to a minimum of 13 years. Each time you subsequently drink a potion of longevity, there is 10 percent cumulative chance that you instead age by {@dice 1d6 + 6} years. Suspended in this amber liquid are a scorpion's tail, an adder's fang, a dead spider, and a tiny heart that, against all reason, is still beating. These ingredients vanish when the potion is opened."
 			],
@@ -24863,6 +24910,7 @@
 			"type": "P",
 			"tier": "minor",
 			"rarity": "rare",
+			"value": 72000,
 			"entries": [
 				"When you drink this potion, you gain the effect of the {@spell detect thoughts} spell (save DC 13). The potion's dense, purple liquid has an ovoid cloud of pink floating in it."
 			],
@@ -24885,6 +24933,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"hasRefs": true,
+			"value": 80000,
 			"entries": [
 				"{#itemEntry Potion of Resistance}"
 			]
@@ -24897,6 +24946,7 @@
 			"type": "P",
 			"tier": "minor",
 			"rarity": "uncommon",
+			"value": 10000,
 			"entries": [
 				"This concoction looks, smells, and tastes like a {@item potion of healing} or other beneficial potion. However, it is actually poison masked by illusion magic. An {@spell identify} spell reveals its true nature.",
 				"If you drink it, you take {@damage 3d6} poison damage, and you must succeed on a DC 13 Constitution saving throw or be {@condition poisoned}. At the start of each of your turns while you are {@condition poisoned} in this way, you take {@damage 3d6} poison damage. At the end of each of your turns, you can repeat the saving throw. On a successful save, the poison damage you take on your subsequent turns decreases by {@dice 1d6}. The poison ends when the damage decreases to 0."
@@ -24917,6 +24967,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"hasRefs": true,
+			"value": 60000,
 			"entries": [
 				"{#itemEntry Potion of Resistance}"
 			]
@@ -24946,6 +24997,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"hasRefs": true,
+			"value": 80000,
 			"entries": [
 				"{#itemEntry Potion of Resistance}"
 			]
@@ -24962,6 +25014,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"hasRefs": true,
+			"value": 80000,
 			"entries": [
 				"{#itemEntry Potion of Resistance}"
 			]
@@ -24974,6 +25027,7 @@
 			"type": "P",
 			"tier": "minor",
 			"rarity": "very rare",
+			"value": 80000,
 			"entries": [
 				"When you drink this potion, you gain the effect of the {@spell haste} spell for 1 minute (no concentration required). The potion's yellow fluid is streaked with black and swirls on its own."
 			],
@@ -24997,6 +25051,7 @@
 					"str": 23
 				}
 			},
+			"value": 100000,
 			"entries": [
 				"When you drink this potion, your Strength score changes to 23 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.",
 				"This potion's transparent liquid has floating in it a sliver of fingernail from a {@creature stone giant}."
@@ -25018,6 +25073,7 @@
 					"str": 29
 				}
 			},
+			"value": 3000000,
 			"entries": [
 				"When you drink this potion, your Strength score changes to 29 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.",
 				"This potion's transparent liquid has floating in it a sliver of fingernail from a {@creature storm giant}."
@@ -25034,6 +25090,7 @@
 			"type": "P",
 			"tier": "minor",
 			"rarity": "rare",
+			"value": 50000,
 			"entries": [
 				"You regain {@dice 8d4 + 8} hit points when you drink this potion. The potion's red liquid glimmers when agitated."
 			],
@@ -25049,6 +25106,7 @@
 			"type": "P",
 			"tier": "minor",
 			"rarity": "very rare",
+			"value": 200000,
 			"entries": [
 				"You regain {@dice 10d4 + 20} hit points when you drink this potion. The potion's red liquid glimmers when agitated."
 			],
@@ -25069,6 +25127,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"hasRefs": true,
+			"value": 60000,
 			"entries": [
 				"{#itemEntry Potion of Resistance}"
 			]
@@ -25081,6 +25140,7 @@
 			"type": "P",
 			"tier": "minor",
 			"rarity": "very rare",
+			"value": 585000,
 			"entries": [
 				"When you drink this potion, it removes any {@condition exhaustion} you are suffering and cures any disease or poison affecting you. For the next 24 hours, you regain the maximum number of hit points for any Hit Die you spend. The potion's crimson liquid regularly pulses with dull light, calling to mind a heartbeat."
 			],
@@ -25106,6 +25166,7 @@
 			"type": "P",
 			"tier": "minor",
 			"rarity": "uncommon",
+			"value": 25000,
 			"entries": [
 				"You can breathe underwater for 1 hour after drinking this potion. Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it."
 			],
@@ -25723,6 +25784,7 @@
 			"tier": "minor",
 			"rarity": "rare",
 			"wondrous": true,
+			"value": 30000,
 			"entries": [
 				"This tiny object looks like a feather. Different types of feather tokens exist, each with a different single-use effect.",
 				{
@@ -25742,6 +25804,7 @@
 			"tier": "minor",
 			"rarity": "rare",
 			"wondrous": true,
+			"value": 180000,
 			"entries": [
 				"This tiny object looks like a feather. Different types of feather tokens exist, each with a different single-use effect.",
 				{
@@ -25761,6 +25824,7 @@
 			"tier": "minor",
 			"rarity": "rare",
 			"wondrous": true,
+			"value": 80000,
 			"entries": [
 				"This tiny object looks like a feather. Different types of feather tokens exist, each with a different single-use effect.",
 				{
@@ -25780,6 +25844,7 @@
 			"tier": "minor",
 			"rarity": "rare",
 			"wondrous": true,
+			"value": 120000,
 			"entries": [
 				"This tiny object looks like a feather. Different types of feather tokens exist, each with a different single-use effect.",
 				{
@@ -25799,6 +25864,7 @@
 			"tier": "minor",
 			"rarity": "rare",
 			"wondrous": true,
+			"value": 20000,
 			"entries": [
 				"This tiny object looks like a feather. Different types of feather tokens exist, each with a different single-use effect.",
 				{
@@ -25818,6 +25884,7 @@
 			"tier": "minor",
 			"rarity": "rare",
 			"wondrous": true,
+			"value": 60000,
 			"entries": [
 				"This tiny object looks like a feather. Different types of feather tokens exist, each with a different single-use effect.",
 				{
@@ -27691,6 +27758,7 @@
 			"rarity": "rare",
 			"wondrous": true,
 			"weight": 3,
+			"value": 60000,
 			"entries": [
 				"This rope is 30 feet long and weighs 3 pounds. If you hold one end of the rope and use an action to speak its command word, the other end darts forward to entangle a creature you can see within 20 feet of you. The target must succeed on a DC 15 Dexterity saving throw or become {@condition restrained}.",
 				"You can release the creature by using a bonus action to speak a second command word. A target {@condition restrained} by the rope can use an action to make a DC 15 Strength or Dexterity check (target's choice). On a success, the creature is no longer {@condition restrained} by the rope.",
@@ -30642,6 +30710,7 @@
 			"rarity": "common",
 			"wondrous": true,
 			"tattoo": true,
+			"value": 12000,
 			"entries": [
 				"Produced by a special needle, this magic tattoo contains a single {@filter 1st level spell|spells|level=1}, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin and speak the command word. The needle turns into ink that becomes the tattoo, which appears on the skin in whatever design you like. Once the tattoo is there, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.",
 				"The Ability modifier for this spell is +3; the Save DC is 13 and the attack bonus is +5."
@@ -30654,6 +30723,7 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"tattoo": true,
+			"value": 30000,
 			"entries": [
 				"Produced by a special needle, this magic tattoo contains a single {@filter 2nd level spell|spells|level=2}, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin and speak the command word. The needle turns into ink that becomes the tattoo, which appears on the skin in whatever design you like. Once the tattoo is there, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.",
 				"The Ability modifier for this spell is +3; the Save DC is 13 and the attack bonus is +5."
@@ -30666,6 +30736,7 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"tattoo": true,
+			"value": 51000,
 			"entries": [
 				"Produced by a special needle, this magic tattoo contains a single {@filter 3rd level spell|spells|level=3}, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin and speak the command word. The needle turns into ink that becomes the tattoo, which appears on the skin in whatever design you like. Once the tattoo is there, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.",
 				"The Ability modifier for this spell is +4; the Save DC is 15 and the attack bonus is +7."
@@ -30678,6 +30749,7 @@
 			"rarity": "rare",
 			"wondrous": true,
 			"tattoo": true,
+			"value": 84000,
 			"entries": [
 				"Produced by a special needle, this magic tattoo contains a single {@filter 4th level spell|spells|level=4}, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin and speak the command word. The needle turns into ink that becomes the tattoo, which appears on the skin in whatever design you like. Once the tattoo is there, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.",
 				"The Ability modifier for this spell is +4; the Save DC is 15 and the attack bonus is +7."
@@ -30690,6 +30762,7 @@
 			"rarity": "rare",
 			"wondrous": true,
 			"tattoo": true,
+			"value": 120000,
 			"entries": [
 				"Produced by a special needle, this magic tattoo contains a single {@filter 5th level spell|spells|level=5}, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin and speak the command word. The needle turns into ink that becomes the tattoo, which appears on the skin in whatever design you like. Once the tattoo is there, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell's duration. Once the spell ends, the tattoo vanishes from your skin.",
 				"The Ability modifier for this spell is +5; the Save DC is 17 and the attack bonus is +9."
@@ -30700,6 +30773,7 @@
 			"source": "TCE",
 			"page": 135,
 			"rarity": "common",
+			"value": 6000,
 			"wondrous": true,
 			"tattoo": true,
 			"entries": [
@@ -33214,6 +33288,7 @@
 			"weight": 1,
 			"bonusSpellAttack": "+2",
 			"charges": 7,
+			"value": 24000000,
 			"entries": [
 				"This talisman is a mighty symbol of goodness. A creature that is neither good nor evil in alignment takes {@damage 6d6} radiant damage upon touching the talisman. An evil creature takes {@damage 8d6} radiant damage upon touching the talisman. Either sort of creature takes the damage again each time it ends its turn holding or carrying the talisman.",
 				"If you are a good cleric or paladin, you can use the talisman as a holy symbol, and you gain a +2 bonus to spell attack rolls while you wear or hold it.",
@@ -33260,6 +33335,7 @@
 			"weight": 1,
 			"bonusSpellAttack": "+2",
 			"charges": 6,
+			"value": 240000,
 			"entries": [
 				"This item symbolizes unrepentant evil. A creature that is neither good nor evil in alignment takes {@damage 6d6} necrotic damage upon touching the talisman. A good creature takes {@damage 8d6} necrotic damage upon touching the talisman. Either sort of creature takes the damage again each time it ends its turn holding or carrying the talisman.",
 				"If you are an evil cleric or paladin, you can use the talisman as a holy symbol, and you gain a +2 bonus to spell attack rolls while you wear or hold it.",
@@ -36651,6 +36727,8 @@
 			"type": "A",
 			"tier": "minor",
 			"rarity": "common",
+			"baseItem": "arrow|phb",
+			"value": 100,
 			"entries": [
 				"This arrow can't be broken, except when it is within an {@spell antimagic field}."
 			],
@@ -36675,6 +36753,7 @@
 			"tier": "minor",
 			"rarity": "legendary",
 			"wondrous": true,
+			"value": 120000,
 			"entries": [
 				"This tube holds milky liquid with a strong alcohol smell. You can use an action to pour the contents of the tube onto a surface within reach. The liquid instantly dissolves up to 1 square foot of adhesive it touches, including {@item sovereign glue}."
 			],
@@ -39854,6 +39933,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
+			"value": 100000,
 			"items": [
 				"Elemental Gem, Blue Sapphire",
 				"Elemental Gem, Emerald",
