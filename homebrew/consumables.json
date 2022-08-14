@@ -45,6 +45,7 @@
 			"page": 0,
 			"type": "P",
 			"rarity": "common",
+			"value": 4000,
 			"entries": [
 				"This potion has a light-green hue and small torn herbs can be seen depositing at the bottom, or rising up only to fall back down slowly when the vial is shaken.",
 				"A creature drinking this potion becomes incapable of anger or emotional outburst for 1 hour."
@@ -56,6 +57,7 @@
 			"page": 0,
 			"type": "P",
 			"rarity": "common",
+			"value": 2500,
 			"entries": [
 				"This potion shifts in transparency and in tone between white and violet. It has a faint astral glitter to it, and miniature feathers can be seen floating in it when shaken.",
 				"A creature imbibing this potion and attempting to sleep within 1 hour of doing so succeeds even if a magical or physical effect would have normally prevented it from doing so. A creature starting a long rest within that period cannot be prevented from receiving the full benefits of that long rest unless it is interrupted and not continued to its full duration.",
@@ -68,6 +70,7 @@
 			"page": 0,
 			"wondrous": true,
 			"rarity": "uncommon",
+			"value": 95000,
 			"entries": [
 				"This cloth bag is taut and blown up like a balloon, with a string wrapped around the opening through small loops of fabric.",
 				"A full bag contains enough wind to last 1 hour. You can point the bag in a direction of your choosing and untie the string to unleash the winds stored within it as an action. When you do so, you cast a modified {@spell gust of wind} through the bag, requiring no concentration on your part, and lasting up to 1 hour. The direction of the gust is always the horizontal vector most closely aligned with the mouth of the bag. The area of effect of the spell is changed to a 120-feet cone, and you can choose to alter the effects of the spell, changing the strength level of the winds as an action by using the string to adjust the breadth of the bag opening.",
@@ -102,6 +105,7 @@
 			"page": 0,
 			"wondrous": true,
 			"rarity": "uncommon",
+			"value": 9000,
 			"entries": [
 				"This bottle is filled with dark grey smoke. You can use an action to throw it up to 60 feet. When it collides with something, it breaks and creates a cloud of smoke in a 15-foot radius around it. The smoke causes the area to be heavily obscured for 5 rounds, and lightly obscured for another 5 rounds afterwards, before fully dissipating."
 			]
@@ -112,6 +116,7 @@
 			"page": 0,
 			"type": "P",
 			"rarity": "uncommon",
+			"value": 28000,
 			"entries": [
 				"A vial with a creamy yellow liquid, which seems to have tiny leaves suspended in it. The drinker feels warmth radiating outward from his body after drinking it, which lasts for a brief while.",
 				"Drinking this potion reduces your Exhaustion level by one.",
@@ -125,6 +130,7 @@
 			"type": "P",
 			"rarity": "uncommon",
 			"charges": 3,
+			"value": 80000,
 			"entries": [
 				"This oil seems to be just barely boiling at all times, and its flask feels warm to the touch. This flask contains 3 doses.",
 				"You can apply 1 dose to a weapon or 10 pieces of ammunition over 1 minute, causing all non-magical bludgeoning, piercing and slashing damage they deal to be converted to fire damage for 1 hour.",
@@ -138,6 +144,7 @@
 			"type": "P",
 			"rarity": "uncommon",
 			"charges": 3,
+			"value": 80000,
 			"entries": [
 				"The liquid in this vial has a watery blue-white tinge to it, and the vial feels cool to the touch. This vial contains 3 doses.",
 				"You can apply 1 dose to a weapon or 10 pieces of ammunition over 1 minute, causing all non-magical bludgeoning, piercing and slashing damage they deal to be converted to cold damage for 1 hour.",
@@ -150,6 +157,7 @@
 			"page": 0,
 			"wondrous": true,
 			"rarity": "uncommon",
+			"value": 75000,
 			"entries": [
 				"You can apply these wings to your arms over 10 minutes, caking the feathers onto your body with the wax provided. After you do so, you gain a flying speed of 20 feet.",
 				"After you take any fire damage, or after having spent 1 hour in daylight, the wax holding the wings will visibly begin to melt. Roll a {@dice d6} and add your Wisdom modifier. Your flying speed is halved for that many rounds, and you lose your flying speed after that many rounds have passed. Whatever remains of the materials loses its magic thereafter.",
@@ -162,6 +170,7 @@
 			"page": 0,
 			"potion": "P",
 			"rarity": "rare",
+			"value": 70000,
 			"entries": [
 				"This viscous oil is crystal clear, though stored in a smoked glass flask, and has a blueish golden glint to it, a flickering light within.",
 				"You can apply it to a weapon or 10 pieces of ammunition over 1 minute, causing all non-magical bludgeoning, piercing and slashing damage they deal to be converted to radiant damage for 1 hour."
@@ -173,10 +182,11 @@
 			"page": 0,
 			"wondrous": true,
 			"rarity": "rare",
+			"value": 47500,
 			"entries": [
 				"This flask is made from a frosted glass, but light can be faintly seen inside of it, swirling intensely.",
 				"You can throw this flask up to 60 feet, causing it to break on contact with a surface. Creatures within 20 feet of it when it breaks take 2d8 radiant and 2d8 thunder damage and are Blinded and Deafened until the end of their next turn. Each creature may attempt a Constitution saving throw against a DC of 14, halving the damage and resisting its other effects on a success. A creature who cannot see it takes no radiant damage, and a creature that cannot hear it takes no thunder damage."
-			]	
+			]
 		},
 		{
 			"name": "Hand of Glory (Rare)",
@@ -217,6 +227,7 @@
 			"page": 0,
 			"potion": "P",
 			"rarity": "rare",
+			"value": 20000,
 			"entries": [
 				"A willing creature consuming this potion while aware of its effects is affected by a {@spell feign death} spell that lasts 24 hours."
 			]
@@ -227,6 +238,7 @@
 			"page": 0,
 			"wondrous": true,
 			"rarity": "rare",
+			"value": 100000,
 			"entries": [
 				"This rough-hewn stone emblem has 2 monstrous winged figures carved into it, their backs to each other. As an action, you can crush it in your hand and cast the fragments onto two unoccupied spaces within 15 feet of you. One {@creature gargoyle} appears on each space. Each has its own initiative in combat, but both obey all of your verbal commands. After 1 minute, they crumble to dust."
 			]
@@ -237,6 +249,7 @@
 			"page": 0,
 			"wondrous": true,
 			"rarity": "rare",
+			"value": 200000,
 			"entries": [
 				"Using an action to read the magic words on this scroll causes all creatures within 30 feet of you to be healed for 3d8 hit points. The scroll then crumbles to dust. The healing does not affect undead nor constructs."
 			]
@@ -247,6 +260,7 @@
 			"page": 0,
 			"wondrous": true,
 			"rarity": "rare",
+			"value": 175000,
 			"entries": [
 				"Using an action to read the magic words on this scroll flares the tempers of all creatures within 30 feet of you. For 1 hour, they may add half their proficiency bonus (rounded up) to the damage dealt by their melee weapon attacks."
 			]
@@ -257,6 +271,7 @@
 			"page": 0,
 			"wondrous": true,
 			"rarity": "rare",
+			"value": 100000,
 			"entries": [
 				"Using an action to read the magic words on this scroll fills all creatures within 30 feet of you with energy which reveals itself in surprising bursts of speed. For 1 hour, their speed is increased by 10 feet, and they have advantage on Dexterity saving throws. The scroll then crumbles to dust."
 			]
@@ -267,6 +282,7 @@
 			"page": 0,
 			"type": "P",
 			"rarity": "very rare",
+			"value": 100000,
 			"entries": [
 				"Reduces your Progressive Exhaustion by 1.",
 				"If you have already consumemd one or more Potions of Recovery since your last long rest, you must succeed on a Constitution saving throw against a DC of 10. On a failure, you become incapacitated for {@dice 1d4} minutes due to pain and vomiting, and do not reduce your Progressive Exhaustion."
@@ -278,6 +294,7 @@
 			"page": 0,
 			"wondrous": true,
 			"rarity": "very rare",
+			"value": 250000,
 			"entries": [
 				"Using an action to read the first half of this scroll designates an area as a haven, to which you can later return.",
 				"Using a second action, within 24 hours of the first, to read the second half of the scroll, immediately opens a portal back to the designation marked as a haven, in an unoccupied space adjacent to you, which stays open for one round. Any creature moving into the portal's space is teleported to that place. The scroll then crumbles to dust. If a haven is set and the portal is not open within 24 hours, the writing fades along with its magic, and the scroll turns into a mundane blank scroll."
@@ -289,6 +306,7 @@
 			"page": 0,
 			"wondrous": true,
 			"rarity": "very rare",
+			"value": 3750000,
 			"entries": [
 				"This rugged clay emblem has a broadly-defined face carved onto it. As an action, you can crush it in your hand and cast the fragments onto an unoccupied space within 15 feet of you. A {@creature clay golem} appears on that space. It has its own initiative in combat, but obeys all of your verbal commands. After 1 minute, it crumbles to dust."
 			]
@@ -299,6 +317,7 @@
 			"page": 0,
 			"wondrous": true,
 			"rarity": "very rare",
+			"value": 4250000,
 			"entries": [
 				"This smooth stone emblem has a broadly-defined face carved onto it. As an action, you can crush it in your hand and cast the fragments onto an unoccupied space within 15 feet of you. A {@creature stone golem} appears on that space. It has its own initiative in combat, but obeys all of your verbal commands. After 1 minute, it crumbles to dust."
 			]
@@ -309,6 +328,7 @@
 			"page": 0,
 			"wondrous": true,
 			"rarity": "legendary",
+			"value": 4750000,
 			"entries": [
 				"This iridescent gemstone emblem has a face carved into it which seems almost human. As an action, you can crush it in your hand and cast the fragments onto an unoccupied space within 15 feet of you. An elemental creature appears on that space, which depends on the mineral this particular emblem is made of, as listed below. It has its own initiative in combat, but obeys all of your verbal commands. After 1 minute, it crumbles to dust, dissolves into water and evaporates, disappears in a puff of smoke, or becomes a soft wind and dissipates, whichever is appropriate.",
 				{
@@ -349,6 +369,7 @@
 			"page": 0,
 			"wondrous": true,
 			"rarity": "legendary",
+			"value": 6000000,
 			"entries": [
 				"This polished iron emblem has a helmed face intricately carved onto it. As an action, you can crush it in your hand and cast the fragments onto an unoccupied space within 15 feet of you. An {@creature iron golem} appears on that space. It has its own initiative in combat, but obeys all of your verbal commands. After 1 minute, it crumbles to dust."
 			]
@@ -359,6 +380,7 @@
 			"page": 0,
 			"type": "P",
 			"rarity": "legendary",
+			"value": 1000000000,
 			"entries": [
 				"When imbibed, this elixir stops your body's aging process completely and indefinitely, and you become immune to disease, permanently. Additionally, the next time you would die, you instead become unconscious and stable."
 			]
@@ -369,6 +391,7 @@
 			"page": 0,
 			"type": "P",
 			"rarity": "legendary",
+			"value": 50000000,
 			"entries": [
 				"At a glance, the liquid appears transparent and in all ways like water, but a creature focusing intently on it can see flashes of positive future events that it wishes would happen to it.",
 				"For {@dice 1d20} minutes after quaffing this potion, instead of rolling dice, you can treat all of your would-be dice rolls and all dice rolls that would affect you as automatically achieving the result of your choice."

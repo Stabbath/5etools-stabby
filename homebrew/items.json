@@ -782,6 +782,7 @@
 				"This attack also ignores effects such as strong winds that would force disadvantage on a ranged weapon attack as a result of passing through an area."
 			],
 			"weight": 0.075,
+			"value": 2000,
 			"baseItem": "sling bullet|phb"
 		},
 		{
@@ -2457,10 +2458,12 @@
 			"wondrous": true,
 			"rarity": "legendary",
 			"reqAttune": "by a creature of neutral alignment",
+			"charges": 8,
+			"value": 28000000,
 			"entries": [
 				"This item symbolizes neutrality and balance. A creature that is either good or evil in alignment takes 8d6 necrotic damage upon touching the talisman. Either sort of creature takes the damage again each time it ends its turn holding or carrying the talisman.",
 				"If you are a neutral cleric or paladin, you can use the talisman as a holy symbol, and you gain a +2 bonus to spell attack rolls while you wear or hold it.",
-				"The talisman has 6 charges. If you are wearing or holding it, you can use an action to expend 1 charge from the talisman and choose one creature you can see on the ground within 120 feet of you. If the target is of good or evil alignment, a flaming fissure opens under it. The target must succeed on a DC 20 Dexterity saving throw or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman fades into transparency and vanishes without a trace, destroyed."
+				"The talisman has 8 charges. If you are wearing or holding it, you can use an action to expend 1 charge from the talisman and choose one creature you can see on the ground within 120 feet of you. If the target is of good or evil alignment, a flaming fissure opens under it. The target must succeed on a DC 20 Dexterity saving throw or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman fades into transparency and vanishes without a trace, destroyed."
 			]
 		},
 		{
