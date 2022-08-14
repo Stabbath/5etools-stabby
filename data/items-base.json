@@ -1,28 +1,6 @@
 {
 	"baseitem": [
 		{
-			"name": "Antimatter Rifle",
-			"source": "DMG",
-			"page": 268,
-			"type": "R",
-			"rarity": "none",
-			"weight": 10,
-			"weaponCategory": "martial",
-			"age": "futuristic",
-			"property": [
-				"AF",
-				"RLD",
-				"2H"
-			],
-			"range": "120/360",
-			"reload": 2,
-			"dmg1": "6d8",
-			"dmgType": "N",
-			"firearm": true,
-			"weapon": true,
-			"ammoType": "energy cell"
-		},
-		{
 			"name": "Arrow",
 			"source": "PHB",
 			"page": 150,
@@ -49,50 +27,6 @@
 					"quantity": 20
 				}
 			]
-		},
-		{
-			"name": "Automatic Pistol",
-			"source": "DMG",
-			"page": 268,
-			"type": "R",
-			"rarity": "none",
-			"weight": 3,
-			"weaponCategory": "martial",
-			"age": "modern",
-			"property": [
-				"AF",
-				"RLD"
-			],
-			"range": "50/150",
-			"reload": 15,
-			"dmg1": "2d6",
-			"dmgType": "P",
-			"firearm": true,
-			"weapon": true,
-			"ammoType": "modern bullet"
-		},
-		{
-			"name": "Automatic Rifle",
-			"source": "DMG",
-			"page": 268,
-			"type": "R",
-			"rarity": "none",
-			"weight": 8,
-			"weaponCategory": "martial",
-			"age": "modern",
-			"property": [
-				"AF",
-				"BF",
-				"RLD",
-				"2H"
-			],
-			"range": "80/240",
-			"reload": 30,
-			"dmg1": "2d8",
-			"dmgType": "P",
-			"firearm": true,
-			"weapon": true,
-			"ammoType": "modern bullet"
 		},
 		{
 			"name": "Battleaxe",
@@ -349,15 +283,6 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Energy Cell",
-			"source": "DMG",
-			"page": 268,
-			"type": "AF",
-			"rarity": "none",
-			"weight": 0.3125,
-			"age": "futuristic"
-		},
-		{
 			"name": "Flail",
 			"source": "PHB",
 			"page": 149,
@@ -591,28 +516,6 @@
 			]
 		},
 		{
-			"name": "Hunting Rifle",
-			"source": "DMG",
-			"page": 268,
-			"type": "R",
-			"rarity": "none",
-			"weight": 8,
-			"weaponCategory": "martial",
-			"age": "modern",
-			"property": [
-				"AF",
-				"RLD",
-				"2H"
-			],
-			"range": "80/240",
-			"reload": 5,
-			"dmg1": "2d10",
-			"dmgType": "P",
-			"firearm": true,
-			"weapon": true,
-			"ammoType": "modern bullet"
-		},
-		{
 			"name": "Javelin",
 			"source": "PHB",
 			"page": 149,
@@ -659,49 +562,6 @@
 					]
 				}
 			]
-		},
-		{
-			"name": "Laser Pistol",
-			"source": "DMG",
-			"page": 268,
-			"type": "R",
-			"rarity": "none",
-			"weight": 2,
-			"weaponCategory": "martial",
-			"age": "futuristic",
-			"property": [
-				"AF",
-				"RLD"
-			],
-			"range": "30/120",
-			"reload": 50,
-			"dmg1": "3d6",
-			"dmgType": "R",
-			"firearm": true,
-			"weapon": true,
-			"ammoType": "energy cell"
-		},
-		{
-			"name": "Laser Rifle",
-			"source": "DMG",
-			"page": 268,
-			"type": "R",
-			"rarity": "none",
-			"weight": 7,
-			"weaponCategory": "martial",
-			"age": "futuristic",
-			"property": [
-				"AF",
-				"RLD",
-				"2H"
-			],
-			"range": "100/300",
-			"reload": 30,
-			"dmg1": "3d8",
-			"dmgType": "R",
-			"firearm": true,
-			"weapon": true,
-			"ammoType": "energy cell"
 		},
 		{
 			"name": "Leather Armor",
@@ -865,30 +725,6 @@
 			"weapon": true
 		},
 		{
-			"name": "Modern Bullet",
-			"source": "DMG",
-			"page": 268,
-			"type": "AF",
-			"rarity": "none",
-			"weight": 0.1,
-			"age": "modern"
-		},
-		{
-			"name": "Modern Bullets (10)",
-			"source": "DMG",
-			"page": 268,
-			"type": "AF",
-			"rarity": "none",
-			"weight": 1,
-			"age": "modern",
-			"packContents": [
-				{
-					"item": "modern bullet",
-					"quantity": 10
-				}
-			]
-		},
-		{
 			"name": "Morningstar",
 			"source": "PHB",
 			"page": 149,
@@ -903,28 +739,6 @@
 			"dmgType": "P",
 			"mace": true,
 			"weapon": true
-		},
-		{
-			"name": "Musket",
-			"source": "DMG",
-			"page": 268,
-			"type": "R",
-			"rarity": "none",
-			"weight": 10,
-			"value": 50000,
-			"weaponCategory": "martial",
-			"age": "renaissance",
-			"property": [
-				"AF",
-				"LD",
-				"2H"
-			],
-			"range": "40/120",
-			"dmg1": "1d12",
-			"dmgType": "P",
-			"firearm": true,
-			"weapon": true,
-			"ammoType": "renaissance bullet"
 		},
 		{
 			"name": "Net",
@@ -1150,53 +964,6 @@
 			"weapon": true
 		},
 		{
-			"name": "Renaissance Bullet",
-			"source": "DMG",
-			"page": 268,
-			"type": "AF",
-			"rarity": "none",
-			"weight": 0.2,
-			"value": 30,
-			"age": "renaissance"
-		},
-		{
-			"name": "Renaissance Bullets (10)",
-			"source": "DMG",
-			"page": 268,
-			"type": "AF",
-			"rarity": "none",
-			"weight": 2,
-			"value": 300,
-			"age": "renaissance",
-			"packContents": [
-				{
-					"item": "renaissance bullet",
-					"quantity": 10
-				}
-			]
-		},
-		{
-			"name": "Revolver",
-			"source": "DMG",
-			"page": 268,
-			"type": "R",
-			"rarity": "none",
-			"weight": 3,
-			"weaponCategory": "martial",
-			"age": "modern",
-			"property": [
-				"AF",
-				"RLD"
-			],
-			"range": "40/120",
-			"reload": 6,
-			"dmg1": "2d8",
-			"dmgType": "P",
-			"firearm": true,
-			"weapon": true,
-			"ammoType": "modern bullet"
-		},
-		{
 			"name": "Ring Mail",
 			"source": "PHB",
 			"page": 145,
@@ -1318,28 +1085,6 @@
 			"dmgType": "P",
 			"sword": true,
 			"weapon": true
-		},
-		{
-			"name": "Shotgun",
-			"source": "DMG",
-			"page": 268,
-			"type": "R",
-			"rarity": "none",
-			"weight": 7,
-			"weaponCategory": "martial",
-			"age": "modern",
-			"property": [
-				"AF",
-				"RLD",
-				"2H"
-			],
-			"range": "30/90",
-			"reload": 2,
-			"dmg1": "2d8",
-			"dmgType": "P",
-			"firearm": true,
-			"weapon": true,
-			"ammoType": "modern bullet"
 		},
 		{
 			"name": "Sickle",
