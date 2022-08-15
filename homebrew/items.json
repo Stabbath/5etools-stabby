@@ -822,6 +822,7 @@
 			"recharge": "dawn",
 			"charges": 10,
 			"staff": true,
+			"value": 1250000,
 			"entries": [
 				"The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: {@spell comprehend languages} (1 charge), {@spell identify} (1 charge), {@spell clairvoyance} (3 charges), {@spell speak with plants} (3 charges), {@spell tongues} (3 charges).",
 				"The staff regains {@dice 1d6 + 4} charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff fades into nothingness and is lost forever."
@@ -876,6 +877,7 @@
 			"rarity": "rare",
 			"type": "NW",
 			"wondrous": true,
+			"value": 1000000,
 			"entries": [
 				"When equipped and attuned to, its wearer feels an aura of protection around him. After each instance of damage taken by the wearer, the amulet starts providing its wearer resistance to damage of that type, and stops providing resistance to the previous resistant damage type."
 			],
@@ -944,6 +946,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
+			"value": 486000,
 			"entries": [
 				"{#itemEntry Cloak of Resistance|stabbyitems}"
 			]
@@ -977,6 +980,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
+			"value": 486000,
 			"entries": [
 				"{#itemEntry Cloak of Resistance|stabbyitems}"
 			]
@@ -1010,6 +1014,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
+			"value": 486000,
 			"entries": [
 				"{#itemEntry Cloak of Resistance|stabbyitems}"
 			]
@@ -1026,6 +1031,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
+			"value": 486000,
 			"entries": [
 				"{#itemEntry Cloak of Resistance|stabbyitems}"
 			]
@@ -1049,6 +1055,7 @@
 		},
 		{
 			"name": "Coach of Luxurious Means",
+			"value": 1840000,
 			"source": "stabbyitems",
 			"page": 0,
 			"type": "VEH",
@@ -1092,6 +1099,7 @@
 			"rarity": "rare",
 			"type": "NW",
 			"wondrous": true,
+			"value": 700000,
 			"entries": [
 				"If you fall asleep while wearing this amulet and attuned to it, you are protected by a {@spell guardian of faith}, which ends prematurely when you wake up. Once the guardian has dealt its maximum damage, it disappears and will not be able to reappear until the next dawn."
 			],
@@ -1103,6 +1111,7 @@
 		},
 		{
 			"name": "Instant Bridge",
+			"value": 2800000,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "rare",
@@ -1114,6 +1123,7 @@
 		},
 		{
 			"name": "Knife of the Voracious Cook",
+			"value": 1780000,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "rare",
@@ -1154,7 +1164,9 @@
 			"wondrous": true,
 			"bonusSpellAttack": "+1",
 			"bonusSpellSaveDc": "+1",
+			"baseItem": "orb|phb",
 			"sfcType": "arcane",
+			"value": 980000,
 			"entries": [
 				"While one or more spellcasters friendly to you remain within 30 feet of you, you have a +1 to your save DC and spell attack bonus.",
 				"Once per day, as an action, you can tap into the item's energies to recover spellslots for any number of creatures of your choice within 15 feet other than yourself. The combined spellslot level of all slots recovered this way cannot exceed 5.",
@@ -1167,6 +1179,7 @@
 			"page": 0,
 			"rarity": "rare",
 			"wondrous": true,
+			"value": 900000,
 			"entries": [
 				"This tangled robe of natural fibres appears almost alive when worn by one attuned to it, a vibrant mass of leaf and bramble.",
 				"While wearing this robe, if you aren't wearing armor, you can calculate your AC as 13 + your Wisdom modifier, and you receive a +1 bonus to your saving throws. Additionally, whenever you are hit by a melee attack made by a creature within 5 feet of you, the attacker takes piercing damage equal to your Wisdom modifier, as the robe sprouts thorns and lashes out in retaliation.",
@@ -1184,6 +1197,7 @@
 		},
 		{
 			"name": "Rod of Awakening",
+			"value": 2000000,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "rare",
@@ -1230,6 +1244,7 @@
 			"attachedSpells": [
 				"find steed"
 			],
+			"value": 1250000,
 			"entries": [
 				"This ornate saddle, with brightly coloured linings and illustrations appropriate for the creature associated with it, can be used to cast {@spell find steed} at will, with a casting time of only one action. When you do so, the creature summoned appears adjacent to you, underneath the saddle, and the saddle equips itself on it.",
 				"The creature is always the same for a given saddle of summoning, as decided or rolled by your DM with the tables below. Regardless of the creature's normal statistics, its size scales with yours: its size is one category higher than that of the creature attuned to the item. Additionally, its AC becomes 16, it gains 30 additional hit points, and it has advantage on saving throws against spells and other magical effects.",
@@ -1322,6 +1337,7 @@
 			"rarity": "rare",
 			"wondrous": true,
 			"reqAttune": true,
+			"value": 600000,
 			"entries": [
 				"A creature attuned to this item can use an action to cast {@spell commune} through it, contacting a shapeless voiceless universal energy. The stone then loses its magic. Each day at dawn, if you are attuned to this item, roll a d6. On a result of 5-6, the stone recovers its magic."
 			],
@@ -1369,6 +1385,7 @@
 		},
 		{
 			"name": "Staff of the Artisan",
+			"value": 1800000,
 			"source": "stabbyitems",
 			"page": 0,
 			"type": "SCF",
@@ -1437,6 +1454,7 @@
 			],
 			"recharge": "dawn",
 			"charges": 7,
+			"value": 810000,
 			"entries": [
 				"This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to blast a creature or object you can sense or see with a destructive beam. The target makes a Dexterity saving throw against a DC of 12 + 1 for each charge spent and, takes {@damage 2d8} force damage plus an additional {@damage 2d8} for each charge used on a failure, or half as much on a success.",
 				"The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed."
@@ -1458,6 +1476,7 @@
 		
 		{
 			"name": "Cartographer's Tools of Discovery",
+			"value": 2400000,
 			"source": "stabbyitems",
 			"page": 0,
 			"type": "AT",
@@ -1474,6 +1493,7 @@
 		},
 		{
 			"name": "Carver's Knife of Perceiving",
+			"value": 2650000,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "very rare",
@@ -1499,6 +1519,7 @@
 		},
 		{
 			"name": "Cobbler's Tools of Improvement",
+			"value": 4200000,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "very rare",
@@ -1561,6 +1582,7 @@
 		},
 		{
 			"name": "Dagger of Invisible Assailance",
+			"value": 3200000,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "very rare",
@@ -1593,6 +1615,7 @@
 			"rarity": "very rare",
 			"type": "T",
 			"wondrous": true,
+			"value": 1000000,
 			"entries": [
 				"Whenever someone dons a disguise you make with this kit, their very physical shape is reformed as though they had cast an {@spell alter self} spell on themselves. This effect lasts until they doff the disguise as an action."
 			],
@@ -1603,6 +1626,7 @@
 		},
 		{
 			"name": "Essence Vessel",
+			"value": 5800000,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "very rare",
@@ -1642,6 +1666,7 @@
 			"rarity": "very rare",
 			"wondrous": true,
 			"hasRefs": true,
+			"value": 450000,
 			"entries": [
 				"{#itemEntry Figurine of Wondrous Power|stabbyitems}",
 				"This brass statuette is of a threatening scorpion. It can become a {@creature giant scorpion} for up to 8 hours. Once it has been used, it can't be used again until 2 days have passed."
@@ -1654,6 +1679,20 @@
 			"rarity": "very rare",
 			"wondrous": true,
 			"hasRefs": true,
+			"value": 459000,
+			"entries": [
+				"{#itemEntry Figurine of Wondrous Power|stabbyitems}",
+				"These hematite statuettes are always made in sets of three. You can use one figurine or more than one simultaneously. Each can become a {@creature giant spider} for up to 12 hours. Once it has been used, it can't be used again until 5 days have passed."
+			]
+		},
+		{
+			"name": "Figurine of Wondrous Power, Hematite Spider (single)",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "very rare",
+			"wondrous": true,
+			"hasRefs": true,
+			"value": 153000,
 			"entries": [
 				"{#itemEntry Figurine of Wondrous Power|stabbyitems}",
 				"These hematite statuettes are always made in sets of three. You can use one figurine or more than one simultaneously. Each can become a {@creature giant spider} for up to 12 hours. Once it has been used, it can't be used again until 5 days have passed."
@@ -1666,13 +1705,15 @@
 			"rarity": "very rare",
 			"wondrous": true,
 			"hasRefs": true,
+			"value": 465000,
 			"entries": [
 				"{#itemEntry Figurine of Wondrous Power|stabbyitems}",
 				"This turquoise statuette is of an imposing orca. It can become a {@creature killer whale} for up to 4 hours. Once it has been used, it can't be used again until 2 days have passed."
 			]
 		},
 		{
-			"name": "Guardian Shield",
+			"name": "Guardian Aegis",
+			"value": 3600000,
 			"source": "stabbyitems",
 			"page": 0,
 			"type": "S",
@@ -1686,6 +1727,7 @@
 		},
 		{
 			"name": "Instant Galley",
+			"value": 6000000,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "very rare",
@@ -1705,6 +1747,7 @@
 		},
 		{
 			"name": "Keg of Potency",
+			"value": 1900000,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "very rare",
@@ -1746,6 +1789,7 @@
 		},
 		{
 			"name": "Mirror of Telecommunication",
+			"value": 2450000,
 			"source": "stabbyitems",
 			"page": 0,
 			"wondrous": true,
@@ -1758,6 +1802,7 @@
 		},
 		{
 			"name": "Pendant of Invigorating Casting",
+			"value": 4100000,
 			"source": "stabbyitems",
 			"page": 0,
 			"wondrous": true,
@@ -1770,6 +1815,7 @@
 		},
 		{
 			"name": "Ravenplates",
+			"value": 2800000,
 			"source": "stabbyitems",
 			"page": 0,
 			"wondrous": true,
@@ -1784,6 +1830,7 @@
 		},
 		{
 			"name": "Ring of Inconspicuousness",
+			"value": 4000000,
 			"source": "stabbyitems",
 			"page": 0,
 			"wondrous": true,
@@ -1813,6 +1860,7 @@
 		},
 		{
 			"name": "Staff of Personal Space",
+			"value": 2880000,
 			"source": "stabbyitems",
 			"page": 0,
 			"type": "SCF",
@@ -1851,6 +1899,7 @@
 		},
 		{
 			"name": "Instrument of the Bards, Felderoth Drum",
+			"value": 3764500,
 			"source": "stabbyitems",
 			"page": 0,
 			"type": "INS",
@@ -1881,6 +1930,7 @@
 		},
 		{
 			"name": "Instrument of the Bards, Balowin Flute",
+			"value": 3560500,
 			"source": "stabbyitems",
 			"page": 0,
 			"type": "INS",
@@ -1925,6 +1975,7 @@
 			"wondrous": true,
 			"rarity": "legendary",
 			"reqAttune": true,
+			"value": 8200000,
 			"entries": [
 				"As an action, you can use this item's command word to activate it. When activated, it digs into your flesh, dealing {@damage 1d6} piercing damage, and pumps your blood with dark energy. It then grants you 20 temporary HP. While activated, at the end of each of your turns, it deals {@damage 1d10} necrotic damage to you. It also grants you the following benefits:",
 				{
@@ -1949,6 +2000,7 @@
 		},
 		{
 			"name": "Boots of the Planeswalker",
+			"value": 14000000,
 			"source": "stabbyitems",
 			"page": 0,
 			"type": "FW",
@@ -1964,6 +2016,7 @@
 		},
 		{
 			"name": "Chalice of Sanctuary",
+			"value": 7500000,
 			"source": "stabbyitems",
 			"page": 0,
 			"wondrous": true,
@@ -1978,6 +2031,7 @@
 		},
 		{
 			"name": "+4 All-Purpose Tool",
+			"value": 10000000,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "legendary",
@@ -2001,6 +2055,7 @@
 		},
 		{
 			"name": "+4 Amulet of the Devout",
+			"value": 10000000,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "legendary",
@@ -2024,6 +2079,7 @@
 		},
 		{
 			"name": "+4 Arcane Grimoire",
+			"value": 10000000,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "legendary",
@@ -2047,6 +2103,7 @@
 		},
 		{
 			"name": "+4 Bloodwell Vial",
+			"value": 10000000,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "legendary",
@@ -2070,6 +2127,7 @@
 		},
 		{
 			"name": "+4 Dragonhide Belt",
+			"value": 10000000,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "legendary",
@@ -2086,6 +2144,7 @@
 		},
 		{
 			"name": "+4 Moon Sickle",
+			"value": 11250000,
 			"source": "stabbyitems",
 			"page": 0,
 			"baseItem": "sickle|PHB",
@@ -2122,6 +2181,7 @@
 		},
 		{
 			"name": "+4 Rhythm-Maker's Drum",
+			"value": 10000000,
 			"source": "stabbyitems",
 			"page": 0,
 			"type": "INS",
@@ -2144,6 +2204,7 @@
 		},
 		{
 			"name": "+4 Rod of the Pact Keeper",
+			"value": 10000000,
 			"source": "stabbyitems",
 			"page": 0,
 			"type": "RD",
@@ -2164,6 +2225,7 @@
 		},
 		{
 			"name": "+4 Wand of the War Mage",
+			"value": 5500000,
 			"source": "stabbyitems",
 			"page": 0,
 			"srd": true,
@@ -2183,6 +2245,7 @@
 		},
 		{
 			"name": "Enchanted Ankh",
+			"value": 7432000,
 			"source": "stabbyitems",
 			"page": 0,
 			"type": "NW",
@@ -2197,6 +2260,7 @@
 		},
 		{
 			"name": "Figurine of Wondrous Power, Black Onyx Dragon",
+			"value": 4867500,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "legendary",
@@ -2209,6 +2273,7 @@
 		},
 		{
 			"name": "Figurine of Wondrous Power, Blue Topaz Dragon",
+			"value": 9200000,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "legendary",
@@ -2221,6 +2286,7 @@
 		},
 		{
 			"name": "Figurine of Wondrous Power, Emerald Dragon",
+			"value": 6535000,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "legendary",
@@ -2233,6 +2299,7 @@
 		},
 		{
 			"name": "Figurine of Wondrous Power, Ruby Dragon",
+			"value": 15867500,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "legendary",
@@ -2245,6 +2312,7 @@
 		},
 		{
 			"name": "Figurine of Wondrous Power, Pale Sapphire Dragon",
+			"value": 3867500,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "legendary",
@@ -2257,6 +2325,7 @@
 		},
 		{
 			"name": "Figurine of Wondrous Power, Brass Dragon",
+			"value": 3867500,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "legendary",
@@ -2269,6 +2338,7 @@
 		},
 		{
 			"name": "Figurine of Wondrous Power, Bronze Dragon",
+			"value": 6535000,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "legendary",
@@ -2281,6 +2351,7 @@
 		},
 		{
 			"name": "Figurine of Wondrous Power, Copper Dragon",
+			"value": 4867500,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "legendary",
@@ -2293,6 +2364,7 @@
 		},
 		{
 			"name": "Figurine of Wondrous Power, Gold Dragon",
+			"value": 15867500,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "legendary",
@@ -2305,6 +2377,7 @@
 		},
 		{
 			"name": "Figurine of Wondrous Power, Silver Dragon",
+			"value": 9200000,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "legendary",
@@ -2317,6 +2390,7 @@
 		},
 		{
 			"name": "Hook of a Forgotten One",
+			"value": 18000000,
 			"source": "stabbyitems",
 			"page": 0,
 			"type": "M",
@@ -2342,6 +2416,7 @@
 		},
 		{
 			"name": "Master Wand",
+			"value": 12000000,
 			"source": "stabbyitems",
 			"page": 0,
 			"type": "WD",
@@ -2407,6 +2482,7 @@
 		},
 		{
 			"name": "Mirror Shield",
+			"value": 15000000,
 			"source": "stabbyitems",
 			"page": 0,
 			"type": "S",
@@ -2425,6 +2501,7 @@
 		},
 		{
 			"name": "Painter's Supplies of Reality",
+			"value": 13000000,
 			"source": "stabbyitems",
 			"page": 0,
 			"type": "AT",
@@ -2441,6 +2518,7 @@
 		},
 		{
 			"name": "Seven-League Boots",
+			"value": 28000000,
 			"source": "stabbyitems",
 			"page": 0,
 			"type": "FW",
@@ -2452,6 +2530,7 @@
 		},
 		{
 			"name": "Shining Opal",
+			"value": 4000000,
 			"source": "stabbyitems",
 			"page": 0,
 			"wondrous": true,
@@ -2463,6 +2542,7 @@
 		},
 		{
 			"name": "Staunch Heart",
+			"value": 15000000,
 			"source": "stabbyitems",
 			"page": 0,
 			"type": "PRO",
@@ -2493,6 +2573,7 @@
 		},
 		{
 			"name": "Throne of Far Sight",
+			"value": 30000000,
 			"source": "stabbyitems",
 			"page": 0,
 			"wondrous": true,
@@ -2509,6 +2590,7 @@
 		},
 		{
 			"name": "Unicorn Horn Scepter",
+			"value": 8200000,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "legendary",
@@ -2566,6 +2648,7 @@
 		},
 		{
 			"name": "Instant Galleon",
+			"value": 120000,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "legendary",

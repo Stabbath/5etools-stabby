@@ -244,6 +244,7 @@
 			"focus": [
 				"Artificer"
 			],
+			"value": 1170000,
 			"entries": [
 				"This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of artisan's tool of your choice (see the \"Equipment\" chapter in the {@book Player's Handbook|PHB} for a list of {@item artisan's tools|PHB}). Whatever form the tool takes, you are proficient with it.",
 				"While holding this tool, you gain a +2 bonus to the spell attack rolls and the saving throw DCs of your artificer spells.",
@@ -268,6 +269,7 @@
 			"weight": 1,
 			"bonusSpellAttack": "+2",
 			"bonusSpellSaveDc": "+2",
+			"value": 1000000,
 			"entries": [
 				"This amulet bears the symbol of a deity inlaid with precious stones or metals. While you wear the holy symbol, you gain a +2 bonus to spell attack rolls and the saving throw DCs of your spells.",
 				"While you wear this amulet, you can use your Channel Divinity feature without expending one of the feature's uses. Once this property is used, it can't be used again until the next dawn."
@@ -288,6 +290,7 @@
 			"weight": 3,
 			"bonusSpellAttack": "+2",
 			"bonusSpellSaveDc": "+2",
+			"value": 1000000,
 			"entries": [
 				"While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your wizard spells.",
 				"You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 1."
@@ -308,6 +311,7 @@
 			"weight": 0.01,
 			"bonusSpellAttack": "+2",
 			"bonusSpellSaveDc": "+2",
+			"value": 1000000,
 			"entries": [
 				"To attune to this vial, you must place a few drops of your blood into it. The vial can't be opened while your attunement to it lasts. If your attunement to the vial ends, the contained blood turns to ash. You can use the vial as a spellcasting focus for your spells while wearing or holding it, and you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells.",
 				"In addition, when you roll any Hit Dice to recover hit points while you are carrying the vial, you can regain 5 sorcery points. This property of the vial can't be used again until the next dawn."
@@ -325,6 +329,7 @@
 				}
 			],
 			"wondrous": true,
+			"value": 1000000,
 			"entries": [
 				"This finely detailed belt is made of dragonhide. While wearing it, you gain a +2 bonus to the saving throw DCs of your ki features. In addition, you can use an action to regain ki points equal to a roll of your Martial Arts die. You can't use this action again until the next dawn."
 			]
@@ -360,6 +365,7 @@
 				"Ranger"
 			],
 			"weapon": true,
+			"value": 1500000,
 			"entries": [
 				"This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a +2 bonus to attack and damage rolls made with it, and you gain a +2 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use the sickle as a spellcasting focus for your druid and ranger spells.",
 				"When you cast a spell that restores hit points, you can roll a {@dice d4} and add the number rolled to the amount of hit points restored, provided you are holding the sickle."
@@ -382,6 +388,7 @@
 			"grantsProficiency": true,
 			"bonusSpellAttack": "+2",
 			"bonusSpellSaveDc": "+2",
+			"value": 1000000,
 			"entries": [
 				"While holding this {@item drum|PHB}, you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your bard spells.",
 				"As an action, you can play the {@item drum|PHB} to regain one use of your Bardic Inspiration feature. This property of the {@item drum|PHB} can't be used again until the next dawn."
@@ -403,6 +410,7 @@
 			"weight": 2,
 			"bonusSpellAttack": "+2",
 			"bonusSpellSaveDc": "+2",
+			"value": 1000000,
 			"entries": [
 				"While holding this rod, you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
 				"In addition, you can regain one warlock spell slot as an action while holding the rod. You can't use this property again until you finish a long rest."
@@ -427,6 +435,7 @@
 			],
 			"weight": 1,
 			"bonusSpellAttack": "+2",
+			"value": 600000,
 			"entries": [
 				"While you are holding this wand, you gain a +2 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack."
 			],
@@ -436,6 +445,7 @@
 		},
 		{
 			"name": "+3 All-Purpose Tool",
+			"value": 4000000,
 			"source": "TCE",
 			"page": 119,
 			"rarity": "very rare",
@@ -459,6 +469,7 @@
 		},
 		{
 			"name": "+3 Amulet of the Devout",
+			"value": 4000000,
 			"source": "TCE",
 			"page": 119,
 			"rarity": "very rare",
@@ -482,6 +493,7 @@
 		},
 		{
 			"name": "+3 Arcane Grimoire",
+			"value": 4000000,
 			"source": "TCE",
 			"page": 120,
 			"rarity": "very rare",
@@ -502,6 +514,7 @@
 		},
 		{
 			"name": "+3 Bloodwell Vial",
+			"value": 4000000,
 			"source": "TCE",
 			"page": 122,
 			"rarity": "very rare",
@@ -522,6 +535,7 @@
 		},
 		{
 			"name": "+3 Dragonhide Belt",
+			"value": 4000000,
 			"source": "FTD",
 			"page": 23,
 			"rarity": "very rare",
@@ -538,6 +552,7 @@
 		},
 		{
 			"name": "+3 Moon Sickle",
+			"value": 4500000,
 			"source": "TCE",
 			"page": 133,
 			"baseItem": "sickle|PHB",
@@ -574,6 +589,7 @@
 		},
 		{
 			"name": "+3 Rhythm-Maker's Drum",
+			"value": 4000000,
 			"source": "TCE",
 			"page": 134,
 			"type": "INS",
@@ -596,6 +612,7 @@
 		},
 		{
 			"name": "+3 Rod of the Pact Keeper",
+			"value": 4000000,
 			"source": "DMG",
 			"page": 197,
 			"type": "RD",
@@ -620,6 +637,7 @@
 		},
 		{
 			"name": "+3 Wand of the War Mage",
+			"value": 2250000,
 			"source": "DMG",
 			"page": 212,
 			"srd": true,
@@ -697,6 +715,7 @@
 			"wondrous": true,
 			"tattoo": true,
 			"hasRefs": true,
+			"value": 750000,
 			"entries": [
 				"{#itemEntry Absorbing Tattoo|TCE}"
 			]
@@ -833,6 +852,7 @@
 		},
 		{
 			"name": "Alchemical Compendium",
+			"value": 1727000,
 			"source": "TCE",
 			"page": 119,
 			"rarity": "rare",
@@ -1445,6 +1465,7 @@
 		},
 		{
 			"name": "Amulet of the Planes",
+			"value": 2300000,
 			"source": "DMG",
 			"page": 150,
 			"srd": true,
@@ -1475,6 +1496,7 @@
 			"reqAttune": true,
 			"weight": 6,
 			"ac": 2,
+			"value": 650000,
 			"entries": [
 				"While holding this shield, you can speak its command word as a bonus action to cause it to animate. The shield leaps into the air and hovers in your space to protect you as if you were wielding it, leaving your hands free. The shield remains animated for 1 minute, until you use a bonus action to end this effect, or until you are {@condition incapacitated} or die, at which point the shield falls to the ground or into your hand if you have one free."
 			],
@@ -1498,6 +1520,7 @@
 		},
 		{
 			"name": "Apparatus of Kwalish",
+			"value": 10000000,
 			"source": "DMG",
 			"page": 151,
 			"srd": "Apparatus of the Crab",
@@ -1709,6 +1732,7 @@
 		},
 		{
 			"name": "Armor of Invulnerability",
+			"value": 3500000,
 			"source": "DMG",
 			"page": 152,
 			"srd": true,
@@ -1839,6 +1863,7 @@
 			"weight": 6,
 			"ac": 2,
 			"bonusAc": "+2",
+			"value": 721000,
 			"entries": [
 				"You gain a +2 bonus to AC against ranged attacks while you wield this shield. This bonus is in addition to the shield's normal bonus to AC. In addition, whenever an attacker makes a ranged attack against a target within 5 feet of you, you can use your reaction to become the target of the attack instead."
 			],
@@ -1993,6 +2018,7 @@
 		},
 		{
 			"name": "Astromancy Archive",
+			"value": 4713000,
 			"source": "TCE",
 			"page": 120,
 			"rarity": "rare",
@@ -2032,6 +2058,7 @@
 		},
 		{
 			"name": "Atlas of Endless Horizons",
+			"value": 4774000,
 			"source": "TCE",
 			"page": 120,
 			"rarity": "rare",
@@ -2570,6 +2597,7 @@
 		},
 		{
 			"name": "Bag of Devouring",
+			"value": 2100000,
 			"source": "DMG",
 			"page": 153,
 			"srd": true,
@@ -3207,6 +3235,7 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"tattoo": true,
+			"value": 800000,
 			"entries": [
 				"Produced by a special needle, this magic tattoo depicts protective imagery and uses ink that resembles liquid metal.",
 				{
@@ -3510,6 +3539,7 @@
 		},
 		{
 			"name": "Belt of Cloud Giant Strength",
+			"value": 8000000,
 			"source": "DMG",
 			"page": 155,
 			"srd": true,
@@ -3544,6 +3574,7 @@
 			"ability": {
 				"con": 2
 			},
+			"value": 520000,
 			"entries": [
 				"While wearing this belt, you gain the following benefits:",
 				{
@@ -3571,6 +3602,7 @@
 		},
 		{
 			"name": "Belt of Fire Giant Strength",
+			"value": 3000000,
 			"source": "DMG",
 			"page": 155,
 			"srd": true,
@@ -3604,6 +3636,7 @@
 					"str": 23
 				}
 			},
+			"value": 1000000,
 			"entries": [
 				"While wearing this belt, your Strength score changes to 23. The item has no effect on you if your Strength without the belt is equal to or greater than the belt's score."
 			],
@@ -3647,6 +3680,7 @@
 					"str": 23
 				}
 			},
+			"value": 1000000,
 			"entries": [
 				"While wearing this belt, your Strength score changes to 23. The item has no effect on you if your Strength without the belt is equal to or greater than the belt's score."
 			],
@@ -3657,6 +3691,7 @@
 		},
 		{
 			"name": "Belt of Storm Giant Strength",
+			"value": 20000000,
 			"source": "DMG",
 			"page": 155,
 			"srd": true,
@@ -4395,6 +4430,7 @@
 		},
 		{
 			"name": "Blood Fury Tattoo",
+			"value": 6500000,
 			"source": "TCE",
 			"page": 122,
 			"rarity": "legendary",
@@ -5156,6 +5192,7 @@
 			"rarity": "rare",
 			"wondrous": true,
 			"weight": 3,
+			"value": 470000,
 			"entries": [
 				"While this bowl is filled with water, you can use an action to speak the bowl's command word and summon a {@creature water elemental}, as if you had cast the {@spell conjure elemental} spell. The bowl can't be used this way again until the next dawn.",
 				"The bowl is about 1 foot in diameter and half as deep. It weighs 3 pounds and holds about 3 gallons."
@@ -5289,6 +5326,7 @@
 			"rarity": "rare",
 			"wondrous": true,
 			"weight": 5,
+			"value": 470000,
 			"entries": [
 				"While a fire burns in this brass brazier, you can use an action to speak the brazier's command word and summon a {@creature fire elemental}, as if you had cast the {@spell conjure elemental} spell. The brazier can't be used this way again until the next dawn.",
 				"The brazier weighs 5 pounds."
@@ -5474,6 +5512,7 @@
 			"rarity": "uncommon",
 			"reqAttune": true,
 			"wondrous": true,
+			"value": 550000,
 			"entries": [
 				"While wearing this brooch, you have resistance to force damage, and you have immunity to damage from the {@spell magic missile} spell."
 			],
@@ -5943,6 +5982,7 @@
 		},
 		{
 			"name": "Carpet of Flying, 3 ft. × 5 ft.",
+			"value": 4200000,
 			"source": "DMG",
 			"page": 157,
 			"srd": true,
@@ -5956,6 +5996,7 @@
 		},
 		{
 			"name": "Carpet of Flying, 4 ft. × 6 ft.",
+			"value": 4200000,
 			"source": "DMG",
 			"page": 157,
 			"srd": true,
@@ -5969,6 +6010,7 @@
 		},
 		{
 			"name": "Carpet of Flying, 5 ft. × 7 ft.",
+			"value": 4200000,
 			"source": "DMG",
 			"page": 157,
 			"srd": true,
@@ -5982,6 +6024,7 @@
 		},
 		{
 			"name": "Carpet of Flying, 6 ft. × 9 ft.",
+			"value": 4200000,
 			"source": "DMG",
 			"page": 157,
 			"srd": true,
@@ -6247,6 +6290,7 @@
 		},
 		{
 			"name": "Cauldron of Rebirth",
+			"value": 5600000,
 			"source": "TCE",
 			"page": 122,
 			"rarity": "very rare",
@@ -6281,6 +6325,7 @@
 			"rarity": "rare",
 			"wondrous": true,
 			"weight": 1,
+			"value": 470000,
 			"entries": [
 				"While incense is burning in this censer, you can use an action to speak the censer's command word and summon an {@creature air elemental}, as if you had cast the {@spell conjure elemental} spell. The censer can't be used this way again until the next dawn.",
 				"This 6-inch-wide, 1-foot-high vessel resembles a chalice with a decorated lid. It weighs 1 pound."
@@ -6756,6 +6801,7 @@
 					"climb": "walk"
 				}
 			},
+			"value": 760000,
 			"entries": [
 				"This fine garment is made of black silk interwoven with faint silvery threads. While wearing it, you gain the following benefits:",
 				{
@@ -6790,6 +6836,7 @@
 		},
 		{
 			"name": "Cloak of Displacement",
+			"value": 2000000,
 			"source": "DMG",
 			"page": 158,
 			"srd": true,
@@ -6826,6 +6873,7 @@
 		},
 		{
 			"name": "Cloak of Invisibility",
+			"value": 24000000,
 			"source": "DMG",
 			"page": 158,
 			"tier": "major",
@@ -6883,6 +6931,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"wondrous": true,
+			"value": 520000,
 			"entries": [
 				"While wearing this cloak, you have advantage on Dexterity ({@skill Stealth}) checks. In an area of dim light or darkness, you can grip the edges of the cloak with both hands and use it to fly at a speed of 40 feet. If you ever fail to grip the cloak's edges while flying in this way, or if you are no longer in dim light or darkness, you lose this flying speed.",
 				"While wearing the cloak in an area of dim light or darkness, you can use your action to cast {@spell polymorph} on yourself, transforming into a {@creature bat}. While you are in the form of the {@creature bat}, you retain your Intelligence, Wisdom, and Charisma scores. The cloak can't be used this way again until the next dawn."
@@ -7166,6 +7215,7 @@
 			"wondrous": true,
 			"tattoo": true,
 			"hasRefs": true,
+			"value": 750000,
 			"entries": [
 				"{#itemEntry Absorbing Tattoo|TCE}"
 			]
@@ -7663,6 +7713,7 @@
 		},
 		{
 			"name": "Crystal Ball",
+			"value": 2300000,
 			"source": "DMG",
 			"page": 159,
 			"srd": true,
@@ -7683,6 +7734,7 @@
 		},
 		{
 			"name": "Crystal Ball of Mind Reading",
+			"value": 7200000,
 			"source": "DMG",
 			"page": 159,
 			"tier": "major",
@@ -7704,6 +7756,7 @@
 		},
 		{
 			"name": "Crystal Ball of Telepathy",
+			"value": 8400000,
 			"source": "DMG",
 			"page": 159,
 			"tier": "major",
@@ -7725,6 +7778,7 @@
 		},
 		{
 			"name": "Crystal Ball of True Seeing",
+			"value": 6500000,
 			"source": "DMG",
 			"page": 159,
 			"tier": "major",
@@ -7745,6 +7799,7 @@
 		},
 		{
 			"name": "Crystalline Chronicle",
+			"value": 3957500,
 			"source": "TCE",
 			"page": 124,
 			"rarity": "very rare",
@@ -7798,6 +7853,7 @@
 			"wondrous": true,
 			"recharge": "dawn",
 			"charges": 36,
+			"value": 1380000,
 			"entries": [
 				"This cube is about an inch across. Each face has a distinct marking on it that can be pressed. The cube starts with 36 charges, and it regains {@dice 1d20} expended charges daily at dawn.",
 				"You can use an action to press one of the cube's faces, expending a number of charges based on the chosen face, as shown in the Cube of Force Faces table. Each face has a different effect. If the cube has insufficient charges remaining, nothing happens. Otherwise, a barrier of {@condition invisible} force springs into existence, forming a cube 15 feet on a side. The barrier is centered on you, moves with you, and lasts for 1 minute, until you use an action to press the cube's sixth face, or the cube runs out of charges. You can change the barrier's effect by pressing a different face of the cube and expending the requisite number of charges, resetting the duration. If your movement causes the barrier to come into contact with a solid object that can't pass through the cube, you can't move any closer to that object as long as the barrier remains.",
@@ -7889,6 +7945,7 @@
 		},
 		{
 			"name": "Cubic Gate",
+			"value": 14000000,
 			"source": "DMG",
 			"page": 160,
 			"srd": true,
@@ -7943,6 +8000,7 @@
 		},
 		{
 			"name": "Daern's Instant Fortress",
+			"value": 4000000,
 			"source": "DMG",
 			"page": 160,
 			"srd": "Instant Fortress",
@@ -8025,6 +8083,7 @@
 			"dmg1": "1d4",
 			"dmgType": "P",
 			"bonusWeapon": "+1",
+			"value": 580000,
 			"entries": [
 				"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
 				"You can use an action to cause thick, black poison to coat the blade. The poison remains for 1 minute or until an attack using this weapon hits a creature. That creature must succeed on a DC 15 Constitution saving throw or take {@damage 2d10} poison damage and become {@condition poisoned} for 1 minute. The dagger can't be used this way again until the next dawn."
@@ -9575,6 +9634,7 @@
 			"bonusWeapon": "+1",
 			"bonusAc": "+1",
 			"stealth": true,
+			"value": 640000,
 			"entries": [
 				"While wearing this armor, you gain a +1 bonus to AC, and you can understand and speak Abyssal. In addition, the armor's clawed gauntlets turn unarmed strikes with your hands into magic weapons that deal slashing damage, with a +1 bonus to attack and damage rolls and a damage die of {@dice 1d8}.",
 				{
@@ -9789,6 +9849,7 @@
 			"dmg1": "1d8",
 			"dmgType": "B",
 			"weapon": true,
+			"value": 875000,
 			"entries": [
 				"The rounded head of this flail is perforated with tiny holes, arranged in symbols and patterns. The flail counts as a holy symbol for you. When you hit with an attack using this magic flail, the target takes an extra {@damage 1d8} radiant damage.",
 				"As a bonus action, you can speak the command word to cause the flail to emanate a thin cloud of incense out to 10 feet for 1 minute. At the start of each of your turns, you and any other creatures in the incense each regain {@dice 1d4} hit points. This property can't be used again until the next dawn."
@@ -10664,6 +10725,7 @@
 			"focus": [
 				"Wizard"
 			],
+			"value": 485000,
 			"entries": [
 				"To you, this book is a magical spellbook. To anyone else, the book appears to be a volume of verbose romance fiction. As an action, you can change the book's appearance and alter the plot of the romance.",
 				"When found, the book contains the following spells: {@spell hallucinatory terrain}, {@spell major image}, {@spell mirror image}, {@spell mislead}, {@spell Nystul's magic aura}, {@spell phantasmal force}, and {@spell silent image}. It functions as a spellbook for you.",
@@ -10815,6 +10877,7 @@
 			"strength": "15",
 			"bonusAc": "+2",
 			"stealth": true,
+			"value": 690000,
 			"entries": [
 				"While wearing this armor, you gain a +2 bonus to AC. In addition, if an effect moves you against your will along the ground, you can use your reaction to reduce the distance you are moved by up to 10 feet."
 			],
@@ -10825,6 +10888,7 @@
 		},
 		{
 			"name": "Dwarven Thrower",
+			"value": 3800000,
 			"source": "DMG",
 			"page": 167,
 			"srd": true,
@@ -11030,6 +11094,7 @@
 		},
 		{
 			"name": "Efreeti Chain",
+			"value": 5200000,
 			"source": "DMG",
 			"page": 167,
 			"type": "HA",
@@ -12885,6 +12950,7 @@
 			"tier": "major",
 			"rarity": "very rare",
 			"wondrous": true,
+			"value": 713000,
 			"entries": [
 				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
 				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
@@ -12925,11 +12991,11 @@
 			"tier": "major",
 			"rarity": "rare",
 			"wondrous": true,
+			"value": 456000,
 			"entries": [
 				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
 				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
 				"The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
-				"{@creature giant owl||Serpentine Owl}.",
 				"This serpentine statuette of an owl can become a {@creature giant owl} for up to 8 hours. Once it has been used, it can't be used again until 2 days have passed. The owl can telepathically communicate with you at any range if you and it are on the same plane of existence."
 			],
 			"lootTables": [
@@ -13068,6 +13134,7 @@
 			"wondrous": true,
 			"tattoo": true,
 			"hasRefs": true,
+			"value": 750000,
 			"entries": [
 				"{#itemEntry Absorbing Tattoo|TCE}"
 			]
@@ -13258,6 +13325,7 @@
 		},
 		{
 			"name": "Folding Boat",
+			"value": 2280000,
 			"source": "DMG",
 			"page": 170,
 			"srd": true,
@@ -13290,6 +13358,7 @@
 			"wondrous": true,
 			"tattoo": true,
 			"hasRefs": true,
+			"value": 750000,
 			"entries": [
 				"{#itemEntry Absorbing Tattoo|TCE}"
 			]
@@ -13403,6 +13472,7 @@
 		},
 		{
 			"name": "Fulminating Treatise",
+			"value": 2116000,
 			"source": "TCE",
 			"page": 128,
 			"rarity": "rare",
@@ -13605,6 +13675,7 @@
 			"weight": 1,
 			"recharge": "dawn",
 			"charges": 3,
+			"value": 840000,
 			"entries": [
 				"This gem has 3 charges. As an action, you can speak the gem's command word and expend 1 charge. For the next 10 minutes, you have {@sense truesight} out to 120 feet when you peer through the gem.",
 				"The gem regains {@dice 1d3} expended charges daily at dawn."
@@ -13644,6 +13715,7 @@
 			"tattoo": true,
 			"recharge": "dawn",
 			"charges": 3,
+			"value": 700000,
 			"entries": [
 				"Produced by a special needle, this tattoo shifts and wavers on the skin, parts of it appearing blurred.",
 				{
@@ -14786,6 +14858,7 @@
 		},
 		{
 			"name": "Hammer of Thunderbolts",
+			"value": 6500000,
 			"source": "DMG",
 			"page": 173,
 			"srd": true,
@@ -15133,6 +15206,7 @@
 			"focus": [
 				"Wizard"
 			],
+			"value": 1466000,
 			"entries": [
 				"This pristine book smells faintly of a random scent you find pleasing. When found, the book contains the following spells: {@spell antipathy/sympathy}, {@spell charm person}, {@spell dominate person}, {@spell enthrall}, {@spell hypnotic pattern}, {@spell modify memory}, and {@spell suggestion}. It functions as a spellbook for you.",
 				"While you are holding the book, you can use it as a spellcasting focus for your wizard spells.",
@@ -15191,6 +15265,7 @@
 		},
 		{
 			"name": "Helm of Brilliance",
+			"value": 2150000,
 			"source": "DMG",
 			"page": 173,
 			"srd": true,
@@ -15295,6 +15370,7 @@
 		},
 		{
 			"name": "Helm of Teleportation",
+			"value": 1890000,
 			"source": "DMG",
 			"page": 174,
 			"srd": true,
@@ -15981,6 +16057,7 @@
 			"rarity": "rare",
 			"wondrous": true,
 			"weight": 2,
+			"value": 1000000,
 			"entries": [
 				"You can use an action to blow this horn. In response, warrior spirits from the plane of Ysgard appear within 60 feet of you. These spirits use the {@creature berserker} statistics. They return to Ysgard after 1 hour or when they drop to 0 hit points. Once you use the horn, it can't be used again until 7 days have passed.",
 				"A brass horn summons {@dice 3d4 + 3} {@creature berserker||berserkers}. To use the brass horn, you must be proficient with all simple weapons.",
@@ -15992,6 +16069,7 @@
 		},
 		{
 			"name": "Horn of Valhalla, Bronze",
+			"value": 2400000,
 			"source": "DMG",
 			"page": 175,
 			"srd": true,
@@ -16010,6 +16088,7 @@
 		},
 		{
 			"name": "Horn of Valhalla, Iron",
+			"value": 5200000,
 			"source": "DMG",
 			"page": 175,
 			"srd": true,
@@ -16035,6 +16114,7 @@
 			"rarity": "rare",
 			"wondrous": true,
 			"weight": 2,
+			"value": 700000,
 			"entries": [
 				"You can use an action to blow this horn. In response, warrior spirits from the plane of Ysgard appear within 60 feet of you. These spirits use the {@creature berserker} statistics. They return to Ysgard after 1 hour or when they drop to 0 hit points. Once you use the horn, it can't be used again until 7 days have passed.",
 				"The silver horn summons {@dice 2d4 + 2} {@creature berserker||berserkers}.",
@@ -16487,6 +16567,7 @@
 			"tier": "minor",
 			"rarity": "very rare",
 			"wondrous": true,
+			"value": 1600000,
 			"entries": [
 				"These iron horseshoes come in a set of four. While all four shoes are affixed to the hooves of a horse or similar creature, they allow the creature to move normally while floating 4 inches above the ground. This effect means the creature can cross or stand above nonsolid or unstable surfaces, such as water or lava. The creature leaves no tracks and ignores {@quickref difficult terrain||3}. In addition, the creature can move at normal speed for up to 12 hours a day without suffering {@condition exhaustion} from a forced march."
 			],
@@ -17202,6 +17283,7 @@
 		},
 		{
 			"name": "Instrument of the Bards, Anstruth Harp",
+			"value": 2360500,
 			"source": "DMG",
 			"page": 176,
 			"type": "INS",
@@ -17251,6 +17333,7 @@
 			],
 			"wondrous": true,
 			"weight": 2,
+			"value": 492000,
 			"entries": [
 				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take {@damage 2d4} psychic damage.",
 				"You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
@@ -17287,6 +17370,7 @@
 			],
 			"wondrous": true,
 			"weight": 2,
+			"value": 585500,
 			"entries": [
 				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take {@damage 2d4} psychic damage.",
 				"You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
@@ -17422,6 +17506,7 @@
 		},
 		{
 			"name": "Instrument of the Bards, Ollamh Harp",
+			"value": 3764500,
 			"source": "DMG",
 			"page": 176,
 			"type": "INS",
@@ -17480,6 +17565,7 @@
 			"rarity": "very rare",
 			"reqAttune": true,
 			"wondrous": true,
+			"value": 540000,
 			"entries": [
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
@@ -17503,6 +17589,7 @@
 			"ability": {
 				"dex": 2
 			},
+			"value": 720000,
 			"entries": [
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
@@ -17545,6 +17632,7 @@
 			"ability": {
 				"con": 2
 			},
+			"value": 720000,
 			"entries": [
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
@@ -17557,6 +17645,7 @@
 		},
 		{
 			"name": "Ioun Stone, Greater Absorption",
+			"value": 3600000,
 			"source": "DMG",
 			"page": 176,
 			"srd": true,
@@ -17601,6 +17690,7 @@
 			"ability": {
 				"wis": 2
 			},
+			"value": 720000,
 			"entries": [
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
@@ -17623,6 +17713,7 @@
 			"ability": {
 				"int": 2
 			},
+			"value": 720000,
 			"entries": [
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
@@ -17659,6 +17750,7 @@
 			"ability": {
 				"cha": 2
 			},
+			"value": 720000,
 			"entries": [
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
@@ -17671,6 +17763,7 @@
 		},
 		{
 			"name": "Ioun Stone, Mastery",
+			"value": 2550000,
 			"source": "DMG",
 			"page": 176,
 			"srd": true,
@@ -17727,6 +17820,7 @@
 		},
 		{
 			"name": "Ioun Stone, Regeneration",
+			"value": 2100000,
 			"source": "DMG",
 			"page": 176,
 			"srd": true,
@@ -17768,6 +17862,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"wondrous": true,
+			"value": 1560000,
 			"entries": [
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
@@ -17807,6 +17902,7 @@
 			"ability": {
 				"str": 2
 			},
+			"value": 720000,
 			"entries": [
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
@@ -17903,6 +17999,7 @@
 		},
 		{
 			"name": "Iron Flask",
+			"value": 6200000,
 			"source": "DMG",
 			"page": 178,
 			"srd": true,
@@ -19514,6 +19611,7 @@
 			"focus": [
 				"Wizard"
 			],
+			"value": 1131500,
 			"entries": [
 				"With covers made of skin and fittings of bone, this tome is cold to the touch, and it whispers faintly. When found, the book contains the following spells, which are wizard spells for you while you are attuned to the book: {@spell animate dead}, {@spell circle of death}, {@spell false life}, {@spell finger of death}, {@spell speak with dead}, {@spell summon undead|TCE}, and {@spell vampiric touch}. It functions as a spellbook for you.",
 				"While you are holding the book, you can use it as a spellcasting focus for your wizard spells.",
@@ -19547,6 +19645,7 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"tattoo": true,
+			"value": 	,
 			"entries": [
 				"Produced by a special needle, this magic tattoo features symbols of life and rebirth.",
 				{
@@ -19602,6 +19701,7 @@
 			"wondrous": true,
 			"tattoo": true,
 			"hasRefs": true,
+			"value": 750000,
 			"entries": [
 				"{#itemEntry Absorbing Tattoo|TCE}"
 			]
@@ -20215,6 +20315,7 @@
 			"wondrous": true,
 			"weight": 2,
 			"grantsProficiency": true,
+			"value": 788000,
 			"entries": [
 				"While holding this {@item lyre|PHB}, you can cast {@spell mending} as an action. You can also play the {@item lyre|PHB} as a reaction when an object or a structure you can see within 300 feet of you takes damage, causing it to be immune to that damage and any further damage of the same type until the start of your next turn.",
 				"In addition, you can play the {@item lyre|PHB} as an action to cast {@spell fabricate}, {@spell move earth}, {@spell passwall}, or {@spell summon construct|TCE}, and that spell can't be cast from it again until the next dawn."
@@ -20241,6 +20342,7 @@
 			"weaponCategory": "simple",
 			"dmg1": "1d6",
 			"dmgType": "B",
+			"value": 920000,
 			"entries": [
 				"When you hit a fiend or an undead with this magic weapon, that creature takes an extra {@damage 2d6} radiant damage. If the target has 25 hit points or fewer after taking this damage, it must succeed on a DC 15 Wisdom saving throw or be destroyed. On a successful save, the creature becomes {@condition frightened} of you until the end of your next turn.",
 				"While you hold this weapon, it sheds bright light in a 20-foot radius and dim light for an additional 20 feet."
@@ -20264,6 +20366,7 @@
 			"dmg1": "1d6",
 			"dmgType": "B",
 			"bonusWeapon": "+1",
+			"value": 750000,
 			"entries": [
 				"You gain a +1 bonus to attack and damage rolls made with this magic weapon. The bonus increases to +3 when you use the mace to attack a construct.",
 				"When you roll a 20 on an attack roll made with this weapon, the target takes an extra 7 bludgeoning damage, or an extra 14 bludgeoning damage if it's a construct. If a construct has 25 hit points or fewer after taking this damage, it is destroyed.",
@@ -20290,6 +20393,7 @@
 			"dmgType": "B",
 			"recharge": "dawn",
 			"charges": 3,
+			"value": 460000,
 			"entries": [
 				"This magic weapon has 3 charges. While holding it, you can use an action and expend 1 charge to release a wave of terror. Each creature of your choice in a 30-foot radius extending from you must succeed on a DC 15 Wisdom saving throw or become {@condition frightened} of you for 1 minute. While it is {@condition frightened} in this way, a creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action it can use only the {@action Dash} action or try to escape from an effect that prevents it from moving. If it has nowhere it can move, the creature can use the {@action Dodge} action. At the end of each of its turns, a creature can repeat the saving throw, ending the effect on itself on a success.",
 				"The mace regains {@dice 1d3} expended charges daily at dawn."
@@ -20525,6 +20629,7 @@
 		},
 		{
 			"name": "Mantle of Spell Resistance",
+			"value": 4000000,
 			"source": "DMG",
 			"page": 180,
 			"srd": true,
@@ -21199,6 +21304,7 @@
 		},
 		{
 			"name": "Mirror of Life Trapping",
+			"value": 8000000,
 			"source": "DMG",
 			"page": 181,
 			"srd": true,
@@ -22083,6 +22189,7 @@
 			"wondrous": true,
 			"tattoo": true,
 			"hasRefs": true,
+			"value": 750000,
 			"entries": [
 				"{#itemEntry Absorbing Tattoo|TCE}"
 			]
@@ -22268,6 +22375,7 @@
 			"range": "150/600",
 			"dmg1": "1d8",
 			"dmgType": "P",
+			"value": 720000,
 			"entries": [
 				"When you nock an arrow on this bow, it whispers in Elvish, \"Swift defeat to my enemies.\" When you use this weapon to make a ranged attack, you can, as a command phrase, say, \"Swift death to you who have wronged me.\" The target of your attack becomes your sworn enemy until it dies or until dawn seven days later. You can have only one such sworn enemy at a time. When your sworn enemy dies, you can choose a new one after the next dawn.",
 				"When you make a ranged attack roll with this weapon against your sworn enemy, you have advantage on the roll. In addition, your target gains no benefit from cover, other than total cover, and you suffer no disadvantage due to long range. If the attack hits, your sworn enemy takes an extra {@damage 3d6} piercing damage.",
@@ -23801,6 +23909,7 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"weight": 1,
+			"value": 560000,
 			"entries": [
 				"You are immune to contracting any disease while you wear this pendant. If you are already infected with a disease, the effects of the disease are suppressed while you wear the pendant."
 			],
@@ -23821,6 +23930,7 @@
 			"rarity": "rare",
 			"wondrous": true,
 			"weight": 1,
+			"value": 940000,
 			"entries": [
 				"This delicate silver chain has a brilliant-cut black gem pendant. While you wear it, poisons have no effect on you. You are immune to the {@condition poisoned} condition and have immunity to poison damage."
 			],
@@ -24090,6 +24200,7 @@
 		},
 		{
 			"name": "Planecaller's Codex",
+			"value": 2911000,
 			"source": "TCE",
 			"page": 134,
 			"rarity": "rare",
@@ -24286,6 +24397,7 @@
 			"wondrous": true,
 			"tattoo": true,
 			"hasRefs": true,
+			"value": 750000,
 			"entries": [
 				"{#itemEntry Absorbing Tattoo|TCE}"
 			]
@@ -24434,6 +24546,7 @@
 			"tier": "minor",
 			"rarity": "rare",
 			"wondrous": true,
+			"value": 970000,
 			"entries": [
 				"This fine black cloth, soft as silk, is folded up to the dimensions of a handkerchief. It unfolds into a circular sheet 6 feet in diameter.",
 				"You can use an action to unfold a portable hole and place it on or against a solid surface, whereupon the portable hole creates an extradimensional hole 10 feet deep. The cylindrical space within the hole exists on a different plane, so it can't be used to create open passages. Any creature inside an open portable hole can exit the hole by climbing out of it.",
@@ -25764,6 +25877,7 @@
 			"focus": [
 				"Wizard"
 			],
+			"value": 1096000,
 			"entries": [
 				"This leather-bound spellbook is reinforced with iron and silver fittings and an iron lock (DC 20 to open). As an action, you can touch the book's cover and cause it to lock as if you cast {@spell arcane lock} on it. When found, the book contains the following spells: {@spell arcane lock}, {@spell dispel magic}, {@spell globe of invulnerability}, {@spell glyph of warding}, {@spell Mordenkainen's private sanctum}, {@spell protection from evil and good||protection from evil}, and {@spell symbol}. It functions as a spellbook for you.",
 				"While you are holding the book, you can use it as a spellcasting focus for your wizard spells.",
@@ -25863,6 +25977,7 @@
 			"wondrous": true,
 			"tattoo": true,
 			"hasRefs": true,
+			"value": 750000,
 			"entries": [
 				"{#itemEntry Absorbing Tattoo|TCE}"
 			]
@@ -26203,6 +26318,7 @@
 			"wondrous": true,
 			"tattoo": true,
 			"hasRefs": true,
+			"value": 750000,
 			"entries": [
 				"{#itemEntry Absorbing Tattoo|TCE}"
 			]
@@ -26461,6 +26577,7 @@
 				}
 			],
 			"wondrous": true,
+			"value": 990000,
 			"entries": [
 				"While holding this concertina, you gain a +2 bonus to the saving throw DC of your bard spells.",
 				"As an action, you can use the concertina to cast {@spell Otto's irresistible dance} from the item. This property of the concertina can't be used again until the next dawn."
@@ -26525,6 +26642,7 @@
 		},
 		{
 			"name": "Ring of Air Elemental Command",
+			"value": 8750000,
 			"source": "DMG",
 			"page": 190,
 			"srd": true,
@@ -26621,6 +26739,7 @@
 		},
 		{
 			"name": "Ring of Djinni Summoning",
+			"value": 6400000,
 			"source": "DMG",
 			"page": 190,
 			"srd": true,
@@ -26640,6 +26759,7 @@
 		},
 		{
 			"name": "Ring of Earth Elemental Command",
+			"value": 8750000,
 			"source": "DMG",
 			"page": 190,
 			"srd": true,
@@ -26688,6 +26808,7 @@
 			"reqAttune": true,
 			"recharge": "dawn",
 			"charges": 3,
+			"value": 480000,
 			"entries": [
 				"This ring has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. When you fail a Dexterity saving throw while wearing it, you can use your reaction to expend 1 of its charges to succeed on that saving throw instead."
 			],
@@ -26716,6 +26837,7 @@
 		},
 		{
 			"name": "Ring of Fire Elemental Command",
+			"value": 8750000,
 			"source": "DMG",
 			"page": 190,
 			"srd": true,
@@ -26789,6 +26911,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
+			"value": 525000,
 			"entries": [
 				"{#itemEntry Ring of Resistance}"
 			]
@@ -26802,6 +26925,7 @@
 			"tier": "major",
 			"rarity": "rare",
 			"reqAttune": true,
+			"value": 780000,
 			"entries": [
 				"While you wear this ring, {@quickref difficult terrain||3} doesn't cost you extra movement. In addition, magic can neither reduce your speed nor cause you to be {@condition paralyzed} or {@condition restrained}."
 			],
@@ -26812,6 +26936,7 @@
 		},
 		{
 			"name": "Ring of Invisibility",
+			"value": 7500000,
 			"source": "DMG",
 			"page": 191,
 			"srd": true,
@@ -26902,6 +27027,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
+			"value": 525000,
 			"entries": [
 				"{#itemEntry Ring of Resistance}"
 			]
@@ -26979,6 +27105,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
+			"value": 525000,
 			"entries": [
 				"{#itemEntry Ring of Resistance}"
 			]
@@ -26998,6 +27125,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
+			"value": 525000,
 			"entries": [
 				"{#itemEntry Ring of Resistance}"
 			]
@@ -27065,6 +27193,7 @@
 			"tier": "major",
 			"rarity": "very rare",
 			"reqAttune": true,
+			"value": 1450000,
 			"entries": [
 				"While wearing this ring, you regain {@dice 1d6} hit points every 10 minutes, provided that you have at least 1 hit point. If you lose a body part, the ring causes the missing part to regrow and return to full functionality after {@dice 1d6 + 1} days if you have at least 1 hit point the whole time."
 			],
@@ -27084,6 +27213,7 @@
 			"reqAttune": "outdoors at night",
 			"recharge": "dawn",
 			"charges": 6,
+			"value": 960000,
 			"entries": [
 				"While wearing this ring in dim light or darkness, you can cast {@spell dancing lights} and {@spell light} from the ring at will. Casting either spell from the ring requires an action.",
 				"The ring has 6 charges for the following other properties. The ring regains {@dice 1d6} expended charges daily at dawn.",
@@ -27123,6 +27253,7 @@
 		},
 		{
 			"name": "Ring of Spell Storing",
+			"value": 1900000,
 			"source": "DMG",
 			"page": 192,
 			"srd": true,
@@ -27142,6 +27273,7 @@
 		},
 		{
 			"name": "Ring of Spell Turning",
+			"value": 9500000,
 			"source": "DMG",
 			"page": 193,
 			"srd": true,
@@ -27187,6 +27319,7 @@
 			"tier": "major",
 			"rarity": "very rare",
 			"reqAttune": true,
+			"value": 845000,
 			"entries": [
 				"While wearing this ring, you can cast the {@spell telekinesis} spell at will, but you can target only objects that aren't being worn or carried."
 			],
@@ -27303,6 +27436,7 @@
 		},
 		{
 			"name": "Ring of Water Elemental Command",
+			"value": 8750000,
 			"source": "DMG",
 			"page": 190,
 			"srd": true,
@@ -27479,6 +27613,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"wondrous": true,
+			"value": 1160000,
 			"entries": [
 				"This robe is adorned with eyelike patterns. While you wear the robe, you gain the following benefits:",
 				{
@@ -27499,6 +27634,7 @@
 		},
 		{
 			"name": "Robe of Scintillating Colors",
+			"value": 3100000,
 			"source": "DMG",
 			"page": 194,
 			"srd": true,
@@ -27529,6 +27665,7 @@
 		},
 		{
 			"name": "Robe of Stars",
+			"value": 4500000,
 			"source": "DMG",
 			"page": 194,
 			"srd": true,
@@ -27567,6 +27704,7 @@
 		},
 		{
 			"name": "Robe of the Archmagi",
+			"value": 12000000,
 			"source": "DMG",
 			"page": 194,
 			"srd": true,
@@ -27711,6 +27849,7 @@
 		},
 		{
 			"name": "Rod of Absorption",
+			"value": 3800000,
 			"source": "DMG",
 			"page": 195,
 			"srd": true,
@@ -27732,6 +27871,7 @@
 		},
 		{
 			"name": "Rod of Alertness",
+			"value": 2500000,
 			"source": "DMG",
 			"page": 196,
 			"srd": true,
@@ -27779,6 +27919,7 @@
 		},
 		{
 			"name": "Rod of Lordly Might",
+			"value": 10500000,
 			"source": "DMG",
 			"page": 196,
 			"srd": true,
@@ -27832,6 +27973,7 @@
 		},
 		{
 			"name": "Rod of Resurrection",
+			"value": 35000000,
 			"source": "DMG",
 			"page": 197,
 			"type": "RD",
@@ -27890,6 +28032,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"weight": 2,
+			"value": 1240000,
 			"entries": [
 				"You can use an action to present the rod and command obedience from each creature of your choice that you can see within 120 feet of you. Each target must succeed on a DC 15 Wisdom saving throw or be {@condition charmed} by you for 8 hours. While {@condition charmed} in this way, the creature regards you as its trusted leader. If harmed by you or your companions, or commanded to do something contrary to its nature, a target ceases to be {@condition charmed} in this way. The rod can't be used again until the next dawn."
 			],
@@ -27900,6 +28043,7 @@
 		},
 		{
 			"name": "Rod of Security",
+			"value": 7400000,
 			"source": "DMG",
 			"page": 197,
 			"srd": true,
@@ -28517,6 +28661,7 @@
 		},
 		{
 			"name": "Scarab of Protection",
+			"value": 8000000,
 			"source": "DMG",
 			"page": 199,
 			"srd": true,
@@ -28598,6 +28743,7 @@
 			"dmg1": "1d6",
 			"dmgType": "S",
 			"bonusWeapon": "+2",
+			"value": 850000,
 			"entries": [
 				"You gain a +2 bonus to attack and damage rolls made with this magic weapon. In addition, you can make one attack with it as a bonus action on each of your turns."
 			],
@@ -29353,6 +29499,7 @@
 			"curse": true,
 			"weight": 6,
 			"ac": 2,
+			"value": 510000,
 			"entries": [
 				"While holding this shield, you have resistance to damage from ranged weapon attacks.",
 				{
@@ -30890,6 +31037,7 @@
 			"reqAttune": true,
 			"weight": 6,
 			"ac": 2,
+			"value": 5000000,
 			"entries": [
 				"While holding this shield, you have advantage on saving throws against spells and other magical effects, and spell attacks have disadvantage against you."
 			],
@@ -30996,6 +31144,7 @@
 		},
 		{
 			"name": "Sphere of Annihilation",
+			"value": 40000000,
 			"source": "DMG",
 			"page": 201,
 			"srd": true,
@@ -31055,6 +31204,7 @@
 			"recharge": "dusk",
 			"charges": 10,
 			"staff": true,
+			"value": 550000,
 			"entries": [
 				"The top of this black, adamantine staff is shaped like a spider. The staff weighs 6 pounds. You must be attuned to the staff to gain its benefits and cast its spells. The staff can be wielded as a quarterstaff. It deals {@dice 1d6} extra poison damage on a hit when used to make a weapon attack.",
 				"The staff has 10 charges, which are used to fuel the spells within it. With the staff in hand, you can use your action to cast one of the following spells from the staff if the spell is on your class's spell list: {@spell spider climb} (1 charge) or {@spell web} (2 charges, spell save DC 15). No components are required.",
@@ -31235,6 +31385,7 @@
 			"recharge": "dawn",
 			"charges": 10,
 			"staff": true,
+			"value": 570000,
 			"entries": [
 				"This slender, hollow staff is made of glass yet is as strong as oak. It weighs 3 pounds. You must be attuned to the staff to gain its benefits and cast its spells.",
 				"While holding the staff, you have a +1 bonus to your Armor Class.",
@@ -31321,6 +31472,7 @@
 		},
 		{
 			"name": "Staff of Fire",
+			"value": 2650000,
 			"source": "DMG",
 			"page": 201,
 			"srd": true,
@@ -31394,6 +31546,7 @@
 		},
 		{
 			"name": "Staff of Frost",
+			"value": 2650000,
 			"source": "DMG",
 			"page": 202,
 			"srd": true,
@@ -31446,6 +31599,7 @@
 		},
 		{
 			"name": "Staff of Healing",
+			"value": 1750000,
 			"source": "DMG",
 			"page": 202,
 			"srd": true,
@@ -31490,6 +31644,7 @@
 		},
 		{
 			"name": "Staff of Power",
+			"value": 7800000,
 			"source": "DMG",
 			"page": 202,
 			"srd": true,
@@ -31591,6 +31746,7 @@
 		},
 		{
 			"name": "Staff of Striking",
+			"value": 3850000,
 			"source": "DMG",
 			"page": 203,
 			"srd": true,
@@ -31645,6 +31801,7 @@
 					"class": "wizard"
 				}
 			],
+			"value": 1650000,
 			"weight": 4,
 			"weaponCategory": "simple",
 			"property": [
@@ -31817,6 +31974,7 @@
 		},
 		{
 			"name": "Staff of the Magi",
+			"value": 22500000,
 			"source": "DMG",
 			"page": 203,
 			"srd": true,
@@ -31966,6 +32124,7 @@
 		},
 		{
 			"name": "Staff of the Woodlands",
+			"value": 2400000,
 			"source": "DMG",
 			"page": 204,
 			"srd": true,
@@ -32026,6 +32185,7 @@
 		},
 		{
 			"name": "Staff of Thunder and Lightning",
+			"value": 2250000,
 			"source": "DMG",
 			"page": 204,
 			"srd": true,
@@ -32316,6 +32476,7 @@
 			"rarity": "rare",
 			"wondrous": true,
 			"weight": 5,
+			"value": 470000,
 			"entries": [
 				"If the stone is touching the ground, you can use an action to speak its command word and summon an {@creature earth elemental}, as if you had cast the {@spell conjure elemental} spell. The stone can't be used this way again until the next dawn. The stone weighs 5 pounds."
 			],
@@ -32713,6 +32874,7 @@
 			"dmgType": "R",
 			"dmg2": "1d10",
 			"bonusWeapon": "+2",
+			"value": 1200000,
 			"entries": [
 				"This item appears to be a longsword hilt. While grasping the hilt, you can use a bonus action to cause a blade of pure radiance to spring into existence, or make the blade disappear. While the blade exists, this magic longsword has the finesse property. If you are proficient with {@item shortsword|phb|shortswords} or {@item longsword|phb|longswords}, you are proficient with the sun blade.",
 				"You gain a +2 bonus to attack and damage rolls made with this weapon, which deals radiant damage instead of slashing damage. When you hit an undead with it, that target takes an extra {@damage 1d8} radiant damage.",
@@ -32810,6 +32972,7 @@
 		},
 		{
 			"name": "Sword of Answering (Answerer)",
+			"value": 12600000,
 			"source": "DMG",
 			"page": 206,
 			"baseItem": "longsword|phb",
@@ -32842,6 +33005,7 @@
 		},
 		{
 			"name": "Sword of Answering (Back Talker)",
+			"value": 12600000,
 			"source": "DMG",
 			"page": 206,
 			"baseItem": "longsword|phb",
@@ -32874,6 +33038,7 @@
 		},
 		{
 			"name": "Sword of Answering (Concluder)",
+			"value": 12600000,
 			"source": "DMG",
 			"page": 206,
 			"baseItem": "longsword|phb",
@@ -32906,6 +33071,7 @@
 		},
 		{
 			"name": "Sword of Answering (Last Quip)",
+			"value": 12600000,
 			"source": "DMG",
 			"page": 206,
 			"baseItem": "longsword|phb",
@@ -32938,6 +33104,7 @@
 		},
 		{
 			"name": "Sword of Answering (Rebutter)",
+			"value": 12600000,
 			"source": "DMG",
 			"page": 206,
 			"baseItem": "longsword|phb",
@@ -32970,6 +33137,7 @@
 		},
 		{
 			"name": "Sword of Answering (Replier)",
+			"value": 12600000,
 			"source": "DMG",
 			"page": 206,
 			"baseItem": "longsword|phb",
@@ -33001,6 +33169,7 @@
 		},
 		{
 			"name": "Sword of Answering (Retorter)",
+			"value": 12600000,
 			"source": "DMG",
 			"page": 206,
 			"baseItem": "longsword|phb",
@@ -33033,6 +33202,7 @@
 		},
 		{
 			"name": "Sword of Answering (Scather)",
+			"value": 12600000,
 			"source": "DMG",
 			"page": 206,
 			"baseItem": "longsword|phb",
@@ -33065,6 +33235,7 @@
 		},
 		{
 			"name": "Sword of Answering (Squelcher)",
+			"value": 12600000,
 			"source": "DMG",
 			"page": 206,
 			"baseItem": "longsword|phb",
@@ -33521,6 +33692,7 @@
 		},
 		{
 			"name": "Talisman of the Sphere",
+			"value": 6000000,
 			"source": "DMG",
 			"page": 207,
 			"srd": true,
@@ -33944,6 +34116,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"weight": 2,
+			"value": 985000,
 			"entries": [
 				"Made by the {@creature drow}, this rod is a magic weapon that ends in three rubbery tentacles. While holding the rod, you can use an action to direct each tentacle to attack a creature you can see within 15 feet of you. Each tentacle makes a melee attack roll with a +9 bonus. On a hit, the tentacle deals {@damage 1d6} bludgeoning damage. If you hit a target with all three tentacles, it must make a DC 15 Constitution saving throw. On a failure, the creature's speed is halved, it has disadvantage on Dexterity saving throws, and it can't use reactions for 1 minute. Moreover, on each of its turns, it can take either an action or a bonus action, but not both. At the end of each of its turns, it can repeat the saving throw, ending the effect on itself on a success."
 			],
@@ -34899,6 +35072,7 @@
 			"wondrous": true,
 			"tattoo": true,
 			"hasRefs": true,
+			"value": 750000,
 			"entries": [
 				"{#itemEntry Absorbing Tattoo|TCE}"
 			]
@@ -35173,6 +35347,7 @@
 		},
 		{
 			"name": "Tome of the Stilled Tongue",
+			"value": 13500000,
 			"source": "DMG",
 			"page": 208,
 			"tier": "major",
@@ -37512,6 +37687,7 @@
 			"weight": 1,
 			"recharge": "dawn",
 			"charges": 7,
+			"value": 480000,
 			"entries": [
 				"This wand has 7 charges for the following properties. It regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed.",
 				{
@@ -37554,6 +37730,7 @@
 			"weight": 1,
 			"recharge": "dawn",
 			"charges": 7,
+			"value": 780000,
 			"entries": [
 				"This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell fireball} spell (save DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.",
 				"The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed."
@@ -37583,6 +37760,7 @@
 			"weight": 1,
 			"recharge": "dawn",
 			"charges": 7,
+			"value": 780000,
 			"entries": [
 				"This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the {@spell lightning bolt} spell (save DC 15) from it. For 1 charge, you cast the 3rd-level version of the spell. You can increase the spell slot level by one for each additional charge you expend.",
 				"The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed."
@@ -37758,6 +37936,7 @@
 			"weight": 1,
 			"recharge": "dawn",
 			"charges": 7,
+			"value": 1120000,
 			"entries": [
 				"This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cause a thin blue ray to streak from the tip toward a creature you can see within 60 feet of you. The target must succeed on a DC 15 Constitution saving throw or be {@condition paralyzed} for 1 minute. At the end of each of the target's turns, it can repeat the saving throw, ending the effect on itself on a success.",
 				"The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll a {@dice d20}. On a 1, the wand crumbles into ashes and is destroyed."
@@ -37769,6 +37948,7 @@
 		},
 		{
 			"name": "Wand of Polymorph",
+			"value": 1880000,
 			"source": "DMG",
 			"page": 211,
 			"srd": true,
@@ -38361,6 +38541,7 @@
 		},
 		{
 			"name": "Well of Many Worlds",
+			"value": 9000000,
 			"source": "DMG",
 			"page": 213,
 			"srd": true,
@@ -39062,6 +39243,7 @@
 					"fly": 60
 				}
 			},
+			"value": 740000,
 			"entries": [
 				"While wearing this cloak, you can use an action to speak its command word. This turns the cloak into a pair of bat wings or bird wings on your back for 1 hour or until you repeat the command word as an action. The wings give you a flying speed of 60 feet. When they disappear, you can't use them again for {@dice 1d12} hours."
 			],
@@ -39599,6 +39781,7 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"tattoo": true,
+			"value": 750000,
 			"entries": [
 				"Produced by a special needle, this magic tattoo features designs that emphasize one color.",
 				{
@@ -41188,6 +41371,7 @@
 		},
 		{
 			"name": "Sword of Answering",
+			"value": 12600000,
 			"source": "DMG",
 			"page": 206,
 			"baseItem": "longsword|phb",
