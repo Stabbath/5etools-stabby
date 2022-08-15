@@ -1015,7 +1015,6 @@
 			"type": "GV",
 			"requires": [
 				{
-					"weapon": true
 					"type": "M"
 				}
 			],
@@ -2710,7 +2709,7 @@
 			"type": "GV",
 			"requires": [
 				{
-					"type": "M"
+					"type": "M",
 					"dmgType": "S"
 				}
 			],
