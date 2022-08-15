@@ -7124,6 +7124,11 @@ Renderer.item = {
 
 		specificVariant._variantName = genericVariant.name;
 
+		// Variants are only forced to be mundane if inheriting that status - ignore the property from the baseItem
+		if (specificVariant.mundane) {
+			delete specificVariant.mundane
+		}
+
 		// Magic items do not inherit the value of the non-magical item
 		delete specificVariant.value;
 
