@@ -6836,12 +6836,13 @@
 			"source": "XGE",
 			"page": 137,
 			"tier": "minor",
-			"rarity": "common",
+			"rarity": "uncommon",
 			"wondrous": true,
 			"value": 42000,
 			"entries": [
 				"This copper amulet contains tiny interlocking gears and is powered by magic from Mechanus, a plane of clockwork predictability. A creature that puts an ear to the amulet can hear faint ticking and whirring noises coming from within.",
-				"When you make an attack roll while wearing the amulet, you can forgo rolling the {@dice d20} to get a 10 on the die. Once used, this property can't be used again until the next dawn."
+				"When you make an attack roll while wearing the amulet, you can forgo rolling the {@dice d20} to get a 10 on the die. Once used, this property can't be used again until the next dawn.",
+				"Homebrew edit: changed rarity from common."
 			]
 		},
 		{
@@ -10618,7 +10619,7 @@
 			"srd": true,
 			"type": "HA",
 			"tier": "major",
-			"rarity": "very rare",
+			"rarity": "rare",
 			"weight": 65,
 			"ac": 18,
 			"strength": "15",
@@ -10626,7 +10627,8 @@
 			"stealth": true,
 			"value": 690000,
 			"entries": [
-				"While wearing this armor, you gain a +2 bonus to AC. In addition, if an effect moves you against your will along the ground, you can use your reaction to reduce the distance you are moved by up to 10 feet."
+				"While wearing this armor, you gain a +2 bonus to AC. In addition, if an effect moves you against your will along the ground, you can use your reaction to reduce the distance you are moved by up to 10 feet.",
+				"Homebrew edit: rarity reduced from very rare."
 			],
 			"lootTables": [
 				"Magic Item Table H"
@@ -12856,29 +12858,6 @@
 			"entries": [
 				"This magic flail is made in the image of Tiamat, with five jagged heads shaped like the heads of five different chromatic dragons. You gain a +3 bonus to attack and damage rolls made with this flail. When you hit with an attack roll using it, the target takes an extra {@damage 5d4} damage of your choice of one of the following damage types: acid, cold, fire, lightning, or poison.",
 				"While holding the flail, you can use an action and speak a command word to cause the heads to breathe multicolored flames in a 90-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw. On a failed save, it takes {@damage 14d6} damage of one of the following damage types (your choice): acid, cold, fire, lightning, or poison. On a successful save, it takes half as much damage. Once this action is used, it can't be used again until the next dawn."
-			]
-		},
-		{
-			"name": "Flame Tongue Shortsword of Greed",
-			"source": "TftYP",
-			"page": 179,
-			"baseItem": "shortsword|phb",
-			"type": "M",
-			"rarity": "unknown (magic)",
-			"reqAttune": true,
-			"weight": 2,
-			"weaponCategory": "martial",
-			"property": [
-				"F",
-				"L"
-			],
-			"dmg1": "1d6",
-			"dmgType": "P",
-			"sword": true,
-			"weapon": true,
-			"entries": [
-				"You can use a bonus action to speak this magic sword's command word, causing flames to erupt from the blade. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is ablaze, it deals an extra {@damage 2d6} fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you drop or sheathe the sword.",
-				"While you are attuned to this sword you can use an action to mentally command it to detect gems and jewels. You learn the kind and number of such objects within 60 feet of the sword."
 			]
 		},
 		{
@@ -17228,7 +17207,8 @@
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
 				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"You gain a +1 bonus to death saving throws while this luminous green-and-blue marbled sphere orbits your head."
+				"You gain a +1 bonus to death saving throws while this luminous green-and-blue marbled sphere orbits your head.",
+				"Ioun stones share attunement: no matter how many ioun stones you attune to, the ensemble will only take up one of your attunement slots."
 			]
 		},
 		{
@@ -17246,7 +17226,8 @@
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
 				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
 				"While this pale lavender ellipsoid orbits your head, you can use your reaction to cancel a spell of 4th level or lower cast by a creature you can see and targeting only you.",
-				"Once the stone has canceled 20 levels of spells, it burns out and turns dull gray, losing its magic. If you are targeted by a spell whose level is higher than the number of spell levels the stone has left, the stone can't cancel it."
+				"Once the stone has canceled 20 levels of spells, it burns out and turns dull gray, losing its magic. If you are targeted by a spell whose level is higher than the number of spell levels the stone has left, the stone can't cancel it.",
+				"Ioun stones share attunement: no matter how many ioun stones you attune to, the ensemble will only take up one of your attunement slots."
 			],
 			"lootTables": [
 				"Magic Item Table H"
@@ -17269,7 +17250,8 @@
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
 				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"Your Dexterity score increases by 2, to a maximum of 20, while this deep red sphere orbits your head."
+				"Your Dexterity score increases by 2, to a maximum of 20, while this deep red sphere orbits your head.",
+				"Ioun stones share attunement: no matter how many ioun stones you attune to, the ensemble will only take up one of your attunement slots."
 			],
 			"lootTables": [
 				"Magic Item Table H"
@@ -17289,7 +17271,8 @@
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
 				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"You can't be surprised while this dark blue rhomboid orbits your head."
+				"You can't be surprised while this dark blue rhomboid orbits your head.",
+				"Ioun stones share attunement: no matter how many ioun stones you attune to, the ensemble will only take up one of your attunement slots."
 			],
 			"lootTables": [
 				"Magic Item Table G"
@@ -17312,7 +17295,8 @@
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
 				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"Your Constitution score increases by 2, to a maximum of 20, while this pink rhomboid orbits your head."
+				"Your Constitution score increases by 2, to a maximum of 20, while this pink rhomboid orbits your head.",
+				"Ioun stones share attunement: no matter how many ioun stones you attune to, the ensemble will only take up one of your attunement slots."
 			],
 			"lootTables": [
 				"Magic Item Table H"
@@ -17332,7 +17316,8 @@
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
 				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"While this marbled lavender and green ellipsoid orbits your head, you can use your reaction to cancel a spell of 8th level or lower cast by a creature you can see and targeting only you. Once the stone has canceled 50 levels of spells, it burns out and turns dull gray, losing its magic. If you are targeted by a spell whose level is higher than the number of spell levels the stone has left, the stone can't cancel it."
+				"While this marbled lavender and green ellipsoid orbits your head, you can use your reaction to cancel a spell of 8th level or lower cast by a creature you can see and targeting only you. Once the stone has canceled 50 levels of spells, it burns out and turns dull gray, losing its magic. If you are targeted by a spell whose level is higher than the number of spell levels the stone has left, the stone can't cancel it.",
+				"Ioun stones share attunement: no matter how many ioun stones you attune to, the ensemble will only take up one of your attunement slots."
 			],
 			"lootTables": [
 				"Magic Item Table I"
@@ -17350,7 +17335,8 @@
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
 				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"You gain proficiency in the {@skill History} skill, or a +1 bonus to checks with that skill if already proficient, while this polished, steely sphere orbits your head."
+				"You gain proficiency in the {@skill History} skill, or a +1 bonus to checks with that skill if already proficient, while this polished, steely sphere orbits your head.",
+				"Ioun stones share attunement: no matter how many ioun stones you attune to, the ensemble will only take up one of your attunement slots."
 			]
 		},
 		{
@@ -17370,7 +17356,8 @@
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
 				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"Your Wisdom score increases by 2, to a maximum of 20, while this incandescent blue sphere orbits your head."
+				"Your Wisdom score increases by 2, to a maximum of 20, while this incandescent blue sphere orbits your head.",
+				"Ioun stones share attunement: no matter how many ioun stones you attune to, the ensemble will only take up one of your attunement slots."
 			],
 			"lootTables": [
 				"Magic Item Table H"
@@ -17393,7 +17380,8 @@
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
 				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"Your Intelligence score increases by 2, to a maximum of 20, while this marbled scarlet and blue sphere orbits your head."
+				"Your Intelligence score increases by 2, to a maximum of 20, while this marbled scarlet and blue sphere orbits your head.",
+				"Ioun stones share attunement: no matter how many ioun stones you attune to, the ensemble will only take up one of your attunement slots."
 			],
 			"lootTables": [
 				"Magic Item Table H"
@@ -17410,7 +17398,8 @@
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
 				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"You are fluent in one additional language while this pulsating bit of red jeweled crystal orbits your head. The DM chooses the language bestowed by the stone."
+				"You are fluent in one additional language while this pulsating bit of red jeweled crystal orbits your head. The DM chooses the language bestowed by the stone.",
+				"Ioun stones share attunement: no matter how many ioun stones you attune to, the ensemble will only take up one of your attunement slots."
 			]
 		},
 		{
@@ -17430,7 +17419,8 @@
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
 				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"Your Charisma score increases by 2, to a maximum of 20, while this marbled pink and green sphere orbits your head."
+				"Your Charisma score increases by 2, to a maximum of 20, while this marbled pink and green sphere orbits your head.",
+				"Ioun stones share attunement: no matter how many ioun stones you attune to, the ensemble will only take up one of your attunement slots."
 			],
 			"lootTables": [
 				"Magic Item Table H"
@@ -17451,7 +17441,8 @@
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
 				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"Your proficiency bonus increases by 1 while this pale green prism orbits your head."
+				"Your proficiency bonus increases by 1 while this pale green prism orbits your head.",
+				"Ioun stones share attunement: no matter how many ioun stones you attune to, the ensemble will only take up one of your attunement slots."
 			],
 			"lootTables": [
 				"Magic Item Table I"
@@ -17469,7 +17460,8 @@
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
 				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"You gain proficiency in the {@skill Nature} skill, or a +1 bonus to checks with that skill if already proficient, while this burnished, brassy stone orbits your head."
+				"You gain proficiency in the {@skill Nature} skill, or a +1 bonus to checks with that skill if already proficient, while this burnished, brassy stone orbits your head.",
+				"Ioun stones share attunement: no matter how many ioun stones you attune to, the ensemble will only take up one of your attunement slots."
 			]
 		},
 		{
@@ -17487,7 +17479,8 @@
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
 				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"You gain a +1 bonus to AC while this dusty rose prism orbits your head."
+				"You gain a +1 bonus to AC while this dusty rose prism orbits your head.",
+				"Ioun stones share attunement: no matter how many ioun stones you attune to, the ensemble will only take up one of your attunement slots."
 			],
 			"lootTables": [
 				"Magic Item Table G"
@@ -17507,7 +17500,8 @@
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
 				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"You regain 15 hit points at the end of each hour this pearly white spindle orbits your head, provided that you have at least 1 hit point."
+				"You regain 15 hit points at the end of each hour this pearly white spindle orbits your head, provided that you have at least 1 hit point.",
+				"Ioun stones share attunement: no matter how many ioun stones you attune to, the ensemble will only take up one of your attunement slots."
 			],
 			"lootTables": [
 				"Magic Item Table I"
@@ -17525,7 +17519,8 @@
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
 				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"You gain proficiency in the {@skill Religion} skill, or a +1 bonus to checks with that skill if already proficient, while this tiny golden gem orbits your head."
+				"You gain proficiency in the {@skill Religion} skill, or a +1 bonus to checks with that skill if already proficient, while this tiny golden gem orbits your head.",
+				"Ioun stones share attunement: no matter how many ioun stones you attune to, the ensemble will only take up one of your attunement slots."
 			]
 		},
 		{
@@ -17544,7 +17539,8 @@
 				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
 				"This vibrant purple prism stores spells cast into it, holding them until you use them. The stone can store up to 3 levels worth of spells at a time. When found, it contains {@dice 1d4 - 1} levels of stored spells chosen by the DM.",
 				"Any creature can cast a spell of 1st through 3rd level into the stone by touching it as the spell is cast. The spell has no effect, other than to be stored in the stone. If the stone can't hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.",
-				"While this stone orbits your head, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if you cast the spell. The spell cast from the stone is no longer stored in it, freeing up space."
+				"While this stone orbits your head, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if you cast the spell. The spell cast from the stone is no longer stored in it, freeing up space.",
+				"Ioun stones share attunement: no matter how many ioun stones you attune to, the ensemble will only take up one of your attunement slots."
 			],
 			"lootTables": [
 				"Magic Item Table G"
@@ -17562,7 +17558,8 @@
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
 				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"You gain a +1 bonus to Intelligence saving throws while this silvery gem orbits your head."
+				"You gain a +1 bonus to Intelligence saving throws while this silvery gem orbits your head.",
+				"Ioun stones share attunement: no matter how many ioun stones you attune to, the ensemble will only take up one of your attunement slots."
 			]
 		},
 		{
@@ -17582,7 +17579,8 @@
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
 				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"Your Strength score increases by 2, to a maximum of 20, while this pale blue rhomboid orbits your head."
+				"Your Strength score increases by 2, to a maximum of 20, while this pale blue rhomboid orbits your head.",
+				"Ioun stones share attunement: no matter how many ioun stones you attune to, the ensemble will only take up one of your attunement slots."
 			],
 			"lootTables": [
 				"Magic Item Table H"
@@ -17599,7 +17597,8 @@
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
 				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"You gain a +1 bonus to Intelligence checks while this faceted sphere orbits your head."
+				"You gain a +1 bonus to Intelligence checks while this faceted sphere orbits your head.",
+				"Ioun stones share attunement: no matter how many ioun stones you attune to, the ensemble will only take up one of your attunement slots."
 			]
 		},
 		{
@@ -17616,7 +17615,8 @@
 				"An {@italic Ioun stone} is named after Ioun, a god of knowledge and prophecy revered on some worlds. Many types of {@italic Ioun stone} exist, each type a distinct combination of shape and color.",
 				"When you use an action to toss one of these stones into the air, the stone orbits your head at a distance of {@dice 1d3} feet and confers a benefit to you. Thereafter, another creature must use an action to grasp or net the stone to separate it from you, either by making a successful attack roll against AC 24 or a successful DC 24 Dexterity ({@skill Acrobatics}) check. You can use an action to seize and stow the stone, ending its effect.",
 				"A stone has AC 24, 10 hit points, and resistance to all damage. It is considered to be an object that is being worn while it orbits your head.",
-				"You don't need to eat or drink while this clear spindle orbits your head."
+				"You don't need to eat or drink while this clear spindle orbits your head.",
+				"Ioun stones share attunement: no matter how many ioun stones you attune to, the ensemble will only take up one of your attunement slots."
 			],
 			"lootTables": [
 				"Magic Item Table G"
@@ -23424,30 +23424,6 @@
 			]
 		},
 		{
-			"name": "Plate Armor of Etherealness",
-			"source": "DMG",
-			"page": 185,
-			"srd": true,
-			"baseItem": "plate armor|phb",
-			"type": "HA",
-			"tier": "major",
-			"rarity": "legendary",
-			"reqAttune": true,
-			"weight": 65,
-			"ac": 18,
-			"strength": "15",
-			"stealth": true,
-			"entries": [
-				"While you're wearing this armor, you can speak its command word as an action to gain the effect of the {@spell etherealness} spell, which lasts for 10 minutes or until you remove the armor or use an action to speak the command word again. This property of the armor can't be used again until the next dawn."
-			],
-			"attachedSpells": [
-				"etherealness"
-			],
-			"lootTables": [
-				"Magic Item Table I"
-			]
-		},
-		{
 			"name": "Platinum",
 			"source": "PHB",
 			"page": 157,
@@ -23956,10 +23932,11 @@
 			"srd": true,
 			"type": "P",
 			"tier": "minor",
-			"rarity": "rare",
+			"rarity": "uncommon",
 			"value": 60000,
 			"entries": [
-				"When you drink this potion, you gain the \"reduce\" effect of the {@spell enlarge/reduce} spell for {@dice 1d4} hours (no concentration required). The red in the potion's liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process."
+				"When you drink this potion, you gain the \"reduce\" effect of the {@spell enlarge/reduce} spell for {@dice 1d4} hours (no concentration required). The red in the potion's liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process.",
+				"Homebrew edit: reduced rarity from rare."
 			],
 			"attachedSpells": [
 				"enlarge/reduce"
@@ -31060,7 +31037,9 @@
 			"entries": [
 				"You can use an action to speak this staff's command word and throw the staff on the ground within 10 feet of you. The staff becomes a {@creature giant constrictor snake} under your control and acts on its own initiative count. By using a bonus action to speak the command word again, you return the staff to its normal form in a space formerly occupied by the snake.",
 				"On your turn, you can mentally command the snake if it is within 60 feet of you and you aren't {@condition incapacitated}. You decide what action the snake takes and where it moves during its next turn, or you can issue it a general command, such as to attack your enemies or guard a location.",
-				"If the snake is reduced to 0 hit points, it dies and reverts to its staff form. The staff then shatters and is destroyed. If the snake reverts to staff form before losing all its hit points, it regains all of them."
+				"If the snake is reduced to 0 hit points, it dies and reverts to its staff form. The staff then shatters and is destroyed. The snake's hit points are preserved even if it reverts to staff form before losing all its hit points and subsequently shift back into snake form again.",
+				"Each day at dawn, the snake recovers all its missing hit points, even if in staff form.",
+				"Homebrew edit: hit points aren't reset."
 			],
 			"lootTables": [
 				"Magic Item Table F"
