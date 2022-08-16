@@ -1743,6 +1743,7 @@
 			"ac": 18,
 			"strength": "15",
 			"stealth": true,
+			"value": 500000,
 			"entries": [
 				"While wearing this armor, you have resistance to bludgeoning damage.",
 				{
@@ -1776,6 +1777,7 @@
 			"ac": 18,
 			"strength": "15",
 			"stealth": true,
+			"value": 500000,
 			"entries": [
 				"While wearing this armor, you have resistance to piercing damage.",
 				{
@@ -1809,6 +1811,7 @@
 			"ac": 18,
 			"strength": "15",
 			"stealth": true,
+			"value": 500000,
 			"entries": [
 				"While wearing this armor, you have resistance to slashing damage.",
 				{
@@ -2449,6 +2452,8 @@
 			"rarity": "rare",
 			"wondrous": true,
 			"weight": 0.5,
+			"value": 50000,
+			"valueNotes": "+500 gp per bean after the fiirst",
 			"entries": [
 				"Inside this heavy cloth bag are {@dice 3d4} dry beans. The bag weighs ½ pound plus ¼ pound for each bean it contains.",
 				"If you dump the bag's contents out on the ground, they explode in a 10-foot radius, extending from the beans. Each creature in the area, including you, must make a DC 15 Dexterity saving throw, taking {@damage 5d4} fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that aren't being worn or carried.",
@@ -3491,6 +3496,7 @@
 				"Druid",
 				"Warlock"
 			],
+			"value": 80000,
 			"entries": [
 				"This silver implement is shaped like a tree branch and is strung with small golden bells. The branch is a spellcasting focus for your spells while you hold it.",
 				"The branch has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. You can use the charges in the following ways while holding it:",
@@ -3833,6 +3839,7 @@
 			"bonusAc": "+1",
 			"bonusSavingThrow": "+1",
 			"stealth": true,
+			"value": 1000000,
 			"entries": [
 				"Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to acid damage.",
 				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest black dragon within 30 miles of you. This special action can't be used again until the next dawn."
@@ -4625,6 +4632,7 @@
 		},
 		{
 			"name": "Blue Dragon Scale Mail",
+			"value": 1000000,
 			"source": "DMG",
 			"page": 165,
 			"srd": true,
@@ -5258,6 +5266,7 @@
 		},
 		{
 			"name": "Brass Dragon Scale Mail",
+			"value": 1000000,
 			"source": "DMG",
 			"page": 165,
 			"srd": true,
@@ -5430,6 +5439,7 @@
 		},
 		{
 			"name": "Bronze Dragon Scale Mail",
+			"value": 1000000,
 			"source": "DMG",
 			"page": 165,
 			"srd": true,
@@ -6333,6 +6343,7 @@
 			"rarity": "common",
 			"reqAttune": true,
 			"wondrous": true,
+			"value": 500,
 			"entries": [
 				"Whenever you roll this six\u2014sided die, you can control which number it rolls."
 			]
@@ -6878,6 +6889,7 @@
 			"tier": "minor",
 			"rarity": "common",
 			"wondrous": true,
+			"value": 4000,
 			"entries": [
 				"This elegant outfit of traveler's clothes magically mends itself to counteract daily wear and tear. Pieces of the outfit that are destroyed can't be repaired in this way."
 			]
@@ -7262,6 +7274,7 @@
 		},
 		{
 			"name": "Copper Dragon Scale Mail",
+			"value": 1000000,
 			"source": "DMG",
 			"page": 165,
 			"srd": true,
@@ -8136,6 +8149,8 @@
 			"tier": "major",
 			"rarity": "uncommon",
 			"wondrous": true,
+			"value": 68000,
+			"valueNotes": "-20 gp per missing card",
 			"entries": [
 				"This box contains a set of parchment cards. A full deck has 34 cards. A deck found as treasure is usually missing {@dice 1d20 - 1} cards.",
 				"The magic of the deck functions only if cards are drawn at random (you can use an altered deck of playing cards to simulate the deck). You can use an action to draw a card at random from the deck and throw it to the ground at a point within 30 feet of you.",
@@ -13772,6 +13787,7 @@
 		},
 		{
 			"name": "Gold Dragon Scale Mail",
+			"value": 1000000,
 			"source": "DMG",
 			"page": 165,
 			"srd": true,
@@ -14068,6 +14084,7 @@
 		},
 		{
 			"name": "Green Dragon Scale Mail",
+			"value": 1000000,
 			"source": "DMG",
 			"page": 165,
 			"srd": true,
@@ -18468,6 +18485,8 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
+			"value": 20000,
+			"valueNotes": "+175 gp per dose after the first",
 			"entries": [
 				"This glass jar, 3 inches in diameter, contains {@dice 1d4 + 1} doses of a thick mixture that smells faintly of aloe. The jar and its contents weigh ½ pound.",
 				"As an action, one dose of the ointment can be swallowed or applied to the skin. The creature that receives it regains {@dice 2d8 + 2} hit points, ceases to be {@condition poisoned}, and is cured of any disease."
@@ -20221,6 +20240,8 @@
 		},
 		{
 			"name": "Manual of Bodily Health",
+			"value": 6000000,
+			"valueNotes": "-500 to -1000 per year left without magic (depending on buyer's life expectancy).",
 			"source": "DMG",
 			"page": 180,
 			"srd": true,
@@ -20273,6 +20294,8 @@
 		},
 		{
 			"name": "Manual of Gainful Exercise",
+			"value": 6000000,
+			"valueNotes": "-500 to -1000 per year left without magic (depending on buyer's life expectancy).",
 			"source": "DMG",
 			"page": 180,
 			"srd": true,
@@ -20309,6 +20332,8 @@
 		},
 		{
 			"name": "Manual of Quickness of Action",
+			"value": 6000000,
+			"valueNotes": "-500 to -1000 per year left without magic (depending on buyer's life expectancy).",
 			"source": "DMG",
 			"page": 181,
 			"srd": true,
@@ -21245,6 +21270,8 @@
 			"dmgType": "S",
 			"dmg2": "1d10",
 			"bonusWeapon": "+1",
+			"value": 110000,
+			"valueNotes": "+10000 gp times (number of runes)^2"
 			"entries": [
 				"Of all the magic items created by the elves, one of the most prized and jealously guarded is a moon blade. In ancient times, nearly all elven noble houses claimed one such blade. Over the centuries, some blades have faded from the world, their magic lost as family lines have become extinct. Other blades have vanished with their bearers during great quests. Thus, only a few of these weapons remain.",
 				"A moonblade passes down from parent to child. The sword chooses its bearer and remains bonded to that person for life. If the bearer dies, another heir can claim the blade. If no worthy heir exists, the sword lies dormant. It functions like a normal longsword until a worthy soul finds it and lays claim to its power.",
@@ -21638,6 +21665,8 @@
 			"rarity": "rare",
 			"wondrous": true,
 			"weight": 1,
+			"value": 35000,
+			"valueNotes": "+350 gp per bead after the first",
 			"entries": [
 				"This necklace has {@dice 1d6 + 3} beads hanging from it. You can use an action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a 3rd-level {@spell fireball} spell (save DC 15).",
 				"You can hurl multiple beads, or even the whole necklace, as one action. When you do so, increase the level of the {@spell fireball} by 1 for each bead beyond the first."
@@ -21679,6 +21708,8 @@
 			],
 			"wondrous": true,
 			"weight": 1,
+			"value": 10000,
+			"valueNotes": "Price per bead: Blessing - 100 gp; Curing, Smiting - 250 gp; Summoning, Favour - 1000 gp; Wind Walking - 2000 gp"
 			"entries": [
 				"This necklace has {@dice 1d4 + 2} magic beads made from aquamarine, black pearl, or topaz. It also has many nonmagical beads made from stones such as amber, bloodstone, citrine, coral, jade, pearl, or quartz. If a magic bead is removed from the necklace, that bead loses its magic.",
 				"Six types of magic beads exist. The DM decides the type of each bead on the necklace or determines it randomly. A necklace can have more than one bead of the same type. To use one, you must be wearing the necklace. Each bead contains a spell that you can cast from it as a bonus action (using your spell save DC if a save is necessary). Once a magic bead's spell is cast, that bead can't be used again until the next dawn.",
@@ -21917,6 +21948,8 @@
 			"rarity": "very rare",
 			"wondrous": true,
 			"weight": 1,
+			"value": 500000,
+			"valueNotes": "+5000 gp per pot after the first"
 			"entries": [
 				"Typically found in {@dice 1d4} pots inside a fine wooden box with a brush (weighing 1 pound in total), these pigments allow you to create three-dimensional objects by painting them in two dimensions. The paint flows from the brush to form the desired object as you concentrate on its image.",
 				"Each pot of paint is sufficient to cover 1,000 square feet of a surface, which lets you create inanimate objects or terrain features\u2014such as a door, a pit, flowers, trees, cells, rooms, or weapons\u2014that are up to 10,000 cubic feet. It takes 10 minutes to cover 100 square feet.",
@@ -25612,6 +25645,7 @@
 		},
 		{
 			"name": "Red Dragon Scale Mail",
+			"value": 1000000,
 			"source": "DMG",
 			"page": 165,
 			"srd": true,
@@ -26475,6 +26509,8 @@
 			"type": "RG",
 			"tier": "major",
 			"rarity": "legendary",
+			"value": 10000000,
+			"valueNotes": "+150000 gp per remaining wish."
 			"entries": [
 				"While wearing this ring, you can use an action to expend 1 of its 3 charges to cast the {@spell wish} spell from it. The ring becomes nonmagical when you use the last charge."
 			],
@@ -26854,6 +26890,8 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"wondrous": true,
+			"value": 17000,
+			"valueNotes": "+2x the value of the objects in the bonus patches",
 			"entries": [
 				"This robe has cloth patches of various shapes and colors covering it. While wearing the robe. you can use an action to detach one of the patches, causing it to become the object or creature it represents. Once the last patch is removed, the robe becomes an ordinary garment.",
 				"The robe has two of each of the following patches:",
@@ -27911,6 +27949,7 @@
 			"type": "SC",
 			"tier": "minor",
 			"rarity": "rare",
+			"value": 58000,
 			"entries": [
 				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents aberrations from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that an aberration would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
 			]
@@ -27922,6 +27961,7 @@
 			"type": "SC",
 			"tier": "minor",
 			"rarity": "rare",
+			"value": 30000,
 			"entries": [
 				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents beasts from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a beast would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
 			]
@@ -27933,8 +27973,33 @@
 			"type": "SC",
 			"tier": "minor",
 			"rarity": "rare",
+			"value": 60000,
 			"entries": [
 				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents celestials from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a celestial would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
+			]
+		},
+		{
+			"name": "Scroll of Protection from Constructs",
+			"source": "DMG",
+			"page": 199,
+			"type": "SC",
+			"tier": "minor",
+			"rarity": "rare",
+			"value": 40000,
+			"entries": [
+				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents celestials from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a celestial would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
+			]
+		},
+		{
+			"name": "Scroll of Protection from Dragons",
+			"source": "DMG",
+			"page": 199,
+			"type": "SC",
+			"tier": "minor",
+			"rarity": "rare",
+			"value": 58000,
+			"entries": [
+				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents beasts from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a beast would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
 			]
 		},
 		{
@@ -27944,6 +28009,7 @@
 			"type": "SC",
 			"tier": "minor",
 			"rarity": "rare",
+			"value": 60000,
 			"entries": [
 				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents elementals from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that an elemental would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
 			]
@@ -27955,6 +28021,7 @@
 			"type": "SC",
 			"tier": "minor",
 			"rarity": "rare",
+			"value": 60000,
 			"entries": [
 				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents fey from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a fey would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
 			]
@@ -27966,8 +28033,57 @@
 			"type": "SC",
 			"tier": "minor",
 			"rarity": "rare",
+			"value": 60000,
 			"entries": [
 				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents fiends from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a fiend would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
+			]
+		},
+		{
+			"name": "Scroll of Protection from Giants",
+			"source": "DMG",
+			"page": 199,
+			"type": "SC",
+			"tier": "minor",
+			"rarity": "rare",
+			"value": 49000,
+			"entries": [
+				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents fey from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a fey would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
+			]
+		},
+		{
+			"name": "Scroll of Protection from Humanoids",
+			"source": "DMG",
+			"page": 199,
+			"type": "SC",
+			"tier": "minor",
+			"rarity": "rare",
+			"value": 30000,
+			"entries": [
+				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents fey from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a fey would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
+			]
+		},
+		{
+			"name": "Scroll of Protection from Monstrosities",
+			"source": "DMG",
+			"page": 199,
+			"type": "SC",
+			"tier": "minor",
+			"rarity": "rare",
+			"value": 43000,
+			"entries": [
+				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents fey from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a fey would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
+			]
+		},
+		{
+			"name": "Scroll of Protection from Oozes",
+			"source": "DMG",
+			"page": 199,
+			"type": "SC",
+			"tier": "minor",
+			"rarity": "rare",
+			"value": 52000,
+			"entries": [
+				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents fey from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a fey would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
 			]
 		},
 		{
@@ -27977,6 +28093,7 @@
 			"type": "SC",
 			"tier": "minor",
 			"rarity": "rare",
+			"value": 35000,
 			"entries": [
 				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents plants from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that a plant would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
 			]
@@ -27988,6 +28105,7 @@
 			"type": "SC",
 			"tier": "minor",
 			"rarity": "rare",
+			"value": 45000,
 			"entries": [
 				"Using an action to read the scroll encloses you in an {@condition invisible} barrier that extends from you to form a 5-foot-radius, 10-foot-high cylinder. For 5 minutes, this barrier prevents undead from entering or affecting anything within the cylinder. The cylinder moves with you and remains centered on you. However, if you move in such a way that an undead would be inside the cylinder, the effect ends. A creature can attempt to overcome the barrier by using an action to make a DC 15 Charisma check. On a success, the creature ceases to be affected by the barrier."
 			]
@@ -28851,6 +28969,7 @@
 			"bonusAc": "+1",
 			"bonusSavingThrow": "+1",
 			"stealth": true,
+			"value": 1000000,
 			"entries": [
 				"Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to cold damage.",
 				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest silver dragon within 30 miles of you. This special action can't be used again until the next dawn."
@@ -29443,6 +29562,8 @@
 			"tier": "minor",
 			"rarity": "legendary",
 			"wondrous": true,
+			"value": 140000,
+			"valueNotes": "+1400 gp per charge after the first",
 			"entries": [
 				"This viscous, milky-white substance can form a permanent adhesive bond between any two objects. It must be stored in a jar or flask that has been coated inside with {@item oil of slipperiness}. When found, a container contains {@dice 1d6 + 1} ounces.",
 				"One ounce of the glue can cover a 1-foot square surface. The glue takes 1 minute to set. Once it has done so, the bond it creates can be broken only by the application of {@item universal solvent} or {@item oil of etherealness}, or with a {@spell wish} spell."
@@ -34182,6 +34303,8 @@
 		},
 		{
 			"name": "Tome of Clear Thought",
+			"value": 6000000,
+			"valueNotes": "-500 to -1000 per year left without magic (depending on buyer's life expectancy).",
 			"source": "DMG",
 			"page": 208,
 			"srd": true,
@@ -34202,6 +34325,8 @@
 		},
 		{
 			"name": "Tome of Leadership and Influence",
+			"value": 6000000,
+			"valueNotes": "-500 to -1000 per year left without magic (depending on buyer's life expectancy).",
 			"source": "DMG",
 			"page": 208,
 			"srd": true,
@@ -34262,6 +34387,8 @@
 		},
 		{
 			"name": "Tome of Understanding",
+			"value": 6000000,
+			"valueNotes": "-500 to -1000 per year left without magic (depending on buyer's life expectancy).",
 			"source": "DMG",
 			"page": 209,
 			"srd": true,
@@ -37199,6 +37326,7 @@
 			"bonusAc": "+1",
 			"bonusSavingThrow": "+1",
 			"stealth": true,
+			"value": 1000000,
 			"entries": [
 				"Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to cold damage.",
 				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest white dragon within 30 miles of you. This special action can't be used again until the next dawn."
@@ -38535,6 +38663,7 @@
 			"weight": 45,
 			"ac": 14,
 			"stealth": true,
+			"value": 1000000,
 			"items": [
 				"Black Dragon Scale Mail",
 				"Blue Dragon Scale Mail",

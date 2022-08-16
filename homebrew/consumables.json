@@ -194,8 +194,10 @@
 			"page": 0,
 			"wondrous": true,
 			"rarity": "rare",
+			"value": 200000,
+			"valueNotes": "+1000 gp per charge after the first.",
 			"entries": [
-				"This dried and pickled disembodied hand, taken from a hanged man, is often stored together with 1d6+2 candles made from the fat of the same person and with a wick made from their hair.",
+				"This dried and pickled disembodied hand, taken from a hanged man, is typically stored together with {@dice 1d6 + 2} candles made from the fat of the same person and with a wick made from their hair.",
 				"You can insert such a candle between its middle and ring finger and light it. A candle lit this way creates bright light to a range of 60 feet and dim light for a further 60 feet, that only you can see and benefit from – to all other creatures, there appears to be no flame and no light shining from it. Each candle lasts 1 hour.",
 				"While the candle shines this way, you can use the hand to knock on any door (but not containers), thereby casting knock, producing only the sound normal for a knock on a door, rather than the loud sound normally produced in a casting of this spell.",
 				"In some legends, it is said that a higher tier of these hands has an additional ability: any creature within its candlelight is paralysed and unaware of its surroundings until the candle burns out or leaves the area, and is unaware of anything transpiring for the duration, unless a creature within the light is attacked, in which case the candle is instantly extinguished. But such a hand, if any exist, would either require a much more complicated manufacture or for the hanged man to be very special indeed."
@@ -207,8 +209,10 @@
 			"page": 0,
 			"wondrous": true,
 			"rarity": "legendary",
+			"value": 4000000,
+			"valueNotes": "+20000 gp per charge after the first.",
 			"entries": [
-				"This dried and pickled disembodied hand, taken from a hanged man, is often stored together with 1d6+2 candles made from the fat of the same person and with a wick made from their hair.",
+				"This dried and pickled disembodied hand, taken from a hanged man, is often stored together with {@dice 1d6 + 2} candles made from the fat of the same person and with a wick made from their hair.",
 				"You can insert such a candle between its middle and ring finger and light it. A candle lit this way creates bright light to a range of 60 feet and dim light for a further 60 feet, that only you can see and benefit from – to all other creatures, there appears to be no flame and no light shining from it. Each candle lasts 1 hour.",
 				"While the candle shines this way, you can use the hand to knock on any door (but not containers), thereby casting knock, producing only the sound normal for a knock on a door, rather than the loud sound normally produced in a casting of this spell.",
 				"In some legends, it is said that a higher tier of these hands has an additional ability: any creature within its candlelight is paralysed and unaware of its surroundings until the candle burns out or leaves the area, and is unaware of anything transpiring for the duration, unless a creature within the light is attacked, in which case the candle is instantly extinguished. But such a hand, if any exist, would either require a much more complicated manufacture or for the hanged man to be very special indeed.",

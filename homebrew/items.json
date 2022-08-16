@@ -238,6 +238,7 @@
 			"type": "GV",
 			"rarity": "legendary",
 			"reqAttune": true,
+			"value": 8200000,
 			"entries": [
 				"You are immune to one type of damage while you wear this armor. The DM chooses the type or determines it randomly from the options below.",
 				{
@@ -1680,6 +1681,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"value": 459000,
+			"valueNotes": "Minus 1530 gp per missing spider.",
 			"entries": [
 				"{#itemEntry Figurine of Wondrous Power|stabbyitems}",
 				"These hematite statuettes are always made in sets of three. You can use one figurine or more than one simultaneously. Each can become a {@creature giant spider} for up to 12 hours. Once it has been used, it can't be used again until 5 days have passed."
@@ -2695,11 +2697,13 @@
 					"armor": true
 				}
 			],
+			"value": 7500,
 			"inherits": {
 				"nameSuffix": " of Many Fashions",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "common",
+				"valueExpression": "[[baseItem.value]]*1.5 + 7500",
 				"entries": [
 					"While wearing this armor, you can use a bonus action to change the style, color, and apparent quality of the garment. The armor’s weight doesn’t change.",
 					"Regardless of its appearance, the armor can’t be anything other than the type of armor it is. Although it can duplicate the appearance of other magic amors, it doesn’t gain their magical properties.",
@@ -2718,11 +2722,13 @@
 					"name": "Rapier"
 				}
 			],
+			"value": 3000,
 			"inherits": {
 				"nameSuffix": " of Conducting",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "common",
+				"valueExpression": "[[baseItem.value]]*1.5 + 3000",
 				"entries": [
 					"This sword has 3 charges. While holding it, you can use an action to expend 1 of its charges and create orchestral music by waving it around. The music can be heard out to a range of 60 feet and ends when you stop waving the shortsword.",
 					"The wand regains all expended charges daily at dawn. If you expend the sword’s last charge, roll a d20. On a 1, a sad tuba sound plays as the sword crumbles to dust and is destroyed.",
@@ -2739,18 +2745,20 @@
 		
 		
 		{
-			"name": "Armor of Haste",
+			"name": "Armor of Acceleration",
 			"type": "GV",
 			"requires": [
 				{
 					"armor": true
 				}
 			],
+			"value": 152000,
 			"inherits": {
-				"nameSuffix": " of Haste",
+				"nameSuffix": " of Acceleration",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "uncommon",
+				"valueExpression": "[[baseItem.value]]*2 + 152000",
 				"entries": [
 					"While wearing this armor, you can use an action to receive the benefits of a {@spell haste} spell, for a duration of 1 minute, requiring no concentration. Once you have used this feature, you can’t use it again until the next dawn.",
 					"Created by Tiago Neves, edited by Francisco Pesquita."
@@ -2770,11 +2778,13 @@
 					"axe": true
 				}
 			],
+			"value": 280000,
 			"inherits": {
 				"nameSuffix": " of the Logger",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "uncommon",
+				"valueExpression": "[[baseItem.value]]*2 + 280000",
 				"entries": [
 					"You have a +1 bonus to attack and damage rolls with this weapon. This bonus improves to +3 against Plants and wood-based Constructs. Additionally, you can forego attack rolls against inanimate wooden objects, replacing the roll with a natural 20."
 				],
@@ -2792,11 +2802,13 @@
 					"name": "Flail"
 				}
 			],
+			"value": 12000,
 			"inherits": {
 				"namePrefix": "Grappling ",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "uncommon",
+				"valueExpression": "[[baseItem.value]]*2 + 12000",
 				"entries": [
 					"This weapon can stretch as you attack, doubling its reach (on top of the standard increase of 5 feet if it has reach). It also allows you to shove creatures within reach in place of a weapon attack, as described in the Player's Handbook, but you choose between knocking them prone and pulling them 5 feet towards you or in a lateral direction, rather than pushing them away.",
 					"This weapon can additionally be used as a grappling hook: in place of a weapon attack with this weapon, you can target a steady surface or a loose object within reach. The point will attach itself securely to a targeted steady surface, allowing you to pull yourself a distance of your choice towards it as a bonus action. If you target a loose object you may pull it towards you as a bonus action, and if it is light enough you can pull it through the air all the way to your position as part of the same bonus action."
@@ -2839,11 +2851,13 @@
 					"type": "AT"
 				}
 			],
+			"value": 100000,
 			"inherits": {
 				"namePrefix": "+1 ",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "uncommon",
+				"valueExpression": "[[baseItem.value]]*2 + 100000",
 				"entries": [
 					"You have a bonus of +1 to ability checks made with this magic tool."
 				]
@@ -2857,11 +2871,13 @@
 					"type": "INS"
 				}
 			],
+			"value": 100000,
 			"inherits": {
 				"namePrefix": "+1 ",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "uncommon",
+				"valueExpression": "[[baseItem.value]]*2 + 100000",
 				"entries": [
 					"You have a bonus of +1 to ability checks made with this musical instrument."
 				]
@@ -2875,11 +2891,13 @@
 					"type": "M"
 				}
 			],
+			"value": 110000,
 			"inherits": {
 				"nameSuffix": " of Glowing",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "uncommon",
+				"valueExpression": "[[baseItem.value]]*2 + 110000",
 				"entries": [
 					"When you hit an attack with this weapon with a natural roll of 19 or higher, your target makes a Dexterity saving throw against a DC of 12. On a failure, it's covered in sparkling glowing dust that emits dim blue light to a range of 10ft for up to 1 minute.",
 					"While affected by this effect, any attack roll against the creature has advantage if the attacker can see it, and the creature does not benefit from invisibility.",
@@ -2904,11 +2922,13 @@
 					"weapon": true
 				}
 			],
+			"value": 483000,
 			"inherits": {
 				"namePrefix": "Brutal ",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "rare",
+				"valueExpression": "[[baseItem.value]]*3 + 483000",
 				"entries": [
 					"Attacks with this weapon have a -5 penalty to hit, but deal 10 extra damage on a successful hit."
 				],
@@ -2919,6 +2939,26 @@
 			}
 		},
 		{
+			"name": "Echoing Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"value": 290000,
+			"inherits": {
+				"namePrefix": "Echoing ",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "uncommon",
+				"valueExpression": "[[baseItem.value]]*2 + 290000",
+				"entries": [
+					"When you make an attack roll with this weapon and score a natural roll of 18 or higher, as long as the weapon remains in your hands, you forcibly make an additional free attack on the same target with this weapon immediately after resolving the triggering attack. This attack is an automatic hit, and consumes additional ammunition if the weapon has the ammunition property. This feature can only trigger once per turn."
+				]
+			}
+		},
+		{
 			"name": "+1 Echoing Weapon",
 			"type": "GV",
 			"requires": [
@@ -2926,18 +2966,19 @@
 					"weapon": true
 				}
 			],
+			"value": 590000,
 			"inherits": {
 				"namePrefix": "+1 Echoing ",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "rare",
+				"valueExpression": "[[baseItem.value]]*3 + 590000",
 				"entries": [
 					"Attacks with this weapon receive a +1 bonus to attack and damage rolls.",
 					"Additionally, when you make an attack roll with this weapon and score a natural roll of 18 or higher, as long as the weapon remains in your hands, you forcibly make an additional free attack on the same target with this weapon immediately after resolving the triggering attack. This attack is an automatic hit, and consumes additional ammunition if the weapon has the ammunition property. This feature can only trigger once per turn."
 				],
 				"bonusWeaponAttack": "+1",
 				"bonusWeaponDamage": "+1"
-
 			}
 		},
 		{
@@ -2948,11 +2989,13 @@
 					"type": "SCF"
 				}
 			],
+			"value": 210000,
 			"inherits": {
 				"nameSuffix": " of Extended Reach",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "rare",
+				"valueExpression": "[[baseItem.value]]*3 + 210000",
 				"entries": [
 					"All spells you cast using this spellcasting focus with a range of 5ft or higher have their range doubled."
 				]
@@ -2969,11 +3012,13 @@
 					"type": "AT"
 				}
 			],
+			"value": 630000,
 			"inherits": {
 				"namePrefix": "+2 ",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "rare",
+				"valueExpression": "[[baseItem.value]]*3 + 630000",
 				"entries": [
 					"You have a bonus of +2 to ability checks made with this magic tool."
 				]
@@ -2988,11 +3033,13 @@
 					"dmgType": "B"
 				}
 			],
+			"value": 290000,
 			"inherits": {
 				"nameSuffix": " of Bashing",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "rare",
+				"valueExpression": "[[baseItem.value]]*3 + 290000",
 				"entries": [
 					"Whenever you roll a natural 19-20 on an attack roll with this weapon, your target must make a Constitution saving throw against a DC equal to the bludgeoning damage dealt by the attack. On a failure, it is {@condition stunned} until the end of its next turn."
 				]
@@ -3027,11 +3074,13 @@
 					"type": "M"
 				}
 			],
+			"value": 800000,
 			"inherits": {
 				"nameSuffix": " of Recklessness",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "rare",
+				"valueExpression": "[[baseItem.value]]*3 + 800000",
 				"entries": [
 					"When you first make an attack on your turn with this weapon, you can opt to give yourself advantage on all attack rolls you make with this weapon but also give everyone who attacks you advantage on their attack rolls to hit you until the start of your next turn."
 				]
@@ -3045,12 +3094,14 @@
 					"weapon": true
 				}
 			],
+			"value": 495000,
 			"inherits": {
 				"namePrefix": "Wizardsbane ",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "rare",
 				"reqAttune": true,
+				"valueExpression": "[[baseItem.value]]*3 + 495000",
 				"entries": [
 					"Whenever you score a critical hit against a creature who has spell slots, the creature loses one of its highest level spell slots up to level {@dice 1d4 + 1}. The attack deals extra force damage equal to the level of the lost spell slot."
 				]
@@ -3077,12 +3128,14 @@
 					"armor": true
 				}
 			],
+			"value": 1600000,
 			"inherits": {
 				"nameSuffix": " of Caution",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "very rare",
 				"reqAttune": true,
+				"valueExpression": "[[baseItem.value]]*5 + 1600000",
 				"entries": [
 					"When a creature makes an attack against you, you can use your reaction to force disadvantage on that attack. If you do, all attacks against you until the end of your next turn are made with disadvantage, but so are all attacks you make."
 				]
@@ -3096,11 +3149,13 @@
 					"type": "SCF"
 				}
 			],
+			"value": 3400000,
 			"inherits": {
 				"namePrefix": "Echoing ",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "very rare",
+				"valueExpression": "[[baseItem.value]]*5 + 3400000",
 				"entries": [
 					"Whenever you cast a spell with this focus, roll a {@dice d12}. On a 12, cast a copy of the spell without expending a spellslot or any material components; you may select different targets for it, but you must cast it. If you do not wish to cast the echo, it is cast regardless, with the same targets as the original instance of the spell.",
 					"The echo is cast after the original spell's immediate effects have been resolved - for example, if the original spell kills its target, that target is no longer valid for the echo.",
@@ -3119,11 +3174,13 @@
 					"type": "AT"
 				}
 			],
+			"value": 3050000,
 			"inherits": {
 				"namePrefix": "+3 ",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "very rare",
+				"valueExpression": "[[baseItem.value]]*5 + 3050000",
 				"entries": [
 					"You have a bonus of +3 to ability checks made with this magic tool."
 				]
@@ -3137,12 +3194,14 @@
 					"weapon": true
 				}
 			],
+			"value": 2250000,
 			"inherits": {
 				"nameSuffix": " of Arc Lightning",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "very rare",
 				"reqAttune": true,
+				"valueExpression": "[[baseItem.value]]*5 + 2250000",
 				"entries": [
 					"Whenever you hit an attack with a roll of 19-20, your target takes {@damage 4d6} lightning damage. Keep the results of each die rolled.",
 					"Drop the lowest die. The nearest creature to your target within 20 ft. of it that is hostile to you makes a Dexterity saving throw. On a failure, it takes lightning damage equal to the remaining dice. On a success, it takes half damage. Also on a failure, if more than one die remains, you repeat the process within 20 ft. of the last hit creature, jumping to a new creature that has not yet been hurt by this same chain."
@@ -3161,12 +3220,14 @@
 				}
 			],
 			"ammo": true,
+			"value": 190000,
 			"inherits": {
 				"namePrefix": "+4 ",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "legendary",
 				"bonusWeapon": "+4",
+				"valueExpression": "[[baseItem.value]]*10 + 190000",
 				"entries": [
 					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
 				]
@@ -3180,12 +3241,14 @@
 					"armor": true
 				}
 			],
+			"value": 7625000,
 			"inherits": {
 				"namePrefix": "+4 ",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "legendary",
 				"bonusAc": "+4",
+				"valueExpression": "[[baseItem.value]]*10 + 7625000",
 				"entries": [
 					"You have a {=bonusAc} bonus to AC while wearing this armor."
 				]
@@ -3202,12 +3265,14 @@
 			"excludes": {
 				"net": true
 			},
+			"value": 7625000,
 			"inherits": {
 				"namePrefix": "+4 ",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "legendary",
 				"bonusWeapon": "+4",
+				"valueExpression": "[[baseItem.value]]*10 + 7625000",
 				"entries": [
 					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon."
 				]
@@ -3244,6 +3309,7 @@
 					"armor": true
 				}
 			],
+			"value": 8200000,
 			"inherits": {
 				"nameSuffix": " of Acid Immunity",
 				"source": "stabbyitems",
@@ -3254,6 +3320,7 @@
 				"rarity": "legendary",
 				"reqAttune": true,
 				"hasRefs": true,
+				"valueExpression": "[[baseItem.value]]*10 + 8200000",
 				"entries": [
 					"{#itemEntry Armor of immunity|stabbyitems}"
 				]
@@ -3267,6 +3334,7 @@
 					"armor": true
 				}
 			],
+			"value": 8200000,
 			"inherits": {
 				"nameSuffix": " of Cold Immunity",
 				"source": "stabbyitems",
@@ -3277,6 +3345,7 @@
 				"rarity": "legendary",
 				"reqAttune": true,
 				"hasRefs": true,
+				"valueExpression": "[[baseItem.value]]*10 + 8200000",
 				"entries": [
 					"{#itemEntry Armor of immunity|stabbyitems}"
 				]
@@ -3290,6 +3359,7 @@
 					"armor": true
 				}
 			],
+			"value": 8200000,
 			"inherits": {
 				"nameSuffix": " of Fire Immunity",
 				"source": "stabbyitems",
@@ -3300,6 +3370,7 @@
 				"rarity": "legendary",
 				"reqAttune": true,
 				"hasRefs": true,
+				"valueExpression": "[[baseItem.value]]*10 + 8200000",
 				"entries": [
 					"{#itemEntry Armor of immunity|stabbyitems}"
 				]
@@ -3313,6 +3384,7 @@
 					"armor": true
 				}
 			],
+			"value": 8200000,
 			"inherits": {
 				"nameSuffix": " of Force Immunity",
 				"source": "stabbyitems",
@@ -3323,6 +3395,7 @@
 				"rarity": "legendary",
 				"reqAttune": true,
 				"hasRefs": true,
+				"valueExpression": "[[baseItem.value]]*10 + 8200000",
 				"entries": [
 					"{#itemEntry Armor of immunity|stabbyitems}"
 				]
@@ -3336,6 +3409,7 @@
 					"armor": true
 				}
 			],
+			"value": 8200000,
 			"inherits": {
 				"nameSuffix": " of Lightning Immunity",
 				"source": "stabbyitems",
@@ -3346,6 +3420,7 @@
 				"rarity": "legendary",
 				"reqAttune": true,
 				"hasRefs": true,
+				"valueExpression": "[[baseItem.value]]*10 + 8200000",
 				"entries": [
 					"{#itemEntry Armor of immunity|stabbyitems}"
 				]
@@ -3359,6 +3434,7 @@
 					"armor": true
 				}
 			],
+			"value": 8200000,
 			"inherits": {
 				"nameSuffix": " of Necrotic Immunity",
 				"source": "stabbyitems",
@@ -3369,6 +3445,7 @@
 				"rarity": "legendary",
 				"reqAttune": true,
 				"hasRefs": true,
+				"valueExpression": "[[baseItem.value]]*10 + 8200000",
 				"entries": [
 					"{#itemEntry Armor of immunity|stabbyitems}"
 				]
@@ -3382,6 +3459,7 @@
 					"armor": true
 				}
 			],
+			"value": 8200000,
 			"inherits": {
 				"nameSuffix": " of Poison Immunity",
 				"source": "stabbyitems",
@@ -3392,6 +3470,7 @@
 				"rarity": "legendary",
 				"reqAttune": true,
 				"hasRefs": true,
+				"valueExpression": "[[baseItem.value]]*10 + 8200000",
 				"entries": [
 					"{#itemEntry Armor of immunity|stabbyitems}"
 				]
@@ -3405,6 +3484,7 @@
 					"armor": true
 				}
 			],
+			"value": 8200000,
 			"inherits": {
 				"nameSuffix": " of Psychic Immunity",
 				"source": "stabbyitems",
@@ -3415,6 +3495,7 @@
 				"rarity": "legendary",
 				"reqAttune": true,
 				"hasRefs": true,
+				"valueExpression": "[[baseItem.value]]*10 + 8200000",
 				"entries": [
 					"{#itemEntry Armor of immunity|stabbyitems}"
 				]
@@ -3428,6 +3509,7 @@
 					"armor": true
 				}
 			],
+			"value": 8200000,
 			"inherits": {
 				"nameSuffix": " of Radiant Immunity",
 				"source": "stabbyitems",
@@ -3438,6 +3520,7 @@
 				"rarity": "legendary",
 				"reqAttune": true,
 				"hasRefs": true,
+				"valueExpression": "[[baseItem.value]]*10 + 8200000",
 				"entries": [
 					"{#itemEntry Armor of immunity|stabbyitems}"
 				]
@@ -3451,6 +3534,7 @@
 					"armor": true
 				}
 			],
+			"value": 8200000,
 			"inherits": {
 				"nameSuffix": " of Thunder Immunity",
 				"source": "stabbyitems",
@@ -3461,6 +3545,7 @@
 				"rarity": "legendary",
 				"reqAttune": true,
 				"hasRefs": true,
+				"valueExpression": "[[baseItem.value]]*10 + 8200000",
 				"entries": [
 					"{#itemEntry Armor of immunity|stabbyitems}"
 				]
@@ -3474,12 +3559,14 @@
 					"weapon": true
 				}
 			],
+			"value": 16500000
 			"inherits": {
 				"namePrefix": "Fortunate ",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "legendary",
 				"reqAttune": true,
+				"valueExpression": "[[baseItem.value]]*10 + 16500000",
 				"entries": [
 					"These legendary weapons of extreme rarity come in all varieties. They are said to have been blessed by the gods of Luck themselves.",
 					"This weapon has a +1 bonus to attack and damage rolls. Additionally, you may treat any result of 1-4 on an attack roll as a 5, and any result of 17-19 as a 20."
@@ -3498,11 +3585,13 @@
 					"type": "AT"
 				}
 			],
+			"value": 7625000,
 			"inherits": {
 				"namePrefix": "+4 ",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "legendary",
+				"valueExpression": "[[baseItem.value]]*10 + 7625000",
 				"entries": [
 					"You have a bonus of +4 to ability checks made with this magic tool."
 				]
@@ -3522,6 +3611,7 @@
 					"name": "smith's tools"
 				}
 			],
+			"value": 26000000,
 			"inherits": {
 				"nameSuffix": " of Space Creation",
 				"source": "stabbyitems",
@@ -3529,6 +3619,7 @@
 				"rarity": "legendary",
 				"recharge": "dawn",
 				"charges": 100,
+				"valueExpression": "[[baseItem.value]]*10 + 26000000",
 				"entries": [
 					"Carpenter's Tools, Mason's Tools, or Smith's Tools.",
 					"A creature proficient with the appropriate tools can create extradimensional space inside drawers, cabinets, chests, boxes, and other containers, or even a door. Each dawn, the item gains 5 charges. It can hold up to 100.",
@@ -3549,12 +3640,14 @@
 					"property": "T"
 				}
 			],
+			"value": 6800000,
 			"inherits": {
 				"nameSuffix": " of Peerless Precision",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "legendary",
 				"reqAttune": true,
+				"valueExpression": "[[baseItem.value]]*10 + 6800000",
 				"entries": [
 					"Attacking targets at long range, targets within 5ft of you, or prone targets, does not impose disadvantage on your ranged weapon attack rolls with this weapon.",
 					"Your ranged weapon attacks ignore half cover and three-quarters cover.",
