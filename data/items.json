@@ -2453,7 +2453,7 @@
 			"wondrous": true,
 			"weight": 0.5,
 			"value": 50000,
-			"valueNotes": "+500 gp per bean after the fiirst",
+			"valueNotes": "+500 gp per bean after the first",
 			"entries": [
 				"Inside this heavy cloth bag are {@dice 3d4} dry beans. The bag weighs ½ pound plus ¼ pound for each bean it contains.",
 				"If you dump the bag's contents out on the ground, they explode in a 10-foot radius, extending from the beans. Each creature in the area, including you, must make a DC 15 Dexterity saving throw, taking {@damage 5d4} fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that aren't being worn or carried.",
@@ -21271,7 +21271,7 @@
 			"dmg2": "1d10",
 			"bonusWeapon": "+1",
 			"value": 110000,
-			"valueNotes": "+10000 gp times (number of runes)^2"
+			"valueNotes": "+10000 gp times (number of runes)^2",
 			"entries": [
 				"Of all the magic items created by the elves, one of the most prized and jealously guarded is a moon blade. In ancient times, nearly all elven noble houses claimed one such blade. Over the centuries, some blades have faded from the world, their magic lost as family lines have become extinct. Other blades have vanished with their bearers during great quests. Thus, only a few of these weapons remain.",
 				"A moonblade passes down from parent to child. The sword chooses its bearer and remains bonded to that person for life. If the bearer dies, another heir can claim the blade. If no worthy heir exists, the sword lies dormant. It functions like a normal longsword until a worthy soul finds it and lays claim to its power.",
@@ -21709,7 +21709,7 @@
 			"wondrous": true,
 			"weight": 1,
 			"value": 10000,
-			"valueNotes": "Price per bead: Blessing - 100 gp; Curing, Smiting - 250 gp; Summoning, Favour - 1000 gp; Wind Walking - 2000 gp"
+			"valueNotes": "Price per bead: Blessing - 100 gp; Curing, Smiting - 250 gp; Summoning, Favour - 1000 gp; Wind Walking - 2000 gp",
 			"entries": [
 				"This necklace has {@dice 1d4 + 2} magic beads made from aquamarine, black pearl, or topaz. It also has many nonmagical beads made from stones such as amber, bloodstone, citrine, coral, jade, pearl, or quartz. If a magic bead is removed from the necklace, that bead loses its magic.",
 				"Six types of magic beads exist. The DM decides the type of each bead on the necklace or determines it randomly. A necklace can have more than one bead of the same type. To use one, you must be wearing the necklace. Each bead contains a spell that you can cast from it as a bonus action (using your spell save DC if a save is necessary). Once a magic bead's spell is cast, that bead can't be used again until the next dawn.",
@@ -21949,7 +21949,7 @@
 			"wondrous": true,
 			"weight": 1,
 			"value": 500000,
-			"valueNotes": "+5000 gp per pot after the first"
+			"valueNotes": "+5000 gp per pot after the first",
 			"entries": [
 				"Typically found in {@dice 1d4} pots inside a fine wooden box with a brush (weighing 1 pound in total), these pigments allow you to create three-dimensional objects by painting them in two dimensions. The paint flows from the brush to form the desired object as you concentrate on its image.",
 				"Each pot of paint is sufficient to cover 1,000 square feet of a surface, which lets you create inanimate objects or terrain features\u2014such as a door, a pit, flowers, trees, cells, rooms, or weapons\u2014that are up to 10,000 cubic feet. It takes 10 minutes to cover 100 square feet.",
@@ -26510,7 +26510,7 @@
 			"tier": "major",
 			"rarity": "legendary",
 			"value": 10000000,
-			"valueNotes": "+150000 gp per remaining wish."
+			"valueNotes": "+150000 gp per remaining wish.",
 			"entries": [
 				"While wearing this ring, you can use an action to expend 1 of its 3 charges to cast the {@spell wish} spell from it. The ring becomes nonmagical when you use the last charge."
 			],

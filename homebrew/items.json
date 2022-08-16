@@ -3559,7 +3559,7 @@
 					"weapon": true
 				}
 			],
-			"value": 16500000
+			"value": 16500000,
 			"inherits": {
 				"namePrefix": "Fortunate ",
 				"source": "stabbyitems",
