@@ -23962,7 +23962,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"hasRefs": true,
-			"value": 80000,
+			"value": 60000,
 			"entries": [
 				"{#itemEntry Potion of Resistance}"
 			]
@@ -24283,7 +24283,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"hasRefs": true,
-			"value": 80000,
+			"value": 60000,
 			"entries": [
 				"{#itemEntry Potion of Resistance}"
 			]
@@ -24347,7 +24347,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"hasRefs": true,
-			"value": 80000,
+			"value": 60000,
 			"entries": [
 				"{#itemEntry Potion of Resistance}"
 			]
@@ -24364,7 +24364,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"hasRefs": true,
-			"value": 80000,
+			"value": 60000,
 			"entries": [
 				"{#itemEntry Potion of Resistance}"
 			]
@@ -25935,7 +25935,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
-			"value": 525000,
+			"value": 415000,
 			"entries": [
 				"{#itemEntry Ring of Resistance}"
 			]
@@ -26051,7 +26051,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
-			"value": 525000,
+			"value": 415000,
 			"entries": [
 				"{#itemEntry Ring of Resistance}"
 			]
@@ -26129,7 +26129,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
-			"value": 525000,
+			"value": 415000,
 			"entries": [
 				"{#itemEntry Ring of Resistance}"
 			]
@@ -26149,7 +26149,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
-			"value": 525000,
+			"value": 415000,
 			"entries": [
 				"{#itemEntry Ring of Resistance}"
 			]
@@ -35767,10 +35767,12 @@
 			"page": 139,
 			"tier": "minor",
 			"rarity": "common",
+			"type": "M",
 			"wondrous": true,
 			"value": 16500,
 			"entries": [
-				"When you grasp this walking cane and use a bonus action to speak the command word, it transforms into an ordinary longsword and ceases to be magical."
+				"{@note Homebrew edit: made the effect reversible so the item is actually useful.}"
+				"When you grasp this walking cane and use a bonus action to speak the command word, it transforms into a longsword whose attacks count as magical. While in sword form, you can use another bonus action to speak the command word again and transform it back into a walking cane."
 			]
 		},
 		{
@@ -39304,6 +39306,7 @@
 			"type": "P",
 			"tier": "minor",
 			"rarity": "uncommon",
+			"value": 60000,
 			"items": [
 				"Potion of Acid Resistance",
 				"Potion of Cold Resistance",

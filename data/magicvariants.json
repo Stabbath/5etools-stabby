@@ -21,7 +21,7 @@
 				"tier": "minor",
 				"rarity": "uncommon",
 				"bonusWeapon": "+1",
-				"valueExpression": "[[baseItem.value]]*2 + 2500",
+				"valueExpression": "[[baseItem.value]] + 2500",
 				"entries": [
 					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
 				],
@@ -48,7 +48,7 @@
 				"tier": "major",
 				"rarity": "uncommon",
 				"bonusAc": "+1",
-				"valueExpression": "[[baseItem.value]]*2 + 100000",
+				"valueExpression": "[[baseItem.value]] + 100000",
 				"entries": [
 					"{@note Homebrew edit: reduced rarity from rare.}",
 					"You have a {=bonusAc} bonus to AC while wearing this armor."
@@ -73,7 +73,7 @@
 				"tier": "major",
 				"rarity": "uncommon",
 				"bonusWeapon": "+1",
-				"valueExpression": "[[baseItem.value]]*2 + 100000",
+				"valueExpression": "[[baseItem.value]] + 100000",
 				"entries": [
 					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon."
 				],
@@ -103,7 +103,7 @@
 				"tier": "minor",
 				"rarity": "rare",
 				"bonusWeapon": "+2",
-				"valueExpression": "[[baseItem.value]]*3 + 15750",
+				"valueExpression": "[[baseItem.value]] + 15750",
 				"entries": [
 					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
 				],
@@ -130,7 +130,7 @@
 				"tier": "major",
 				"rarity": "rare",
 				"bonusAc": "+2",
-				"valueExpression": "[[baseItem.value]]*3 + 630000",
+				"valueExpression": "[[baseItem.value]] + 630000",
 				"entries": [
 					"{@note Homebrew edit: reduced rarity from very rare.}",
 					"You have a {=bonusAc} bonus to AC while wearing this armor."
@@ -155,7 +155,7 @@
 				"tier": "major",
 				"rarity": "rare",
 				"bonusWeapon": "+2",
-				"valueExpression": "[[baseItem.value]]*3 + 630000",
+				"valueExpression": "[[baseItem.value]] + 630000",
 				"entries": [
 					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon."
 				],
@@ -185,7 +185,7 @@
 				"tier": "minor",
 				"rarity": "very rare",
 				"bonusWeapon": "+3",
-				"valueExpression": "[[baseItem.value]]*5 + 76250",
+				"valueExpression": "[[baseItem.value]] + 76250",
 				"entries": [
 					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
 				],
@@ -212,7 +212,7 @@
 				"tier": "major",
 				"rarity": "very rare",
 				"bonusAc": "+3",
-				"valueExpression": "[[baseItem.value]]*5 + 3050000",
+				"valueExpression": "[[baseItem.value]] + 3050000",
 				"entries": [
 					"{@note Homebrew edit: reduced rarity from legendary.}",
 					"You have a {=bonusAc} bonus to AC while wearing this armor."
@@ -237,7 +237,7 @@
 				"tier": "major",
 				"rarity": "very rare",
 				"bonusWeapon": "+3",
-				"valueExpression": "[[baseItem.value]]*5 + 3050000",
+				"valueExpression": "[[baseItem.value]] + 3050000",
 				"entries": [
 					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon."
 				],
@@ -406,7 +406,7 @@
 					"armor": true
 				}
 			],
-			"value": 350000,
+			"value": 375000,
 			"inherits": {
 				"nameSuffix": " of Acid Resistance",
 				"source": "DMG",
@@ -419,7 +419,7 @@
 				"rarity": "rare",
 				"reqAttune": true,
 				"hasRefs": true,
-				"valueExpression": "[[baseItem.value]]*3 + 350000",
+				"valueExpression": "[[baseItem.value]] + 375000",
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
 				]
@@ -433,7 +433,7 @@
 					"armor": true
 				}
 			],
-			"value": 350000,
+			"value": 375000,
 			"inherits": {
 				"nameSuffix": " of Cold Resistance",
 				"source": "DMG",
@@ -446,7 +446,7 @@
 				"rarity": "rare",
 				"reqAttune": true,
 				"hasRefs": true,
-				"valueExpression": "[[baseItem.value]]*3 + 350000",
+				"valueExpression": "[[baseItem.value]] + 375000",
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
 				]
@@ -460,7 +460,7 @@
 					"armor": true
 				}
 			],
-			"value": 350000,
+			"value": 375000,
 			"inherits": {
 				"nameSuffix": " of Fire Resistance",
 				"source": "DMG",
@@ -473,7 +473,7 @@
 				"rarity": "rare",
 				"reqAttune": true,
 				"hasRefs": true,
-				"valueExpression": "[[baseItem.value]]*3 + 350000",
+				"valueExpression": "[[baseItem.value]] + 375000",
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
 				]
@@ -487,7 +487,7 @@
 					"armor": true
 				}
 			],
-			"value": 485000,
+			"value": 375000,
 			"inherits": {
 				"nameSuffix": " of Force Resistance",
 				"source": "DMG",
@@ -500,7 +500,7 @@
 				"rarity": "rare",
 				"reqAttune": true,
 				"hasRefs": true,
-				"valueExpression": "[[baseItem.value]]*3 + 485000",
+				"valueExpression": "[[baseItem.value]] + 375000",
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
 				]
@@ -524,7 +524,7 @@
 				"page": 136,
 				"tier": "minor",
 				"rarity": "common",
-				"valueExpression": "[[baseItem.value]]*1.5 + 4000",
+				"valueExpression": "[[baseItem.value]] + 4000",
 				"entries": [
 					"This armor never gets dirty."
 				]
@@ -538,7 +538,7 @@
 					"armor": true
 				}
 			],
-			"value": 350000,
+			"value": 375000,
 			"inherits": {
 				"nameSuffix": " of Lightning Resistance",
 				"source": "DMG",
@@ -551,7 +551,7 @@
 				"rarity": "rare",
 				"reqAttune": true,
 				"hasRefs": true,
-				"valueExpression": "[[baseItem.value]]*3 + 350000",
+				"valueExpression": "[[baseItem.value]] + 375000",
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
 				]
@@ -565,7 +565,7 @@
 					"armor": true
 				}
 			],
-			"value": 485000,
+			"value": 375000,
 			"inherits": {
 				"nameSuffix": " of Necrotic Resistance",
 				"source": "DMG",
@@ -578,7 +578,7 @@
 				"rarity": "rare",
 				"reqAttune": true,
 				"hasRefs": true,
-				"valueExpression": "[[baseItem.value]]*3 + 485000",
+				"valueExpression": "[[baseItem.value]] + 375000",
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
 				]
@@ -592,7 +592,7 @@
 					"armor": true
 				}
 			],
-			"value": 350000,
+			"value": 375000,
 			"inherits": {
 				"nameSuffix": " of Poison Resistance",
 				"source": "DMG",
@@ -605,7 +605,7 @@
 				"rarity": "rare",
 				"reqAttune": true,
 				"hasRefs": true,
-				"valueExpression": "[[baseItem.value]]*3 + 350000",
+				"valueExpression": "[[baseItem.value]] + 375000",
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
 				]
@@ -619,7 +619,7 @@
 					"armor": true
 				}
 			],
-			"value": 485000,
+			"value": 375000,
 			"inherits": {
 				"nameSuffix": " of Psychic Resistance",
 				"source": "DMG",
@@ -632,7 +632,7 @@
 				"rarity": "rare",
 				"reqAttune": true,
 				"hasRefs": true,
-				"valueExpression": "[[baseItem.value]]*3 + 485000",
+				"valueExpression": "[[baseItem.value]] + 375000",
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
 				]
@@ -646,7 +646,7 @@
 					"armor": true
 				}
 			],
-			"value": 485000,
+			"value": 375000,
 			"inherits": {
 				"nameSuffix": " of Radiant Resistance",
 				"source": "DMG",
@@ -659,7 +659,7 @@
 				"rarity": "rare",
 				"reqAttune": true,
 				"hasRefs": true,
-				"valueExpression": "[[baseItem.value]]*3 + 485000",
+				"valueExpression": "[[baseItem.value]] + 375000",
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
 				]
@@ -673,7 +673,7 @@
 					"armor": true
 				}
 			],
-			"value": 350000,
+			"value": 375000,
 			"inherits": {
 				"nameSuffix": " of Thunder Resistance",
 				"source": "DMG",
@@ -686,7 +686,7 @@
 				"rarity": "rare",
 				"reqAttune": true,
 				"hasRefs": true,
-				"valueExpression": "[[baseItem.value]]*3 + 350000",
+				"valueExpression": "[[baseItem.value]] + 375000",
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
 				]
@@ -798,7 +798,7 @@
 				"reqAttune": true,
 				"curse": true,
 				"bonusWeapon": "+1",
-				"valueExpression": "[[baseItem.value]]*3 + 400000",
+				"valueExpression": "[[baseItem.value]] + 400000",
 				"entries": [
 					"{@note Homebrew edit: added varieties other than axes (any melee).}",
 					"You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your hit point maximum increases by 1 for each level you have attained.",
@@ -860,7 +860,7 @@
 				"page": 136,
 				"tier": "minor",
 				"rarity": "common",
-				"valueExpression": "[[baseItem.value]]*1.5 + 2000",
+				"valueExpression": "[[baseItem.value]] + 2000",
 				"entries": [
 					"You can doff this armor as an action."
 				]
@@ -927,7 +927,7 @@
 				"tier": "major",
 				"rarity": "very rare",
 				"reqAttune": true,
-				"valueExpression": "[[baseItem.value]]*5 + 280000",
+				"valueExpression": "[[baseItem.value]] + 280000",
 				"entries": [
 					"{@note Homebrew edit: added varieties other than swords.}",
 					"You can use a bonus action to toss this magic weapon into the air and speak the command word. When you do so, the weapon begins to hover, flies up to 30 feet, and attacks one creature of your choice within its reach. The weapon uses your attack roll and ability score modifier to damage rolls.",
@@ -959,7 +959,7 @@
 				"reqAttune": true,
 				"bonusWeapon": "+3",
 				"bonusAc": "+1",
-				"valueExpression": "[[baseItem.value]]*10 + 4800000",
+				"valueExpression": "[[baseItem.value]] + 4800000",
 				"entries": [
 					"You gain a +3 bonus to attack and damage rolls made with this magic weapon.",
 					"The first time you attack with the sword on each of your turns, you can transfer some or all of the sword's bonus to your Armor Class, instead of using the bonus on any attacks that turn. For example, you could reduce the bonus to your attack and damage rolls to +1 and gain a +2 bonus to AC. The adjusted bonuses remain in effect until the start of your next turn, although you must hold the sword to gain a bonus to AC from it."
@@ -987,7 +987,7 @@
 				"tier": "major",
 				"rarity": "rare",
 				"bonusWeapon": "+1",
-				"valueExpression": "[[baseItem.value]]*3 + 800000",
+				"valueExpression": "[[baseItem.value]] + 800000",
 				"entries": [
 					"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
 					"When you hit a dragon with this weapon, the dragon takes an extra {@dice 3d6} damage of the weapon's type. For the purpose of this weapon, \"dragon\" refers to any creature with the dragon type, including dragon turtles and wyverns."
@@ -1063,7 +1063,7 @@
 				"tier": "major",
 				"rarity": "rare",
 				"reqAttune": true,
-				"valueExpression": "[[baseItem.value]]*3 + 675000",
+				"valueExpression": "[[baseItem.value]] + 675000",
 				"entries": [
 					"{@note Homebrew edit: added varieties other than swords (any melee weapon).}",
 					"You can use a bonus action to speak this magic weapon's command word, causing flames to erupt all along its length. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the weapon is ablaze, it deals an extra {@dice 2d6} fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you drop or sheathe the weapon."
@@ -1094,7 +1094,7 @@
 				"tier": "major",
 				"rarity": "very rare",
 				"reqAttune": true,
-				"valueExpression": "[[baseItem.value]]*5 + 865000",
+				"valueExpression": "[[baseItem.value]] + 865000",
 				"entries": [
 					"{@note Homebrew edit: added varieties other than swords (any melee weapon).}",
 					"When you hit with an attack using this magic weapon, the target takes an extra {@dice 1d6} cold damage. In addition, while you hold the weapon, you have resistance to fire damage.",
@@ -1154,7 +1154,7 @@
 				"tier": "major",
 				"rarity": "rare",
 				"bonusWeapon": "+1",
-				"valueExpression": "[[baseItem.value]]*3 + 800000",
+				"valueExpression": "[[baseItem.value]] + 800000",
 				"entries": [
 					"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
 					"When you hit a giant with it, the giant takes an extra {@dice 2d6} damage of the weapon's type and must succeed on a DC 15 Strength saving throw or fall {@condition prone}. For the purpose of this weapon, \"giant\" refers to any creature with the giant type, including ettins and trolls."
@@ -1208,7 +1208,7 @@
 					}
 				],
 				"bonusWeapon": "+3",
-				"valueExpression": "[[baseItem.value]]*10 + 12500000",
+				"valueExpression": "[[baseItem.value]] + 12500000",
 				"entries": [
 					"You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra {@dice 2d10} radiant damage.",
 					"While you hold the drawn sword, it creates an aura in a 10-foot radius around you. You and all creatures friendly to you in the aura have advantage on saving throws against spells and other magical effects. If you have 17 or more levels in the paladin class, the radius of the aura increases to 30 feet."
@@ -1591,7 +1591,7 @@
 				"bonusWeapon": "+1",
 				"bonusSavingThrow": "+1",
 				"charges": "{@dice 1d4 - 1}",
-				"valueExpression": "[[baseItem.value]]*10 + 1000000",
+				"valueExpression": "[[baseItem.value]] + 1000000",
 				"valueNotes": "+150000 gp per remaining wish",
 				"entries": [
 					"You gain a +1 bonus to attack and damage rolls made with this magic weapon. While the sword is on your person, you also gain a +1 bonus to saving throws.",
@@ -1639,7 +1639,7 @@
 						"swim": "walk"
 					}
 				},
-				"valueExpression": "[[baseItem.value]]*2 + 50000",
+				"valueExpression": "[[baseItem.value]] + 50000",
 				"entries": [
 					"While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface. The armor is decorated with fish and shell motifs."
 				],
@@ -1751,7 +1751,7 @@
 				"page": 138,
 				"tier": "minor",
 				"rarity": "common",
-				"valueExpression": "[[baseItem.value]]*1.5 + 3000",
+				"valueExpression": "[[baseItem.value]] + 3000",
 				"entries": [
 					"In darkness, the unsheathed blade of this sword sheds moonlight, creating bright light in a 15-foot radius and dim light for an additional 15 feet."
 				]
@@ -1777,7 +1777,7 @@
 				"reqAttune": true,
 				"bonusWeapon": "+2",
 				"charges": "{@dice 1d8 + 1}",
-				"valueExpression": "[[baseItem.value]]*5 + 1080000",
+				"valueExpression": "[[baseItem.value]] + 1080000",
 				"valueNotes": "+800 gp per charge after the first.",
 				"entries": [
 					"You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
@@ -2388,7 +2388,7 @@
 				"page": 139,
 				"tier": "minor",
 				"rarity": "common",
-				"valueExpression": "[[baseItem.value]]*1.5 + 1000",
+				"valueExpression": "[[baseItem.value]] + 1000",
 				"entries": [
 					"Wisps of harmless, odorless smoke rise from this armor while it is worn."
 				]
@@ -2433,7 +2433,7 @@
 				"tier": "major",
 				"rarity": "rare",
 				"reqAttune": true,
-				"valueExpression": "[[baseItem.value]]*3 + 80000",
+				"valueExpression": "[[baseItem.value]] + 80000",
 				"entries": [
 					"When you attack a creature with this magic weapon and roll a 20 on the attack roll, that target takes an extra 10 necrotic damage if it isn't a construct or an undead. You also gain 10 temporary hit points.",
 					"{@i Note: According to the SRD, it is an extra {@dice 3d6} necrotic damage, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}.}"
@@ -2462,7 +2462,7 @@
 				"tier": "major",
 				"rarity": "very rare",
 				"reqAttune": true,
-				"valueExpression": "[[baseItem.value]]*5 + 350000",
+				"valueExpression": "[[baseItem.value]] + 350000",
 				"entries": [
 					"{@note Homebrew edit: added varieties other than swords (any slashing damage melee weapon).}",
 					"When you attack an object with this magic sword and hit, maximize your weapon damage dice against the target.",
@@ -2494,7 +2494,7 @@
 				"reqAttune": true,
 				"curse": true,
 				"bonusWeapon": "+1",
-				"valueExpression": "[[baseItem.value]]*2 + 300000",
+				"valueExpression": "[[baseItem.value]] + 300000",
 				"entries": [
 					"{@note Homebrew edit: added varieties other than swords.}",
 					"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
@@ -2530,7 +2530,7 @@
 				"tier": "major",
 				"rarity": "rare",
 				"reqAttune": true,
-				"valueExpression": "[[baseItem.value]]*3 + 320000",
+				"valueExpression": "[[baseItem.value]] + 320000",
 				"entries": [
 					"{@note Homebrew edit: can be any weapon instead of just swords.}",
 					"Hit points lost to this weapon's damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.",
@@ -2564,7 +2564,7 @@
 				"srd": true,
 				"tier": "major",
 				"rarity": "rare",
-				"valueExpression": "[[baseItem.value]]*3 + 390000",
+				"valueExpression": "[[baseItem.value]] + 390000",
 				"entries": [
 					"When you roll a 20 with this magic weapon, the target takes an extra 7 {=dmgType} damage.",
 					"{@i Note: According to the SRD, it is an extra {@dice 2d6} {=dmgType} damage, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}.}"
@@ -2594,7 +2594,7 @@
 				"rarity": "legendary",
 				"reqAttune": true,
 				"bonusWeapon": "+3",
-				"valueExpression": "[[baseItem.value]]*10 + 7600000",
+				"valueExpression": "[[baseItem.value]] + 7600000",
 				"entries": [
 					"You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage.",
 					"When you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creature's heads. The creature dies if it can't survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, doesn't have or need a head, has legendary actions, or the DM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra {@dice 6d8} slashing damage from the hit."
@@ -2647,7 +2647,7 @@
 				"page": 139,
 				"tier": "minor",
 				"rarity": "common",
-				"valueExpression": "[[baseItem.value]]*1.5 + 250",
+				"valueExpression": "[[baseItem.value]] + 250",
 				"entries": [
 					"This ammunition packs a wallop. A creature hit by the ammunition must succeed on a DC 10 Strength saving throw or be knocked {@condition prone}."
 				]
@@ -2690,7 +2690,7 @@
 				"tier": "major",
 				"rarity": "uncommon",
 				"reqAttune": true,
-				"valueExpression": "[[baseItem.value]]*2 + 61000",
+				"valueExpression": "[[baseItem.value]] + 61000",
 				"entries": [
 					"This magic weapon warns you of danger. While the weapon is on your person, you have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be surprised, except when {@condition incapacitated} by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins."
 				],
@@ -2716,7 +2716,7 @@
 				"tier": "major",
 				"rarity": "legendary",
 				"reqAttune": true,
-				"valueExpression": "[[baseItem.value]]*10 + 3200000",
+				"valueExpression": "[[baseItem.value]] + 3200000",
 				"entries": [
 					"{@note Homebrew edit: added options other than plate armor (any armor).}",
 					"While you're wearing this armor, you can speak its command word as an action to gain the effect of the {@spell etherealness} spell, which lasts for 10 minutes or until you remove the armor or use an action to speak the command word again. This property of the armor can't be used again until the next dawn."

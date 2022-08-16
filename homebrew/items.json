@@ -130,6 +130,13 @@
 	],
 	"itemEntry": [
 		{
+			"name": "Shield of Resistance",
+			"source": "stabbyitems",
+			"entriesTemplate": [
+				"You have resistance to {{item.resist}} damage while wielding this shield."
+			]
+		},
+		{
 			"name": "Cloak of Resistance",
 			"source": "stabbyitems",
 			"entriesTemplate": [
@@ -154,6 +161,84 @@
 		}
 	],
 	"itemGroup": [
+		{
+			"name": "Shield of Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "CLO",
+			"wondrous": true,
+			"rarity": "rare",
+			"reqAttune": true,
+			"value": 376000,
+			"entries": [
+				"You have resistance to one damage type while wielding this shield.  The DM chooses the type or determines it randomly from the options below.",
+				{
+					"type": "table",
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"colLabels": [
+						"d10",
+						"Damage Type"
+					],
+					"rows": [
+						[
+							"1",
+							"{@item Shield of acid resistance|stabbyitems|Acid}"
+						],
+						[
+							"2",
+							"{@item Shield of cold resistance|stabbyitems|Cold}"
+						],
+						[
+							"3",
+							"{@item Shield of fire resistance|stabbyitems|Fire}"
+						],
+						[
+							"4",
+							"{@item Shield of force resistance|stabbyitems|Force}"
+						],
+						[
+							"5",
+							"{@item Shield of lightning resistance|stabbyitems|Lightning}"
+						],
+						[
+							"6",
+							"{@item Shield of necrotic resistance|stabbyitems|Necrotic}"
+						],
+						[
+							"7",
+							"{@item Shield of poison resistance|stabbyitems|Poison}"
+						],
+						[
+							"8",
+							"{@item Shield of psychic resistance|stabbyitems|Psychic}"
+						],
+						[
+							"9",
+							"{@item Shield of radiant resistance|stabbyitems|Radiant}"
+						],
+						[
+							"10",
+							"{@item Shield of thunder resistance|stabbyitems|Thunder}"
+						]
+					]
+				}
+			],
+			"items": [
+				"Shield of Acid Resistance|stabbyitems",
+				"Shield of Cold Resistance|stabbyitems",
+				"Shield of Fire Resistance|stabbyitems",
+				"Shield of Force Resistance|stabbyitems",
+				"Shield of Lightning Resistance|stabbyitems",
+				"Shield of Necrotic Resistance|stabbyitems",
+				"Shield of Poison Resistance|stabbyitems",
+				"Shield of Psychic Resistance|stabbyitems",
+				"Shield of Radiant Resistance|stabbyitems",
+				"Shield of Thunder Resistance|stabbyitems"
+			]
+		},
 		{
 			"name": "Cloak of Resistance",
 			"source": "stabbyitems",
@@ -885,6 +970,176 @@
 			"reqAttune": true
 		},
 		{
+			"name": "Shield of Acid Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "S",
+			"wondrous": true,
+			"resist": [
+				"acid"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Shield of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Shield of Cold Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "S",
+			"wondrous": true,
+			"resist": [
+				"cold"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Shield of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Shield of Fire Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "S",
+			"wondrous": true,
+			"resist": [
+				"fire"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Shield of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Shield of Force Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "S",
+			"wondrous": true,
+			"resist": [
+				"force"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Shield of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Shield of Lightning Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "S",
+			"wondrous": true,
+			"resist": [
+				"lightning"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Shield of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Shield of Necrotic Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "S",
+			"wondrous": true,
+			"resist": [
+				"necrotic"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Shield of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Shield of Poison Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "S",
+			"wondrous": true,
+			"resist": [
+				"poison"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Shield of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Shield of Psychic Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "S",
+			"wondrous": true,
+			"resist": [
+				"psychic"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Shield of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Shield of Radiant Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "S",
+			"wondrous": true,
+			"resist": [
+				"radiant"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Shield of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Shield of Thunder Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "S",
+			"wondrous": true,
+			"resist": [
+				"thunder"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Shield of Resistance|stabbyitems}"
+			]
+		},
+		{
 			"name": "Cloak of Acid Resistance",
 			"source": "stabbyitems",
 			"page": 0,
@@ -947,7 +1202,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
-			"value": 486000,
+			"value": 376000,
 			"entries": [
 				"{#itemEntry Cloak of Resistance|stabbyitems}"
 			]
@@ -981,7 +1236,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
-			"value": 486000,
+			"value": 376000,
 			"entries": [
 				"{#itemEntry Cloak of Resistance|stabbyitems}"
 			]
@@ -1015,7 +1270,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
-			"value": 486000,
+			"value": 376000,
 			"entries": [
 				"{#itemEntry Cloak of Resistance|stabbyitems}"
 			]
@@ -1032,7 +1287,7 @@
 			"rarity": "rare",
 			"reqAttune": true,
 			"hasRefs": true,
-			"value": 486000,
+			"value": 376000,
 			"entries": [
 				"{#itemEntry Cloak of Resistance|stabbyitems}"
 			]
@@ -2683,6 +2938,18 @@
 				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
 				"A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time."
 			]
+		},
+		{
+			"name": "+1 Veteran's Cane",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "uncommon",
+			"type": "M",
+			"wondrous": true,
+			"value": 120000,
+			"entries": [
+				"When you grasp this walking cane and use a bonus action to speak the command word, it transforms into a {@item +1 longsword}. While in sword form, you can use another bonus action to speak the command word again and transform it back into a walking cane."
+			]
 		}
 
 
@@ -2718,7 +2985,7 @@
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "common",
-				"valueExpression": "[[baseItem.value]]*1.5 + 7500",
+				"valueExpression": "[[baseItem.value]] + 7500",
 				"entries": [
 					"While wearing this armor, you can use a bonus action to change the style, color, and apparent quality of the garment. The armor’s weight doesn’t change.",
 					"Regardless of its appearance, the armor can’t be anything other than the type of armor it is. Although it can duplicate the appearance of other magic amors, it doesn’t gain their magical properties.",
@@ -2743,7 +3010,7 @@
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "common",
-				"valueExpression": "[[baseItem.value]]*1.5 + 3000",
+				"valueExpression": "[[baseItem.value]] + 3000",
 				"entries": [
 					"This sword has 3 charges. While holding it, you can use an action to expend 1 of its charges and create orchestral music by waving it around. The music can be heard out to a range of 60 feet and ends when you stop waving the shortsword.",
 					"The wand regains all expended charges daily at dawn. If you expend the sword’s last charge, roll a d20. On a 1, a sad tuba sound plays as the sword crumbles to dust and is destroyed.",
@@ -2773,7 +3040,7 @@
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "uncommon",
-				"valueExpression": "[[baseItem.value]]*2 + 152000",
+				"valueExpression": "[[baseItem.value]] + 152000",
 				"entries": [
 					"While wearing this armor, you can use an action to receive the benefits of a {@spell haste} spell, for a duration of 1 minute, requiring no concentration. Once you have used this feature, you can’t use it again until the next dawn.",
 					"Created by Tiago Neves, edited by Francisco Pesquita."
@@ -2799,7 +3066,7 @@
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "uncommon",
-				"valueExpression": "[[baseItem.value]]*2 + 280000",
+				"valueExpression": "[[baseItem.value]] + 280000",
 				"entries": [
 					"You have a +1 bonus to attack and damage rolls with this weapon. This bonus improves to +3 against Plants and wood-based Constructs. Additionally, you can forego attack rolls against inanimate wooden objects, replacing the roll with a natural 20."
 				],
@@ -2823,7 +3090,7 @@
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "uncommon",
-				"valueExpression": "[[baseItem.value]]*2 + 12000",
+				"valueExpression": "[[baseItem.value]] + 12000",
 				"entries": [
 					"This weapon can stretch as you attack, doubling its reach (on top of the standard increase of 5 feet if it has reach). It also allows you to shove creatures within reach in place of a weapon attack, as described in the Player's Handbook, but you choose between knocking them prone and pulling them 5 feet towards you or in a lateral direction, rather than pushing them away.",
 					"This weapon can additionally be used as a grappling hook: in place of a weapon attack with this weapon, you can target a steady surface or a loose object within reach. The point will attach itself securely to a targeted steady surface, allowing you to pull yourself a distance of your choice towards it as a bonus action. If you target a loose object you may pull it towards you as a bonus action, and if it is light enough you can pull it through the air all the way to your position as part of the same bonus action."
@@ -2872,7 +3139,7 @@
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "uncommon",
-				"valueExpression": "[[baseItem.value]]*2 + 100000",
+				"valueExpression": "[[baseItem.value]] + 100000",
 				"entries": [
 					"You have a bonus of +1 to ability checks made with this magic tool."
 				]
@@ -2892,7 +3159,7 @@
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "uncommon",
-				"valueExpression": "[[baseItem.value]]*2 + 100000",
+				"valueExpression": "[[baseItem.value]] + 100000",
 				"entries": [
 					"You have a bonus of +1 to ability checks made with this musical instrument."
 				]
@@ -2912,7 +3179,7 @@
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "uncommon",
-				"valueExpression": "[[baseItem.value]]*2 + 110000",
+				"valueExpression": "[[baseItem.value]] + 110000",
 				"entries": [
 					"When you hit an attack with this weapon with a natural roll of 19 or higher, your target makes a Dexterity saving throw against a DC of 12. On a failure, it's covered in sparkling glowing dust that emits dim blue light to a range of 10ft for up to 1 minute.",
 					"While affected by this effect, any attack roll against the creature has advantage if the attacker can see it, and the creature does not benefit from invisibility.",
@@ -2943,7 +3210,7 @@
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "rare",
-				"valueExpression": "[[baseItem.value]]*3 + 483000",
+				"valueExpression": "[[baseItem.value]] + 483000",
 				"entries": [
 					"Attacks with this weapon have a -5 penalty to hit, but deal 10 extra damage on a successful hit."
 				],
@@ -2967,7 +3234,7 @@
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "uncommon",
-				"valueExpression": "[[baseItem.value]]*2 + 290000",
+				"valueExpression": "[[baseItem.value]] + 290000",
 				"entries": [
 					"When you make an attack roll with this weapon and score a natural roll of 18 or higher, as long as the weapon remains in your hands, you forcibly make an additional free attack on the same target with this weapon immediately after resolving the triggering attack. This attack is an automatic hit, and consumes additional ammunition if the weapon has the ammunition property. This feature can only trigger once per turn."
 				]
@@ -2987,7 +3254,7 @@
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "rare",
-				"valueExpression": "[[baseItem.value]]*3 + 590000",
+				"valueExpression": "[[baseItem.value]] + 590000",
 				"entries": [
 					"Attacks with this weapon receive a +1 bonus to attack and damage rolls.",
 					"Additionally, when you make an attack roll with this weapon and score a natural roll of 18 or higher, as long as the weapon remains in your hands, you forcibly make an additional free attack on the same target with this weapon immediately after resolving the triggering attack. This attack is an automatic hit, and consumes additional ammunition if the weapon has the ammunition property. This feature can only trigger once per turn."
@@ -3010,7 +3277,7 @@
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "rare",
-				"valueExpression": "[[baseItem.value]]*3 + 210000",
+				"valueExpression": "[[baseItem.value]] + 210000",
 				"entries": [
 					"All spells you cast using this spellcasting focus with a range of 5ft or higher have their range doubled."
 				]
@@ -3033,7 +3300,7 @@
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "rare",
-				"valueExpression": "[[baseItem.value]]*3 + 630000",
+				"valueExpression": "[[baseItem.value]] + 630000",
 				"entries": [
 					"You have a bonus of +2 to ability checks made with this magic tool."
 				]
@@ -3054,7 +3321,7 @@
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "rare",
-				"valueExpression": "[[baseItem.value]]*3 + 290000",
+				"valueExpression": "[[baseItem.value]] + 290000",
 				"entries": [
 					"Whenever you roll a natural 19-20 on an attack roll with this weapon, your target must make a Constitution saving throw against a DC equal to the bludgeoning damage dealt by the attack. On a failure, it is {@condition stunned} until the end of its next turn."
 				]
@@ -3095,7 +3362,7 @@
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "rare",
-				"valueExpression": "[[baseItem.value]]*3 + 800000",
+				"valueExpression": "[[baseItem.value]] + 800000",
 				"entries": [
 					"When you first make an attack on your turn with this weapon, you can opt to give yourself advantage on all attack rolls you make with this weapon but also give everyone who attacks you advantage on their attack rolls to hit you until the start of your next turn."
 				]
@@ -3116,7 +3383,7 @@
 				"page": 0,
 				"rarity": "rare",
 				"reqAttune": true,
-				"valueExpression": "[[baseItem.value]]*3 + 495000",
+				"valueExpression": "[[baseItem.value]] + 495000",
 				"entries": [
 					"Whenever you score a critical hit against a creature who has spell slots, the creature loses one of its highest level spell slots up to level {@dice 1d4 + 1}. The attack deals extra force damage equal to the level of the lost spell slot."
 				]
@@ -3150,7 +3417,7 @@
 				"page": 0,
 				"rarity": "very rare",
 				"reqAttune": true,
-				"valueExpression": "[[baseItem.value]]*5 + 1600000",
+				"valueExpression": "[[baseItem.value]] + 1600000",
 				"entries": [
 					"When a creature makes an attack against you, you can use your reaction to force disadvantage on that attack. If you do, all attacks against you until the end of your next turn are made with disadvantage, but so are all attacks you make."
 				]
@@ -3170,7 +3437,7 @@
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "very rare",
-				"valueExpression": "[[baseItem.value]]*5 + 3400000",
+				"valueExpression": "[[baseItem.value]] + 3400000",
 				"entries": [
 					"Whenever you cast a spell with this focus, roll a {@dice d12}. On a 12, cast a copy of the spell without expending a spellslot or any material components; you may select different targets for it, but you must cast it. If you do not wish to cast the echo, it is cast regardless, with the same targets as the original instance of the spell.",
 					"The echo is cast after the original spell's immediate effects have been resolved - for example, if the original spell kills its target, that target is no longer valid for the echo.",
@@ -3195,7 +3462,7 @@
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "very rare",
-				"valueExpression": "[[baseItem.value]]*5 + 3050000",
+				"valueExpression": "[[baseItem.value]] + 3050000",
 				"entries": [
 					"You have a bonus of +3 to ability checks made with this magic tool."
 				]
@@ -3216,7 +3483,7 @@
 				"page": 0,
 				"rarity": "very rare",
 				"reqAttune": true,
-				"valueExpression": "[[baseItem.value]]*5 + 2250000",
+				"valueExpression": "[[baseItem.value]] + 2250000",
 				"entries": [
 					"Whenever you hit an attack with a roll of 19-20, your target takes {@damage 4d6} lightning damage. Keep the results of each die rolled.",
 					"Drop the lowest die. The nearest creature to your target within 20 ft. of it that is hostile to you makes a Dexterity saving throw. On a failure, it takes lightning damage equal to the remaining dice. On a success, it takes half damage. Also on a failure, if more than one die remains, you repeat the process within 20 ft. of the last hit creature, jumping to a new creature that has not yet been hurt by this same chain."
@@ -3242,7 +3509,7 @@
 				"page": 0,
 				"rarity": "legendary",
 				"bonusWeapon": "+4",
-				"valueExpression": "[[baseItem.value]]*10 + 190000",
+				"valueExpression": "[[baseItem.value]] + 190000",
 				"entries": [
 					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
 				]
@@ -3263,7 +3530,7 @@
 				"page": 0,
 				"rarity": "legendary",
 				"bonusAc": "+4",
-				"valueExpression": "[[baseItem.value]]*10 + 7625000",
+				"valueExpression": "[[baseItem.value]] + 7625000",
 				"entries": [
 					"You have a {=bonusAc} bonus to AC while wearing this armor."
 				]
@@ -3284,7 +3551,7 @@
 				"page": 0,
 				"rarity": "legendary",
 				"bonusWeapon": "+4",
-				"valueExpression": "[[baseItem.value]]*10 + 7625000",
+				"valueExpression": "[[baseItem.value]] + 7625000",
 				"entries": [
 					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon."
 				]
@@ -3309,7 +3576,7 @@
 				"rarity": "legendary",
 				"reqAttune": true,
 				"hasRefs": true,
-				"valueExpression": "[[baseItem.value]]*10 + 8200000",
+				"valueExpression": "[[baseItem.value]] + 8200000",
 				"entries": [
 					"{#itemEntry Armor of immunity|stabbyitems}"
 				]
@@ -3334,7 +3601,7 @@
 				"rarity": "legendary",
 				"reqAttune": true,
 				"hasRefs": true,
-				"valueExpression": "[[baseItem.value]]*10 + 8200000",
+				"valueExpression": "[[baseItem.value]] + 8200000",
 				"entries": [
 					"{#itemEntry Armor of immunity|stabbyitems}"
 				]
@@ -3359,7 +3626,7 @@
 				"rarity": "legendary",
 				"reqAttune": true,
 				"hasRefs": true,
-				"valueExpression": "[[baseItem.value]]*10 + 8200000",
+				"valueExpression": "[[baseItem.value]] + 8200000",
 				"entries": [
 					"{#itemEntry Armor of immunity|stabbyitems}"
 				]
@@ -3384,7 +3651,7 @@
 				"rarity": "legendary",
 				"reqAttune": true,
 				"hasRefs": true,
-				"valueExpression": "[[baseItem.value]]*10 + 8200000",
+				"valueExpression": "[[baseItem.value]] + 8200000",
 				"entries": [
 					"{#itemEntry Armor of immunity|stabbyitems}"
 				]
@@ -3409,7 +3676,7 @@
 				"rarity": "legendary",
 				"reqAttune": true,
 				"hasRefs": true,
-				"valueExpression": "[[baseItem.value]]*10 + 8200000",
+				"valueExpression": "[[baseItem.value]] + 8200000",
 				"entries": [
 					"{#itemEntry Armor of immunity|stabbyitems}"
 				]
@@ -3434,7 +3701,7 @@
 				"rarity": "legendary",
 				"reqAttune": true,
 				"hasRefs": true,
-				"valueExpression": "[[baseItem.value]]*10 + 8200000",
+				"valueExpression": "[[baseItem.value]] + 8200000",
 				"entries": [
 					"{#itemEntry Armor of immunity|stabbyitems}"
 				]
@@ -3459,7 +3726,7 @@
 				"rarity": "legendary",
 				"reqAttune": true,
 				"hasRefs": true,
-				"valueExpression": "[[baseItem.value]]*10 + 8200000",
+				"valueExpression": "[[baseItem.value]] + 8200000",
 				"entries": [
 					"{#itemEntry Armor of immunity|stabbyitems}"
 				]
@@ -3484,7 +3751,7 @@
 				"rarity": "legendary",
 				"reqAttune": true,
 				"hasRefs": true,
-				"valueExpression": "[[baseItem.value]]*10 + 8200000",
+				"valueExpression": "[[baseItem.value]] + 8200000",
 				"entries": [
 					"{#itemEntry Armor of immunity|stabbyitems}"
 				]
@@ -3509,7 +3776,7 @@
 				"rarity": "legendary",
 				"reqAttune": true,
 				"hasRefs": true,
-				"valueExpression": "[[baseItem.value]]*10 + 8200000",
+				"valueExpression": "[[baseItem.value]] + 8200000",
 				"entries": [
 					"{#itemEntry Armor of immunity|stabbyitems}"
 				]
@@ -3534,7 +3801,7 @@
 				"rarity": "legendary",
 				"reqAttune": true,
 				"hasRefs": true,
-				"valueExpression": "[[baseItem.value]]*10 + 8200000",
+				"valueExpression": "[[baseItem.value]] + 8200000",
 				"entries": [
 					"{#itemEntry Armor of immunity|stabbyitems}"
 				]
@@ -3555,7 +3822,7 @@
 				"page": 0,
 				"rarity": "legendary",
 				"reqAttune": true,
-				"valueExpression": "[[baseItem.value]]*10 + 16500000",
+				"valueExpression": "[[baseItem.value]] + 16500000",
 				"entries": [
 					"These legendary weapons of extreme rarity come in all varieties. They are said to have been blessed by the gods of Luck themselves.",
 					"This weapon has a +1 bonus to attack and damage rolls. Additionally, you may treat any result of 1-4 on an attack roll as a 5, and any result of 17-19 as a 20."
@@ -3580,7 +3847,7 @@
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "legendary",
-				"valueExpression": "[[baseItem.value]]*10 + 7625000",
+				"valueExpression": "[[baseItem.value]] + 7625000",
 				"entries": [
 					"You have a bonus of +4 to ability checks made with this magic tool."
 				]
@@ -3608,7 +3875,7 @@
 				"rarity": "legendary",
 				"recharge": "dawn",
 				"charges": 100,
-				"valueExpression": "[[baseItem.value]]*10 + 26000000",
+				"valueExpression": "[[baseItem.value]] + 26000000",
 				"entries": [
 					"Carpenter's Tools, Mason's Tools, or Smith's Tools.",
 					"A creature proficient with the appropriate tools can create extradimensional space inside drawers, cabinets, chests, boxes, and other containers, or even a door. Each dawn, the item gains 5 charges. It can hold up to 100.",
@@ -3636,7 +3903,7 @@
 				"page": 0,
 				"rarity": "legendary",
 				"reqAttune": true,
-				"valueExpression": "[[baseItem.value]]*10 + 6800000",
+				"valueExpression": "[[baseItem.value]] + 6800000",
 				"entries": [
 					"Attacking targets at long range, targets within 5ft of you, or prone targets, does not impose disadvantage on your ranged weapon attack rolls with this weapon.",
 					"Your ranged weapon attacks ignore half cover and three-quarters cover.",
