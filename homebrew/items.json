@@ -3287,6 +3287,26 @@
 			}
 		},
 		{
+			"name": "+1 Musical Instrument",
+			"type": "INS",
+			"requires": [
+				{
+					"type": "INS"
+				}
+			],
+			"value": 50000,
+			"inherits": {
+				"namePrefix": "+1 ",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "uncommon",
+				"valueExpression": "[[baseItem.value]] + 50000",
+				"entries": [
+					"You have a bonus of +1 to ability checks made with this musical instrument."
+				]
+			}
+		},
+		{
 			"name": "+1 Tool",
 			"type": "GV",
 			"requires": [
@@ -3297,35 +3317,15 @@
 					"type": "AT"
 				}
 			],
-			"value": 100000,
+			"value": 50000,
 			"inherits": {
 				"namePrefix": "+1 ",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "uncommon",
-				"valueExpression": "[[baseItem.value]] + 100000",
+				"valueExpression": "[[baseItem.value]] + 50000",
 				"entries": [
 					"You have a bonus of +1 to ability checks made with this magic tool."
-				]
-			}
-		},
-		{
-			"name": "+1 Musical Instrument",
-			"type": "INS",
-			"requires": [
-				{
-					"type": "INS"
-				}
-			],
-			"value": 100000,
-			"inherits": {
-				"namePrefix": "+1 ",
-				"source": "stabbyitems",
-				"page": 0,
-				"rarity": "uncommon",
-				"valueExpression": "[[baseItem.value]] + 100000",
-				"entries": [
-					"You have a bonus of +1 to ability checks made with this musical instrument."
 				]
 			}
 		},
@@ -3448,6 +3448,26 @@
 			}
 		},
 		{
+			"name": "+2 Musical Instrument",
+			"type": "INS",
+			"requires": [
+				{
+					"type": "INS"
+				}
+			],
+			"value": 315000,
+			"inherits": {
+				"namePrefix": "+2 ",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "rare",
+				"valueExpression": "[[baseItem.value]] + 315000",
+				"entries": [
+					"You have a bonus of +2 to ability checks made with this musical instrument."
+				]
+			}
+		},
+		{
 			"name": "+2 Tool",
 			"type": "GV",
 			"requires": [
@@ -3458,13 +3478,13 @@
 					"type": "AT"
 				}
 			],
-			"value": 630000,
+			"value": 315000,
 			"inherits": {
 				"namePrefix": "+2 ",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "rare",
-				"valueExpression": "[[baseItem.value]] + 630000",
+				"valueExpression": "[[baseItem.value]] + 315000",
 				"entries": [
 					"You have a bonus of +2 to ability checks made with this magic tool."
 				]
@@ -3610,6 +3630,26 @@
 			}
 		},
 		{
+			"name": "+3 Musical Instrument",
+			"type": "INS",
+			"requires": [
+				{
+					"type": "INS"
+				}
+			],
+			"value": 1525000,
+			"inherits": {
+				"namePrefix": "+3 ",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "very rare",
+				"valueExpression": "[[baseItem.value]] + 1525000",
+				"entries": [
+					"You have a bonus of +3 to ability checks made with this musical instrument."
+				]
+			}
+		},
+		{
 			"name": "+3 Tool",
 			"type": "GV",
 			"requires": [
@@ -3620,13 +3660,13 @@
 					"type": "AT"
 				}
 			],
-			"value": 3050000,
+			"value": 1525000,
 			"inherits": {
 				"namePrefix": "+3 ",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "very rare",
-				"valueExpression": "[[baseItem.value]] + 3050000",
+				"valueExpression": "[[baseItem.value]] + 1525000",
 				"entries": [
 					"You have a bonus of +3 to ability checks made with this magic tool."
 				]
@@ -3995,6 +4035,26 @@
 			}
 		},
 		{
+			"name": "+4 Musical Instrument",
+			"type": "INS",
+			"requires": [
+				{
+					"type": "INS"
+				}
+			],
+			"value": 3812500,
+			"inherits": {
+				"namePrefix": "+4 ",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "legendary",
+				"valueExpression": "[[baseItem.value]] + 3812500",
+				"entries": [
+					"You have a bonus of +4 to ability checks made with this musical instrument."
+				]
+			}
+		},
+		{
 			"name": "+4 Tool",
 			"type": "GV",
 			"requires": [
@@ -4005,13 +4065,13 @@
 					"type": "AT"
 				}
 			],
-			"value": 7625000,
+			"value": 3812500,
 			"inherits": {
 				"namePrefix": "+4 ",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "legendary",
-				"valueExpression": "[[baseItem.value]] + 7625000",
+				"valueExpression": "[[baseItem.value]] + 3812500",
 				"entries": [
 					"You have a bonus of +4 to ability checks made with this magic tool."
 				]
