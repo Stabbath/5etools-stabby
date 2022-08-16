@@ -2668,6 +2668,21 @@
 			"vehSpeed": 6,
 			"capPassenger": 120,
 			"capCargo": 150
+		},
+		{
+			"name": "+4 Shield",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "S",
+			"rarity": "legendary",
+			"value": 7630000,
+			"weight": 6,
+			"ac": 2,
+			"bonusAc": "+4",
+			"entries": [
+				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
+				"A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time."
+			]
 		}
 
 
@@ -3272,29 +3287,6 @@
 				"valueExpression": "[[baseItem.value]]*10 + 7625000",
 				"entries": [
 					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon."
-				]
-			}
-		},
-		{
-			"name": "+4 Shield (*)",
-			"type": "GV",
-			"requires": [
-				{
-					"type": "S"
-				}
-			],
-			"entries": [
-				"{@note * This generic variant has the same name and source as the item {@item +4 shield}}.",
-				"While holding this shield, you have a +4 bonus to AC. This bonus is in addition to the shield's normal bonus to AC."
-			],
-			"inherits": {
-				"namePrefix": "+4 ",
-				"source": "stabbyitems",
-				"page": 0,
-				"rarity": "legendary",
-				"bonusAc": "+4",
-				"entries": [
-					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC."
 				]
 			}
 		},

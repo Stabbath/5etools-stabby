@@ -56,33 +56,6 @@
 			}
 		},
 		{
-			"name": "+1 Shield (*)",
-			"type": "GV",
-			"value": 101000,
-			"requires": [
-				{
-					"type": "S"
-				}
-			],
-			"entries": [
-				"{@note * This generic variant has the same name and source as the item {@item +1 shield}}.",
-				"While holding this shield, you have a +1 bonus to AC. This bonus is in addition to the shield's normal bonus to AC."
-			],
-			"inherits": {
-				"namePrefix": "+1 ",
-				"source": "DMG",
-				"page": 200,
-				"srd": true,
-				"tier": "major",
-				"rarity": "uncommon",
-				"bonusAc": "+1",
-				"value": 101000,
-				"entries": [
-					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC."
-				]
-			}
-		},
-		{
 			"name": "+1 Weapon",
 			"type": "GV",
 			"requires": [
@@ -161,31 +134,6 @@
 				"entries": [
 					"{@note Homebrew edit: reduced rarity from very rare.}",
 					"You have a {=bonusAc} bonus to AC while wearing this armor."
-				]
-			}
-		},
-		{
-			"name": "+2 Shield (*)",
-			"type": "GV",
-			"requires": [
-				{
-					"type": "S"
-				}
-			],
-			"entries": [
-				"{@note * This generic variant has the same name and source as the item {@item +2 shield}}.",
-				"While holding this shield, you have a +2 bonus to AC. This bonus is in addition to the shield's normal bonus to AC."
-			],
-			"inherits": {
-				"namePrefix": "+2 ",
-				"source": "DMG",
-				"page": 200,
-				"srd": true,
-				"tier": "major",
-				"rarity": "rare",
-				"bonusAc": "+2",
-				"entries": [
-					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC."
 				]
 			}
 		},
@@ -272,32 +220,6 @@
 			}
 		},
 		{
-			"name": "+3 Shield (*)",
-			"type": "GV",
-			"requires": [
-				{
-					"type": "S"
-				}
-			],
-			"entries": [
-				"{@note * This generic variant has the same name and source as the item {@item +3 shield}}.",
-				"While holding this shield, you have a +3 bonus to AC. This bonus is in addition to the shield's normal bonus to AC."
-			],
-			
-			"inherits": {
-				"namePrefix": "+3 ",
-				"source": "DMG",
-				"page": 200,
-				"srd": true,
-				"tier": "major",
-				"rarity": "very rare",
-				"bonusAc": "+3",
-				"entries": [
-					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC."
-				]
-			}
-		},
-		{
 			"name": "+3 Weapon",
 			"type": "GV",
 			"requires": [
@@ -321,26 +243,6 @@
 				],
 				"lootTables": [
 					"Magic Item Table H"
-				]
-			}
-		},
-		{
-			"name": "+3 Weapon (no damage)",
-			"type": "GV",
-			"requires": [
-				{
-					"net": true
-				}
-			],
-			"inherits": {
-				"namePrefix": "+3 ",
-				"source": "DMG",
-				"page": 213,
-				"tier": "major",
-				"rarity": "very rare",
-				"bonusWeaponAttack": "+3",
-				"entries": [
-					"You have a {=bonusWeaponAttack} bonus to attack rolls made with this weapon."
 				]
 			}
 		},

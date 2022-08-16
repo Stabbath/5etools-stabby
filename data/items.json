@@ -39752,6 +39752,58 @@
 				"dominate monster"
 			],
 			"hasFluffImages": true
+		},
+		{
+			"name": "+1 Shield",
+			"source": "DMG",
+			"page": 200,
+			"type": "S",
+			"srd": true,
+			"tier": "major",
+			"rarity": "uncommon",
+			"value": 101000,
+			"weight": 6,
+			"ac": 2,
+			"bonusAc": "+1",
+			"entries": [
+				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
+				"A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time."
+			]
+		},
+		{
+			"name": "+2 Shield",
+			"source": "DMG",
+			"page": 200,
+			"type": "S",
+			"srd": true,
+			"tier": "major",
+			"rarity": "rare",
+			"value": 631500,
+			"weight": 6,
+			"ac": 2,
+			"bonusAc": "+2",
+			"entries": [
+				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
+				"A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time."
+			]
+		},
+		{
+			"name": "+3 Shield",
+			"source": "DMG",
+			"page": 200,
+			"srd": true,
+			"tier": "major",
+			"rarity": "very rare",
+			"value": 3052500,
+			"type": "S",
+			"weight": 6,
+			"ac": 2,
+			"bonusAc": "+3",
+			"entries": [
+				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
+				"A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time."
+			]
 		}
+		
 	]
 }
