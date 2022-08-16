@@ -3392,6 +3392,11 @@
 					"weapon": true
 				}
 			],
+			"excludes": {
+				"name": [
+					"Net"
+				]
+			},
 			"value": 290000,
 			"inherits": {
 				"namePrefix": "Echoing ",

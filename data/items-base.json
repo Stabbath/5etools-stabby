@@ -498,24 +498,6 @@
 			]
 		},
 		{
-			"name": "Hooked Shortspear",
-			"source": "OotA",
-			"page": 224,
-			"type": "M",
-			"rarity": "unknown",
-			"weight": 2,
-			"weaponCategory": "martial",
-			"property": [
-				"L"
-			],
-			"dmg1": "1d4",
-			"dmgType": "P",
-			"weapon": true,
-			"entries": [
-				"On a hit with this weapon, the wielder can forgo dealing damage and attempt to trip the target, in which case the target must succeed on a Strength saving throw or fall {@condition prone}. The DC is 8 + the wielder's Strength modifier + the wielder's proficiency bonus."
-			]
-		},
-		{
 			"name": "Javelin",
 			"source": "PHB",
 			"page": 149,
@@ -885,27 +867,6 @@
 			"dmg1": "1d10",
 			"dmgType": "P",
 			"weapon": true
-		},
-		{
-			"name": "Pistol",
-			"source": "DMG",
-			"page": 268,
-			"type": "R",
-			"rarity": "none",
-			"weight": 3,
-			"value": 25000,
-			"weaponCategory": "martial",
-			"age": "renaissance",
-			"property": [
-				"AF",
-				"LD"
-			],
-			"range": "30/90",
-			"dmg1": "1d10",
-			"dmgType": "P",
-			"firearm": true,
-			"weapon": true,
-			"ammoType": "renaissance bullet"
 		},
 		{
 			"name": "Plate Armor",
@@ -1347,26 +1308,6 @@
 			"dmg1": "1d6",
 			"dmgType": "B",
 			"dmg2": "1d8"
-		},
-		{
-			"name": "Yklwa",
-			"source": "ToA",
-			"page": 32,
-			"type": "M",
-			"rarity": "none",
-			"weight": 3,
-			"value": 100,
-			"weaponCategory": "simple",
-			"property": [
-				"T"
-			],
-			"range": "10/30",
-			"dmg1": "1d8",
-			"dmgType": "P",
-			"weapon": true,
-			"entries": [
-				"A yklwa (pronounced YICK-ul-wah) is a simple melee weapon that is the traditional weapon of Chultan warriors. A yklwa consists of a 3-foot wooden shaft with a steel or stone blade up to 18 inches long. Although it has the thrown weapon property, the yklwa is not well balanced for throwing."
-			]
 		},
 		{
 			"name": "Tocken",

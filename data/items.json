@@ -4623,7 +4623,6 @@
 			"rarity": "none",
 			"weight": 1,
 			"value": 15000,
-			"age": "renaissance",
 			"entries": [
 				"As an action, a character can light this bomb and throw it at a point up to 60 feet away. Each creature within 5 feet of that point must succeed on a DC 12 Dexterity saving throw or take {@damage 3d6} fire damage."
 			]
@@ -12347,19 +12346,6 @@
 			]
 		},
 		{
-			"name": "Fragmentation Grenade",
-			"source": "DMG",
-			"page": 268,
-			"type": "EXP",
-			"rarity": "none",
-			"weight": 1,
-			"age": "modern",
-			"entries": [
-				"As an action, a character can throw a grenade at a point up to 60 feet away. With a grenade launcher, the character can propel the grenade up to 120 feet away.",
-				"Each creature within 20 feet of an exploding fragmentation grenade must make a DC 15 Dexterity saving throw, taking {@damage 5d6} piercing damage on a failed save, or half as much damage on a successful one."
-			]
-		},
-		{
 			"name": "Fulminating Treatise",
 			"value": 2116000,
 			"source": "TCE",
@@ -13246,18 +13232,6 @@
 			]
 		},
 		{
-			"name": "Grenade Launcher",
-			"source": "DMG",
-			"page": 268,
-			"type": "G",
-			"rarity": "none",
-			"weight": 7,
-			"age": "modern",
-			"entries": [
-				"As an action, a character can throw a grenade at a point up to 60 feet away. With a grenade launcher, the character can propel the grenade up to 120 feet away."
-			]
-		},
-		{
 			"name": "Grimoire Infinitus (Awakened)",
 			"source": "EGW",
 			"_copy": {
@@ -13598,7 +13572,6 @@
 			"rarity": "none",
 			"weight": 2,
 			"value": 3500,
-			"age": "renaissance",
 			"entries": [
 				"Gunpowder is chiefly used to propel a bullet out of the barrel of a pistol or rifle, or it is formed into a bomb. Gunpowder is sold in small wooden kegs or in water-resistant powder horns.",
 				"Setting fire to a container full of gunpowder can cause it to explode, dealing fire damage to creatures within 10 feet of it ({@damage 3d6} for a powder horn). A successful DC 12 Dexterity saving throw halves the damage. Setting fire to an ounce of gunpowder causes it to flare for 1 round, shedding bright light in a 30-foot radius and dim light for an additional 30 feet."
@@ -13612,7 +13585,6 @@
 			"rarity": "none",
 			"weight": 20,
 			"value": 25000,
-			"age": "renaissance",
 			"entries": [
 				"Gunpowder is chiefly used to propel a bullet out of the barrel of a pistol or rifle, or it is formed into a bomb. Gunpowder is sold in small wooden kegs or in water-resistant powder horns.",
 				"Setting fire to a container full of gunpowder can cause it to explode, dealing fire damage to creatures within 10 feet of it ({@damage 7d6} for a keg). A successful DC 12 Dexterity saving throw halves the damage. Setting fire to an ounce of gunpowder causes it to flare for 1 round, shedding bright light in a 30-foot radius and dim light for an additional 30 feet."
@@ -19427,16 +19399,6 @@
 				"You are immune to cold damage while holding Matalotok. Whenever it deals damage to a creature, the hammer radiates a burst of intense cold in a 30-foot-radius sphere. Each creature in that area takes 10 ({@damage 3d6}) cold damage."
 			],
 			"hasFluffImages": true
-		},
-		{
-			"name": "Matchless Pipe",
-			"source": "WDH",
-			"page": 47,
-			"type": "OTH",
-			"rarity": "unknown",
-			"entries": [
-				"A switch made of flint is built into the bowl of this fine wooden smoking pipe. With a few flicks of the switch, the pipe lights itself."
-			]
 		},
 		{
 			"name": "Medal of Muscle",
