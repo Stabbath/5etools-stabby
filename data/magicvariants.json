@@ -50,8 +50,8 @@
 				"bonusAc": "+1",
 				"valueExpression": "[[baseItem.value]]*2 + 100000",
 				"entries": [
-					"You have a {=bonusAc} bonus to AC while wearing this armor.",
-					"Homebrew edit: reduced rarity from rare."
+					"{@note Homebrew edit: reduced rarity from rare.}",
+					"You have a {=bonusAc} bonus to AC while wearing this armor."
 				]
 			}
 		},
@@ -90,9 +90,6 @@
 					"weapon": true
 				}
 			],
-			"excludes": {
-				"net": true
-			},
 			"value": 100000,
 			"inherits": {
 				"namePrefix": "+1 ",
@@ -109,26 +106,6 @@
 				],
 				"lootTables": [
 					"Magic Item Table F"
-				]
-			}
-		},
-		{
-			"name": "+1 Weapon (no damage)",
-			"type": "GV",
-			"requires": [
-				{
-					"net": true
-				}
-			],
-			"inherits": {
-				"namePrefix": "+1 ",
-				"source": "DMG",
-				"page": 213,
-				"tier": "major",
-				"rarity": "uncommon",
-				"bonusWeaponAttack": "+1",
-				"entries": [
-					"You have a {=bonusWeaponAttack} bonus to attack rolls made with this weapon."
 				]
 			}
 		},
@@ -182,8 +159,8 @@
 				"bonusAc": "+2",
 				"valueExpression": "[[baseItem.value]]*3 + 630000",
 				"entries": [
-					"You have a {=bonusAc} bonus to AC while wearing this armor.",
-					"Homebrew edit: reduced rarity from very rare."
+					"{@note Homebrew edit: reduced rarity from very rare.}",
+					"You have a {=bonusAc} bonus to AC while wearing this armor."
 				]
 			}
 		},
@@ -220,9 +197,7 @@
 					"weapon": true
 				}
 			],
-			"excludes": {
-				"net": true
-			},
+			"value": 630000,
 			"inherits": {
 				"namePrefix": "+2 ",
 				"source": "DMG",
@@ -238,26 +213,6 @@
 				],
 				"lootTables": [
 					"Magic Item Table G"
-				]
-			}
-		},
-		{
-			"name": "+2 Weapon (no damage)",
-			"type": "GV",
-			"requires": [
-				{
-					"net": true
-				}
-			],
-			"inherits": {
-				"namePrefix": "+2 ",
-				"source": "DMG",
-				"page": 213,
-				"tier": "major",
-				"rarity": "rare",
-				"bonusWeaponAttack": "+2",
-				"entries": [
-					"You have a {=bonusWeaponAttack} bonus to attack rolls made with this weapon."
 				]
 			}
 		},
@@ -311,8 +266,8 @@
 				"bonusAc": "+3",
 				"valueExpression": "[[baseItem.value]]*5 + 3050000",
 				"entries": [
-					"You have a {=bonusAc} bonus to AC while wearing this armor.",
-					"Homebrew edit: reduced rarity from legendary."
+					"{@note Homebrew edit: reduced rarity from legendary.}",
+					"You have a {=bonusAc} bonus to AC while wearing this armor."
 				]
 			}
 		},
@@ -350,9 +305,6 @@
 					"weapon": true
 				}
 			],
-			"excludes": {
-				"net": true
-			},
 			"value": 3050000,
 			"inherits": {
 				"namePrefix": "+3 ",
@@ -946,6 +898,7 @@
 				"bonusWeapon": "+1",
 				"valueExpression": "[[baseItem.value]]*3 + 400000",
 				"entries": [
+					"{@note Homebrew edit: added varieties other than axes (any melee).}",
 					"You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your hit point maximum increases by 1 for each level you have attained.",
 					{
 						"type": "entries",
@@ -954,8 +907,7 @@
 							"This weapon is cursed, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the weapon, keeping it within reach at all times. You also have disadvantage on attack rolls with weapons other than this one, unless no foe is within 60 feet of you that you can see or hear."
 						]
 					},
-					"Whenever a hostile creature damages you while the weapon is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. While berserk, you must use your action each round to attack the creature nearest to you with the weapon. If you can make extra attacks as part of the {@action Attack} action, you use those extra attacks, moving to attack the next nearest creature after you fell your current target. If you have multiple possible targets, you attack one at random. You are berserk until you start your turn with no creatures within 60 feet of you that you can see or hear.",
-					"Homebrew edit: added varieties other than axes (any melee)."
+					"Whenever a hostile creature damages you while the weapon is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. While berserk, you must use your action each round to attack the creature nearest to you with the weapon. If you can make extra attacks as part of the {@action Attack} action, you use those extra attacks, moving to attack the next nearest creature after you fell your current target. If you have multiple possible targets, you attack one at random. You are berserk until you start your turn with no creatures within 60 feet of you that you can see or hear."
 				],
 				"lootTables": [
 					"Magic Item Table G"
@@ -1075,10 +1027,10 @@
 				"reqAttune": true,
 				"valueExpression": "[[baseItem.value]]*5 + 280000",
 				"entries": [
+					"{@note Homebrew edit: added varieties other than swords.}",
 					"You can use a bonus action to toss this magic weapon into the air and speak the command word. When you do so, the weapon begins to hover, flies up to 30 feet, and attacks one creature of your choice within its reach. The weapon uses your attack roll and ability score modifier to damage rolls.",
 					"While the weapon hovers, you can use a bonus action to cause it to fly up to 30 feet to another spot within 30 feet of you. As part of the same bonus action, you can cause the weapon to attack one creature within its reach.",
-					"After the hovering weapon attacks for the fourth time, it flies up to 30 feet and tries to return to your hand. If you have no hand free, it falls to the ground at your feet. If the weapon has no unobstructed path to you, it moves as close to you as it can and then falls to the ground. It also ceases to hover if you grasp it or move more than 30 feet away from it.",
-					"Homebrew edit: added varieties other than swords."
+					"After the hovering weapon attacks for the fourth time, it flies up to 30 feet and tries to return to your hand. If you have no hand free, it falls to the ground at your feet. If the weapon has no unobstructed path to you, it moves as close to you as it can and then falls to the ground. It also ceases to hover if you grasp it or move more than 30 feet away from it."
 				],
 				"lootTables": [
 					"Magic Item Table H"
@@ -1193,129 +1145,6 @@
 			}
 		},
 		{
-			"name": "Drow +1 Armor",
-			"type": "GV",
-			"requires": [
-				{
-					"armor": true
-				}
-			],
-			"inherits": {
-				"namePrefix": "Drow +1 ",
-				"source": "MM",
-				"page": 126,
-				"rarity": "unknown (magic)",
-				"bonusAc": "+1",
-				"entries": [
-					"You have a {=bonusAc} bonus to AC while wearing this armor. This armor loses its enchantment bonus permanently if it is exposed to sunlight for 1 hour or longer."
-				]
-			}
-		},
-		{
-			"name": "Drow +1 Weapon",
-			"type": "GV",
-			"requires": [
-				{
-					"weapon": true
-				}
-			],
-			"excludes": {
-				"net": true
-			},
-			"inherits": {
-				"namePrefix": "Drow +1 ",
-				"source": "MM",
-				"page": 126,
-				"rarity": "unknown (magic)",
-				"bonusWeapon": "+1",
-				"entries": [
-					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this weapon. This weapon loses its enchantment bonus permanently if it is exposed to sunlight for 1 hour or longer."
-				]
-			}
-		},
-		{
-			"name": "Drow +2 Armor",
-			"type": "GV",
-			"requires": [
-				{
-					"armor": true
-				}
-			],
-			"inherits": {
-				"namePrefix": "Drow +2 ",
-				"source": "MM",
-				"page": 126,
-				"rarity": "unknown (magic)",
-				"bonusAc": "+2",
-				"entries": [
-					"You have a {=bonusAc} bonus to AC while wearing this armor. This armor loses its enchantment bonus permanently if it is exposed to sunlight for 1 hour or longer."
-				]
-			}
-		},
-		{
-			"name": "Drow +2 Weapon",
-			"type": "GV",
-			"requires": [
-				{
-					"weapon": true
-				}
-			],
-			"excludes": {
-				"net": true
-			},
-			"inherits": {
-				"namePrefix": "Drow +2 ",
-				"source": "MM",
-				"page": 126,
-				"rarity": "unknown (magic)",
-				"bonusWeapon": "+2",
-				"entries": [
-					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this weapon. This weapon loses its enchantment bonus permanently if it is exposed to sunlight for 1 hour or longer."
-				]
-			}
-		},
-		{
-			"name": "Drow +3 Armor",
-			"type": "GV",
-			"requires": [
-				{
-					"armor": true
-				}
-			],
-			"inherits": {
-				"namePrefix": "Drow +3 ",
-				"source": "MM",
-				"page": 126,
-				"rarity": "unknown (magic)",
-				"bonusAc": "+3",
-				"entries": [
-					"You have a {=bonusAc} bonus to AC while wearing this armor. This armor loses its enchantment bonus permanently if it is exposed to sunlight for 1 hour or longer."
-				]
-			}
-		},
-		{
-			"name": "Drow +3 Weapon",
-			"type": "GV",
-			"requires": [
-				{
-					"weapon": true
-				}
-			],
-			"excludes": {
-				"net": true
-			},
-			"inherits": {
-				"namePrefix": "Drow +3 ",
-				"source": "MM",
-				"page": 126,
-				"rarity": "unknown (magic)",
-				"bonusWeapon": "+3",
-				"entries": [
-					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this weapon. This weapon loses its enchantment bonus permanently if it is exposed to sunlight for 1 hour or longer."
-				]
-			}
-		},
-		{
 			"name": "Flame Tongue",
 			"type": "GV",
 			"requires": [
@@ -1334,8 +1163,8 @@
 				"reqAttune": true,
 				"valueExpression": "[[baseItem.value]]*3 + 675000",
 				"entries": [
-					"You can use a bonus action to speak this magic weapon's command word, causing flames to erupt all along its length. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the weapon is ablaze, it deals an extra {@dice 2d6} fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you drop or sheathe the weapon.",
-					"Homebrew edit: added varieties other than swords (any melee weapon)."
+					"{@note Homebrew edit: added varieties other than swords (any melee weapon).}",
+					"You can use a bonus action to speak this magic weapon's command word, causing flames to erupt all along its length. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the weapon is ablaze, it deals an extra {@dice 2d6} fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you drop or sheathe the weapon."
 				],
 				"lootTables": [
 					"Magic Item Table G"
@@ -1365,11 +1194,10 @@
 				"reqAttune": true,
 				"valueExpression": "[[baseItem.value]]*5 + 865000",
 				"entries": [
+					"{@note Homebrew edit: added varieties other than swords (any melee weapon).}",
 					"When you hit with an attack using this magic weapon, the target takes an extra {@dice 1d6} cold damage. In addition, while you hold the weapon, you have resistance to fire damage.",
 					"In freezing temperatures, the blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.",
-					"When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of you. This property can be used no more than once per hour.",
-					"Homebrew edit: added varieties other than swords (any melee weapon)."
-
+					"When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of you. This property can be used no more than once per hour."
 				],
 				"lootTables": [
 					"Magic Item Table H"
@@ -1953,34 +1781,6 @@
 				"reqAttune": "by a specific individual",
 				"entries": [
 					"Any nonmagical suit of heavy armor can be turned by mind flayers into mind carapace armor. Only one creature can attune to it: either a specific mind flayer or one of its thralls. While worn by any other creature, the mind carapace armor functions as normal armor of its kind. To its intended wearer, the armor grants advantage on Intelligence, Wisdom, and Charisma saving throws and makes its wearer immune to the {@condition frightened} condition."
-				]
-			}
-		},
-		{
-			"name": "Mithral +1 Armor",
-			"type": "GV",
-			"requires": [
-				{
-					"type": "HA"
-				},
-				{
-					"type": "MA"
-				}
-			],
-			"excludes": {
-				"name": "Hide Armor"
-			},
-			"inherits": {
-				"namePrefix": "Mithral +1 ",
-				"source": "AI",
-				"page": 156,
-				"rarity": "unknown (magic)",
-				"strength": null,
-				"bonusAc": "+1",
-				"stealth": false,
-				"entries": [
-					"You have a {=bonusAc} bonus to AC while wearing this armor.",
-					"Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity ({@skill Stealth}) checks or has a Strength requirement, the mithral version of the armor doesn't."
 				]
 			}
 		},
@@ -2800,11 +2600,11 @@
 				"reqAttune": true,
 				"valueExpression": "[[baseItem.value]]*5 + 350000",
 				"entries": [
+					"{@note Homebrew edit: added varieties other than swords (any slashing damage melee weapon).}",
 					"When you attack an object with this magic sword and hit, maximize your weapon damage dice against the target.",
 					"When you attack a creature with this weapon and roll a 20 on the attack roll, that target takes an extra 14 slashing damage. Then roll another {@dice d20}. If you roll a 20, you lop off one of the target's limbs, with the effect of such loss determined by the DM. If the creature has no limb to sever, you lop off a portion of its body instead.",
 					"{@i Note: According to the SRD, it is an extra {@dice 4d6} slashing damage, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}}.",
-					"In addition, you can speak the sword's command to cause the blade to shed bright light in a 10-foot radius and dim light for an additional 10 feet. Speaking the command word again or sheathing the sword puts out the light.",
-					"Homebrew edit: added varieties other than swords (any slashing damage melee weapon)."
+					"In addition, you can speak the sword's command to cause the blade to shed bright light in a 10-foot radius and dim light for an additional 10 feet. Speaking the command word again or sheathing the sword puts out the light."
 				],
 				"lootTables": [
 					"Magic Item Table H"
@@ -2832,6 +2632,7 @@
 				"bonusWeapon": "+1",
 				"valueExpression": "[[baseItem.value]]*2 + 300000",
 				"entries": [
+					"{@note Homebrew edit: added varieties other than swords.}",
 					"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
 					{
 						"name": "Curse",
@@ -2839,8 +2640,7 @@
 						"entries": [
 							"This weapon is cursed and possessed by a vengeful spirit. Becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the weapon, keeping it on your person at all times. While attuned to this weapon, you have disadvantage on attack rolls made with weapons other than this one.",
 							"In addition, while the weapon is on your person, you must succeed on a DC 15 Wisdom saving throw whenever you take damage in combat. On a failed save you must attack the creature that damaged you until you drop to 0 hit points or it does, or until you can't get within attack range of the creature.",
-							"You can break the curse in the usual ways. Alternatively, casting {@spell banishment} on the weapon forces the vengeful spirit to leave it. The weapon then becomes a +1 weapon with no other properties.",
-							"Homebrew edit: added varieties other than swords."
+							"You can break the curse in the usual ways. Alternatively, casting {@spell banishment} on the weapon forces the vengeful spirit to leave it. The weapon then becomes a +1 weapon with no other properties."
 						]
 					}
 				],
@@ -2868,40 +2668,12 @@
 				"reqAttune": true,
 				"valueExpression": "[[baseItem.value]]*3 + 320000",
 				"entries": [
+					"{@note Homebrew edit: can be any weapon instead of just swords.}",
 					"Hit points lost to this weapon's damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.",
-					"Once per turn, when you hit a creature with an attack using this magic weapon, you can wound the target. At the start of each of the wounded creature's turns, it takes {@dice 1d4} necrotic damage for each time you've wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom ({@skill Medicine}) check, ending the effect of such wounds on it on a success.",
-					"Homebrew edit: can be any weapon instead of just swords."
+					"Once per turn, when you hit a creature with an attack using this magic weapon, you can wound the target. At the start of each of the wounded creature's turns, it takes {@dice 1d4} necrotic damage for each time you've wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom ({@skill Medicine}) check, ending the effect of such wounds on it on a success."
 				],
 				"lootTables": [
 					"Magic Item Table G"
-				]
-			}
-		},
-		{
-			"name": "Vicious +1 Weapon",
-			"type": "GV",
-			"requires": [
-				{
-					"weapon": true
-				}
-			],
-			"excludes": {
-				"net": true
-			},
-			"entries": [
-				"When you roll a 20 with this magic weapon, the target takes an extra 7 damage of the weapon's type.",
-				"{@i Note: According to the SRD, it is an extra {@dice 2d6} damage, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}.}"
-			],
-			"inherits": {
-				"namePrefix": "Vicious +1 ",
-				"source": "AI",
-				"page": 149,
-				"rarity": "unknown (magic)",
-				"bonusWeapon": "+1",
-				"entries": [
-					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this weapon.",
-					"When you roll a 20 with this magic weapon, the target takes an extra 7 {=dmgType} damage.",
-					"{@i Note: According to the SRD, it is an extra {@dice 2d6} {=dmgType} damage, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}.}"
 				]
 			}
 		},
@@ -3082,8 +2854,8 @@
 				"reqAttune": true,
 				"valueExpression": "[[baseItem.value]]*10 + 3200000",
 				"entries": [
-					"While you're wearing this armor, you can speak its command word as an action to gain the effect of the {@spell etherealness} spell, which lasts for 10 minutes or until you remove the armor or use an action to speak the command word again. This property of the armor can't be used again until the next dawn.",
-					"Homebrew edit: added options other than plate armor (any armor)."
+					"{@note Homebrew edit: added options other than plate armor (any armor).}",
+					"While you're wearing this armor, you can speak its command word as an action to gain the effect of the {@spell etherealness} spell, which lasts for 10 minutes or until you remove the armor or use an action to speak the command word again. This property of the armor can't be used again until the next dawn."
 				],
 				"lootTables": [
 					"Magic Item Table I"

@@ -6851,9 +6851,9 @@
 			"wondrous": true,
 			"value": 42000,
 			"entries": [
+				"{@note Homebrew edit: changed rarity from common.}",
 				"This copper amulet contains tiny interlocking gears and is powered by magic from Mechanus, a plane of clockwork predictability. A creature that puts an ear to the amulet can hear faint ticking and whirring noises coming from within.",
-				"When you make an attack roll while wearing the amulet, you can forgo rolling the {@dice d20} to get a 10 on the die. Once used, this property can't be used again until the next dawn.",
-				"Homebrew edit: changed rarity from common."
+				"When you make an attack roll while wearing the amulet, you can forgo rolling the {@dice d20} to get a 10 on the die. Once used, this property can't be used again until the next dawn."
 			]
 		},
 		{
@@ -10642,8 +10642,8 @@
 			"stealth": true,
 			"value": 690000,
 			"entries": [
-				"While wearing this armor, you gain a +2 bonus to AC. In addition, if an effect moves you against your will along the ground, you can use your reaction to reduce the distance you are moved by up to 10 feet.",
-				"Homebrew edit: rarity reduced from very rare."
+				"{@note Homebrew edit: rarity reduced from very rare.}",
+				"While wearing this armor, you gain a +2 bonus to AC. In addition, if an effect moves you against your will along the ground, you can use your reaction to reduce the distance you are moved by up to 10 feet."
 			],
 			"lootTables": [
 				"Magic Item Table H"
@@ -23968,8 +23968,8 @@
 			"rarity": "uncommon",
 			"value": 60000,
 			"entries": [
-				"When you drink this potion, you gain the \"reduce\" effect of the {@spell enlarge/reduce} spell for {@dice 1d4} hours (no concentration required). The red in the potion's liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process.",
-				"Homebrew edit: reduced rarity from rare."
+				"{@note Homebrew edit: reduced rarity from rare.}",
+				"When you drink this potion, you gain the \"reduce\" effect of the {@spell enlarge/reduce} spell for {@dice 1d4} hours (no concentration required). The red in the potion's liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process."
 			],
 			"attachedSpells": [
 				"enlarge/reduce"
@@ -29863,6 +29863,8 @@
 			"type": "SC",
 			"tier": "minor",
 			"rarity": "common",
+			"value": 10000,
+			"valueNotes": "plus (cost of materials)",
 			"entries": [
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 11. On a failed check, the spell disappears from the scroll with no other effect.",
@@ -29884,6 +29886,8 @@
 			"type": "SC",
 			"tier": "minor",
 			"rarity": "uncommon",
+			"value": 25000,
+			"valueNotes": "plus (cost of materials)",
 			"entries": [
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 12. On a failed check, the spell disappears from the scroll with no other effect.",
@@ -29906,6 +29910,8 @@
 			"type": "SC",
 			"tier": "minor",
 			"rarity": "uncommon",
+			"value": 42500,
+			"valueNotes": "plus (cost of materials)",
 			"entries": [
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 13. On a failed check, the spell disappears from the scroll with no other effect.",
@@ -29927,6 +29933,8 @@
 			"type": "SC",
 			"tier": "minor",
 			"rarity": "rare",
+			"value": 70000,
+			"valueNotes": "plus (cost of materials)",
 			"entries": [
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 14. On a failed check, the spell disappears from the scroll with no other effect.",
@@ -29948,6 +29956,8 @@
 			"type": "SC",
 			"tier": "minor",
 			"rarity": "rare",
+			"value": 100000,
+			"valueNotes": "plus (cost of materials)",
 			"entries": [
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 15. On a failed check, the spell disappears from the scroll with no other effect.",
@@ -29969,6 +29979,8 @@
 			"type": "SC",
 			"tier": "minor",
 			"rarity": "very rare",
+			"value": 200000,
+			"valueNotes": "plus (cost of materials)",
 			"entries": [
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 16. On a failed check, the spell disappears from the scroll with no other effect.",
@@ -29990,6 +30002,8 @@
 			"type": "SC",
 			"tier": "minor",
 			"rarity": "very rare",
+			"value": 350000,
+			"valueNotes": "plus (cost of materials)",
 			"entries": [
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 17. On a failed check, the spell disappears from the scroll with no other effect.",
@@ -30011,6 +30025,8 @@
 			"type": "SC",
 			"tier": "minor",
 			"rarity": "very rare",
+			"value": 750000,
+			"valueNotes": "plus (cost of materials)",
 			"entries": [
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 18. On a failed check, the spell disappears from the scroll with no other effect.",
@@ -30033,6 +30049,8 @@
 			"type": "SC",
 			"tier": "minor",
 			"rarity": "legendary",
+			"value": 2000000,
+			"valueNotes": "plus (cost of materials)",
 			"entries": [
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 19. On a failed check, the spell disappears from the scroll with no other effect.",
@@ -30054,6 +30072,8 @@
 			"type": "SC",
 			"tier": "minor",
 			"rarity": "common",
+			"value": 5000,
+			"valueNotes": "plus (cost of materials)",
 			"entries": [
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 10. On a failed check, the spell disappears from the scroll with no other effect.",
@@ -31157,11 +31177,11 @@
 			"value": 420000,
 			"recharge": "dawn",
 			"entries": [
+				"{@note Homebrew edit: hit points aren't reset each time it's toggled, only at dawn.}",
 				"You can use an action to speak this staff's command word and throw the staff on the ground within 10 feet of you. The staff becomes a {@creature giant constrictor snake} under your control and acts on its own initiative count. By using a bonus action to speak the command word again, you return the staff to its normal form in a space formerly occupied by the snake.",
 				"On your turn, you can mentally command the snake if it is within 60 feet of you and you aren't {@condition incapacitated}. You decide what action the snake takes and where it moves during its next turn, or you can issue it a general command, such as to attack your enemies or guard a location.",
 				"If the snake is reduced to 0 hit points, it dies and reverts to its staff form. The staff then shatters and is destroyed. The snake's hit points are preserved even if it reverts to staff form before losing all its hit points and subsequently shift back into snake form again.",
-				"Each day at dawn, if the snake is in staff form, it recovers all of its missing hit points.",
-				"Homebrew edit: hit points aren't reset each time it's toggled, only at dawn."
+				"Each day at dawn, if the snake is in staff form, it recovers all of its missing hit points."
 			],
 			"lootTables": [
 				"Magic Item Table F"
@@ -37206,16 +37226,6 @@
 			"rarity": "none",
 			"weight": 1,
 			"value": 1
-		},
-		{
-			"name": "Whistle-Stick",
-			"source": "OGA",
-			"page": 4,
-			"type": "INS",
-			"rarity": "unknown",
-			"entries": [
-				"The {@race grung|OGA} of {@book One Grung Above|OGA} are trained to use this new musical instrument. This is a hollow tube with holes cut throughout, much like a flute. You can play music with it for entertainment, but the grung also swing it about by a sturdy cord (attached) to create a sound recognizable by other grung, so they know each other's approximate location. Additionally, grung that know {@language Thieves' Cant} can use a whistle stick in this manner to communicate over distance."
-			]
 		},
 		{
 			"name": "White Chromatic Rose",

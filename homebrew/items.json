@@ -3262,9 +3262,6 @@
 					"weapon": true
 				}
 			],
-			"excludes": {
-				"net": true
-			},
 			"value": 7625000,
 			"inherits": {
 				"namePrefix": "+4 ",
@@ -3287,8 +3284,8 @@
 				}
 			],
 			"entries": [
-				"{@note * This generic variant has the same name and source as the item {@item +1 shield}}.",
-				"While holding this shield, you have a +1 bonus to AC. This bonus is in addition to the shield's normal bonus to AC."
+				"{@note * This generic variant has the same name and source as the item {@item +4 shield}}.",
+				"While holding this shield, you have a +4 bonus to AC. This bonus is in addition to the shield's normal bonus to AC."
 			],
 			"inherits": {
 				"namePrefix": "+4 ",

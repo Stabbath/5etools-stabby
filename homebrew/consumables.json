@@ -405,7 +405,7 @@
 			"name": "Monkey's Paw",
 			"source": "stabbycons",
 			"page": 0,
-			"type": "P",
+			"wondrous": true,
 			"rarity": "legendary",
 			"entries": [
 				"This enchanted mummified monkey hand has had a spell put on it that allows it to grant three wishes to three separate people. The hand has its pinky and ring finger contracted, and the remaining fingers in a slightly tense partially-extended position.",
