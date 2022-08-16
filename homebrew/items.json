@@ -21,6 +21,21 @@
 	},
 	"itemType": [
 		{
+			"abbreviation": "BLT",
+			"source": "stabbyitems",
+			"page": 0,
+			"name": "belt",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Belt",
+					"entries": [
+						"This item is worn around the waist, typically to aid in keeping lower body garments in place."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "HW",
 			"source": "stabbyitems",
 			"page": 0,
@@ -481,6 +496,66 @@
 				"Figurine of Wondrous Power, Copper Dragon|stabbyitems",
 				"Figurine of Wondrous Power, Gold Dragon|stabbyitems",
 				"Figurine of Wondrous Power, Silver Dragon|stabbyitems"
+			]
+		}
+	],
+	"baseitem": [
+		{
+			"name": "Katar",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 3000,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"weapon": true,
+			"entries": [
+				"Attacks with this weapon can count as unarmed attacks, at the attacker's discretion."
+			]
+		},
+		{
+			"name": "Knuckleduster",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "M",
+			"rarity": "none",
+			"weight": 0.7,
+			"value": 200,
+			"weaponCategory": "martial",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"weapon": true,
+			"entries": [
+				"Attacks with this weapon count as unarmed attacks."
+			]
+		},
+		{
+			"name": "Spiked Knuckleduster",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 450,
+			"weaponCategory": "martial",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"weapon": true,
+			"entries": [
+				"Attacks with this weapon count as unarmed attacks."
 			]
 		}
 	],
@@ -2949,6 +3024,74 @@
 			"value": 120000,
 			"entries": [
 				"When you grasp this walking cane and use a bonus action to speak the command word, it transforms into a {@item +1 longsword}. While in sword form, you can use another bonus action to speak the command word again and transform it back into a walking cane."
+			]
+		},
+		{
+			"name": "+1 Belt of the Martial Artist",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "uncommon",
+			"type": "BLT",
+			"wondrous": true,
+			"reqAttune": true,
+			"value": 225000,
+			"bonusWeapon": "+1",
+			"entries": [
+				"While wearing this belt, you gain a +1 bonus to attack and damage rolls with your unarmed attacks. Additionally, when you take the Dodge action on your turn, damage you take from attacks is halved until the start of your next turn."
+			]
+		},
+		{
+			"name": "+2 Belt of the Martial Artist",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "rare",
+			"type": "BLT",
+			"wondrous": true,
+			"reqAttune": true,
+			"value": 1000000,
+			"bonusWeapon": "+2",
+			"entries": [
+				"While wearing this belt, you gain a +2 bonus to attack and damage rolls with your unarmed attacks. Additionally, when you take the Dodge action on your turn, damage you take from attacks is halved until the start of your next turn."
+			]
+		},
+		{
+			"name": "+3 Belt of the Martial Artist",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "very rare",
+			"type": "BLT",
+			"wondrous": true,
+			"reqAttune": true,
+			"value": 4000000,
+			"bonusWeapon": "+3",
+			"entries": [
+				"While wearing this belt, you gain a +3 bonus to attack and damage rolls with your unarmed attacks. Additionally, when you take the Dodge action on your turn, damage you take from attacks is halved until the start of your next turn."
+			]
+		},
+		{
+			"name": "+4 Belt of the Martial Artist",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "uncommon",
+			"type": "BLT",
+			"wondrous": true,
+			"reqAttune": true,
+			"value": 10000000,
+			"bonusWeapon": "+4",
+			"entries": [
+				"While wearing this belt, you gain a +4 bonus to attack and damage rolls with your unarmed attacks. Additionally, when you take the Dodge action on your turn, damage you take from attacks is halved until the start of your next turn."
+			]
+		},
+		{
+			"name": "Shock Gloves",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "uncommon",
+			"type": "HNDW",
+			"wondrous": true,
+			"value": 95000,
+			"entries": [
+				"While wearing these gloves, you can convert the damage type of any unarmed attack you make to lightning. Additionally, you can cast the {@spell shocking grasp} cantrip at will through them."
 			]
 		}
 
