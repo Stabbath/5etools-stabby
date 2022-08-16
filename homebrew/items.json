@@ -514,6 +514,26 @@
 				"L"
 			],
 			"dmg1": "1d6",
+			"dmgType": "P",
+			"weapon": true,
+			"entries": [
+				"Attacks with this weapon can count as unarmed attacks, at the attacker's discretion."
+			]
+		},
+		{
+			"name": "Pata",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 3500,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
 			"dmgType": "S",
 			"weapon": true,
 			"entries": [
@@ -528,7 +548,7 @@
 			"rarity": "none",
 			"weight": 0.7,
 			"value": 200,
-			"weaponCategory": "martial",
+			"weaponCategory": "simple",
 			"property": [
 				"L"
 			],
@@ -540,16 +560,17 @@
 			]
 		},
 		{
-			"name": "Spiked Knuckleduster",
+			"name": "Push Dagger",
 			"source": "stabbyitems",
 			"page": 0,
 			"type": "M",
 			"rarity": "none",
 			"weight": 1,
 			"value": 450,
-			"weaponCategory": "martial",
+			"weaponCategory": "simple",
 			"property": [
-				"L"
+				"L",
+				"F"
 			],
 			"dmg1": "1d4",
 			"dmgType": "P",
