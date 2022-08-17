@@ -3055,10 +3055,10 @@
 			"type": "BLT",
 			"wondrous": true,
 			"reqAttune": true,
-			"value": 225000,
-			"bonusWeapon": "+1",
+			"value": 85000,
+			"bonusWeaponDamage": "+1",
 			"entries": [
-				"While wearing this belt, you gain a +1 bonus to attack and damage rolls with your unarmed attacks. Additionally, when you take the Dodge action on your turn, damage you take from attacks is halved until the start of your next turn."
+				"While wearing this belt, you gain a +1 bonus to damage rolls with your unarmed attacks. Additionally, when you take the Dodge action on your turn, damage you take from attacks is halved until the start of your next turn."
 			]
 		},
 		{
@@ -3069,10 +3069,10 @@
 			"type": "BLT",
 			"wondrous": true,
 			"reqAttune": true,
-			"value": 1000000,
-			"bonusWeapon": "+2",
+			"value": 535500,
+			"bonusWeaponDamage": "+2",
 			"entries": [
-				"While wearing this belt, you gain a +2 bonus to attack and damage rolls with your unarmed attacks. Additionally, when you take the Dodge action on your turn, damage you take from attacks is halved until the start of your next turn."
+				"While wearing this belt, you gain a +2 bonus to damage rolls with your unarmed attacks. Additionally, when you take the Dodge action on your turn, damage you take from attacks is halved until the start of your next turn."
 			]
 		},
 		{
@@ -3083,24 +3083,24 @@
 			"type": "BLT",
 			"wondrous": true,
 			"reqAttune": true,
-			"value": 4000000,
-			"bonusWeapon": "+3",
+			"value": 2592500,
+			"bonusWeaponDamage": "+3",
 			"entries": [
-				"While wearing this belt, you gain a +3 bonus to attack and damage rolls with your unarmed attacks. Additionally, when you take the Dodge action on your turn, damage you take from attacks is halved until the start of your next turn."
+				"While wearing this belt, you gain a +3 bonus to damage rolls with your unarmed attacks. Additionally, when you take the Dodge action on your turn, damage you take from attacks is halved until the start of your next turn."
 			]
 		},
 		{
 			"name": "+4 Belt of the Martial Artist",
 			"source": "stabbyitems",
 			"page": 0,
-			"rarity": "uncommon",
+			"rarity": "legendary",
 			"type": "BLT",
 			"wondrous": true,
 			"reqAttune": true,
-			"value": 10000000,
-			"bonusWeapon": "+4",
+			"value": 6481500,
+			"bonusWeaponDamage": "+4",
 			"entries": [
-				"While wearing this belt, you gain a +4 bonus to attack and damage rolls with your unarmed attacks. Additionally, when you take the Dodge action on your turn, damage you take from attacks is halved until the start of your next turn."
+				"While wearing this belt, you gain a +4 bonus to damage rolls with your unarmed attacks. Additionally, when you take the Dodge action on your turn, damage you take from attacks is halved until the start of your next turn."
 			]
 		},
 		{
