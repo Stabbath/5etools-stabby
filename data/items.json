@@ -19029,7 +19029,7 @@
 		{
 			"name": "Manual of Bodily Health",
 			"value": 6000000,
-			"valueNotes": "-500 to -1000 per year left without magic (depending on buyer's life expectancy).",
+			"valueNotes": "-500 to -1,000 gp per year left without magic (depending on buyer's life expectancy)",
 			"source": "DMG",
 			"page": 180,
 			"srd": true,
@@ -19083,7 +19083,7 @@
 		{
 			"name": "Manual of Gainful Exercise",
 			"value": 6000000,
-			"valueNotes": "-500 to -1000 per year left without magic (depending on buyer's life expectancy).",
+			"valueNotes": "-500 to -1,000 gp per year left without magic (depending on buyer's life expectancy)",
 			"source": "DMG",
 			"page": 180,
 			"srd": true,
@@ -19121,7 +19121,7 @@
 		{
 			"name": "Manual of Quickness of Action",
 			"value": 6000000,
-			"valueNotes": "-500 to -1000 per year left without magic (depending on buyer's life expectancy).",
+			"valueNotes": "-500 to -1,000 gp per year left without magic (depending on buyer's life expectancy)",
 			"source": "DMG",
 			"page": 181,
 			"srd": true,
@@ -20031,7 +20031,7 @@
 			"dmg2": "1d10",
 			"bonusWeapon": "+1",
 			"value": 110000,
-			"valueNotes": "+10000 gp times (number of runes)^2",
+			"valueNotes": "+10,000 gp × (number of runes)²",
 			"entries": [
 				"Of all the magic items created by the elves, one of the most prized and jealously guarded is a moon blade. In ancient times, nearly all elven noble houses claimed one such blade. Over the centuries, some blades have faded from the world, their magic lost as family lines have become extinct. Other blades have vanished with their bearers during great quests. Thus, only a few of these weapons remain.",
 				"A moonblade passes down from parent to child. The sword chooses its bearer and remains bonded to that person for life. If the bearer dies, another heir can claim the blade. If no worthy heir exists, the sword lies dormant. It functions like a normal longsword until a worthy soul finds it and lays claim to its power.",
@@ -20403,7 +20403,7 @@
 			"wondrous": true,
 			"weight": 1,
 			"value": 10000,
-			"valueNotes": "Price per bead: Blessing - 100 gp; Curing, Smiting - 250 gp; Summoning, Favour - 1000 gp; Wind Walking - 2000 gp",
+			"valueNotes": "(Price per bead: Blessing - 100 gp; Curing, Smiting - 250 gp; Summoning, Favour - 1000 gp; Wind Walking - 2000 gp)",
 			"entries": [
 				"This necklace has {@dice 1d4 + 2} magic beads made from aquamarine, black pearl, or topaz. It also has many nonmagical beads made from stones such as amber, bloodstone, citrine, coral, jade, pearl, or quartz. If a magic bead is removed from the necklace, that bead loses its magic.",
 				"Six types of magic beads exist. The DM decides the type of each bead on the necklace or determines it randomly. A necklace can have more than one bead of the same type. To use one, you must be wearing the necklace. Each bead contains a spell that you can cast from it as a bonus action (using your spell save DC if a save is necessary). Once a magic bead's spell is cast, that bead can't be used again until the next dawn.",
@@ -20643,7 +20643,7 @@
 			"wondrous": true,
 			"weight": 1,
 			"value": 500000,
-			"valueNotes": "+5000 gp per pot after the first",
+			"valueNotes": "+5,000 gp per pot after the first",
 			"entries": [
 				"Typically found in {@dice 1d4} pots inside a fine wooden box with a brush (weighing 1 pound in total), these pigments allow you to create three-dimensional objects by painting them in two dimensions. The paint flows from the brush to form the desired object as you concentrate on its image.",
 				"Each pot of paint is sufficient to cover 1,000 square feet of a surface, which lets you create inanimate objects or terrain features\u2014such as a door, a pit, flowers, trees, cells, rooms, or weapons\u2014that are up to 10,000 cubic feet. It takes 10 minutes to cover 100 square feet.",
@@ -24961,7 +24961,7 @@
 			"tier": "major",
 			"rarity": "legendary",
 			"value": 10000000,
-			"valueNotes": "+150000 gp per remaining wish.",
+			"valueNotes": "+150,000 gp per remaining wish",
 			"entries": [
 				"While wearing this ring, you can use an action to expend 1 of its 3 charges to cast the {@spell wish} spell from it. The ring becomes nonmagical when you use the last charge."
 			],
@@ -27960,7 +27960,7 @@
 			"rarity": "legendary",
 			"wondrous": true,
 			"value": 140000,
-			"valueNotes": "+1400 gp per charge after the first",
+			"valueNotes": "+1,400 gp per charge after the first",
 			"entries": [
 				"This viscous, milky-white substance can form a permanent adhesive bond between any two objects. It must be stored in a jar or flask that has been coated inside with {@item oil of slipperiness}. When found, a container contains {@dice 1d6 + 1} ounces.",
 				"One ounce of the glue can cover a 1-foot square surface. The glue takes 1 minute to set. Once it has done so, the bond it creates can be broken only by the application of {@item universal solvent} or {@item oil of etherealness}, or with a {@spell wish} spell."
@@ -28261,7 +28261,7 @@
 			"tier": "minor",
 			"rarity": "common",
 			"value": 10000,
-			"valueNotes": "plus (cost of materials)",
+			"valueNotes": "plus cost of materials",
 			"entries": [
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 11. On a failed check, the spell disappears from the scroll with no other effect.",
@@ -28284,7 +28284,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"value": 25000,
-			"valueNotes": "plus (cost of materials)",
+			"valueNotes": "plus cost of materials",
 			"entries": [
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 12. On a failed check, the spell disappears from the scroll with no other effect.",
@@ -28308,7 +28308,7 @@
 			"tier": "minor",
 			"rarity": "uncommon",
 			"value": 42500,
-			"valueNotes": "plus (cost of materials)",
+			"valueNotes": "plus cost of materials",
 			"entries": [
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 13. On a failed check, the spell disappears from the scroll with no other effect.",
@@ -28331,7 +28331,7 @@
 			"tier": "minor",
 			"rarity": "rare",
 			"value": 70000,
-			"valueNotes": "plus (cost of materials)",
+			"valueNotes": "plus cost of materials",
 			"entries": [
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 14. On a failed check, the spell disappears from the scroll with no other effect.",
@@ -28354,7 +28354,7 @@
 			"tier": "minor",
 			"rarity": "rare",
 			"value": 100000,
-			"valueNotes": "plus (cost of materials)",
+			"valueNotes": "plus cost of materials",
 			"entries": [
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 15. On a failed check, the spell disappears from the scroll with no other effect.",
@@ -28377,7 +28377,7 @@
 			"tier": "minor",
 			"rarity": "very rare",
 			"value": 200000,
-			"valueNotes": "plus (cost of materials)",
+			"valueNotes": "plus cost of materials",
 			"entries": [
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 16. On a failed check, the spell disappears from the scroll with no other effect.",
@@ -28400,7 +28400,7 @@
 			"tier": "minor",
 			"rarity": "very rare",
 			"value": 350000,
-			"valueNotes": "plus (cost of materials)",
+			"valueNotes": "plus cost of materials",
 			"entries": [
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 17. On a failed check, the spell disappears from the scroll with no other effect.",
@@ -28423,7 +28423,7 @@
 			"tier": "minor",
 			"rarity": "very rare",
 			"value": 750000,
-			"valueNotes": "plus (cost of materials)",
+			"valueNotes": "plus cost of materials",
 			"entries": [
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 18. On a failed check, the spell disappears from the scroll with no other effect.",
@@ -28447,7 +28447,7 @@
 			"tier": "minor",
 			"rarity": "legendary",
 			"value": 2000000,
-			"valueNotes": "plus (cost of materials)",
+			"valueNotes": "plus cost of materials",
 			"entries": [
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 19. On a failed check, the spell disappears from the scroll with no other effect.",
@@ -28470,7 +28470,7 @@
 			"tier": "minor",
 			"rarity": "common",
 			"value": 5000,
-			"valueNotes": "plus (cost of materials)",
+			"valueNotes": "plus cost of materials",
 			"entries": [
 				"A spell scroll bears the words of a single spell, written as a mystical cipher. If the spell is on your class's spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.",
 				"If the spell is on your class's spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC is 10. On a failed check, the spell disappears from the scroll with no other effect.",
@@ -32529,7 +32529,7 @@
 		{
 			"name": "Tome of Clear Thought",
 			"value": 6000000,
-			"valueNotes": "-500 to -1000 per year left without magic (depending on buyer's life expectancy).",
+			"valueNotes": "-500 to -1,000 gp per year left without magic (depending on buyer's life expectancy)",
 			"source": "DMG",
 			"page": 208,
 			"srd": true,
@@ -32551,7 +32551,7 @@
 		{
 			"name": "Tome of Leadership and Influence",
 			"value": 6000000,
-			"valueNotes": "-500 to -1000 per year left without magic (depending on buyer's life expectancy).",
+			"valueNotes": "-500 to -1,000 gp per year left without magic (depending on buyer's life expectancy)",
 			"source": "DMG",
 			"page": 208,
 			"srd": true,
@@ -32613,7 +32613,7 @@
 		{
 			"name": "Tome of Understanding",
 			"value": 6000000,
-			"valueNotes": "-500 to -1000 per year left without magic (depending on buyer's life expectancy).",
+			"valueNotes": "-500 to -1,000 gp per year left without magic (depending on buyer's life expectancy)",
 			"source": "DMG",
 			"page": 209,
 			"srd": true,

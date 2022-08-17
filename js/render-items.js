@@ -6,7 +6,7 @@ class RenderItems {
 		let renderedText = Renderer.item.getRenderedEntries(item);
 		if (item.seeAlsoVehicle) renderedText += `<div>${Renderer.get().render(`{@note See also: ${item.seeAlsoVehicle.map(it => `{@vehicle ${it}}`).join(", ")}.}`)}</div>`;
 
-		const textLeft = [Parser.itemValueToFullMultiCurrency(item) + (item.valueNotes ? item.valueNotes : ""), Parser.itemWeightToFull(item)].filter(Boolean).join(", ").uppercaseFirst();
+		const textLeft = [Parser.itemValueToFullMultiCurrency(item) + (item.valueNotes ? (" " + item.valueNotes) : ""), Parser.itemWeightToFull(item)].filter(Boolean).join(", ").uppercaseFirst();
 		const textRight = [damage, damageType, propertiesTxt].filter(Boolean).join(" ");
 
 		return $$`

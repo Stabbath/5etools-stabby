@@ -2032,7 +2032,7 @@
 			"wondrous": true,
 			"hasRefs": true,
 			"value": 459000,
-			"valueNotes": "Minus 1530 gp per missing spider.",
+			"valueNotes": "-1,530 gp per missing spider",
 			"entries": [
 				"{#itemEntry Figurine of Wondrous Power|stabbyitems}",
 				"These hematite statuettes are always made in sets of three. You can use one figurine or more than one simultaneously. Each can become a {@creature giant spider} for up to 12 hours. Once it has been used, it can't be used again until 5 days have passed."
