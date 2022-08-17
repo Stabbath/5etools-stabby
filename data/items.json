@@ -7,6 +7,7 @@
 	"item": [
 		{
 			"name": "+1 All-Purpose Tool",
+			"type": "AT",
 			"source": "TCE",
 			"page": 119,
 			"rarity": "uncommon",
@@ -103,6 +104,7 @@
 		},
 		{
 			"name": "+1 Dragonhide Belt",
+			"type": "BLT",
 			"source": "FTD",
 			"page": 23,
 			"rarity": "uncommon",
@@ -229,6 +231,7 @@
 		},
 		{
 			"name": "+2 All-Purpose Tool",
+			"type": "AT",
 			"source": "TCE",
 			"page": 119,
 			"rarity": "rare",
@@ -319,6 +322,7 @@
 		},
 		{
 			"name": "+2 Dragonhide Belt",
+			"type": "BLT",
 			"source": "FTD",
 			"page": 23,
 			"rarity": "rare",
@@ -445,6 +449,7 @@
 		},
 		{
 			"name": "+3 All-Purpose Tool",
+			"type": "AT",
 			"value": 4000000,
 			"source": "TCE",
 			"page": 119,
@@ -535,6 +540,7 @@
 		},
 		{
 			"name": "+3 Dragonhide Belt",
+			"type": "BLT",
 			"value": 4000000,
 			"source": "FTD",
 			"page": 23,
@@ -3421,6 +3427,7 @@
 		},
 		{
 			"name": "Belt of Cloud Giant Strength",
+			"type": "BLT",
 			"value": 8000000,
 			"source": "DMG",
 			"page": 155,
@@ -3443,6 +3450,7 @@
 		},
 		{
 			"name": "Belt of Dwarvenkind",
+			"type": "BLT",
 			"source": "DMG",
 			"page": 155,
 			"srd": true,
@@ -3484,6 +3492,7 @@
 		},
 		{
 			"name": "Belt of Fire Giant Strength",
+			"type": "BLT",
 			"value": 3000000,
 			"source": "DMG",
 			"page": 155,
@@ -3506,6 +3515,7 @@
 		},
 		{
 			"name": "Belt of Frost Giant Strength",
+			"type": "BLT",
 			"source": "DMG",
 			"page": 155,
 			"srd": true,
@@ -3528,6 +3538,7 @@
 		},
 		{
 			"name": "Belt of Hill Giant Strength",
+			"type": "BLT",
 			"source": "DMG",
 			"page": 155,
 			"srd": true,
@@ -3550,6 +3561,7 @@
 		},
 		{
 			"name": "Belt of Stone Giant Strength",
+			"type": "BLT",
 			"source": "DMG",
 			"page": 155,
 			"srd": true,
@@ -3573,6 +3585,7 @@
 		},
 		{
 			"name": "Belt of Storm Giant Strength",
+			"type": "BLT",
 			"value": 20000000,
 			"source": "DMG",
 			"page": 155,
@@ -4861,6 +4874,7 @@
 		},
 		{
 			"name": "Boots of Elvenkind",
+			"type": "FW",
 			"source": "DMG",
 			"page": 155,
 			"srd": true,
@@ -4878,6 +4892,7 @@
 		},
 		{
 			"name": "Boots of False Tracks",
+			"type": "FW",
 			"source": "XGE",
 			"page": 136,
 			"tier": "minor",
@@ -4890,6 +4905,7 @@
 		},
 		{
 			"name": "Boots of Levitation",
+			"type": "FW",
 			"source": "DMG",
 			"page": 155,
 			"srd": true,
@@ -4910,6 +4926,7 @@
 		},
 		{
 			"name": "Boots of Speed",
+			"type": "FW",
 			"source": "DMG",
 			"page": 155,
 			"srd": true,
@@ -4934,6 +4951,7 @@
 		},
 		{
 			"name": "Boots of Striding and Springing",
+			"type": "FW",
 			"source": "DMG",
 			"page": 156,
 			"srd": true,
@@ -4958,6 +4976,7 @@
 		},
 		{
 			"name": "Boots of the Winterlands",
+			"type": "FW",
 			"source": "DMG",
 			"page": 156,
 			"srd": true,
@@ -6315,6 +6334,7 @@
 		},
 		{
 			"name": "Cloak of Arachnida",
+			"type": "CLO",
 			"source": "DMG",
 			"page": 158,
 			"srd": true,
@@ -6353,6 +6373,7 @@
 		},
 		{
 			"name": "Cloak of Billowing",
+			"type": "CLO",
 			"source": "XGE",
 			"page": 136,
 			"tier": "minor",
@@ -6365,6 +6386,7 @@
 		},
 		{
 			"name": "Cloak of Displacement",
+			"type": "CLO",
 			"value": 2000000,
 			"source": "DMG",
 			"page": 158,
@@ -6383,6 +6405,7 @@
 		},
 		{
 			"name": "Cloak of Elvenkind",
+			"type": "CLO",
 			"source": "DMG",
 			"page": 158,
 			"srd": true,
@@ -6402,6 +6425,7 @@
 		},
 		{
 			"name": "Cloak of Invisibility",
+			"type": "CLO",
 			"value": 24000000,
 			"source": "DMG",
 			"page": 158,
@@ -6420,6 +6444,7 @@
 		},
 		{
 			"name": "Cloak of Many Fashions",
+			"type": "CLO",
 			"source": "XGE",
 			"page": 136,
 			"tier": "minor",
@@ -6433,6 +6458,7 @@
 		},
 		{
 			"name": "Cloak of Protection",
+			"type": "CLO",
 			"source": "DMG",
 			"page": 159,
 			"srd": true,
@@ -6453,6 +6479,7 @@
 		},
 		{
 			"name": "Cloak of the Bat",
+			"type": "CLO",
 			"source": "DMG",
 			"page": 159,
 			"srd": true,
@@ -6474,6 +6501,7 @@
 		},
 		{
 			"name": "Cloak of the Manta Ray",
+			"type": "CLO",
 			"source": "DMG",
 			"page": 159,
 			"srd": true,
@@ -13993,6 +14021,7 @@
 		},
 		{
 			"name": "Hell Hound Cloak",
+			"type": "CLO",
 			"source": "TftYP",
 			"page": 228,
 			"rarity": "rare",
@@ -20282,6 +20311,7 @@
 		},
 		{
 			"name": "Nature's Mantle",
+			"type": "CLO",
 			"source": "TCE",
 			"page": 133,
 			"rarity": "uncommon",
@@ -21977,31 +22007,6 @@
 			"rarity": "none",
 			"weight": 0.25,
 			"value": 5
-		},
-		{
-			"name": "Piwafwi (Cloak of Elvenkind)",
-			"source": "OotA",
-			"page": 222,
-			"rarity": "uncommon",
-			"reqAttune": true,
-			"wondrous": true,
-			"entries": [
-				"This dark spider-silk cloak is made by {@creature drow}. It is a {@item cloak of elvenkind}. It loses its magic if exposed to sunlight for 1 hour without interruption.",
-				"While you wear this cloak with its hood up, Wisdom ({@skill Perception}) checks made to see you have disadvantage. and you have advantage on Dexterity ({@skill Stealth}) checks made to hide, as the cloak's color shifts to camouflage you. Pulling the hood up or down requires an action."
-			],
-			"hasFluffImages": true
-		},
-		{
-			"name": "Piwafwi of Fire Resistance",
-			"source": "OotA",
-			"page": 222,
-			"rarity": "rare",
-			"reqAttune": true,
-			"wondrous": true,
-			"entries": [
-				"This dark spider-silk cloak is made by {@creature drow}. It is a {@item cloak of elvenkind}. It also grants resistance to fire damage while you wear it. It loses its magic if exposed to sunlight for 1 hour without interruption.",
-				"While you wear this cloak with its hood up, Wisdom ({@skill Perception}) checks made to see you have disadvantage. and you have advantage on Dexterity ({@skill Stealth}) checks made to hide, as the cloak's color shifts to camouflage you. Pulling the hood up or down requires an action."
-			]
 		},
 		{
 			"name": "Pixie Dust",
@@ -27678,6 +27683,7 @@
 		},
 		{
 			"name": "Slippers of Spider Climbing",
+			"type": "FW",
 			"source": "DMG",
 			"page": 200,
 			"srd": true,
@@ -34046,6 +34052,7 @@
 		},
 		{
 			"name": "Verminshroud (Dormant)",
+			"type": "CLO",
 			"source": "EGW",
 			"page": 273,
 			"conditionImmune": [
@@ -35738,6 +35745,7 @@
 		},
 		{
 			"name": "Winged Boots",
+			"type": "FW",
 			"source": "DMG",
 			"page": 214,
 			"srd": true,
@@ -35762,6 +35770,7 @@
 		},
 		{
 			"name": "Wings of Flying",
+			"type": "CLO",
 			"source": "DMG",
 			"page": 214,
 			"srd": true,
@@ -36540,6 +36549,7 @@
 		},
 		{
 			"name": "Belt of Giant Strength",
+			"type": "BLT",
 			"source": "DMG",
 			"page": 155,
 			"rarity": "varies",
@@ -37817,6 +37827,7 @@
 		},
 		{
 			"name": "Stormgirdle",
+			"type": "BLT",
 			"source": "EGW",
 			"page": 273,
 			"resist": [
@@ -37903,6 +37914,7 @@
 		},
 		{
 			"name": "Verminshroud",
+			"type": "CLO",
 			"source": "EGW",
 			"page": 273,
 			"conditionImmune": [

@@ -249,40 +249,6 @@
 			"weapon": true
 		},
 		{
-			"name": "Double-Bladed Scimitar",
-			"source": "ERLW",
-			"page": 21,
-			"otherSources": [
-				{
-					"source": "UAWGE",
-					"page": 74
-				}
-			],
-			"type": "M",
-			"rarity": "none",
-			"weight": 6,
-			"value": 10000,
-			"weaponCategory": "martial",
-			"property": [
-				"S",
-				"2H"
-			],
-			"dmg1": "2d4",
-			"dmgType": "S",
-			"sword": true,
-			"weapon": true,
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Special",
-					"entries": [
-						"If you attack with a double-bladed scimitar as part of the {@action Attack} action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals {@dice 1d4} slashing damage on a hit, instead of {@dice 2d4}."
-					]
-				}
-			],
-			"hasFluff": true
-		},
-		{
 			"name": "Flail",
 			"source": "PHB",
 			"page": 149,
@@ -1133,21 +1099,6 @@
 			"dmg2": "1d8",
 			"spear": true,
 			"weapon": true
-		},
-		{
-			"name": "Spiked Armor",
-			"source": "SCAG",
-			"page": 121,
-			"type": "MA",
-			"rarity": "unknown",
-			"weight": 45,
-			"value": 7500,
-			"ac": 14,
-			"armor": true,
-			"stealth": true,
-			"entries": [
-				"Spiked armor is a rare type of medium armor made by dwarves. It consists of a leather coat and leggings covered with spikes that are usually made of metal."
-			]
 		},
 		{
 			"name": "Splint Armor",

@@ -2387,6 +2387,7 @@
 			"value": 10000000,
 			"source": "stabbyitems",
 			"page": 0,
+			"type": "AT",
 			"rarity": "legendary",
 			"reqAttune": "by an artificer",
 			"reqAttuneTags": [
@@ -2402,7 +2403,7 @@
 			],
 			"entries": [
 				"This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of artisan's tool of your choice (see the \"Equipment\" chapter in the {@book Player's Handbook|PHB} for a list of {@item artisan's tools|PHB}). Whatever form the tool takes, you are proficient with it.",
-				"While holding this tool, you gain a +44 bonus to the spell attack rolls and the saving throw DCs of your artificer spells.",
+				"While holding this tool, you gain a +4 bonus to the spell attack rolls and the saving throw DCs of your artificer spells.",
 				"As an action, you can focus on the tool to channel your creative forces. Choose a cantrip that you don't know from any class list. For 8 hours, you can cast that cantrip, and it counts as an artificer cantrip for you. Once this property is used, it can't be used again until the next dawn."
 			]
 		},
@@ -2480,6 +2481,7 @@
 		},
 		{
 			"name": "+4 Dragonhide Belt",
+			"type": "BLT",
 			"value": 10000000,
 			"source": "stabbyitems",
 			"page": 0,
