@@ -10768,22 +10768,6 @@
 			]
 		},
 		{
-			"name": "Enchanted Three-Dragon Ante Set",
-			"source": "LLK",
-			"page": 15,
-			"_copy": {
-				"name": "Three-Dragon Ante Set",
-				"source": "PHB",
-				"_mod": {
-					"entries": {
-						"mode": "appendArr",
-						"items": "One card in this deck is enchanted to appear as whatever specific card its owner commands. This magic works only 25 percent of the time, but the deck is worth 500 gp to any serious gambler who doesn't mind the risk\u2014or who isn't told about it."
-					}
-				}
-			},
-			"value": null
-		},
-		{
 			"name": "Enduring Spellbook",
 			"source": "XGE",
 			"page": 137,
@@ -11866,7 +11850,6 @@
 				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
 				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
 				"The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
-				"{@creature griffon||Bronze Griffon}.",
 				"This bronze statuette is of a {@creature griffon} rampant. It can become a {@creature griffon} for up to 6 hours. Once it has been used, it can't be used again until 5 days have passed."
 			],
 			"lootTables": [
@@ -11886,7 +11869,6 @@
 				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
 				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
 				"The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
-				"{@creature giant fly|dmg|Ebony Fly}.",
 				"This ebony statuette is carved in the likeness of a horsefly. It can become a {@creature giant fly|dmg} for up to 12 hours and can be ridden as a mount. Once it has been used, it can't be used again until 2 days have passed."
 			],
 			"lootTables": [
@@ -11906,7 +11888,6 @@
 				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
 				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
 				"The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
-				"{@creature lion||Golden Lions}.",
 				"These gold statuettes of lions are always created in pairs. You can use one figurine or both simultaneously. Each can become a {@creature lion} for up to 1 hour. Once a {@creature lion} has been used, it can't be used again until 7 days have passed."
 			],
 			"lootTables": [
@@ -11928,7 +11909,6 @@
 				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
 				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
 				"The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
-				"{@creature riding horse||Ivory Goats}.",
 				"These ivory statuettes of goats are always created in sets of three. Each goat looks unique and functions differently from the others. Their properties are as follows:",
 				{
 					"type": "list",
@@ -12051,7 +12031,6 @@
 				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
 				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
 				"The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
-				"{@creature nightmare||Obsidian Steed}.",
 				"This polished obsidian horse can become a {@creature nightmare} for up to 24 hours. The {@creature nightmare} fights only to defend itself. Once it has been used, it can't be used again until 5 days have passed.",
 				"If you have a good alignment, the figurine has a {@chance 10} chance each time you use it to ignore your orders, including a command to revert to figurine form. If you mount the {@creature nightmare} while it is ignoring your orders, you and the {@creature nightmare} are instantly transported to a random location on the plane of Hades, where the {@creature nightmare} reverts to figurine form."
 			],
@@ -12072,7 +12051,6 @@
 				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
 				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
 				"The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
-				"{@creature mastiff||Onyx Dog}.",
 				"This onyx statuette of a dog can become a {@creature mastiff} for up to 6 hours. The {@creature mastiff} has an Intelligence of 8 and can speak Common. It also has {@sense darkvision} out to a range of 60 feet and can see {@condition invisible} creatures and objects within that range. Once it has been used, it can't be used again until 7 days have passed."
 			],
 			"lootTables": [
@@ -12111,8 +12089,7 @@
 				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
 				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
 				"The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description.",
-				"{@creature raven||Silver Raven}.",
-				"This silver statuette of a raven can become a raven for up to 12 hours. Once it has been used, it can't be used again until 2 days have passed. While in raven form, the figurine allows you to cast the {@spell animal messenger} spell on it at will."
+				"This silver statuette of a raven can become a {@creature raven} for up to 12 hours. Once it has been used, it can't be used again until 2 days have passed. While in raven form, the figurine allows you to cast the {@spell animal messenger} spell on it at will."
 			],
 			"attachedSpells": [
 				"animal messenger"
@@ -19058,7 +19035,7 @@
 		{
 			"name": "Manual of Bodily Health",
 			"value": 6000000,
-			"valueNotes": "- 500 to -1,000 gp per year left without magic (depending on buyer's life expectancy)",
+			"valueNotes": "- 500 to 1,000 gp per year left without magic (depending on buyer's life expectancy)",
 			"source": "DMG",
 			"page": 180,
 			"srd": true,
@@ -19112,7 +19089,7 @@
 		{
 			"name": "Manual of Gainful Exercise",
 			"value": 6000000,
-			"valueNotes": "- 500 to -1,000 gp per year left without magic (depending on buyer's life expectancy)",
+			"valueNotes": "- 500 to 1,000 gp per year left without magic (depending on buyer's life expectancy)",
 			"source": "DMG",
 			"page": 180,
 			"srd": true,
@@ -19150,7 +19127,7 @@
 		{
 			"name": "Manual of Quickness of Action",
 			"value": 6000000,
-			"valueNotes": "- 500 to -1,000 gp per year left without magic (depending on buyer's life expectancy)",
+			"valueNotes": "- 500 to 1,000 gp per year left without magic (depending on buyer's life expectancy)",
 			"source": "DMG",
 			"page": 181,
 			"srd": true,
@@ -19529,19 +19506,6 @@
 				"Magic Item Table F"
 			],
 			"hasFluffImages": true
-		},
-		{
-			"name": "Menga leaves (1 ounce)",
-			"source": "ToA",
-			"page": 205,
-			"type": "G",
-			"rarity": "unknown",
-			"weight": 0.0625,
-			"value": 200,
-			"entries": [
-				"The dried leaves of a menga bush can be ground, dissolved in a liquid, heated, and ingested. A creature that ingests 1 ounce of menga leaves in this fashion regains 1 hit point. A creature that ingests more than 5 ounces of menga leaves in a 24-hour period gains no additional benefit and must succeed on a DC 11 Constitution saving throw or fall {@condition unconscious} for 1 hour. The {@condition unconscious} creature awakens if it takes at least 5 damage on one turn.",
-				"A healthy menga bush usually has {@dice 2d6} ounces of leaves. Once picked, the leaves require 1 day to dry out before they can confer any benefit."
-			]
 		},
 		{
 			"name": "Merchant's Scale",
@@ -24965,8 +24929,8 @@
 			"type": "RG",
 			"tier": "major",
 			"rarity": "legendary",
-			"value": 10000000,
-			"valueNotes": "+ 150,000 gp per remaining wish",
+			"value": 46000000,
+			"valueNotes": "- 150,000 gp per spent charge",
 			"entries": [
 				"While wearing this ring, you can use an action to expend 1 of its 3 charges to cast the {@spell wish} spell from it. The ring becomes nonmagical when you use the last charge."
 			],
@@ -26073,17 +26037,6 @@
 				"Once per day as a bonus action, a villain can activate the ruinstone to undo one deed they have performed. The possibilities here are broad, but in combat it's simplest to allow them the opportunity to \"rewind\" one action and take it again, or to reroll a failed saving throw (if it can still take actions).",
 				"Each use of the artifact has a terrible side effect: someone known to the wielder is also erased from reality. After the villain uses the ruinstone, roll a {@dice d20}: on a 5-20, one of their allies disintegrates, on an 1-4, one of the player characters disintegrates.",
 				"If a creature bound its soul to the ruinstone in the \"Thalivar's Beacon\" quest, the artifact explodes when used and the creature who is bound to it disintegrates, disappearing from reality and can only be brought back with a {@spell wish} spell, or similar magic."
-			]
-		},
-		{
-			"name": "Ryath Root",
-			"source": "ToA",
-			"page": 205,
-			"type": "G",
-			"rarity": "unknown",
-			"value": 5000,
-			"entries": [
-				"Any creature that ingests a ryath root gains {@dice 2d4} temporary hit points. A creature that consumes more than one ryath root in a 24-hour period must succeed on a DC 13 Constitution saving throw or suffer the {@condition poisoned} condition for 1 hour."
 			]
 		},
 		{
@@ -27535,18 +27488,6 @@
 				"At the end of the duration, the creature reverts to its keyrune form. It reverts early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature reverts to its keyrune form, it can't transform again until 36 hours have passed."
 			],
 			"hasFluffImages": true
-		},
-		{
-			"name": "Sinda berries (10)",
-			"source": "ToA",
-			"page": 205,
-			"type": "G",
-			"rarity": "unknown",
-			"value": 500,
-			"entries": [
-				"These berries are dark brown and bitter. A full-grown sinda berry bush has {@dice 4d6} berries growing on it. A bush plucked of all its berries grows new berries in {@dice 1d4} months. Picked berries lose their freshness and efficacy after 24 hours.",
-				"Fresh sinda berries can be eaten raw or crushed and added to a drink to dull the bitterness. A creature that consumes at least ten fresh sinda berries gains advantage on saving throws against disease and poison for the next 24 hours."
-			]
 		},
 		{
 			"name": "Siren Song Lyre",
@@ -31520,17 +31461,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Tej",
-			"source": "ToA",
-			"page": 32,
-			"type": "FD",
-			"rarity": "none",
-			"weight": 5,
-			"entries": [
-				"Tej is an amber-colored, fermented drink made from honey. It's more common and popular in Chult than beer or ale. A mug of tej costs 4 cp in Port Nyanzaru or 6 cp in Fort Beluarian. A 1-gallon cask costs 2 sp in the city or 3 sp at the fort."
-			]
-		},
-		{
 			"name": "Teleportation Tablet",
 			"source": "CRCotN",
 			"page": 216,
@@ -32535,7 +32465,7 @@
 		{
 			"name": "Tome of Clear Thought",
 			"value": 6000000,
-			"valueNotes": "- 500 to -1,000 gp per year left without magic (depending on buyer's life expectancy)",
+			"valueNotes": "- 500 to 1,000 gp per year left without magic (depending on buyer's life expectancy)",
 			"source": "DMG",
 			"page": 208,
 			"srd": true,
@@ -32557,7 +32487,7 @@
 		{
 			"name": "Tome of Leadership and Influence",
 			"value": 6000000,
-			"valueNotes": "- 500 to -1,000 gp per year left without magic (depending on buyer's life expectancy)",
+			"valueNotes": "- 500 to 1,000 gp per year left without magic (depending on buyer's life expectancy)",
 			"source": "DMG",
 			"page": 208,
 			"srd": true,
@@ -32619,7 +32549,7 @@
 		{
 			"name": "Tome of Understanding",
 			"value": 6000000,
-			"valueNotes": "- 500 to -1,000 gp per year left without magic (depending on buyer's life expectancy)",
+			"valueNotes": "- 500 to 1,000 gp per year left without magic (depending on buyer's life expectancy)",
 			"source": "DMG",
 			"page": 209,
 			"srd": true,
@@ -35465,17 +35395,6 @@
 			]
 		},
 		{
-			"name": "Wildroot",
-			"source": "ToA",
-			"page": 205,
-			"type": "G",
-			"rarity": "unknown",
-			"value": 2500,
-			"entries": [
-				"Introducing the juice of a wildroot into a {@condition poisoned} creature's bloodstream (for example, by rubbing it on an open wound) rids the creature of the {@condition poisoned} condition. Once used in this way, a wildroot loses this property."
-			]
-		},
-		{
 			"name": "Will of the Talon (Awakened)",
 			"source": "EGW",
 			"_copy": {
@@ -36053,17 +35972,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Wukka Nut",
-			"source": "ToA",
-			"page": 205,
-			"type": "G",
-			"rarity": "unknown",
-			"value": 100,
-			"entries": [
-				"These fist-sized nuts grow on wukka trees, which are popular haunts for {@creature jaculi|ToA}, {@creature su-monster|ToA|su-monsters}, and {@creature zorbo|ToA|zorbos}. A wukka nut rattles when shaken, causing its shell to shed bright light in a 10-foot radius and dim light for an additional 10 feet. This magical light fades after 1 minute, but shaking the nut again causes the light to reappear. If the shell of the nut is cracked open, it loses its magic."
-			]
-		},
-		{
 			"name": "Wyllow's Staff of Flowers",
 			"source": "WDMM",
 			"page": 75,
@@ -36135,17 +36043,6 @@
 			]
 		},
 		{
-			"name": "Yahcha",
-			"source": "ToA",
-			"page": 205,
-			"type": "G",
-			"rarity": "none",
-			"value": 100,
-			"entries": [
-				"A yahcha (pronounced YAH-chah) is a harmless, meaty beetle about the size of a human hand, which feeds on worms and maggots. It moves slowly (walking speed 10 feet) and is easy to catch. A creature with blue mist fever that eats a raw or cooked yahcha can immediately make a saving throw with advantage against that disease (see \"Diseases,\" page 40),"
-			]
-		},
-		{
 			"name": "Yellow Sapphire",
 			"source": "DMG",
 			"page": 134,
@@ -36190,17 +36087,6 @@
 			],
 			"attachedSpells": [
 				"control weather"
-			]
-		},
-		{
-			"name": "Zabou",
-			"source": "ToA",
-			"page": 205,
-			"type": "G",
-			"rarity": "none",
-			"value": 1000,
-			"entries": [
-				"Zabou mushrooms feed on offal and the rotting wood of dead trees. If handled carefully, a zabou can be picked or uprooted without causing it to release its spores. If crushed or struck, a zabou releases its spores in a 10-foot-radius sphere. A zabou can also be hurled up to 30 feet away or dropped like a grenade, releasing its cloud of spores on impact. Any creature in that area must succeed on a DC 10 Constitution saving throw or be {@condition poisoned} for 1 minute. The {@condition poisoned} creature's skin itches for the duration. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
 			]
 		},
 		{
