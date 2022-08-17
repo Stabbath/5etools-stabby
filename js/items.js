@@ -218,7 +218,7 @@ class ItemsPage extends ListPage {
 							e_({tag: "span", clazz: `col-3-5 pl-0 bold`, text: item.name}),
 							e_({tag: "span", clazz: `col-4-5`, text: type}),
 							e_({tag: "span", clazz: `col-1-5 text-center`, text: `${(item.value || item.valueMult ? Parser.itemValueToFullMultiCurrency(item, {isShortForm: true}).replace(/ +/g, "\u00A0") : "\u2014")}` 
-								+ item.valueNotes ? ` (*)` : ``}),
+								+ (item.valueNotes ? ` (*)` : ``)}),
 							e_({tag: "span", clazz: `col-1-5 text-center`, text: Parser.itemWeightToFull(item, true) || "\u2014"}),
 							e_({tag: "span", clazz: `col-1-4 text-center`, text: (item.rarity || "").toTitleCase()}),
 							e_({
@@ -267,7 +267,7 @@ class ItemsPage extends ListPage {
 							e_({tag: "span", clazz: `col-3-5 pl-0 bold`, text: item.name}),
 							e_({tag: "span", clazz: `col-4`, text: type}),
 							e_({tag: "span", clazz: `col-1-5 text-center`, text: `${item.value || item.valueMult ? Parser.itemValueToFullMultiCurrency(item, {isShortForm: true}).replace(/ +/g, "\u00A0") : "\u2014"}`
-								+ item.valueNotes ? ` (*)` : ``}),
+								+ (item.valueNotes ? ` (*)` : ``)}),
 							e_({tag: "span", clazz: `col-1-5 text-center`, text: Parser.itemWeightToFull(item, true) || "\u2014"}),
 							e_({tag: "span", clazz: `col-0-6 text-center`, text: item._attunementCategory !== VeCt.STR_NO_ATTUNEMENT ? "×" : ""}),
 							e_({tag: "span", clazz: `col-1-4 text-center`, text: (item.rarity || "").toTitleCase()}),
