@@ -2371,7 +2371,7 @@
 			"wondrous": true,
 			"weight": 0.5,
 			"value": 50000,
-			"valueNotes": "+500 gp per bean after the first",
+			"valueNotes": "+ 500 gp per bean after the first",
 			"entries": [
 				"Inside this heavy cloth bag are {@dice 3d4} dry beans. The bag weighs ½ pound plus ¼ pound for each bean it contains.",
 				"If you dump the bag's contents out on the ground, they explode in a 10-foot radius, extending from the beans. Each creature in the area, including you, must make a DC 15 Dexterity saving throw, taking {@damage 5d4} fire damage on a failed save, or half as much damage on a successful one. The fire ignites flammable objects in the area that aren't being worn or carried.",
@@ -7640,7 +7640,7 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"value": 68000,
-			"valueNotes": "-20 gp per missing card",
+			"valueNotes": "- 20 gp per missing card",
 			"entries": [
 				"This box contains a set of parchment cards. A full deck has 34 cards. A deck found as treasure is usually missing {@dice 1d20 - 1} cards.",
 				"The magic of the deck functions only if cards are drawn at random (you can use an altered deck of playing cards to simulate the deck). You can use an action to draw a card at random from the deck and throw it to the ground at a point within 30 feet of you.",
@@ -17376,7 +17376,7 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"value": 20000,
-			"valueNotes": "+175 gp per dose after the first",
+			"valueNotes": "+ 175 gp per dose after the first",
 			"entries": [
 				"This glass jar, 3 inches in diameter, contains {@dice 1d4 + 1} doses of a thick mixture that smells faintly of aloe. The jar and its contents weigh ½ pound.",
 				"As an action, one dose of the ointment can be swallowed or applied to the skin. The creature that receives it regains {@dice 2d8 + 2} hit points, ceases to be {@condition poisoned}, and is cured of any disease."
@@ -19029,7 +19029,7 @@
 		{
 			"name": "Manual of Bodily Health",
 			"value": 6000000,
-			"valueNotes": "-500 to -1,000 gp per year left without magic (depending on buyer's life expectancy)",
+			"valueNotes": "- 500 to -1,000 gp per year left without magic (depending on buyer's life expectancy)",
 			"source": "DMG",
 			"page": 180,
 			"srd": true,
@@ -19083,7 +19083,7 @@
 		{
 			"name": "Manual of Gainful Exercise",
 			"value": 6000000,
-			"valueNotes": "-500 to -1,000 gp per year left without magic (depending on buyer's life expectancy)",
+			"valueNotes": "- 500 to -1,000 gp per year left without magic (depending on buyer's life expectancy)",
 			"source": "DMG",
 			"page": 180,
 			"srd": true,
@@ -19121,7 +19121,7 @@
 		{
 			"name": "Manual of Quickness of Action",
 			"value": 6000000,
-			"valueNotes": "-500 to -1,000 gp per year left without magic (depending on buyer's life expectancy)",
+			"valueNotes": "- 500 to -1,000 gp per year left without magic (depending on buyer's life expectancy)",
 			"source": "DMG",
 			"page": 181,
 			"srd": true,
@@ -20031,7 +20031,7 @@
 			"dmg2": "1d10",
 			"bonusWeapon": "+1",
 			"value": 110000,
-			"valueNotes": "+10,000 gp × (number of runes)²",
+			"valueNotes": "+ 10,000 gp × (number of runes)²",
 			"entries": [
 				"Of all the magic items created by the elves, one of the most prized and jealously guarded is a moon blade. In ancient times, nearly all elven noble houses claimed one such blade. Over the centuries, some blades have faded from the world, their magic lost as family lines have become extinct. Other blades have vanished with their bearers during great quests. Thus, only a few of these weapons remain.",
 				"A moonblade passes down from parent to child. The sword chooses its bearer and remains bonded to that person for life. If the bearer dies, another heir can claim the blade. If no worthy heir exists, the sword lies dormant. It functions like a normal longsword until a worthy soul finds it and lays claim to its power.",
@@ -20360,7 +20360,7 @@
 			"wondrous": true,
 			"weight": 1,
 			"value": 35000,
-			"valueNotes": "+350 gp per bead after the first",
+			"valueNotes": "+ 350 gp per bead after the first",
 			"entries": [
 				"This necklace has {@dice 1d6 + 3} beads hanging from it. You can use an action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a 3rd-level {@spell fireball} spell (save DC 15).",
 				"You can hurl multiple beads, or even the whole necklace, as one action. When you do so, increase the level of the {@spell fireball} by 1 for each bead beyond the first."
@@ -20643,7 +20643,7 @@
 			"wondrous": true,
 			"weight": 1,
 			"value": 500000,
-			"valueNotes": "+5,000 gp per pot after the first",
+			"valueNotes": "+ 5,000 gp per pot after the first",
 			"entries": [
 				"Typically found in {@dice 1d4} pots inside a fine wooden box with a brush (weighing 1 pound in total), these pigments allow you to create three-dimensional objects by painting them in two dimensions. The paint flows from the brush to form the desired object as you concentrate on its image.",
 				"Each pot of paint is sufficient to cover 1,000 square feet of a surface, which lets you create inanimate objects or terrain features\u2014such as a door, a pit, flowers, trees, cells, rooms, or weapons\u2014that are up to 10,000 cubic feet. It takes 10 minutes to cover 100 square feet.",
@@ -24961,7 +24961,7 @@
 			"tier": "major",
 			"rarity": "legendary",
 			"value": 10000000,
-			"valueNotes": "+150,000 gp per remaining wish",
+			"valueNotes": "+ 150,000 gp per remaining wish",
 			"entries": [
 				"While wearing this ring, you can use an action to expend 1 of its 3 charges to cast the {@spell wish} spell from it. The ring becomes nonmagical when you use the last charge."
 			],
@@ -25342,7 +25342,7 @@
 			"rarity": "uncommon",
 			"wondrous": true,
 			"value": 17000,
-			"valueNotes": "+2x the value of the objects in the bonus patches",
+			"valueNotes": "+ 2x the value of the objects in the bonus patches",
 			"entries": [
 				"This robe has cloth patches of various shapes and colors covering it. While wearing the robe. you can use an action to detach one of the patches, causing it to become the object or creature it represents. Once the last patch is removed, the robe becomes an ordinary garment.",
 				"The robe has two of each of the following patches:",
@@ -27960,7 +27960,7 @@
 			"rarity": "legendary",
 			"wondrous": true,
 			"value": 140000,
-			"valueNotes": "+1,400 gp per charge after the first",
+			"valueNotes": "+ 1,400 gp per charge after the first",
 			"entries": [
 				"This viscous, milky-white substance can form a permanent adhesive bond between any two objects. It must be stored in a jar or flask that has been coated inside with {@item oil of slipperiness}. When found, a container contains {@dice 1d6 + 1} ounces.",
 				"One ounce of the glue can cover a 1-foot square surface. The glue takes 1 minute to set. Once it has done so, the bond it creates can be broken only by the application of {@item universal solvent} or {@item oil of etherealness}, or with a {@spell wish} spell."
@@ -32529,7 +32529,7 @@
 		{
 			"name": "Tome of Clear Thought",
 			"value": 6000000,
-			"valueNotes": "-500 to -1,000 gp per year left without magic (depending on buyer's life expectancy)",
+			"valueNotes": "- 500 to -1,000 gp per year left without magic (depending on buyer's life expectancy)",
 			"source": "DMG",
 			"page": 208,
 			"srd": true,
@@ -32551,7 +32551,7 @@
 		{
 			"name": "Tome of Leadership and Influence",
 			"value": 6000000,
-			"valueNotes": "-500 to -1,000 gp per year left without magic (depending on buyer's life expectancy)",
+			"valueNotes": "- 500 to -1,000 gp per year left without magic (depending on buyer's life expectancy)",
 			"source": "DMG",
 			"page": 208,
 			"srd": true,
@@ -32613,7 +32613,7 @@
 		{
 			"name": "Tome of Understanding",
 			"value": 6000000,
-			"valueNotes": "-500 to -1,000 gp per year left without magic (depending on buyer's life expectancy)",
+			"valueNotes": "- 500 to -1,000 gp per year left without magic (depending on buyer's life expectancy)",
 			"source": "DMG",
 			"page": 209,
 			"srd": true,
