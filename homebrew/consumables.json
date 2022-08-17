@@ -249,9 +249,9 @@
 		},
 		{
 			"name": "Scroll of Healing",
+			"type": "SC",
 			"source": "stabbycons",
 			"page": 0,
-			"wondrous": true,
 			"rarity": "rare",
 			"value": 200000,
 			"entries": [
@@ -260,24 +260,24 @@
 		},
 		{
 			"name": "Scroll of Wrath",
+			"type": "SC",
 			"source": "stabbycons",
 			"page": 0,
-			"wondrous": true,
 			"rarity": "rare",
 			"value": 175000,
 			"entries": [
-				"Using an action to read the magic words on this scroll flares the tempers of all creatures within 30 feet of you. For 1 hour, they may add half their proficiency bonus (rounded up) to the damage dealt by their melee weapon attacks."
+				"Using an action to read the magic words on this scroll flares the tempers of all creatures within 30 feet of you. The scroll then crumbles to dust. For 1 hour, they may add half their proficiency bonus (rounded up) to the damage dealt by their melee weapon attacks."
 			]
 		},
 		{
 			"name": "Scroll of Alacrity",
+			"type": "SC",
 			"source": "stabbycons",
 			"page": 0,
-			"wondrous": true,
 			"rarity": "rare",
 			"value": 100000,
 			"entries": [
-				"Using an action to read the magic words on this scroll fills all creatures within 30 feet of you with energy which reveals itself in surprising bursts of speed. For 1 hour, their speed is increased by 10 feet, and they have advantage on Dexterity saving throws. The scroll then crumbles to dust."
+				"Using an action to read the magic words on this scroll fills all creatures within 30 feet of you with energy which reveals itself in surprising bursts of speed. The scroll then crumbles to dust. For 1 hour, their speed is increased by 10 feet, and they have advantage on Dexterity saving throws."
 			]
 		},
 		{
@@ -296,7 +296,7 @@
 			"name": "Scroll of Town Portal",
 			"source": "stabbycons",
 			"page": 0,
-			"wondrous": true,
+			"type": "SC",
 			"rarity": "very rare",
 			"value": 250000,
 			"entries": [

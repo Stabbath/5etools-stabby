@@ -10930,6 +10930,7 @@
 		},
 		{
 			"name": "Ersatz Eye",
+			"type": "PRO",
 			"source": "XGE",
 			"page": 137,
 			"otherSources": [
@@ -19016,6 +19017,7 @@
 		},
 		{
 			"name": "Mantle of Spell Resistance",
+			"type": "CLO",
 			"value": 4000000,
 			"source": "DMG",
 			"page": 180,

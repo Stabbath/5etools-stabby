@@ -473,8 +473,7 @@
 			"mundane": true,
 			"type": "G",
 			"property": [
-				"TNK",
-				"MOD"
+				"TNK"
 			],
 			"entries": [
 				"When you craft this object, make an Intelligence (Tinker’s Tools) ability check. The DC to lockpick it is equal to your result (minimum 15). The DC to break it is equal to your result plus 5 (minimum 20).",
@@ -490,8 +489,7 @@
 			"mundane": true,
 			"type": "G",
 			"property": [
-				"TNK",
-				"MOD"
+				"TNK"
 			],
 			"entries": [
 				"When you craft this object, make an Intelligence (Tinker’s Tools) ability check with advantage. The DC to lockpick or break it is equal to your result (minimum 20)."
@@ -506,8 +504,7 @@
 			"mundane": true,
 			"type": "G",
 			"property": [
-				"TNK",
-				"MOD"
+				"TNK"
 			],
 			"entries": [
 				"When you craft this object, make an Intelligence (Tinker’s Tools) ability check with advantage. The DC to lockpick it is equal to your result (minimum 20). The DC to break it is equal to your result plus 5 (minimum 25)."
