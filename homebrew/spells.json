@@ -4149,6 +4149,65 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Far Strike",
+			"source": "stabbyspellmods",
+			"page": 0,
+			"level": 3,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"With a violent motion of the hand or of a wielded weapon, you tear open a minute and short-lived portal through space. Choose a target within range. Until the end of your turn, you can target it with melee attacks (including spells) as though it were within melee range no matter your distance to it, as long as you remain within 60 feet of it.",
+				"Additionally, you have advantage on the first attack you make against it this turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 4th level or higher, you can give yourself advantage on one additional attack against the same target this turn per level above 3rd."
+					]
+				}
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Mageblade",
+						"source": "stabbymageblade"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
 		}
 	]
 }
