@@ -4401,32 +4401,6 @@
 			]
 		},
 		{
-			"name": "Blood Spear",
-			"source": "CoS",
-			"page": 221,
-			"baseItem": "spear|phb",
-			"type": "M",
-			"rarity": "uncommon",
-			"reqAttune": true,
-			"weight": 3,
-			"weaponCategory": "simple",
-			"property": [
-				"T",
-				"V"
-			],
-			"range": "20/60",
-			"dmg1": "1d6",
-			"dmgType": "P",
-			"dmg2": "1d8",
-			"bonusWeapon": "+2",
-			"entries": [
-				"Kavan was a ruthless chieftain whose tribe lived in the Balinok Mountains centuries before the arrival of {@creature Strahd von Zarovich|CoS}. Although he was very much alive, Kavan had some traits in common with vampires: he slept during the day and hunted at night, he drank the blood of his prey, and he lived underground. In battle, he wielded a spear stained with blood. His was the first blood spear, a weapon that drains life from those it kills and transfers that life to its wielder, imbuing that individual with the stamina to keep fighting.",
-				"When you hit with a melee attack using this magic spear and reduce the target to 0 hit points, you gain {@dice 2d6} temporary hit points.",
-				"Any creature can wield the spear, but only the character {@adventure chosen by Kavan|CoS|14|Blood Spear of Kavan} to wield it gains a +2 bonus to attack and damage rolls made with this magic weapon."
-			],
-			"hasFluffImages": true
-		},
-		{
 			"name": "Bloodaxe",
 			"source": "EGW",
 			"page": 266,
@@ -13534,43 +13508,6 @@
 			]
 		},
 		{
-			"name": "Gulthias Staff",
-			"source": "CoS",
-			"page": 221,
-			"rarity": "rare",
-			"reqAttune": true,
-			"weight": 4,
-			"weaponCategory": "simple",
-			"property": [
-				"V"
-			],
-			"dmg1": "1d6",
-			"dmgType": "B",
-			"dmg2": "1d8",
-			"recharge": "dusk",
-			"charges": 10,
-			"staff": true,
-			"entries": [
-				"Made from the branch of a Gulthias tree (see the {@creature twig blight||blights} entry of the Monster Manual), a Gulthias staff is a spongy, black length of wood. Its evil makes beasts visibly uncomfortable while within 30 feet of it. The staff has 10 charges and regains {@dice 1d6 + 4} of its expended charges daily at dusk.",
-				"If the staff is broken or burned to ashes, its wood releases a terrible, inhuman scream that can be heard out to a range of 300 feet. All blights that can hear the scream immediately wither and die.",
-				{
-					"name": "Vampiric Strike",
-					"type": "entries",
-					"entries": [
-						"The staff can be wielded as a magic quarterstaff. On a hit, it deals damage as a normal quarterstaff, and you can expend 1 charge to regain a number of hit points equal to the damage dealt by the weapon. Each time a charge is spent, red blood oozes from the staff's pores, and you must succeed on a DC 12 Wisdom saving throw or be afflicted with {@table Short-Term Madness|DMG|short term madness} (see \"{@variantrule Madness|DMG}\" in chapter 8 of the Dungeon Master's Guide)."
-					]
-				},
-				{
-					"name": "Blight Bane",
-					"type": "entries",
-					"entries": [
-						"While you are attuned to the staff, blights and other evil plant creatures don't regard you as hostile unless you harm them."
-					]
-				}
-			],
-			"hasFluffImages": true
-		},
-		{
 			"name": "Gunpowder Horn",
 			"source": "DMG",
 			"page": 268,
@@ -17085,21 +17022,6 @@
 			"value": 750000
 		},
 		{
-			"name": "Jakarion's Staff of Frost",
-			"source": "CoS",
-			"page": 187,
-			"_copy": {
-				"name": "Staff of Frost",
-				"source": "DMG",
-				"_mod": {
-					"entries": {
-						"mode": "appendArr",
-						"items": "Imprinted on this staff is a fragment of a dead wizard's personality. The first character who touches the staff gains the following flaw: \"I crave power above all else, and will do anything to obtain more of it.\" This flaw trumps any conflicting personality trait."
-					}
-				}
-			}
-		},
-		{
 			"name": "Jasper",
 			"source": "DMG",
 			"page": 134,
@@ -18191,22 +18113,6 @@
 						"When you would be reduced to 0 hit points, you drop to 1 hit point instead. Once used, this property can't be used again until the next dawn."
 					]
 				}
-			]
-		},
-		{
-			"name": "Lightbringer",
-			"source": "LMoP",
-			"page": 48,
-			"baseItem": "mace|phb",
-			"type": "M",
-			"rarity": "uncommon",
-			"weight": 4,
-			"weaponCategory": "simple",
-			"dmg1": "1d6",
-			"dmgType": "B",
-			"bonusWeapon": "+1",
-			"entries": [
-				"This +1 mace was made for a cleric of Lathander, the god of dawn. The head of the mace is shaped like a sunburst and made of solid brass. Named Lightbringer, this weapon glows as bright as a {@item torch|phb} when its wielder commands. While glowing, the mace deals an extra {@damage 1d6} radiant damage to undead creatures."
 			]
 		},
 		{
@@ -32666,25 +32572,6 @@
 			"value": 750000
 		},
 		{
-			"name": "Treebane",
-			"source": "CoS",
-			"page": 198,
-			"baseItem": "battleaxe|phb",
-			"type": "M",
-			"rarity": "unknown (magic)",
-			"weight": 2,
-			"weaponCategory": "martial",
-			"property": [
-				"V"
-			],
-			"dmg1": "1d8",
-			"dmgType": "S",
-			"dmg2": "1d10",
-			"entries": [
-				"The axe's handle is carved with leaves and vines, and it weighs half as much as a normal battleaxe. When the axe hits a plant, whether an ordinary plant or a plant creature, the target takes an extra {@damage 1d8} slashing damage. When a creature of non-good alignment wields the axe, it sprouts thorns whenever its wielder makes an attack with it. These thorns prick the wielder for 1 piercing damage after the attack is made, and this damage is considered magical."
-			]
-		},
-		{
 			"name": "Trident of Fish Command",
 			"source": "DMG",
 			"page": 209,
@@ -35729,27 +35616,6 @@
 			"entries": [
 				"This snug uniform has symbols of air stitched into it and leathery flaps that stretch along the arms, waist, and legs to create wings for gliding. A suit of wingwear has 3 charges. While you wear the suit, you can use a bonus action and expend 1 charge to gain a flying speed of 30 feet until you land. At the end of each of your turns, your altitude drops by 5 feet. Your altitude drops instantly to 0 feet at the end of your turn if you didn't fly at least 30 feet horizontally on that turn. When your altitude drops to 0 feet, you land (or fall), and you must expend another charge to use the suit again.",
 				"The suit regains all of its expended charges after spending at least 1 hour in an elemental air node."
-			]
-		},
-		{
-			"name": "Winter's Dark Bite",
-			"source": "HftT",
-			"page": 4,
-			"baseItem": "greatsword|phb",
-			"type": "M",
-			"rarity": "uncommon",
-			"weight": 6,
-			"weaponCategory": "martial",
-			"property": [
-				"H",
-				"2H"
-			],
-			"dmg1": "2d6",
-			"dmgType": "S",
-			"bonusWeapon": "+1",
-			"entries": [
-				"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
-				"This greatsword is made of an unknown black metal. In most cases, it works as a {@item +1 greatsword}. But when used against a {@creature thessalhydra|hftt}, it works as a {@item +3 greatsword}. While in the Upside Down, it works as a +4 greatsword."
 			]
 		},
 		{

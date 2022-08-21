@@ -280,89 +280,7 @@
 				]
 			}
 		},
-		{
-			"name": "Adamantine Ammunition",
-			"type": "GV",
-			"requires": [
-				{
-					"type": "A"
-				},
-				{
-					"type": "AF"
-				}
-			],
-			"excludes": {
-				"name": "Energy Cell"
-			},
-			"ammo": true,
-			"entries": [
-				"Ammunition made of or coated with adamantine is unusually effective when used to break objects. Whenever a piece of adamantine ammunition hits an object, the hit is a critical hit.",
-				"The adamantine version of ten pieces of ammunition costs 500 gp more than the normal version, whether the ammunition is made of the metal or coated with it."
-			],
-			"inherits": {
-				"namePrefix": "Adamantine ",
-				"source": "XGE",
-				"page": 78,
-				"tier": "minor",
-				"rarity": "unknown",
-				"entries": [
-					"Whenever you hit an object using this ammunition, the hit is a critical hit."
-				]
-			}
-		},
-		{
-			"name": "Adamantine Armor",
-			"type": "GV",
-			"requires": [
-				{
-					"type": "HA"
-				},
-				{
-					"type": "MA"
-				}
-			],
-			"excludes": {
-				"name": "Hide Armor"
-			},
-			"inherits": {
-				"namePrefix": "Adamantine ",
-				"source": "DMG",
-				"page": 150,
-				"srd": true,
-				"tier": "major",
-				"rarity": "uncommon",
-				"entries": [
-					"This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit."
-				]
-			}
-		},
-		{
-			"name": "Adamantine Weapon",
-			"type": "GV",
-			"requires": [
-				{
-					"weapon": true
-				}
-			],
-			"excludes": {
-				"net": true
-			},
-			"entries": [
-				"Melee weapons made of or coated with adamantine are unusually effective when used to break objects. Whenever an adamantine weapon hits an object, the hit is a critical hit.",
-				"The adamantine version of a melee weapon costs 500 gp more than the normal version, whether the weapon is made of the metal or coated with it."
-			],
-			"inherits": {
-				"namePrefix": "Adamantine ",
-				"source": "XGE",
-				"page": 78,
-				"tier": "major",
-				"rarity": "unknown",
-				"valueExpression": "[[baseItem.value]] + 50000",
-				"entries": [
-					"Whenever you hit an object with this weapon, the hit is a critical hit."
-				]
-			}
-		},
+
 		{
 			"name": "Armblade",
 			"type": "GV",
@@ -2333,7 +2251,7 @@
 			"type": "GV",
 			"requires": [
 				{
-					"weapon": true
+					"type": "M"
 				}
 			],
 			"excludes": {
