@@ -4208,6 +4208,121 @@
 					}
 				]
 			}
-		}
+		},
+		{
+			"name": "Fast Identify",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 1,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a silver coin worth 1 sp",
+				"cost": 10
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"Choose an object or creature within range. If you choose an object, name a magical property you think it has: the spell tells you if the spell has that property. If the item is not in fact magical, you gain that knowledge. If you believe the item was created by a specific spell, casting this spell will tell you if your belief is correct.",
+				"You can also name a spell you believe to be affecting the targeted object or creature: you discover if that spell is affecting it."
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				]
+			}
+		},
+		{
+			"name": "Mass Fast Identify",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 3,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a diamond lens worth at least 500 gp",
+					"cost": 50000
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You choose up to six objects or creatures within range. For each object, name a magical property you think it has: the spell tells you if the spell has that property. If the item is not in fact magical, you gain that knowledge. If you believe the item was created by a specific spell, casting this spell will tell you if your belief is correct.",
+				"You can also name a spell you believe to be affecting each targeted object and creature: if that spell is affecting any of them, you know which objects and creatures are under its effect."
+			],
+			"areaTags": [
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				]
+			}
+		}		
 	]
 }
