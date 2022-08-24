@@ -3527,11 +3527,13 @@
 					"dmgType": "B"
 				}
 			],
+			"value": 932500,
 			"inherits": {
 				"nameSuffix": " of Deanimation",
 				"source": "stabbyitems",
 				"page": 0,
 				"rarity": "rare",
+				"valueExpression": "[[baseItem.value]] + 932500",
 				"entries": [
 					"Deals {@damage 2d6} extra force damage against undead and constructs.",
 					"On a natural attack roll of 20, the target must make a Constitution saving throw against a DC of 16. On a failure, it becomes {@condition paralyzed} until the end of the attacker's next turn."
