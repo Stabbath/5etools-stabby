@@ -56,6 +56,7 @@
 				"ritual": true
 			},
 			"entries": [
+				"{@note Homebrew edit: added ability checks.}",
 				"For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its {@book school of magic|PHB|10|The Schools of Magic}, if any.",
 				"The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.",
 				"While Detect Magic is active, you can attempt an ability check using your spellcasting ability as an action to detect traces of past magic which is no longer active. If you cast the spell with a higher spell slot, you get a +1 bonus to all such checks for each level above 1st."
@@ -175,6 +176,7 @@
 				}
 			],
 			"entries": [
+				"{@note Homebrew edit: range up from 30 to 120 ft. Added verbal component. Increased duration from 1 round to 1 minute. It now targets two creatures, an attacker and a victim, and extends to all attacks in a turn.}",
 				"You empower a creature with magical guidance, that it may strike true. Choose a creature within range, and then a secondary creature also within range. If the primary target makes an attack against the secondary target before the spell expires, that attack is made with advantage, as are all further attacks it makes against the same target that turn. Then the spell ends."
 			],
 			"areaTags": [
@@ -240,6 +242,7 @@
 				}
 			],
 			"entries": [
+				"{@note Homebrew edit: reduced from 5th to 4th level so that Eldritch Knights and other third-casters can have access to it, removed redundant \"worth at least 1 sp\" from material since the description explicitly requires using a weapon rather than a focus, reworded some things and reduced damage from 6d10 to 4d10 + weapon damage. Changed school to Evocation.}",
 				"You flourish the weapon used in the casting and then vanish to strike like the wind. Choose up to five creatures you can see within range. Make a weapon attack against each target. On a hit, a target suffers the attack's normal effects, and takes an additional {@damage 4d10} force damage.",
 				"You can then teleport to an unoccupied space you can see within 5 feet of one of the targets you hit or missed."
 			],
@@ -316,6 +319,7 @@
 				}
 			],
 			"entries": [
+				"{@note Homebrew edit: removed concentration, increased duration from 1 minute to 1 hour, increased damage by 1d10, added up-cast option, reduced range. Should put it approximately on par with an upcast Spiritual Weapon, but different enough to justify it existing as a separate spell.}",
 				"You create a sword-shaped plane of force that hovers within range. It lasts for the duration.",
 				"When the sword appears, you make a melee spell attack against a target of your choice within 5 feet of the sword. On a hit, the target takes 4d10 force damage. Until the spell ends, you can use a bonus action on each of your turns to move the sword up to your speed to a spot you can see and repeat this attack against the same target or a different one."
 			],
