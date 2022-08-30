@@ -40,6 +40,25 @@
 	],
 	"item": [
 		{
+			"name": "Satyr Berrywine (dose)",
+			"source": "stabbycons",
+			"page": 0,
+			"type": "P",
+			"rarity": "unknown (magic)",
+			"entries": [
+				"A creature consuming a dose of this sweet fruity liquid must make a Constitution saving throw against poison. On a failure, it has disadvantage on Wisdom and Intelligence ability checks until it finishes a long rest; but also gains advantage on all saving throws for the same duration."
+			]
+		},
+
+
+
+
+
+
+
+
+
+		{
 			"name": "Calming Potion",
 			"source": "stabbycons",
 			"page": 0,

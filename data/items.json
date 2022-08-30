@@ -1236,6 +1236,7 @@
 		},
 		{
 			"name": "Amulet of Health",
+			"type": "NW",
 			"source": "DMG",
 			"page": 150,
 			"srd": true,
@@ -1261,6 +1262,7 @@
 		},
 		{
 			"name": "Amulet of Proof against Detection and Location",
+			"type": "NW",
 			"source": "DMG",
 			"page": 150,
 			"srd": true,
@@ -1358,6 +1360,7 @@
 		},
 		{
 			"name": "Amulet of the Planes",
+			"type": "NW",
 			"value": 2300000,
 			"source": "DMG",
 			"page": 150,
@@ -8967,6 +8970,7 @@
 					"type": "entries",
 					"name": "Curse",
 					"entries": [
+						"This armor is cursed, with a Curse DC of 18.",
 						"Once you don this cursed armor, you can't doff it unless you are targeted by the {@spell remove curse} spell or similar magic. While wearing the armor, you have disadvantage on attack rolls against demons and on saving throws against their spells and special abilities."
 					]
 				}
@@ -26848,7 +26852,7 @@
 					"type": "entries",
 					"name": "Curse",
 					"entries": [
-						"This shield is cursed. Attuning to it curses you until you are targeted by the {@spell remove curse} spell or similar magic. Removing the shield fails to end the curse on you. Whenever a ranged weapon attack is made against a target within 10 feet of you, the curse causes you to become the target instead."
+						"This shield is cursed, with a Curse DC of 16. Attuning to it curses you until you are targeted by the {@spell remove curse} spell or similar magic. Removing the shield fails to end the curse on you. Whenever a ranged weapon attack is made against a target within 10 feet of you, the curse causes you to become the target instead."
 					]
 				}
 			],

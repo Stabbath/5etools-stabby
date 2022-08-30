@@ -582,6 +582,403 @@
 	],
 	"item": [
 		{
+			"name": "Ring of Exposure",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "RG",
+			"rarity": "rare",
+			"reqAttune": true,
+			"curse": true,
+			"bonusAc": "-1",
+			"bonusSavingThrow": "-1",
+			"value": 300000,
+			"entries": [
+				"This ring appears to be in all ways like a {@item ring of protection}.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This ring is cursed, with a Curse DC of 15, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unable to unattune or remove the ring from your finger unless you sever it."
+					]
+				},
+				"You gain a -1 bonus to AC and saving throws while wearing this ring."
+			]
+		},
+		{
+			"name": "+2 Ring of Exposure",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "RG",
+			"rarity": "rare",
+			"reqAttune": true,
+			"curse": true,
+			"bonusAc": "-2",
+			"bonusSavingThrow": "-2",
+			"value": 1890000,
+			"entries": [
+				"This ring appears to be in all ways like a {@item +2 ring of protection|stabbyitems}.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This ring is cursed, with a Curse DC of 17, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unable to unattune or remove the ring from your finger unless you sever it."
+					]
+				},
+				"You gain a -2 malus to AC and saving throws while wearing this ring."
+			]
+		},
+		{
+			"name": "Choker of Choking",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "NW",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"curse": true,
+			"wondrous": true,
+			"value": 200000,
+			"entries": [
+				"This choker appears to be in all ways like a {@item choker of charisma|stabbyitems}.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This choker is cursed, with a Curse DC of 15, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unable to unattune or remove the choker."
+					]
+				},
+				"You can only wheeze out words while you wear this choker, and take 1 piercing damage any time you speak. You cannot cast spells with a verbal component while you wear this choker."
+			]
+		},
+		{
+			"name": "Gemstone of Arcane Shortage",
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"curse": true,
+			"type": "NW",
+			"rarity": "uncommon",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"value": 130000,
+			"entries": [
+				"This gemstone appears to be in all ways like a {@item gemstone of arcane supply|stabbyitems}.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This gemstone is cursed, with a Curse DC of 12, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unable to unattune or remove the pendant."
+					]
+				},
+				"While you wear this item, you have one fewer 1st level spell slot, or one fewer of your highest level spell slots if you do not have any 1st level spell slots."
+			]
+		},		
+		{
+			"name": "+1 Gemstone of Arcane Shortage",
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"curse": true,
+			"type": "NW",
+			"rarity": "uncommon",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"value": 240000,
+			"entries": [
+				"This gemstone appears to be in all ways like a {@item +1 gemstone of arcane supply|stabbyitems}.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This gemstone is cursed, with a Curse DC of 13, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unable to unattune or remove the pendant."
+					]
+				},
+				"While you wear this item, you have one fewer 2nd level spell slot, or one fewer of your highest level spell slots if you do not have any 2nd level spell slots."
+			]
+		},		
+		{
+			"name": "+2 Gemstone of Arcane Shortage",
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"curse": true,
+			"type": "NW",
+			"rarity": "rare",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"value": 700000,
+			"entries": [
+				"This gemstone appears to be in all ways like a {@item +2 gemstone of arcane supply|stabbyitems}.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This gemstone is cursed, with a Curse DC of 15, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unable to unattune or remove the pendant."
+					]
+				},
+				"While you wear this item, you have one fewer 3rd level spell slot, or one fewer of your highest level spell slots if you do not have any 3rd level spell slots."
+			]
+		},		
+		{
+			"name": "+3 Gemstone of Arcane Shortage",
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"curse": true,
+			"type": "NW",
+			"rarity": "very rare",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"value": 1600000,
+			"entries": [
+				"This gemstone appears to be in all ways like a {@item +3 gemstone of arcane supply|stabbyitems}.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This gemstone is cursed, with a Curse DC of 17, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unable to unattune or remove the pendant."
+					]
+				},
+				"While you wear this item, you have one fewer 4th level spell slot, or one fewer of your highest level spell slots if you do not have any 4th level spell slots."
+			]
+		},		
+		{
+			"name": "+4 Gemstone of Arcane Shortage",
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"curse": true,
+			"type": "NW",
+			"rarity": "legendary",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"value": 4000000,
+			"entries": [
+				"This gemstone appears to be in all ways like a {@item +4 gemstone of arcane supply|stabbyitems}.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This gemstone is cursed, with a Curse DC of 19, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unable to unattune or remove the pendant."
+					]
+				},
+				"While you wear this item, you have one fewer 5th level spell slot, or one fewer of your highest level spell slots if you do not have any 5th level spell slots."
+			]
+		},		
+		{
+			"name": "Ring of Blunders",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "RG",
+			"rarity": "rare",
+			"reqAttune": true,
+			"recharge": "dawn",
+			"charges": 3,
+			"value": 480000,
+			"entries": [
+				"This ring appears to be in all ways like a {@item ring of evasion}.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This item is cursed, with a Curse DC of 17, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unable to unattune or remove the ring from your finger, unless you sever it."
+					]
+				},
+				"This ring has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. When you make a Dexterity saving throw while wearing it, if the ring has any charges, you automatically fail it and the ring loses 1 charge."
+			]
+		},
+		{
+			"name": "Amulet of Frailty",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "rare",
+			"type": "NW",
+			"reqAttune": true,
+			"wondrous": true,
+			"ability": {
+				"static": {
+					"con": 9
+				}
+			},
+			"value": 400000,
+			"entries": [
+				"This amulet appears to be in all ways like an {@item amulet of health}.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This amulet is cursed, with a Curse DC of 16, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unable to unattune or remove the amulet."
+					]
+				},
+				"Your Constitution score is 9 while you wear this amulet. It has no effect on you if your Constitution is already 9 or lower. Additionally, you gain vulnerability to all damage."
+			]
+		},
+		{
+			"name": "Headband of Headaches",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "NW",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"curse": true,
+			"wondrous": true,
+			"ability": {
+				"static": {
+					"int": 9
+				}
+			}
+			"value": 200000,
+			"entries": [
+				"This headband appears to be in all ways like a {@item headband of intellect}.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This headband is cursed, with a Curse DC of 15, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unable to unattune or remove the headband."
+					]
+				},
+				"This headband causes you 1d4 psychic damage each time you make an Intelligence-based ability check, attack roll, or saving throw. If this damage reduces you to 0 hit points, you are automatically stable."
+			]
+		},		
+		
+		
+		
+		
+		
+		
+		
+		
+		{
+			"name": "+2 Ring of Protection",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "RG",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"bonusAc": "+2",
+			"bonusSavingThrow": "+2",
+			"value": 1890000,
+			"entries": [
+				"You gain a +2 bonus to AC and saving throws while wearing this ring."
+			]
+		},
+		{
+			"name": "Gemstone of Arcane Supply",
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"type": "NW",
+			"rarity": "uncommon",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"value": 130000,
+			"entries": [
+				"While you wear this item, you have an additional 1st level spell slot."
+			]
+		},
+		{
+			"name": "+1 Gemstone of Arcane Supply",
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"type": "NW",
+			"rarity": "uncommon",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"value": 240000,
+			"entries": [
+				"While you wear this item, you have an additional 2nd level spell slot."
+			]
+		},
+		{
+			"name": "+2 Gemstone of Arcane Supply",
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"type": "NW",
+			"rarity": "rare",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"value": 700000,
+			"entries": [
+				"While you wear this item, you have an additional 3rd level spell slot."
+			]
+		},
+		{
+			"name": "+3 Gemstone of Arcane Supply",
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"type": "NW",
+			"rarity": "very rare",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"value": 1600000,
+			"entries": [
+				"While you wear this item, you have an additional 4th level spell slot."
+			]
+		},
+		{
+			"name": "+4 Gemstone of Arcane Supply",
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"type": "NW",
+			"rarity": "legendary",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"value": 4000000,
+			"entries": [
+				"While you wear this item, you have an additional 5th level spell slot."
+			]
+		},
+
+
+
+
+
+
+
+		{
 			"name": "Walking Stick",
 			"source": "stabbyitems",
 			"page": 0,
@@ -2988,7 +3385,8 @@
 					"name": "Curse",
 					"entries": [
 						"A unicorn horn scepter crafted from a horn harvested from a living unicorn, one who has died an unnatural death, or one whose death was natural but whose permission for harvest was not obtained in life, is cursed, and imposes its curse upon its bearer on attunement. Its true nature reveals itself when attuned to or identified by a divination spell of 5th level or higher. A remove curse spell of 7th level or higher cast on the scepter can break the creature's attunement to it and save the creature from the curse, but nothing short of a wish spell can cleanse the scepter.",
-						"A creature cursed this way cannot break its attunement from the scepter, and has disadvantage on all ability checks and saving throws, and does not benefit from the spell resistance normally granted by the scepter."
+						"A creature cursed this way cannot break its attunement from the scepter, and has disadvantage on all ability checks and saving throws, and does not benefit from the spell resistance normally granted by the scepter.",
+						"A cursed unicorn horn scepter has a Curse DC of 20."
 					]
 				}
 			],
@@ -3354,7 +3752,41 @@
 				"reqAttune": true
 			}
 		},
-		
+		{
+			"name": "Weapon of Violence",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M"
+				}
+			],
+			"value": 460000,
+			"inherits": {
+				"nameSuffix": " of Violence",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "uncommon",
+				"curse": true,
+				"valueExpression": "[[baseItem.value]] + 460000",
+				"reqAttune": true,
+				"bonusWeapon": "+1",
+				"entries": [
+					"This weapon appears to be in all ways like a {@item +1 weapon}.",
+					{
+						"type": "entries",
+						"name": "Curse",
+						"entries": [
+							"This weapon is cursed, with a Curse DC of 13, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unwilling to part with the weapon."
+						]
+					},
+					"This weapon has a +1 bonus to attack and damage rolls.",
+					"You have disadvantage with all other weapons while attuned to this weapon. Whenever you start your turn and there is an enemy creature within 10 feet of you, you must move towards it and take the attack action to attack it with this weapon. You can take no other action on that turn until you have taken that action.",
+					"Whenever you hit an attack with this weapon, you gain temporary hit points equal to the damage dealt by the weapon on the attack, which last 1 minute or until the weapon leaves your hand, whichever comes first.",
+					"Whenever you miss an attack with this weapon, you take 1d4 psychic damage."
+				]
+			}
+		},
+
 		
 		
 		
