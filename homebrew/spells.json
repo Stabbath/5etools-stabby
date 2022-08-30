@@ -4210,6 +4210,226 @@
 			}
 		},
 		{
+			"name": "Minor Glimpse",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 6,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You channel magical energy to gain a glimpse into the immediate future.",
+				"When you cast this spell, choose a creature capable of acting within your field of view during the next round, who you can currently see. That creature must decide and declare what its movement and actions will be on its next turn. It must move and act in accordance with its declaration on its next turn."
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Major Glimpse",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 8,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You channel magical energy to gain a glimpse into the immediate future.",
+				"When you cast this spell, every creature capable of acting within your field of view during the next round must decide and declare what their movement and actions will be on their next turn. Creatures must move and act in accordance with their declaration on their next turn."
+			],
+			"areaTags": [
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Far Sight",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 7,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "mile",
+					"amount": 100
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You create an invisible sensor within range in a location familiar to you (a place you have visited or seen before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a grove of trees). The sensor remains in place for the duration, and it can't be attacked or otherwise interacted with.",
+				"You can see through the sensor as if you were in its space. You can switch at will between seeing through the sensor and seeing through your normal senses.",
+				"As an action on your turn, you can switch the sensor to a new valid location within range, but must succed on a spellcasting ability check against a DC of 15 or lose concentration on the spell.",
+				"A creature that can see the sensor (such as a creature benefiting from see invisibility or truesight) sees a luminous, intangible orb about the size of your fist.",
+				"Additionally, while the spell lasts, you have advantage on Wisdom (Perception) checks that rely on sight, and can make out fine details even at great distances."
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			}
+		},		
+		{
+			"name": "Omnispection",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 9,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "an owl's eye"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					},
+					"concentration": true
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"You focus your mind on a far place, and tap into the weave to transport your senses and what there is to be sensed towards each other.",
+				"When you cast this spell, choose a place you can see, one which you have seen before, or one which you can inequivocably describe. For the duration, you can see and hear at that location as though you were present. At the end of each of your turns, you can refocus your senses to a different point within 100 feet of their previous position.",
+				"You can also see and hear as normal at your physical position while the spell lasts."
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
 			"name": "Fast Identify",
 			"source": "stabbyspells",
 			"page": 0,
