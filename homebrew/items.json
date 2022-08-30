@@ -3367,6 +3367,7 @@
 		},
 		{
 			"name": "Unicorn Horn Scepter (Cursed)",
+			"value": 8200000,
 			"source": "stabbyitems",
 			"page": 0,
 			"rarity": "legendary",
@@ -3384,7 +3385,7 @@
 					"type": "entries",
 					"name": "Curse",
 					"entries": [
-						"A unicorn horn scepter crafted from a horn harvested from a living unicorn, one who has died an unnatural death, or one whose death was natural but whose permission for harvest was not obtained in life, is cursed, and imposes its curse upon its bearer on attunement. Its true nature reveals itself when attuned to or identified by a divination spell of 5th level or higher. A remove curse spell of 7th level or higher cast on the scepter can break the creature's attunement to it and save the creature from the curse, but nothing short of a wish spell can cleanse the scepter.",
+						"A unicorn horn scepter crafted from a horn harvested from a living unicorn, one who has died an unnatural death, or one whose death was natural but whose permission for harvest was not obtained in life, is cursed, and imposes its curse upon its bearer on attunement. Its true nature reveals itself when attuned to. A {@spell remove curse} spell cast on the scepter can break the creature's attunement to it and save the creature from the curse, but nothing short of a {@spell wish} spell can cleanse the scepter.",
 						"A creature cursed this way cannot break its attunement from the scepter, and has disadvantage on all ability checks and saving throws, and does not benefit from the spell resistance normally granted by the scepter.",
 						"A cursed unicorn horn scepter has a Curse DC of 20."
 					]

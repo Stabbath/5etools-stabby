@@ -13954,7 +13954,7 @@
 					"type": "entries",
 					"name": "Curse",
 					"entries": [
-						"This cloak is cursed with the essence of a {@creature hell hound}, and becoming attuned to it extends the curse to you. Until the curse is broken with {@spell remove curse} or similar magic, you are unwilling to part with the cloak, keeping it within reach at all times."
+						"This cloak is cursed, with a Curse DC of 15, and holds the essence of a {@creature hell hound}. Becoming attuned to it extends the curse to you. Until the curse is broken with {@spell remove curse} or similar magic, you are unwilling to part with the cloak, keeping it within reach at all times."
 					]
 				},
 				"The sixth time you use the cloak, and each time thereafter, you must make a DC 15 Charisma saving throw. On a failed save, the transformation lasts until dispelled or until you drop to 0 hit points, and you can't willingly return to normal form. If you ever remain in {@creature hell hound} form for 6 hours, the transformation becomes permanent and you lose your sense of self. All your statistics are then replaced by those of a {@creature hell hound}. Thereafter, only {@spell remove curse} or similar magic allows you to regain your identity and return to normal. If you remain in this permanent form for 6 days, only a {@spell wish} spell can reverse the transformation."
@@ -26210,36 +26210,6 @@
 			]
 		},
 		{
-			"name": "Scorpion Armor",
-			"source": "ToA",
-			"page": 208,
-			"type": "HA",
-			"rarity": "rare",
-			"reqAttune": true,
-			"curse": true,
-			"weight": 65,
-			"ac": 18,
-			"strength": "15",
-			"entries": [
-				"This suit of plate armor is fashioned from {@creature giant scorpion} chitin. While wearing this armor, you gain the following benefits:",
-				{
-					"type": "list",
-					"items": [
-						"The armor improves your combat readiness, granting you a +5 bonus to initiative as long as you aren't {@condition incapacitated}.",
-						"The armor doesn't impose disadvantage on your Dexterity ({@skill Stealth}) checks.",
-						"The armor doesn't impose disadvantage on saving throws made to resist the effects of extreme heat (see chapter 5 of the Dungeon Master's Guide)."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Curse",
-					"entries": [
-						"This armor is cursed. Whenever you don or doff it, you must make a DC 15 Constitution saving throw, taking 100 ({@damage 10d10 + 45}) poison damage on a failed save, or half as much damage on a successful one. Only a {@spell wish} spell can remove the armor's curse."
-					]
-				}
-			]
-		},
-		{
 			"name": "Scribe's Pen",
 			"source": "ERLW",
 			"page": 278,
@@ -36240,6 +36210,7 @@
 		},
 		{
 			"name": "Armor of Vulnerability",
+			"value": 500000,
 			"source": "DMG",
 			"page": 152,
 			"baseItem": "plate armor|phb",
