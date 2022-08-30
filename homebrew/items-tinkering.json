@@ -461,7 +461,7 @@
 				"MOD"
 			],
 			"entries": [
-				"Added onto a firearm or crossbow. Causes melee attacks with the weapon to deal 1d6 + Strength modifier piercing damage."
+				"Added onto a firearm or crossbow. Causes melee attacks with the weapon to deal 1d4 + Strength modifier piercing damage."
 			]
 		},
 		{
