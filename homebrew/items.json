@@ -845,7 +845,7 @@
 				"static": {
 					"int": 9
 				}
-			}
+			},
 			"value": 200000,
 			"entries": [
 				"This headband appears to be in all ways like a {@item headband of intellect}.",
