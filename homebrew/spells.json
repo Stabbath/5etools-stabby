@@ -4430,6 +4430,225 @@
 			}
 		},
 		{
+			"name": "Deflect Attention",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 2,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you are targeted by an attack (before the roll)"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 20
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You attempt to interrupt and misguide a creature within range targetting you with an attack you. Choose a creature within the creature's attack range and within 10 feet of you.",
+				"If that creature is considered hostile by the attacker, the triggering attack targets it instead of you.",
+				"If that creature is considered neutral by the attacker, it must succeed on a Wisdom saving throw or have the triggering attack target it instead of you.",
+				"If that creature is considered friendly by the attacker, it must succeed on a Wisdom saving throw or have the triggering attack target it instead of you, and it has advantage on the saving throw."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 4th level or higher, neutral creatures are automatically targeted and the creature does not gain advantage when redirected to friendly creatures. If you cast this spell using a spell slot of 6th level or higher, the attack is automatically redirected."
+					]
+				}
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Shame",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You point at a creature within range and call it out with magically-laced words, bringing to surface its feelings of inadequacy. That creature must succeed on a Charisma saving throw or be cursed for this spell's duration. While cursed in this way, it takes 1d4 psychic damage whenever it misses an attack or fails an ability check or saving throw."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 4th level or higher, its damage increases by 1d4 per level above 3rd."
+					]
+				}
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Induce Guilt",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 4,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You point at a creature within range and call it out with magically-laced words, filling it with guilt over its offensive actions. That creature must succeed on a Charisma saving throw or be cursed for this spell's duration. While cursed in this way, it takes 2d6 psychic damage whenever it deals damage to a creature other than itself.",
+				"Additionally, after it deals damage for the first time on its turn, it must succeed on another Charisma saving throw or become incapacitated until the start of its next turn.",
+				"At the end of the target's turn, if the target took damage from a source other than itself, it repeats the original saving throw, and the spell ends early on a success."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 5th level or higher, its damage increases by 1d6 per level above 4th."
+					]
+				}
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
 			"name": "Fast Identify",
 			"source": "stabbyspells",
 			"page": 0,
