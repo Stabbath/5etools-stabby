@@ -22,6 +22,7 @@
 		"subclasses-fighter.json",
 		"subclasses-rogue.json",
 		"subclasses-sorcerer.json",
-		"subclasses-warlock.json"
+		"subclasses-warlock.json",
+		"npcs.json"
 	]
 }
