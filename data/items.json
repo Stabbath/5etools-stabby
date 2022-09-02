@@ -3751,11 +3751,11 @@
 			"ac": 14,
 			"bonusAc": "+1",
 			"bonusSavingThrow": "+1",
-			"stealth": true,
 			"value": 1000000,
 			"entries": [
 				"Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to acid damage.",
-				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest black dragon within 30 miles of you. This special action can't be used again until the next dawn."
+				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest black dragon within 30 miles of you. This special action can't be used again until the next dawn.",
+				"Dragon scale mail does not impose disadvantage to Dexterity (Stealth) checks due to the nature of its materials."
 			]
 		},
 		{
@@ -4534,10 +4534,10 @@
 			"ac": 14,
 			"bonusAc": "+1",
 			"bonusSavingThrow": "+1",
-			"stealth": true,
 			"entries": [
 				"Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to lightning damage.",
-				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest blue dragon within 30 miles of you. This special action can't be used again until the next dawn."
+				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest blue dragon within 30 miles of you. This special action can't be used again until the next dawn.",
+				"Dragon scale mail does not impose disadvantage to Dexterity (Stealth) checks due to the nature of its materials."
 			]
 		},
 		{
@@ -5173,10 +5173,10 @@
 			"ac": 14,
 			"bonusAc": "+1",
 			"bonusSavingThrow": "+1",
-			"stealth": true,
 			"entries": [
 				"Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to fire damage.",
-				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest brass dragon within 30 miles of you. This special action can't be used again until the next dawn."
+				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest brass dragon within 30 miles of you. This special action can't be used again until the next dawn.",
+				"Dragon scale mail does not impose disadvantage to Dexterity (Stealth) checks due to the nature of its materials."
 			]
 		},
 		{
@@ -5265,10 +5265,10 @@
 			"ac": 14,
 			"bonusAc": "+1",
 			"bonusSavingThrow": "+1",
-			"stealth": true,
 			"entries": [
 				"Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to lightning damage.",
-				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest bronze dragon within 30 miles of you. This special action can't be used again until the next dawn."
+				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest bronze dragon within 30 miles of you. This special action can't be used again until the next dawn.",
+				"Dragon scale mail does not impose disadvantage to Dexterity (Stealth) checks due to the nature of its materials."
 			]
 		},
 		{
@@ -6784,10 +6784,10 @@
 			"ac": 14,
 			"bonusAc": "+1",
 			"bonusSavingThrow": "+1",
-			"stealth": true,
 			"entries": [
 				"Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to acid damage.",
-				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest copper dragon within 30 miles of you. This special action can't be used again until the next dawn."
+				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest copper dragon within 30 miles of you. This special action can't be used again until the next dawn.",
+				"Dragon scale mail does not impose disadvantage to Dexterity (Stealth) checks due to the nature of its materials."
 			]
 		},
 		{
@@ -12912,10 +12912,10 @@
 			"ac": 14,
 			"bonusAc": "+1",
 			"bonusSavingThrow": "+1",
-			"stealth": true,
 			"entries": [
 				"Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to fire damage.",
-				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest gold dragon within 30 miles of you. This special action can't be used again until the next dawn."
+				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest gold dragon within 30 miles of you. This special action can't be used again until the next dawn.",
+				"Dragon scale mail does not impose disadvantage to Dexterity (Stealth) checks due to the nature of its materials."
 			]
 		},
 		{
@@ -13209,10 +13209,10 @@
 			"ac": 14,
 			"bonusAc": "+1",
 			"bonusSavingThrow": "+1",
-			"stealth": true,
 			"entries": [
 				"Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to poison damage.",
-				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest green dragon within 30 miles of you. This special action can't be used again until the next dawn."
+				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest green dragon within 30 miles of you. This special action can't be used again until the next dawn.",
+				"Dragon scale mail does not impose disadvantage to Dexterity (Stealth) checks due to the nature of its materials."
 			]
 		},
 		{
@@ -23992,10 +23992,10 @@
 			"ac": 14,
 			"bonusAc": "+1",
 			"bonusSavingThrow": "+1",
-			"stealth": true,
 			"entries": [
 				"Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to fire damage.",
-				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest red dragon within 30 miles of you. This special action can't be used again until the next dawn."
+				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest red dragon within 30 miles of you. This special action can't be used again until the next dawn.",
+				"Dragon scale mail does not impose disadvantage to Dexterity (Stealth) checks due to the nature of its materials."
 			]
 		},
 		{
@@ -27225,11 +27225,11 @@
 			"ac": 14,
 			"bonusAc": "+1",
 			"bonusSavingThrow": "+1",
-			"stealth": true,
 			"value": 1000000,
 			"entries": [
 				"Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to cold damage.",
-				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest silver dragon within 30 miles of you. This special action can't be used again until the next dawn."
+				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest silver dragon within 30 miles of you. This special action can't be used again until the next dawn.",
+				"Dragon scale mail does not impose disadvantage to Dexterity (Stealth) checks due to the nature of its materials."
 			]
 		},
 		{
@@ -35228,11 +35228,11 @@
 			"ac": 14,
 			"bonusAc": "+1",
 			"bonusSavingThrow": "+1",
-			"stealth": true,
 			"value": 1000000,
 			"entries": [
 				"Dragon scale mail is made of the scales of one kind of dragon. Sometimes dragons collect their cast-off scales and gift them to humanoids. Other times, hunters carefully skin and preserve the hide of a dead dragon. In either case, dragon scale mail is highly valued. While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to cold damage.",
-				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest white dragon within 30 miles of you. This special action can't be used again until the next dawn."
+				"Additionally, you can focus your senses as an action to magically discern the distance and direction to the closest white dragon within 30 miles of you. This special action can't be used again until the next dawn.",
+				"Dragon scale mail does not impose disadvantage to Dexterity (Stealth) checks due to the nature of its materials."
 			]
 		},
 		{
@@ -36460,7 +36460,6 @@
 			"reqAttune": true,
 			"weight": 45,
 			"ac": 14,
-			"stealth": true,
 			"value": 1000000,
 			"items": [
 				"Black Dragon Scale Mail",

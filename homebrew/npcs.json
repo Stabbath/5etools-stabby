@@ -1,0 +1,219 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "stabbynpcs",
+				"abbreviation": "Stabby",
+				"full": "Stabby's NPCs",
+				"version": "1",
+				"url": "none",
+				"authors": [
+					"Francisco \"Stabby\" Pesquita"
+				],
+				"convertedBy": [
+					"Francisco \"Stabby\" Pesquita"
+				]
+			}
+		],
+		"dateAdded": 1586966344, 
+		"dateLastModified": 1657399173,
+		"_dateLastModifiedHash": "aa8d6f9bda"
+	},
+	"monster": [
+		{
+			"name": "Ishilla",
+			"source": "stabbynpcs",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf",
+					"green elf"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item green dragon scale mail}"
+					]
+				}
+			],
+			"hp": {
+				"average": 91,
+				"formula": "12d8 + 36"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 16,
+			"con": 16,
+			"int": 11,
+			"wis": 20,
+			"cha": 12,
+			"save": {
+				"int": "+5",
+				"wis": "+9"
+			},
+			"skill": {
+				"nature": "+9",
+				"perception": "+9",
+				"survival": "+9",
+				"stealth": "+7"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 19,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned",
+				"charmed"
+			],
+			"languages": [
+				"Elvish (Callendherena)",
+				"Druidic",
+				"Primordial (Universal)",
+				"Sylvan"
+				
+			],
+			"cr": "12",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Ishilla can innately cast a few spells, as a consequence of her lineage, her druidic training, and her connection to the Green Mother (spell save {@dc 17}, {@hit 9}). She can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell alter self}",
+						"{@spell barkskin}",
+						"{@spell entangle}",
+						"{@spell speak with plants}"
+					],
+					"ability": "wis"
+				},
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Ishilla is a 15th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 17}, {@hit 9} to hit with spell attacks). She has the following druid spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell druidcraft}",
+								"{@spell mending}",
+								"{@spell caustic touch}",
+								"{@spell shillelagh}",
+								"{@spell produce flame}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell entangle}",
+								"{@spell faerie fire}",
+								"{@spell speak with animals}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell animal messenger}",
+								"{@spell beast sense}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell corrosive breath|stabbyspells}",
+								"{@spell adorn|stabbyspells}",
+								"{@spell water breathing}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell charm monster|xge}",
+								"{@spell wither|stabbyspells}"
+							]
+						},
+						"5": {
+							"slots": 2,
+							"spells": [
+								"{@spell commune with nature}",
+								"{@spell mass cure wounds}",
+								"{@spell tree stride}",
+								"{@spell greater restoration}"
+							]
+						},
+						"6": {
+							"slots": 1,
+							"spells": [
+								"{@spell heal}",
+								"{@spell heroes' feast}",
+								"{@spell transport via plants}"
+							]
+						},
+						"7": {
+							"slots": 1,
+							"spells": [
+								"{@spell regenerate}"
+							]
+						},
+						"8": {
+							"slots": 1,
+							"spells": [
+								"{@spell animal shapes}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magical Equipment",
+					"entries": [
+						"Ishilla wears a {@item green dragon scale mail} underneath a {@item cloak of elvenkind}. She also wears a pair of {@item boots of elvenkind}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Staff (Shillelagh)",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Change Shape (3/Day)",
+					"entries": [
+						"As a bonus action, Ishilla magically polymorphs into a beast or elemental with a challenge rating of 4 or less, and can remain in this form for up to 7 hours. Ishilla can choose whether her equipment falls to the ground, melds with her new form, or is worn by the new form. Ishilla reverts to her true form if she dies or falls {@condition unconscious}. Ishilla can revert to her true form using a bonus action on her turn.",
+						"While in a new form, Ishilla retains her game statistics and ability to speak, but her AC, movement modes, Strength, and Dexterity are replaced by those of the new form, and she gains any special senses, proficiencies, traits, actions, and reactions (except class features, legendary actions, and lair actions) that the new form has but that she lacks. She can cast her spells with verbal or somatic components in her new form.",
+						"The new form's attacks count as magical for the purpose of overcoming resistances and immunity to nonmagical attacks."
+					]
+				}
+			],
+			"environment": [
+				"forest"
+			],
+			"actionTags": [
+				"Shapechanger"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasToken": true
+		}
+	]
+}

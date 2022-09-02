@@ -415,6 +415,7 @@
 				}
 			],
 			"entries": [
+				"{@note Homebrew edit: added to druid spell list.}",
 				"You assume a different form. When you cast the spell, choose one of the following options, the effects of which last for the duration of the spell. While the spell lasts, you can end one option as an action to gain the benefits of a different one.",
 				{
 					"type": "entries",
@@ -448,6 +449,10 @@
 					{
 						"name": "Animancer",
 						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
 					},
 					{
 						"name": "Sorcerer",
