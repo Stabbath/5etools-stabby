@@ -180,7 +180,7 @@
 			"name": "Shield of Resistance",
 			"source": "stabbyitems",
 			"page": 0,
-			"type": "CLO",
+			"type": "S",
 			"wondrous": true,
 			"rarity": "rare",
 			"reqAttune": true,
