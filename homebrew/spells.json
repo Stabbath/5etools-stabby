@@ -574,9 +574,6 @@
 				}
 			],
 			"miscTags": [
-				"MAC"
-			],
-			"miscTags": [
 				"SGT"
 			],
 			"areaTags": [
@@ -1169,7 +1166,7 @@
 				}
 			],
 			"entries": [
-				"You make one humanoid within range, including its clothing, armor, weapons, and other belongings on its person, look wondrously attractive or terrifying to all who behold it until the spell ends or until you use your action to dismiss it.",
+				"You make one humanoid within range, including its clothing, armor, weapons, and other belongings on its person, look wondrously attractive or terrifying to all who behold it until the spell ends or until you use your action to dismiss it. You can select any number of creatures to be immune to the spell's effect.",
 				"Each creature looking at the affected humanoid sees its physical appearance and that of its belongings changed and refined in whichever way is either most attractive or most terrifying to it (your choice when you cast the spell: {@condition charmed||charm} or {@condition frightened||frighten}), possibly even seeing it as a different race or in a radically different outfit.",
 				"When a creature first sees the target, it makes a Wisdom saving throw. On a failure, it is either {@condition charmed} or {@condition frightened} (based on the effect chosen) by it for the remaining duration of the spell. A creature {@condition charmed} this way feels a strong bond with the charmer for the duration.",
 				"A creature who is hostile to the affected humanoid has advantage on its saving throw, and a creature in combat with it automatically succeeds. If the affected humanoid takes an action that is perceived by a charmed or frightened creature as harmful to it, the creature repeats the saving throw with advantage, and the effect ends on it if it succeeds."
@@ -1794,6 +1791,9 @@
 					"concentration": true
 				}
 			],
+			"meta": {
+				"ritual": true
+			},
 			"entries": [
 				"You beseech a spirit of the dead to return for a moment to this plane, offering your body as a conduit for its presence. You must speak its name, and it must be dead. At the end of the casting time, make a Charisma (Persuasion) check. The base DC for it is 20, affected by the following modifiers:",
 				{
@@ -1808,12 +1808,24 @@
 					],
 					"rows": [
 						[
+							"No connection",
+							"+0"
+						],
+						[
+							"Vague connection (you have some other meaningful connection, such as having had a common friend, the same home town, or having studied at the same college)",
+							"-2"
+						],
+						[
 							"Acquaintance (you have met the target)",
-							"-3"
+							"-4"
+						],
+						[
+							"Relative (though you have not met, you are a blood relation of the target, even if distant)",
+							"-7"
 						],
 						[
 							"Familiar (you know the target well)",
-							"-7"
+							"-10"
 						]
 					]
 				},
@@ -1834,11 +1846,11 @@
 						],
 						[
 							"Something of great importance to it",
-							"-4"
+							"-5"
 						],
 						[
 							"A part of its remains",
-							"-7"
+							"-10"
 						]
 					]
 				},
@@ -1854,7 +1866,11 @@
 					],
 					"rows": [
 						[
-							"A place it was habitually at",
+							"A place bearing no meaning to it",
+							"+0"
+						],
+						[
+							"A place it was habitually at, or of minor significance to it",
 							"-2"
 						],
 						[
@@ -1868,8 +1884,8 @@
 					]
 				},
 				"If you succeed, then you become {@condition paralyzed} and {@condition unconscious} for the duration of the spell. Your body retains the ability to speak while {@condition paralyzed} this way, but it is the channeled spirit who speaks through it, rather than you. You also retain the ability to concentrate on this spell and this spell alone, and the ability to break said concentration. The spirit may perceive through your senses and communicate freely using your voice.",
-				"The spirit may refuse the invitation even if you succeed on this skill check. Regardless of the spirit's refusal or failure on the check, the spell slot is spent.",
-				"When the spell ends, you may opt to expend another spell slot to instantly cast this spell again, maintaining an uninterrupted connection with the spirit. If you don't, the spirit is jaunted back into the beyond and you regain control of your body. The spirit may, if it so decides, depart your body at any time before the spell's full duration, causing the spell to end prematurely.",
+				"The spirit may refuse the invitation even if you succeed on this ability check, although even old enemies seldom do. Regardless of the spirit's refusal or failure on the check, the spell slot is spent.",
+				"When the spell ends, you may opt to expend a spell slot of the spell's level or higher to instantly cast the spell again, maintaining an uninterrupted connection with the spirit (no check required on the re-cast). If you don't, the spirit is jaunted back into the beyond and you regain control of your body. The spirit may, if it so decides, depart your body at any time before the spell's full duration, causing the spell to end prematurely.",
 				"If you cast this spell more than once before finishing a long rest, each cast after the first causes you to gain one level of exhaustion. This happens even if this repeated casting is the special case of continuing the spell to preserve the connection."
 			],
 			"entriesHigherLevel": [
@@ -3531,7 +3547,7 @@
 			"source": "stabbyspells",
 			"page": 0,
 			"level": 7,
-			"school": "C",
+			"school": "N",
 			"time": [
 				{
 					"number": 1,
