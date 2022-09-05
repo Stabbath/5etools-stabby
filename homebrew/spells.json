@@ -2338,7 +2338,7 @@
 			"name": "Wither",
 			"source": "stabbyspells",
 			"page": 0,
-			"level": 4,
+			"level": 3,
 			"school": "N",
 			"time": [
 				{
@@ -2375,7 +2375,7 @@
 				"ST"
 			],
 			"entries": [
-				"Make a melee spell attack against a creature within reach. On a hit, it takes {@damage 4d8} necrotic damage, and must make a Constitution saving throw. On a failure, its body starts to decay at an accelerated pace. Any healing it receives is halved, and it takes 1d8 necrotic damage at the start of each of its turns for the duration. Also at the start of each of its turns, roll a d6. On a roll of 3-6, it suffers an effect as listed on the table below. If the result would be a condition that the creature is currently afflicted with as a result of this spell, reroll the die.",
+				"Make a melee spell attack against a creature within reach. On a hit, it takes {@damage 2d8} necrotic damage, and must make a Constitution saving throw. On a failure, its body starts to decay at an accelerated pace. Any healing it receives is halved, and it takes {@damage 1d8} necrotic damage at the start of each of its turns for the duration. Also at the start of each of its turns, roll a {@dice d6}. On a roll of 3-6, it suffers an effect as listed on the table below. If the result would be a condition that the creature is currently afflicted with as a result of this spell, reroll the die.",
 				"At the end of each of its turns, the creature repeats the saving throw, and the effect ends early on a success.",
 				{
 					"type": "table",
@@ -4384,7 +4384,7 @@
 					}
 				]
 			}
-		},		
+		},
 		{
 			"name": "Omnispection",
 			"source": "stabbyspells",
@@ -4488,6 +4488,9 @@
 					]
 				}
 			],
+			"savingThrow": [
+				"wisdom"
+			],
 			"areaTags": [
 				"ST"
 			],
@@ -4560,6 +4563,12 @@
 						"If you cast this spell using a spell slot of 4th level or higher, its damage increases by 1d4 per level above 3rd."
 					]
 				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"charisma"
 			],
 			"areaTags": [
 				"ST"
@@ -4636,6 +4645,12 @@
 					]
 				}
 			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"charisma"
+			],
 			"areaTags": [
 				"ST"
 			],
@@ -4651,6 +4666,152 @@
 					},
 					{
 						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Gangrenous Touch",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 4,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a small piece of mold"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You touch one of a creature's extremities and rot its flesh. When you cast this spell, choose a target body part, selecting one of the creature's legs, arms, or equivalent appendages.",
+				"The target must make a Constitution saving throw or suffer {@damage 4d8} necrotic damage and have the flesh in the targeted body part quickly start to rot. On a success, it takes half as much damage, and suffers no additional effects.",
+				"On a failure, the affected body part cannot be used on the creature's next turn. If it's a lower body appendage, this could mean the creature is incapable of movement or has its movement halved; if it's an appendage used for attacks, this could prevent it from attacking or reduce the number or type of attacks available to it; if wielding a shield, it loses the shield's bonus to AC.",
+				"Additionally, the creature makes another Constitution saving throw at the end of its next turn. On a failure, the appendage is rotten so completely that it withers and falls off its body altogether, and it takes an additional {@damage 8d8} necrotic damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 5th level or higher, both of its damage instances increase by 1d8 per level above 4th."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Rotburst",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"m": "a rat's bladder"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You channel a violent stream of powerful dark energy into an enemy.",
+				"Choose a creature within range. That creature must succeed on a Constitution saving throw or take 8d6 necrotic damage. On a failure, it takes half as much.",
+				"If the creature dies as a result, its body explodes violently, showering the area within 20 feet of it with death and gore. Halve the spell's damage dice (round down). Creatures in that area must succeed on a Constitution saving throw or take that much damage, taking half on a success."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spell slot of 4th level or higher, its damage increases by 2d6 per level above 3rd."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Animancer",
+						"source": "stabbyanimancer"
+					},
+					{
+						"name": "Sorcerer",
 						"source": "PHB"
 					},
 					{
@@ -4775,6 +4936,66 @@
 					{
 						"name": "Artificer",
 						"source": "TCE"
+					}
+				]
+			}
+		},
+		{
+			"name": "Disguise Many",
+			"source": "stabbyspells",
+			"page": 0,
+			"level": 3,
+			"school": "I",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You make up to 8 creatures within range\u2014including their clothing, armor, weapons, and other belongings on their persons\u2014look different until the spell ends or until you use your action to dismiss it. You can make each of them seem 1 foot shorter or taller and appear thin, fat, or in between. You can't change their body type, so you must choose for each one a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.",
+				"The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.",
+				"To discern that one of you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence ({@skill Investigation}) check against your spell save DC."
+			],
+			"abilityCheck": [
+				"intelligence"
+			],
+			"miscTags": [
+				"SGT",
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
 					}
 				]
 			}
