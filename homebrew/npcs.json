@@ -182,6 +182,12 @@
 			],
 			"trait": [
 				{
+					"name": "Elvish Lineage",
+					"entries": [
+						"Ishilla cannot be put to sleep by magic."
+					]
+				},
+				{
 					"name": "Magical Equipment",
 					"entries": [
 						"Ishilla wears a {@item green dragon scale mail} underneath a {@item cloak of elvenkind}. She also wears a pair of {@item boots of elvenkind}."
@@ -198,9 +204,33 @@
 				{
 					"name": "Change Shape (3/Day)",
 					"entries": [
-						"As a bonus action, Ishilla magically polymorphs into a beast or elemental with a challenge rating of 4 or less, and can remain in this form for up to 7 hours. Ishilla can choose whether her equipment falls to the ground, melds with her new form, or is worn by the new form. Ishilla reverts to her true form if she dies or falls {@condition unconscious}. Ishilla can revert to her true form using a bonus action on her turn.",
+						"As a bonus action, Ishilla magically polymorphs into a beast or elemental with a challenge rating of 5 or less, and can remain in this form for up to 7 hours. Ishilla can choose whether her equipment falls to the ground, melds with her new form, or is worn by the new form. Ishilla reverts to her true form if she dies or falls {@condition unconscious}. Ishilla can revert to her true form using a bonus action on her turn.",
 						"While in a new form, Ishilla retains her game statistics and ability to speak, but her AC, movement modes, Strength, and Dexterity are replaced by those of the new form, and she gains any special senses, proficiencies, traits, actions, and reactions (except class features, legendary actions, and lair actions) that the new form has but that she lacks. She can cast her spells with verbal or somatic components in her new form.",
-						"The new form's attacks count as magical for the purpose of overcoming resistances and immunity to nonmagical attacks."
+						"The new form's attacks count as magical for the purpose of overcoming resistances and immunity to nonmagical attacks.",
+						{
+							"type": "table",
+							"caption": "Typical Shapes",
+							"colLabels": [
+								"Creatures"
+							],
+							"colStyles": [
+								"col-12"
+							],
+							"rows": [
+								[
+									"Elementals: {@creature air elemental}, {@creature earth elemental}, {@creature fire elemental}, {@creature water elemental}"
+								],
+								[
+									"Control Beasts: {@creature giant crocodile}, {@creature giant scorpion}, {@creature giant constrictor snake}, {@creature giant toad}"
+								],
+								[
+									"Utility Beasts: {@creature killer whale}, {@creature giant sea eel|gos}, {@creature giant spider}, {@creature giant eagle}, {@creature giant owl}"
+								],
+								[
+									"Tiny Beasts: {@creature spider}, {@creature raven}, {@creature owl}, {@creature lizard}, {@creature bat}, {@creature fox|idrotf}, {@creature fish|gos}"
+								]
+							]
+						}
 					]
 				}
 			],
