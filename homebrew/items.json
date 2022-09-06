@@ -971,8 +971,27 @@
 				"While you wear this item, you have an additional 5th level spell slot."
 			]
 		},
-
-
+		{
+			"name": "Stormcast Armor",
+			"source": "stabbyitems",
+			"page": 0,
+			"baseItem": "plate armor",
+			"type": "HA",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"weight": 65,
+			"value": 11980000,
+			"ac": 18,
+			"strength": "15",
+			"armor": true,
+			"stealth": true,
+			"entries": [
+				"This lightning-infused heavy suit of plate armor may occasionally arc lightning between its plates or emit sparks during movement.",
+				"This armor grants a +2 bonus to AC and saving throws while worn.",
+				"This armor also grants resistance to thunder damage. Whenever its wearer would take lightning damage, it instead gains temporary hit points equal to the damage it would have taken.",
+				"Whenever its wearer deals lightning damage, it deals 1 additional lightning damage per damage die rolled."
+			]
+		},
 
 
 

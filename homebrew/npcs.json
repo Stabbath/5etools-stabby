@@ -21,6 +21,304 @@
 	},
 	"monster": [
 		{
+			"name": "Kagdurm Stormcast",
+			"source": "stabbynpcs",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dwarf",
+					"skuriamani"
+				]
+			},
+			"alignment": [
+				"C", "G"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"{@item stormcast armor|stabbyitems}"
+					]
+				}
+			],
+			"hp": {
+				"average": 182,
+				"formula": "20d6 + 100"
+			},
+			"speed": {
+				"walk": 30
+			},
+			
+			"str": 14,
+			"dex": 12,
+			"con": 20,
+			"int": 20,
+			"wis": 10,
+			"cha": 12,
+			"save": {
+				"str": "+6",
+				"dex": "+5",
+				"con": "+9",
+				"int": "+15",
+				"wis": "+10",
+				"cha": "+5"
+			},
+			"skill": {
+				"arcana": "+11",
+				"history": "+11",
+				"perception": "+6",
+				"persuasion": "+7"
+			},
+			"resist": [
+				"poison",
+				"cold",
+				"thunder"
+			],
+			"passive": 19,
+			"languages": [
+				"Common", "Dwarvish (Skuriaman)", "Giant (Goliath)", "Primordial (Auran)"
+			],
+			"cr": "18",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Kagdurm is a 20th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 21}, {@hit 13} to hit with spell attacks)."
+					],
+					"displayAs": "action",
+					"will": [
+						"{@spell mage hand}",
+						"{@spell message}",
+						"{@spell prestidigitation}",
+						"{@spell lightning lure|tce}", 
+						"{@spell shocking grasp}",
+						"{@spell electrostatic discharge|stabbyspells}**",
+						"{@spell invisibility}**"
+					],
+					"daily": {
+						"5e": [
+							"{@spell shield}"
+						],
+						"3e": [
+							"{@spell overcharge|stabbyspells}**", "{@spell thunder step|xge}", "{@spell mirror image}*", "{@spell lightning bolt}"
+						],
+						"2e": [
+							"{@spell chain lightning}", "{@spell ice storm}", "{@spell frost bridge|stabbyspells}", "{@spell clear ice|stabbyspells}"
+						],
+						"1e": [
+							"{@spell invulnerability}**", "{@spell teleport}", "{@spell sky's wrath}"
+						]
+					},
+					"footerEntries": [
+						"*Kagdurm casts these spells on himself before combat.",
+						"**These spells require concentration."
+					],
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magical Equipment",
+					"entries": [
+						"Kagdurm wears a suit of {@item stormcast armor|stabbyitems} and wields a {@item staff of power}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Staff of Power",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning plus 3 ({@damage 1d6}) force damage."
+					]
+				}
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Johannes von Graffenwald",
+			"source": "stabbynpcs",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human",
+					"guttreicher"
+				]
+			},
+			"alignment": [
+				"G"
+			],
+			"ac": [
+				13,
+				{
+					"ac": 16,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 188,
+				"formula": "20d6 + 100"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 20,
+			"int": 22,
+			"wis": 16,
+			"cha": 12,
+			"save": {
+				"con": "+11",
+				"int": "+12",
+				"wis": "+9"
+			},
+			"skill": {
+				"arcana": "+18",
+				"history": "+12",
+				"investigation": "+12",
+				"perception": "+9"
+			},
+			"passive": 19,
+			"languages": [
+				"Common", "Old Teolian", "Guttreicher", "Northirian"
+			],
+			"cr": "14",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Johannes is a 20th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 20}, {@hit 12} to hit with spell attacks). Johannes can cast {@spell disguise self} and {@spell invisibility} at will and has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell light}",
+								"{@spell mage hand}",
+								"{@spell prestidigitation}",
+								"{@spell control flames|xge}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell acid reflux|stabbyspells}",
+								"{@spell detect magic}",
+								"{@spell identify}",
+								"{@spell magic missile}",
+								"{@spell shield}",
+								"{@spell feather fall}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell alter self}",
+								"{@spell detect thoughts}",
+								"{@spell mirror image}",
+								"{@spell misty step}",
+								"{@spell enlarge/reduce}",
+								"{@spell maximilian's earthen grasp|xge}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell fly}",
+								"{@spell fireball}",
+								"{@spell cold void|stabbyspells}",
+								"{@spell slow}",
+								"{@spell haste}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell banishment}",
+								"{@spell fabricate}"
+							]
+						},
+						"5": {
+							"slots": 3,
+							"spells": [
+								"{@spell cone of cold}",
+								"{@spell wall of force}",
+								"{@spell passwall}",
+								"{@spell telekinesis}"
+							]
+						},
+						"6": {
+							"slots": 1,
+							"spells": [
+								"{@spell globe of invulnerability}",
+								"{@spell disintegrate}"
+							]
+						},
+						"7": {
+							"slots": 1,
+							"spells": [
+								"{@spell teleport}"
+							]
+						},
+						"8": {
+							"slots": 1,
+							"spells": [
+								"{@spell mind blank}*"
+							]
+						},
+						"9": {
+							"slots": 1,
+							"spells": [
+								"{@spell time stop}"
+							]
+						}
+					},
+					"will": [
+						"{@spell disguise self}",
+						"{@spell invisibility}"
+					],
+					"hidden": [
+						"will"
+					],
+					"footerEntries": [
+						"*Johannes casts these spells on himself before combat."
+					],
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magical Equipment",
+					"entries": [
+						"Johannes wields a {@item staff of defense|lmop}. He also wears a {@item ring of telekinesis} and a {@item ring of free action}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Staff",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) bludgeoning damage."
+					]
+				}
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
 			"name": "Ishilla",
 			"source": "stabbynpcs",
 			"page": 0,
@@ -60,13 +358,13 @@
 			"cha": 12,
 			"save": {
 				"int": "+5",
-				"wis": "+9"
+				"wis": "+10"
 			},
 			"skill": {
-				"nature": "+9",
-				"perception": "+9",
-				"survival": "+9",
-				"stealth": "+7"
+				"nature": "+10",
+				"perception": "+10",
+				"survival": "+10",
+				"stealth": "+8"
 			},
 			"senses": [
 				"darkvision 120 ft."
@@ -80,18 +378,14 @@
 				"charmed"
 			],
 			"languages": [
-				"Elvish (Callendherena)",
-				"Druidic",
-				"Primordial (Universal)",
-				"Sylvan"
-				
+				"Elvish (Callendherena)", "Druidic", "Primordial (Universal)", "Sylvan"
 			],
 			"cr": "12",
 			"spellcasting": [
 				{
 					"name": "Innate Spellcasting",
 					"headerEntries": [
-						"Ishilla can innately cast a few spells, as a consequence of her lineage, her druidic training, and her connection to the Green Mother (spell save {@dc 17}, {@hit 9}). She can innately cast the following spells, requiring no material components:"
+						"Ishilla can innately cast a few spells, as a consequence of her lineage, her druidic training, and her connection to the Green Mother (spell save {@dc 18}, {@hit 10}). She can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
 						"{@spell alter self}",
@@ -104,7 +398,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Ishilla is a 15th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 17}, {@hit 9} to hit with spell attacks). She has the following druid spells prepared:"
+						"Ishilla is a 15th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 18}, {@hit 10} to hit with spell attacks). She has the following druid spells prepared:"
 					],
 					"spells": {
 						"0": {
@@ -198,7 +492,7 @@
 				{
 					"name": "Staff (Shillelagh)",
 					"entries": [
-						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 5}) bludgeoning damage."
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 5}) bludgeoning damage."
 					]
 				},
 				{
@@ -234,16 +528,127 @@
 					]
 				}
 			],
-			"environment": [
-				"forest"
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		}
+	],
+	"monsterFluff": [
+		{
+			"name": "Template",
+			"source": "stabbynpcs",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Aarakocra range the Howling Gyre, an endless storm of mighty winds and lashing rains that surrounds the tranquil realm of Aaqa in the Elemental Plane of Air. Making aerial patrols, these birdlike humanoids guard the windy borders of their home against invaders from the Elemental Plane of Earth, such as gargoyles, their sworn enemies.",
+								{
+									"type": "entries",
+									"name": "Enemies of Elemental Evil",
+									"entries": [
+										"In service to the Wind Dukes of Aaqa, aarakocra scout the planes in search of temples of Elemental Evil. They spy on malign elemental creatures and then either take the fight to those creatures or report back to the Wind Dukes.",
+										"On the Material Plane, aarakocra create aeries atop the highest mountains, especially peaks near portals to the Elemental Plane of Air. From such heights, aarakocra watch for signs of elemental incursions, as well as for nascent threats to their home plane. Aarakocra prefer to live their lives like the wind-unburdened and ever moving-yet they watch over a region for years if that's what it takes to guard against the incursions of Elemental Evil.",
+										"Aarakocra have no concept of political borders or property ownership, and the value of gems, gold, and other precious materials means little to aarakocra. In their eyes, a creature should use what is necessary and then cast what is left on the wind for others to use.",
+										{
+											"name": "Search for the Seven Shards",
+											"entries": [
+												" The Wind Dukes of Aaqa come from a race of elemental beings called the vaati, which once ruled many worlds. A creature known as the Queen of Chaos arose and initiated an interplanar war against vaati rule. To combat the threat, seven vaati heroes combined their powers to create the mighty {@i Rod of Law}. In a battle against the queen's greatest general, Mishka the Wolf Spider, a vaati killed Mishka by thrusting the rod into him like a spear. The rod shattered into seven shards that scattered across the multiverse. Aaracokra seek signs of the pieces' locations in order to rebuild what is now known as the {@i Rod of Seven Parts}."
+											],
+											"type": "entries"
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Summoning Air Elementals",
+									"entries": [
+										"Five aarakocra within 30 feet of each other can magically summon an air elemental. Each of the five must use its action and movement on three consecutive turns to perform an aerial dance and must maintain concentration while doing so (as if concentrating on a spell). When all five have finished their third turn of the dance, the elemental appears in an unoccupied space within 60 feet of them. It is friendly toward them and obeys their spoken commands. It remains for 1 hour, until it or all its summoners die, or until any of its summoners dismisses it as a bonus action. A summoner can't perform the dance again until it finishes a short rest. When the elemental returns to the Elemental Plane of Air, any aarakocra within 5 feet of it can return with it."
+									]
+								}
+							]
+						}
+					]
+				}
 			],
-			"actionTags": [
-				"Shapechanger"
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": ""
+					}
+				}
+			]
+		},
+		{
+			"name": "Ishilla",
+			"source": "stabbynpcs",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Born 1218.",
+						"Ishilla is one of the Green Mother's favored daughters, a green elf who has traveled much of the natural world and the Feywild."
+					]
+				}
 			],
-			"miscTags": [
-				"MW"
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": ""
+					}
+				}
+			]
+		},
+		{
+			"name": "Johannes von Graffenwald",
+			"source": "stabbynpcs",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Born 1270, died for the first time 1351, and reincarnated late Autumn 1382, through his own work and the very fortunate help of some adventurers.",
+						"Johannes is a powerful archmage of Transmutation, perhaps the greatest of this school alive, although academic circles would not know it, as he has kept secret most of his work, knowing it to border on heretical."
+					]
+				}
 			],
-			"hasToken": true
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": ""
+					}
+				}
+			]
+		},
+		{
+			"name": "Kagdurm Stormcast",
+			"source": "stabbynpcs",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Born 1110.",
+						"The Stormcast clan is renowned and well respected throughout the Kingdom of the Snowy Mountains and beyond, as an ancient line of wizards and royal advisors, despite their diminished importance since the incorporation of Skuriamania into the Teolian Empire.",
+						"They are also among the wealthiest in the Kingdom, conjointly owning a large number of businesses and private residences throughout it."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": ""
+					}
+				}
+			]
 		}
 	]
 }
