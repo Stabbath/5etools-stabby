@@ -24,9 +24,15 @@ class PageFilterEquipment extends PageFilter {
 			labelSortFn: null,
 			labels: [
 				0,
-				...[...new Array(9)].map((_, i) => i + 1),
-				...[...new Array(9)].map((_, i) => 10 * (i + 1)),
-				...[...new Array(100)].map((_, i) => 100 * (i + 1)),
+				...[...new Array(9)].map((_, i) =>  i + 1), // 1 - 9 cp
+				...[...new Array(9)].map((_, i) =>  10 * i + 10), // 1 - 9 sp
+				...[...new Array(99)].map((_, i) => 100 * i + 100), // 1 - 99 gp
+				...[...new Array(89)].map((_, i) => 1000 * i + 10000), // 100 - 990 gp
+				...[...new Array(89)].map((_, i) => 10000 * i + 100000), // 1000 - 9900 gp
+				...[...new Array(89)].map((_, i) => 100000 * i + 1000000), // 10k - 99k gp
+				...[...new Array(89)].map((_, i) => 1000000 * i + 10000000), // 100k - 990k gp
+				...[...new Array(89)].map((_, i) => 10000000 * i + 100000000), // 1M - 9.9M gp
+				...[...new Array(12)].map((_, i) =>  100000000 * i + 1000000000), // 10M - 21M+ gp
 			],
 			labelDisplayFn: it => !it ? "None" : Parser.getDisplayCurrency(CurrencyUtil.doSimplifyCoins({cp: it})),
 		});
