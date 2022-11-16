@@ -492,7 +492,7 @@
 				{
 					"name": "Staff (Shillelagh)",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 5}) bludgeoning damage."
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d8 + 5}) bludgeoning damage."
 					]
 				},
 				{
@@ -531,6 +531,121 @@
 			"hasToken": true,
 			"hasFluff": true,
 			"hasFluffImages": true
+		},
+		{
+			"name": "Tonka Twofoot Goof",
+			"source": "stabbynpcs",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"halfling"
+				]
+			},
+			"alignment": [
+				"CG"
+			],
+			"ac": [
+				{
+					"ac": 13
+				}
+			],
+			"hp": {
+				"average": 83,
+				"formula": "10d6 + 30"
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 11,
+			"dex": 17,
+			"con": 16,
+			"int": 20,
+			"wis": 16,
+			"cha": 6,
+			"save": {
+				"int": "+9",
+				"wis": "+7"
+			},
+			"skill": {
+				"arcana": "+9",
+				"investigation": "+14",
+				"nature": "+9",
+				"perception": "+8"
+			},
+			"passive": 18,
+			"languages": [
+				"Common", "Halfling", "Sylvan"
+			],
+			"cr": "8",
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw} {@hit +7} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Healing Potion",
+					"entries": [
+						"Tonka drinks or gives someone else a {@item potion of healing|phb}. Limited to 3 lifetime uses (unless he is given more potions)."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Tonka is a 10th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 18}, {@hit 10} to hit with spell attacks). He can cast the following wizard spells:"
+					],
+					"will": [
+						"{@spell fire bolt}",
+						"{@spell mage hand}",
+						"{@spell gust}", 
+						"{@spell magic missile}"
+					],
+					"daily": {
+						"4e": [
+							"{@spell shield}",
+							"{@spell sleep}",
+							"{@spell tasha's mind whip|tce}"
+						],
+						"3e": [
+							"{@spell levitate}", "{@spell counterspell}", "{@spell catnap}", "{@spell clear ice|stabbyspells}"
+						],
+						"2e": [
+							"{@spell polymorph}", "{@spell far step}", "{@spell wall of force}"
+						],
+						"1e": [
+							"{@spell cone of cold}", "{@spell greater invisibility}"
+						]
+					},
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Halfling Lineage",
+					"entries": [
+						"Tonka has advantage on saving throws against being frightened. Additionally, whenenver he rolls a 1 on a d20, he may repeat the roll and must use the new result."
+					]
+				},
+				{
+					"name": "Tough and Observant",
+					"entries": [
+						"Tonka's hit point maximum increases by an additional 2 hit points each level, if he levels up. Additionally, he has a +5 bonus to perception and investigation checks."
+					]
+				},
+				{
+					"name": "Magical Equipment",
+					"entries": [
+						"Tonka carries a {@item +1 arcane grimoire|tce} and has a pair of {@item eyes of minute seeing}."
+					]
+				}
+			]
 		}
 	],
 	"monsterFluff": [
@@ -637,6 +752,33 @@
 						"Born 1110.",
 						"The Stormcast clan is renowned and well respected throughout the Kingdom of the Snowy Mountains and beyond, as an ancient line of wizards and royal advisors, despite their diminished importance since the incorporation of Skuriamania into the Teolian Empire.",
 						"They are also among the wealthiest in the Kingdom, conjointly owning a large number of businesses and private residences throughout it."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": ""
+					}
+				}
+			]
+		},
+		{
+			"name": "Tonka Twofoot",
+			"source": "stabbynpcs",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Born ?. Backstory:",
+						"My name is Tonka Twofoot, and I'm a proud Goof Halfling born in the surroundings of Halfling Port. I come from a long lineage of Twofoots, a name as old as the first halflings, who have always had two feet and always put them to great use.",
+						"From a very young age, I showed a natural attunement to the flows of magic and a particular interest in wildlife and the cycles of nature. During my childhood I spent most of my time wandering the wilderness and studying all sorts of different creatures. I often found myself more at home close to the ant colonies and sheep herds of Hillsea than next to my own kin.",
+						"In my early adulthood, I put my skills as a budding young wizard to use, trying to help the community in various ways. After some time, my family and friends got together and gathered enough money to send me on a one way trip to Teolia Major, where I was accepted into the Wizard Academy to develop my magical talents.",
+						"On my fifth year at the Wizard Academy, I made my first major contribution to the scientific community by proving that Magmin taste buds are extremely, violently, and explosively reactive to measures of over 2 grams of Orihalcum. That also coincided with my expulsion from the academy for \"reckless endangerment of fellow students\" and \"irrepairable damage to study hall\".",
+						"Ever since then, I have been travelling the world working on my lifelong dream of writing the most complete encylopedia of species of Teolia. During my travels I've been face to face with all manners of life forms, including a visit from a Fey and a brief stay in the Feywild.",
+						"Currently, I am in the Snowy Mountains with my good friend and former colleague Khagdurm, who has offered me a place to stay while I study the vast underground fauna and flora of the Snowy Mountains."
 					]
 				}
 			],
