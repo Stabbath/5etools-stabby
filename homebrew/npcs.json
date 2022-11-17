@@ -533,6 +533,156 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Kyla, Druid of the Forest",
+			"source": "stabbynpcs",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item robe of vines|stabbyitems}"
+					]
+				}
+			],
+			"hp": {
+				"average": 78,
+				"formula": "12d8 + 24"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 15,
+			"con": 14,
+			"int": 12,
+			"wis": 20,
+			"cha": 13,
+			"save": {
+				"str": "+1",
+				"dex": "+3",
+				"con": "+3",
+				"int": "+5",
+				"wis": "+9",
+				"cha": "+2"
+			},
+			"skill": {
+				"nature": "+7",
+				"perception": "+8",
+				"stealth": "+5",
+				"survival": "+8"
+			},
+			"passive": 18,
+			"languages": [
+				"Common", "Morrowgleamean", "Elvish (Erynala'ina)", "Elvish (Brag’haín’a)", "Druidic", "Sylvan"
+			],
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Kyla is a 12th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 16}, {@hit 10} to hit with spell attacks). She has the following druid spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell druidcraft}",
+								"{@spell poison spray}",
+								"{@spell primal savagery}",
+								"{@spell thorn whip}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell goodberry}",
+								"{@spell speak with animals}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell enhance ability}",
+								"{@spell moonbeam}",
+								"{@spell pass without trace}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell revivify}",
+								"{@spell plant growth}",
+								"{@spell call lightning}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell conjure woodland beings}",
+								"{@spell guardian of nature}",
+								"{@spell divination}",
+								"{@spell freedom of movement}"
+							]
+						},
+						"5": {
+							"slots": 2,
+							"spells": [
+								"{@spell commune with nature}",
+								"{@spell mass cure wounds}",
+								"{@spell tree stride}"
+							]
+						},
+						"6": {
+							"slots": 1,
+							"spells": [
+								"{@spell transport via plants}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magical Equipment",
+					"entries": [
+						"Kyla wears a {@item robe of vines|stabbyitems} and wields a {@item staff of the woodlands}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Staff of the Woodlands",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Change Shape (2/Day)",
+					"entries": [
+						"As an action, Kyla magically polymorphs into a beast with a challenge rating of 1 or less, and can remain in this form for up to 6 hours. Kyla can choose whether her equipment falls to the ground, melds with her new form, or is worn by the new form. Kyla reverts to her true form if she dies or falls {@condition unconscious}. Kyla can revert to her true form using an action on her turn.",
+						"While in a new form, Kyla retains her game statistics and ability to speak, but her AC, movement modes, Strength, and Dexterity are replaced by those of the new form, and she gains any special senses, proficiencies, traits, actions, and reactions (except class features, legendary actions, and lair actions) that the new form has but that she lacks. She can cast her spells with verbal or somatic components in her new form.",
+						"The new form's attacks count as magical for the purpose of overcoming resistances and immunity to nonmagical attacks."
+					]
+				}
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
 			"name": "Tonka Twofoot Goof",
 			"source": "stabbynpcs",
 			"page": 0,
