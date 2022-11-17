@@ -546,11 +546,14 @@
 				]
 			},
 			"alignment": [
-				"CG"
+				"C", "G"
 			],
 			"ac": [
+				13,
 				{
-					"ac": 13
+					"ac": 16,
+					"condition": "with {@spell mage armor}",
+					"braces": true
 				}
 			],
 			"hp": {
@@ -580,7 +583,7 @@
 			"languages": [
 				"Common", "Halfling", "Sylvan"
 			],
-			"cr": "8",
+			"cr": "9",
 			"action": [
 				{
 					"name": "Dagger",
@@ -589,9 +592,9 @@
 					]
 				},
 				{
-					"name": "Healing Potion",
+					"name": "Potion of Healing",
 					"entries": [
-						"Tonka drinks or gives someone else a {@item potion of healing|phb}. Limited to 3 lifetime uses (unless he is given more potions)."
+						"Tonka drinks or gives someone else a {@item potion of healing}. Limited to 3 lifetime uses (unless he is given more potions)."
 					]
 				}
 			],
@@ -604,7 +607,7 @@
 					"will": [
 						"{@spell fire bolt}",
 						"{@spell mage hand}",
-						"{@spell gust}", 
+						"{@spell gust|xge}", 
 						"{@spell magic missile}"
 					],
 					"daily": {
@@ -614,13 +617,13 @@
 							"{@spell tasha's mind whip|tce}"
 						],
 						"3e": [
-							"{@spell levitate}", "{@spell counterspell}", "{@spell catnap}", "{@spell clear ice|stabbyspells}"
+							"{@spell levitate}", "{@spell counterspell}", "{@spell catnap|xge}"
 						],
 						"2e": [
-							"{@spell polymorph}", "{@spell far step}", "{@spell wall of force}"
+							"{@spell polymorph}", "{@spell wall of force}", "{@spell mage armor}"
 						],
 						"1e": [
-							"{@spell cone of cold}", "{@spell greater invisibility}"
+							"{@spell cone of cold}", "{@spell greater invisibility}", "{@spell far step|xge}"
 						]
 					},
 					"ability": "int"
