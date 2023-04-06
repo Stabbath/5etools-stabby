@@ -3534,6 +3534,22 @@
 			"entries": [
 				"While wearing these gloves, you can convert the damage type of any unarmed attack you make to lightning. Additionally, you can cast the {@spell shocking grasp} cantrip at will through them."
 			]
+		},
+		{
+			"name": "Pendant of Hellfire",
+			"value": 6800000,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "legendary",
+			"reqAttune": true,
+			"wondrous": true,
+			"weight": 0.5,
+			"focus": true,
+			"entries": [
+				"This pendant of gold and onyx on a steel chain bears a carving of a fiery hellscape on its front, and an insignia of a fiery whip on its back. It feels hot to the touch.",
+				"While worn around your neck, this pendant can be used as a spellcasting focus. Whenever you use it to cast a spell that deals fire damage, if it has an area of effect, increase it by 5 ft.",
+				"Additionally, whenever you deal any fire damage (including non-spell), increase that damage by 1d6."
+			]
 		}
 
 
