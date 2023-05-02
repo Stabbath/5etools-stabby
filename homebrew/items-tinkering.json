@@ -224,7 +224,37 @@
 				"TNK"
 			],
 			"entries": [
-				"You can activate this small metallic sphere as an action, and then throw it at a point up to 40 feet away. It then explodes, casting shrapnel in all directions. All creatures within 20 feet of the point not behind cover must succeed on a Dexterity saving throw against a DC of 13 or take 2d8 piercing damage."
+				"You can activate this small metallic sphere as an action, and then throw it at a point up to 60 feet away. It then explodes, casting shrapnel in all directions. All creatures within 20 feet of the point not behind total cover must succeed on a Dexterity saving throw against a DC of 13 or take 2d8 piercing damage."
+			]
+		},
+		{
+			"name": "Advanced Shrapnel Bomb",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 12000,
+			"rarity": "uncommon",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"You can activate this small metallic sphere as an action, and then throw it at a point up to 60 feet away. It then explodes, casting shrapnel in all directions. All creatures within 30 feet of the point not behind total cover must succeed on a Dexterity saving throw against a DC of 15 or take 3d8 piercing damage."
+			]
+		},
+		{
+			"name": "Fire Bomb",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 25000,
+			"rarity": "uncommon",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"You can activate this small metallic sphere as an action, and then throw it at a point up to 60 feet away. It then explodes, casting shrapnel in all directions. All creatures within 20 feet of the point not behind total cover must succeed on a Dexterity saving throw against a DC of 15 or take 4d6 fire damage. They take half as much on a success."
 			]
 		},
 		{
