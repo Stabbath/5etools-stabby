@@ -254,7 +254,7 @@
 				"TNK"
 			],
 			"entries": [
-				"You can activate this small metallic sphere as an action, and then throw it at a point up to 60 feet away. It then explodes, casting shrapnel in all directions. All creatures within 20 feet of the point must succeed on a Constitution saving throw against a DC of 13 or take 2d8 thunder damage, and become deafened until the end of their next turn. They take half as much damage on a success."
+				"You can activate this small metallic sphere as an action, and then throw it at a point up to 60 feet away. It then explodes, emitting a very powerful sound. All creatures within 20 feet of the point must succeed on a Constitution saving throw against a DC of 13 or take 2d8 thunder damage, and become deafened until the end of their next turn. They take half as much damage on a success."
 			]
 		},
 		{
@@ -269,7 +269,7 @@
 				"TNK"
 			],
 			"entries": [
-				"You can activate this small metallic sphere as an action, and then throw it at a point up to 60 feet away. It then explodes, casting shrapnel in all directions. All creatures within 30 feet of the point must succeed on a Dexterity saving throw against a DC of 17 or take 3d8 thunder damage and become deafened until the end of their next turn. They take half as much damage on a success."
+				"You can activate this small metallic sphere as an action, and then throw it at a point up to 60 feet away. It then explodes, emitting a very powerful sound. All creatures within 30 feet of the point must succeed on a Dexterity saving throw against a DC of 17 or take 3d8 thunder damage and become deafened until the end of their next turn. They take half as much damage on a success."
 			]
 		},
 		{
@@ -284,7 +284,7 @@
 				"TNK"
 			],
 			"entries": [
-				"You can activate this small metallic sphere as an action, and then throw it at a point up to 60 feet away. It then explodes, casting shrapnel in all directions. All creatures within 20 feet of the point not behind total cover must succeed on a Dexterity saving throw against a DC of 15 or take 4d6 fire damage. They take half as much on a success."
+				"You can activate this small metallic sphere as an action, and then throw it at a point up to 60 feet away. It then explodes, unleashing a ball of fire. All creatures within 20 feet of the point not behind total cover must succeed on a Dexterity saving throw against a DC of 15 or take 4d6 fire damage. They take half as much on a success."
 			]
 		},
 		{
