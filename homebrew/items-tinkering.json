@@ -243,6 +243,36 @@
 			]
 		},
 		{
+			"name": "Sonic Bomb",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 14000,
+			"rarity": "uncommon",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"You can activate this small metallic sphere as an action, and then throw it at a point up to 60 feet away. It then explodes, casting shrapnel in all directions. All creatures within 20 feet of the point must succeed on a Constitution saving throw against a DC of 13 or take 2d8 thunder damage, and become deafened until the end of their next turn. They take half as much damage on a success."
+			]
+		},
+		{
+			"name": "Advanced Sonic Bomb",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 40000,
+			"rarity": "rare",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"You can activate this small metallic sphere as an action, and then throw it at a point up to 60 feet away. It then explodes, casting shrapnel in all directions. All creatures within 30 feet of the point must succeed on a Dexterity saving throw against a DC of 17 or take 3d8 thunder damage and become deafened until the end of their next turn. They take half as much damage on a success."
+			]
+		},
+		{
 			"name": "Fire Bomb",
 			"source": "stabbytinkering",
 			"page": 0,
