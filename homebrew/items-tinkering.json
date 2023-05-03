@@ -288,6 +288,36 @@
 			]
 		},
 		{
+			"name": "Acid Bomb",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 25000,
+			"rarity": "uncommon",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"You can activate this small metallic sphere as an action, and then throw it at a point up to 60 feet away. It then explodes, splashing acid all around it. All creatures within 20 feet of the point not behind total cover must succeed on a Dexterity saving throw against a DC of 15 or take 2d12 acid damage. They take half as much on a success."
+			]
+		},
+		{
+			"name": "Holy Water Bomb",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 25000,
+			"rarity": "uncommon",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"You can activate this small metallic sphere as an action, and then throw it at a point up to 60 feet away. It then explodes, splashing holy water all around it. All undead creatures and fiends within 20 feet of the point not behind total cover must succeed on a Dexterity saving throw against a DC of 15 or take 3d6 radiant damage. They take half as much on a success."
+			]
+		},
+		{
 			"name": "Compass",
 			"source": "stabbytinkering",
 			"page": 0,
