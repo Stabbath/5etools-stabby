@@ -21,6 +21,110 @@
 	},
 	"monster": [
 		{
+			"name": "Raven Queen's Emissary",
+			"source": "MM",
+			"page": 335,
+			"srd": true,
+			"basicRules": true,
+			"size": [
+				"T"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 18,
+				"formula": "4d4 + 8"
+			},
+			"skill": {
+				"perception": "+3",
+				"stealth": "+4"
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 50
+			},
+			"str": 2,
+			"dex": 16,
+			"con": 14,
+			"int": 11,
+			"wis": 15,
+			"cha": 12,
+			"skill": {
+				"perception": "+6"
+			},
+			"passive": 13,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"languages": [
+				"understands every mortal language but can't speak"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Keen Sight",
+					"entries": [
+						"The raven queen's emissary has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The raven queen's emissary has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Limited Telepathy",
+					"entries": [
+						"The raven queen's emissary can magically communicate simple ideas, emotions, and images telepathically with any creature within 30 feet of it."
+					]
+				},
+				{
+					"name": "Mimicry",
+					"entries": [
+						"The raven queen's emissary can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful {@dc 20} Wisdom (Insight) check."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The raven queen's emissary makes two attacks: one with its beak and one with its claws."
+					]
+				},
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) slashing damage."
+					]
+				}
+			],
+			"familiar": true,
+			"soundClip": {
+				"type": "internal",
+				"path": "bestiary/raven.mp3"
+			},
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasToken": true
+		},
+		{
 			"name": "Kagdurm Stormcast",
 			"source": "stabbynpcs",
 			"page": 0,
