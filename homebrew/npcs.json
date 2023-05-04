@@ -22,10 +22,8 @@
 	"monster": [
 		{
 			"name": "Raven Queen's Emissary",
-			"source": "MM",
-			"page": 335,
-			"srd": true,
-			"basicRules": true,
+			"source": "stabbynpcs",
+			"page": 0,
 			"size": [
 				"T"
 			],
@@ -57,7 +55,7 @@
 			"skill": {
 				"perception": "+6"
 			},
-			"passive": 13,
+			"passive": 16,
 			"senses": [
 				"darkvision 60 ft."
 			],
