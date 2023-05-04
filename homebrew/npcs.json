@@ -38,10 +38,6 @@
 				"average": 18,
 				"formula": "4d4 + 8"
 			},
-			"skill": {
-				"perception": "+3",
-				"stealth": "+4"
-			},
 			"speed": {
 				"walk": 10,
 				"fly": 50
