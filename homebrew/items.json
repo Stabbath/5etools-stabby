@@ -2200,6 +2200,36 @@
 			]
 		},
 		{
+			"name": "Staff of Deep Lights",
+			"value": 325000,
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "SCF",
+			"rarity": "rare",
+			"reqAttune": "by a spellcaster",
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"recharge": "dawn",
+			"charges": 10,
+			"staff": true,
+			"entries": [
+				"This staff also counts as a {@item +1 quarterstaff}.",
+				"The staff has 10 charges. While holding it, you can cast light at will, targetting the head of the staff.",
+				"Whenever you hit a melee attack with it, you can spend 1 charge. If you do, then your target must make a Dexterity save against a DC of 15. On a failure, it is covered in magical spores, having the same effect as that of a {@spell faerie fire}.",
+				"Additionally, you can spend 4 charges while holding the staff to emit a cloud of photoabsorbent spores which covers every creature within 10 feet of you. The spores manipulate light, making each affected creature invisible for 1 minute or until it casts a spell or makes an attack.",
+				"The staff regains {@dice 1d6 + 4} charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff rots away and is lost forever.",
+				"A creation of Vincenzo \"Handy\" Buonimani."
+			],
+			"attachedSpells": [
+				"faerie fire"
+			]
+		},
+		{
 			"name": "Wand of Destruction",
 			"source": "stabbyitems",
 			"page": 0,
