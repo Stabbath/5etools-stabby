@@ -20,102 +20,432 @@
 		"_dateLastModifiedHash": "aa8d6f9bda"
 	},
 	"monster": [
-  {
-    "name": "Franziska von Brandenberg",
-    "source": "stabbynpcs",
-	"page": 0,
-    "type": "Humanoid",
-    "alignment": ["N", "G"],
-    "size": "M",
-    "speed": {
-      "walk": 30
-    },
-    "str": 8,
-    "dex": 13,
-    "con": 12,
-    "int": 20,
-    "wis": 15,
-    "cha": 16,
-    "saves": {
-      "int": 10,
-      "wis": 7
-    },
-    "skill": {
-      "arcana": 10,
-      "history": 10
-    },
-    "resist": {
-      "damage": ["spells"]
-    },
-    "passive": 12,
-    "languages": ["Common", "Draconic", "Elvish"],
-    "cr": "16",
-    "spellcasting": [
-      {
-        "name": "Spellcasting",
-        "headerEntries": ["Franziska is a 15th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 18, +10 to hit with spell attacks)."],
-        "spells": {
-          "0": {
-            "spells": ["mage hand", "prestidigitation", "mending", "minor illusion"]
-          },
-          "1": {
-            "slots": 4,
-            "spells": ["shield", "mage armor", "identify", "magic missile"]
-          },
-          "2": {
-            "slots": 3,
-            "spells": ["misty step", "web"]
-          },
-          "3": {
-            "slots": 3,
-            "spells": ["counterspell", "dispel magic", "summon lesser demons"]
-          },
-          "4": {
-            "slots": 3,
-            "spells": ["conjure minor elementals", "dimension door"]
-          },
-          "5": {
-            "slots": 2,
-            "spells": ["conjure elemental", "wall of force"]
-          },
-          "6": {
-            "slots": 2,
-            "spells": ["disintegrate", "mass suggestion"]
-          },
-          "7": {
-            "slots": 2,
-            "spells": ["teleport", "reverse gravity"]
-          },
-          "8": {
-            "slots": 1,
-            "spells": ["demiplane"]
-          },
-          "9": {
-            "slots": 1,
-            "spells": ["gate"]
-          }
-        },
-        "ability": "int"
-      }
-    ],
-    "trait": [
-      {
-        "name": "Arcane Recovery (1/Day)",
-        "entries": ["When she finishes a short rest, Franziska can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half her wizard level (rounded up), and none of the slots can be 6th level or higher."]
-      },
-      {
-        "name": "Ethereal Familiar",
-        "entries": ["Franziska has an ethereal drake familiar named Nimbus. While Nimbus is within 100 feet of her, Franziska can communicate with him telepathically."]
-      }
-    ],
-    "action": [
-      {
-        "name": "Dagger",
-        "entries": ["*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 1) piercing damage."]
-      }
-    ]
-  },
-  {
+		{
+			"name": "Veteran Fighter",
+			"source": "stabbynpcs",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any"
+				]
+			},
+			"alignment": [
+				"any"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"{@item plate armor|phb} and {@item +1 shield}"
+					]
+				}
+			],
+			"hp": {
+				"average": 95,
+				"formula": "10d10 + 40"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 19,
+			"dex": 14,
+			"con": 18,
+			"int": 11,
+			"wis": 14,
+			"cha": 12,
+			"save": {
+				"str": "+7",
+				"con": "+7"
+			},
+			"skill": {
+				"athletics": "+7"
+			},
+			"passive": 12,
+			"languages": [
+				"any"
+			],
+			"cr": "8",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The fighter makes three attacks with its +2 longsword."
+					]
+				},
+				{
+					"name": "+2 Longsword",
+					"entries": [
+						"{@atk mw} {@hit +9} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d8 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Second Wind (2/day)",
+					"entries": [
+						"As a bonus action, the fighter recovers 1d10+10 hit points."
+					]
+				},
+				{
+					"name": "Potion of Greater Healing (1/mission)",
+					"entries": [
+						"The fighter consumes his {@item potion of greater healing}."
+					]
+				}
+			],
+			"trait": [
+				{
+					"name": "Action Surge (2/day)",
+					"entries": [
+						"The fighter may choose to take an additional action on its turn."
+					]
+				},
+				{
+					"name": "Magical Equipment",
+					"entries": [
+						"The fighter wields a {@item +2 longsword} and a {@item +1 shield}. He also carries a {@item potion of greater healing}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Veteran Rogue",
+			"source": "stabbynpcs",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any"
+				]
+			},
+			"alignment": [
+				"any"
+			],
+			"ac": [
+				14,
+				{
+					"ac": 17,
+					"condition": "with {@item +1 studded leather armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 55,
+				"formula": "10d8 + 10"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 19,
+			"con": 13,
+			"int": 16,
+			"wis": 16,
+			"cha": 16,
+			"save": {
+				"dex": "+7",
+				"int": "+6",
+				"wis": "+6"
+			},
+			"skill": {
+				"stealth": "+10",
+				"sleight of hand": "+7",
+				"acrobatics": "+7",
+				"deception": "+6"
+			},
+			"passive": 13,
+			"languages": [
+				"any"
+			],
+			"cr": "8",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The rogue makes one attack with its shortsword and one with its dagger, or one attack with its light crossbow."
+					]
+				},
+				{
+					"name": "+1 Light Crossbow",
+					"entries": [
+						"{@atk mw} {@hit +8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "+1 Shortsword",
+					"entries": [
+						"{@atk mw} {@hit +8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "+1 Dagger",
+					"entries": [
+						"{@atk mw} {@hit +8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d4 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Potion of Greater Healing (1/mission)",
+					"entries": [
+						"The rogue consumes his {@item potion of greater healing}."
+					]
+				},
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"The rogue can take a Dodge, Disengage or Dash as a bonus action."
+					]
+				}
+			],
+			"trait": [
+				{
+					"name": "Sneak Attack (1/turn)",
+					"entries": [
+						"When the rogue hits with an attack that it had advantage on, it deals 21 {@damage 6d6} additional damage."
+					]
+				},
+				{
+					"name": "Uncanny Dodge (1/turn)",
+					"entries": [
+						"As a reaction when it is hit by an attack or fails a Dexterity saving throw, the rogue can halve the incoming damage from the triggering effect."
+					]
+				},
+				{
+					"name": "Magical Equipment",
+					"entries": [
+						"The rogue wears {@item +1 studded leather armor} and wields a {@item +1 light crossbow}, a {@item +1 dagger}, and a {@item +1 shortsword}. He also carries a {@item potion of greater healing}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Veteran Ranger",
+			"source": "stabbynpcs",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any"
+				]
+			},
+			"alignment": [
+				"any"
+			],
+			"ac": [
+				14,
+				{
+					"ac": 17,
+					"condition": "with {@item +1 studded leather armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 65,
+				"formula": "10d8 + 20"
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 14,
+			"dex": 19,
+			"con": 15,
+			"int": 11,
+			"wis": 16,
+			"cha": 12,
+			"save": {
+				"str": "+5",
+				"dex": "+7"
+			},
+			"skill": {
+				"stealth": "+7",
+				"perception": "+6"
+			},
+			"passive": 16,
+			"languages": [
+				"any"
+			],
+			"cr": "8",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The ranger makes two attacks with its longsword or two attacks with its longbow."
+					]
+				},
+				{
+					"name": "+2 Longbow",
+					"entries": [
+						"{@atk mw} {@hit +9} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d8 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "+1 Longsword",
+					"entries": [
+						"{@atk mw} {@hit +8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Potion of Greater Healing (1/mission)",
+					"entries": [
+						"The rogue consumes his {@item potion of greater healing}."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The ranger is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It can cast the following ranger spells:"
+					],
+					"will": [
+						"{@spell hunter's mark}",
+						"{@spell animal friendship}"
+					],
+					"daily": {
+						"2e": [
+							"{@spell cure wounds}", "{@spell lesser restoration}", "{@spell ensnaring strike}"
+						],
+						"1e": [
+							"{@spell pass without trace}", "{@spell conjure barrage}"
+						]
+					},
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magical Equipment",
+					"entries": [
+						"The rogue wears {@item +1 studded leather armor} and wields a {@item +2 longbow} and a {@item +1 longsword}. He also carries a {@item potion of greater healing}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Franziska von Brandenberg, Truthseeker",
+			"source": "stabbynpcs",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human",
+					"guttreicher"
+				]
+			},
+			"alignment": [
+				"N", "G"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 18,
+					"condition": "with {@item mage armor}, {@item staff of power} and {@item cloak of protection}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 171,
+				"formula": "20d8 + 80"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 15,
+			"con": 19,
+			"int": 20,
+			"wis": 15,
+			"cha": 16,
+			"save": {
+				"int": "+14",
+				"wis": "+11",
+				"str": "+2",
+				"con": "+7",
+				"cha": "+6",
+				"dex": "+5"
+			},
+			"skill": {
+				"arcana": "+11",
+				"history": "+11"
+			},
+			"passive": 12,
+			"languages": [
+				"Common", "Guttreichish", "Draconic", "Elvish"
+			],
+			"cr": "16",
+			"action": [
+				{
+					"name": "Staff of Power",
+					"entries": [
+						"{@atk mw} {@hit +7} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) bludgeoning damage."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Franziska is a 20th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 19}, {@hit 11} to hit with spell attacks). She can cast the following wizard spells:"
+					],
+					"will": [
+						"{@spell poison spray}",
+						"{@spell mage hand}",
+						"{@spell prestidigitation}",
+						"{@spell misty step}",
+						"{@spell flaming sphere}",
+						"{@spell ice knife|xge}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell mage armor}",
+							"{@spell shield}",
+							"{@spell counterspell}",
+							"{@spell wall of force}",
+							"{@spell grease}"
+						],
+						"2e": [
+							"{@spell cone of cold}",
+							"{@spell stinking cloud}", "{@spell watery sphere|xge}"
+						],
+						"1e": [
+							"{@spell teleport}", "{@spell conjure elemental}", "{@spell blizzard|stabbyspells}", "{@spell incendiary cloud}"
+						]
+					},
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Unbreakable Focus",
+					"entries": [
+						"Franziska automatically succeeds on saving throws made to keep concentration on a spell."
+					]
+				},
+				{
+					"name": "Durable Summons",
+					"entries": [
+						"Any creataure Franziska summons or creates with a conjuration spell has 30 temporary hit points."
+					]
+				},
+				{
+					"name": "Magical Equipment",
+					"entries": [
+						"Franziska wears an {@item amulet of health} and a {@item cloak of protection}, and wields a {@item staff of power}. Her normal constitution score would be 12."
+					]
+				}
+			]
+		},
+		{
 			"name": "Raven Queen's Emissary",
 			"source": "stabbynpcs",
 			"page": 0,
