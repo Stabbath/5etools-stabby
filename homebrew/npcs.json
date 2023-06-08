@@ -20,7 +20,102 @@
 		"_dateLastModifiedHash": "aa8d6f9bda"
 	},
 	"monster": [
-		{
+  {
+    "name": "Franziska von Brandenberg",
+    "source": "stabbynpcs",
+	"page": 0,
+    "type": "Humanoid",
+    "alignment": ["N", "G"],
+    "size": "M",
+    "speed": {
+      "walk": 30
+    },
+    "str": 8,
+    "dex": 13,
+    "con": 12,
+    "int": 20,
+    "wis": 15,
+    "cha": 16,
+    "saves": {
+      "int": 10,
+      "wis": 7
+    },
+    "skill": {
+      "arcana": 10,
+      "history": 10
+    },
+    "resist": {
+      "damage": ["spells"]
+    },
+    "passive": 12,
+    "languages": ["Common", "Draconic", "Elvish"],
+    "cr": "16",
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "headerEntries": ["Franziska is a 15th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 18, +10 to hit with spell attacks)."],
+        "spells": {
+          "0": {
+            "spells": ["mage hand", "prestidigitation", "mending", "minor illusion"]
+          },
+          "1": {
+            "slots": 4,
+            "spells": ["shield", "mage armor", "identify", "magic missile"]
+          },
+          "2": {
+            "slots": 3,
+            "spells": ["misty step", "web"]
+          },
+          "3": {
+            "slots": 3,
+            "spells": ["counterspell", "dispel magic", "summon lesser demons"]
+          },
+          "4": {
+            "slots": 3,
+            "spells": ["conjure minor elementals", "dimension door"]
+          },
+          "5": {
+            "slots": 2,
+            "spells": ["conjure elemental", "wall of force"]
+          },
+          "6": {
+            "slots": 2,
+            "spells": ["disintegrate", "mass suggestion"]
+          },
+          "7": {
+            "slots": 2,
+            "spells": ["teleport", "reverse gravity"]
+          },
+          "8": {
+            "slots": 1,
+            "spells": ["demiplane"]
+          },
+          "9": {
+            "slots": 1,
+            "spells": ["gate"]
+          }
+        },
+        "ability": "int"
+      }
+    ],
+    "trait": [
+      {
+        "name": "Arcane Recovery (1/Day)",
+        "entries": ["When she finishes a short rest, Franziska can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half her wizard level (rounded up), and none of the slots can be 6th level or higher."]
+      },
+      {
+        "name": "Ethereal Familiar",
+        "entries": ["Franziska has an ethereal drake familiar named Nimbus. While Nimbus is within 100 feet of her, Franziska can communicate with him telepathically."]
+      }
+    ],
+    "action": [
+      {
+        "name": "Dagger",
+        "entries": ["*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 1) piercing damage."]
+      }
+    ]
+  },
+  {
 			"name": "Raven Queen's Emissary",
 			"source": "stabbynpcs",
 			"page": 0,
