@@ -664,6 +664,389 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Anton Salzberger, Chanter of Sin",
+			"source": "stabbynpcs",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human",
+					"guttreicher"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"mage armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 120",
+				"average": 210
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 21,
+			"dex": 13,
+			"con": 22,
+			"int": 11,
+			"wis": 11,
+			"cha": 18,
+			"skill": {
+				"athletics": "+9",
+				"intimidation": "+12",
+				"persuasion": "+8",
+				"performance": "+12"
+			},
+			"passive": 10,
+			"languages": [
+				"Common",
+				"Guttreichisch",
+				"Abyssal"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Tormenting Presence",
+					"entries": [
+						"Whenever a creature within 30 feet of the chanter fails a saving throw, it takes 18 ({@dice 4d8}) psychic damage. If the failure causes it to become {@condition charmed}, it takes an additional 4 ({@dice 1d8}) psychic damage."
+					]
+				},
+				{
+					"name": "Psyche Twisting",
+					"entries": [
+						"Whenever a creature is either {@condition frightened} or {@condition charmed} by the chanter, it becomes both {@condition frightened} and {@condition charmed}."
+					]
+				},
+				{
+					"name": "Magical Equipment",
+					"entries": [
+						"The chanter wears a {@item mask of graz'zt|stabbyitems}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The chanter uses its bash and its incite sin, or its incite sin twice."
+					]
+				},
+				{
+					"name": "Bash",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Maddening Chant {@recharge 5}",
+					"entries": [
+						"The chanter uses his Incite Sin on every creature within 60 feet of him that can hear him."
+					]
+				},
+				{
+					"name": "Jarring Chant",
+					"entries": [
+						"Every creature within 30 feet of the chanter that can hear his voice must succeed on a {@dc 16} Wisdom saving throw or become {@condition frightened} until the start of its next turn. Additionally, a creature that fails the saving throw must roll a {@dice d4} and subtract the number rolled from all attack rolls and ability checks for the duration."
+					]
+				},
+				{
+					"name": "Incite Sin",
+					"entries": [
+						"The chanter targets one creature he can see within 30 feet of him. If it can see and hear him, it must make a {@dc 16} Wisdom saving throw. On a failure, it suffers one of the following effects, selected at random:",
+						"    1. Envy. The target becomes overwhelmed with envy and hatred towards another creature of the chanter's choice. The target has disadvantage on all attack rolls against creatures other than the chosen creature until the start of its next turn, and cannot take any supportive actions towards it.",
+						"    2. Wrath. The target cannot use any action on its next turn other than the Attack action.",
+						"    3. Sloth. The target can either move, take a bonus action, or take an action on its next turn, not more than one of the three.",
+						"    4. Gluttony. The target must consume a potion on its next turn as a bonus action. If it has none, it must use its action to search for and consume an item of food or drink that it is carrying. If it has none, it spends its action simply searching for it in its backpack.",
+						"    5. Lust. The target becomes overwhelmed with a desire for closeness with another creature of the chanter's choice. It must start its turn by using its full movement to move as close to it as possible. Additionally, it has disadvantage on saving throws against being {@condition charmed} until the start of its next turn.",
+						"    6. Pride. The target is overwhelmed by a sense of self-importance. It can only take the Disengage or Dodge actions on its next turn, or actions that cause it to regain hit points or which grant it a positive effect.",
+						"    7. Avarice. The target is overwhelmed by greed. On its next turn, it must move towards and pick up an object it perceives to have any sort of worth, such as a fallen weapon. If none are in sight, it must take a Search action to search a nearby corpse or to search the surroundings for such an item."
+					]
+				}
+			],
+			"languageTags": [
+				"C",
+				"AB"
+			],
+			"damageTags": [
+				"B",
+				"Y"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"save": {
+				"str": "+9",
+				"con": "+10",
+				"cha": "+12"
+			},
+			"resist": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"will": [
+						"{@spell command}",
+						"{@spell dissonant whispers}",
+						"{@spell suggestion}",
+						"{@spell vicious mockery}"
+					],
+					"daily": {
+						"1": [
+							"{@spell dominate person}"
+						],
+						"3e": [
+							"{@spell fear}"
+							"{@spell shame|stabbyspells}"
+						]
+					},
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"damageTagsSpell": [
+				"Y"
+			],
+			"conditionInflict": [
+				"charmed",
+				"frightened"
+			],
+			"legendaryActions": 3,
+			"isNamedCreature": true,
+			"legendary": [
+				{
+					"name": "Bash",
+					"entries": [
+						"The chanter uses its bash."
+					]
+				},
+				{
+					"name": "Incite Sin",
+					"entries": [
+						"The chanter uses its incite sin."
+					]
+				},
+				{
+					"name": "Cast a Spell (at will)",
+					"entries": [
+						"The chanter casts one of its at-will spells."
+					]
+				}
+			],
+			"isNpc": true,
+			"actionTags": [
+				"Multiattack"
+			]
+		},
+		{
+			"name": "Alice Palestone, Siren of Seduction",
+			"source": "stabbynpcs",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human",
+					"northirian"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"mage armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 80",
+				"average": 170
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 7,
+			"dex": 17,
+			"con": 19,
+			"int": 14,
+			"wis": 15,
+			"cha": 22,
+			"skill": {
+				"persuasion": "+14",
+				"performance": "+14",
+				"deception": "+10",
+				"sleight of hand": "+7"
+			},
+			"passive": 12,
+			"languages": [
+				"Common",
+				"Northirian",
+				"Abyssal"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Enthralling Presence",
+					"entries": [
+						"Any creature within 30 feet of the siren that can see her has disadvantage on saving throws made to resist being {@condition charmed} by her."
+					]
+				},
+				{
+					"name": "Disarming Voice",
+					"entries": [
+						"Creatures {@condition charmed} by the siren have disadvantage on attack rolls as well as Wisdom, Intelligence and Charisma saving throws."
+					]
+				},
+				{
+					"name": "Equipment",
+					"entries": [
+						"The siren wears a {@item mask of graz'zt}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The siren uses her siren's song and her teasing torment."
+					]
+				},
+				{
+					"name": "Siren's Song",
+					"entries": [
+						"Every creature within 100 feet of the siren that can hear her must succeed on a {@dc 18} Wisdom saving throw or become {@condition charmed} by her until the end of her next turn."
+					]
+				},
+				{
+					"name": "Teasing Torment",
+					"entries": [
+						"The siren targets one creature she can see within 30 feet of her, who can see her and is {@condition charmed} by her. It takes 18 ({@damage 4d8}) psychic damage."
+					]
+				}
+			],
+			"languageTags": [
+				"C",
+				"AB"
+			],
+			"damageTags": [
+				"Y"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"save": {
+				"con": "+8",
+				"cha": "+14",
+				"dex": "+7"
+			},
+			"resist": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"will": [
+						"{@spell calm emotions}",
+						"{@spell charm person}",
+						"{@spell command}",
+						"{@spell enthrall}",
+						"{@spell suggestion}"
+					],
+					"daily": {
+						"1": [
+							"{@spell dominate person}"
+						],
+						"3e": [
+							"{@spell charm monster|XGE}"
+							"{@spell shame|stabbyspells}"
+						]
+					},
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"damageTagsSpell": [
+				"Y"
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"legendaryActions": 3,
+			"isNamedCreature": true,
+			"legendary": [
+				{
+					"name": "Seductive Glance",
+					"entries": [
+						"The siren targets one creature she can see within 30 feet of her. If the target can see her, it must succeed on a {@dc 18} Wisdom saving throw or become {@condition charmed} until the end of her next turn."
+					]
+				},
+				{
+					"name": "Manipulate (Costs 2 Actions)",
+					"entries": [
+						"The siren targets one creature she can see within 30 feet of her. If the target can see her, it must make a {@dc 18} Charisma saving throw. On a failure, the target is only allowed to take offensive actions against the siren's foes and supportive actions against the siren and her allies on its next turn."
+					]
+				},
+				{
+					"name": "Enthralling Performance (Costs 2 Actions)",
+					"entries": [
+						"The enchantress starts a captivating dance. All creatures within 30 feet of her that can see and hear her must make a {@dc 18} Wisdom saving throw or become {@condition charmed} until the end of their next turn. While {@condition charmed} this way, creatures are {@condition stunned}."
+					]
+				},
+				{
+					"name": "Cast a Spell (at will)",
+					"entries": [
+						"The chanter casts one of its at-will spells."
+					]
+				}
+			],
+			"isNpc": true,
+			"actionTags": [
+				"Multiattack"
+			]
+		},
+		{
 			"name": "Johannes von Graffenwald",
 			"source": "stabbynpcs",
 			"page": 0,
