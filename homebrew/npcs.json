@@ -819,7 +819,7 @@
 							"{@spell dominate person}"
 						],
 						"3e": [
-							"{@spell fear}"
+							"{@spell fear}",
 							"{@spell shame|stabbyspells}"
 						]
 					},
@@ -997,7 +997,7 @@
 							"{@spell dominate person}"
 						],
 						"3e": [
-							"{@spell charm monster|XGE}"
+							"{@spell charm monster|XGE}",
 							"{@spell shame|stabbyspells}"
 						]
 					},
