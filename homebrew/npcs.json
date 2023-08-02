@@ -434,7 +434,13 @@
 				{
 					"name": "Durable Summons",
 					"entries": [
-						"Any creataure Franziska summons or creates with a conjuration spell has 30 temporary hit points."
+						"Any creature Franziska summons or creates with a conjuration spell has 30 temporary hit points."
+					]
+				},
+				{
+					"name": "Familiar",
+					"entries": [
+						"Franziska has a special familiar: Nimbus, an {@creature ethereal drake|stabbynpcs}."
 					]
 				},
 				{
@@ -444,6 +450,107 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Ethereal Drake",
+			"source": "stabbynpcs",
+			"page": 0,
+			"size": [
+				"S"
+			],
+			"type": "dragon",
+			"alignment": [
+				"CN"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 18,
+				"formula": "4d6 + 4"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 60
+			},
+			"str": 6,
+			"dex": 16,
+			"con": 13,
+			"int": 10,
+			"wis": 12,
+			"cha": 14,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+5"
+			},
+			"passive": 16,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"languages": [
+				"understands every mortal language but can't speak"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Ethereal Sight",
+					"entries": [
+						"The drake can see 60 ft. into the Ethereal Plane when it is on The Material Plane, and vice versa."
+					]
+				},
+				{
+					"name": "Keen Senses",
+					"entries": [
+						"The drake has advantage on Wisdom ({@skill Perception}) checks that rely on sight, hearing, or smell."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The drake has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Limited Telepathy",
+					"entries": [
+						"The drake can magically communicate simple ideas, emotions, and images telepathically with any creature within 100 feet of it that can understand a language."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The drake can use his bite and his etherealness."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Etherealness",
+					"entries": [
+						"The drake magically enters the Ethereal Plane from The Material Plane, or vice versa."
+					]
+				},
+				{
+					"name": "Ethereal Fade (1/day)",
+					"entries": [
+						"When the drake is targeted by an attack or a harmful spell, it can use its reaction to take its Etherealness action."
+					]
+				}
+			],
+			"familiar": true,
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasToken": true
 		},
 		{
 			"name": "Raven Queen's Emissary",
@@ -531,10 +638,6 @@
 				}
 			],
 			"familiar": true,
-			"soundClip": {
-				"type": "internal",
-				"path": "bestiary/raven.mp3"
-			},
 			"damageTags": [
 				"P"
 			],
