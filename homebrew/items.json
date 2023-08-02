@@ -2200,7 +2200,7 @@
 			]
 		},
 		{
-			"name": "Mask of Grazzt",
+			"name": "Mask of Graz'zt",
 			"value": 10000000,
 			"source": "stabbyitems",
 			"page": 0,
@@ -2213,7 +2213,7 @@
 				"This ornate carnival mask is emotionally evocative, light and unnaturally sturdy for its thickness.",
 				"While you wear the mask, your Charisma score is 5 points higher than it would otherwise be. This is on top of any effects that might set your Charisma score to a specific number, and your Charisma score is allowed to exceed 20 with this bonus.",
 				"Also while wearing it, you can cast {@spell charm person} and {@spell command} at will.",
-				"The mask has 3 charges. You can spend one charge whenever you would force a creature to make a saving throw against {@conditon charmed} to force that creature to fail that save. Alternatively, you can spend one charge when you make a Deception, Persuasion or Performance check to automatically succeed on the check.",
+				"The mask has 3 charges. You can spend one charge whenever you would force a creature to make a saving throw against {@condition charmed} to force that creature to fail that save. Alternatively, you can spend one charge when you make a Deception, Persuasion or Performance check to automatically succeed on the check.",
 				"The mask regains all of its charges daily at dawn."
 			]
 		},
