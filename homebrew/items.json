@@ -2206,7 +2206,7 @@
 			"page": 0,
 			"type": "SCF",
 			"rarity": "legendary",
-			"reqAttune": "by a charisma-based spellcaster",
+			"reqAttune": true,
 			"recharge": "dawn",
 			"charges": 3,
 			"entries": [
