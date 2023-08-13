@@ -329,6 +329,149 @@
 			]
 		},
 		{
+			"name": "Sara de Castelmar, Truthseeker",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human",
+					"herrian"
+				]
+			},
+			"source": "temp",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"mage armor, +2 ring of protection"
+					]
+				}
+			],
+			"hp": {
+				"formula": "18d8 + 36",
+				"average": 117
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 7,
+			"dex": 13,
+			"con": 14,
+			"int": 20,
+			"wis": 16,
+			"cha": 20,
+			"passive": 13,
+			"cr": "14",
+			"page": 0,
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Sara is an 18th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 22}, +14 to hit with spell attacks). She can cast the following wizard spells:"
+					],
+					"will": [
+						"{@spell charm person}",
+						"{@spell command}",
+						"{@spell fire bolt}",
+						"{@spell prestidigitation}"
+					],
+					"daily": {
+						"1": [
+							"{@spell dominate monster}",
+							"{@spell power word stun}"
+						],
+						"2": [
+							"{@spell counterspell}",
+							"{@spell dominate person}",
+							"{@spell fear}"
+						],
+						"3": [
+							"{@spell mage armor}",
+							"{@spell shield}",
+							"{@spell deflect attention|stabbyspells}",
+							"{@spell heroism}",
+							"{@spell calm emotions}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"save": {
+				"int": "+13",
+				"wis": "+11",
+				"cha": "+13",
+				"str": "+0",
+				"dex": "+3",
+				"con": "+4"
+			},
+			"trait": [
+				{
+					"name": "Magical Equipment",
+					"entries": [
+						"Sara wields a +3 crystal as her spellcasting focus. She wears a {@item +2 ring of protection|stabbyitems} and an {@item amulet of proof against detection and location}."
+					]
+				},
+				{
+					"name": "Disarmingly Charming",
+					"entries": [
+						"Whenever a creature is {@condition charmed} by Sara, she can choose to have the condition also impose disadvantage on its attack rolls."
+					]
+				},
+				{
+					"name": "Arcane Interpreter",
+					"entries": [
+						"As long as she wields a spellcasting focus, Sara can understand all language, and can be understood by any creature that speaks at least one language."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Staff",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d8}) bludgeoning damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"languages": [
+				"Common",
+				"Herrian"
+			],
+			"languageTags": [
+				"C"
+			],
+			"skill": {
+				"arcana": "+11",
+				"history": "+11",
+				"insight": "+9",
+				"persuasion": "+11"
+			},
+			"damageTags": [
+				"B"
+			],
+			"damageTagsSpell": [
+				"F"
+			],
+			"savingThrowForcedSpell": [
+				"wisdom"
+			]
+		}
+		{
 			"name": "Franziska von Brandenberg, Truthseeker",
 			"source": "stabbynpcs",
 			"page": 0,
@@ -395,7 +538,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Franziska is a 20th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 19}, {@hit 11} to hit with spell attacks). She can cast the following wizard spells:"
+						"Franziska is a 20th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 21}, {@hit 13} to hit with spell attacks). She can cast the following wizard spells:"
 					],
 					"will": [
 						"{@spell poison spray}",
@@ -460,7 +603,7 @@
 			],
 			"type": "dragon",
 			"alignment": [
-				"CN"
+				"C", "N"
 			],
 			"ac": [
 				13
