@@ -418,7 +418,7 @@
 				{
 					"name": "Magical Equipment",
 					"entries": [
-						"Sara wields a +3 crystal as her spellcasting focus. She wears a {@item +2 ring of protection|stabbyitems} and an {@item amulet of proof against detection and location}."
+						"Sara wields a +3 crystal as her spellcasting focus. She wears a {@item +2 ring of protection|stabbyitems} and an {@item amulet of proof against detection and location}. She has a {@item +2 dagger}."
 					]
 				},
 				{
@@ -436,9 +436,9 @@
 			],
 			"action": [
 				{
-					"name": "Staff",
+					"name": "+2 Dagger",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d8}) bludgeoning damage."
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) piercing damage."
 					]
 				}
 			],
