@@ -193,25 +193,25 @@
 					"entries": [
 						"The rogue consumes his {@item potion of greater healing}."
 					]
-				},
-				{
-					"name": "Cunning Action",
-					"entries": [
-						"The rogue can take a Dodge, Disengage or Dash as a bonus action."
-					]
 				}
 			],
 			"trait": [
 				{
 					"name": "Sneak Attack (1/turn)",
 					"entries": [
-						"When the rogue hits with an attack that it had advantage on, it deals 21 {@damage 6d6} additional damage."
+						"When the rogue hits with an attack that it had advantage on, or which targets a creature who has an enemy within 5 feet of it other than the rogue, it deals 21 {@damage 6d6} additional damage."
 					]
 				},
 				{
 					"name": "Uncanny Dodge (1/turn)",
 					"entries": [
 						"As a reaction when it is hit by an attack or fails a Dexterity saving throw, the rogue can halve the incoming damage from the triggering effect."
+					]
+				},
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"The rogue can take a Dash, Disengage or Hide action as a bonus action."
 					]
 				},
 				{
