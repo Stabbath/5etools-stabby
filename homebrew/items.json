@@ -2210,6 +2210,7 @@
 			"recharge": "dawn",
 			"charges": 3,
 			"entries": [
+				"IMPORTANT NOTE: This is an unfinished brainstormy item. Just kind of threw some things together. It's not a real item.",
 				"This ornate carnival mask is emotionally evocative, light and unnaturally sturdy for its thickness.",
 				"While you wear the mask, your Charisma score is 5 points higher than it would otherwise be. This is on top of any effects that might set your Charisma score to a specific number, and your Charisma score is allowed to exceed 20 with this bonus.",
 				"Also while wearing it, you can cast {@spell charm person} and {@spell command} at will. Your spellcasting ability for them is Charisma.",
