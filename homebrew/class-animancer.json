@@ -196,7 +196,6 @@
 				"Ability Score Improvement|Animancer|stabbyanimancer|4|stabbyanimancer",
 				"Deeper Insights|Animancer|stabbyanimancer|5|stabbyanimancer",
 				"Essence Drain|Animancer|stabbyanimancer|6|stabbyanimancer",
-				"Sense Essence (15 ft)|Animancer|stabbyanimancer|7|stabbyanimancer",
 				"Ability Score Improvement|Animancer|stabbyanimancer|8|stabbyanimancer",
 				{
 					"classFeature": "Manipulation Focus feature|Animancer|stabbyanimancer|10|stabbyanimancer",
@@ -204,9 +203,9 @@
 				},
 				"Essence Drain (2d6)|Animancer|stabbyanimancer|10|stabbyanimancer",
 				"Ability Score Improvement|Animancer|stabbyanimancer|12|stabbyanimancer",
-				"Sense Essence (30 ft)|Animancer|stabbyanimancer|13|stabbyanimancer",
+				"Sense Essence (Range Increase)|Animancer|stabbyanimancer|13|stabbyanimancer",
 				"Essence Conversion (exhaustion)|Animancer|stabbyanimancer|14|stabbyanimancer",
-				"Essence Drain (3d6)|Animancer|stabbyanimancer|14|stabbyanimancer",
+				"Essence Drain (Extra Use)|Animancer|stabbyanimancer|14|stabbyanimancer",
 				"Ability Score Improvement|Animancer|stabbyanimancer|16|stabbyanimancer",
 				"Sense Essence (permanent)|Animancer|stabbyanimancer|17|stabbyanimancer",
 				"Deeper Insights (unlimited)|Animancer|stabbyanimancer|17|stabbyanimancer",
@@ -214,7 +213,7 @@
 					"classFeature": "Manipulation Focus feature|Animancer|stabbyanimancer|18|stabbyanimancer",
 					"gainSubclassFeature": true
 				},
-				"Essence Drain (4d6)|Animancer|stabbyanimancer|18|stabbyanimancer",
+				"Essence Drain (3d6)|Animancer|stabbyanimancer|18|stabbyanimancer",
 				"Ability Score Improvement|Animancer|stabbyanimancer|19|stabbyanimancer",
 				"Manipulation Mastery|Animancer|stabbyanimancer|20|stabbyanimancer"
 			],
