@@ -2,7 +2,7 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "class-animancer",
+				"json": "stabbyanimancer",
 				"abbreviation": "Stabby",
 				"full": "Stabby's Animancer",
 				"version": "2",
@@ -22,7 +22,7 @@
 	"class": [
 		{
 			"name": "Animancer",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"hd": {
 				"number": 1,
@@ -186,36 +186,36 @@
 				}
 			],
 			"classFeatures": [
-				"Spellcasting|Animancer|class-animancer|1|class-animancer",
-				"Essence Conversion|Animancer|class-animancer|1|class-animancer",
-				"Sense Essence|Animancer|class-animancer|2|class-animancer",
+				"Spellcasting|Animancer|stabbyanimancer|1|stabbyanimancer",
+				"Essence Conversion|Animancer|stabbyanimancer|1|stabbyanimancer",
+				"Sense Essence|Animancer|stabbyanimancer|2|stabbyanimancer",
 				{
-					"classFeature": "Manipulation Focus|Animancer|class-animancer|3|class-animancer",
+					"classFeature": "Manipulation Focus|Animancer|stabbyanimancer|3|stabbyanimancer",
 					"gainSubclassFeature": true
 				},
-				"Ability Score Improvement|Animancer|class-animancer|4|class-animancer",
-				"Deeper Insights|Animancer|class-animancer|5|class-animancer",
-				"Essence Drain|Animancer|class-animancer|6|class-animancer",
-				"Ability Score Improvement|Animancer|class-animancer|8|class-animancer",
+				"Ability Score Improvement|Animancer|stabbyanimancer|4|stabbyanimancer",
+				"Deeper Insights|Animancer|stabbyanimancer|5|stabbyanimancer",
+				"Essence Drain|Animancer|stabbyanimancer|6|stabbyanimancer",
+				"Ability Score Improvement|Animancer|stabbyanimancer|8|stabbyanimancer",
 				{
-					"classFeature": "Manipulation Focus feature|Animancer|class-animancer|10|class-animancer",
+					"classFeature": "Manipulation Focus feature|Animancer|stabbyanimancer|10|stabbyanimancer",
 					"gainSubclassFeature": true
 				},
-				"Essence Drain (2d6)|Animancer|class-animancer|10|class-animancer",
-				"Ability Score Improvement|Animancer|class-animancer|12|class-animancer",
-				"Sense Essence (Range Increase)|Animancer|class-animancer|13|class-animancer",
-				"Essence Conversion (exhaustion)|Animancer|class-animancer|14|class-animancer",
-				"Essence Drain (Extra Use)|Animancer|class-animancer|14|class-animancer",
-				"Ability Score Improvement|Animancer|class-animancer|16|class-animancer",
-				"Sense Essence (permanent)|Animancer|class-animancer|17|class-animancer",
-				"Deeper Insights (unlimited)|Animancer|class-animancer|17|class-animancer",
+				"Essence Drain (2d6)|Animancer|stabbyanimancer|10|stabbyanimancer",
+				"Ability Score Improvement|Animancer|stabbyanimancer|12|stabbyanimancer",
+				"Sense Essence (Range Increase)|Animancer|stabbyanimancer|13|stabbyanimancer",
+				"Essence Conversion (exhaustion)|Animancer|stabbyanimancer|14|stabbyanimancer",
+				"Essence Drain (Extra Use)|Animancer|stabbyanimancer|14|stabbyanimancer",
+				"Ability Score Improvement|Animancer|stabbyanimancer|16|stabbyanimancer",
+				"Sense Essence (permanent)|Animancer|stabbyanimancer|17|stabbyanimancer",
+				"Deeper Insights (unlimited)|Animancer|stabbyanimancer|17|stabbyanimancer",
 				{
-					"classFeature": "Manipulation Focus feature|Animancer|class-animancer|18|class-animancer",
+					"classFeature": "Manipulation Focus feature|Animancer|stabbyanimancer|18|stabbyanimancer",
 					"gainSubclassFeature": true
 				},
-				"Essence Drain (3d6)|Animancer|class-animancer|18|class-animancer",
-				"Ability Score Improvement|Animancer|class-animancer|19|class-animancer",
-				"Manipulation Mastery|Animancer|class-animancer|20|class-animancer"
+				"Essence Drain (3d6)|Animancer|stabbyanimancer|18|stabbyanimancer",
+				"Ability Score Improvement|Animancer|stabbyanimancer|19|stabbyanimancer",
+				"Manipulation Mastery|Animancer|stabbyanimancer|20|stabbyanimancer"
 			],
 			"subclassTitle": "Manipulation Focus"
 		}
@@ -223,10 +223,10 @@
 	"classFeature": [
 		{
 			"name": "Spellcasting",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"level": 1,
 			"entries": [
 				"You have studied the nature of the fundamental physical and spiritual energies around you and how to channel them into magical effects. As a result, you have gained the ability to cast spells.",
@@ -283,10 +283,10 @@
 		},
 		{
 			"name": "Essence Conversion",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"level": 1,
 			"entries": [
 				"Starting at 1st level, you can convert your life essence into magical energy. Conceptually, you tap into your very life force in order to generate manipulable essence to fuel your magic, damaging yourself to unlock this power, and are limited in its use each day by your body. Mechanically, you have a pool of essence points which can be used as described below, and is recovered fully on a long rest.",
@@ -352,10 +352,10 @@
 		},
 		{
 			"name": "Essence Conversion (exhaustion)",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"level": 14,
 			"entries": [
 				"Starting at 14th level, you find a further way to tap into your life force and convert it into essence. You can use a bonus action to gain a level of exhaustion, and then recover a number of essence points equal to twice your Constitution modifier (minimum 2) for each level of exhaustion you have. You cannot lose exhaustion levels gained this way through any magical methods short of a Wish effect, but you can lose them by resting."
@@ -363,10 +363,10 @@
 		},
 		{
 			"name": "Sense Essence",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"level": 2,
 			"entries": [
 				"Starting at 2nd level, you can sense vital essence around you. You can use an action to gain heightened senses so that the vital essence of others becomes visible to you as an aura. For 1 minute, you become aware of living entities within this effect's radius and can target them normally with your class features, even if they are {@condition invisible}. You know their size category and position, but not their identity, type, or anything else about them. A {@condition petrified} target can still be detected as being living, as traces of its essence linger despite its state. An undead, construct or illusion does not have an aura. Anything denser or thicker than 1 foot of wood blocks this sense.",
@@ -378,10 +378,10 @@
 		},
 		{
 			"name": "Sense Essence (Range Increase)",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"level": 13,
 			"entries": [
 				"At 13th level, the maximum radius of your Sense Essence feature doubles to your Wisdom modifier (min. 1) times 10 feet."
@@ -389,10 +389,10 @@
 		},
 		{
 			"name": "Diverging Flows",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"level": 15,
 			"entries": [
 				"At 15th level, your growing control over the many facets of essence allows you to broaden the scope of your specialization. You may replace up to two of your subclass spells with any spell of the same level from the animancer spell list."
@@ -400,10 +400,10 @@
 		},
 		{
 			"name": "Sense Essence (permanent)",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"level": 17,
 			"entries": [
 				"At 17th level, your essence senses are permanently heightened. You can freely use an action to toggle your Sense Essence feature on and off, and its duration is infinite."
@@ -411,10 +411,10 @@
 		},
 		{
 			"name": "Manipulation Focus",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"level": 3,
 			"entries": [
 				"At 3rd level, you begin to specialize in a particular use of essence manipulation."
@@ -422,10 +422,10 @@
 		},
 		{
 			"name": "Manipulation Focus feature",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"level": 10,
 			"entries": [
 				"At 10th level, you gain a new ability related to your manipulation focus."
@@ -433,10 +433,10 @@
 		},
 		{
 			"name": "Manipulation Focus feature",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"level": 18,
 			"entries": [
 				"At 18th level, you gain a new ability related to your manipulation focus."
@@ -444,10 +444,10 @@
 		},
 		{
 			"name": "Deeper Insights",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"level": 5,
 			"entries": [
 				"Starting at 5th level, you can focus intently on a creature to gain empowered instincts regarding its wellbeing and disposition from the aura of their essence. As a bonus action while your Sense Essence is active, you may choose one creature being detected by your Sense Essence, gaining knowledge as described in one of the options listed below. You can use this feature once per activation of Sense Essence.",
@@ -464,10 +464,10 @@
 		},
 		{
 			"name": "Deeper Insights (unlimited)",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"level": 17,
 			"entries": [
 				"Starting at 17th level, your Deeper Insights feature has unlimited uses."
@@ -475,10 +475,10 @@
 		},
 		{
 			"name": "Essence Drain",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"level": 6,
 			"entries": [
 				"Starting at 6th level, you can use a bonus action to drain a creature's essence and turn it into power for yourself. A creature of your choice that you can see within 20 feet makes a Constitution saving throw against your spell save DC. It loses hit points equal to 1d6 plus your Constitution modifier on a failure, or half as much on a success. You gain that many essence points.",
@@ -488,10 +488,10 @@
 		},
 		{
 			"name": "Essence Drain (2d6)",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"level": 10,
 			"entries": [
 				"At 10th level, the damage of your Essence Drain increases to 2d6."
@@ -499,10 +499,10 @@
 		},
 		{
 			"name": "Essence Drain (Extra Use)",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"level": 14,
 			"entries": [
 				"At 14th level, you gain an additional use of your Essence Drain per short or long rest."
@@ -510,10 +510,10 @@
 		},
 		{
 			"name": "Essence Drain (3d6)",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"level": 18,
 			"entries": [
 				"At 18th level, the damage of your Essence Drain increases to 3d6."
@@ -521,10 +521,10 @@
 		},
 		{
 			"name": "Manipulation Mastery",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"level": 20,
 			"entries": [
 				"At 20th level, whenever you roll any dice as part of a class feature that generates or consumes essence points, you can forego rolling and instead choose the result. This includes damage rolls for your class features, but not rolls related to your spellcasting. It also includes ability checks made as part of your Deeper Insights feature."
@@ -532,10 +532,10 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"level": 4,
 			"entries": [
 				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -544,10 +544,10 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"level": 8,
 			"entries": [
 				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -556,10 +556,10 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"level": 12,
 			"entries": [
 				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -568,10 +568,10 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"level": 16,
 			"entries": [
 				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -580,10 +580,10 @@
 		},
 		{
 			"name": "Ability Score Improvement",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"level": 19,
 			"entries": [
 				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -595,140 +595,140 @@
 		{
 			"name": "Destroy",
 			"shortName": "Destroy",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"page": 0,
 			"subclassFeatures": [
-				"Destroy|Animancer|class-animancer|Destroy|class-animancer|3",
-				"Essence Penetration|Animancer|class-animancer|Destroy|class-animancer|10",
-				"Master of Destruction|Animancer|class-animancer|Destroy|class-animancer|18"
+				"Destroy|Animancer|stabbyanimancer|Destroy|stabbyanimancer|3",
+				"Essence Penetration|Animancer|stabbyanimancer|Destroy|stabbyanimancer|10",
+				"Master of Destruction|Animancer|stabbyanimancer|Destroy|stabbyanimancer|18"
 			]
 		},
 		{
 			"name": "Sustain",
 			"shortName": "Sustain",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"page": 0,
 			"subclassFeatures": [
-				"Sustain|Animancer|class-animancer|Sustain|class-animancer|3",
-				"Improved Vital Recharge|Animancer|class-animancer|Sustain|class-animancer|10",
-				"Master of Sustenance|Animancer|class-animancer|Sustain|class-animancer|18"
+				"Sustain|Animancer|stabbyanimancer|Sustain|stabbyanimancer|3",
+				"Improved Vital Recharge|Animancer|stabbyanimancer|Sustain|stabbyanimancer|10",
+				"Master of Sustenance|Animancer|stabbyanimancer|Sustain|stabbyanimancer|18"
 			]
 		},
 		{
 			"name": "Leech",
 			"shortName": "Leech",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"page": 0,
 			"subclassFeatures": [
-				"Leech|Animancer|class-animancer|Leech|class-animancer|3",
-				"Skulker in the Dark|Animancer|class-animancer|Leech|class-animancer|10",
-				"Greater Aura of the Leech|Animancer|class-animancer|Leech|class-animancer|18"
+				"Leech|Animancer|stabbyanimancer|Leech|stabbyanimancer|3",
+				"Skulker in the Dark|Animancer|stabbyanimancer|Leech|stabbyanimancer|10",
+				"Greater Aura of the Leech|Animancer|stabbyanimancer|Leech|stabbyanimancer|18"
 			]
 		},
 		{
 			"name": "Tame",
 			"shortName": "Tame",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"page": 0,
 			"subclassFeatures": [
-				"Tame|Animancer|class-animancer|Tame|class-animancer|3",
-				"Improved Spirit Beast|Animancer|class-animancer|Tame|class-animancer|10",
-				"Spirit Link|Animancer|class-animancer|Tame|class-animancer|18"
+				"Tame|Animancer|stabbyanimancer|Tame|stabbyanimancer|3",
+				"Improved Spirit Beast|Animancer|stabbyanimancer|Tame|stabbyanimancer|10",
+				"Spirit Link|Animancer|stabbyanimancer|Tame|stabbyanimancer|18"
 			]
 		},
 		{
 			"name": "Learn",
 			"shortName": "Learn",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"page": 0,
 			"subclassFeatures": [
-				"Learn|Animancer|class-animancer|Learn|class-animancer|3",
-				"Extended Lifeline|Animancer|class-animancer|Learn|class-animancer|10",
-				"Bodily Memory|Animancer|class-animancer|Learn|class-animancer|18"
+				"Learn|Animancer|stabbyanimancer|Learn|stabbyanimancer|3",
+				"Extended Lifeline|Animancer|stabbyanimancer|Learn|stabbyanimancer|10",
+				"Bodily Memory|Animancer|stabbyanimancer|Learn|stabbyanimancer|18"
 			]
 		},
 		{
 			"name": "Subdue",
 			"shortName": "Subdue",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"page": 0,
 			"subclassFeatures": [
-				"Subdue|Animancer|class-animancer|Subdue|class-animancer|3",
-				"Puppeteer|Animancer|class-animancer|Subdue|class-animancer|10",
-				"Master Puppeteer|Animancer|class-animancer|Subdue|class-animancer|18"
+				"Subdue|Animancer|stabbyanimancer|Subdue|stabbyanimancer|3",
+				"Puppeteer|Animancer|stabbyanimancer|Subdue|stabbyanimancer|10",
+				"Master Puppeteer|Animancer|stabbyanimancer|Subdue|stabbyanimancer|18"
 			]
 		},
 		{
 			"name": "Cleanse",
 			"shortName": "Cleanse",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"page": 0,
 			"subclassFeatures": [
-				"Cleanse|Animancer|class-animancer|Cleanse|class-animancer|3",
-				"Positive Energy Overflow|Animancer|class-animancer|Cleanse|class-animancer|10",
-				"Greater Cleansing Aura|Animancer|class-animancer|Cleanse|class-animancer|18"
+				"Cleanse|Animancer|stabbyanimancer|Cleanse|stabbyanimancer|3",
+				"Positive Energy Overflow|Animancer|stabbyanimancer|Cleanse|stabbyanimancer|10",
+				"Greater Cleansing Aura|Animancer|stabbyanimancer|Cleanse|stabbyanimancer|18"
 			]
 		},
 		{
 			"name": "Corrupt",
 			"shortName": "Corrupt",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"page": 0,
 			"subclassFeatures": [
-				"Corrupt|Animancer|class-animancer|Corrupt|class-animancer|3",
-				"Negative Energy Overflow|Animancer|class-animancer|Corrupt|class-animancer|10",
-				"Greater Aura of Decay|Animancer|class-animancer|Corrupt|class-animancer|18"
+				"Corrupt|Animancer|stabbyanimancer|Corrupt|stabbyanimancer|3",
+				"Negative Energy Overflow|Animancer|stabbyanimancer|Corrupt|stabbyanimancer|10",
+				"Greater Aura of Decay|Animancer|stabbyanimancer|Corrupt|stabbyanimancer|18"
 			]
 		},
 		{
 			"name": "Harvest",
 			"shortName": "Harvest",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"page": 0,
 			"subclassFeatures": [
-				"Harvest|Animancer|class-animancer|Harvest|class-animancer|3",
-				"Harvester of Secrets|Animancer|class-animancer|Harvest|class-animancer|10",
-				"Arbiter of Fates|Animancer|class-animancer|Harvest|class-animancer|18"
+				"Harvest|Animancer|stabbyanimancer|Harvest|stabbyanimancer|3",
+				"Harvester of Secrets|Animancer|stabbyanimancer|Harvest|stabbyanimancer|10",
+				"Arbiter of Fates|Animancer|stabbyanimancer|Harvest|stabbyanimancer|18"
 			]
 		},
 		{
 			"name": "Isolate",
 			"shortName": "Isolate",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"page": 0,
 			"subclassFeatures": [
-				"Isolate|Animancer|class-animancer|Isolate|class-animancer|3"
+				"Isolate|Animancer|stabbyanimancer|Isolate|stabbyanimancer|3"
 			]
 		},
 		{
 			"name": "Bleed",
 			"shortName": "Bleed",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"page": 0,
 			"subclassFeatures": [
-				"Bleed|Animancer|class-animancer|Bleed|class-animancer|3"
+				"Bleed|Animancer|stabbyanimancer|Bleed|stabbyanimancer|3"
 			]
 		}
 
@@ -737,36 +737,36 @@
 	"subclassFeature": [
 		{
 			"name": "Destroy",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Destroy",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"entries": [
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Extra Focus Spells|Animancer|class-animancer|Destroy|class-animancer|3"
+					"subclassFeature": "Extra Focus Spells|Animancer|stabbyanimancer|Destroy|stabbyanimancer|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Essence Destruction|Animancer|class-animancer|Destroy|class-animancer|3"
+					"subclassFeature": "Essence Destruction|Animancer|stabbyanimancer|Destroy|stabbyanimancer|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Weakness Detection|Animancer|class-animancer|Destroy|class-animancer|3"
+					"subclassFeature": "Weakness Detection|Animancer|stabbyanimancer|Destroy|stabbyanimancer|3"
 				}
 			]
 		},
 		{
 			"name": "Extra Focus Spells",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Destroy",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -808,12 +808,12 @@
 		},
 		{
 			"name": "Essence Destruction",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Destroy",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -823,12 +823,12 @@
 		},
 		{
 			"name": "Weakness Detection",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Destroy",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -838,12 +838,12 @@
 		},
 		{
 			"name": "Essence Penetration",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Destroy",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -854,12 +854,12 @@
 		},
 		{
 			"name": "Master of Destruction",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Destroy",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -875,36 +875,36 @@
 
 		{
 			"name": "Sustain",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Sustain",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"entries": [
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Extra Focus Spells|Animancer|class-animancer|Sustain|class-animancer|3"
+					"subclassFeature": "Extra Focus Spells|Animancer|stabbyanimancer|Sustain|stabbyanimancer|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Essence Transfer|Animancer|class-animancer|Sustain|class-animancer|3"
+					"subclassFeature": "Essence Transfer|Animancer|stabbyanimancer|Sustain|stabbyanimancer|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Vital Recharge|Animancer|class-animancer|Sustain|class-animancer|3"
+					"subclassFeature": "Vital Recharge|Animancer|stabbyanimancer|Sustain|stabbyanimancer|3"
 				}
 			]
 		},
 		{
 			"name": "Extra Focus Spells",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Sustain",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -946,12 +946,12 @@
 		},
 		{
 			"name": "Essence Transfer",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Sustain",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -961,12 +961,12 @@
 		},
 		{
 			"name": "Vital Recharge",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Sustain",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -976,12 +976,12 @@
 		},
 		{
 			"name": "Improved Vital Recharge",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Sustain",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -992,12 +992,12 @@
 		},
 		{
 			"name": "Master of Sustenance",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Sustain",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -1011,36 +1011,36 @@
 		
 		{
 			"name": "Leech",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Leech",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"entries": [
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Extra Focus Spells|Animancer|class-animancer|Leech|class-animancer|3"
+					"subclassFeature": "Extra Focus Spells|Animancer|stabbyanimancer|Leech|stabbyanimancer|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Aura of the Leech|Animancer|class-animancer|Leech|class-animancer|3"
+					"subclassFeature": "Aura of the Leech|Animancer|stabbyanimancer|Leech|stabbyanimancer|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Repulsive Retort|Animancer|class-animancer|Leech|class-animancer|3"
+					"subclassFeature": "Repulsive Retort|Animancer|stabbyanimancer|Leech|stabbyanimancer|3"
 				}
 			]
 		},
 		{
 			"name": "Extra Focus Spells",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Leech",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -1082,12 +1082,12 @@
 		},
 		{
 			"name": "Aura of the Leech",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Leech",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -1096,12 +1096,12 @@
 		},
 		{
 			"name": "Repulsive Retort",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Leech",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -1110,12 +1110,12 @@
 		},
 		{
 			"name": "Skulker in the Dark",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Leech",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -1125,12 +1125,12 @@
 		},
 		{
 			"name": "Greater Aura of the Leech",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Leech",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -1145,36 +1145,36 @@
 
 		{
 			"name": "Tame",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Tame",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"entries": [
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Extra Focus Spells|Animancer|class-animancer|Tame|class-animancer|3"
+					"subclassFeature": "Extra Focus Spells|Animancer|stabbyanimancer|Tame|stabbyanimancer|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Animal Handler|Animancer|class-animancer|Tame|class-animancer|3"
+					"subclassFeature": "Animal Handler|Animancer|stabbyanimancer|Tame|stabbyanimancer|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Spirit Beast|Animancer|class-animancer|Tame|class-animancer|3"
+					"subclassFeature": "Spirit Beast|Animancer|stabbyanimancer|Tame|stabbyanimancer|3"
 				}
 			]
 		},
 		{
 			"name": "Extra Focus Spells",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Tame",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -1216,12 +1216,12 @@
 		},
 		{
 			"name": "Animal Handler",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Tame",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -1231,17 +1231,17 @@
 		},
 		{
 			"name": "Spirit Beast",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Tame",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
 				"Also starting at 3rd level, you bond with an animal spirit, which accompanies you on your adventures. It could be a spirit you have encountered in your travels, or it may be be a semi-physical manifestation of your own inner beast.",
-				"Your animal spirit may take the form of any Beast of your choice from the list below, but its statistics are independent of its form ({@creature spirit beast|class-animancer}). It has the appearance of the chosen Beast, but is partly transparent, and its nature is only not wholly physical, granting it resistance to some physical effects. Both of you gain additional benefits which depend on its form. Your Spirit Beast grows with you: whenever you unlock an Ability Score Improvement as an Animancer feature, you can increase any one of its ability scores by 2 points. Additionally, its proficiency bonus is always equal to yours.",
+				"Your animal spirit may take the form of any Beast of your choice from the list below, but its statistics are independent of its form ({@creature spirit beast|stabbyanimancer}). It has the appearance of the chosen Beast, but is partly transparent, and its nature is only not wholly physical, granting it resistance to some physical effects. Both of you gain additional benefits which depend on its form. Your Spirit Beast grows with you: whenever you unlock an Ability Score Improvement as an Animancer feature, you can increase any one of its ability scores by 2 points. Additionally, its proficiency bonus is always equal to yours.",
 				"Your spirit beast rolls its own initiative and acts on its own turn in combat. It sees you as its closest ally in the Material world and as someone under its patronage, but has its own personality and sense of self, and it has a mind of its own; it may typically follow your commands, but is not forced to.",
 				"Once per short or long rest, when you spend essence points, you can redirect the damage taken as a consequence to your Spirit Beast. The same conditions regarding resistance and immunity to the damage apply. It accepts this as part of its bond with you.",
 				"When your spirit beast dies, its body nearly instantaneously disappears into a thin mist, and you lose half of your remaining essence points (rounded up), taking damage as though you had spent it. While it is dead, you lose any benefits its form had granted you.",
@@ -1345,12 +1345,12 @@
 		},
 		{
 			"name": "Improved Spirit Beast",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Tame",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -1360,12 +1360,12 @@
 		},
 		{
 			"name": "Spirit Link",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Tame",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -1386,36 +1386,36 @@
 		
 		{
 			"name": "Learn",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Learn",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"entries": [
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Extra Focus Spells|Animancer|class-animancer|Learn|class-animancer|3"
+					"subclassFeature": "Extra Focus Spells|Animancer|stabbyanimancer|Learn|stabbyanimancer|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Additional Proficiencies|Animancer|class-animancer|Learn|class-animancer|3"
+					"subclassFeature": "Additional Proficiencies|Animancer|stabbyanimancer|Learn|stabbyanimancer|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Lifeline|Animancer|class-animancer|Learn|class-animancer|3"
+					"subclassFeature": "Lifeline|Animancer|stabbyanimancer|Learn|stabbyanimancer|3"
 				}
 			]
 		},
 		{
 			"name": "Extra Focus Spells",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Learn",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -1457,12 +1457,12 @@
 		},
 		{
 			"name": "Additional Proficiencies",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Learn",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -1472,12 +1472,12 @@
 		},
 		{
 			"name": "Lifeline",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Learn",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -1486,12 +1486,12 @@
 		},
 		{
 			"name": "Extended Lifeline",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Learn",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -1500,12 +1500,12 @@
 		},
 		{
 			"name": "Bodily Memory",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Learn",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -1525,36 +1525,36 @@
 		
 		{
 			"name": "Subdue",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Subdue",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"entries": [
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Extra Focus Spells|Animancer|class-animancer|Subdue|class-animancer|3"
+					"subclassFeature": "Extra Focus Spells|Animancer|stabbyanimancer|Subdue|stabbyanimancer|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Alluring Aura|Animancer|class-animancer|Subdue|class-animancer|3"
+					"subclassFeature": "Alluring Aura|Animancer|stabbyanimancer|Subdue|stabbyanimancer|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Instill Doubt|Animancer|class-animancer|Subdue|class-animancer|3"
+					"subclassFeature": "Instill Doubt|Animancer|stabbyanimancer|Subdue|stabbyanimancer|3"
 				}
 			]
 		},
 		{
 			"name": "Extra Focus Spells",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Subdue",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -1596,12 +1596,12 @@
 		},
 		{
 			"name": "Alluring Aura",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Subdue",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -1611,12 +1611,12 @@
 		},
 		{
 			"name": "Instill Doubt",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Subdue",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -1625,12 +1625,12 @@
 		},
 		{
 			"name": "Puppeteer",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Subdue",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -1639,12 +1639,12 @@
 		},
 		{
 			"name": "Master Puppeteer",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Subdue",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -1667,36 +1667,36 @@
 
 		{
 			"name": "Cleanse",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Cleanse",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"entries": [
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Extra Focus Spells|Animancer|class-animancer|Cleanse|class-animancer|3"
+					"subclassFeature": "Extra Focus Spells|Animancer|stabbyanimancer|Cleanse|stabbyanimancer|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Cleansing Aura|Animancer|class-animancer|Cleanse|class-animancer|3"
+					"subclassFeature": "Cleansing Aura|Animancer|stabbyanimancer|Cleanse|stabbyanimancer|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Sense Counter-essence|Animancer|class-animancer|Cleanse|class-animancer|3"
+					"subclassFeature": "Sense Counter-essence|Animancer|stabbyanimancer|Cleanse|stabbyanimancer|3"
 				}
 			]
 		},
 		{
 			"name": "Extra Focus Spells",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Cleanse",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -1738,12 +1738,12 @@
 		},
 		{
 			"name": "Cleansing Aura",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Cleanse",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -1753,12 +1753,12 @@
 		},
 		{
 			"name": "Sense Counter-essence",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Cleanse",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -1769,12 +1769,12 @@
 		},
 		{
 			"name": "Positive Energy Overflow",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Cleanse",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -1784,12 +1784,12 @@
 		},
 		{
 			"name": "Greater Cleansing Aura",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Cleanse",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -1812,36 +1812,36 @@
 		
 		{
 			"name": "Corrupt",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Corrupt",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"entries": [
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Extra Focus Spells|Animancer|class-animancer|Corrupt|class-animancer|3"
+					"subclassFeature": "Extra Focus Spells|Animancer|stabbyanimancer|Corrupt|stabbyanimancer|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Aura of Decay|Animancer|class-animancer|Corrupt|class-animancer|3"
+					"subclassFeature": "Aura of Decay|Animancer|stabbyanimancer|Corrupt|stabbyanimancer|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Momentary Frailty|Animancer|class-animancer|Corrupt|class-animancer|3"
+					"subclassFeature": "Momentary Frailty|Animancer|stabbyanimancer|Corrupt|stabbyanimancer|3"
 				}
 			]
 		},
 		{
 			"name": "Extra Focus Spells",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Corrupt",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -1883,12 +1883,12 @@
 		},
 		{
 			"name": "Aura of Decay",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Corrupt",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -1898,12 +1898,12 @@
 		},
 		{
 			"name": "Momentary Frailty",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Corrupt",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -1913,12 +1913,12 @@
 		},
 		{
 			"name": "Negative Energy Overflow",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Corrupt",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -1928,12 +1928,12 @@
 		},
 		{
 			"name": "Greater Aura of Decay",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Corrupt",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -1960,36 +1960,36 @@
 
 		{
 			"name": "Harvest",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Harvest",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"entries": [
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Extra Focus Spells|Animancer|class-animancer|Harvest|class-animancer|3"
+					"subclassFeature": "Extra Focus Spells|Animancer|stabbyanimancer|Harvest|stabbyanimancer|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Soul Reaper|Animancer|class-animancer|Harvest|class-animancer|3"
+					"subclassFeature": "Soul Reaper|Animancer|stabbyanimancer|Harvest|stabbyanimancer|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Death's Edge|Animancer|class-animancer|Harvest|class-animancer|3"
+					"subclassFeature": "Death's Edge|Animancer|stabbyanimancer|Harvest|stabbyanimancer|3"
 				}
 			]
 		},
 		{
 			"name": "Extra Focus Spells",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Harvest",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -2031,12 +2031,12 @@
 		},
 		{
 			"name": "Soul Reaper",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Harvest",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -2048,12 +2048,12 @@
 		},
 		{
 			"name": "Death's Edge",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Harvest",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -2063,12 +2063,12 @@
 		},
 		{
 			"name": "Harvester of Secrets",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Harvest",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -2087,12 +2087,12 @@
 		},
 		{
 			"name": "Arbiter of Fates",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Harvest",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -2108,36 +2108,36 @@
 		
 		{
 			"name": "Isolate",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Isolate",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"entries": [
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Extra Focus Spells|Animancer|class-animancer|Isolate|class-animancer|3"
+					"subclassFeature": "Extra Focus Spells|Animancer|stabbyanimancer|Isolate|stabbyanimancer|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "?|Animancer|class-animancer|Isolate|class-animancer|3"
+					"subclassFeature": "?|Animancer|stabbyanimancer|Isolate|stabbyanimancer|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "?|Animancer|class-animancer|Isolate|class-animancer|3"
+					"subclassFeature": "?|Animancer|stabbyanimancer|Isolate|stabbyanimancer|3"
 				}
 			]
 		},
 		{
 			"name": "Extra Focus Spells",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Isolate",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -2179,12 +2179,12 @@
 		},
 		{
 			"name": "?",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Isolate",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -2193,12 +2193,12 @@
 		},
 		{
 			"name": "?",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Isolate",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -2207,12 +2207,12 @@
 		},
 		{
 			"name": "?",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Isolate",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 10,
 			"header": 2,
 			"entries": [
@@ -2221,12 +2221,12 @@
 		},
 		{
 			"name": "?",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Isolate",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 18,
 			"header": 2,
 			"entries": [
@@ -2243,36 +2243,36 @@
 
 		{
 			"name": "Bleed",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Bleed",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"entries": [
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "Extra Focus Spells|Animancer|class-animancer|Bleed|class-animancer|3"
+					"subclassFeature": "Extra Focus Spells|Animancer|stabbyanimancer|Bleed|stabbyanimancer|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "?|Animancer|class-animancer|Bleed|class-animancer|3"
+					"subclassFeature": "?|Animancer|stabbyanimancer|Bleed|stabbyanimancer|3"
 				},
 				{
 					"type": "refSubclassFeature",
-					"subclassFeature": "?|Animancer|class-animancer|Bleed|class-animancer|3"
+					"subclassFeature": "?|Animancer|stabbyanimancer|Bleed|stabbyanimancer|3"
 				}
 			]
 		},
 		{
 			"name": "Extra Focus Spells",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Bleed",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -2314,12 +2314,12 @@
 		},
 		{
 			"name": "?",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"className": "Animancer",
-			"classSource": "class-animancer",
+			"classSource": "stabbyanimancer",
 			"subclassShortName": "Bleed",
-			"subclassSource": "class-animancer",
+			"subclassSource": "stabbyanimancer",
 			"level": 3,
 			"header": 2,
 			"entries": [
@@ -2332,7 +2332,7 @@
 	"monster": [
 		{
 			"name": "Spirit Beast",
-			"source": "class-animancer",
+			"source": "stabbyanimancer",
 			"page": 0,
 			"size": [
 				"M"
