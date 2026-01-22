@@ -1,3 +1,9 @@
+# Fork'd
+
+This is a fork of 5e.tools, see below.
+
+It contains my personal homebrew files, plus a minor UI update to allow Rarity on mundane items and Cost on magic items.
+
 # 5e.tools
 
 Visit the [main site](https://5e.tools/index.html) or go to the unofficial GitHub [mirror](index.html).
@@ -14,4 +20,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-This project is licensed under the terms of the MIT license.
+This project, except for the files included in the homebrew directory, is licensed under the terms of the MIT license.
