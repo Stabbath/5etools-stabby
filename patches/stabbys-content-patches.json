@@ -1617,12 +1617,16 @@
 		}
 	},
 	"magicvariant:+1 Armor|DMG": {
+		"value": 100000,
+		"valueExpression": "[[baseItem.value]] + 100000",
 		"inherits.rarity": "uncommon",
 		"homebrewNotes": [
 			"{@note Homebrew edit: reduced rarity from rare.}"
 		]
 	},
 	"magicvariant:+2 Armor|DMG": {
+		"value": 630000,
+		"valueExpression": "[[baseItem.value]] + 630000",
 		"inherits.rarity": "rare",
 		"homebrewNotes": [
 			"{@note Homebrew edit: reduced rarity from very rare.}"
@@ -1630,9 +1634,23 @@
 	},
 	"magicvariant:+3 Armor|DMG": {
 		"inherits.rarity": "very rare",
+		"value": 3050000,
+		"valueExpression": "[[baseItem.value]] + 3050000",
 		"homebrewNotes": [
 			"{@note Homebrew edit: reduced rarity from legendary.}"
 		]
+	},
+	"magicvariant:+1 Shield|DMG": {
+		"value": 100000,
+		"valueExpression": "[[baseItem.value]] + 100000"
+	},
+	"magicvariant:+2 Shield|DMG": {
+		"value": 630000,
+		"valueExpression": "[[baseItem.value]] + 630000"
+	},
+	"magicvariant:+3 Shield|DMG": {
+		"value": 3050000,
+		"valueExpression": "[[baseItem.value]] + 3050000"
 	},
 	"magicvariant:Flame Tongue|DMG": {
 		"requires": [

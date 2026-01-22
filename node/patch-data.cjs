@@ -5,7 +5,7 @@ const path = require('path');
 const PATH_ITEMS = './data/items.json';
 const PATH_MAGICVARIANTS = './data/magicvariants.json';
 const PATH_SPELLS_PHB = './data/spells/spells-phb.json';
-const PATH_PATCH = './patches/items-price.json';
+const PATH_PATCH = './patches/stabbys-content-patches.json';
 
 function runPatch() {
 	if (!fs.existsSync(PATH_PATCH)) {
@@ -137,6 +137,11 @@ function patchFile(filePath, arrayKey, patches) {
 					entriesLocation.entries = [];
 				}
 				
+				// Remove any existing Homebrew notes to prevent duplication
+				entriesLocation.entries = entriesLocation.entries.filter(entry => 
+					!(typeof entry === 'string' && entry.trim().startsWith('{@note Homebrew'))
+				);
+
 				// Prepend homebrew notes
 				entriesLocation.entries = [...homebrewNotes, ...entriesLocation.entries];
 			}

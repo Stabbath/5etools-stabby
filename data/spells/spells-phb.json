@@ -211,11 +211,6 @@
 			],
 			"entries": [
 				"{@note Homebrew edit: added to druid spell list.}",
-				"{@note Homebrew edit: added to druid spell list.}",
-				"{@note Homebrew edit: added to druid spell list.}",
-				"{@note Homebrew edit: added to druid spell list.}",
-				"{@note Homebrew edit: added to druid spell list.}",
-				"{@note Homebrew edit: added to druid spell list.}",
 				"You assume a different form. When you cast the spell, choose one of the following options, the effects of which last for the duration of the spell. While the spell lasts, you can end one option as an action to gain the benefits of a different one.",
 				{
 					"type": "entries",
@@ -257,6 +252,18 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "UAArtificer"
+					},
+					{
+						"name": "Artificer (Revisited)",
+						"source": "UAArtificerRevisited"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
 					}
 				]
 			}
@@ -11809,11 +11816,6 @@
 			},
 			"entries": [
 				"{@note Homebrew edit: changed school from Evocation to Abjuration.}",
-				"{@note Homebrew edit: changed school from Evocation to Abjuration.}",
-				"{@note Homebrew edit: changed school from Evocation to Abjuration.}",
-				"{@note Homebrew edit: changed school from Evocation to Abjuration.}",
-				"{@note Homebrew edit: changed school from Evocation to Abjuration.}",
-				"{@note Homebrew edit: changed school from Evocation to Abjuration.}",
 				"A 10-foot-radius immobile dome of force springs into existence around and above you and remains stationary for the duration. The spell ends if you leave its area.",
 				"Nine creatures of Medium size or smaller can fit inside the dome with you. The spell fails if its area includes a larger creature or more than nine creatures. Creatures and objects within the dome when you cast this spell can move through it freely. All other creatures and objects are barred from passing through it. Spells and other magical effects can't extend through the dome or be cast through it. The atmosphere inside the space is comfortable and dry, regardless of the weather outside.",
 				"Until the spell ends, you can command the interior to become dimly lit or dark. The dome is opaque from the outside, of any color you choose, but it is transparent from the inside."
@@ -19611,12 +19613,7 @@
 			],
 			"entries": [
 				"{@note Homebrew edit: from 1d4 + 1 to 1d4 + mod.}",
-				"{@note Homebrew edit: from 1d4 + 1 to 1d4 + mod.}",
-				"{@note Homebrew edit: from 1d4 + 1 to 1d4 + mod.}",
-				"{@note Homebrew edit: from 1d4 + 1 to 1d4 + mod.}",
-				"{@note Homebrew edit: from 1d4 + 1 to 1d4 + mod.}",
-				"{@note Homebrew edit: from 1d4 + 1 to 1d4 + mod.}",
-				"You briefly stop the flow of time for everyone but yourself. No time passes for other creatures, while you take {@dice 1d4 + 1} turns in a row, during which you can use actions and move as normal.",
+				"You briefly stop the flow of time for everyone but yourself. No time passes for other creatures, while you take {@dice 1d4} + your spellcasting ability modifier turns in a row, during which you can use actions and move as normal.",
 				"This spell ends if one of the actions you use during this period, or any effects that you create during this period, affects a creature other than you or an object being worn or carried by someone other than you. In addition, the spell ends if you move to a place more than 1,000 feet from the location where you cast it."
 			]
 		},
