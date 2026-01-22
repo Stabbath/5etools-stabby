@@ -12568,7 +12568,7 @@
 				"Clockwork Amulet|XDMG"
 			],
 			"tier": "minor",
-			"rarity": "common",
+			"rarity": "uncommon",
 			"wondrous": true,
 			"entries": [
 				"This copper amulet contains tiny interlocking gears and is powered by magic from Mechanus, a plane of clockwork predictability. A creature that puts an ear to the amulet can hear faint ticking and whirring noises coming from within.",
@@ -20726,7 +20726,7 @@
 			"baseItem": "plate armor|phb",
 			"type": "HA",
 			"tier": "major",
-			"rarity": "very rare",
+			"rarity": "rare",
 			"weight": 65,
 			"ac": 18,
 			"strength": "15",
@@ -44706,7 +44706,7 @@
 			],
 			"type": "P",
 			"tier": "minor",
-			"rarity": "rare",
+			"rarity": "uncommon",
 			"entries": [
 				"When you drink this potion, you gain the \"reduce\" effect of the {@spell enlarge/reduce} spell for {@dice 1d4} hours (no {@status concentration} required). The red in the potion's liquid continuously contracts to a tiny bead and then expands to color the clear liquid around it. Shaking the bottle fails to interrupt this process."
 			],
@@ -61310,7 +61310,8 @@
 				"Magic Item Table F"
 			],
 			"hasFluffImages": true,
-			"value": 420000
+			"value": 420000,
+			"recharge": "dawn"
 		},
 		{
 			"name": "Staff of the Python",
@@ -69147,9 +69148,14 @@
 			"rarity": "common",
 			"wondrous": true,
 			"entries": [
+				"{@note Homebrew edit: made the effect reversible so the item is actually useful.}",
+				"{@note Homebrew edit: made the effect reversible so the item is actually useful.}",
+				"{@note Homebrew edit: made the effect reversible so the item is actually useful.}",
+				"{@note Homebrew edit: made the effect reversible so the item is actually useful.}",
 				"When you grasp this walking cane and use a bonus action to speak the command word, it transforms into an ordinary longsword and ceases to be magical."
 			],
-			"value": 16500
+			"value": 16500,
+			"type": "M"
 		},
 		{
 			"name": "Vial",

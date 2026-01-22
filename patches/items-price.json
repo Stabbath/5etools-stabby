@@ -294,7 +294,11 @@
 		"value": 145000
 	},
 	"Clockwork Amulet|XGE": {
-		"value": 42000
+		"value": 42000,
+		"rarity": "uncommon",
+		"homebrewNotes": [
+			"{@note Homebrew edit: changed rarity from common.}"
+		]
 	},
 	"Clothes of Mending|XGE": {
 		"value": 4000
@@ -372,7 +376,11 @@
 		"value": 120000
 	},
 	"Dwarven Plate|DMG": {
-		"value": 690000
+		"value": 690000,
+		"rarity": "rare",
+		"homebrewNotes": [
+			"{@note Homebrew edit: rarity reduced from very rare.}"
+		]
 	},
 	"Dwarven Thrower|DMG": {
 		"value": 3800000
@@ -825,7 +833,11 @@
 		"value": 60000
 	},
 	"Potion of Diminution|DMG": {
-		"value": 60000
+		"value": 60000,
+		"rarity": "uncommon",
+		"homebrewNotes": [
+			"{@note Homebrew edit: reduced rarity from rare.}"
+		]
 	},
 	"Potion of Fire Breath|DMG": {
 		"value": 33000
@@ -1254,7 +1266,15 @@
 		"value": 22500000
 	},
 	"Staff of the Python|DMG": {
-		"value": 420000
+		"value": 420000,
+		"recharge": "dawn",
+			"entries": [
+				"{@note Homebrew edit: hit points aren't reset each time it's toggled, only at dawn.}",
+				"You can use an action to speak this staff's command word and throw the staff on the ground within 10 feet of you. The staff becomes a {@creature giant constrictor snake} under your control and acts on its own initiative count. By using a bonus action to speak the command word again, you return the staff to its normal form in a space formerly occupied by the snake.",
+				"On your turn, you can mentally command the snake if it is within 60 feet of you and you aren't {@condition incapacitated}. You decide what action the snake takes and where it moves during its next turn, or you can issue it a general command, such as to attack your enemies or guard a location.",
+				"If the snake is reduced to 0 hit points, it dies and reverts to its staff form. The staff then shatters and is destroyed. The snake's hit points are preserved even if it reverts to staff form before losing all its hit points and subsequently shift back into snake form again.",
+				"Each day at dawn, if the snake is in staff form, it recovers all of its missing hit points."
+			]
 	},
 	"Staff of the Woodlands|DMG": {
 		"value": 2400000
@@ -1344,7 +1364,13 @@
 		"value": 120000
 	},
 	"Veteran's Cane|XGE": {
-		"value": 16500
+		"value": 16500,
+		"tier": "minor",
+		"type": "M",
+			"entries": [
+				"{@note Homebrew edit: made the effect reversible so the item is actually useful.}",
+				"When you grasp this walking cane and use a bonus action to speak the command word, it transforms into a longsword whose attacks count as magical. While in sword form, you can use another bonus action to speak the command word again and transform it back into a walking cane."
+			]
 	},
 	"Wand of Binding|DMG": {
 		"value": 415000
@@ -1409,183 +1435,223 @@
 	"Wings of Flying|DMG": {
 		"value": 740000
 	},
-	"magicvariant:+1 Ammunition": {
+	"magicvariant:+1 Ammunition|DMG": {
 		"value": 2500,
 		"valueExpression": "[[baseItem.value]] + 2500"
 	},
-	"magicvariant:+1 Armor": {
+	"magicvariant:+1 Weapon|DMG": {
 		"value": 100000,
 		"valueExpression": "[[baseItem.value]] + 100000"
 	},
-	"magicvariant:+1 Weapon": {
-		"value": 100000,
-		"valueExpression": "[[baseItem.value]] + 100000"
-	},
-	"magicvariant:+2 Ammunition": {
+	"magicvariant:+2 Ammunition|DMG": {
 		"value": 15750,
 		"valueExpression": "[[baseItem.value]] + 15750"
 	},
-	"magicvariant:+2 Armor": {
+	"magicvariant:+2 Weapon|DMG": {
 		"value": 630000,
 		"valueExpression": "[[baseItem.value]] + 630000"
 	},
-	"magicvariant:+2 Weapon": {
-		"value": 630000,
-		"valueExpression": "[[baseItem.value]] + 630000"
-	},
-	"magicvariant:+3 Ammunition": {
+	"magicvariant:+3 Ammunition|DMG": {
 		"value": 76250,
 		"valueExpression": "[[baseItem.value]] + 76250"
 	},
-	"magicvariant:+3 Armor": {
+	"magicvariant:+3 Weapon|DMG": {
 		"value": 3050000,
 		"valueExpression": "[[baseItem.value]] + 3050000"
 	},
-	"magicvariant:+3 Weapon": {
-		"value": 3050000,
-		"valueExpression": "[[baseItem.value]] + 3050000"
-	},
-	"magicvariant:Armor of Acid Resistance": {
+	"magicvariant:Armor of Acid Resistance|DMG": {
 		"value": 375000,
 		"valueExpression": "[[baseItem.value]] + 375000"
 	},
-	"magicvariant:Armor of Cold Resistance": {
+	"magicvariant:Armor of Cold Resistance|DMG": {
 		"value": 375000,
 		"valueExpression": "[[baseItem.value]] + 375000"
 	},
-	"magicvariant:Armor of Fire Resistance": {
+	"magicvariant:Armor of Fire Resistance|DMG": {
 		"value": 375000,
 		"valueExpression": "[[baseItem.value]] + 375000"
 	},
-	"magicvariant:Armor of Force Resistance": {
+	"magicvariant:Armor of Force Resistance|DMG": {
 		"value": 375000,
 		"valueExpression": "[[baseItem.value]] + 375000"
 	},
-	"magicvariant:Armor of Gleaming": {
+	"magicvariant:Armor of Gleaming|XGE": {
 		"value": 4000,
 		"valueExpression": "[[baseItem.value]] + 4000"
 	},
-	"magicvariant:Armor of Lightning Resistance": {
+	"magicvariant:Armor of Lightning Resistance|DMG": {
 		"value": 375000,
 		"valueExpression": "[[baseItem.value]] + 375000"
 	},
-	"magicvariant:Armor of Necrotic Resistance": {
+	"magicvariant:Armor of Necrotic Resistance|DMG": {
 		"value": 375000,
 		"valueExpression": "[[baseItem.value]] + 375000"
 	},
-	"magicvariant:Armor of Poison Resistance": {
+	"magicvariant:Armor of Poison Resistance|DMG": {
 		"value": 375000,
 		"valueExpression": "[[baseItem.value]] + 375000"
 	},
-	"magicvariant:Armor of Psychic Resistance": {
+	"magicvariant:Armor of Psychic Resistance|DMG": {
 		"value": 375000,
 		"valueExpression": "[[baseItem.value]] + 375000"
 	},
-	"magicvariant:Armor of Radiant Resistance": {
+	"magicvariant:Armor of Radiant Resistance|DMG": {
 		"value": 375000,
 		"valueExpression": "[[baseItem.value]] + 375000"
 	},
-	"magicvariant:Armor of Thunder Resistance": {
+	"magicvariant:Armor of Thunder Resistance|DMG": {
 		"value": 375000,
 		"valueExpression": "[[baseItem.value]] + 375000"
 	},
-	"magicvariant:Arrow of Slaying (*)": {
+	"magicvariant:Arrow of Slaying (*)|DMG": {
 		"value": 36000
 	},
-	"magicvariant:Berserker Weapon": {
-		"value": 400000,
-		"valueExpression": "[[baseItem.value]] + 400000"
-	},
-	"magicvariant:Cast-Off Armor": {
+	"magicvariant:Cast-Off Armor|XGE": {
 		"value": 2000,
 		"valueExpression": "[[baseItem.value]] + 2000"
 	},
-	"magicvariant:Dancing Weapon": {
-		"value": 280000,
-		"valueExpression": "[[baseItem.value]] + 280000"
-	},
-	"magicvariant:Defender": {
+	"magicvariant:Defender|DMG": {
 		"value": 4800000,
 		"valueExpression": "[[baseItem.value]] + 4800000"
 	},
-	"magicvariant:Dragon Slayer": {
+	"magicvariant:Dragon Slayer|DMG": {
 		"value": 800000,
 		"valueExpression": "[[baseItem.value]] + 800000"
 	},
-	"magicvariant:Flame Tongue": {
-		"value": 675000,
-		"valueExpression": "[[baseItem.value]] + 675000"
-	},
-	"magicvariant:Frost Brand": {
-		"value": 865000,
-		"valueExpression": "[[baseItem.value]] + 865000"
-	},
-	"magicvariant:Giant Slayer": {
+	"magicvariant:Giant Slayer|DMG": {
 		"value": 800000,
 		"valueExpression": "[[baseItem.value]] + 800000"
 	},
-	"magicvariant:Holy Avenger": {
+	"magicvariant:Holy Avenger|DMG": {
 		"value": 12500000,
 		"valueExpression": "[[baseItem.value]] + 12500000"
 	},
-	"magicvariant:Luck Blade": {
+	"magicvariant:Luck Blade|DMG": {
 		"value": 1000000,
 		"valueExpression": "[[baseItem.value]] + 1000000"
 	},
-	"magicvariant:Mariner's Armor": {
+	"magicvariant:Mariner's Armor|DMG": {
 		"value": 50000,
 		"valueExpression": "[[baseItem.value]] + 50000"
 	},
-	"magicvariant:Moon-Touched Sword": {
+	"magicvariant:Moon-Touched Sword|XGE": {
 		"value": 3000,
 		"valueExpression": "[[baseItem.value]] + 3000"
 	},
-	"magicvariant:Nine Lives Stealer": {
+	"magicvariant:Nine Lives Stealer|DMG": {
 		"value": 1080000,
 		"valueExpression": "[[baseItem.value]] + 1080000"
 	},
-	"magicvariant:Silvered Weapon": {
-    "value": 10000,
+	"magicvariant:Silvered Weapon|PHB": {
+		"value": 10000,
 		"valueExpression": "[[baseItem.value]] + 10000"
 	},
-	"magicvariant:Smoldering Armor": {
+	"magicvariant:Smoldering Armor|XGE": {
 		"value": 1000,
 		"valueExpression": "[[baseItem.value]] + 1000"
 	},
-	"magicvariant:Sword of Life Stealing": {
+	"magicvariant:Sword of Life Stealing|DMG": {
 		"value": 80000,
 		"valueExpression": "[[baseItem.value]] + 80000"
 	},
-	"magicvariant:Weapon of Sharpness": {
-		"value": 350000,
-		"valueExpression": "[[baseItem.value]] + 350000"
-	},
-	"magicvariant:Weapon of Vengeance": {
-		"value": 300000,
-		"valueExpression": "[[baseItem.value]] + 300000"
-	},
-	"magicvariant:Weapon of Wounding": {
-		"value": 320000,
-		"valueExpression": "[[baseItem.value]] + 320000"
-	},
-	"magicvariant:Vicious Weapon": {
+	"magicvariant:Vicious Weapon|DMG": {
 		"value": 390000,
 		"valueExpression": "[[baseItem.value]] + 390000"
 	},
-	"magicvariant:Vorpal Sword": {
+	"magicvariant:Vorpal Sword|DMG": {
 		"value": 7600000,
 		"valueExpression": "[[baseItem.value]] + 7600000"
 	},
-	"magicvariant:Walloping Ammunition": {
+	"magicvariant:Walloping Ammunition|XGE": {
 		"value": 250,
 		"valueExpression": "[[baseItem.value]] + 250"
 	},
-	"magicvariant:Weapon of Warning": {
+	"magicvariant:Weapon of Warning|DMG": {
 		"value": 61000,
 		"valueExpression": "[[baseItem.value]] + 61000"
 	},
-	"magicvariant:Armor of Etherealness": {
-		"value": 3200000,
-		"valueExpression": "[[baseItem.value]] + 3200000"
+	"spell:Time Stop|PHB": {
+		"entries": [
+			"{@note Homebrew edit: from 1d4 + 1 to 1d4 + mod.}",
+			"You briefly stop the flow of time for everyone but yourself. No time passes for other creatures, while you take {@dice 1d4} + your spellcasting ability modifier turns in a row, during which you can use actions and move as normal.",
+			"This spell ends if one of the actions you use during this period, or any effects that you create during this period, affects a creature other than you or an object being worn or carried by someone other than you. In addition, the spell ends if you move to a place more than 1,000 feet from the location where you cast it."
+		]
+	},
+	"spell:Leomund's Tiny Hut|PHB": {
+		"school": "A",
+		"homebrewNotes": [
+			"{@note Homebrew edit: changed school from Evocation to Abjuration.}"
+		]
+	},
+	"spell:Alter Self|PHB": {
+		"homebrewNotes": [
+			"{@note Homebrew edit: added to druid spell list.}"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Druid",
+					"source": "PHB"
+				},
+				{
+					"name": "Sorcerer",
+					"source": "PHB"
+				},
+				{
+					"name": "Wizard",
+					"source": "PHB"
+				},
+				{
+					"name": "Artificer",
+					"source": "UAArtificer"
+				},
+				{
+					"name": "Artificer (Revisited)",
+					"source": "UAArtificerRevisited"
+				},
+				{
+					"name": "Artificer",
+					"source": "TCE"
+				}
+			]
+		}
+	},
+	"magicvariant:+1 Armor|DMG": {
+		"inherits.rarity": "uncommon",
+		"homebrewNotes": [
+			"{@note Homebrew edit: reduced rarity from rare.}"
+		]
+	},
+	"magicvariant:+2 Armor|DMG": {
+		"inherits.rarity": "rare",
+		"homebrewNotes": [
+			"{@note Homebrew edit: reduced rarity from very rare.}"
+		]
+	},
+	"magicvariant:+3 Armor|DMG": {
+		"inherits.rarity": "very rare",
+		"homebrewNotes": [
+			"{@note Homebrew edit: reduced rarity from legendary.}"
+		]
+	},
+	"magicvariant:Flame Tongue|DMG": {
+		"requires": [
+			{
+				"type": "M"
+			}
+		],
+		"homebrewNotes": [
+			"{@note Homebrew edit: added varieties other than swords (any melee weapon).}"
+		]
+	},
+	"magicvariant:Frost Brand|DMG": {
+		"requires": [
+			{
+				"type": "M"
+			}
+		],
+		"homebrewNotes": [
+			"{@note Homebrew edit: added varieties other than swords (any melee weapon).}"
+		]
 	}
 }

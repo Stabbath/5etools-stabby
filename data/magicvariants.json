@@ -35,8 +35,10 @@
 				],
 				"lootTables": [
 					"Magic Item Table B"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 2500"
+			},
+			"value": 2500
 		},
 		{
 			"name": "+1 Ammunition",
@@ -92,12 +94,16 @@
 					"+1 Armor|XDMG"
 				],
 				"tier": "major",
-				"rarity": "rare",
+				"rarity": "uncommon",
 				"bonusAc": "+1",
 				"entries": [
+					"{@note Homebrew edit: reduced rarity from rare.}",
+					"{@note Homebrew edit: reduced rarity from rare.}",
 					"You have a {=bonusAc} bonus to AC while wearing this armor."
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 100000"
+			},
+			"value": 100000
 		},
 		{
 			"name": "+1 Armor",
@@ -227,8 +233,10 @@
 				],
 				"lootTables": [
 					"Magic Item Table F"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 100000"
+			},
+			"value": 100000
 		},
 		{
 			"name": "+1 Weapon",
@@ -314,8 +322,10 @@
 				],
 				"lootTables": [
 					"Magic Item Table C"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 15750"
+			},
+			"value": 15750
 		},
 		{
 			"name": "+2 Ammunition",
@@ -371,12 +381,16 @@
 					"+2 Armor|XDMG"
 				],
 				"tier": "major",
-				"rarity": "very rare",
+				"rarity": "rare",
 				"bonusAc": "+2",
 				"entries": [
+					"{@note Homebrew edit: reduced rarity from very rare.}",
+					"{@note Homebrew edit: reduced rarity from very rare.}",
 					"You have a {=bonusAc} bonus to AC while wearing this armor."
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 630000"
+			},
+			"value": 630000
 		},
 		{
 			"name": "+2 Armor",
@@ -506,8 +520,10 @@
 				],
 				"lootTables": [
 					"Magic Item Table G"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 630000"
+			},
+			"value": 630000
 		},
 		{
 			"name": "+2 Weapon",
@@ -593,8 +609,10 @@
 				],
 				"lootTables": [
 					"Magic Item Table D"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 76250"
+			},
+			"value": 76250
 		},
 		{
 			"name": "+3 Ammunition",
@@ -650,12 +668,16 @@
 					"+3 Armor|XDMG"
 				],
 				"tier": "major",
-				"rarity": "legendary",
+				"rarity": "very rare",
 				"bonusAc": "+3",
 				"entries": [
+					"{@note Homebrew edit: reduced rarity from legendary.}",
+					"{@note Homebrew edit: reduced rarity from legendary.}",
 					"You have a {=bonusAc} bonus to AC while wearing this armor."
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 3050000"
+			},
+			"value": 3050000
 		},
 		{
 			"name": "+3 Armor",
@@ -779,8 +801,10 @@
 				],
 				"lootTables": [
 					"Magic Item Table H"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 3050000"
+			},
+			"value": 3050000
 		},
 		{
 			"name": "+3 Weapon",
@@ -1222,8 +1246,10 @@
 				"hasRefs": true,
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 375000"
+			},
+			"value": 375000
 		},
 		{
 			"name": "Armor of Acid Resistance",
@@ -1284,8 +1310,10 @@
 				"hasRefs": true,
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 375000"
+			},
+			"value": 375000
 		},
 		{
 			"name": "Armor of Cold Resistance",
@@ -1346,8 +1374,10 @@
 				"hasRefs": true,
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 375000"
+			},
+			"value": 375000
 		},
 		{
 			"name": "Armor of Fire Resistance",
@@ -1408,8 +1438,10 @@
 				"hasRefs": true,
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 375000"
+			},
+			"value": 375000
 		},
 		{
 			"name": "Armor of Force Resistance",
@@ -1495,8 +1527,10 @@
 				"rarity": "common",
 				"entries": [
 					"This armor never gets dirty."
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 4000"
+			},
+			"value": 4000
 		},
 		{
 			"name": "Armor of Gleaming",
@@ -1553,8 +1587,10 @@
 				"hasRefs": true,
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 375000"
+			},
+			"value": 375000
 		},
 		{
 			"name": "Armor of Lightning Resistance",
@@ -1615,8 +1651,10 @@
 				"hasRefs": true,
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 375000"
+			},
+			"value": 375000
 		},
 		{
 			"name": "Armor of Necrotic Resistance",
@@ -1677,8 +1715,10 @@
 				"hasRefs": true,
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 375000"
+			},
+			"value": 375000
 		},
 		{
 			"name": "Armor of Poison Resistance",
@@ -1739,8 +1779,10 @@
 				"hasRefs": true,
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 375000"
+			},
+			"value": 375000
 		},
 		{
 			"name": "Armor of Psychic Resistance",
@@ -1801,8 +1843,10 @@
 				"hasRefs": true,
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 375000"
+			},
+			"value": 375000
 		},
 		{
 			"name": "Armor of Radiant Resistance",
@@ -1930,8 +1974,10 @@
 				"hasRefs": true,
 				"entries": [
 					"{#itemEntry Armor of Resistance}"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 375000"
+			},
+			"value": 375000
 		},
 		{
 			"name": "Armor of Thunder Resistance",
@@ -2475,8 +2521,10 @@
 				"rarity": "common",
 				"entries": [
 					"You can doff this armor as an action."
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 2000"
+			},
+			"value": 2000
 		},
 		{
 			"name": "Cast-Off Armor",
@@ -2710,9 +2758,11 @@
 				],
 				"lootTables": [
 					"Magic Item Table I"
-				]
+				],
+				"valueExpression": "[[baseItem.value]] + 4800000"
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 4800000
 		},
 		{
 			"name": "Defender",
@@ -2877,9 +2927,11 @@
 				],
 				"lootTables": [
 					"Magic Item Table G"
-				]
+				],
+				"valueExpression": "[[baseItem.value]] + 800000"
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 800000
 		},
 		{
 			"name": "Dragon Slayer",
@@ -3880,7 +3932,7 @@
 			"type": "GV|DMG",
 			"requires": [
 				{
-					"sword": true
+					"type": "M"
 				}
 			],
 			"inherits": {
@@ -3895,6 +3947,8 @@
 				"rarity": "rare",
 				"reqAttune": true,
 				"entries": [
+					"{@note Homebrew edit: added varieties other than swords (any melee weapon).}",
+					"{@note Homebrew edit: added varieties other than swords (any melee weapon).}",
 					"You can use a bonus action to speak this magic sword's command word, causing flames to erupt from the blade. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is ablaze, it deals an extra {@damage 2d6} fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you drop or sheathe the sword."
 				],
 				"light": [
@@ -3905,9 +3959,11 @@
 				],
 				"lootTables": [
 					"Magic Item Table G"
-				]
+				],
+				"valueExpression": "[[baseItem.value]] + 675000"
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 675000
 		},
 		{
 			"name": "Flame Tongue",
@@ -4012,7 +4068,7 @@
 			"type": "GV|DMG",
 			"requires": [
 				{
-					"sword": true
+					"type": "M"
 				}
 			],
 			"inherits": {
@@ -4030,6 +4086,8 @@
 				"rarity": "very rare",
 				"reqAttune": true,
 				"entries": [
+					"{@note Homebrew edit: added varieties other than swords (any melee weapon).}",
+					"{@note Homebrew edit: added varieties other than swords (any melee weapon).}",
 					"When you hit with an attack using this magic sword, the target takes an extra {@damage 1d6} cold damage. In addition, while you hold the sword, you have resistance to fire damage.",
 					"In freezing temperatures, the blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.",
 					"When you draw this weapon, you can extinguish all nonmagical flames within 30 feet of you. This property can be used no more than once per hour."
@@ -4042,9 +4100,11 @@
 				],
 				"lootTables": [
 					"Magic Item Table H"
-				]
+				],
+				"valueExpression": "[[baseItem.value]] + 865000"
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 865000
 		},
 		{
 			"name": "Frost Brand",
@@ -4158,9 +4218,11 @@
 				],
 				"lootTables": [
 					"Magic Item Table G"
-				]
+				],
+				"valueExpression": "[[baseItem.value]] + 800000"
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 800000
 		},
 		{
 			"name": "Giant Slayer",
@@ -4389,9 +4451,11 @@
 				],
 				"lootTables": [
 					"Magic Item Table I"
-				]
+				],
+				"valueExpression": "[[baseItem.value]] + 12500000"
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 12500000
 		},
 		{
 			"name": "Holy Avenger",
@@ -4815,9 +4879,11 @@
 				},
 				"lootTables": [
 					"Magic Item Table I"
-				]
+				],
+				"valueExpression": "[[baseItem.value]] + 1000000"
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 1000000
 		},
 		{
 			"name": "Luck Blade",
@@ -4923,8 +4989,10 @@
 				],
 				"lootTables": [
 					"Magic Item Table B"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 50000"
+			},
+			"value": 50000
 		},
 		{
 			"name": "Mariner's Armor",
@@ -5194,8 +5262,10 @@
 						"bright": 15,
 						"dim": 30
 					}
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 3000"
+			},
+			"value": 3000
 		},
 		{
 			"name": "Moon-Touched Sword",
@@ -5364,9 +5434,11 @@
 				],
 				"lootTables": [
 					"Magic Item Table H"
-				]
+				],
+				"valueExpression": "[[baseItem.value]] + 1080000"
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 1080000
 		},
 		{
 			"name": "Nine Lives Stealer",
@@ -6096,7 +6168,8 @@
 				"tier": "major",
 				"rarity": "unknown",
 				"valueExpression": "[[baseItem.value]] + 10000"
-			}
+			},
+			"value": 10000
 		},
 		{
 			"name": "Silvered Weapon",
@@ -6164,8 +6237,10 @@
 				"rarity": "common",
 				"entries": [
 					"Wisps of harmless, odorless smoke rise from this armor while it is worn."
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 1000"
+			},
+			"value": 1000
 		},
 		{
 			"name": "Smoldering Armor",
@@ -6338,9 +6413,11 @@
 				],
 				"lootTables": [
 					"Magic Item Table G"
-				]
+				],
+				"valueExpression": "[[baseItem.value]] + 80000"
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 80000
 		},
 		{
 			"name": "Sword of Life Stealing",
@@ -6813,9 +6890,11 @@
 				],
 				"lootTables": [
 					"Magic Item Table G"
-				]
+				],
+				"valueExpression": "[[baseItem.value]] + 390000"
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 390000
 		},
 		{
 			"name": "Vicious Weapon",
@@ -6874,9 +6953,11 @@
 				],
 				"lootTables": [
 					"Magic Item Table I"
-				]
+				],
+				"valueExpression": "[[baseItem.value]] + 7600000"
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 7600000
 		},
 		{
 			"name": "Vorpal Sword",
@@ -6973,8 +7054,10 @@
 				"rarity": "common",
 				"entries": [
 					"This ammunition packs a wallop. A creature hit by the ammunition must succeed on a {@dc 10} Strength saving throw or be knocked {@condition prone}."
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 250"
+			},
+			"value": 250
 		},
 		{
 			"name": "Walloping Ammunition",
@@ -7121,9 +7204,11 @@
 				],
 				"lootTables": [
 					"Magic Item Table F"
-				]
+				],
+				"valueExpression": "[[baseItem.value]] + 61000"
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 61000
 		},
 		{
 			"name": "Weapon of Warning",

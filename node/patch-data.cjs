@@ -4,6 +4,7 @@ const path = require('path');
 // Configuration
 const PATH_ITEMS = './data/items.json';
 const PATH_MAGICVARIANTS = './data/magicvariants.json';
+const PATH_SPELLS_PHB = './data/spells/spells-phb.json';
 const PATH_PATCH = './patches/items-price.json';
 
 function runPatch() {
@@ -18,12 +19,17 @@ function runPatch() {
 	// Separate patches by type
 	const itemPatches = {};
 	const magicvariantPatches = {};
+	const spellPatches = {};
 	
 	Object.entries(patchData).forEach(([key, value]) => {
 		if (key.startsWith('magicvariant:')) {
 			// Remove the prefix for lookup
 			const cleanKey = key.substring('magicvariant:'.length);
 			magicvariantPatches[cleanKey] = value;
+		} else if (key.startsWith('spell:')) {
+			// Remove the prefix for lookup
+			const cleanKey = key.substring('spell:'.length);
+			spellPatches[cleanKey] = value;
 		} else {
 			itemPatches[key] = value;
 		}
@@ -39,6 +45,12 @@ function runPatch() {
 	if (Object.keys(magicvariantPatches).length > 0) {
 		console.log(`\nPatching magicvariants.json...`);
 		patchFile(PATH_MAGICVARIANTS, 'magicvariant', magicvariantPatches);
+	}
+
+	// Patch spells
+	if (Object.keys(spellPatches).length > 0) {
+		console.log(`\nPatching spells...`);
+		patchFile(PATH_SPELLS_PHB, 'spell', spellPatches);
 	}
 }
 
@@ -84,18 +96,50 @@ function patchFile(filePath, arrayKey, patches) {
 		if (targetIndex !== undefined) {
 			const targetItem = data[arrayKey][targetIndex];
 			
-			// Apply fields (special handling for valueExpression in inherits)
-			Object.entries(changes).forEach(([field, value]) => {
-				if (field === 'valueExpression' && targetItem.inherits) {
+			// Separate homebrewNotes from other changes
+			const homebrewNotes = changes.homebrewNotes;
+			const otherChanges = { ...changes };
+			delete otherChanges.homebrewNotes;
+			
+			// Apply fields (special handling for nested properties and inherits)
+			Object.entries(otherChanges).forEach(([field, value]) => {
+				// Handle nested paths like "inherits.rarity"
+				if (field.includes('.')) {
+					const parts = field.split('.');
+					let current = targetItem;
+					for (let i = 0; i < parts.length - 1; i++) {
+						if (!current[parts[i]]) current[parts[i]] = {};
+						current = current[parts[i]];
+					}
+					current[parts[parts.length - 1]] = value;
+				} else if (field === 'valueExpression' && targetItem.inherits) {
 					// Put valueExpression in inherits for magic variants
 					targetItem.inherits[field] = value;
 				} else if (field === 'value' && targetItem.inherits && targetItem.value === undefined) {
 					// If value doesn't exist at root but inherits does, put it at root
 					targetItem[field] = value;
 				} else {
+					// Generic property assignment
 					targetItem[field] = value;
 				}
 			});
+
+			// Apply homebrewNotes by prepending to entries array
+			if (homebrewNotes && Array.isArray(homebrewNotes)) {
+				// Determine where entries are located (root or inherits)
+				let entriesLocation = targetItem;
+				if (targetItem.inherits && !targetItem.entries && targetItem.inherits.entries) {
+					entriesLocation = targetItem.inherits;
+				}
+				
+				// Ensure entries array exists
+				if (!entriesLocation.entries) {
+					entriesLocation.entries = [];
+				}
+				
+				// Prepend homebrew notes
+				entriesLocation.entries = [...homebrewNotes, ...entriesLocation.entries];
+			}
 
 			patchCount++;
 		} else {
