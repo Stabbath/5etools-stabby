@@ -1,0 +1,1412 @@
+{
+	"+1 All-Purpose Tool|TCE": {
+		"value": 340000
+	},
+	"+1 Amulet of the Devout|TCE": {
+		"value": 225000
+	},
+	"+1 Arcane Grimoire|TCE": {
+		"value": 225000
+	},
+	"+1 Bloodwell Vial|TCE": {
+		"value": 225000
+	},
+	"+1 Dragonhide Belt|FTD": {
+		"value": 225000
+	},
+	"+1 Moon Sickle|TCE": {
+		"value": 350000
+	},
+	"+1 Rhythm-Maker's Drum|TCE": {
+		"value": 225000
+	},
+	"+1 Rod of the Pact Keeper|DMG": {
+		"value": 225000
+	},
+	"+1 Wand of the War Mage|DMG": {
+		"value": 100000
+	},
+	"+2 All-Purpose Tool|TCE": {
+		"value": 1170000
+	},
+	"+2 Amulet of the Devout|TCE": {
+		"value": 1000000
+	},
+	"+2 Arcane Grimoire|TCE": {
+		"value": 1000000
+	},
+	"+2 Bloodwell Vial|TCE": {
+		"value": 1000000
+	},
+	"+2 Dragonhide Belt|FTD": {
+		"value": 1000000
+	},
+	"+2 Moon Sickle|TCE": {
+		"value": 1500000
+	},
+	"+2 Rhythm-Maker's Drum|TCE": {
+		"value": 1000000
+	},
+	"+2 Rod of the Pact Keeper|DMG": {
+		"value": 1000000
+	},
+	"+2 Wand of the War Mage|DMG": {
+		"value": 600000
+	},
+	"+3 All-Purpose Tool|TCE": {
+		"value": 4000000
+	},
+	"+3 Amulet of the Devout|TCE": {
+		"value": 4000000
+	},
+	"+3 Arcane Grimoire|TCE": {
+		"value": 4000000
+	},
+	"+3 Bloodwell Vial|TCE": {
+		"value": 4000000
+	},
+	"+3 Dragonhide Belt|FTD": {
+		"value": 4000000
+	},
+	"+3 Moon Sickle|TCE": {
+		"value": 4500000
+	},
+	"+3 Rhythm-Maker's Drum|TCE": {
+		"value": 4000000
+	},
+	"+3 Rod of the Pact Keeper|DMG": {
+		"value": 4000000
+	},
+	"+3 Wand of the War Mage|DMG": {
+		"value": 2250000
+	},
+	"Acid Absorbing Tattoo|TCE": {
+		"value": 750000
+	},
+	"Alchemical Compendium|TCE": {
+		"value": 1727000
+	},
+	"Alchemy Jug|DMG": {
+		"value": 40000
+	},
+	"Amulet of Health|DMG": {
+		"value": 400000
+	},
+	"Amulet of Proof against Detection and Location|DMG": {
+		"value": 200000
+	},
+	"Amulet of the Planes|DMG": {
+		"value": 2300000
+	},
+	"Animated Shield|DMG": {
+		"value": 650000
+	},
+	"Apparatus of Kwalish|DMG": {
+		"value": 10000000
+	},
+	"Armor of Invulnerability|DMG": {
+		"value": 3500000
+	},
+	"Armor of Vulnerability (Bludgeoning)|DMG": {
+		"value": 500000
+	},
+	"Armor of Vulnerability (Piercing)|DMG": {
+		"value": 500000
+	},
+	"Armor of Vulnerability (Slashing)|DMG": {
+		"value": 500000
+	},
+	"Arrow-Catching Shield|DMG": {
+		"value": 721000
+	},
+	"Astral Shard|TCE": {
+		"value": 240000
+	},
+	"Astromancy Archive|TCE": {
+		"value": 4713000
+	},
+	"Atlas of Endless Horizons|TCE": {
+		"value": 4774000
+	},
+	"Bag of Beans|DMG": {
+		"value": 50000
+	},
+	"Bag of Devouring|DMG": {
+		"value": 2100000
+	},
+	"Bag of Holding|DMG": {
+		"value": 340000
+	},
+	"Bag of Tricks, Gray|DMG": {
+		"value": 240000
+	},
+	"Bag of Tricks, Rust|DMG": {
+		"value": 240000
+	},
+	"Bag of Tricks, Tan|DMG": {
+		"value": 240000
+	},
+	"Barrier Tattoo (Large)|TCE": {
+		"value": 800000
+	},
+	"Barrier Tattoo (Medium)|TCE": {
+		"value": 400000
+	},
+	"Barrier Tattoo (Small)|TCE": {
+		"value": 200000
+	},
+	"Bead of Force|DMG": {
+		"value": 175000
+	},
+	"Bead of Nourishment|XGE": {
+		"value": 500
+	},
+	"Bead of Refreshment|XGE": {
+		"value": 500
+	},
+	"Bell Branch|TCE": {
+		"value": 80000
+	},
+	"Belt of Cloud Giant Strength|DMG": {
+		"value": 8000000
+	},
+	"Belt of Dwarvenkind|DMG": {
+		"value": 520000
+	},
+	"Belt of Fire Giant Strength|DMG": {
+		"value": 3000000
+	},
+	"Belt of Frost Giant Strength|DMG": {
+		"value": 1000000
+	},
+	"Belt of Hill Giant Strength|DMG": {
+		"value": 400000
+	},
+	"Belt of Stone Giant Strength|DMG": {
+		"value": 1000000
+	},
+	"Belt of Storm Giant Strength|DMG": {
+		"value": 20000000
+	},
+	"Black Dragon Scale Mail|DMG": {
+		"value": 1000000
+	},
+	"Blood Fury Tattoo|TCE": {
+		"value": 6500000
+	},
+	"Blue Dragon Scale Mail|DMG": {
+		"value": 1000000
+	},
+	"Boots of Elvenkind|DMG": {
+		"value": 120000
+	},
+	"Boots of False Tracks|XGE": {
+		"value": 5500
+	},
+	"Boots of Levitation|DMG": {
+		"value": 80000
+	},
+	"Boots of Speed|DMG": {
+		"value": 260000
+	},
+	"Boots of Striding and Springing|DMG": {
+		"value": 58000
+	},
+	"Boots of the Winterlands|DMG": {
+		"value": 395000
+	},
+	"Bowl of Commanding Water Elementals|DMG": {
+		"value": 470000
+	},
+	"Bracers of Archery|DMG": {
+		"value": 175000
+	},
+	"Bracers of Defense|DMG": {
+		"value": 320000
+	},
+	"Brass Dragon Scale Mail|DMG": {
+		"value": 1000000
+	},
+	"Brazier of Commanding Fire Elementals|DMG": {
+		"value": 470000
+	},
+	"Bronze Dragon Scale Mail|DMG": {
+		"value": 1000000
+	},
+	"Brooch of Shielding|DMG": {
+		"value": 550000
+	},
+	"Broom of Flying|DMG": {
+		"value": 440000
+	},
+	"Candle of Invocation|DMG": {
+		"value": 3750000
+	},
+	"Candle of the Deep|XGE": {
+		"value": 250
+	},
+	"Cap of Water Breathing|DMG": {
+		"value": 100000
+	},
+	"Cape of the Mountebank|DMG": {
+		"value": 425000
+	},
+	"Cauldron of Rebirth|TCE": {
+		"value": 5600000
+	},
+	"Censer of Controlling Air Elementals|DMG": {
+		"value": 470000
+	},
+	"Charlatan's Die|XGE": {
+		"value": 500
+	},
+	"Chime of Opening|DMG": {
+		"value": 180000
+	},
+	"Circlet of Blasting|DMG": {
+		"value": 136000
+	},
+	"Cloak of Arachnida|DMG": {
+		"value": 760000
+	},
+	"Cloak of Billowing|XGE": {
+		"value": 1600
+	},
+	"Cloak of Displacement|DMG": {
+		"value": 2000000
+	},
+	"Cloak of Elvenkind|DMG": {
+		"value": 250000
+	},
+	"Cloak of Invisibility|DMG": {
+		"value": 24000000
+	},
+	"Cloak of Many Fashions|XGE": {
+		"value": 7000
+	},
+	"Cloak of Protection|DMG": {
+		"value": 220000
+	},
+	"Cloak of the Bat|DMG": {
+		"value": 520000
+	},
+	"Cloak of the Manta Ray|DMG": {
+		"value": 145000
+	},
+	"Clockwork Amulet|XGE": {
+		"value": 42000
+	},
+	"Clothes of Mending|XGE": {
+		"value": 4000
+	},
+	"Coiling Grasp Tattoo|TCE": {
+		"value": 200000
+	},
+	"Cold Absorbing Tattoo|TCE": {
+		"value": 750000
+	},
+	"Copper Dragon Scale Mail|DMG": {
+		"value": 1000000
+	},
+	"Crystal Ball|DMG": {
+		"value": 2300000
+	},
+	"Crystal Ball of Mind Reading|DMG": {
+		"value": 7200000
+	},
+	"Crystal Ball of Telepathy|DMG": {
+		"value": 8400000
+	},
+	"Crystal Ball of True Seeing|DMG": {
+		"value": 6500000
+	},
+	"Crystalline Chronicle|TCE": {
+		"value": 3957500
+	},
+	"Cube of Force|DMG": {
+		"value": 1380000
+	},
+	"Cubic Gate|DMG": {
+		"value": 14000000
+	},
+	"Daern's Instant Fortress|DMG": {
+		"value": 4000000
+	},
+	"Dagger of Venom|DMG": {
+		"value": 580000
+	},
+	"Dark Shard Amulet|XGE": {
+		"value": 24000
+	},
+	"Decanter of Endless Water|DMG": {
+		"value": 85000
+	},
+	"Deck of Illusions|DMG": {
+		"value": 68000
+	},
+	"Demon Armor|DMG": {
+		"value": 640000
+	},
+	"Devotee's Censer|TCE": {
+		"value": 875000
+	},
+	"Dimensional Shackles|DMG": {
+		"value": 215000
+	},
+	"Dread Helm|XGE": {
+		"value": 4000
+	},
+	"Driftglobe|DMG": {
+		"value": 86000
+	},
+	"Duplicitous Manuscript|TCE": {
+		"value": 485000
+	},
+	"Dust of Disappearance|DMG": {
+		"value": 40000
+	},
+	"Dust of Dryness|DMG": {
+		"value": 60000
+	},
+	"Dust of Sneezing and Choking|DMG": {
+		"value": 120000
+	},
+	"Dwarven Plate|DMG": {
+		"value": 690000
+	},
+	"Dwarven Thrower|DMG": {
+		"value": 3800000
+	},
+	"Ear Horn of Hearing|XGE": {
+		"value": 8500
+	},
+	"Efreeti Bottle|DMG": {
+		"value": 4750000
+	},
+	"Efreeti Chain|DMG": {
+		"value": 5200000
+	},
+	"Eldritch Claw Tattoo|TCE": {
+		"value": 200000
+	},
+	"Elemental Essence Shard|TCE": {
+		"value": 240000
+	},
+	"Elemental Gem, Blue Sapphire|DMG": {
+		"value": 100000
+	},
+	"Elemental Gem, Emerald|DMG": {
+		"value": 100000
+	},
+	"Elemental Gem, Red Corundum|DMG": {
+		"value": 100000
+	},
+	"Elemental Gem, Yellow Diamond|DMG": {
+		"value": 100000
+	},
+	"Elixir of Health|DMG": {
+		"value": 100000
+	},
+	"Elven Chain|DMG": {
+		"value": 450000
+	},
+	"Enduring Spellbook|XGE": {
+		"value": 20000
+	},
+	"Ersatz Eye|XGE": {
+		"value": 18500
+	},
+	"Eversmoking Bottle|DMG": {
+		"value": 94000
+	},
+	"Eyes of Charming|DMG": {
+		"value": 40000
+	},
+	"Eyes of Minute Seeing|DMG": {
+		"value": 120000
+	},
+	"Eyes of the Eagle|DMG": {
+		"value": 60000
+	},
+	"Far Realm Shard|TCE": {
+		"value": 240000
+	},
+	"Feywild Shard|TCE": {
+		"value": 75000
+	},
+	"Figurine of Wondrous Power, Bronze Griffon|DMG": {
+		"value": 166000
+	},
+	"Figurine of Wondrous Power, Ebony Fly|DMG": {
+		"value": 406000
+	},
+	"Figurine of Wondrous Power, Golden Lions|DMG": {
+		"value": 50000
+	},
+	"Figurine of Wondrous Power, Ivory Goats|DMG": {
+		"value": 367000
+	},
+	"Figurine of Wondrous Power, Marble Elephant|DMG": {
+		"value": 418000
+	},
+	"Figurine of Wondrous Power, Obsidian Steed|DMG": {
+		"value": 713000
+	},
+	"Figurine of Wondrous Power, Onyx Dog|DMG": {
+		"value": 145000
+	},
+	"Figurine of Wondrous Power, Serpentine Owl|DMG": {
+		"value": 456000
+	},
+	"Figurine of Wondrous Power, Silver Raven|DMG": {
+		"value": 126000
+	},
+	"Fire Absorbing Tattoo|TCE": {
+		"value": 750000
+	},
+	"Folding Boat|DMG": {
+		"value": 2280000
+	},
+	"Force Absorbing Tattoo|TCE": {
+		"value": 750000
+	},
+	"Fulminating Treatise|TCE": {
+		"value": 2116000
+	},
+	"Gauntlets of Ogre Power|DMG": {
+		"value": 111500
+	},
+	"Gem of Brightness|DMG": {
+		"value": 35000
+	},
+	"Gem of Seeing|DMG": {
+		"value": 840000
+	},
+	"Ghost Step Tattoo|TCE": {
+		"value": 700000
+	},
+	"Glamoured Studded Leather|DMG": {
+		"value": 350000
+	},
+	"Gloves of Missile Snaring|DMG": {
+		"value": 85000
+	},
+	"Gloves of Swimming and Climbing|DMG": {
+		"value": 70000
+	},
+	"Gloves of Thievery|DMG": {
+		"value": 280000
+	},
+	"Goggles of Night|DMG": {
+		"value": 190000
+	},
+	"Gold Dragon Scale Mail|DMG": {
+		"value": 1000000
+	},
+	"Green Dragon Scale Mail|DMG": {
+		"value": 1000000
+	},
+	"Guardian Emblem|TCE": {
+		"value": 46000
+	},
+	"Hammer of Thunderbolts|DMG": {
+		"value": 6500000
+	},
+	"Hat of Disguise|DMG": {
+		"value": 60000
+	},
+	"Hat of Vermin|XGE": {
+		"value": 12000
+	},
+	"Hat of Wizardry|XGE": {
+		"value": 24000
+	},
+	"Headband of Intellect|DMG": {
+		"value": 200000
+	},
+	"Heart Weaver's Primer|TCE": {
+		"value": 1466000
+	},
+	"Helm of Brilliance|DMG": {
+		"value": 2150000
+	},
+	"Helm of Comprehending Languages|DMG": {
+		"value": 120000
+	},
+	"Helm of Telepathy|DMG": {
+		"value": 250000
+	},
+	"Helm of Teleportation|DMG": {
+		"value": 1890000
+	},
+	"Heward's Handy Haversack|DMG": {
+		"value": 432000
+	},
+	"Heward's Handy Spice Pouch|XGE": {
+		"value": 9600
+	},
+	"Horn of Blasting|DMG": {
+		"value": 125000
+	},
+	"Horn of Silent Alarm|XGE": {
+		"value": 15500
+	},
+	"Horn of Valhalla, Brass|DMG": {
+		"value": 1000000
+	},
+	"Horn of Valhalla, Bronze|DMG": {
+		"value": 2400000
+	},
+	"Horn of Valhalla, Iron|DMG": {
+		"value": 5200000
+	},
+	"Horn of Valhalla, Silver|DMG": {
+		"value": 700000
+	},
+	"Horseshoes of a Zephyr|DMG": {
+		"value": 1600000
+	},
+	"Horseshoes of Speed|DMG": {
+		"value": 320000
+	},
+	"Illuminator's Tattoo|TCE": {
+		"value": 20000
+	},
+	"Immovable Rod|DMG": {
+		"value": 100000
+	},
+	"Instrument of Illusions|XGE": {
+		"value": 13000
+	},
+	"Instrument of Scribing|XGE": {
+		"value": 13000
+	},
+	"Instrument of the Bards, Anstruth Harp|DMG": {
+		"value": 2360500
+	},
+	"Instrument of the Bards, Canaith Mandolin|DMG": {
+		"value": 492000
+	},
+	"Instrument of the Bards, Cli Lyre|DMG": {
+		"value": 585500
+	},
+	"Instrument of the Bards, Doss Lute|DMG": {
+		"value": 277500
+	},
+	"Instrument of the Bards, Fochlucan Bandore|DMG": {
+		"value": 260000
+	},
+	"Instrument of the Bards, Mac-Fuirmidh Cittern|DMG": {
+		"value": 277000
+	},
+	"Instrument of the Bards, Ollamh Harp|DMG": {
+		"value": 3764500
+	},
+	"Ioun Stone, Absorption|DMG": {
+		"value": 540000
+	},
+	"Ioun Stone, Agility|DMG": {
+		"value": 720000
+	},
+	"Ioun Stone, Awareness|DMG": {
+		"value": 60000
+	},
+	"Ioun Stone, Fortitude|DMG": {
+		"value": 720000
+	},
+	"Ioun Stone, Greater Absorption|DMG": {
+		"value": 3600000
+	},
+	"Ioun Stone, Insight|DMG": {
+		"value": 720000
+	},
+	"Ioun Stone, Intellect|DMG": {
+		"value": 720000
+	},
+	"Ioun Stone, Leadership|DMG": {
+		"value": 720000
+	},
+	"Ioun Stone, Mastery|DMG": {
+		"value": 2550000
+	},
+	"Ioun Stone, Protection|DMG": {
+		"value": 180000
+	},
+	"Ioun Stone, Regeneration|DMG": {
+		"value": 2100000
+	},
+	"Ioun Stone, Reserve|DMG": {
+		"value": 1560000
+	},
+	"Ioun Stone, Strength|DMG": {
+		"value": 720000
+	},
+	"Ioun Stone, Sustenance|DMG": {
+		"value": 255000
+	},
+	"Iron Bands of Bilarro|DMG": {
+		"value": 120000
+	},
+	"Iron Flask|DMG": {
+		"value": 6200000
+	},
+	"Javelin of Lightning|DMG": {
+		"value": 80000
+	},
+	"Keoghtom's Ointment|DMG": {
+		"value": 20000
+	},
+	"Lantern of Revealing|DMG": {
+		"value": 150000
+	},
+	"Libram of Souls and Flesh|TCE": {
+		"value": 1131500
+	},
+	"Lifewell Tattoo|TCE": {
+		"value": 800000
+	},
+	"Lightning Absorbing Tattoo|TCE": {
+		"value": 750000
+	},
+	"Lock of Trickery|XGE": {
+		"value": 20000
+	},
+	"Lyre of Building|TCE": {
+		"value": 788000
+	},
+	"Mace of Disruption|DMG": {
+		"value": 920000
+	},
+	"Mace of Smiting|DMG": {
+		"value": 750000
+	},
+	"Mace of Terror|DMG": {
+		"value": 460000
+	},
+	"Mantle of Spell Resistance|DMG": {
+		"value": 4000000
+	},
+	"Manual of Bodily Health|DMG": {
+		"value": 6000000
+	},
+	"Manual of Clay Golems|DMG": {
+		"value": 1560000
+	},
+	"Manual of Flesh Golems|DMG": {
+		"value": 1200000
+	},
+	"Manual of Gainful Exercise|DMG": {
+		"value": 6000000
+	},
+	"Manual of Iron Golems|DMG": {
+		"value": 2400000
+	},
+	"Manual of Quickness of Action|DMG": {
+		"value": 6000000
+	},
+	"Manual of Stone Golems|DMG": {
+		"value": 1920000
+	},
+	"Masquerade Tattoo|TCE": {
+		"value": 20000
+	},
+	"Medallion of Thoughts|DMG": {
+		"value": 78000
+	},
+	"Mirror of Life Trapping|DMG": {
+		"value": 8000000
+	},
+	"Moonblade|DMG": {
+		"value": 110000
+	},
+	"Mystery Key|XGE": {
+		"value": 35000
+	},
+	"Nature's Mantle|TCE": {
+		"value": 90000
+	},
+	"Necklace of Adaptation|DMG": {
+		"value": 125000
+	},
+	"Necklace of Fireballs|DMG": {
+		"value": 35000
+	},
+	"Necklace of Prayer Beads|DMG": {
+		"value": 10000
+	},
+	"Necrotic Absorbing Tattoo|TCE": {
+		"value": 750000
+	},
+	"Nolzur's Marvelous Pigments|DMG": {
+		"value": 500000
+	},
+	"Oathbow|DMG": {
+		"value": 720000
+	},
+	"Oil of Etherealness|DMG": {
+		"value": 275000
+	},
+	"Oil of Sharpness|DMG": {
+		"value": 610000
+	},
+	"Oil of Slipperiness|DMG": {
+		"value": 60000
+	},
+	"Orb of Direction|XGE": {
+		"value": 6000
+	},
+	"Orb of Time|XGE": {
+		"value": 7500
+	},
+	"Outer Essence Shard|TCE": {
+		"value": 240000
+	},
+	"Pearl of Power|DMG": {
+		"value": 249000
+	},
+	"Perfume of Bewitching|XGE": {
+		"value": 20000
+	},
+	"Periapt of Health|DMG": {
+		"value": 560000
+	},
+	"Periapt of Proof against Poison|DMG": {
+		"value": 940000
+	},
+	"Periapt of Wound Closure|DMG": {
+		"value": 120000
+	},
+	"Philter of Love|DMG": {
+		"value": 6000
+	},
+	"Pipe of Smoke Monsters|XGE": {
+		"value": 800
+	},
+	"Pipes of Haunting|DMG": {
+		"value": 450000
+	},
+	"Pipes of the Sewers|DMG": {
+		"value": 75000
+	},
+	"Planecaller's Codex|TCE": {
+		"value": 2911000
+	},
+	"Poison Absorbing Tattoo|TCE": {
+		"value": 750000
+	},
+	"Pole of Angling|XGE": {
+		"value": 1200
+	},
+	"Pole of Collapsing|XGE": {
+		"value": 1000
+	},
+	"Portable Hole|DMG": {
+		"value": 970000
+	},
+	"Pot of Awakening|XGE": {
+		"value": 6000
+	},
+	"Potion of Acid Resistance|DMG": {
+		"value": 60000
+	},
+	"Potion of Animal Friendship|DMG": {
+		"value": 18000
+	},
+	"Potion of Clairvoyance|DMG": {
+		"value": 120000
+	},
+	"Potion of Climbing|DMG": {
+		"value": 3200
+	},
+	"Potion of Cloud Giant Strength|DMG": {
+		"value": 800000
+	},
+	"Potion of Cold Resistance|DMG": {
+		"value": 60000
+	},
+	"Potion of Diminution|DMG": {
+		"value": 60000
+	},
+	"Potion of Fire Breath|DMG": {
+		"value": 33000
+	},
+	"Potion of Fire Giant Strength|DMG": {
+		"value": 300000
+	},
+	"Potion of Fire Resistance|DMG": {
+		"value": 60000
+	},
+	"Potion of Flying|DMG": {
+		"value": 90000
+	},
+	"Potion of Force Resistance|DMG": {
+		"value": 60000
+	},
+	"Potion of Frost Giant Strength|DMG": {
+		"value": 100000
+	},
+	"Potion of Gaseous Form|DMG": {
+		"value": 85000
+	},
+	"Potion of Greater Healing|DMG": {
+		"value": 15000
+	},
+	"Potion of Growth|DMG": {
+		"value": 60000
+	},
+	"Potion of Heroism|DMG": {
+		"value": 42000
+	},
+	"Potion of Hill Giant Strength|DMG": {
+		"value": 40000
+	},
+	"Potion of Invisibility|DMG": {
+		"value": 225000
+	},
+	"Potion of Invulnerability|DMG": {
+		"value": 700000
+	},
+	"Potion of Lightning Resistance|DMG": {
+		"value": 60000
+	},
+	"Potion of Longevity|DMG": {
+		"value": 450000
+	},
+	"Potion of Mind Reading|DMG": {
+		"value": 72000
+	},
+	"Potion of Necrotic Resistance|DMG": {
+		"value": 60000
+	},
+	"Potion of Poison|DMG": {
+		"value": 10000
+	},
+	"Potion of Poison Resistance|DMG": {
+		"value": 60000
+	},
+	"Potion of Psychic Resistance|DMG": {
+		"value": 60000
+	},
+	"Potion of Radiant Resistance|DMG": {
+		"value": 60000
+	},
+	"Potion of Speed|DMG": {
+		"value": 80000
+	},
+	"Potion of Stone Giant Strength|DMG": {
+		"value": 100000
+	},
+	"Potion of Storm Giant Strength|DMG": {
+		"value": 3000000
+	},
+	"Potion of Superior Healing|DMG": {
+		"value": 50000
+	},
+	"Potion of Supreme Healing|DMG": {
+		"value": 200000
+	},
+	"Potion of Thunder Resistance|DMG": {
+		"value": 60000
+	},
+	"Potion of Vitality|DMG": {
+		"value": 585000
+	},
+	"Potion of Water Breathing|DMG": {
+		"value": 25000
+	},
+	"Protective Verses|TCE": {
+		"value": 1096000
+	},
+	"Psychic Absorbing Tattoo|TCE": {
+		"value": 750000
+	},
+	"Quaal's Feather Token, Anchor|DMG": {
+		"value": 30000
+	},
+	"Quaal's Feather Token, Bird|DMG": {
+		"value": 180000
+	},
+	"Quaal's Feather Token, Fan|DMG": {
+		"value": 80000
+	},
+	"Quaal's Feather Token, Swan Boat|DMG": {
+		"value": 120000
+	},
+	"Quaal's Feather Token, Tree|DMG": {
+		"value": 20000
+	},
+	"Quaal's Feather Token, Whip|DMG": {
+		"value": 60000
+	},
+	"Quiver of Ehlonna|DMG": {
+		"value": 37500
+	},
+	"Radiant Absorbing Tattoo|TCE": {
+		"value": 750000
+	},
+	"Red Dragon Scale Mail|DMG": {
+		"value": 1000000
+	},
+	"Reveler's Concertina|TCE": {
+		"value": 990000
+	},
+	"Ring of Acid Resistance|DMG": {
+		"value": 415000
+	},
+	"Ring of Air Elemental Command|DMG": {
+		"value": 8750000
+	},
+	"Ring of Animal Influence|DMG": {
+		"value": 150000
+	},
+	"Ring of Cold Resistance|DMG": {
+		"value": 415000
+	},
+	"Ring of Djinni Summoning|DMG": {
+		"value": 6400000
+	},
+	"Ring of Earth Elemental Command|DMG": {
+		"value": 8750000
+	},
+	"Ring of Evasion|DMG": {
+		"value": 480000
+	},
+	"Ring of Feather Falling|DMG": {
+		"value": 98000
+	},
+	"Ring of Fire Elemental Command|DMG": {
+		"value": 8750000
+	},
+	"Ring of Fire Resistance|DMG": {
+		"value": 415000
+	},
+	"Ring of Force Resistance|DMG": {
+		"value": 415000
+	},
+	"Ring of Free Action|DMG": {
+		"value": 780000
+	},
+	"Ring of Invisibility|DMG": {
+		"value": 7500000
+	},
+	"Ring of Jumping|DMG": {
+		"value": 60000
+	},
+	"Ring of Lightning Resistance|DMG": {
+		"value": 415000
+	},
+	"Ring of Mind Shielding|DMG": {
+		"value": 180000
+	},
+	"Ring of Necrotic Resistance|DMG": {
+		"value": 415000
+	},
+	"Ring of Poison Resistance|DMG": {
+		"value": 415000
+	},
+	"Ring of Protection|DMG": {
+		"value": 300000
+	},
+	"Ring of Psychic Resistance|DMG": {
+		"value": 415000
+	},
+	"Ring of Radiant Resistance|DMG": {
+		"value": 415000
+	},
+	"Ring of Regeneration|DMG": {
+		"value": 1450000
+	},
+	"Ring of Shooting Stars|DMG": {
+		"value": 960000
+	},
+	"Ring of Spell Storing|DMG": {
+		"value": 1900000
+	},
+	"Ring of Spell Turning|DMG": {
+		"value": 9500000
+	},
+	"Ring of Swimming|DMG": {
+		"value": 80000
+	},
+	"Ring of Telekinesis|DMG": {
+		"value": 845000
+	},
+	"Ring of the Ram|DMG": {
+		"value": 350000
+	},
+	"Ring of Three Wishes|DMG": {
+		"value": 46000000
+	},
+	"Ring of Thunder Resistance|DMG": {
+		"value": 415000
+	},
+	"Ring of Warmth|DMG": {
+		"value": 420000
+	},
+	"Ring of Water Elemental Command|DMG": {
+		"value": 8750000
+	},
+	"Ring of Water Walking|DMG": {
+		"value": 80000
+	},
+	"Ring of X-ray Vision|DMG": {
+		"value": 400000
+	},
+	"Robe of Eyes|DMG": {
+		"value": 1160000
+	},
+	"Robe of Scintillating Colors|DMG": {
+		"value": 3100000
+	},
+	"Robe of Stars|DMG": {
+		"value": 4500000
+	},
+	"Robe of the Archmagi|DMG": {
+		"value": 12000000
+	},
+	"Robe of Useful Items|DMG": {
+		"value": 17000
+	},
+	"Rod of Absorption|DMG": {
+		"value": 3800000
+	},
+	"Rod of Alertness|DMG": {
+		"value": 2500000
+	},
+	"Rod of Lordly Might|DMG": {
+		"value": 10500000
+	},
+	"Rod of Resurrection|DMG": {
+		"value": 35000000
+	},
+	"Rod of Rulership|DMG": {
+		"value": 1240000
+	},
+	"Rod of Security|DMG": {
+		"value": 7400000
+	},
+	"Rope of Climbing|DMG": {
+		"value": 31500
+	},
+	"Rope of Entanglement|DMG": {
+		"value": 60000
+	},
+	"Rope of Mending|XGE": {
+		"value": 9000
+	},
+	"Ruby of the War Mage|XGE": {
+		"value": 6000
+	},
+	"Saddle of the Cavalier|DMG": {
+		"value": 25000
+	},
+	"Scarab of Protection|DMG": {
+		"value": 8000000
+	},
+	"Scimitar of Speed|DMG": {
+		"value": 850000
+	},
+	"Scroll of Protection from Aberrations|DMG": {
+		"value": 58000
+	},
+	"Scroll of Protection from Beasts|DMG": {
+		"value": 30000
+	},
+	"Scroll of Protection from Celestials|DMG": {
+		"value": 60000
+	},
+	"Scroll of Protection from Elementals|DMG": {
+		"value": 60000
+	},
+	"Scroll of Protection from Fey|DMG": {
+		"value": 60000
+	},
+	"Scroll of Protection from Fiends|DMG": {
+		"value": 60000
+	},
+	"Scroll of Protection from Plants|DMG": {
+		"value": 35000
+	},
+	"Scroll of Protection from Undead|DMG": {
+		"value": 45000
+	},
+	"Sending Stones|DMG": {
+		"value": 20000
+	},
+	"Sentinel Shield|DMG": {
+		"value": 72000
+	},
+	"Shadowfell Brand Tattoo|TCE": {
+		"value": 400000
+	},
+	"Shadowfell Shard|TCE": {
+		"value": 240000
+	},
+	"Shield of Expression|XGE": {
+		"value": 2000
+	},
+	"Shield of Missile Attraction|DMG": {
+		"value": 510000
+	},
+	"Silver Dragon Scale Mail|DMG": {
+		"value": 1000000
+	},
+	"Slippers of Spider Climbing|DMG": {
+		"value": 30000
+	},
+	"Sovereign Glue|DMG": {
+		"value": 140000
+	},
+	"Spell Scroll (1st Level)|DMG": {
+		"value": 10000
+	},
+	"Spell Scroll (2nd Level)|DMG": {
+		"value": 25000
+	},
+	"Spell Scroll (3rd Level)|DMG": {
+		"value": 42500
+	},
+	"Spell Scroll (4th Level)|DMG": {
+		"value": 70000
+	},
+	"Spell Scroll (5th Level)|DMG": {
+		"value": 100000
+	},
+	"Spell Scroll (6th Level)|DMG": {
+		"value": 200000
+	},
+	"Spell Scroll (7th Level)|DMG": {
+		"value": 350000
+	},
+	"Spell Scroll (8th Level)|DMG": {
+		"value": 750000
+	},
+	"Spell Scroll (9th Level)|DMG": {
+		"value": 2000000
+	},
+	"Spell Scroll (Cantrip)|DMG": {
+		"value": 5000
+	},
+	"Spellguard Shield|DMG": {
+		"value": 5000000
+	},
+	"Spellwrought Tattoo (1st Level)|TCE": {
+		"value": 12000
+	},
+	"Spellwrought Tattoo (2nd Level)|TCE": {
+		"value": 30000
+	},
+	"Spellwrought Tattoo (3rd Level)|TCE": {
+		"value": 51000
+	},
+	"Spellwrought Tattoo (4th Level)|TCE": {
+		"value": 84000
+	},
+	"Spellwrought Tattoo (5th Level)|TCE": {
+		"value": 120000
+	},
+	"Spellwrought Tattoo (Cantrip)|TCE": {
+		"value": 6000
+	},
+	"Sphere of Annihilation|DMG": {
+		"value": 40000000
+	},
+	"Spider Staff|LMoP": {
+		"value": 550000
+	},
+	"Staff of Adornment|XGE": {
+		"value": 1500
+	},
+	"Staff of Birdcalls|XGE": {
+		"value": 2500
+	},
+	"Staff of Charming|DMG": {
+		"value": 260000
+	},
+	"Staff of Defense|LMoP": {
+		"value": 570000
+	},
+	"Staff of Fire|DMG": {
+		"value": 2650000
+	},
+	"Staff of Flowers|XGE": {
+		"value": 2000
+	},
+	"Staff of Frost|DMG": {
+		"value": 2650000
+	},
+	"Staff of Healing|DMG": {
+		"value": 1750000
+	},
+	"Staff of Power|DMG": {
+		"value": 7800000
+	},
+	"Staff of Striking|DMG": {
+		"value": 3850000
+	},
+	"Staff of Swarming Insects|DMG": {
+		"value": 1650000
+	},
+	"Staff of the Adder|DMG": {
+		"value": 125000
+	},
+	"Staff of the Magi|DMG": {
+		"value": 22500000
+	},
+	"Staff of the Python|DMG": {
+		"value": 420000
+	},
+	"Staff of the Woodlands|DMG": {
+		"value": 2400000
+	},
+	"Staff of Thunder and Lightning|DMG": {
+		"value": 2250000
+	},
+	"Staff of Withering|DMG": {
+		"value": 245000
+	},
+	"Stone of Controlling Earth Elementals|DMG": {
+		"value": 470000
+	},
+	"Stone of Good Luck|DMG": {
+		"value": 320000
+	},
+	"Sun Blade|DMG": {
+		"value": 1200000
+	},
+	"Sword of Answering (Answerer)|DMG": {
+		"value": 12600000
+	},
+	"Sword of Answering (Back Talker)|DMG": {
+		"value": 12600000
+	},
+	"Sword of Answering (Concluder)|DMG": {
+		"value": 12600000
+	},
+	"Sword of Answering (Last Quip)|DMG": {
+		"value": 12600000
+	},
+	"Sword of Answering (Rebutter)|DMG": {
+		"value": 12600000
+	},
+	"Sword of Answering (Replier)|DMG": {
+		"value": 12600000
+	},
+	"Sword of Answering (Retorter)|DMG": {
+		"value": 12600000
+	},
+	"Sword of Answering (Scather)|DMG": {
+		"value": 12600000
+	},
+	"Sword of Answering (Squelcher)|DMG": {
+		"value": 12600000
+	},
+	"Talisman of Pure Good|DMG": {
+		"value": 24000000
+	},
+	"Talisman of the Sphere|DMG": {
+		"value": 6000000
+	},
+	"Talisman of Ultimate Evil|DMG": {
+		"value": 24000000
+	},
+	"Talking Doll|XGE": {
+		"value": 1800
+	},
+	"Tankard of Sobriety|XGE": {
+		"value": 5000
+	},
+	"Tentacle Rod|DMG": {
+		"value": 985000
+	},
+	"Thunder Absorbing Tattoo|TCE": {
+		"value": 750000
+	},
+	"Tome of Clear Thought|DMG": {
+		"value": 6000000
+	},
+	"Tome of Leadership and Influence|DMG": {
+		"value": 6000000
+	},
+	"Tome of the Stilled Tongue|DMG": {
+		"value": 13500000
+	},
+	"Tome of Understanding|DMG": {
+		"value": 6000000
+	},
+	"Trident of Fish Command|DMG": {
+		"value": 20500
+	},
+	"Unbreakable Arrow|XGE": {
+		"value": 100
+	},
+	"Universal Solvent|DMG": {
+		"value": 120000
+	},
+	"Veteran's Cane|XGE": {
+		"value": 16500
+	},
+	"Wand of Binding|DMG": {
+		"value": 415000
+	},
+	"Wand of Conducting|XGE": {
+		"value": 4000
+	},
+	"Wand of Enemy Detection|DMG": {
+		"value": 280000
+	},
+	"Wand of Fear|DMG": {
+		"value": 480000
+	},
+	"Wand of Fireballs|DMG": {
+		"value": 780000
+	},
+	"Wand of Lightning Bolts|DMG": {
+		"value": 780000
+	},
+	"Wand of Magic Detection|DMG": {
+		"value": 60000
+	},
+	"Wand of Magic Missiles|DMG": {
+		"value": 248000
+	},
+	"Wand of Paralysis|DMG": {
+		"value": 1120000
+	},
+	"Wand of Polymorph|DMG": {
+		"value": 1880000
+	},
+	"Wand of Pyrotechnics|XGE": {
+		"value": 9000
+	},
+	"Wand of Scowls|XGE": {
+		"value": 3500
+	},
+	"Wand of Secrets|DMG": {
+		"value": 66000
+	},
+	"Wand of Smiles|XGE": {
+		"value": 3500
+	},
+	"Wand of Web|DMG": {
+		"value": 235000
+	},
+	"Wand of Wonder|DMG": {
+		"value": 125000
+	},
+	"Well of Many Worlds|DMG": {
+		"value": 9000000
+	},
+	"White Dragon Scale Mail|DMG": {
+		"value": 1000000
+	},
+	"Wind Fan|DMG": {
+		"value": 25000
+	},
+	"Winged Boots|DMG": {
+		"value": 172500
+	},
+	"Wings of Flying|DMG": {
+		"value": 740000
+	}
+}
