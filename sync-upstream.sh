@@ -6,6 +6,11 @@ set -e
 
 echo "🔄 Syncing fork with upstream repository..."
 
+# Upstream uses 'main' branch, local might use 'master'
+# Default to master for local, main for upstream
+LOCAL_BRANCH=${1:-master}
+UPSTREAM_BRANCH="main"
+
 # Check if upstream remote exists
 if ! git remote | grep -q "^upstream$"; then
     echo "➕ Adding upstream remote..."
@@ -22,13 +27,10 @@ git fetch upstream
 CURRENT_BRANCH=$(git branch --show-current)
 echo "📍 Current branch: $CURRENT_BRANCH"
 
-# Default to master if no branch specified
-TARGET_BRANCH=${1:-master}
-
 # Switch to target branch if not already on it
-if [ "$CURRENT_BRANCH" != "$TARGET_BRANCH" ]; then
-    echo "🔀 Switching to $TARGET_BRANCH branch..."
-    git checkout "$TARGET_BRANCH"
+if [ "$CURRENT_BRANCH" != "$LOCAL_BRANCH" ]; then
+    echo "🔀 Switching to $LOCAL_BRANCH branch..."
+    git checkout "$LOCAL_BRANCH"
 fi
 
 # Check if there are uncommitted changes
@@ -39,20 +41,20 @@ if ! git diff-index --quiet HEAD --; then
 fi
 
 # Check if upstream has new commits
-UPSTREAM_COMMIT=$(git rev-parse upstream/$TARGET_BRANCH)
+UPSTREAM_COMMIT=$(git rev-parse upstream/$UPSTREAM_BRANCH)
 LOCAL_COMMIT=$(git rev-parse HEAD)
 
 if [ "$UPSTREAM_COMMIT" = "$LOCAL_COMMIT" ]; then
-    echo "✓ Already up to date with upstream/$TARGET_BRANCH"
+    echo "✓ Already up to date with upstream/$UPSTREAM_BRANCH"
     exit 0
 fi
 
-echo "🔀 Merging upstream/$TARGET_BRANCH..."
-if git merge upstream/$TARGET_BRANCH --no-edit; then
+echo "🔀 Merging upstream/$UPSTREAM_BRANCH into $LOCAL_BRANCH..."
+if git merge upstream/$UPSTREAM_BRANCH --no-edit; then
     echo "✓ Successfully merged upstream changes"
     
     echo "⬆️  Pushing changes to origin..."
-    git push origin "$TARGET_BRANCH"
+    git push origin "$LOCAL_BRANCH"
     
     echo "✅ Sync complete!"
 else
@@ -60,6 +62,6 @@ else
     echo "Please resolve conflicts manually and run:"
     echo "  git add <resolved-files>"
     echo "  git merge --continue"
-    echo "  git push origin $TARGET_BRANCH"
+    echo "  git push origin $LOCAL_BRANCH"
     exit 1
 fi

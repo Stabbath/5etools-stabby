@@ -34,7 +34,8 @@ jobs:
       - name: Check for updates
         id: check
         run: |
-          UPSTREAM_COMMIT=$(git rev-parse upstream/master)
+          # Upstream uses 'main' branch
+          UPSTREAM_COMMIT=$(git rev-parse upstream/main)
           LOCAL_COMMIT=$(git rev-parse HEAD)
           
           if [ "$UPSTREAM_COMMIT" != "$LOCAL_COMMIT" ]; then
@@ -48,8 +49,8 @@ jobs:
       - name: Merge upstream changes
         if: steps.check.outputs.has_updates == 'true'
         run: |
-          # Try to merge
-          if git merge upstream/master --no-edit; then
+          # Try to merge upstream/main into master
+          if git merge upstream/main --no-edit; then
             echo "Successfully merged upstream changes"
           else
             echo "::warning::Merge conflicts detected. Manual intervention required."

@@ -8,17 +8,25 @@ This is a fork of [5etools-mirror-3/5etools-src](https://github.com/5etools-mirr
 
 ## Syncing with Upstream
 
-This fork is kept in sync with the upstream repository. For instructions on how to sync with the latest changes from upstream, see [SYNC_UPSTREAM.md](./SYNC_UPSTREAM.md).
+This fork can be kept in sync with the upstream repository. For detailed instructions on how to sync with the latest changes from upstream, see [SYNC_UPSTREAM.md](./SYNC_UPSTREAM.md).
 
 ### Quick Sync Guide
 
-The easiest way to sync is to use the provided helper script:
+**Method 1: Create a separate branch with upstream code (Recommended)**
+
+```bash
+./create-upstream-branch.sh
+```
+
+This creates an `upstream-sync` branch that you can review and merge via pull request or directly.
+
+**Method 2: Direct sync with helper script**
 
 ```bash
 ./sync-upstream.sh
 ```
 
-Or manually:
+**Method 3: Manual sync**
 
 ```bash
 # Add upstream remote (first time only)
@@ -27,7 +35,7 @@ git remote add upstream https://github.com/5etools-mirror-3/5etools-src.git
 # Fetch and merge upstream changes
 git fetch upstream
 git checkout master
-git merge upstream/master
+git merge upstream/main
 git push origin master
 ```
 

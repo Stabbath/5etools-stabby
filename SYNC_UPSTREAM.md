@@ -2,7 +2,28 @@
 
 This repository is a fork of [5etools-mirror-3/5etools-src](https://github.com/5etools-mirror-3/5etools-src/). This guide explains how to sync your fork with the upstream repository to keep it up-to-date.
 
-## Quick Sync with Helper Script
+## Method 1: Create Upstream Branch (Recommended)
+
+The easiest approach is to create a separate branch that mirrors the upstream repository, then merge it when ready:
+
+```bash
+./create-upstream-branch.sh
+```
+
+This script will:
+1. Add the upstream remote (if not already added)
+2. Fetch the latest upstream changes
+3. Create an `upstream-sync` branch based on `upstream/main`
+4. Push the branch to your repository
+
+Once the branch is created, you can:
+- **Review changes** on GitHub by comparing branches
+- **Create a Pull Request** to merge upstream changes with review
+- **Merge directly** if you're confident: `git checkout master && git merge upstream-sync && git push`
+
+This approach gives you full control and visibility over what's being merged.
+
+## Method 2: Quick Sync with Helper Script
 
 The easiest way to sync is to use the provided helper script:
 
@@ -66,12 +87,14 @@ git checkout master
 
 ### 4. Merge or Rebase Upstream Changes
 
+**Note:** The upstream repository uses `main` as its default branch, while your fork may use `master`.
+
 You have two options:
 
 #### Option A: Merge (Recommended for preserving history)
 
 ```bash
-git merge upstream/master
+git merge upstream/main
 ```
 
 This creates a merge commit and preserves the complete history of both branches.
@@ -79,7 +102,7 @@ This creates a merge commit and preserves the complete history of both branches.
 #### Option B: Rebase (For a linear history)
 
 ```bash
-git rebase upstream/master
+git rebase upstream/main
 ```
 
 This replays your commits on top of the upstream changes, creating a linear history.
@@ -141,7 +164,7 @@ jobs:
       
       - name: Merge upstream changes
         run: |
-          git merge upstream/master --no-edit || echo "Merge conflicts detected"
+          git merge upstream/main --no-edit || echo "Merge conflicts detected"
       
       - name: Push changes
         run: |
@@ -159,8 +182,8 @@ git fetch upstream
 # Checkout your branch
 git checkout your-branch-name
 
-# Merge upstream branch
-git merge upstream/branch-name
+# Merge upstream branch (upstream uses 'main')
+git merge upstream/main
 
 # Push to your fork
 git push origin your-branch-name
@@ -169,7 +192,7 @@ git push origin your-branch-name
 ## Best Practices
 
 1. **Always sync before starting new work** - Fetch and merge upstream changes before creating new branches
-2. **Review changes** - Use `git log upstream/master..master` to see what changes will be merged
+2. **Review changes** - Use `git log upstream/main..master` to see what changes will be merged
 3. **Test after syncing** - Run tests to ensure upstream changes don't break your custom modifications
 4. **Keep custom changes minimal** - The more you diverge from upstream, the harder syncing becomes
 5. **Use feature branches** - Make custom changes in feature branches, keeping master close to upstream
@@ -189,7 +212,7 @@ git merge --continue
 
 **Solution:** Use the `--allow-unrelated-histories` flag:
 ```bash
-git merge upstream/master --allow-unrelated-histories
+git merge upstream/main --allow-unrelated-histories
 ```
 
 ### Problem: Want to discard local changes and match upstream exactly
@@ -197,7 +220,7 @@ git merge upstream/master --allow-unrelated-histories
 **Solution:** Reset your branch to match upstream:
 ```bash
 git fetch upstream
-git reset --hard upstream/master
+git reset --hard upstream/main
 git push --force origin master
 ```
 
