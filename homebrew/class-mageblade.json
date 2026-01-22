@@ -129,6 +129,22 @@
 					"int": 13
 				}
 			},
+			"classSpells": [
+				"Blaze|stabbyspells",
+				"Clear Ice|stabbyspells",
+				"Coat with Venom|stabbyspells",
+				"Cold Void|stabbyspells",
+				"Concussive Percussion|stabbyspells",
+				"Electrostatic Discharge|stabbyspells",
+				"Far Strike|stabbyspellmods",
+				"Force Explosion|stabbyspells",
+				"Forewarning|stabbyspells",
+				"Gag Order|stabbyspells",
+				"Overcharge|stabbyspells",
+				"Repel|stabbyspells",
+				"Strike of Ethereal Propulsion|stabbyspells",
+				"Twilight Cloak|stabbyspells"
+			],
 			"classTableGroups": [
 				{
 					"colLabels": [

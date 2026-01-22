@@ -15,7 +15,7 @@
 				]
 			}
 		],
-		"dateAdded": 1586966344, 
+		"dateAdded": 1586966344,
 		"dateLastModified": 1730902601,
 		"_dateLastModifiedHash": "aa8d6f9bda"
 	},
@@ -73,7 +73,7 @@
 				"skills": [
 					{
 						"choose": {
-							"from": [	
+							"from": [
 								"animal handling",
 								"arcana",
 								"athletics",
@@ -98,19 +98,38 @@
 				],
 				"defaultData": [
 					{
-						"_": [{	"equipmentType": "weaponSimple",	"quantity": 1}]
+						"_": [
+							{
+								"equipmentType": "weaponSimple",
+								"quantity": 1
+							}
+						]
 					},
 					{
-						"a": ["blowgun|phb","blowgun needles (50)|phb"],
-						"b": ["sling|phb","sling bullets (20)|phb"]
+						"a": [
+							"blowgun|phb",
+							"blowgun needles (50)|phb"
+						],
+						"b": [
+							"sling|phb",
+							"sling bullets (20)|phb"
+						]
 					},
 					{
-						"a": ["component pouch|phb"],
-						"b": ["arcane focus|phb"]
+						"a": [
+							"component pouch|phb"
+						],
+						"b": [
+							"arcane focus|phb"
+						]
 					},
 					{
-						"a": ["scholar's pack|phb"],
-						"b": ["explorer's pack|phb"]
+						"a": [
+							"scholar's pack|phb"
+						],
+						"b": [
+							"explorer's pack|phb"
+						]
 					}
 				]
 			},
@@ -126,26 +145,86 @@
 						"{@filter Spells Known|spells|class=Animancer}"
 					],
 					"rows": [
-						[3, 2],
-						[3, 3],
-						[3, "4 + 2"],
-						[4, "5 + 2"],
-						[4, "6 + 3"],
-						[4, "7 + 3"],
-						[4, "8 + 4"],
-						[5, "9 + 4"],
-						[5, "10 + 5"],
-						[5, "11 + 5"],
-						[5, "12 + 6"],
-						[5, "13 + 6"],
-						[5, "14 + 6"],
-						[5, "15 + 6"],
-						[5, "16 + 6"],
-						[5, "16 + 6"],
-						[5, "17 + 6"],
-						[5, "17 + 6"],
-						[5, "18 + 6"],
-						[5, "18 + 6"]
+						[
+							3,
+							2
+						],
+						[
+							3,
+							3
+						],
+						[
+							3,
+							"4 + 2"
+						],
+						[
+							4,
+							"5 + 2"
+						],
+						[
+							4,
+							"6 + 3"
+						],
+						[
+							4,
+							"7 + 3"
+						],
+						[
+							4,
+							"8 + 4"
+						],
+						[
+							5,
+							"9 + 4"
+						],
+						[
+							5,
+							"10 + 5"
+						],
+						[
+							5,
+							"11 + 5"
+						],
+						[
+							5,
+							"12 + 6"
+						],
+						[
+							5,
+							"13 + 6"
+						],
+						[
+							5,
+							"14 + 6"
+						],
+						[
+							5,
+							"15 + 6"
+						],
+						[
+							5,
+							"16 + 6"
+						],
+						[
+							5,
+							"16 + 6"
+						],
+						[
+							5,
+							"17 + 6"
+						],
+						[
+							5,
+							"17 + 6"
+						],
+						[
+							5,
+							"18 + 6"
+						],
+						[
+							5,
+							"18 + 6"
+						]
 					]
 				},
 				{
@@ -162,26 +241,226 @@
 						"{@filter 9th|spells|level=9|class=Animancer}"
 					],
 					"rowsSpellProgression": [
-						[2,0,0,0,0,0,0,0,0],
-						[3,0,0,0,0,0,0,0,0],
-						[4,2,0,0,0,0,0,0,0],
-						[4,3,0,0,0,0,0,0,0],
-						[4,3,2,0,0,0,0,0,0],
-						[4,3,3,0,0,0,0,0,0],
-						[4,3,3,1,0,0,0,0,0],
-						[4,3,3,2,0,0,0,0,0],
-						[4,3,3,3,1,0,0,0,0],
-						[4,3,3,3,2,0,0,0,0],
-						[4,3,3,3,2,1,0,0,0],
-						[4,3,3,3,2,1,0,0,0],
-						[4,3,3,3,2,1,1,0,0],
-						[4,3,3,3,2,1,1,0,0],
-						[4,3,3,3,2,1,1,1,0],
-						[4,3,3,3,2,1,1,1,0],
-						[4,3,3,3,2,1,1,1,1],
-						[4,3,3,3,3,1,1,1,1],
-						[4,3,3,3,3,2,1,1,1],
-						[4,3,3,3,3,2,2,1,1]
+						[
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							1,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							0,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							0,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							0,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							0
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							1,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							1,
+							1,
+							1
+						],
+						[
+							4,
+							3,
+							3,
+							3,
+							3,
+							2,
+							2,
+							1,
+							1
+						]
 					]
 				}
 			],
@@ -217,7 +496,270 @@
 				"Ability Score Improvement|Animancer|stabbyanimancer|19|stabbyanimancer",
 				"Manipulation Mastery|Animancer|stabbyanimancer|20|stabbyanimancer"
 			],
-			"subclassTitle": "Manipulation Focus"
+			"subclassTitle": "Manipulation Focus",
+			"classSpells": [
+				"Abi-Dalzim's Horrid Wilting|XGE",
+				"Absorb Elements|XGE",
+				"Acid Reflux|stabbyspells",
+				"Acrid Smoke|stabbyspells",
+				"Adorn|stabbyspells",
+				"Aganazzar's Scorcher|XGE",
+				"Alter Self|PHB",
+				"Animal Friendship|PHB",
+				"Animal Messenger|PHB",
+				"Antilife Shell|PHB",
+				"Antimagic Field|PHB",
+				"Antipathy/Sympathy|PHB",
+				"Astral Projection|PHB",
+				"Aura of Life|PHB",
+				"Aura of Purity|PHB",
+				"Awaken|PHB",
+				"Bane|PHB",
+				"Barkskin|PHB",
+				"Beacon of Hope|PHB",
+				"Bestow Curse|PHB",
+				"Blade Ward|PHB",
+				"Blaze|stabbyspells",
+				"Bless|PHB",
+				"Blight|PHB",
+				"Blindness/Deafness|PHB",
+				"Blur|PHB",
+				"Burning Hands|PHB",
+				"Calm Emotions|PHB",
+				"Catnap|XGE",
+				"Cause Fear|XGE",
+				"Caustic Touch|stabbyspells",
+				"Ceremony|XGE",
+				"Chain Lightning|PHB",
+				"Charm Monster|XGE",
+				"Charm Person|PHB",
+				"Chill Touch|PHB",
+				"Chromatic Orb|PHB",
+				"Circle of Death|PHB",
+				"Cloudkill|PHB",
+				"Coat with Venom|stabbyspells",
+				"Color Spray|PHB",
+				"Command|PHB",
+				"Commune with Nature|PHB",
+				"Compel Honesty|stabbyspells",
+				"Comprehend Languages|PHB",
+				"Compulsion|PHB",
+				"Concussive Percussion|stabbyspells",
+				"Cone of Cold|PHB",
+				"Confusion|PHB",
+				"Contagion|PHB",
+				"Control Flames|XGE",
+				"Control Water|PHB",
+				"Control Weather|PHB",
+				"Control Winds|XGE",
+				"Counterspell|PHB",
+				"Create Bonfire|XGE",
+				"Crown of Madness|PHB",
+				"Cure Wounds|PHB",
+				"Dancing Lights|PHB",
+				"Darkvision|PHB",
+				"Death Ward|PHB",
+				"Deflect Attention|stabbyspells",
+				"Destructive Wave|PHB",
+				"Detect Evil and Good|PHB",
+				"Detect Poison and Disease|PHB",
+				"Detect Thoughts|PHB",
+				"Disguise Self|PHB",
+				"Disintegrate|PHB",
+				"Dispel Evil and Good|PHB",
+				"Dispel Magic|PHB",
+				"Dissonant Whispers|PHB",
+				"Divine Word|PHB",
+				"Dominate Beast|PHB",
+				"Dominate Monster|PHB",
+				"Dominate Person|PHB",
+				"Dragon's Breath|XGE",
+				"Drain Vigor|stabbyspells",
+				"Dream|PHB",
+				"Druidcraft|PHB",
+				"Dust Devil|XGE",
+				"Earth Tremor|XGE",
+				"Earthquake|PHB",
+				"Enemies Abound|XGE",
+				"Enervation|XGE",
+				"Enhance Ability|PHB",
+				"Entangle|PHB",
+				"Envenom|stabbyspells",
+				"Erupting Earth|XGE",
+				"Etherealness|PHB",
+				"Eyebite|PHB",
+				"Faerie Fire|PHB",
+				"Fear|PHB",
+				"Feeblemind|PHB",
+				"Feign Death|PHB",
+				"Finger of Death|PHB",
+				"Fingersnap|stabbyspells",
+				"Fire Shield|PHB",
+				"Flaming Sphere|PHB",
+				"Flesh to Stone|PHB",
+				"Fog Cloud|PHB",
+				"Freedom of Movement|PHB",
+				"Friends|PHB",
+				"Frostbite|XGE",
+				"Gag Order|stabbyspells",
+				"Gangrenous Touch|stabbyspells",
+				"Geas|PHB",
+				"Gentle Repose|PHB",
+				"Glibness|PHB",
+				"Globe of Invulnerability|PHB",
+				"Goodberry|PHB",
+				"Greater Influence Ability|stabbyspells",
+				"Greater Invisibility|PHB",
+				"Greater Restoration|PHB",
+				"Gust of Wind|PHB",
+				"Gust|XGE",
+				"Hallucinatory Terrain|PHB",
+				"Harm|PHB",
+				"Haste|PHB",
+				"Heal|PHB",
+				"Heroism|PHB",
+				"Hex|PHB",
+				"Hold Monster|PHB",
+				"Hold Person|PHB",
+				"Hypnotic Pattern|PHB",
+				"Ice Storm|PHB",
+				"Immolation|XGE",
+				"Imprisonment|PHB",
+				"Incendiary Cloud|PHB",
+				"Induce Guilt|stabbyspells",
+				"Infestation|XGE",
+				"Inflict Wounds|PHB",
+				"Influence Ability|stabbyspells",
+				"Insect Plague|PHB",
+				"Investiture of Flame|XGE",
+				"Investiture of Ice|XGE",
+				"Investiture of Stone|XGE",
+				"Investiture of Wind|XGE",
+				"Invisibility|PHB",
+				"Invulnerability|XGE",
+				"Jump|PHB",
+				"Lesser Restoration|PHB",
+				"Life Transference|XGE",
+				"Lightning Bolt|PHB",
+				"Lightning Lure|TCE",
+				"Locate Animals or Plants|PHB",
+				"Locate Creature|PHB",
+				"Longstrider|PHB",
+				"Maelstrom|XGE",
+				"Mage Armor|PHB",
+				"Major Image|PHB",
+				"Manipulate Senses|stabbyspells",
+				"Manipulate Vigor|stabbyspells",
+				"Mass Cure Wounds|PHB",
+				"Mass Heal|PHB",
+				"Mass Polymorph|XGE",
+				"Mass Raise Dead|stabbyspells",
+				"Mass Suggestion|PHB",
+				"Mental Prison|XGE",
+				"Message|PHB",
+				"Meteor Swarm|PHB",
+				"Miasma|stabbyspells",
+				"Mind Blank|PHB",
+				"Mind Spike|XGE",
+				"Minor Illusion|PHB",
+				"Mislead|PHB",
+				"Modify Memory|PHB",
+				"Modify Mood|stabbyspells",
+				"Mold Earth|XGE",
+				"Mordenkainen's Private Sanctum|PHB",
+				"Negative Energy Flood|XGE",
+				"Otiluke's Resilient Sphere|PHB",
+				"Otto's Irresistible Dance|PHB",
+				"Overcharge|stabbyspells",
+				"Pass without Trace|PHB",
+				"Phantasmal Force|PHB",
+				"Phantasmal Killer|PHB",
+				"Plane Shift|PHB",
+				"Plant Growth|PHB",
+				"Poison Spray|PHB",
+				"Polymorph|PHB",
+				"Power Word Heal|PHB",
+				"Power Word Kill|PHB",
+				"Power Word Pain|XGE",
+				"Power Word Stun|PHB",
+				"Primal Savagery|XGE",
+				"Primordial Ward|XGE",
+				"Prismatic Spray|PHB",
+				"Produce Flame|PHB",
+				"Protection from Energy|PHB",
+				"Protection from Evil and Good|PHB",
+				"Protection from Poison|PHB",
+				"Psychic Scream|XGE",
+				"Purify Food and Drink|PHB",
+				"Raise Dead|PHB",
+				"Rary's Telepathic Bond|PHB",
+				"Ray of Enfeeblement|PHB",
+				"Ray of Sickness|PHB",
+				"Regenerate|PHB",
+				"Remove Curse|PHB",
+				"Resistance|PHB",
+				"Resurrection|PHB",
+				"Revivify|PHB",
+				"Rotburst|stabbyspells",
+				"Sanctuary|PHB",
+				"See Invisibility|PHB",
+				"Seeming|PHB",
+				"Shame|stabbyspells",
+				"Shape Water|XGE",
+				"Shapechange|PHB",
+				"Shield|PHB",
+				"Shocking Grasp|PHB",
+				"Sickening Radiance|XGE",
+				"Silence|PHB",
+				"Silent Image|PHB",
+				"Skill Empowerment|XGE",
+				"Sleep|PHB",
+				"Sleet Storm|PHB",
+				"Slow|PHB",
+				"Soul Cage|XGE",
+				"Spare the Dying|PHB",
+				"Speak with Animals|PHB",
+				"Speak with Dead|PHB",
+				"Speak with Plants|PHB",
+				"Spider Climb|PHB",
+				"Spike Growth|PHB",
+				"Spirit Guardians|PHB",
+				"Stinking Cloud|PHB",
+				"Stone Shape|PHB",
+				"Stoneskin|PHB",
+				"Storm Sphere|XGE",
+				"Storm of Vengeance|PHB",
+				"Suggestion|PHB",
+				"Synaptic Static|XGE",
+				"System Shock|stabbyspells",
+				"Tasha's Hideous Laughter|PHB",
+				"Telepathy|PHB",
+				"Thorn Whip|PHB",
+				"Thunderclap|XGE",
+				"Tidal Wave|XGE",
+				"Toll the Dead|XGE",
+				"Tongues|PHB",
+				"Truce|stabbyspells",
+				"True Seeing|PHB",
+				"Vampiric Touch|PHB",
+				"Vampirism|stabbyspells",
+				"Vitriolic Sphere|XGE",
+				"Wall of Fire|PHB",
+				"Wall of Ice|PHB",
+				"Wall of Thorns|PHB",
+				"Wall of Water|XGE",
+				"Warding Wind|XGE",
+				"Water Breathing|PHB",
+				"Water Walk|PHB",
+				"Watery Sphere|XGE",
+				"Weird|PHB",
+				"Whirlwind|XGE",
+				"Wind Walk|PHB",
+				"Wind Wall|PHB",
+				"Wither|stabbyspells",
+				"Wrath of Nature|XGE",
+				"Zone of Truth|PHB"
+			]
 		}
 	],
 	"classFeature": [
@@ -259,9 +801,19 @@
 					"name": "Spellcasting Ability",
 					"entries": [
 						"Constitution is your spellcasting ability for your animancer spells, since you fuel your animancer spells through intense usage of your own life energy first and foremost. You use your Constitution whenever a spell refers to your spellcasting ability. In addition, you use your Constitution modifier when setting the saving throw DC for an animancer spell you cast and when making an attack roll with one.",
-						{"type": "abilityDc","name": "Spell","attributes": [	"con"]
+						{
+							"type": "abilityDc",
+							"name": "Spell",
+							"attributes": [
+								"con"
+							]
 						},
-						{"type": "abilityAttackMod","name": "Spell","attributes": [	"con"]
+						{
+							"type": "abilityAttackMod",
+							"name": "Spell",
+							"attributes": [
+								"con"
+							]
 						}
 					]
 				},
@@ -310,15 +862,51 @@
 						"col-4 text-center"
 					],
 					"rows": [
-						["1st", "3", "2"],
-						["2nd", "4", "3"],
-						["3rd", "5", "4"],
-						["4th", "7", "5"],
-						["5th", "10", "7"],
-						["6th", "15", "10"],
-						["7th", "20", "-"],
-						["8th", "30", "-"],
-						["9th", "40", "-"]
+						[
+							"1st",
+							"3",
+							"2"
+						],
+						[
+							"2nd",
+							"4",
+							"3"
+						],
+						[
+							"3rd",
+							"5",
+							"4"
+						],
+						[
+							"4th",
+							"7",
+							"5"
+						],
+						[
+							"5th",
+							"10",
+							"7"
+						],
+						[
+							"6th",
+							"15",
+							"10"
+						],
+						[
+							"7th",
+							"20",
+							"-"
+						],
+						[
+							"8th",
+							"30",
+							"-"
+						],
+						[
+							"9th",
+							"40",
+							"-"
+						]
 					]
 				},
 				"Upon casting a spell, you can use Essence points to upcast it, as if using a higher level spell slot, with essence point costs according to the table below. Note that you can't upcast beyond your highest available spell slot level.",
@@ -336,14 +924,46 @@
 						"col-4 text-center"
 					],
 					"rows": [
-						["1", "2", "1"],
-						["2", "5", "2"],
-						["3", "9", "4"],
-						["4", "14", "7"],
-						["5", "20", "11"],
-						["6", "27", "16"],
-						["7", "35", "22"],
-						["8", "44", "29"]
+						[
+							"1",
+							"2",
+							"1"
+						],
+						[
+							"2",
+							"5",
+							"2"
+						],
+						[
+							"3",
+							"9",
+							"4"
+						],
+						[
+							"4",
+							"14",
+							"7"
+						],
+						[
+							"5",
+							"20",
+							"11"
+						],
+						[
+							"6",
+							"27",
+							"16"
+						],
+						[
+							"7",
+							"35",
+							"22"
+						],
+						[
+							"8",
+							"44",
+							"29"
+						]
 					]
 				},
 				"You lose any unspent essence points whenever you finish a short or long rest.",
@@ -731,8 +1351,6 @@
 				"Bleed|Animancer|stabbyanimancer|Bleed|stabbyanimancer|3"
 			]
 		}
-
-
 	],
 	"subclassFeature": [
 		{
@@ -866,13 +1484,6 @@
 				"At 18th level, your Essence Drain feature is improved: its range increases to 60ft, its dice change to d10, and you can select more than one creature as a target, assigning dice to each creature as you choose (assignment is done before rolling)."
 			]
 		},
-
-
-
-
-
-
-
 		{
 			"name": "Sustain",
 			"source": "stabbyanimancer",
@@ -1004,11 +1615,6 @@
 				"At 18th level, your mastery of essence manipulation reaches a stage where you can often reintegrate and preserve this vital energy even as you expend it. After you spend any number of essence points, you regain half of the essence points spent (rounded down)."
 			]
 		},
-		
-		
-		
-		
-		
 		{
 			"name": "Leech",
 			"source": "stabbyanimancer",
@@ -1137,12 +1743,6 @@
 				"Starting at 18th level, your Aura of the Leech is improved: the damage and healing now equal your Constitution modifier (minimum 1), and affected creatures gain one level of exhaustion after each consecutive minute they spend being drained by it."
 			]
 		},
-
-
-
-
-
-
 		{
 			"name": "Tame",
 			"source": "stabbyanimancer",
@@ -1373,17 +1973,6 @@
 				"You additionally gain a permanent telepathic link to it, as long as you both remain on the same plane, or you are both in one of the planes accessible through its Phase Shift. You can freely and instantaneously communicate any thoughts, emotions, images or other information with each other."
 			]
 		},
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		{
 			"name": "Learn",
 			"source": "stabbyanimancer",
@@ -1513,16 +2102,6 @@
 				"You may add your Constitution modifier to any ability check you make."
 			]
 		},
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		{
 			"name": "Subdue",
 			"source": "stabbyanimancer",
@@ -1653,18 +2232,6 @@
 				"Additionally, as part of the same action, you can force your will on an additional creature, and can maintain control over several of them with the same action, although the remaining total control time is divided equally between them. You can simultaneously control a number of creatures up to your Constitution modifier (minimum 1), and can release any of them at will."
 			]
 		},
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
-
 		{
 			"name": "Cleanse",
 			"source": "stabbyanimancer",
@@ -1805,11 +2372,6 @@
 				}
 			]
 		},
-		
-		
-		
-		
-		
 		{
 			"name": "Corrupt",
 			"source": "stabbyanimancer",
@@ -1949,15 +2511,6 @@
 				}
 			]
 		},
-		
-
-
-
-
-
-
-
-
 		{
 			"name": "Harvest",
 			"source": "stabbyanimancer",
@@ -2079,10 +2632,9 @@
 						"You learn one of the creatures memories, pertaining to a specific event, habit or object of your choice.",
 						"You gain proficiency in a skill, language or tool that the creature was proficient with (the DM tells you your options, if any). Temporary benefit.",
 						"You gain a bonus of +1 to any ability checks you make using that creature's highest ability score (if a tie, the DM tells you the options and you choose). Temporary benefit.",
-						"You take in part of the creature's personality and innate way of thinking and interacting, granting you advantage on ability checks made to mimick it or understand it. Temporary benefit."	
+						"You take in part of the creature's personality and innate way of thinking and interacting, granting you advantage on ability checks made to mimick it or understand it. Temporary benefit."
 					]
 				}
-
 			]
 		},
 		{
@@ -2102,10 +2654,6 @@
 				"Additionally, you gain an alternative use for your Soul Reaper feature: as an action, you can attempt to prematurely harvest a non-Undead non-Construct creature. Spend a number of essence points up to your Constitution modifier. The creature rolls that many of its hit dice, and loses hit points equal to the result. Its hit point maximum is reduced by the same amount, until it finishes a long rest. If it dies, you can use your Soul Harvest feature as normal as part of the same use of the feature."
 			]
 		},
-		
-		
-		
-		
 		{
 			"name": "Isolate",
 			"source": "stabbyanimancer",
@@ -2233,14 +2781,6 @@
 				""
 			]
 		},
-
-
-
-
-
-
-
-
 		{
 			"name": "Bleed",
 			"source": "stabbyanimancer",
@@ -2326,8 +2866,6 @@
 				"A blood-focused subclass. TODO. Probably create some new blood-related spells for it."
 			]
 		}
-		
-		
 	],
 	"monster": [
 		{
