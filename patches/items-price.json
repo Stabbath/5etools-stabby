@@ -1408,5 +1408,184 @@
 	},
 	"Wings of Flying|DMG": {
 		"value": 740000
+	},
+	"magicvariant:+1 Ammunition": {
+		"value": 2500,
+		"valueExpression": "[[baseItem.value]] + 2500"
+	},
+	"magicvariant:+1 Armor": {
+		"value": 100000,
+		"valueExpression": "[[baseItem.value]] + 100000"
+	},
+	"magicvariant:+1 Weapon": {
+		"value": 100000,
+		"valueExpression": "[[baseItem.value]] + 100000"
+	},
+	"magicvariant:+2 Ammunition": {
+		"value": 15750,
+		"valueExpression": "[[baseItem.value]] + 15750"
+	},
+	"magicvariant:+2 Armor": {
+		"value": 630000,
+		"valueExpression": "[[baseItem.value]] + 630000"
+	},
+	"magicvariant:+2 Weapon": {
+		"value": 630000,
+		"valueExpression": "[[baseItem.value]] + 630000"
+	},
+	"magicvariant:+3 Ammunition": {
+		"value": 76250,
+		"valueExpression": "[[baseItem.value]] + 76250"
+	},
+	"magicvariant:+3 Armor": {
+		"value": 3050000,
+		"valueExpression": "[[baseItem.value]] + 3050000"
+	},
+	"magicvariant:+3 Weapon": {
+		"value": 3050000,
+		"valueExpression": "[[baseItem.value]] + 3050000"
+	},
+	"magicvariant:Armor of Acid Resistance": {
+		"value": 375000,
+		"valueExpression": "[[baseItem.value]] + 375000"
+	},
+	"magicvariant:Armor of Cold Resistance": {
+		"value": 375000,
+		"valueExpression": "[[baseItem.value]] + 375000"
+	},
+	"magicvariant:Armor of Fire Resistance": {
+		"value": 375000,
+		"valueExpression": "[[baseItem.value]] + 375000"
+	},
+	"magicvariant:Armor of Force Resistance": {
+		"value": 375000,
+		"valueExpression": "[[baseItem.value]] + 375000"
+	},
+	"magicvariant:Armor of Gleaming": {
+		"value": 4000,
+		"valueExpression": "[[baseItem.value]] + 4000"
+	},
+	"magicvariant:Armor of Lightning Resistance": {
+		"value": 375000,
+		"valueExpression": "[[baseItem.value]] + 375000"
+	},
+	"magicvariant:Armor of Necrotic Resistance": {
+		"value": 375000,
+		"valueExpression": "[[baseItem.value]] + 375000"
+	},
+	"magicvariant:Armor of Poison Resistance": {
+		"value": 375000,
+		"valueExpression": "[[baseItem.value]] + 375000"
+	},
+	"magicvariant:Armor of Psychic Resistance": {
+		"value": 375000,
+		"valueExpression": "[[baseItem.value]] + 375000"
+	},
+	"magicvariant:Armor of Radiant Resistance": {
+		"value": 375000,
+		"valueExpression": "[[baseItem.value]] + 375000"
+	},
+	"magicvariant:Armor of Thunder Resistance": {
+		"value": 375000,
+		"valueExpression": "[[baseItem.value]] + 375000"
+	},
+	"magicvariant:Arrow of Slaying (*)": {
+		"value": 36000
+	},
+	"magicvariant:Berserker Weapon": {
+		"value": 400000,
+		"valueExpression": "[[baseItem.value]] + 400000"
+	},
+	"magicvariant:Cast-Off Armor": {
+		"value": 2000,
+		"valueExpression": "[[baseItem.value]] + 2000"
+	},
+	"magicvariant:Dancing Weapon": {
+		"value": 280000,
+		"valueExpression": "[[baseItem.value]] + 280000"
+	},
+	"magicvariant:Defender": {
+		"value": 4800000,
+		"valueExpression": "[[baseItem.value]] + 4800000"
+	},
+	"magicvariant:Dragon Slayer": {
+		"value": 800000,
+		"valueExpression": "[[baseItem.value]] + 800000"
+	},
+	"magicvariant:Flame Tongue": {
+		"value": 675000,
+		"valueExpression": "[[baseItem.value]] + 675000"
+	},
+	"magicvariant:Frost Brand": {
+		"value": 865000,
+		"valueExpression": "[[baseItem.value]] + 865000"
+	},
+	"magicvariant:Giant Slayer": {
+		"value": 800000,
+		"valueExpression": "[[baseItem.value]] + 800000"
+	},
+	"magicvariant:Holy Avenger": {
+		"value": 12500000,
+		"valueExpression": "[[baseItem.value]] + 12500000"
+	},
+	"magicvariant:Luck Blade": {
+		"value": 1000000,
+		"valueExpression": "[[baseItem.value]] + 1000000"
+	},
+	"magicvariant:Mariner's Armor": {
+		"value": 50000,
+		"valueExpression": "[[baseItem.value]] + 50000"
+	},
+	"magicvariant:Moon-Touched Sword": {
+		"value": 3000,
+		"valueExpression": "[[baseItem.value]] + 3000"
+	},
+	"magicvariant:Nine Lives Stealer": {
+		"value": 1080000,
+		"valueExpression": "[[baseItem.value]] + 1080000"
+	},
+	"magicvariant:Silvered Weapon": {
+    "value": 10000,
+		"valueExpression": "[[baseItem.value]] + 10000"
+	},
+	"magicvariant:Smoldering Armor": {
+		"value": 1000,
+		"valueExpression": "[[baseItem.value]] + 1000"
+	},
+	"magicvariant:Sword of Life Stealing": {
+		"value": 80000,
+		"valueExpression": "[[baseItem.value]] + 80000"
+	},
+	"magicvariant:Weapon of Sharpness": {
+		"value": 350000,
+		"valueExpression": "[[baseItem.value]] + 350000"
+	},
+	"magicvariant:Weapon of Vengeance": {
+		"value": 300000,
+		"valueExpression": "[[baseItem.value]] + 300000"
+	},
+	"magicvariant:Weapon of Wounding": {
+		"value": 320000,
+		"valueExpression": "[[baseItem.value]] + 320000"
+	},
+	"magicvariant:Vicious Weapon": {
+		"value": 390000,
+		"valueExpression": "[[baseItem.value]] + 390000"
+	},
+	"magicvariant:Vorpal Sword": {
+		"value": 7600000,
+		"valueExpression": "[[baseItem.value]] + 7600000"
+	},
+	"magicvariant:Walloping Ammunition": {
+		"value": 250,
+		"valueExpression": "[[baseItem.value]] + 250"
+	},
+	"magicvariant:Weapon of Warning": {
+		"value": 61000,
+		"valueExpression": "[[baseItem.value]] + 61000"
+	},
+	"magicvariant:Armor of Etherealness": {
+		"value": 3200000,
+		"valueExpression": "[[baseItem.value]] + 3200000"
 	}
 }

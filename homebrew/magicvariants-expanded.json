@@ -1,0 +1,215 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "StabbyMagicVariants",
+				"abbreviation": "SMV",
+				"full": "Stabby's Magic Variants Expanded",
+				"authors": [
+					"Stabby"
+				],
+				"version": "1.0.0",
+				"url": "",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1769099814
+	},
+	"magicvariant": [
+		{
+			"name": "Berserker Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M"
+				}
+			],
+			"value": 400000,
+			"inherits": {
+				"namePrefix": "Berserker ",
+				"source": "DMG",
+				"page": 155,
+				"srd": true,
+				"tier": "major",
+				"rarity": "rare",
+				"reqAttune": true,
+				"curse": true,
+				"bonusWeapon": "+1",
+				"valueExpression": "[[baseItem.value]] + 400000",
+				"entries": [
+					"{@note Homebrew edit: added varieties other than axes (any melee).}",
+					"You gain a +1 bonus to attack and damage rolls made with this magic weapon. In addition, while you are attuned to this weapon, your hit point maximum increases by 1 for each level you have attained.",
+					{
+						"type": "entries",
+						"name": "Curse",
+						"entries": [
+							"This weapon is cursed, with a Curse DC of 15, and becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the weapon, keeping it within reach at all times. You also have disadvantage on attack rolls with weapons other than this one, unless no foe is within 60 feet of you that you can see or hear."
+						]
+					},
+					"Whenever a hostile creature damages you while the weapon is in your possession, you must succeed on a DC 15 Wisdom saving throw or go berserk. While berserk, you must use your action each round to attack the creature nearest to you with the weapon. If you can make extra attacks as part of the {@action Attack} action, you use those extra attacks, moving to attack the next nearest creature after you fell your current target. If you have multiple possible targets, you attack one at random. You are berserk until you start your turn with no creatures within 60 feet of you that you can see or hear."
+				],
+				"lootTables": [
+					"Magic Item Table G"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Dancing Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M"
+				}
+			],
+			"value": 280000,
+			"inherits": {
+				"namePrefix": "Dancing ",
+				"source": "DMG",
+				"page": 161,
+				"srd": true,
+				"tier": "major",
+				"rarity": "very rare",
+				"reqAttune": true,
+				"valueExpression": "[[baseItem.value]] + 280000",
+				"entries": [
+					"{@note Homebrew edit: added varieties other than swords.}",
+					"You can use a bonus action to toss this magic weapon into the air and speak the command word. When you do so, the weapon begins to hover, flies up to 30 feet, and attacks one creature of your choice within its reach. The weapon uses your attack roll and ability score modifier to damage rolls.",
+					"While the weapon hovers, you can use a bonus action to cause it to fly up to 30 feet to another spot within 30 feet of you. As part of the same bonus action, you can cause the weapon to attack one creature within its reach.",
+					"After the hovering weapon attacks for the fourth time, it flies up to 30 feet and tries to return to your hand. If you have no hand free, it falls to the ground at your feet. If the weapon has no unobstructed path to you, it moves as close to you as it can and then falls to the ground. It also ceases to hover if you grasp it or move more than 30 feet away from it."
+				],
+				"lootTables": [
+					"Magic Item Table H"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Weapon of Sharpness",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M",
+					"dmgType": "S"
+				}
+			],
+			"value": 350000,
+			"inherits": {
+				"nameSuffix": " of Sharpness",
+				"source": "DMG",
+				"page": 206,
+				"srd": true,
+				"tier": "major",
+				"rarity": "very rare",
+				"reqAttune": true,
+				"valueExpression": "[[baseItem.value]] + 350000",
+				"entries": [
+					"{@note Homebrew edit: added varieties other than swords (any slashing damage melee weapon).}",
+					"When you attack an object with this magic sword and hit, maximize your weapon damage dice against the target.",
+					"When you attack a creature with this weapon and roll a 20 on the attack roll, that target takes an extra 14 slashing damage. Then roll another {@dice d20}. If you roll a 20, you lop off one of the target's limbs, with the effect of such loss determined by the DM. If the creature has no limb to sever, you lop off a portion of its body instead.",
+					"{@i Note: According to the SRD, it is an extra {@dice 4d6} slashing damage, although {@link this is incorrect|https://rpg.stackexchange.com/a/174522/53884}}.",
+					"In addition, you can speak the sword's command to cause the blade to shed bright light in a 10-foot radius and dim light for an additional 10 feet. Speaking the command word again or sheathing the sword puts out the light."
+				],
+				"lootTables": [
+					"Magic Item Table H"
+				]
+			},
+			"hasFluffImages": true
+		},
+		{
+			"name": "Weapon of Vengeance",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"value": 300000,
+			"inherits": {
+				"nameSuffix": " of Vengeance",
+				"source": "DMG",
+				"page": 206,
+				"tier": "major",
+				"rarity": "uncommon",
+				"reqAttune": true,
+				"curse": true,
+				"bonusWeapon": "+1",
+				"valueExpression": "[[baseItem.value]] + 300000",
+				"entries": [
+					"{@note Homebrew edit: added varieties other than swords.}",
+					"You gain a +1 bonus to attack and damage rolls made with this magic weapon.",
+					{
+						"name": "Curse",
+						"type": "entries",
+						"entries": [
+							"This weapon is cursed, with a Curse DC of 14, and possessed by a vengeful spirit. Becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the weapon, keeping it on your person at all times. While attuned to this weapon, you have disadvantage on attack rolls made with weapons other than this one.",
+							"In addition, while the weapon is on your person, you must succeed on a DC 15 Wisdom saving throw whenever you take damage in combat. On a failed save you must attack the creature that damaged you until you drop to 0 hit points or it does, or until you can't get within attack range of the creature.",
+							"You can break the curse in the usual ways. Alternatively, casting {@spell banishment} on the weapon forces the vengeful spirit to leave it. The weapon then becomes a +1 weapon with no other properties."
+						]
+					}
+				],
+				"lootTables": [
+					"Magic Item Table F"
+				]
+			}
+		},
+		{
+			"name": "Weapon of Wounding",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"value": 320000,
+			"inherits": {
+				"nameSuffix": " of Wounding",
+				"source": "DMG",
+				"page": 207,
+				"srd": true,
+				"tier": "major",
+				"rarity": "rare",
+				"reqAttune": true,
+				"valueExpression": "[[baseItem.value]] + 320000",
+				"entries": [
+					"{@note Homebrew edit: can be any weapon instead of just swords.}",
+					"Hit points lost to this weapon's damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.",
+					"Once per turn, when you hit a creature with an attack using this magic weapon, you can wound the target. At the start of each of the wounded creature's turns, it takes {@dice 1d4} necrotic damage for each time you've wounded it, and it can then make a DC 15 Constitution saving throw, ending the effect of all such wounds on itself on a success. Alternatively, the wounded creature, or a creature within 5 feet of it, can use an action to make a DC 15 Wisdom ({@skill Medicine}) check, ending the effect of such wounds on it on a success."
+				],
+				"lootTables": [
+					"Magic Item Table G"
+				]
+			}
+		},
+		{
+			"name": "Armor of Etherealness",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"value": 3200000,
+			"inherits": {
+				"nameSuffix": " of Etherealness",
+				"source": "DMG",
+				"page": 185,
+				"tier": "major",
+				"rarity": "legendary",
+				"reqAttune": true,
+				"valueExpression": "[[baseItem.value]] + 3200000",
+				"entries": [
+					"{@note Homebrew edit: added options other than plate armor (any armor).}",
+					"While you're wearing this armor, you can speak its command word as an action to gain the effect of the {@spell etherealness} spell, which lasts for 10 minutes or until you remove the armor or use an action to speak the command word again. This property of the armor can't be used again until the next dawn."
+				],
+				"lootTables": [
+					"Magic Item Table I"
+				],
+				"attachedSpells": [
+					"etherealness"
+				]
+			},
+			"hasFluffImages": true
+		}
+	]
+}

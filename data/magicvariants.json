@@ -68,8 +68,10 @@
 				"lootTables": [
 					"Armaments - Uncommon|XDMG",
 					"Implements - Uncommon|XDMG"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 2500"
+			},
+			"value": 2500
 		},
 		{
 			"name": "+1 Armor",
@@ -128,8 +130,10 @@
 				"lootTables": [
 					"Armaments - Rare|XDMG",
 					"Relics - Rare|XDMG"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 100000"
+			},
+			"value": 100000
 		},
 		{
 			"name": "+1 Shield (*)",
@@ -250,8 +254,10 @@
 				],
 				"lootTables": [
 					"Armaments - Uncommon|XDMG"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 100000"
+			},
+			"value": 100000
 		},
 		{
 			"name": "+1 Weapon (no damage)",
@@ -341,8 +347,10 @@
 				"lootTables": [
 					"Armaments - Rare|XDMG",
 					"Implements - Rare|XDMG"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 15750"
+			},
+			"value": 15750
 		},
 		{
 			"name": "+2 Armor",
@@ -401,8 +409,10 @@
 				"lootTables": [
 					"Armaments - Very Rare|XDMG",
 					"Relics - Very Rare|XDMG"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 630000"
+			},
+			"value": 630000
 		},
 		{
 			"name": "+2 Shield (*)",
@@ -523,8 +533,10 @@
 				],
 				"lootTables": [
 					"Armaments - Rare|XDMG"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 630000"
+			},
+			"value": 630000
 		},
 		{
 			"name": "+2 Weapon (no damage)",
@@ -614,8 +626,10 @@
 				"lootTables": [
 					"Armaments - Very Rare|XDMG",
 					"Implements - Very Rare|XDMG"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 76250"
+			},
+			"value": 76250
 		},
 		{
 			"name": "+3 Armor",
@@ -671,8 +685,10 @@
 				"lootTables": [
 					"Armaments - Legendary|XDMG",
 					"Relics - Legendary|XDMG"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 3050000"
+			},
+			"value": 3050000
 		},
 		{
 			"name": "+3 Shield (*)",
@@ -787,8 +803,10 @@
 				],
 				"lootTables": [
 					"Armaments - Very Rare|XDMG"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 3050000"
+			},
+			"value": 3050000
 		},
 		{
 			"name": "+3 Weapon (no damage)",
@@ -1235,8 +1253,10 @@
 				"hasRefs": true,
 				"entries": [
 					"{#itemEntry Armor of Resistance|XDMG}"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 375000"
+			},
+			"value": 375000
 		},
 		{
 			"name": "Armor of Cold Resistance",
@@ -1295,8 +1315,10 @@
 				"hasRefs": true,
 				"entries": [
 					"{#itemEntry Armor of Resistance|XDMG}"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 375000"
+			},
+			"value": 375000
 		},
 		{
 			"name": "Armor of Fire Resistance",
@@ -1355,8 +1377,10 @@
 				"hasRefs": true,
 				"entries": [
 					"{#itemEntry Armor of Resistance|XDMG}"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 375000"
+			},
+			"value": 375000
 		},
 		{
 			"name": "Armor of Force Resistance",
@@ -1415,8 +1439,10 @@
 				"hasRefs": true,
 				"entries": [
 					"{#itemEntry Armor of Resistance|XDMG}"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 375000"
+			},
+			"value": 375000
 		},
 		{
 			"name": "Armor of Fungal Spores",
@@ -1496,8 +1522,10 @@
 				],
 				"lootTables": [
 					"Armaments - Common|XDMG"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 4000"
+			},
+			"value": 4000
 		},
 		{
 			"name": "Armor of Lightning Resistance",
@@ -1556,8 +1584,10 @@
 				"hasRefs": true,
 				"entries": [
 					"{#itemEntry Armor of Resistance|XDMG}"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 375000"
+			},
+			"value": 375000
 		},
 		{
 			"name": "Armor of Necrotic Resistance",
@@ -1616,8 +1646,10 @@
 				"hasRefs": true,
 				"entries": [
 					"{#itemEntry Armor of Resistance|XDMG}"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 375000"
+			},
+			"value": 375000
 		},
 		{
 			"name": "Armor of Poison Resistance",
@@ -1676,8 +1708,10 @@
 				"hasRefs": true,
 				"entries": [
 					"{#itemEntry Armor of Resistance|XDMG}"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 375000"
+			},
+			"value": 375000
 		},
 		{
 			"name": "Armor of Psychic Resistance",
@@ -1736,8 +1770,10 @@
 				"hasRefs": true,
 				"entries": [
 					"{#itemEntry Armor of Resistance|XDMG}"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 375000"
+			},
+			"value": 375000
 		},
 		{
 			"name": "Armor of Radiant Resistance",
@@ -1796,8 +1832,10 @@
 				"hasRefs": true,
 				"entries": [
 					"{#itemEntry Armor of Resistance|XDMG}"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 375000"
+			},
+			"value": 375000
 		},
 		{
 			"name": "Armor of Safeguarding",
@@ -1923,8 +1961,10 @@
 				"hasRefs": true,
 				"entries": [
 					"{#itemEntry Armor of Resistance|XDMG}"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 375000"
+			},
+			"value": 375000
 		},
 		{
 			"name": "Armor of Vulnerability (Bludgeoning)",
@@ -2138,7 +2178,8 @@
 					"Once {=baseName/a} {=baseName/l} of slaying deals its extra damage to a creature, it becomes a nonmagical {=baseName/l}."
 				]
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 36000
 		},
 		{
 			"name": "Ascendant Dragon's Wrath Weapon",
@@ -2461,8 +2502,10 @@
 				],
 				"lootTables": [
 					"Armaments - Common|XDMG"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 2000"
+			},
+			"value": 2000
 		},
 		{
 			"name": "Clockwork Armor",
@@ -2695,9 +2738,11 @@
 				],
 				"lootTables": [
 					"Armaments - Legendary|XDMG"
-				]
+				],
+				"valueExpression": "[[baseItem.value]] + 4800000"
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 4800000
 		},
 		{
 			"name": "Demon Armor",
@@ -2861,9 +2906,11 @@
 				],
 				"lootTables": [
 					"Armaments - Rare|XDMG"
-				]
+				],
+				"valueExpression": "[[baseItem.value]] + 800000"
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 800000
 		},
 		{
 			"name": "Dragon Wing Bow",
@@ -2880,7 +2927,7 @@
 				"rarity": "rare",
 				"reqAttune": true,
 				"entries": [
-					"The limb tips of this magic bow are shaped like a dragon's wings, and the weapon is infused with the essence of a chromatic, gem, or metallic dragon's breath. When you hit with an attack roll using this magic bow, the target takes an extra {@damage 1d6} damage of the same type as the breath infused in the bow\u2014acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant, or thunder.",
+					"The limb tips of this magic bow are shaped like a dragon's wings, and the weapon is infused with the essence of a chromatic, gem, or metallic dragon's breath. When you hit with an attack roll using this magic bow, the target takes an extra {@damage 1d6} damage of the same type as the breath infused in the bow—acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant, or thunder.",
 					"If you load no ammunition in the weapon, it produces its own, automatically creating one piece of magic ammunition when you pull back the string. The ammunition created by the bow vanishes the instant after it hits or misses a target."
 				]
 			}
@@ -3892,9 +3939,11 @@
 				],
 				"lootTables": [
 					"Armaments - Rare|XDMG"
-				]
+				],
+				"valueExpression": "[[baseItem.value]] + 675000"
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 675000
 		},
 		{
 			"name": "Fool's Blade",
@@ -4047,9 +4096,11 @@
 				],
 				"lootTables": [
 					"Armaments - Very Rare|XDMG"
-				]
+				],
+				"valueExpression": "[[baseItem.value]] + 865000"
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 865000
 		},
 		{
 			"name": "Gambler's Blade",
@@ -4067,7 +4118,7 @@
 				"reqAttune": true,
 				"curse": true,
 				"entries": [
-					"Choose a magical bonus of +1 to +3. This sword gains that bonus to its attack and damage rolls. For each point of bonus you choose for the sword, you take a corresponding penalty (\u22121 to \u22123) to your death saving throws. You can change this magical bonus each day at dawn.",
+					"Choose a magical bonus of +1 to +3. This sword gains that bonus to its attack and damage rolls. For each point of bonus you choose for the sword, you take a corresponding penalty (−1 to −3) to your death saving throws. You can change this magical bonus each day at dawn.",
 					{
 						"name": "Curse",
 						"type": "entries",
@@ -4136,9 +4187,11 @@
 				],
 				"lootTables": [
 					"Armaments - Rare|XDMG"
-				]
+				],
+				"valueExpression": "[[baseItem.value]] + 800000"
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 800000
 		},
 		{
 			"name": "Glimmering Moonbow",
@@ -4372,9 +4425,11 @@
 				"lootTables": [
 					"Armaments - Legendary|XDMG",
 					"Relics - Legendary|XDMG"
-				]
+				],
+				"valueExpression": "[[baseItem.value]] + 12500000"
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 12500000
 		},
 		{
 			"name": "Imbued Wood (Fernian Ash)",
@@ -4834,9 +4889,11 @@
 				},
 				"lootTables": [
 					"Armaments - Legendary|XDMG"
-				]
+				],
+				"valueExpression": "[[baseItem.value]] + 1000000"
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 1000000
 		},
 		{
 			"name": "Mariner's Armor",
@@ -4895,9 +4952,11 @@
 				"lootTables": [
 					"Armaments - Uncommon|XDMG",
 					"Relics - Uncommon|XDMG"
-				]
+				],
+				"valueExpression": "[[baseItem.value]] + 50000"
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 50000
 		},
 		{
 			"name": "Mind Blade",
@@ -5163,9 +5222,11 @@
 				"lootTables": [
 					"Armaments - Common|XDMG",
 					"Implements - Common|XDMG"
-				]
+				],
+				"valueExpression": "[[baseItem.value]] + 3000"
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 3000
 		},
 		{
 			"name": "Moonblade",
@@ -5340,9 +5401,11 @@
 				],
 				"lootTables": [
 					"Armaments - Very Rare|XDMG"
-				]
+				],
+				"valueExpression": "[[baseItem.value]] + 1080000"
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 1080000
 		},
 		{
 			"name": "Oathbow",
@@ -6056,8 +6119,10 @@
 				],
 				"lootTables": [
 					"Armaments - Common|XDMG"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 10000"
+			},
+			"value": 10000
 		},
 		{
 			"name": "Slumbering Dragon's Wrath Weapon",
@@ -6127,8 +6192,10 @@
 				"lootTables": [
 					"Armaments - Common|XDMG",
 					"Relics - Common|XDMG"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 1000"
+			},
+			"value": 1000
 		},
 		{
 			"name": "Starshot Crossbow",
@@ -6317,9 +6384,11 @@
 				],
 				"lootTables": [
 					"Armaments - Rare|XDMG"
-				]
+				],
+				"valueExpression": "[[baseItem.value]] + 80000"
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 80000
 		},
 		{
 			"name": "Sword of Retribution",
@@ -6771,9 +6840,11 @@
 				],
 				"lootTables": [
 					"Armaments - Rare|XDMG"
-				]
+				],
+				"valueExpression": "[[baseItem.value]] + 390000"
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 390000
 		},
 		{
 			"name": "Vorpal Sword",
@@ -6843,9 +6914,11 @@
 				],
 				"lootTables": [
 					"Armaments - Legendary|XDMG"
-				]
+				],
+				"valueExpression": "[[baseItem.value]] + 7600000"
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 7600000
 		},
 		{
 			"name": "Wakened Dragon's Wrath Weapon",
@@ -6926,8 +6999,10 @@
 				"lootTables": [
 					"Armaments - Common|XDMG",
 					"Implements - Common|XDMG"
-				]
-			}
+				],
+				"valueExpression": "[[baseItem.value]] + 250"
+			},
+			"value": 250
 		},
 		{
 			"name": "Weapon of Agonizing Paralysis",
@@ -7089,9 +7164,11 @@
 				],
 				"lootTables": [
 					"Armaments - Uncommon|XDMG"
-				]
+				],
+				"valueExpression": "[[baseItem.value]] + 61000"
 			},
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"value": 61000
 		},
 		{
 			"name": "Winged Ammunition",

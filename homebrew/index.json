@@ -23,6 +23,7 @@
 		"subclasses-rogue.json",
 		"subclasses-sorcerer.json",
 		"subclasses-warlock.json",
-		"npcs.json"
+		"npcs.json",
+		"magicvariants-expanded.json"
 	]
 }
