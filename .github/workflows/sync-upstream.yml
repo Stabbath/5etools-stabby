@@ -71,6 +71,6 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               title: 'Upstream sync failed',
-              body: 'The automated upstream sync workflow failed. This likely means there are merge conflicts that need to be resolved manually.\n\nPlease see the [workflow run](' + context.serverUrl + '/' + context.repo.owner + '/' + context.repo.repo + '/actions/runs/' + context.runId + ') for details.\n\nRefer to [SYNC_UPSTREAM.md](../blob/master/SYNC_UPSTREAM.md) for instructions on how to manually sync with upstream.',
+              body: 'The automated upstream sync workflow failed. This likely means there are merge conflicts that need to be resolved manually.\n\nPlease see the [workflow run](' + context.serverUrl + '/' + context.repo.owner + '/' + context.repo.repo + '/actions/runs/' + context.runId + ') for details.\n\nRefer to [SYNC_UPSTREAM.md](' + context.serverUrl + '/' + context.repo.owner + '/' + context.repo.repo + '/blob/master/SYNC_UPSTREAM.md) for instructions on how to manually sync with upstream.',
               labels: ['sync', 'upstream']
             })
