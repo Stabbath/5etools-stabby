@@ -44,7 +44,7 @@ git push -u origin $BRANCH_NAME
 echo ""
 echo "✅ Successfully created '$BRANCH_NAME' branch!"
 echo ""
-echo "This branch now contains the latest upstream code (v2.24.0)."
+echo "This branch now contains the latest upstream code."
 echo "You can merge it into your main branch with:"
 echo ""
 echo "  git checkout master"
