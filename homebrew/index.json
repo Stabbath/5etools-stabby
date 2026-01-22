@@ -23,7 +23,6 @@
 		"subclasses-rogue.json",
 		"subclasses-sorcerer.json",
 		"subclasses-warlock.json",
-		"npcs.json",
-		"stabby-prices.json"
+		"npcs.json"
 	]
 }
