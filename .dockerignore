@@ -1,26 +1,61 @@
+# Ignore everything by default
 *
 
+# Build and Config
 !docker
+!package.json
+!package-lock.json
 
+# Web App Files
 !manifest.webmanifest
 !sw.js
 !sw-injector.js
-
 !*.html
-!*.png
-!*.svg
 !*.xml
+!*.json
+!*.js
+!*.cjs
+!*.mjs
+!*.css
 
+# Directories to Include
 !audio
+!audio/**
 !css
+!css/**
 !data
+!data/**
 !fonts
+!fonts/**
 !homebrew
+!homebrew/**
 !icon
-!image
-!img
+!icon/**
 !js
+!js/**
 !lib
+!lib/**
 !pdf
+!pdf/**
 !prerelease
+!prerelease/**
 !search
+!search/**
+!scss
+!scss/**
+!node
+!node/**
+!test
+!test/**
+
+# Images (Crucial - Include Recursively)
+!img
+!img/**
+!image
+!image/**
+
+# Explicit file types that might be inside ignored folders if not caught above
+!*.svg
+!*.png
+!*.jpg
+!*.jpeg
