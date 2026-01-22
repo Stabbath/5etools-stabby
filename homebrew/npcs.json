@@ -1,0 +1,2101 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "stabbynpcs",
+				"abbreviation": "Stabby",
+				"full": "Stabby's NPCs",
+				"version": "1",
+				"url": "none",
+				"authors": [
+					"Francisco \"Stabby\" Pesquita"
+				],
+				"convertedBy": [
+					"Francisco \"Stabby\" Pesquita"
+				]
+			}
+		],
+		"dateAdded": 1586966344, 
+		"dateLastModified": 1657399173,
+		"_dateLastModifiedHash": "aa8d6f9bda"
+	},
+	"monster": [
+		{
+			"name": "Veteran Fighter",
+			"source": "stabbynpcs",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any"
+				]
+			},
+			"alignment": [
+				"any"
+			],
+			"ac": [
+				{
+					"ac": 21,
+					"from": [
+						"{@item plate armor|phb} and {@item +1 shield}"
+					]
+				}
+			],
+			"hp": {
+				"average": 95,
+				"formula": "10d10 + 40"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 19,
+			"dex": 14,
+			"con": 18,
+			"int": 11,
+			"wis": 14,
+			"cha": 12,
+			"save": {
+				"str": "+7",
+				"con": "+7"
+			},
+			"skill": {
+				"athletics": "+7"
+			},
+			"passive": 12,
+			"languages": [
+				"any"
+			],
+			"cr": "8",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The fighter makes three attacks with its +2 longsword."
+					]
+				},
+				{
+					"name": "+2 Longsword",
+					"entries": [
+						"{@atk mw} {@hit +9} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d8 + 6}) slashing damage."
+					]
+				},
+				{
+					"name": "Second Wind (2/day)",
+					"entries": [
+						"As a bonus action, the fighter recovers 1d10+10 hit points."
+					]
+				},
+				{
+					"name": "Potion of Greater Healing (1/mission)",
+					"entries": [
+						"The fighter consumes his {@item potion of greater healing}."
+					]
+				}
+			],
+			"trait": [
+				{
+					"name": "Action Surge (2/day)",
+					"entries": [
+						"The fighter may choose to take an additional action on its turn."
+					]
+				},
+				{
+					"name": "Magical Equipment",
+					"entries": [
+						"The fighter wields a {@item +2 longsword} and a {@item +1 shield}. He also carries a {@item potion of greater healing}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Veteran Rogue",
+			"source": "stabbynpcs",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any"
+				]
+			},
+			"alignment": [
+				"any"
+			],
+			"ac": [
+				14,
+				{
+					"ac": 17,
+					"condition": "with {@item +1 studded leather armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 55,
+				"formula": "10d8 + 10"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 19,
+			"con": 13,
+			"int": 16,
+			"wis": 16,
+			"cha": 16,
+			"save": {
+				"dex": "+7",
+				"int": "+6",
+				"wis": "+6"
+			},
+			"skill": {
+				"stealth": "+10",
+				"sleight of hand": "+7",
+				"acrobatics": "+7",
+				"deception": "+6"
+			},
+			"passive": 13,
+			"languages": [
+				"any"
+			],
+			"cr": "8",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The rogue makes one attack with its shortsword and one with its dagger, or one attack with its light crossbow."
+					]
+				},
+				{
+					"name": "+1 Light Crossbow",
+					"entries": [
+						"{@atk mw} {@hit +8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "+1 Shortsword",
+					"entries": [
+						"{@atk mw} {@hit +8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "+1 Dagger",
+					"entries": [
+						"{@atk mw} {@hit +8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d4 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Potion of Greater Healing (1/mission)",
+					"entries": [
+						"The rogue consumes his {@item potion of greater healing}."
+					]
+				}
+			],
+			"trait": [
+				{
+					"name": "Sneak Attack (1/turn)",
+					"entries": [
+						"When the rogue hits with an attack that it had advantage on, or which targets a creature who has an enemy within 5 feet of it other than the rogue, it deals 21 {@damage 6d6} additional damage."
+					]
+				},
+				{
+					"name": "Uncanny Dodge (1/turn)",
+					"entries": [
+						"As a reaction when it is hit by an attack or fails a Dexterity saving throw, the rogue can halve the incoming damage from the triggering effect."
+					]
+				},
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"The rogue can take a Dash, Disengage or Hide action as a bonus action."
+					]
+				},
+				{
+					"name": "Magical Equipment",
+					"entries": [
+						"The rogue wears {@item +1 studded leather armor} and wields a {@item +1 light crossbow}, a {@item +1 dagger}, and a {@item +1 shortsword}. He also carries a {@item potion of greater healing}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Veteran Ranger",
+			"source": "stabbynpcs",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any"
+				]
+			},
+			"alignment": [
+				"any"
+			],
+			"ac": [
+				14,
+				{
+					"ac": 17,
+					"condition": "with {@item +1 studded leather armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 65,
+				"formula": "10d8 + 20"
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 14,
+			"dex": 19,
+			"con": 15,
+			"int": 11,
+			"wis": 16,
+			"cha": 12,
+			"save": {
+				"str": "+5",
+				"dex": "+7"
+			},
+			"skill": {
+				"stealth": "+7",
+				"perception": "+6"
+			},
+			"passive": 16,
+			"languages": [
+				"any"
+			],
+			"cr": "8",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The ranger makes two attacks with its longsword or two attacks with its longbow."
+					]
+				},
+				{
+					"name": "+2 Longbow",
+					"entries": [
+						"{@atk mw} {@hit +9} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d8 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "+1 Longsword",
+					"entries": [
+						"{@atk mw} {@hit +8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Potion of Greater Healing (1/mission)",
+					"entries": [
+						"The rogue consumes his {@item potion of greater healing}."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The ranger is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). It can cast the following ranger spells:"
+					],
+					"will": [
+						"{@spell hunter's mark}",
+						"{@spell animal friendship}"
+					],
+					"daily": {
+						"2e": [
+							"{@spell cure wounds}", "{@spell lesser restoration}", "{@spell ensnaring strike}"
+						],
+						"1e": [
+							"{@spell pass without trace}", "{@spell conjure barrage}"
+						]
+					},
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magical Equipment",
+					"entries": [
+						"The rogue wears {@item +1 studded leather armor} and wields a {@item +2 longbow} and a {@item +1 longsword}. He also carries a {@item potion of greater healing}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sara de Castelmar, Truthseeker",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human",
+					"herrian"
+				]
+			},
+			"source": "stabbyitems",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"mage armor, +2 ring of protection"
+					]
+				}
+			],
+			"hp": {
+				"formula": "18d8 + 36",
+				"average": 117
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 7,
+			"dex": 13,
+			"con": 14,
+			"int": 20,
+			"wis": 16,
+			"cha": 20,
+			"passive": 13,
+			"cr": "14",
+			"page": 0,
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Sara is an 18th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 22}, +14 to hit with spell attacks). She can cast the following wizard spells:"
+					],
+					"will": [
+						"{@spell charm person}",
+						"{@spell command}",
+						"{@spell fire bolt}",
+						"{@spell prestidigitation}"
+					],
+					"daily": {
+						"1": [
+							"{@spell dominate monster}",
+							"{@spell power word stun}"
+						],
+						"2": [
+							"{@spell counterspell}",
+							"{@spell dominate person}",
+							"{@spell fear}"
+						],
+						"3": [
+							"{@spell mage armor}",
+							"{@spell shield}",
+							"{@spell deflect attention|stabbyspells}",
+							"{@spell heroism}",
+							"{@spell calm emotions}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"CW"
+			],
+			"save": {
+				"int": "+13",
+				"wis": "+11",
+				"cha": "+13",
+				"str": "+0",
+				"dex": "+3",
+				"con": "+4"
+			},
+			"trait": [
+				{
+					"name": "Magical Equipment",
+					"entries": [
+						"Sara wields a +3 crystal as her spellcasting focus. She wears a {@item +2 ring of protection|stabbyitems} and an {@item amulet of proof against detection and location}. She has a {@item +2 dagger}."
+					]
+				},
+				{
+					"name": "Disarmingly Charming",
+					"entries": [
+						"Whenever a creature is {@condition charmed} by Sara, she can choose to have the condition also impose disadvantage on its attack rolls."
+					]
+				},
+				{
+					"name": "Arcane Interpreter",
+					"entries": [
+						"As long as she wields a spellcasting focus, Sara can understand all language, and can be understood by any creature that speaks at least one language."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "+2 Dagger",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) piercing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"languages": [
+				"Common",
+				"Herrian"
+			],
+			"languageTags": [
+				"C"
+			],
+			"skill": {
+				"arcana": "+11",
+				"history": "+11",
+				"insight": "+9",
+				"persuasion": "+11"
+			},
+			"damageTags": [
+				"B"
+			],
+			"damageTagsSpell": [
+				"F"
+			],
+			"savingThrowForcedSpell": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Franziska von Brandenberg, Truthseeker",
+			"source": "stabbynpcs",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human",
+					"guttreicher"
+				]
+			},
+			"alignment": [
+				"N", "G"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 18,
+					"condition": "with {@item mage armor}, {@item staff of power} and {@item cloak of protection}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 171,
+				"formula": "20d8 + 80"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 15,
+			"con": 19,
+			"int": 20,
+			"wis": 15,
+			"cha": 16,
+			"save": {
+				"int": "+14",
+				"wis": "+11",
+				"str": "+2",
+				"con": "+7",
+				"cha": "+6",
+				"dex": "+5"
+			},
+			"skill": {
+				"arcana": "+11",
+				"history": "+11"
+			},
+			"passive": 12,
+			"languages": [
+				"Common", "Guttreichish", "Draconic", "Elvish"
+			],
+			"cr": "16",
+			"action": [
+				{
+					"name": "Staff of Power",
+					"entries": [
+						"{@atk mw} {@hit +7} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) bludgeoning damage."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Franziska is a 20th-level spellcaster. Her spellcasting ability is Intelligence (spell save {@dc 21}, {@hit 13} to hit with spell attacks). She can cast the following wizard spells:"
+					],
+					"will": [
+						"{@spell poison spray}",
+						"{@spell mage hand}",
+						"{@spell prestidigitation}",
+						"{@spell misty step}",
+						"{@spell flaming sphere}",
+						"{@spell ice knife|xge}"
+					],
+					"daily": {
+						"3e": [
+							"{@spell mage armor}",
+							"{@spell shield}",
+							"{@spell counterspell}",
+							"{@spell wall of force}",
+							"{@spell grease}"
+						],
+						"2e": [
+							"{@spell cone of cold}",
+							"{@spell stinking cloud}", "{@spell watery sphere|xge}"
+						],
+						"1e": [
+							"{@spell teleport}", "{@spell conjure elemental}", "{@spell blizzard|stabbyspells}", "{@spell incendiary cloud}"
+						]
+					},
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Unbreakable Focus",
+					"entries": [
+						"Franziska automatically succeeds on saving throws made to keep concentration on a spell."
+					]
+				},
+				{
+					"name": "Durable Summons",
+					"entries": [
+						"Any creature Franziska summons or creates with a conjuration spell has 30 temporary hit points."
+					]
+				},
+				{
+					"name": "Familiar",
+					"entries": [
+						"Franziska has a special familiar: Nimbus, an {@creature ethereal drake|stabbynpcs}."
+					]
+				},
+				{
+					"name": "Magical Equipment",
+					"entries": [
+						"Franziska wears an {@item amulet of health} and a {@item cloak of protection}, and wields a {@item staff of power}. Her normal constitution score would be 12."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ethereal Drake",
+			"source": "stabbynpcs",
+			"page": 0,
+			"size": [
+				"S"
+			],
+			"type": "dragon",
+			"alignment": [
+				"C", "N"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 18,
+				"formula": "4d6 + 4"
+			},
+			"speed": {
+				"walk": 20,
+				"fly": 60
+			},
+			"str": 6,
+			"dex": 16,
+			"con": 13,
+			"int": 10,
+			"wis": 12,
+			"cha": 14,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+5"
+			},
+			"passive": 16,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"languages": [
+				"understands every mortal language but can't speak"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Ethereal Sight",
+					"entries": [
+						"The drake can see 60 ft. into the Ethereal Plane when it is on The Material Plane, and vice versa."
+					]
+				},
+				{
+					"name": "Keen Senses",
+					"entries": [
+						"The drake has advantage on Wisdom ({@skill Perception}) checks that rely on sight, hearing, or smell."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The drake has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Limited Telepathy",
+					"entries": [
+						"The drake can magically communicate simple ideas, emotions, and images telepathically with any creature within 100 feet of it that can understand a language."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The drake can use his bite and his etherealness."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Etherealness",
+					"entries": [
+						"The drake magically enters the Ethereal Plane from The Material Plane, or vice versa."
+					]
+				},
+				{
+					"name": "Ethereal Fade (1/day)",
+					"entries": [
+						"When the drake is targeted by an attack or a harmful spell, it can use its reaction to take its Etherealness action."
+					]
+				}
+			],
+			"familiar": true,
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasToken": true
+		},
+		{
+			"name": "Raven Queen's Emissary",
+			"source": "stabbynpcs",
+			"page": 0,
+			"size": [
+				"T"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 18,
+				"formula": "4d4 + 8"
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 50
+			},
+			"str": 2,
+			"dex": 16,
+			"con": 14,
+			"int": 11,
+			"wis": 15,
+			"cha": 12,
+			"skill": {
+				"perception": "+6"
+			},
+			"passive": 16,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"languages": [
+				"understands every mortal language but can't speak"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Keen Sight",
+					"entries": [
+						"The raven queen's emissary has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"The raven queen's emissary has advantage on saving throws against spells and other magical effects."
+					]
+				},
+				{
+					"name": "Limited Telepathy",
+					"entries": [
+						"The raven queen's emissary can magically communicate simple ideas, emotions, and images telepathically with any creature within 30 feet of it."
+					]
+				},
+				{
+					"name": "Mimicry",
+					"entries": [
+						"The raven queen's emissary can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful {@dc 20} Wisdom (Insight) check."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The raven queen's emissary makes two attacks: one with its beak and one with its claws."
+					]
+				},
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d4 + 3}) slashing damage."
+					]
+				}
+			],
+			"familiar": true,
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasToken": true
+		},
+		{
+			"name": "Kagdurm Stormcast",
+			"source": "stabbynpcs",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"dwarf",
+					"skuriamani"
+				]
+			},
+			"alignment": [
+				"C", "G"
+			],
+			"ac": [
+				{
+					"ac": 22,
+					"from": [
+						"{@item stormcast armor|stabbyitems}"
+					]
+				}
+			],
+			"hp": {
+				"average": 182,
+				"formula": "20d6 + 100"
+			},
+			"speed": {
+				"walk": 30
+			},
+			
+			"str": 14,
+			"dex": 12,
+			"con": 20,
+			"int": 20,
+			"wis": 10,
+			"cha": 12,
+			"save": {
+				"str": "+6",
+				"dex": "+5",
+				"con": "+9",
+				"int": "+15",
+				"wis": "+10",
+				"cha": "+5"
+			},
+			"skill": {
+				"arcana": "+11",
+				"history": "+11",
+				"perception": "+6",
+				"persuasion": "+7"
+			},
+			"resist": [
+				"poison",
+				"cold",
+				"thunder"
+			],
+			"passive": 19,
+			"languages": [
+				"Common", "Dwarvish (Skuriaman)", "Giant (Goliath)", "Primordial (Auran)"
+			],
+			"cr": "18",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Kagdurm is a 20th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 21}, {@hit 13} to hit with spell attacks)."
+					],
+					"displayAs": "action",
+					"will": [
+						"{@spell mage hand}",
+						"{@spell message}",
+						"{@spell prestidigitation}",
+						"{@spell lightning lure|tce}", 
+						"{@spell shocking grasp}",
+						"{@spell electrostatic discharge|stabbyspells}**",
+						"{@spell invisibility}**"
+					],
+					"daily": {
+						"5e": [
+							"{@spell shield}"
+						],
+						"3e": [
+							"{@spell overcharge|stabbyspells}**", "{@spell thunder step|xge}", "{@spell mirror image}*", "{@spell lightning bolt}"
+						],
+						"2e": [
+							"{@spell chain lightning}", "{@spell ice storm}", "{@spell frost bridge|stabbyspells}", "{@spell clear ice|stabbyspells}"
+						],
+						"1e": [
+							"{@spell invulnerability}**", "{@spell teleport}", "{@spell sky's wrath}"
+						]
+					},
+					"footerEntries": [
+						"*Kagdurm casts these spells on himself before combat.",
+						"**These spells require concentration."
+					],
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magical Equipment",
+					"entries": [
+						"Kagdurm wears a suit of {@item stormcast armor|stabbyitems} and wields a {@item staff of power}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Staff of Power",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning plus 3 ({@damage 1d6}) force damage."
+					]
+				}
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Anton Salzberger, Chanter of Sin",
+			"source": "stabbynpcs",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human",
+					"guttreicher"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"mage armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 120",
+				"average": 210
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 21,
+			"dex": 13,
+			"con": 22,
+			"int": 11,
+			"wis": 11,
+			"cha": 18,
+			"skill": {
+				"athletics": "+9",
+				"intimidation": "+12",
+				"persuasion": "+8",
+				"performance": "+12"
+			},
+			"passive": 10,
+			"languages": [
+				"Common",
+				"Guttreichisch",
+				"Abyssal"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Tormenting Presence",
+					"entries": [
+						"Whenever a creature within 30 feet of the chanter fails a saving throw, it takes 18 ({@dice 4d8}) psychic damage. If the failure causes it to become {@condition charmed}, it takes an additional 4 ({@dice 1d8}) psychic damage."
+					]
+				},
+				{
+					"name": "Psyche Twisting",
+					"entries": [
+						"Whenever a creature is either {@condition frightened} or {@condition charmed} by the chanter, it becomes both {@condition frightened} and {@condition charmed}."
+					]
+				},
+				{
+					"name": "Magical Equipment",
+					"entries": [
+						"The chanter wears a {@item mask of graz'zt|stabbyitems}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The chanter uses its bash and its incite sin, or its incite sin twice."
+					]
+				},
+				{
+					"name": "Bash",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Maddening Chant {@recharge 5}",
+					"entries": [
+						"The chanter uses his Incite Sin on every creature within 60 feet of him that can hear him."
+					]
+				},
+				{
+					"name": "Jarring Chant",
+					"entries": [
+						"Every creature within 30 feet of the chanter that can hear his voice must succeed on a {@dc 16} Wisdom saving throw or become {@condition frightened} until the start of its next turn. Additionally, a creature that fails the saving throw must roll a {@dice d4} and subtract the number rolled from all attack rolls and ability checks for the duration."
+					]
+				},
+				{
+					"name": "Incite Sin",
+					"entries": [
+						"The chanter targets one creature he can see within 30 feet of him. If it can see and hear him, it must make a {@dc 16} Wisdom saving throw. On a failure, it suffers one of the following effects, selected at random:",
+						"    1. Envy. The target becomes overwhelmed with envy and hatred towards another creature of the chanter's choice. The target has disadvantage on all attack rolls against creatures other than the chosen creature until the start of its next turn, and cannot take any supportive actions towards it.",
+						"    2. Wrath. The target cannot use any action on its next turn other than the Attack action.",
+						"    3. Sloth. The target can either move, take a bonus action, or take an action on its next turn, not more than one of the three.",
+						"    4. Gluttony. The target must consume a potion on its next turn as a bonus action. If it has none, it must use its action to search for and consume an item of food or drink that it is carrying. If it has none, it spends its action simply searching for it in its backpack.",
+						"    5. Lust. The target becomes overwhelmed with a desire for closeness with another creature of the chanter's choice. It must start its turn by using its full movement to move as close to it as possible. Additionally, it has disadvantage on saving throws against being {@condition charmed} until the start of its next turn.",
+						"    6. Pride. The target is overwhelmed by a sense of self-importance. It can only take the Disengage or Dodge actions on its next turn, or actions that cause it to regain hit points or which grant it a positive effect.",
+						"    7. Avarice. The target is overwhelmed by greed. On its next turn, it must move towards and pick up an object it perceives to have any sort of worth, such as a fallen weapon. If none are in sight, it must take a Search action to search a nearby corpse or to search the surroundings for such an item."
+					]
+				}
+			],
+			"languageTags": [
+				"C",
+				"AB"
+			],
+			"damageTags": [
+				"B",
+				"Y"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"save": {
+				"str": "+9",
+				"con": "+10",
+				"cha": "+12"
+			},
+			"resist": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"will": [
+						"{@spell command}",
+						"{@spell dissonant whispers}",
+						"{@spell suggestion}",
+						"{@spell vicious mockery}"
+					],
+					"daily": {
+						"1": [
+							"{@spell dominate person}"
+						],
+						"3e": [
+							"{@spell fear}",
+							"{@spell shame|stabbyspells}"
+						]
+					},
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"damageTagsSpell": [
+				"Y"
+			],
+			"conditionInflict": [
+				"charmed",
+				"frightened"
+			],
+			"legendaryActions": 3,
+			"isNamedCreature": true,
+			"legendary": [
+				{
+					"name": "Bash",
+					"entries": [
+						"The chanter uses its bash."
+					]
+				},
+				{
+					"name": "Incite Sin",
+					"entries": [
+						"The chanter uses its incite sin."
+					]
+				},
+				{
+					"name": "Cast a Spell (at will)",
+					"entries": [
+						"The chanter casts one of its at-will spells."
+					]
+				}
+			],
+			"isNpc": true,
+			"actionTags": [
+				"Multiattack"
+			]
+		},
+		{
+			"name": "Alice Palestone, Siren of Seduction",
+			"source": "stabbynpcs",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human",
+					"northirian"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"mage armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "20d8 + 80",
+				"average": 170
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 7,
+			"dex": 17,
+			"con": 19,
+			"int": 14,
+			"wis": 15,
+			"cha": 22,
+			"skill": {
+				"persuasion": "+14",
+				"performance": "+14",
+				"deception": "+10",
+				"sleight of hand": "+7"
+			},
+			"passive": 12,
+			"languages": [
+				"Common",
+				"Northirian",
+				"Abyssal"
+			],
+			"cr": "12",
+			"trait": [
+				{
+					"name": "Enthralling Presence",
+					"entries": [
+						"Any creature within 30 feet of the siren that can see her has disadvantage on saving throws made to resist being {@condition charmed} by her."
+					]
+				},
+				{
+					"name": "Disarming Voice",
+					"entries": [
+						"Creatures {@condition charmed} by the siren have disadvantage on attack rolls as well as Wisdom, Intelligence and Charisma saving throws."
+					]
+				},
+				{
+					"name": "Equipment",
+					"entries": [
+						"The siren wears a {@item mask of graz'zt}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The siren uses her siren's song and her teasing torment."
+					]
+				},
+				{
+					"name": "Siren's Song",
+					"entries": [
+						"Every creature within 100 feet of the siren that can hear her must succeed on a {@dc 18} Wisdom saving throw or become {@condition charmed} by her until the end of her next turn."
+					]
+				},
+				{
+					"name": "Teasing Torment",
+					"entries": [
+						"The siren targets one creature she can see within 30 feet of her, who can see her and is {@condition charmed} by her. It takes 18 ({@damage 4d8}) psychic damage."
+					]
+				}
+			],
+			"languageTags": [
+				"C",
+				"AB"
+			],
+			"damageTags": [
+				"Y"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"save": {
+				"con": "+8",
+				"cha": "+14",
+				"dex": "+7"
+			},
+			"resist": [
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"will": [
+						"{@spell calm emotions}",
+						"{@spell charm person}",
+						"{@spell command}",
+						"{@spell enthrall}",
+						"{@spell suggestion}"
+					],
+					"daily": {
+						"1": [
+							"{@spell dominate person}"
+						],
+						"3e": [
+							"{@spell charm monster|XGE}",
+							"{@spell shame|stabbyspells}"
+						]
+					},
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"damageTagsSpell": [
+				"Y"
+			],
+			"conditionInflict": [
+				"charmed"
+			],
+			"legendaryActions": 3,
+			"isNamedCreature": true,
+			"legendary": [
+				{
+					"name": "Seductive Glance",
+					"entries": [
+						"The siren targets one creature she can see within 30 feet of her. If the target can see her, it must succeed on a {@dc 18} Wisdom saving throw or become {@condition charmed} until the end of her next turn."
+					]
+				},
+				{
+					"name": "Manipulate (Costs 2 Actions)",
+					"entries": [
+						"The siren targets one creature she can see within 30 feet of her. If the target can see her, it must make a {@dc 18} Charisma saving throw. On a failure, the target is only allowed to take offensive actions against the siren's foes and supportive actions against the siren and her allies on its next turn."
+					]
+				},
+				{
+					"name": "Enthralling Performance (Costs 2 Actions)",
+					"entries": [
+						"The enchantress starts a captivating dance. All creatures within 30 feet of her that can see and hear her must make a {@dc 18} Wisdom saving throw or become {@condition charmed} until the end of their next turn. While {@condition charmed} this way, creatures are {@condition stunned}."
+					]
+				},
+				{
+					"name": "Cast a Spell (at will)",
+					"entries": [
+						"The chanter casts one of its at-will spells."
+					]
+				}
+			],
+			"isNpc": true,
+			"actionTags": [
+				"Multiattack"
+			]
+		},
+		{
+			"name": "Johannes von Graffenwald",
+			"source": "stabbynpcs",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human",
+					"guttreicher"
+				]
+			},
+			"alignment": [
+				"G"
+			],
+			"ac": [
+				13,
+				{
+					"ac": 16,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 188,
+				"formula": "20d6 + 100"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 20,
+			"int": 22,
+			"wis": 16,
+			"cha": 12,
+			"save": {
+				"con": "+11",
+				"int": "+12",
+				"wis": "+9"
+			},
+			"skill": {
+				"arcana": "+18",
+				"history": "+12",
+				"investigation": "+12",
+				"perception": "+9"
+			},
+			"passive": 19,
+			"languages": [
+				"Common", "Old Teolian", "Guttreicher", "Northirian"
+			],
+			"cr": "14",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Johannes is a 20th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 20}, {@hit 12} to hit with spell attacks). Johannes can cast {@spell disguise self} and {@spell invisibility} at will and has the following wizard spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell fire bolt}",
+								"{@spell light}",
+								"{@spell mage hand}",
+								"{@spell prestidigitation}",
+								"{@spell control flames|xge}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell acid reflux|stabbyspells}",
+								"{@spell detect magic}",
+								"{@spell identify}",
+								"{@spell magic missile}",
+								"{@spell shield}",
+								"{@spell feather fall}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell alter self}",
+								"{@spell detect thoughts}",
+								"{@spell mirror image}",
+								"{@spell misty step}",
+								"{@spell enlarge/reduce}",
+								"{@spell maximilian's earthen grasp|xge}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell counterspell}",
+								"{@spell fly}",
+								"{@spell fireball}",
+								"{@spell cold void|stabbyspells}",
+								"{@spell slow}",
+								"{@spell haste}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell banishment}",
+								"{@spell fabricate}"
+							]
+						},
+						"5": {
+							"slots": 3,
+							"spells": [
+								"{@spell cone of cold}",
+								"{@spell wall of force}",
+								"{@spell passwall}",
+								"{@spell telekinesis}"
+							]
+						},
+						"6": {
+							"slots": 1,
+							"spells": [
+								"{@spell globe of invulnerability}",
+								"{@spell disintegrate}"
+							]
+						},
+						"7": {
+							"slots": 1,
+							"spells": [
+								"{@spell teleport}"
+							]
+						},
+						"8": {
+							"slots": 1,
+							"spells": [
+								"{@spell mind blank}*"
+							]
+						},
+						"9": {
+							"slots": 1,
+							"spells": [
+								"{@spell time stop}"
+							]
+						}
+					},
+					"will": [
+						"{@spell disguise self}",
+						"{@spell invisibility}"
+					],
+					"hidden": [
+						"will"
+					],
+					"footerEntries": [
+						"*Johannes casts these spells on himself before combat."
+					],
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magical Equipment",
+					"entries": [
+						"Johannes wields a {@item staff of defense|lmop}. He also wears a {@item ring of telekinesis} and a {@item ring of free action}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Staff",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) bludgeoning damage."
+					]
+				}
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Ishilla",
+			"source": "stabbynpcs",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf",
+					"green elf"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item green dragon scale mail}"
+					]
+				}
+			],
+			"hp": {
+				"average": 91,
+				"formula": "12d8 + 36"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 16,
+			"con": 16,
+			"int": 11,
+			"wis": 20,
+			"cha": 12,
+			"save": {
+				"int": "+5",
+				"wis": "+10"
+			},
+			"skill": {
+				"nature": "+10",
+				"perception": "+10",
+				"survival": "+10",
+				"stealth": "+8"
+			},
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 19,
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned",
+				"charmed"
+			],
+			"languages": [
+				"Elvish (Callendherena)", "Druidic", "Primordial (Universal)", "Sylvan"
+			],
+			"cr": "12",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Ishilla can innately cast a few spells, as a consequence of her lineage, her druidic training, and her connection to the Green Mother (spell save {@dc 18}, {@hit 10}). She can innately cast the following spells, requiring no material components:"
+					],
+					"will": [
+						"{@spell alter self}",
+						"{@spell barkskin}",
+						"{@spell entangle}",
+						"{@spell speak with plants}"
+					],
+					"ability": "wis"
+				},
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Ishilla is a 15th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 18}, {@hit 10} to hit with spell attacks). She has the following druid spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell druidcraft}",
+								"{@spell mending}",
+								"{@spell caustic touch}",
+								"{@spell shillelagh}",
+								"{@spell produce flame}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell entangle}",
+								"{@spell faerie fire}",
+								"{@spell speak with animals}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell animal messenger}",
+								"{@spell beast sense}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell corrosive breath|stabbyspells}",
+								"{@spell adorn|stabbyspells}",
+								"{@spell water breathing}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell charm monster|xge}",
+								"{@spell wither|stabbyspells}"
+							]
+						},
+						"5": {
+							"slots": 2,
+							"spells": [
+								"{@spell commune with nature}",
+								"{@spell mass cure wounds}",
+								"{@spell tree stride}",
+								"{@spell greater restoration}"
+							]
+						},
+						"6": {
+							"slots": 1,
+							"spells": [
+								"{@spell heal}",
+								"{@spell heroes' feast}",
+								"{@spell transport via plants}"
+							]
+						},
+						"7": {
+							"slots": 1,
+							"spells": [
+								"{@spell regenerate}"
+							]
+						},
+						"8": {
+							"slots": 1,
+							"spells": [
+								"{@spell animal shapes}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Elvish Lineage",
+					"entries": [
+						"Ishilla cannot be put to sleep by magic."
+					]
+				},
+				{
+					"name": "Magical Equipment",
+					"entries": [
+						"Ishilla wears a {@item green dragon scale mail} underneath a {@item cloak of elvenkind}. She also wears a pair of {@item boots of elvenkind}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Staff (Shillelagh)",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d8 + 5}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Change Shape (3/Day)",
+					"entries": [
+						"As a bonus action, Ishilla magically polymorphs into a beast or elemental with a challenge rating of 5 or less, and can remain in this form for up to 7 hours. Ishilla can choose whether her equipment falls to the ground, melds with her new form, or is worn by the new form. Ishilla reverts to her true form if she dies or falls {@condition unconscious}. Ishilla can revert to her true form using a bonus action on her turn.",
+						"While in a new form, Ishilla retains her game statistics and ability to speak, but her AC, movement modes, Strength, and Dexterity are replaced by those of the new form, and she gains any special senses, proficiencies, traits, actions, and reactions (except class features, legendary actions, and lair actions) that the new form has but that she lacks. She can cast her spells with verbal or somatic components in her new form.",
+						"The new form's attacks count as magical for the purpose of overcoming resistances and immunity to nonmagical attacks.",
+						{
+							"type": "table",
+							"caption": "Typical Shapes",
+							"colLabels": [
+								"Creatures"
+							],
+							"colStyles": [
+								"col-12"
+							],
+							"rows": [
+								[
+									"Elementals: {@creature air elemental}, {@creature earth elemental}, {@creature fire elemental}, {@creature water elemental}"
+								],
+								[
+									"Control Beasts: {@creature giant crocodile}, {@creature giant scorpion}, {@creature giant constrictor snake}, {@creature giant toad}"
+								],
+								[
+									"Utility Beasts: {@creature killer whale}, {@creature giant sea eel|gos}, {@creature giant spider}, {@creature giant eagle}, {@creature giant owl}"
+								],
+								[
+									"Tiny Beasts: {@creature spider}, {@creature raven}, {@creature owl}, {@creature lizard}, {@creature bat}, {@creature fox|idrotf}, {@creature fish|gos}"
+								]
+							]
+						}
+					]
+				}
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Kyla, Druid of the Forest",
+			"source": "stabbynpcs",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item robe of vines|stabbyitems}"
+					]
+				}
+			],
+			"hp": {
+				"average": 78,
+				"formula": "12d8 + 24"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 15,
+			"con": 14,
+			"int": 12,
+			"wis": 20,
+			"cha": 13,
+			"save": {
+				"str": "+1",
+				"dex": "+3",
+				"con": "+3",
+				"int": "+5",
+				"wis": "+9",
+				"cha": "+2"
+			},
+			"skill": {
+				"nature": "+7",
+				"perception": "+8",
+				"stealth": "+5",
+				"survival": "+8"
+			},
+			"passive": 18,
+			"languages": [
+				"Common", "Morrowgleamean", "Elvish (Erynala'ina)", "Elvish (Brag’haín’a)", "Druidic", "Sylvan"
+			],
+			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Kyla is a 12th-level spellcaster. Her spellcasting ability is Wisdom (spell save {@dc 16}, {@hit 10} to hit with spell attacks). She has the following druid spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell druidcraft}",
+								"{@spell poison spray}",
+								"{@spell primal savagery}",
+								"{@spell thorn whip}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell goodberry}",
+								"{@spell speak with animals}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell enhance ability}",
+								"{@spell moonbeam}",
+								"{@spell pass without trace}"
+							]
+						},
+						"3": {
+							"slots": 3,
+							"spells": [
+								"{@spell revivify}",
+								"{@spell plant growth}",
+								"{@spell call lightning}"
+							]
+						},
+						"4": {
+							"slots": 3,
+							"spells": [
+								"{@spell conjure woodland beings}",
+								"{@spell guardian of nature}",
+								"{@spell divination}",
+								"{@spell freedom of movement}"
+							]
+						},
+						"5": {
+							"slots": 2,
+							"spells": [
+								"{@spell commune with nature}",
+								"{@spell mass cure wounds}",
+								"{@spell tree stride}"
+							]
+						},
+						"6": {
+							"slots": 1,
+							"spells": [
+								"{@spell transport via plants}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magical Equipment",
+					"entries": [
+						"Kyla wears a {@item robe of vines|stabbyitems} and wields a {@item staff of the woodlands}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Staff of the Woodlands",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Change Shape (2/Day)",
+					"entries": [
+						"As an action, Kyla magically polymorphs into a beast with a challenge rating of 1 or less, and can remain in this form for up to 6 hours. Kyla can choose whether her equipment falls to the ground, melds with her new form, or is worn by the new form. Kyla reverts to her true form if she dies or falls {@condition unconscious}. Kyla can revert to her true form using an action on her turn.",
+						"While in a new form, Kyla retains her game statistics and ability to speak, but her AC, movement modes, Strength, and Dexterity are replaced by those of the new form, and she gains any special senses, proficiencies, traits, actions, and reactions (except class features, legendary actions, and lair actions) that the new form has but that she lacks. She can cast her spells with verbal or somatic components in her new form.",
+						"The new form's attacks count as magical for the purpose of overcoming resistances and immunity to nonmagical attacks."
+					]
+				}
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Tonka \"Twofoot\" Goof",
+			"source": "stabbynpcs",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"halfling"
+				]
+			},
+			"alignment": [
+				"C", "G"
+			],
+			"ac": [
+				13,
+				{
+					"ac": 16,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 83,
+				"formula": "10d6 + 30"
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 11,
+			"dex": 17,
+			"con": 16,
+			"int": 20,
+			"wis": 16,
+			"cha": 6,
+			"save": {
+				"int": "+9",
+				"wis": "+7"
+			},
+			"skill": {
+				"arcana": "+9",
+				"investigation": "+14",
+				"nature": "+9",
+				"perception": "+8"
+			},
+			"passive": 18,
+			"languages": [
+				"Common", "Halfling", "Sylvan"
+			],
+			"cr": "9",
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw} {@hit +7} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Potion of Healing",
+					"entries": [
+						"Tonka drinks or gives someone else a {@item potion of healing}. Limited to 3 lifetime uses (unless he is given more potions)."
+					]
+				}
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Tonka is a 10th-level spellcaster. His spellcasting ability is Intelligence (spell save {@dc 18}, {@hit 10} to hit with spell attacks). He can cast the following wizard spells:"
+					],
+					"will": [
+						"{@spell fire bolt}",
+						"{@spell mage hand}",
+						"{@spell gust|xge}", 
+						"{@spell magic missile}"
+					],
+					"daily": {
+						"4e": [
+							"{@spell shield}",
+							"{@spell sleep}",
+							"{@spell tasha's mind whip|tce}"
+						],
+						"3e": [
+							"{@spell levitate}", "{@spell counterspell}", "{@spell catnap|xge}"
+						],
+						"2e": [
+							"{@spell polymorph}", "{@spell wall of force}", "{@spell mage armor}"
+						],
+						"1e": [
+							"{@spell cone of cold}", "{@spell greater invisibility}", "{@spell far step|xge}"
+						]
+					},
+					"ability": "int"
+				}
+			],
+			"trait": [
+				{
+					"name": "Halfling Lineage",
+					"entries": [
+						"Tonka has advantage on saving throws against being frightened. Additionally, whenenver he rolls a 1 on a d20, he may repeat the roll and must use the new result."
+					]
+				},
+				{
+					"name": "Tough and Observant",
+					"entries": [
+						"Tonka's hit point maximum increases by an additional 2 hit points each level, if he levels up. Additionally, he has a +5 bonus to perception and investigation checks."
+					]
+				},
+				{
+					"name": "Magical Equipment",
+					"entries": [
+						"Tonka carries a {@item +1 arcane grimoire|tce} and has a pair of {@item eyes of minute seeing}."
+					]
+				}
+			]
+		}
+	],
+	"monsterFluff": [
+		{
+			"name": "Template",
+			"source": "stabbynpcs",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Aarakocra range the Howling Gyre, an endless storm of mighty winds and lashing rains that surrounds the tranquil realm of Aaqa in the Elemental Plane of Air. Making aerial patrols, these birdlike humanoids guard the windy borders of their home against invaders from the Elemental Plane of Earth, such as gargoyles, their sworn enemies.",
+								{
+									"type": "entries",
+									"name": "Enemies of Elemental Evil",
+									"entries": [
+										"In service to the Wind Dukes of Aaqa, aarakocra scout the planes in search of temples of Elemental Evil. They spy on malign elemental creatures and then either take the fight to those creatures or report back to the Wind Dukes.",
+										"On the Material Plane, aarakocra create aeries atop the highest mountains, especially peaks near portals to the Elemental Plane of Air. From such heights, aarakocra watch for signs of elemental incursions, as well as for nascent threats to their home plane. Aarakocra prefer to live their lives like the wind-unburdened and ever moving-yet they watch over a region for years if that's what it takes to guard against the incursions of Elemental Evil.",
+										"Aarakocra have no concept of political borders or property ownership, and the value of gems, gold, and other precious materials means little to aarakocra. In their eyes, a creature should use what is necessary and then cast what is left on the wind for others to use.",
+										{
+											"name": "Search for the Seven Shards",
+											"entries": [
+												" The Wind Dukes of Aaqa come from a race of elemental beings called the vaati, which once ruled many worlds. A creature known as the Queen of Chaos arose and initiated an interplanar war against vaati rule. To combat the threat, seven vaati heroes combined their powers to create the mighty {@i Rod of Law}. In a battle against the queen's greatest general, Mishka the Wolf Spider, a vaati killed Mishka by thrusting the rod into him like a spear. The rod shattered into seven shards that scattered across the multiverse. Aaracokra seek signs of the pieces' locations in order to rebuild what is now known as the {@i Rod of Seven Parts}."
+											],
+											"type": "entries"
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Summoning Air Elementals",
+									"entries": [
+										"Five aarakocra within 30 feet of each other can magically summon an air elemental. Each of the five must use its action and movement on three consecutive turns to perform an aerial dance and must maintain concentration while doing so (as if concentrating on a spell). When all five have finished their third turn of the dance, the elemental appears in an unoccupied space within 60 feet of them. It is friendly toward them and obeys their spoken commands. It remains for 1 hour, until it or all its summoners die, or until any of its summoners dismisses it as a bonus action. A summoner can't perform the dance again until it finishes a short rest. When the elemental returns to the Elemental Plane of Air, any aarakocra within 5 feet of it can return with it."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": ""
+					}
+				}
+			]
+		},
+		{
+			"name": "Ishilla",
+			"source": "stabbynpcs",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Born 1218.",
+						"Ishilla is one of the Green Mother's favored daughters, a green elf who has traveled much of the natural world and the Feywild."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": ""
+					}
+				}
+			]
+		},
+		{
+			"name": "Johannes von Graffenwald",
+			"source": "stabbynpcs",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Born 1270, died for the first time 1351, and reincarnated late Autumn 1382, through his own work and the very fortunate help of some adventurers.",
+						"Johannes is a powerful archmage of Transmutation, perhaps the greatest of this school alive, although academic circles would not know it, as he has kept secret most of his work, knowing it to border on heretical."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": ""
+					}
+				}
+			]
+		},
+		{
+			"name": "Kagdurm Stormcast",
+			"source": "stabbynpcs",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Born 1110.",
+						"The Stormcast clan is renowned and well respected throughout the Kingdom of the Snowy Mountains and beyond, as an ancient line of wizards and royal advisors, despite their diminished importance since the incorporation of Skuriamania into the Teolian Empire.",
+						"They are also among the wealthiest in the Kingdom, conjointly owning a large number of businesses and private residences throughout it."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": ""
+					}
+				}
+			]
+		},
+		{
+			"name": "Tonka Twofoot",
+			"source": "stabbynpcs",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Born ?. Backstory:",
+						"My name is Tonka Twofoot, and I'm a proud Goof Halfling born in the surroundings of Halfling Port. I come from a long lineage of Twofoots, a name as old as the first halflings, who have always had two feet and always put them to great use.",
+						"From a very young age, I showed a natural attunement to the flows of magic and a particular interest in wildlife and the cycles of nature. During my childhood I spent most of my time wandering the wilderness and studying all sorts of different creatures. I often found myself more at home close to the ant colonies and sheep herds of Hillsea than next to my own kin.",
+						"In my early adulthood, I put my skills as a budding young wizard to use, trying to help the community in various ways. After some time, my family and friends got together and gathered enough money to send me on a one way trip to Teolia Major, where I was accepted into the Wizard Academy to develop my magical talents.",
+						"On my fifth year at the Wizard Academy, I made my first major contribution to the scientific community by proving that Magmin taste buds are extremely, violently, and explosively reactive to measures of over 2 grams of Orihalcum. That also coincided with my expulsion from the academy for \"reckless endangerment of fellow students\" and \"irrepairable damage to study hall\".",
+						"Ever since then, I have been travelling the world working on my lifelong dream of writing the most complete encylopedia of species of Teolia. During my travels I've been face to face with all manners of life forms, including a visit from a Fey and a brief stay in the Feywild.",
+						"Currently, I am in the Snowy Mountains with my good friend and former colleague Khagdurm, who has offered me a place to stay while I study the vast underground fauna and flora of the Snowy Mountains."
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": ""
+					}
+				}
+			]
+		}
+	]
+}

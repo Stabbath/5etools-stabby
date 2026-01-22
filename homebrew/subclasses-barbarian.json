@@ -1,0 +1,127 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "stabbybarbarian",
+				"abbreviation": "Stabby",
+				"full": "Stabby's Classes",
+				"version": "1",
+				"url": "none",
+				"authors": [
+					"Francisco \"Stabby\" Pesquita"
+				],
+				"convertedBy": [
+					"Francisco \"Stabby\" Pesquita"
+				]
+			}
+		],
+		"dateAdded": 1586966344, 
+		"dateLastModified": 1657399173,
+		"_dateLastModifiedHash": "aa8d6f9bda"
+	},
+	"subclass": [
+		{
+			"name": "Path of the Overbearing Protector (or Path of the Mamma or Pappa Bear)",
+			"shortName": "Overbearing Protector",
+			"source": "stabbybarbarian",
+			"page": 0,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassFeatures": [
+				"Path of the Overbearing Protector (or Path of the Mamma or Pappa Bear)|Barbarian||Overbearing Protector|stabbybarbarian|3",
+				"Reasonable Intervention|Barbarian||Overbearing Protector|stabbybarbarian|6",
+				"Think About What You've Done|Barbarian||Overbearing Protector|stabbybarbarian|10",
+				"Cosseting Intervention|Barbarian||Overbearing Protector|stabbybarbarian|14"
+			]
+		}
+	],
+	
+	
+	
+	
+	
+	
+	
+
+	
+	"subclassFeature": [
+		{
+			"name": "Path of the Overbearing Protector (or Path of the Mamma or Pappa Bear)",
+			"source": "stabbybarbarian",
+			"page": 0,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Overbearing Protector",
+			"subclassSource": "stabbybarbarian",
+			"level": 3,
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Protective Instincts|Barbarian||Overbearing Protector|stabbybarbarian|3"
+				}
+			]
+		},
+		{
+			"name": "Protective Instincts",
+			"source": "stabbybarbarian",
+			"page": 0,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Overbearing Protector",
+			"subclassSource": "stabbybarbarian",
+			"level": 3,
+			"entries": [
+				"Starting when you choose this path at 3rd level, your devotion to your companions' safety makes it so your rage persists as long as a source of danger to them is near.",
+				"You can enter a rage as a reaction when you see an ally take damage, or be made uncomfortable in a visibly noticeable way.",
+				"When you enter a rage this way, or in any other way while in combat alongside one or more allies, your rage ends early only if you fall unconscious or if you choose to end it.",
+				"Additionally, when forcing a willing or incapacitated creature to move (while grappling them), you can drag them with you with no reduction to your movement speed."
+			]
+		},
+		{
+			"name": "Reasonable Intervention",
+			"source": "stabbybarbarian",
+			"page": 0,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Overbearing Protector",
+			"subclassSource": "stabbybarbarian",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, your concern for your companions' safety allows you to position yourself between them and those trying to harm them.",
+				"Whenever a creature within 5 feet of you is attacked, you can use your reaction to make the attack target you instead."
+			]
+		},
+		{
+			"name": "Think About What You've Done",
+			"source": "stabbybarbarian",
+			"page": 0,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Overbearing Protector",
+			"subclassSource": "stabbybarbarian",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, you gain the ability to force a creature to reflect about its actions, often with as little as a sour look in their direction.",
+				"As a bonus action, you can judge and chastize a creature to make it really think about what it's doing. It makes a Wisdom saving throw against a DC equal to 8 + your proficiency modifier + your Wisdom modifier. On a failure, it is stunned until the start of your next turn. Once you succeed in your use of this feature, you can't use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Cosseting Intervention",
+			"source": "stabbybarbarian",
+			"page": 0,
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "Overbearing Protector",
+			"subclassSource": "stabbybarbarian",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, your worrying of your companions' wellbeing has reached such a level that you find yourself acquiring a supernatural ability to intervene, fixing their problems even when the problem is a curse or spell cast directly at them.",
+				"When a creature you can see within 20 feet of you fails a saving throw, you can use your reaction to move up to 15 feet towards it and make the same save. On a success, it succeeds instead. On a failure, you are unaffected and it still fails. You can use this feature once per short or long rest."
+			]
+		}
+	]
+}
+		

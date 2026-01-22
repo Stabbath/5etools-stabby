@@ -318,8 +318,12 @@ class ItemsPage extends ListPage {
 							e_({tag: "span", clazz: `ve-col-3-5 pl-0 pr-1 bold`, text: item.name}),
 							e_({tag: "span", clazz: `ve-col-4-5 px-1`, text: type}),
 							e_({tag: "span", clazz: `ve-col-1-5 px-1 ve-text-center`, text: item._l_value}),
-							e_({tag: "span", clazz: `ve-col-1-5 px-1 ve-text-center`, text: item._l_weight}),
-							e_({
+							e_({tag: "span", clazz: `ve-col-1-5 px-1 ve-text-center`, text: item._l_weight}),								e_({
+									tag: "span",
+									clazz: `ve-col-1-4 ve-text-center ${item.rarity ? `itm__rarity-${item.rarity}` : ""}`,
+									title: (item.rarity || "").toTitleCase(),
+									text: Parser.itemRarityToShort(item.rarity) || "",
+								}),							e_({
 								tag: "span",
 								clazz: `ve-col-1 ve-text-center ${Parser.sourceJsonToSourceClassname(item.source)} pl-1 pr-0`,
 								title: `${Parser.sourceJsonToFull(item.source)}${Renderer.utils.getSourceSubText(item)}`,
@@ -339,6 +343,7 @@ class ItemsPage extends ListPage {
 					source,
 					...ListItem.getCommonValues(item),
 					type,
+					rarity: item.rarity,
 					cost: item.value || 0,
 					weight: Parser.weightValueToNumber(item.weight),
 				},
@@ -362,6 +367,7 @@ class ItemsPage extends ListPage {
 						children: [
 							e_({tag: "span", clazz: `ve-col-3-5 pl-0 bold`, text: item.name}),
 							e_({tag: "span", clazz: `ve-col-4`, text: type}),
+							e_({tag: "span", clazz: `ve-col-1-5 px-1 ve-text-center`, text: item._l_value}),
 							e_({tag: "span", clazz: `ve-col-1-5 ve-text-center`, text: item._l_weight}),
 							e_({tag: "span", clazz: `ve-col-0-6 ve-text-center`, text: item._attunementCategory !== VeCt.STR_NO_ATTUNEMENT ? "×" : ""}),
 							e_({
@@ -391,6 +397,7 @@ class ItemsPage extends ListPage {
 					...ListItem.getCommonValues(item),
 					type,
 					rarity: item.rarity,
+					cost: item.value || 0,
 					attunement: item._attunementCategory !== VeCt.STR_NO_ATTUNEMENT,
 					weight: Parser.weightValueToNumber(item.weight),
 				},

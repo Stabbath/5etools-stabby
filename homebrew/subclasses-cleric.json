@@ -1,0 +1,2883 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "stabbycleric",
+				"abbreviation": "Stabby",
+				"full": "Stabby's Classes",
+				"version": "1",
+				"url": "none",
+				"authors": [
+					"Francisco \"Stabby\" Pesquita"
+				],
+				"convertedBy": [
+					"Francisco \"Stabby\" Pesquita"
+				]
+			}
+		],
+		"dateAdded": 1586966344, 
+		"dateLastModified": 1657399173,
+		"_dateLastModifiedHash": "aa8d6f9bda"
+	},
+	"subclass": [
+		{
+			"name": "Order Domain",
+			"shortName": "Order",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"command",
+							"heroism"
+						],
+						"3": [
+							"hold person",
+							"zone of truth"
+						],
+						"5": [
+							"crusader's mantle",
+							"slow"
+						],
+						"7": [
+							"compulsion",
+							"locate creature"
+						],
+						"9": [
+							"commune",
+							"dominate person"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Order Domain|Cleric||Order|stabbycleric|1",
+				"Channel Divinity: Respect My Authority|Cleric||Order|stabbycleric|2",
+				"Embodiment of the Law|Cleric||Order|stabbycleric|6",
+				"Divine Strike|Cleric||Order|stabbycleric|8",
+				"Orderly Compulsion|Cleric||Order|stabbycleric|17"
+			]
+		},
+		{
+			"name": "Destruction Domain",
+			"shortName": "Destruction",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"chaos bolt",
+							"chromatic orb"
+						],
+						"3": [
+							"knock",
+							"shatter"
+						],
+						"5": [
+							"fireball",
+							"thunder step"
+						],
+						"7": [
+							"blight",
+							"elemental bane"
+						],
+						"9": [
+							"destructive wave",
+							"steel wind strike"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Destruction Domain|Cleric||Destruction|stabbycleric|1",
+				"Channel Divinity: Destroy|Cleric||Destruction|stabbycleric|2",
+				"Warrior of Chaos|Cleric||Destruction|stabbycleric|6",
+				"Potent Spellcasting|Cleric||Destruction|stabbycleric|8",
+				"Rampage|Cleric||Destruction|stabbycleric|17"
+			]
+		},
+		{
+			"name": "Cold Domain",
+			"shortName": "Cold",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"armor of agathys",
+							"ice knife"
+						],
+						"3": [
+							"silence",
+							"snilloc's snowball swarm"
+						],
+						"5": [
+							"protection from energy",
+							"cold void"
+						],
+						"7": [
+							"ice storm",
+							"frost bridge"
+						],
+						"9": [
+							"cone of cold",
+							"clear ice"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Cold Domain|Cleric||Cold|stabbycleric|1",
+				"Channel Divinity: Glacial Embrace|Cleric||Cold|stabbycleric|2",
+				"Chilling Presence|Cleric||Cold|stabbycleric|6",
+				"Divine Strike|Cleric||Cold|stabbycleric|8",
+				"Cold Incarnate|Cleric||Cold|stabbycleric|17"
+			]
+		},
+		{
+			"name": "Fire Domain",
+			"shortName": "Fire",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"hellish rebuke",
+							"searing smite"
+						],
+						"3": [
+							"scorching ray",
+							"continual flame"
+						],
+						"5": [
+							"fireball",
+							"melf's minute meteors"
+						],
+						"7": [
+							"wall of fire",
+							"blaze"
+						],
+						"9": [
+							"flame strike",
+							"immolation"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Fire Domain|Cleric||Fire|stabbycleric|1",
+				"Channel Divinity: Inner Fire|Cleric||Fire|stabbycleric|2",
+				"Holy Fire|Cleric||Fire|stabbycleric|6",
+				"Divine Strike|Cleric||Fire|stabbycleric|8",
+				"Warmth Incarnate|Cleric||Fire|stabbycleric|17"
+			]
+		},
+		{
+			"name": "Water Domain",
+			"shortName": "Water",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"create or destroy water",
+							"ice knife"
+						],
+						"3": [
+							"blur",
+							"snilloc's snowball swarm"
+						],
+						"5": [
+							"tidal wave",
+							"wall of water"
+						],
+						"7": [
+							"control water",
+							"watery sphere"
+						],
+						"9": [
+							"cone of cold",
+							"maelstrom"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Water Domain|Cleric||Water|stabbycleric|1",
+				"Channel Divinity: Watery Grave|Cleric||Water|stabbycleric|2",
+				"Blessing of the Water Delver|Cleric||Water|stabbycleric|6",
+				"Potent Spellcasting|Cleric||Water|stabbycleric|8",
+				"Flowing Form|Cleric||Water|stabbycleric|17"
+			]
+		},
+		{
+			"name": "Earth Domain",
+			"shortName": "Earth",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"earth tremor",
+							"rock shower"
+						],
+						"3": [
+							"maximilian's earthen grasp",
+							"stonefist"
+						],
+						"5": [
+							"erupting earth",
+							"meld into stone"
+						],
+						"7": [
+							"stone shape",
+							"stoneskin"
+						],
+						"9": [
+							"transmute rock",
+							"wall of stone"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Earth Domain|Cleric||Earth|stabbycleric|1",
+				"Channel Divinity: Blessing of the Burrower|Cleric||Earth|stabbycleric|2",
+				"Earthen Body|Cleric||Earth|stabbycleric|6",
+				"Divine Strike|Cleric||Earth|stabbycleric|8",
+				"Animate Earth|Cleric||Earth|stabbycleric|17"
+			]
+		},
+		{
+			"name": "Night / Darkness Domain",
+			"shortName": "Night / Darkness",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"cause fear",
+							"sleep"
+						],
+						"3": [
+							"shadow blade",
+							"darkness"
+						],
+						"5": [
+							"hunger of hadar",
+							"twilight cloak"
+						],
+						"7": [
+							"hallucinatory terrain",
+							"phantasmal killer"
+						],
+						"9": [
+							"dream",
+							"midnight"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Night / Darkness Domain|Cleric||Night / Darkness|stabbycleric|1",
+				"Channel Divinity: Blessing of the Night|Cleric||Night / Darkness|stabbycleric|2",
+				"Magical Darkvision|Cleric||Night / Darkness|stabbycleric|6",
+				"Potent Spellcasting|Cleric||Night / Darkness|stabbycleric|8",
+				"Call Eclipse|Cleric||Night / Darkness|stabbycleric|17"
+			]
+		},
+		{
+			"name": "Beauty / Love Domain",
+			"shortName": "Beauty / Love",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"charm person",
+							"disguise self"
+						],
+						"3": [
+							"enthrall",
+							"suggestion"
+						],
+						"5": [
+							"hypnotic pattern",
+							"adorn"
+						],
+						"7": [
+							"charm monster",
+							"compulsion"
+						],
+						"9": [
+							"dominate person",
+							"geas"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Beauty / Love Domain|Cleric||Beauty / Love|stabbycleric|1",
+				"Channel Divinity: Unite|Cleric||Beauty / Love|stabbycleric|2",
+				"Divine Muse|Cleric||Beauty / Love|stabbycleric|6",
+				"Potent Spellcasting|Cleric||Beauty / Love|stabbycleric|8",
+				"Vessel of Irresistibility|Cleric||Beauty / Love|stabbycleric|17"
+			]
+		},
+		{
+			"name": "Travel Domain",
+			"shortName": "Travel",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"longstrider",
+							"disguise self"
+						],
+						"3": [
+							"pass without trace",
+							"invisibility"
+						],
+						"5": [
+							"water walk",
+							"tongues"
+						],
+						"7": [
+							"freedom of movement",
+							"find greater steed"
+						],
+						"9": [
+							"far step",
+							"passwall"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Travel Domain|Cleric||Travel|stabbycleric|1",
+				"Channel Divinity: Blessing of the Traveler|Cleric||Travel|stabbycleric|2",
+				"Channel Divinity: Hamper Travel|Cleric||Travel|stabbycleric|6",
+				"Potent Spellcasting|Cleric||Travel|stabbycleric|8",
+				"Arcane Ways|Cleric||Travel|stabbycleric|17"
+			]
+		},
+		{
+			"name": "Joy / Hope Domain",
+			"shortName": "Joy / Hope",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"charm person",
+							"tasha's hideous laughter"
+						],
+						"3": [
+							"calm emotions",
+							"enthrall"
+						],
+						"5": [
+							"beacon of hope",
+							"tongues"
+						],
+						"7": [
+							"freedom of movement",
+							"aura of purity"
+						],
+						"9": [
+							"modify memory",
+							"greater restoration"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Joy / Hope Domain|Cleric||Joy / Hope|stabbycleric|1",
+				"Channel Divinity: Spark Joy|Cleric||Joy / Hope|stabbycleric|2",
+				"Channel Divinity: Fixations and Aspirations|Cleric||Joy / Hope|stabbycleric|6",
+				"Emotional Stability|Cleric||Joy / Hope|stabbycleric|6",
+				"Divine Strike|Cleric||Joy / Hope|stabbycleric|8",
+				"Revelry|Cleric||Joy / Hope|stabbycleric|17"
+			]
+		},
+		{
+			"name": "Misery / Despair Domain",
+			"shortName": "Misery / Despair",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"charm person",
+							"tasha's hideous laughter"
+						],
+						"3": [
+							"calm emotions",
+							"enthrall"
+						],
+						"5": [
+							"beacon of hope",
+							"tongues"
+						],
+						"7": [
+							"freedom of movement",
+							"aura of purity"
+						],
+						"9": [
+							"modify memory",
+							"greater restoration"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Misery / Despair Domain|Cleric||Misery / Despair|stabbycleric|1",
+				"Channel Divinity: Spark Misery|Cleric||Misery / Despair|stabbycleric|2",
+				"Channel Divinity: Fixations and Aspirations|Cleric||Misery / Despair|stabbycleric|6",
+				"Emotional Stability|Cleric||Misery / Despair|stabbycleric|6",
+				"Divine Strike|Cleric||Misery / Despair|stabbycleric|8",
+				"Avatar of Anguish|Cleric||Misery / Despair|stabbycleric|17"
+			]
+		},
+		{
+			"name": "Peace Domain",
+			"shortName": "Peace",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"sanctuary",
+							"healing word"
+						],
+						"3": [
+							"calm emotions",
+							"zone of truth"
+						],
+						"5": [
+							"tongues",
+							"sending"
+						],
+						"7": [
+							"charm monster",
+							"truce"
+						],
+						"9": [
+							"commune",
+							"alter ego"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Peace Domain|Cleric||Peace|stabbycleric|1",
+				"Channel Divinity: Mediate|Cleric||Peace|stabbycleric|2",
+				"Peaceful Nature|Cleric||Peace|stabbycleric|6",
+				"Potent Spellcasting|Cleric||Peace|stabbycleric|8",
+				"Pacify|Cleric||Peace|stabbycleric|17"
+			]
+		},
+		{
+			"name": "Protection Domain",
+			"shortName": "Protection",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"compelled duel",
+							"protection from evil and good"
+						],
+						"3": [
+							"protection from poison",
+							"warding bond"
+						],
+						"5": [
+							"nondetection",
+							"protection from energy"
+						],
+						"7": [
+							"death ward",
+							"guardian of faith"
+						],
+						"9": [
+							"dispel evil and good",
+							"wall of force"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Protection Domain|Cleric||Protection|stabbycleric|1",
+				"Channel Divinity: Retribution|Cleric||Protection|stabbycleric|2",
+				"Channel Divinity: Deflection|Cleric||Protection|stabbycleric|6",
+				"Divine Strike|Cleric||Protection|stabbycleric|8",
+				"Divine Protection|Cleric||Protection|stabbycleric|17"
+			]
+		},
+		{
+			"name": "Disease Domain",
+			"shortName": "Disease",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"ray of sickness",
+							"bane"
+						],
+						"3": [
+							"ray of enfeeblement",
+							"blindness/deafness"
+						],
+						"5": [
+							"stinking cloud",
+							"vampiric touch"
+						],
+						"7": [
+							"blight",
+							"wither"
+						],
+						"9": [
+							"contagion",
+							"insect plague"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Disease Domain|Cleric||Disease|stabbycleric|1",
+				"Channel Divinity: Minor Malaise|Cleric||Disease|stabbycleric|2",
+				"Channel Divinity: Pestilence|Cleric||Disease|stabbycleric|6",
+				"Divine Strike|Cleric||Disease|stabbycleric|8",
+				"Aura of Frailty|Cleric||Disease|stabbycleric|17"
+			]
+		},
+		{
+			"name": "Truth Domain",
+			"shortName": "Truth",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"1": [
+							"identify",
+							"guiding bolt"
+						],
+						"3": [
+							"see invisibility",
+							"zone of truth"
+						],
+						"5": [
+							"clairvoyance",
+							"tongues"
+						],
+						"7": [
+							"compel honesty",
+							"divination"
+						],
+						"9": [
+							"legend lore",
+							"scrying"
+						]
+					}
+				}
+			],
+			"subclassFeatures": [
+				"Truth Domain|Cleric||Truth|stabbycleric|1",
+				"Channel Divinity: Discern Truth|Cleric||Truth|stabbycleric|2",
+				"Channel Divinity: Truesight|Cleric||Truth|stabbycleric|6",
+				"Potent Spellcasting|Cleric||Truth|stabbycleric|8",
+				"Avatar of Veracity|Cleric||Truth|stabbycleric|17"
+			]
+		}
+	],
+	
+	
+
+	
+	
+	
+
+	
+	"subclassFeature": [
+		{
+			"name": "Truth Domain",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Truth",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"entries": [
+				{
+					"type": "table",
+					"caption": "Truth Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell identify}, {@spell guiding bolt}"
+						],
+						[
+							"3rd",
+							"{@spell see invisibility}, {@spell zone of truth}"
+						],
+						[
+							"5th",
+							"{@spell clairvoyance}, {@spell tongues}"
+						],
+						[
+							"7th",
+							"{@spell compel honesty|stabbyspells}, {@spell divination}"
+						],
+						[
+							"9th",
+							"{@spell legend lore}, {@spell scrying}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Divine Insight|Cleric||Truth|stabbycleric|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Acolyte of Truth|Cleric||Truth|stabbycleric|1"
+				}
+			]
+		},
+		{
+			"name": "Divine Insight",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Truth",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"When you choose this domain at 1st level, you gain certain benefits as befit your domain.",
+				"You gain proficiency in Insight. If you already have it, you instead gain expertise.",
+				"You additionally add double your proficiency bonus to saving throws against illusion spells and to ability checks made to discern illusions from reality."
+			]
+		},
+		{
+			"name": "Acolyte of Truth",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Truth",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"Also at 1st level, you learn the {@spell true strike} cantrip. It counts as a cleric spell for you."
+			]
+		},
+		{
+			"name": "Channel Divinity: Discern Truth",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Truth",
+			"subclassSource": "stabbycleric",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to identify the truth behind words.",
+				"As an action, you meditate, focusing on your holy symbol, and speak a statement. Inside you, you find the answer to whether that statement is true or false. If the statement cannot be reasonably answered with a 'true' or 'false', or if the answer is behind what your deity or higher power could possibly know, then this action fails, and you retain the use of your channel divinity."
+			]
+		},
+		{
+			"name": "Channel Divinity: Truesight",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Truth",
+			"subclassSource": "stabbycleric",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can use your Channel Divinity to harness the divine into the senses and perception of a creature you touch.",
+				"As a bonus action, you touch your holy symbol to yourself or another creature, granting the target truesight for 1 minute, to a range of 30 feet. In that range, the target can see perfectly into both normal and magical darkness, it can see through illusions and automatically succeed on saving throws and ability checks against them, it can see invisible creatures and objects, it notices secret doors and traps hidden by magic, it can see the original form of a shapechanger or creature that is transformed by magic, and it can see into the Ethereal Plane."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Truth",
+			"subclassSource": "stabbycleric",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+			]
+		},
+		{
+			"name": "Avatar of Veracity",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Truth",
+			"subclassSource": "stabbycleric",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you can see clearly through all deception, and can expose liars and concealers of truth. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain permanent truesight, to a range of 120 feet.",
+						"You gain +10 to all of your Wisdom (Insight) and Intelligence (Investigation) checks.",
+						"As an action, you can dispel any illusion spell or illusory magical effect within range of your truesight. You can do this a number of times per long rest equal to your Wisdom modifier (minimum 1)."
+					]
+				}
+			]
+		},
+
+
+
+
+
+
+
+		{
+			"name": "Disease Domain",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Disease",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"entries": [
+				{
+					"type": "table",
+					"caption": "Disease Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell ray of sickness}, {@spell bane}"
+						],
+						[
+							"3rd",
+							"{@spell ray of enfeeblement}, {@spell blindness/deafness}"
+						],
+						[
+							"5th",
+							"{@spell stinking cloud}, {@spell vampiric touch}"
+						],
+						[
+							"7th",
+							"{@spell blight}, {@spell wither|stabbyspells}"
+						],
+						[
+							"9th",
+							"{@spell contagion}, {@spell insect plague}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Plague Priest|Cleric||Disease|stabbycleric|1"
+				}
+			]
+		},
+		{
+			"name": "Plague Priest",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Disease",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"When you choose this domain at 1st level, you gain certain benefits as befit your domain.",
+				"You have advantage on saving throws against poison and are resistant to poison damage, and you are immune to disease.",
+				"You also learn the {@spell poison spray} cantrip. It counts as a cleric spell for you."
+			]
+		},
+		{
+			"name": "Channel Divinity: Minor Malaise",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Disease",
+			"subclassSource": "stabbycleric",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to make a creature fall ill.",
+				"As an action, you present your holy symbol, and choose a creature you can see within 30 feet of you. That creature makes a Constitution saving throw, and is {@condition poisoned} for 1 minute on a failure. It repeats the saving throw at the end of each of its turns, and the effect ends early on it on a success."
+			]
+		},
+		{
+			"name": "Channel Divinity: Pestilence",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Disease",
+			"subclassSource": "stabbycleric",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can use your Channel Divinity to make a creature fall ill.",
+				"As an action, you present your holy symbol, and choose a creature you can see within 30 feet of you and one disease or similar effect (such as an effect which deals poison or necrotic damage over time or causes the {@condition poisoned} condition) with a duration of 1 round or longer affecting it. A number of creatures up to your Wisdom modifier (minimum 1) within 15 feet of it are affected in the following way:",
+				{
+					"type": "list",
+					"items": [
+						"If you choose a disease, those creatures make a Constitution saving throw, and contract the disease on a failure.",
+						"If you choose another effect, they are all affected by that spell or effect as if it had been cast or imposed upon it, but they have advantage on any saving throw made to resist it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Disease",
+			"subclassSource": "stabbycleric",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 poison damage to the target. When you reach 14th level, the extra damage increases to 2d8."
+			]
+		},
+		{
+			"name": "Aura of Frailty",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Disease",
+			"subclassSource": "stabbycleric",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, life around you withers as you walk by.",
+				"Creatures within 20 feet of you have disadvantage on Strength and Constitution saving throws. Whenever they take poison or necrotic damage, increase that damage by 1 for each damage die rolled, or by 1 if no die is rolled."
+			]
+		},
+
+
+
+
+
+
+
+
+		{
+			"name": "Protection Domain",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Protection",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"entries": [
+				{
+					"type": "table",
+					"caption": "Protection Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell sanctuary}, {@spell shield of faith}"
+						],
+						[
+							"3rd",
+							"{@spell calm emotions}, {@spell zone of truth}"
+						],
+						[
+							"5th",
+							"{@spell tongues}, {@spell sending}"
+						],
+						[
+							"7th",
+							"{@spell charm monster}, {@spell truce|stabbyspells}"
+						],
+						[
+							"9th",
+							"{@spell commune}, {@spell alter ego|stabbyspells}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Cleric||Protection|stabbycleric|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fighting Style|Cleric||Protection|stabbycleric|1"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Protection",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"When you choose this domain at 1st level, you gain proficiency with heavy armor and martial weapons."
+			]
+		},
+		{
+			"name": "Fighting Style",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Protection",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"Also at 1st level, you gain a Fighting Style option, which can be either Defense or Protection."
+			]
+		},
+		{
+			"name": "Channel Divinity: Retribution",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Protection",
+			"subclassSource": "stabbycleric",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to punish a creature for harming another.",
+				"As a reaction when a creature you can see within 30 feet of you is hit by an attack, you can use your Channel Divinity to cause it to take radiant damage equal to half of the damage it dealt."
+			]
+		},
+		{
+			"name": "Channel Divinity: Deflection",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Protection",
+			"subclassSource": "stabbycleric",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can use your Channel Divinity to deflect all projectiles and rays coming in your direction.",
+				"As an action, you present your holy symbol, and a translucent sphere forms around your position, with a radius of 20 feet. Until the start of your next turn, projectile attacks that would cross this sphere area automatically miss, and spells or other effect with an area of effect in the shape of a line, cone, or sphere, are deflected by this sphere, and instead continue along its surface on whichever side it originated. Spells such as {@spell fireball} which rely on any sort of beam or projectile, even if it is not the damaging element itself, cannot cross the sphere and instead take effect as if they had been cast at the point on the surface on which their trajectory intersects the sphere."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Protection",
+			"subclassSource": "stabbycleric",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target. When you reach 14th level, the extra damage increases to 2d8."
+			]
+		},
+		{
+			"name": "Divine Protection",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Protection",
+			"subclassSource": "stabbycleric",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you are blessed with divine protection, and can pass it onto others.",
+				"Once per turn, when you take damage, you can reduce that damage by 1d8 + your Wisdom modifier.",
+				"As an action, you can touch a creature to transfer this effect to it (it uses your Wisdom modifier). As a bonus action, you can restore this benefit to yourself, removing it from the other creature."
+			]
+		},
+
+
+
+
+
+
+		{
+			"name": "Peace Domain",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Peace",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"entries": [
+				{
+					"type": "table",
+					"caption": "Peace Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell sanctuary}, {@spell shield of faith}"
+						],
+						[
+							"3rd",
+							"{@spell calm emotions}, {@spell zone of truth}"
+						],
+						[
+							"5th",
+							"{@spell tongues}, {@spell sending}"
+						],
+						[
+							"7th",
+							"{@spell charm monster}, {@spell truce|stabbyspells}"
+						],
+						[
+							"9th",
+							"{@spell commune}, {@spell alter ego|stabbyspells}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Diplomatic Studies|Cleric||Peace|stabbycleric|1"
+				}
+			]
+		},
+		{
+			"name": "Diplomatic Studies",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Peace",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"When you choose this domain at 1st level, you gain proficiency in Insight and Persuasion, and you learn 2 languages of your choice."
+			]
+		},
+		{
+			"name": "Channel Divinity: Mediate",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Peace",
+			"subclassSource": "stabbycleric",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to make peace with a foe, or assist others in doing so.",
+				"As an action, you present your holy symbol, and select a number of creatures of your choice you can see within 30 feet who are hostile towards any creature within the same area, up to your Charisma modifier (minimum 1).",
+				"Each target must make a Wisdom saving throw or be {@condition charmed} by you for 1 hour. While {@condition charmed} this way, a creature who was hostile or unfriendly towards you instead has a neutral opinion of you, and all charmed creatures see you as someone wise whose arguments and opinions on matters should be listened to attentively and carefully considered."
+			]
+		},
+		{
+			"name": "Peaceful Nature",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Peace",
+			"subclassSource": "stabbycleric",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, your deity grants you power to make your peaceful nature magically apparent.",
+				"Creatures you have not harmed may hesitate to harm you, and whenever you finish a long rest, you are granted the benefits of a {@spell sanctuary} spell which lasts until dispelled (or until you take an action as described in the spell which would cause it to end prematurely)."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Peace",
+			"subclassSource": "stabbycleric",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+			]
+		},
+		{
+			"name": "Pacify",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Peace",
+			"subclassSource": "stabbycleric",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, your imposing presence and booming voice can render a creature harmless.",
+				"As an action, you speak a divine word of command at a creature within 30 feet of you who can hear you. That creature makes a Wisdom saving throw. On a failure, it drops any weapons and spellcasting foci it is carrying, and uses all of its movement on its next turn to fall {@condition prone}, prostrating itself in submission. If it is wielding a shield, it uses its action on that turn to drop it.",
+				"The creature is {@condition incapacitated} and can't move. At the end of each of its turn, and whenever it takes damage, it repeats the saving throw.",
+				"Once you have used this feature a number of times equal to your Charisma modifier (minimum 1), you can't use it again until you finish a long rest."
+			]
+		},
+
+
+
+
+
+
+
+		{
+			"name": "Misery / Despair Domain",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Misery / Despair",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"entries": [
+				{
+					"type": "table",
+					"caption": "Misery / Despair Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell cause fear|xge}, {@spell ray of sickness}"
+						],
+						[
+							"3rd",
+							"{@spell silence}, {@spell ray of enfeeblement}"
+						],
+						[
+							"5th",
+							"{@spell fear}, {@spell bestow curse}"
+						],
+						[
+							"7th",
+							"{@spell confusion}, {@spell phantasmal killer}"
+						],
+						[
+							"9th",
+							"{@spell modify memory}, {@spell modify mood|stabbyspells}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Acolyte of Misery|Cleric||Misery / Despair|stabbycleric|1"
+				}
+			]
+		},
+		{
+			"name": "Acolyte of Misery",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Misery / Despair",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"When you choose this domain at 1st level, your affinity with misery makes you resistant to it, and you learn subtle ways to soothe others. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency in Deception.",
+						"You gain resistance to psychic damage.",
+						"You learn the {@spell manipulate senses|stabbyspells} cantrip. It counts as a Cleric spell for you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Channel Divinity: Spark Misery",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Misery / Despair",
+			"subclassSource": "stabbycleric",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to snuff out any spark of happiness in a creature's heart and crush its spirit.",
+				"As an action, you present your holy symbol, and choose a creature within 30 feet of you that you can see. That creature feels demoralized and fatigued, even lethargic. It makes a Wisdom saving throw, and on a failure it is brought down to a degree which varies depending on your chosen intensity. Choose one of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"It takes psychic damage equal to twice your cleric level, and is {@condition frightened} of you until the end of its next turn. A creature whose hit point total would be reduced below 1 this way instead is left with 1 hit point, but is driven mad and will act irrationally for 1 hour, and be afflicted with an indefinite madness thereafter.",
+						"For 1 minute, the creature becomes deeply lethargic. It is {@creature stunned}, stuck struggling with its own mortality and inadequacies inside its mind. It repeats the save at the end of each of its turns, ending the effect early on a success. The effect also ends early if a creature is knocked {@creature unconscious}.",
+						"For 1 hour, the creature has disadvantage on ability checks, and is visibly mopey."
+					]
+				}
+			]
+		},
+		{
+			"name": "Channel Divinity: Fixations and Aspirations",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Misery / Despair",
+			"subclassSource": "stabbycleric",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can use your Channel Divinity to glimpse into a creature's fears and desires.",
+				"As an action, you present your holy symbol, and choose a creature within 30 feet of you. Your deity communicates one specific object, act or event that would make that creature very happy, and one which would make it miserable. Many options for both may exist: your deity presents you with one of its choice which it considers may be achievable by you, even if with difficulty, as long as such an option exists. You also gain a vague idea of why that object, act or event would impact it in that way, and how big of an impact it would be."
+			]
+		},
+		{
+			"name": "Emotional Stability",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Misery / Despair",
+			"subclassSource": "stabbycleric",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Also at 6th level, your experience leaves you resistance to undue influence.",
+				"You have advantage on saving throws against being {@condition charmed} or {@condition frightened}, and are immune to madness."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Misery / Despair",
+			"subclassSource": "stabbycleric",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 psychic damage to the target. When you reach 14th level, the extra damage increases to 2d8."
+			]
+		},
+		{
+			"name": "Avatar of Anguish",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Misery / Despair",
+			"subclassSource": "stabbycleric",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you can take on a form which invokes utter misery and despair in your foes.",
+				"As an action, you take this form, which lasts for 1 minute, emanating an aura of misery to a range of 30 feet. While in this form, the world seems darker, bleak and dreary around you, and your face a visage of sorrow and terror.",
+				"Creatures entering the area of effect for the first time in a turn or starting their turn in it must make a Wisdom saving throw. On a success, they resist the effect and are immune to it until they finish a long rest.",
+				"On a failure, they fall {@condition prone} and are {@condition frightened} by you and {@condition stunned} for 1 minute. Whenever they take damage, they repeat the saving throw. On their first success, they end the {@condition stunned} condition on themselves, but cannot get up from {@condition prone}. On their second success, they regain the ability to get up from the {@condition prone} position. On their third success, they end the {@condition frightened} condition on themselves and become immune to this feature until they finish a long rest.",
+				"You can return to your normal form and end these effects early as a bonus action on your turn.",
+				"Once you have used this feature a number of times equal to your Wisdom modifier (minimum 1), you can't use it again until you finish a long rest."
+			]
+		},
+
+
+
+
+
+
+
+		{
+			"name": "Joy / Hope Domain",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Joy / Hope",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"entries": [
+				{
+					"type": "table",
+					"caption": "Joy / Hope Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell charm person}, {@spell tasha's hideous laughter}"
+						],
+						[
+							"3rd",
+							"{@spell calm emotions}, {@spell enthrall}"
+						],
+						[
+							"5th",
+							"{@spell beacon of hope}, {@spell tongues}"
+						],
+						[
+							"7th",
+							"{@spell aura of purity}, {@spell freedom of movement}"
+						],
+						[
+							"9th",
+							"{@spell modify memory}, {@spell modify mood|stabbyspells}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Acolyte of Joy|Cleric||Joy / Hope|stabbycleric|1"
+				}
+			]
+		},
+		{
+			"name": "Acolyte of Joy",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Joy / Hope",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"When you choose this domain at 1st level, your joyous soul makes you resistant to things that would bring others down, and you learn subtle ways to soothe others. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency in Persuasion.",
+						"You gain resistance to psychic damage.",
+						"You learn the {@spell manipulate senses|stabbyspells} cantrip. It counts as a Cleric spell for you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Channel Divinity: Spark Joy",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Joy / Hope",
+			"subclassSource": "stabbycleric",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to bring a spark of happiness to its heart and turn it to overwhelming joy.",
+				"As an action, you present your holy symbol, and touch a creature of your choice. That creature feels motivated and invigorated, even ecstatic. You can instantly end all effects currently causing it to be Frightened. Additionally, it gains temporary hit points equal your class level, advantage on saving throws against being Frightened, and receives a number of uses of Inspiration equal to your Charisma modifier (minimum). Whenever it makes an ability check, attack or saving throw, it can expend one use of Inspiration to give itself advantage on that roll. This effect lasts 1 hour, and the temporary hit points and Inspiration uses are lost at the end of the duration. The effect ends early if a creature is knocked unconscious."
+			]
+		},
+		{
+			"name": "Channel Divinity: Fixations and Aspirations",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Joy / Hope",
+			"subclassSource": "stabbycleric",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can use your Channel Divinity to glimpse into a creature's fears and desires.",
+				"As an action, you present your holy symbol, and choose a creature within 30 feet of you. Your deity communicates one specific object, act or event that would make that creature very happy, and one which would make it miserable. Many options for both may exist: your deity presents you with one of its choice which it considers may be achievable by you, even if with difficulty, as long as such an option exists. You also gain a vague idea of why that object, act or event would impact it in that way, and how big of an impact it would be."
+			]
+		},
+		{
+			"name": "Emotional Stability",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Joy / Hope",
+			"subclassSource": "stabbycleric",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Also at 6th level, your experience leaves you resistance to undue influence.",
+				"You have advantage on saving throws against being {@condition charmed} or {@condition frightened}, and are immune to madness."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Joy / Hope",
+			"subclassSource": "stabbycleric",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 psychic damage to the target. When you reach 14th level, the extra damage increases to 2d8."
+			]
+		},
+		{
+			"name": "Revelry",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Joy / Hope",
+			"subclassSource": "stabbycleric",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you discover a new way to foster happiness. You can conjure an impressive feast and entertainment for a grand celebration, seating up to 400 people.",
+				"Over the course of 1 minute, divine assistants taking a form appropriate for your deity appear and prepare everything for the feast. The first carry and set up tables, seating and decoration in a style and partition of your choosing. They are followed by others, carrying tableware as well as jugs, kegs, baskets, pots, platters and other containers with wondrous food and drink, which they place on the tables. Other divine assistants arrive with musical instruments and any other forms of entertainment of your choice, which they are proficient with. Any creature taking part in the feast can beckon one of the divine assistants and request any food or drink of its choice, which the assistant instantly conjures and presents to the merrymaker.",
+				"The feast lasts for 8 hours. For the duration, any creature spending at least 1 hour taking part in the feast receives the benefits of a heroes feast spell.",
+				"Additionally, creatures actively taking part in the feast suffer no ill effects from alcohol or food they consume, and creatures not engaged in combat are resistant to all damage.",
+				"At the end of the duration, attendants who took part for at least 1 hour feel satisfied and slowly begin to fall into a very deep magical sleep as assistants help them home, before packing everything up over the course of 1 minute and then disappearing. You may choose any number of creatures when you cast this spell to resist the sleep effect.",
+				"Once you have used this feature, you can't use it again. At the end of each long rest, make a Wisdom ability check against a DC of 20. On a success, you recover your use of this feature."
+			]
+		},
+
+
+
+
+
+
+
+		{
+			"name": "Travel Domain",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Travel",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"entries": [
+				{
+					"type": "table",
+					"caption": "Travel Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell disguise self}, {@spell longstrider}"
+						],
+						[
+							"3rd",
+							"{@spell invisibility}, {@spell pass without trace}"
+						],
+						[
+							"5th",
+							"{@spell tongues}, {@spell water walk}"
+						],
+						[
+							"7th",
+							"{@spell find greater steed|xge}, {@spell freedom of movement}"
+						],
+						[
+							"9th",
+							"{@spell far step|xge}, {@spell passwall}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Veteran Wayfarer|Cleric||Travel|stabbycleric|1"
+				}
+			]
+		},
+		{
+			"name": "Veteran Wayfarer",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Travel",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"When you choose this domain at 1st level, your experience as a traveler becomes apparent.",
+				"You can perfectly recall any path you have traveled, and you gain expertise in Survival.",
+				"Additionally, you gain proficiency in 2 languages of your choice."
+			]
+		},
+		{
+			"name": "Channel Divinity: Blessing of the Traveler",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Travel",
+			"subclassSource": "stabbycleric",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to grant a creature of your choice a minor travel boon.",
+				"As an action, you present your holy symbol, and choose a creature within 30 feet of you. That creature gains one of the following benefits (your choice) until it finishes a long rest.",
+				{
+					"type": "list",
+					"items": [
+						"Its speed is increased by 10 feet.",
+						"It can speak and read the most commonly spoken language at your current location, even if it's a language not normally available to player characters.",
+						"When it finishes its first short rest after receiving this blessing, it can reduce its exhaustion level by one."
+					]
+				}
+			]
+		},
+		{
+			"name": "Channel Divinity: Hamper Travel",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Travel",
+			"subclassSource": "stabbycleric",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can use your Channel Divinity to request divine assistance in waylaying your foes.",
+				"As an action, you present your holy symbol, and choose a single creature or a group of up to 12 creatures traveling together, who you believe are within 30 miles. Make a Charisma ability contest against the Wisdom of the targeted creature whose Wisdom is highest. You know the result. If you succeed or tie, then for the next 24 hours those creatures get lost more easily and find themselves backtracking and running into obstacles and dead-ends often. The distance they can cover in a minute, hour, or day is halved, and they have disadvantage on ability checks made to avoid getting lost.",
+				"If the targets are not within range, there is no effect, and you know they are out of range (you still expend one use of Channel Divinity)."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Travel",
+			"subclassSource": "stabbycleric",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+			]
+		},
+		{
+			"name": "Arcane Ways",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Travel",
+			"subclassSource": "stabbycleric",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you can magically travel anywhere you've been with a little bit of preparation.",
+				"You learn the {@spell teleport} spell, which you always have prepared in addition to your normally prepared spells, and which counts as a Cleric spell for you. You can cast it at will without expending a spell slot, but it has a casting time of 10 minutes when cast this way."
+			]
+		},
+
+
+
+
+
+
+
+
+		{
+			"name": "Beauty / Love Domain",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Beauty / Love",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"entries": [
+				{
+					"type": "table",
+					"caption": "Beauty / Love Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell charm person}, {@spell disguise self}"
+						],
+						[
+							"3rd",
+							"{@spell enthrall}, {@spell suggestion}"
+						],
+						[
+							"5th",
+							"{@spell adorn|stabbyspells}, {@spell hypnotic pattern}"
+						],
+						[
+							"7th",
+							"{@spell charm monster|xge}, {@spell compulsion}"
+						],
+						[
+							"9th",
+							"{@spell dominate person}, {@spell geas}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Sweet Talker|Cleric||Beauty / Love|stabbycleric|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Charm Resistance|Cleric||Beauty / Love|stabbycleric|1"
+				}
+			]
+		},
+		{
+			"name": "Sweet Talker",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Beauty / Love",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"When you choose this domain at 1st level, your way with words and attention to aesthetics make it harder for others to resist your arguments, as they always assume you have the best of intentions.",
+				"You gain expertise in Persuasion and Deception."
+			]
+		},
+		{
+			"name": "Charm Resistance",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Beauty / Love",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"Also at 1st level, it becomes more difficult to magically beguile you.",
+				"You gain advantage on saving throws against being {@condition charmed}."
+			]
+		},
+		{
+			"name": "Channel Divinity: Unite",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Beauty / Love",
+			"subclassSource": "stabbycleric",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to bring people together.",
+				"As an action, you present your holy symbol, and select two creatures within 30 feet of you who can see each other. They become {@condition charmed} by each other until they finish a long rest. If they are hostile towards each other, they may both make a Wisdom saving throw to resist the effect, and both succeed if either of them succeeds. While charmed this way, if they are both of a race and gender they each would normally be attracted to, they see each other as potentially their true love. Otherwise, they feel a closeness equivalent to that of family or a close friendship.",
+				"When two creatures charmed this way finish a rest together and spend any hit dice, they may forego rolling them and instead use their maximum values."
+			]
+		},
+		{
+			"name": "Divine Muse",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Beauty / Love",
+			"subclassSource": "stabbycleric",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, your mere presence is sometimes enough to inspire greatness in others.",
+				"Whenever a creature who can see you makes an attack, saving throw or ability check within 30 feet of you, you may have it add your Charisma modifier to its roll. Once you have used this feature a number of times equal to your proficiency bonus, you must finish a long rest before you can use it again."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Beauty / Love",
+			"subclassSource": "stabbycleric",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+			]
+		},
+		{
+			"name": "Vessel of Irresistibility",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Beauty / Love",
+			"subclassSource": "stabbycleric",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you have become beauty incarnate, granting you several benefits.",
+				{
+					"type": "list",
+					"items": [
+						"You are immune to the {@condition charmed} condition.",
+						"Your Divine Muse feature now also recharges at the end of a short rest.",
+						"Creatures have disadvantage on saving throws made to resist being {@condition charmed} by you. Creatures with a CR of 5 or lower automatically fail their saving throws.",
+						"As a reaction when a creature you can see targets you with an attack or spell, you can gaze into its eyes and figuratively disarm it. It makes a Wisdom saving throw and becomes {@condition charmed} by you until the start of its next turn. While charmed this way, it is also {@condition stunned}. Once you have used this feature a number of times equal to your Charisma modifier (minimum 1), you can't use it again until you finish a long rest."
+					]
+				}
+			]
+		},
+
+
+
+
+
+
+
+
+
+
+
+
+		{
+			"name": "Night / Darkness Domain",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Night / Darkness",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"entries": [
+				{
+					"type": "table",
+					"caption": "Night / Darkness Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell cause fear|xge}, {@spell sleep}"
+						],
+						[
+							"3rd",
+							"{@spell shadow blade|xge}, {@spell darkness}"
+						],
+						[
+							"5th",
+							"{@spell hunger of hadar}, {@spell twilight cloak|stabbyspells}"
+						],
+						[
+							"7th",
+							"{@spell hallucinatory terrain}, {@spell phantasmal killer}"
+						],
+						[
+							"9th",
+							"{@spell dream}, {@spell midnight|stabbyspells}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Nocturnal Affinity|Cleric||Night / Darkness|stabbycleric|1"
+				}
+			]
+		},
+		{
+			"name": "Nocturnal Affinity",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Night / Darkness",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"When you choose this domain at 1st level, your piety and nocturnal lifestyle lead to certain adaptations.",
+				"When you take a long rest, you can halve the amount of time you would normally need to spend sleeping or in a trance or equivalent state, and can spend the remaining time on light activities. You also gain Darkvision to a range of 60 feet. If you already have Darkvision, instead increase its range by 60 feet.",
+				"Additionally, you can add half your proficiency bonus, rounded down, to any ability check made during night-time or in the dark that doesn't already include your proficiency bonus."
+			]
+		},
+		{
+			"name": "Channel Divinity: Blessing of the Night",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Night / Darkness",
+			"subclassSource": "stabbycleric",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to bless yourself and other creatures with the senses and subtlety of those who dwell in darkness.",
+				"As an action, you present your holy symbol, and select a number of creatures within 30 feet of you that you can see up to twice your Wisdom modifier. Those creatures gain Darkvision to a range of 60 feet and can move soundlessly for 1 hour."
+			]
+		},
+		{
+			"name": "Magical Darkvision",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Night / Darkness",
+			"subclassSource": "stabbycleric",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, your sight has not only gotten accustomed to the darkness of the night, it has been blessed beyond that by your deity. You can see normally in darkness, both magical and non-magical, within range of your Darkvision."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Night / Darkness",
+			"subclassSource": "stabbycleric",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+			]
+		},
+		{
+			"name": "Call Eclipse",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Night / Darkness",
+			"subclassSource": "stabbycleric",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, your power has reached a level where you can beseech your deity for temporary nightfall, and have them grant it to you.",
+				"As an action, you hold your holy symbol and pray to your deity. The sun and any other astral source of light within 1 mile of your current position are gradually covered as you pray, and their light within this area is blocked for 1 minute. Spells which create sunlight, such as daylight or dawn have no effect in this area for the duration of the eclipse.",
+				"The darkness caused this way is non-magical, and the duration of the effect is considered night-time within the area for any features that may require it.",
+				"Once per round while the eclipse lasts and you remain in its area of effect, you may give yourself advantage on one attack or saving throw. You regain the ability to do so at the start of your turn.",
+				"Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		},
+		
+		
+		
+
+
+
+
+
+		{
+			"name": "Earth Domain",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Earth",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"entries": [
+				{
+					"type": "table",
+					"caption": "Earth Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell earth tremor|xge}, {@spell rock shower|stabbyspells}"
+						],
+						[
+							"3rd",
+							"{@spell maximilian's earthen grasp|xge}, {@spell stonefist|stabbyspells}"
+						],
+						[
+							"5th",
+							"{@spell erupting earth|xge}, {@spell meld into stone}"
+						],
+						[
+							"7th",
+							"{@spell stone shape}, {@spell stoneskin}"
+						],
+						[
+							"9th",
+							"{@spell transmute rock|xge}, {@spell wall of stone}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Cantrip|Cleric||Earth|stabbycleric|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Natural Armor|Cleric||Earth|stabbycleric|1"
+				}
+			]
+		},
+		{
+			"name": "Bonus Cantrip",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Earth",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"When you choose this domain at 1st level, you learn the Mold Earth cantrip. It counts as a Cleric spell for you."
+			]
+		},
+		{
+			"name": "Natural Armor",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Earth",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"Also at 1st level, your skin hardens and takes on a rocky texture. You can calculate your AC as 13 + your Wisdom modifier, whether or not you are wearing armor."
+			]
+		},
+		{
+			"name": "Channel Divinity: Blessing of the Burrower",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Earth",
+			"subclassSource": "stabbycleric",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to bless yourself and other creatures with the mobility of earthen creatures.",
+				"As an action, you present your holy symbol, and select a number of creatures of your choice up to your Wisdom modifier (minimum 1) that you can see within 30 feet of you. They gain a burrowing speed equal to their walking speed for 10 minutes. These creatures can burrow through solid rock, but must spend 2 feet of movement for every 1 foot they burrow through it."
+			]
+		},
+		{
+			"name": "Earthen Body",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Earth",
+			"subclassSource": "stabbycleric",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, your body's earthen constitution reaches its peak. You gain resistance to poison damage as well as bludgeoning, piercing and slashing damage from non-magical weapons that aren't adamantine."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Earth",
+			"subclassSource": "stabbycleric",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 bludgeoning damage to the target. When you reach 14th level, the extra damage increases to 2d8. This additional damage counts as magical damage for the purpose of overcoming resistances."
+			]
+		},
+		{
+			"name": "Animate Earth",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Earth",
+			"subclassSource": "stabbycleric",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you can shape nearby dirt and minerals into a golem and animate it.",
+				"As part of a short rest, you may create a golem, molding materials from your environment. Its consistency and appearance depend on the available materials, but its statistics are that of a {@creature stone golem} or {@creature clay golem} (your choice). If you create it in special environments with a large amount of special materials available, such as mithril or adamantine, your DM may consider granting your golem additional properties.",
+				"This Golem obeys your commands and understands you but can't speak, and it does not need air, drink, food nor sleep. If you create a golem while you already have one created with this feature, the previous one dies, its form splitting and collapsing to the ground as mineral blocks. If you die, the Golem also dies."
+			]
+		},
+		
+		
+		
+		
+
+
+
+
+
+
+
+		{
+			"name": "Water Domain",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Water",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"entries": [
+				{
+					"type": "table",
+					"caption": "Water Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell create or destroy water}, {@spell ice knife|xge}"
+						],
+						[
+							"3rd",
+							"{@spell blur}, {@spell snilloc's snowball swarm|xge}"
+						],
+						[
+							"5th",
+							"{@spell tidal wave|xge}, {@spell wall of water|xge}"
+						],
+						[
+							"7th",
+							"{@spell control water}, {@spell watery sphere|xge}"
+						],
+						[
+							"9th",
+							"{@spell cone of cold}, {@spell maelstrom|xge}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Waterborne|Cleric||Water|stabbycleric|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Healing Waters|Cleric||Water|stabbycleric|1"
+				}
+			]
+		},
+		{
+			"name": "Waterborne",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Water",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"When you choose this domain at 1st level, you gain a swimming speed equal to your walking speed.",
+				"You also learn the Shape Water cantrip. It counts as a Cleric spell for you."
+			]
+		},
+		{
+			"name": "Healing Waters",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Water",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"Also at 1st level, you gain the ability to tap into the divine natural healing properties of water.",
+				"Over the course of a minute, you can touch your holy symbol and bathe a creature you can touch in a natural body of water appropriate to your deity, such as a sea, lake or stream. That creature may spend a number its hit dice up to your class level to heal itself, and regains 2 additional hit points for each hit die it spends. You may also cure it of one disease or one condition currently afflicting it from the following list: {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned}.",
+				"Alternatively, you can pour 1 gallon of water over a creature as an action, such as from a waterskin, and instead heal them for a number of hit points equal to twice your cleric level. You also cure it of one disease or condition as above.",
+				"Once you have used this feature, you can't use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Channel Divinity: Watery Grave",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Water",
+			"subclassSource": "stabbycleric",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to fill a creature's lungs with water.",
+				"As an action, you present your holy symbol, and a creature of your choice that you can see within 30 feet of you must succeed on a Constitution saving throw or instantly start drowning as water magically floods its lungs. The creature is {@condition incapacitated} and can't speak, and starts to suffocate at the start of its next turn. You must use your action on each subsequent turn to continue the effect, and the creature repeats the saving throw. If you do not or if it succeeds on the saving throw, the effect ends, the fluid clears and the creature becomes able to breathe again."
+			]
+		},
+		{
+			"name": "Blessing of the Water Delver",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Water",
+			"subclassSource": "stabbycleric",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you gain the ability to cast {@spell water breathing} once per long rest, without expending a spell slot and without needing it to be in your spell list. You also gain the permanent ability to breathe underwater even without the spell."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Water",
+			"subclassSource": "stabbycleric",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+			]
+		},
+		{
+			"name": "Flowing Form",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Water",
+			"subclassSource": "stabbycleric",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you unlock the ability to briefly turn your body into water in short bursts of movement, granting you the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You can move freely through a hostile creature's space, but still cannot end your turn on it. You can also move through a space as narrow as 1 inch wide without squeezing. Additionally, your movement does not trigger attacks of opportunity.",
+						"While in water, your swimming speed becomes 120 feet.",
+						"As a reaction when a creature makes an attack against you, you can impose disadvantage on that attack, changing your form to resist it."
+					]
+				}
+			]
+		},
+
+
+
+
+
+
+
+
+
+		{
+			"name": "Fire Domain",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Fire",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"entries": [
+				{
+					"type": "table",
+					"caption": "Fire Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell hellish rebuke}, {@spell searing smite}"
+						],
+						[
+							"3rd",
+							"{@spell scorching ray}, {@spell continual flame}"
+						],
+						[
+							"5th",
+							"{@spell fireball}, {@spell melf's minute meteors|xge}"
+						],
+						[
+							"7th",
+							"{@spell wall of fire}, {@spell blaze|stabbyspells}"
+						],
+						[
+							"9th",
+							"{@spell flame strike}, {@spell immolation|xge}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Cantrip|Cleric||Fire|stabbycleric|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fire Resistance|Cleric||Fire|stabbycleric|1"
+				}
+			]
+		},
+		{
+			"name": "Bonus Cantrip",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Fire",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"When you choose this domain at 1st level, you gain the Control Flames cantrip. It counts as a Cleric spell for you."
+			]
+		},
+		{
+			"name": "Fire Resistance",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Fire",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"Also at 1st level, you gain resistance to fire damage."
+			]
+		},
+		{
+			"name": "Channel Divinity: Inner Fire",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Fire",
+			"subclassSource": "stabbycleric",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to fuel a target and bestow it with a divine ardor.",
+				"As an action, you present your holy symbol, and a creature of your choice that you can see within 30 feet of you has their inner flame fanned. The creature receives a +1 bonus to attack and damage rolls with weapons, has its speed increased by 5 feet, gains resistance to cold damage, and cannot be Frightened for 1 minute. When you target a creature for the first time in a day with this feature, you can also reduce the target's exhaustion level by one."
+			]
+		},
+		{
+			"name": "Holy Fire",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Fire",
+			"subclassSource": "stabbycleric",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you are so adept at tapping into the divine nature of the flames you conjure that they go beyond mere fire. You can convert any fire damage you deal to radiant damage, and vice versa."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Fire",
+			"subclassSource": "stabbycleric",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 fire damage to the target. When you reach 14th level, the extra damage increases to 2d8."
+			]
+		},
+		{
+			"name": "Warmth Incarnate",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Fire",
+			"subclassSource": "stabbycleric",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you have become a living embodiment of warmth and fire. Your skin may have grown more flushed or redder, and your touch warm. You gain a few benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain immunity to fire damage.",
+						"As a bonus action, you can begin or stop to emanate a burning aura. While this aura is active, creatures within 10 feet of you take 5 fire damage at the end of each of your turns. Non-magical objects in the area that are not being worn nor carried are gradually ignited.",
+						"Whenever you deal fire damage to a creature, you can deal additional damage equal to your class level. When you do, you can't do so again until you finish a short or long rest."
+					]
+				}
+			]
+		},
+
+
+
+
+
+
+
+		{
+			"name": "Cold Domain",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Cold",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"entries": [
+				{
+					"type": "table",
+					"caption": "Cold Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell armor of agathys}, {@spell ice knife|xge}"
+						],
+						[
+							"3rd",
+							"{@spell silence}, {@spell snilloc's snowball swarm|xge}"
+						],
+						[
+							"5th",
+							"{@spell cold void|stabbyspells}, {@spell protection from energy}"
+						],
+						[
+							"7th",
+							"{@spell ice storm}, {@spell frost bridge|stabbyspells}"
+						],
+						[
+							"9th",
+							"{@spell clear ice|stabbyspells}, {@spell cone of cold}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Cantrip|Cleric||Cold|stabbycleric|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Cold Resistance|Cleric||Cold|stabbycleric|1"
+				}
+			]
+		},
+		{
+			"name": "Bonus Cantrip",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Cold",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"When you choose this domain at 1st level, you learn the Frostbite cantrip. It counts as a Cleric cantrip for you."
+			]
+		},
+		{
+			"name": "Cold Resistance",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Cold",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"Also at 1st level, you gain resistance to cold damage."
+			]
+		},
+		{
+			"name": "Channel Divinity: Glacial Embrace",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Cold",
+			"subclassSource": "stabbycleric",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to flash freeze a target.",
+				"As an action, you present your holy symbol, and a creature of your choice that you can see within 30 feet of you must succeed on a Dexterity saving throw or be frozen and coated in ice a few inches thick. The creature is Paralyzed, and gains temporary hit points equal to 5 times your class level. While Paralyzed this way, the creature has vulnerability to fire damage and resistance to slashing, bludgeoning and piercing damage. For the duration, the creature cannot receive temporary hit points from any other source. At the end of each of its turns, it loses 5 of these temporary hit points, but it regains lost temporary hit points equal to any cold damage it takes, whenever it takes cold damage. The effect ends when the creature has lost all of these temporary hit points."
+			]
+		},
+		{
+			"name": "Chilling Presence",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Cold",
+			"subclassSource": "stabbycleric",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, creatures attacking you feel chilled to their core. Whenever a creature makes a melee attack against you, that creature has its speed reduced by 5 feet until the end of its next turn. If it makes more than one melee attack against you on the same turn, its speed is reduced by 5 feet for each attack it makes."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Cold",
+			"subclassSource": "stabbycleric",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 cold damage to the target. When you reach 14th level, the extra damage increases to 2d8."
+			]
+		},
+		{
+			"name": "Cold Incarnate",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Cold",
+			"subclassSource": "stabbycleric",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you have become a living embodiment of cold. Your skin may have grown paler, and your touch icy. You gain a few benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain immunity to cold damage.",
+						"As a bonus action, you can begin or stop to emanate a cold aura. While this aura is active, creatures within 10 feet of you take 5 cold damage at the end of each of your turns. Water in the area freezes, and frost gradually covers surfaces.",
+						"Whenever you deal cold damage to a creature, you can deal additional damage equal to your class level. When you do, you can't do so again until you finish a short or long rest."
+					]
+				}
+			]
+		},
+
+
+
+
+
+		{
+			"name": "Order Domain",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Order",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"entries": [
+				{
+					"type": "table",
+					"caption": "Order Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell command}, {@spell heroism}"
+						],
+						[
+							"3rd",
+							"{@spell hold person}, {@spell zone of truth}"
+						],
+						[
+							"5th",
+							"{@spell crusader's mantle}, {@spell slow}"
+						],
+						[
+							"7th",
+							"{@spell compulsion}, {@spell locate creature}"
+						],
+						[
+							"9th",
+							"{@spell commune}, {@spell dominate person}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Cleric||Order|stabbycleric|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Voice of Authority|Cleric||Order|stabbycleric|1"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Order",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"entries": [
+				"When you choose this domain at 1st level, you gain proficiency with heavy armor. You also gain proficiency in either the Intimidation or Persuasion skill (your choice)."
+			]
+		},
+		{
+			"name": "Voice of Authority",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Order",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"entries": [
+				"Also starting at 1st level, you can invoke the power of law to drive an ally to attack. Immediately after you cast a spell on an ally using a spell slot of 1st level or higher, that ally can use their reaction to make one weapon attack against a target of your choice that you can see. If the spell targets more than one ally, you choose the ally who can make the attack."
+			]
+		},
+		{
+			"name": "Channel Divinity: Respect My Authority",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Order",
+			"subclassSource": "stabbycleric",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to exert an intimidating presence over others.",
+				"As an action, you present your holy symbol, and each creature of your choice that can see or hear you within 30 feet of you must succeed on a Wisdom saving throw or be either charmed or frightened by you (your choice) for 1 hour or until the affected creature takes any damage. You can also cause any of the affected creatures to fall prone when they fail the saving throw."
+			]
+		},
+		{
+			"name": "Embodiment of the Law",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Order",
+			"subclassSource": "stabbycleric",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you become remarkably adept at channeling magical energy to compel others. If you cast a spell of the enchantment school using a spell slot of 1st level or higher, you can change the spell's casting time to 1 bonus action for this casting, provided the spell's casting time is normally 1 action.",
+				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Order",
+			"subclassSource": "stabbycleric",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra {@damage 1d8} psychic damage to the target. When you reach 14th level, the extra damage increases to {@damage 2d8}."
+			]
+		},
+		{
+			"name": "Orderly Compulsion",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Order",
+			"subclassSource": "stabbycleric",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Starting at 17th level, your imposing presence reaches a level where few can resist your commands.",
+				"Whenever you target a creature with an Enchantment spell or in any way force a creature to make a saving throw to resist being Charmed or Frightened, you can force it to forego its save roll and automatically fail the saving throw.",
+				"You can use this feature a number of times per long rest equal to your Wisdom modifier (min 1)."
+			]
+		},
+		
+		
+		{
+			"name": "Destruction Domain",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Destruction",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"entries": [
+				{
+					"type": "table",
+					"caption": "Destruction Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell chaos bolt|xge}, {@spell chromatic orb}"
+						],
+						[
+							"3rd",
+							"{@spell knock}, {@spell shatter}"
+						],
+						[
+							"5th",
+							"{@spell fireball}, {@spell thunder step|xge}"
+						],
+						[
+							"7th",
+							"{@spell blight}, {@spell elemental bane|xge}"
+						],
+						[
+							"9th",
+							"{@spell destructive wave}, {@spell steel wind strike|xge}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Cantrips|Cleric||Destruction|stabbycleric|1"
+				}
+			]
+		},
+		{
+			"name": "Bonus Cantrips",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Destruction",
+			"subclassSource": "stabbycleric",
+			"level": 1,
+			"header": 2,
+			"entries": [
+				"When you choose this domain at 1st level, you learn two Evocation cantrips of your choice from any spell list. They count as Cleric spells for you."
+			]
+		},
+		{
+			"name": "Channel Divinity: Destroy",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Destruction",
+			"subclassSource": "stabbycleric",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to destroy an object, creature, or surface.",
+				"As an action, you present your holy symbol, and touch something.",
+				{
+					"type": "list",
+					"items": [
+						"If you touch a creature, you force it to make a Dexterity saving throw. On a failure, it takes force damage equal to twice your class level, and its armor, if it is wearing any and it is non-magical, is destroyed, crumbling into dust. On a success, it takes half as much damage and its armor is unaffected.",
+						"If you touch a non-magical object or surface, such as the ground or a wall, you cause a section of it to crumble to dust. You can remove a volume with each use of this feature that is no larger than one 5-foot cube for every level you have in this class."
+					]
+				}
+			]
+		},
+		{
+			"name": "Warrior of Chaos",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Destruction",
+			"subclassSource": "stabbycleric",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you gain proficiency in heavy armor and martial weapons.",
+				"You also learn the {@spell eldritch blast} cantrip. It counts as a Cleric cantrip for you. If you already learned this spell when first choosing this domain, you instead learn an evocation spell of your choice from any spell list."
+			]
+		},
+		{
+			"name": "Potent Spellcasting",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Destruction",
+			"subclassSource": "stabbycleric",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+			]
+		},
+		{
+			"name": "Rampage",
+			"source": "stabbycleric",
+			"page": 0,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Destruction",
+			"subclassSource": "stabbycleric",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Starting at 17th level, you become adept at recharging your magical energies for destructive purposes. Whenever you cast an Evocation spell and expend a spell slot, you recover a spent spell slot that is at least one level lower than the expended slot, and no higher than 5th.",
+				"Additionally, after you cast an Evocation spell or take the Attack action on your turn, you can use a bonus action to cast an Evocation cantrip with a normal casting time of 1 action. If you do so, you do not recover a spell slot this turn as part of this feature."
+			]
+		}
+	]
+}
+		

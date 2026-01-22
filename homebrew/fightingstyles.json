@@ -1,0 +1,125 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "stabbyfightingstyles",
+				"abbreviation": "Stabby",
+				"full": "Stabby's Fighting Styles",
+				"version": "1",
+				"url": "none",
+				"authors": [
+					"Francisco \"Stabby\" Pesquita"
+				],
+				"convertedBy": [
+					"Francisco \"Stabby\" Pesquita"
+				]
+			}
+		],
+		"optionalFeatureTypes": {
+			"FS:M": "Fighting Style; Mageblade"
+		},
+		"dateAdded": 1586966344, 
+		"dateLastModified": 1657399173,
+		"_dateLastModifiedHash": "aa8d6f9bda"
+	},
+	"optionalfeature": [
+		{
+			"name": "Druidic Warrior (Expanded)",
+			"source": "stabbyfightingstyles",
+			"page": 0,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"FS:R",
+				"FS:F"
+			],
+			"additionalSpells": [
+				{
+					"ability": "wis",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=druid",
+								"count": 2
+							}
+						]
+					}
+				}
+			],
+			"entries": [
+				"You learn two cantrips of your choice from the {@filter druid spell list|spells|level=0|class=druid}. If you are a ranger, they count as ranger spells for you. Wisdom is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the druid spell list."
+			]
+		},
+		{
+			"name": "Arcane Warrior",
+			"source": "stabbyfightingstyles",
+			"page": 0,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"FS:F",
+				"FS:M"
+			],
+			"additionalSpells": [
+				{
+					"ability": "int",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=wizard",
+								"count": 2
+							}
+						]
+					}
+				}
+			],
+			"entries": [
+				"You learn two cantrips of your choice from the {@filter wizard spell list|spells|level=0|class=wizard}. If you are a mageblade, they count as mageblade spells for you. Intelligence is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the wizard spell list."
+			]
+		},
+		{
+			"name": "Blessed Warrior (Expanded)",
+			"source": "stabbyfightingstyles",
+			"page": 0,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"FS:F",
+				"FS:P"
+			],
+			"additionalSpells": [
+				{
+					"ability": "cha",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=cleric",
+								"count": 2
+							}
+						]
+					}
+				}
+			],
+			"entries": [
+				"You learn two cantrips of your choice from the {@filter cleric spell list|spells|level=0|class=cleric}. If you are a paladin, they count as paladin spells for you. Charisma is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the cleric spell list."
+			]
+		},
+		{
+			"name": "Wizard Wielding",
+			"source": "stabbyfightingstyles",
+			"page": 0,
+			"isClassFeatureVariant": true,
+			"featureType": [
+				"FS:F",
+				"FS:M",
+				"FS:R",
+				"FS:P"
+			],
+			"prerequisite": [
+				{
+					"spellcasting": true
+				}
+			],
+			"entries": [
+				"While you wield a one-handed weapon in one hand and a spellcasting focus in the other, you gain a +1 bonus to spell attacks and a +1 bonus to attacks with that weapon, and can fulfill somatic components with your spellcasting focus even if the spell has no material components."
+			]
+		}
+	]
+}

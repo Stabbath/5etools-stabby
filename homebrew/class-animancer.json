@@ -1,0 +1,2424 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "stabbyanimancer",
+				"abbreviation": "Stabby",
+				"full": "Stabby's Animancer",
+				"version": "2",
+				"url": "none",
+				"authors": [
+					"Francisco \"Stabby\" Pesquita"
+				],
+				"convertedBy": [
+					"Francisco \"Stabby\" Pesquita"
+				]
+			}
+		],
+		"dateAdded": 1586966344, 
+		"dateLastModified": 1730902601,
+		"_dateLastModifiedHash": "aa8d6f9bda"
+	},
+	"class": [
+		{
+			"name": "Animancer",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"hd": {
+				"number": 1,
+				"faces": 6
+			},
+			"proficiency": [
+				"con",
+				"wis"
+			],
+			"spellcastingAbility": "con",
+			"casterProgression": "full",
+			"spellsKnownProgression": [
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				16,
+				17,
+				17,
+				18,
+				18
+			],
+			"startingProficiencies": {
+				"armor": [
+					"none"
+				],
+				"weapons": [
+					"{@item blowgun|phb|blowguns}",
+					"{@item dagger|phb|daggers}",
+					"{@item dart|phb|darts}",
+					"{@item sling|phb|slings}",
+					"{@item quarterstaff|phb|quarterstaffs}"
+				],
+				"tools": [
+					"none"
+				],
+				"skills": [
+					{
+						"choose": {
+							"from": [	
+								"animal handling",
+								"arcana",
+								"athletics",
+								"insight",
+								"medicine",
+								"nature",
+								"persuasion",
+								"religion"
+							],
+							"count": 2
+						}
+					}
+				]
+			},
+			"startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) a {@item blowgun|phb} and {@item blowgun needles (50)|phb| 50 needles} or (b) a {@item sling|phb} and {@item sling bullets (20)|phb|20 bullets}",
+					"(a) a {@item component pouch|phb} or (b) an {@item arcane focus|phb}",
+					"any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+					"(a) a {@item scholar's pack|phb} or (b) an {@item explorer's pack|phb}"
+				],
+				"defaultData": [
+					{
+						"_": [{	"equipmentType": "weaponSimple",	"quantity": 1}]
+					},
+					{
+						"a": ["blowgun|phb","blowgun needles (50)|phb"],
+						"b": ["sling|phb","sling bullets (20)|phb"]
+					},
+					{
+						"a": ["component pouch|phb"],
+						"b": ["arcane focus|phb"]
+					},
+					{
+						"a": ["scholar's pack|phb"],
+						"b": ["explorer's pack|phb"]
+					}
+				]
+			},
+			"multiclassing": {
+				"requirements": {
+					"con": 13
+				}
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|class=Animancer}",
+						"{@filter Spells Known|spells|class=Animancer}"
+					],
+					"rows": [
+						[3, 2],
+						[3, 3],
+						[3, "4 + 2"],
+						[4, "5 + 2"],
+						[4, "6 + 3"],
+						[4, "7 + 3"],
+						[4, "8 + 4"],
+						[5, "9 + 4"],
+						[5, "10 + 5"],
+						[5, "11 + 5"],
+						[5, "12 + 6"],
+						[5, "13 + 6"],
+						[5, "14 + 6"],
+						[5, "15 + 6"],
+						[5, "16 + 6"],
+						[5, "16 + 6"],
+						[5, "17 + 6"],
+						[5, "17 + 6"],
+						[5, "18 + 6"],
+						[5, "18 + 6"]
+					]
+				},
+				{
+					"title": "Spell Slots per Spell Level",
+					"colLabels": [
+						"{@filter 1st|spells|level=1|class=Animancer}",
+						"{@filter 2nd|spells|level=2|class=Animancer}",
+						"{@filter 3rd|spells|level=3|class=Animancer}",
+						"{@filter 4th|spells|level=4|class=Animancer}",
+						"{@filter 5th|spells|level=5|class=Animancer}",
+						"{@filter 6th|spells|level=6|class=Animancer}",
+						"{@filter 7th|spells|level=7|class=Animancer}",
+						"{@filter 8th|spells|level=8|class=Animancer}",
+						"{@filter 9th|spells|level=9|class=Animancer}"
+					],
+					"rowsSpellProgression": [
+						[2,0,0,0,0,0,0,0,0],
+						[3,0,0,0,0,0,0,0,0],
+						[4,2,0,0,0,0,0,0,0],
+						[4,3,0,0,0,0,0,0,0],
+						[4,3,2,0,0,0,0,0,0],
+						[4,3,3,0,0,0,0,0,0],
+						[4,3,3,1,0,0,0,0,0],
+						[4,3,3,2,0,0,0,0,0],
+						[4,3,3,3,1,0,0,0,0],
+						[4,3,3,3,2,0,0,0,0],
+						[4,3,3,3,2,1,0,0,0],
+						[4,3,3,3,2,1,0,0,0],
+						[4,3,3,3,2,1,1,0,0],
+						[4,3,3,3,2,1,1,0,0],
+						[4,3,3,3,2,1,1,1,0],
+						[4,3,3,3,2,1,1,1,0],
+						[4,3,3,3,2,1,1,1,1],
+						[4,3,3,3,3,1,1,1,1],
+						[4,3,3,3,3,2,1,1,1],
+						[4,3,3,3,3,2,2,1,1]
+					]
+				}
+			],
+			"classFeatures": [
+				"Spellcasting|Animancer|stabbyanimancer|1|stabbyanimancer",
+				"Essence Conversion|Animancer|stabbyanimancer|1|stabbyanimancer",
+				"Sense Essence|Animancer|stabbyanimancer|2|stabbyanimancer",
+				{
+					"classFeature": "Manipulation Focus|Animancer|stabbyanimancer|3|stabbyanimancer",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Animancer|stabbyanimancer|4|stabbyanimancer",
+				"Deeper Insights|Animancer|stabbyanimancer|5|stabbyanimancer",
+				"Essence Drain|Animancer|stabbyanimancer|6|stabbyanimancer",
+				"Ability Score Improvement|Animancer|stabbyanimancer|8|stabbyanimancer",
+				{
+					"classFeature": "Manipulation Focus feature|Animancer|stabbyanimancer|10|stabbyanimancer",
+					"gainSubclassFeature": true
+				},
+				"Essence Drain (2d6)|Animancer|stabbyanimancer|10|stabbyanimancer",
+				"Ability Score Improvement|Animancer|stabbyanimancer|12|stabbyanimancer",
+				"Sense Essence (Range Increase)|Animancer|stabbyanimancer|13|stabbyanimancer",
+				"Essence Conversion (exhaustion)|Animancer|stabbyanimancer|14|stabbyanimancer",
+				"Essence Drain (Extra Use)|Animancer|stabbyanimancer|14|stabbyanimancer",
+				"Ability Score Improvement|Animancer|stabbyanimancer|16|stabbyanimancer",
+				"Sense Essence (permanent)|Animancer|stabbyanimancer|17|stabbyanimancer",
+				"Deeper Insights (unlimited)|Animancer|stabbyanimancer|17|stabbyanimancer",
+				{
+					"classFeature": "Manipulation Focus feature|Animancer|stabbyanimancer|18|stabbyanimancer",
+					"gainSubclassFeature": true
+				},
+				"Essence Drain (3d6)|Animancer|stabbyanimancer|18|stabbyanimancer",
+				"Ability Score Improvement|Animancer|stabbyanimancer|19|stabbyanimancer",
+				"Manipulation Mastery|Animancer|stabbyanimancer|20|stabbyanimancer"
+			],
+			"subclassTitle": "Manipulation Focus"
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Spellcasting",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"level": 1,
+			"entries": [
+				"You have studied the nature of the fundamental physical and spiritual energies around you and how to channel them into magical effects. As a result, you have gained the ability to cast spells.",
+				{
+					"type": "entries",
+					"name": "Cantrips",
+					"entries": [
+						"At 1st level, you know three cantrips of your choice from the animancer spell list. You learn additional animancer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Animancer table."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spell Slots",
+					"entries": [
+						"The Aninmancer table shows how many spell slots you have to cast your {@filter animancer spells|spells|class=animancer} of 1st level and higher. To cast one of these animancer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+						"For example, if you know the 1st level spell {@spell burning hands} and have a 1st level and a 2nd level spell slot available, you can cast {@spell burning hands} using either slot."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spells Known of 1st Level and Higher",
+					"entries": [
+						"You know two 1st level spells of your choice from the animancer spell list.",
+						"You learn an additional animancer spell of your choice at each level except 16th, 18th and 20th. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.",
+						"Additionally, when you gain a level in this class, you can choose one of the animancer spells you know and replace it with another spell from the animancer spell list, which also must be of a level for which you have spell slots."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries": [
+						"Constitution is your spellcasting ability for your animancer spells, since you fuel your animancer spells through intense usage of your own life energy first and foremost. You use your Constitution whenever a spell refers to your spellcasting ability. In addition, you use your Constitution modifier when setting the saving throw DC for an animancer spell you cast and when making an attack roll with one.",
+						{"type": "abilityDc","name": "Spell","attributes": [	"con"]
+						},
+						{"type": "abilityAttackMod","name": "Spell","attributes": [	"con"]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ritual Casting",
+					"entries": [
+						"You can cast an animancer spell as a ritual if that spell has the ritual tag and you know the spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Focus",
+					"entries": [
+						"You can use an {@item arcane focus|phb} as a spellcasting focus for your animancer spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Essence Conversion",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"level": 1,
+			"entries": [
+				"Starting at 1st level, you can convert your life essence into magical energy. Conceptually, you tap into your very life force in order to generate manipulable essence to fuel your magic, damaging yourself to unlock this power, and are limited in its use each day by your body. Mechanically, you have a pool of essence points which can be used as described below, and is recovered fully on a long rest.",
+				"You have a pool of Essence Dice equal to your class level + your Constitution modifier (minimum 2). These dice are d4's, and you can roll them at any time to gain Essence Points: you roll any number of dice, lose that many hit points and gain that many Essence Points.",
+				"Essence Points can be used instead of your spell slots to cast spells, as well as to upcast your spells, and some class features may also open up other ways for you to use them.",
+				"At a later level, you will unlock additional subclass-specific spells. Your subclass spells cost fewer Essence Points to cast and upcast using this feature.",
+				"Class features which spend, generate, or rely on the expenditure or generation of essence points cannot target Undead nor Constructs unless otherwise specified. This does not apply to spells cast with essence points; the spell cast is an independent effect.",
+				"Starting at 14th level, you find a further way to tap into your life force and convert it into essence. You can use a bonus action to gain a level of exhaustion, and then recover a number of essence points equal to twice your Constitution modifier (minimum 2) for each level of exhaustion you have. You cannot lose exhaustion levels gained this way through any magical methods short of a Wish effect, but you can lose them by resting.",
+				"Essence points can be used to cast spells instead of your regular spell slots, according to the table below.",
+				{
+					"type": "table",
+					"caption": "Essence Spell Casting Cost",
+					"colLabels": [
+						"Spell Level",
+						"Essence Point Cost",
+						"Subclass Spell Cost"
+					],
+					"colStyles": [
+						"col-4 text-center",
+						"col-4 text-center",
+						"col-4 text-center"
+					],
+					"rows": [
+						["1st", "3", "2"],
+						["2nd", "4", "3"],
+						["3rd", "5", "4"],
+						["4th", "7", "5"],
+						["5th", "10", "7"],
+						["6th", "15", "10"],
+						["7th", "20", "-"],
+						["8th", "30", "-"],
+						["9th", "40", "-"]
+					]
+				},
+				"Upon casting a spell, you can use Essence points to upcast it, as if using a higher level spell slot, with essence point costs according to the table below. Note that you can't upcast beyond your highest available spell slot level.",
+				{
+					"type": "table",
+					"caption": "Essence Spell Upcasting Cost",
+					"colLabels": [
+						"Extra Levels",
+						"Essence Point Cost",
+						"Subclass Spell Cost"
+					],
+					"colStyles": [
+						"col-4 text-center",
+						"col-4 text-center",
+						"col-4 text-center"
+					],
+					"rows": [
+						["1", "2", "1"],
+						["2", "5", "2"],
+						["3", "9", "4"],
+						["4", "14", "7"],
+						["5", "20", "11"],
+						["6", "27", "16"],
+						["7", "35", "22"],
+						["8", "44", "29"]
+					]
+				},
+				"You lose any unspent essence points whenever you finish a short or long rest.",
+				"You regain all your spent essence dice whenever you finish a long rest."
+			]
+		},
+		{
+			"name": "Essence Conversion (exhaustion)",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"level": 14,
+			"entries": [
+				"Starting at 14th level, you find a further way to tap into your life force and convert it into essence. You can use a bonus action to gain a level of exhaustion, and then recover a number of essence points equal to twice your Constitution modifier (minimum 2) for each level of exhaustion you have. You cannot lose exhaustion levels gained this way through any magical methods short of a Wish effect, but you can lose them by resting."
+			]
+		},
+		{
+			"name": "Sense Essence",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"level": 2,
+			"entries": [
+				"Starting at 2nd level, you can sense vital essence around you. You can use an action to gain heightened senses so that the vital essence of others becomes visible to you as an aura. For 1 minute, you become aware of living entities within this effect's radius and can target them normally with your class features, even if they are {@condition invisible}. You know their size category and position, but not their identity, type, or anything else about them. A {@condition petrified} target can still be detected as being living, as traces of its essence linger despite its state. An undead, construct or illusion does not have an aura. Anything denser or thicker than 1 foot of wood blocks this sense.",
+				"You choose the radius of the ability upon activating it, up to a maximum of your Wisdom modifier (min. 1) times 5 feet.",
+				"Once after each short or long rest, you can use this feature without expending essence points. Otherwise, it costs 1 essence point to activate.",
+				"At 13th level, the maximum radius doubles to your Wisdom modifier (min. 1) times 10 feet.",
+				"At 17th level, your senses are permanently heightened. You can freely use an action to toggle this feature on and off, without spending an essence point, and its duration is infinite."
+			]
+		},
+		{
+			"name": "Sense Essence (Range Increase)",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"level": 13,
+			"entries": [
+				"At 13th level, the maximum radius of your Sense Essence feature doubles to your Wisdom modifier (min. 1) times 10 feet."
+			]
+		},
+		{
+			"name": "Diverging Flows",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"level": 15,
+			"entries": [
+				"At 15th level, your growing control over the many facets of essence allows you to broaden the scope of your specialization. You may replace up to two of your subclass spells with any spell of the same level from the animancer spell list."
+			]
+		},
+		{
+			"name": "Sense Essence (permanent)",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"level": 17,
+			"entries": [
+				"At 17th level, your essence senses are permanently heightened. You can freely use an action to toggle your Sense Essence feature on and off, and its duration is infinite."
+			]
+		},
+		{
+			"name": "Manipulation Focus",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you begin to specialize in a particular use of essence manipulation."
+			]
+		},
+		{
+			"name": "Manipulation Focus feature",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"level": 10,
+			"entries": [
+				"At 10th level, you gain a new ability related to your manipulation focus."
+			]
+		},
+		{
+			"name": "Manipulation Focus feature",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"level": 18,
+			"entries": [
+				"At 18th level, you gain a new ability related to your manipulation focus."
+			]
+		},
+		{
+			"name": "Deeper Insights",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"level": 5,
+			"entries": [
+				"Starting at 5th level, you can focus intently on a creature to gain empowered instincts regarding its wellbeing and disposition from the aura of their essence. As a bonus action while your Sense Essence is active, you may choose one creature being detected by your Sense Essence, gaining knowledge as described in one of the options listed below. You can use this feature once per activation of Sense Essence.",
+				{
+					"type": "list",
+					"items": [
+						"You know the nature of any disease, poison, curse, or similar effect currently affecting it. You most likely gain only limited knowledge as to what impact any conditions affecting it have, and you may be unable to distinguish different ones unless you manage to identify them, instead lumping all the symptoms together. Details are all at DM discretion, and he may request you make a Wisdom (Insight) ability check to interpret the 'feel' you get from the creature's essence in this regard for more exact information.",
+						"You know if the creature is affected by any condition such as Charmed or Frightened, or any similar magical effect that may limit its ability to act rationally and independently, as well as any non-magical stresses on it such as it being coerced by another to do something it does not want to do. Once again, your DM may request a Wisdom (Insight) ability to interpret your sensations and gather information regarding further details such as the charmer or the source of its fear, but you will always at least have a 'hunch'.",
+						"You know how the creature feels about any creature it has spent at least 30 seconds interacting with (while under this effect), in vague terms."
+					]
+				},
+				"Additionally, starting at 17th level, your Deeper Insights feature has unlimited uses."
+			]
+		},
+		{
+			"name": "Deeper Insights (unlimited)",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"level": 17,
+			"entries": [
+				"Starting at 17th level, your Deeper Insights feature has unlimited uses."
+			]
+		},
+		{
+			"name": "Essence Drain",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"level": 6,
+			"entries": [
+				"Starting at 6th level, you can use a bonus action to drain a creature's essence and turn it into power for yourself. A creature of your choice that you can see within 20 feet makes a Constitution saving throw against your spell save DC. It loses hit points equal to 1d6 plus your Constitution modifier on a failure, or half as much on a success. You gain that many essence points.",
+				"The hit point loss dice increase to 2d6 at 10th level and 3d6 at 18th level. You gain an additional use of it per rest at 14th level.",
+				"You can use this feature once per short or long rest."
+			]
+		},
+		{
+			"name": "Essence Drain (2d6)",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"level": 10,
+			"entries": [
+				"At 10th level, the damage of your Essence Drain increases to 2d6."
+			]
+		},
+		{
+			"name": "Essence Drain (Extra Use)",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"level": 14,
+			"entries": [
+				"At 14th level, you gain an additional use of your Essence Drain per short or long rest."
+			]
+		},
+		{
+			"name": "Essence Drain (3d6)",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"level": 18,
+			"entries": [
+				"At 18th level, the damage of your Essence Drain increases to 3d6."
+			]
+		},
+		{
+			"name": "Manipulation Mastery",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"level": 20,
+			"entries": [
+				"At 20th level, whenever you roll any dice as part of a class feature that generates or consumes essence points, you can forego rolling and instead choose the result. This includes damage rolls for your class features, but not rolls related to your spellcasting. It also includes ability checks made as part of your Deeper Insights feature."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"level": 4,
+			"entries": [
+				"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"level": 8,
+			"entries": [
+				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"level": 12,
+			"entries": [
+				"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"level": 16,
+			"entries": [
+				"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"level": 19,
+			"entries": [
+				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Destroy",
+			"shortName": "Destroy",
+			"source": "stabbyanimancer",
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"page": 0,
+			"subclassFeatures": [
+				"Destroy|Animancer|stabbyanimancer|Destroy|stabbyanimancer|3",
+				"Essence Penetration|Animancer|stabbyanimancer|Destroy|stabbyanimancer|10",
+				"Master of Destruction|Animancer|stabbyanimancer|Destroy|stabbyanimancer|18"
+			]
+		},
+		{
+			"name": "Sustain",
+			"shortName": "Sustain",
+			"source": "stabbyanimancer",
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"page": 0,
+			"subclassFeatures": [
+				"Sustain|Animancer|stabbyanimancer|Sustain|stabbyanimancer|3",
+				"Improved Vital Recharge|Animancer|stabbyanimancer|Sustain|stabbyanimancer|10",
+				"Master of Sustenance|Animancer|stabbyanimancer|Sustain|stabbyanimancer|18"
+			]
+		},
+		{
+			"name": "Leech",
+			"shortName": "Leech",
+			"source": "stabbyanimancer",
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"page": 0,
+			"subclassFeatures": [
+				"Leech|Animancer|stabbyanimancer|Leech|stabbyanimancer|3",
+				"Skulker in the Dark|Animancer|stabbyanimancer|Leech|stabbyanimancer|10",
+				"Greater Aura of the Leech|Animancer|stabbyanimancer|Leech|stabbyanimancer|18"
+			]
+		},
+		{
+			"name": "Tame",
+			"shortName": "Tame",
+			"source": "stabbyanimancer",
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"page": 0,
+			"subclassFeatures": [
+				"Tame|Animancer|stabbyanimancer|Tame|stabbyanimancer|3",
+				"Improved Spirit Beast|Animancer|stabbyanimancer|Tame|stabbyanimancer|10",
+				"Spirit Link|Animancer|stabbyanimancer|Tame|stabbyanimancer|18"
+			]
+		},
+		{
+			"name": "Learn",
+			"shortName": "Learn",
+			"source": "stabbyanimancer",
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"page": 0,
+			"subclassFeatures": [
+				"Learn|Animancer|stabbyanimancer|Learn|stabbyanimancer|3",
+				"Extended Lifeline|Animancer|stabbyanimancer|Learn|stabbyanimancer|10",
+				"Bodily Memory|Animancer|stabbyanimancer|Learn|stabbyanimancer|18"
+			]
+		},
+		{
+			"name": "Subdue",
+			"shortName": "Subdue",
+			"source": "stabbyanimancer",
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"page": 0,
+			"subclassFeatures": [
+				"Subdue|Animancer|stabbyanimancer|Subdue|stabbyanimancer|3",
+				"Puppeteer|Animancer|stabbyanimancer|Subdue|stabbyanimancer|10",
+				"Master Puppeteer|Animancer|stabbyanimancer|Subdue|stabbyanimancer|18"
+			]
+		},
+		{
+			"name": "Cleanse",
+			"shortName": "Cleanse",
+			"source": "stabbyanimancer",
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"page": 0,
+			"subclassFeatures": [
+				"Cleanse|Animancer|stabbyanimancer|Cleanse|stabbyanimancer|3",
+				"Positive Energy Overflow|Animancer|stabbyanimancer|Cleanse|stabbyanimancer|10",
+				"Greater Cleansing Aura|Animancer|stabbyanimancer|Cleanse|stabbyanimancer|18"
+			]
+		},
+		{
+			"name": "Corrupt",
+			"shortName": "Corrupt",
+			"source": "stabbyanimancer",
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"page": 0,
+			"subclassFeatures": [
+				"Corrupt|Animancer|stabbyanimancer|Corrupt|stabbyanimancer|3",
+				"Negative Energy Overflow|Animancer|stabbyanimancer|Corrupt|stabbyanimancer|10",
+				"Greater Aura of Decay|Animancer|stabbyanimancer|Corrupt|stabbyanimancer|18"
+			]
+		},
+		{
+			"name": "Harvest",
+			"shortName": "Harvest",
+			"source": "stabbyanimancer",
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"page": 0,
+			"subclassFeatures": [
+				"Harvest|Animancer|stabbyanimancer|Harvest|stabbyanimancer|3",
+				"Harvester of Secrets|Animancer|stabbyanimancer|Harvest|stabbyanimancer|10",
+				"Arbiter of Fates|Animancer|stabbyanimancer|Harvest|stabbyanimancer|18"
+			]
+		},
+		{
+			"name": "Isolate",
+			"shortName": "Isolate",
+			"source": "stabbyanimancer",
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"page": 0,
+			"subclassFeatures": [
+				"Isolate|Animancer|stabbyanimancer|Isolate|stabbyanimancer|3"
+			]
+		},
+		{
+			"name": "Bleed",
+			"shortName": "Bleed",
+			"source": "stabbyanimancer",
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"page": 0,
+			"subclassFeatures": [
+				"Bleed|Animancer|stabbyanimancer|Bleed|stabbyanimancer|3"
+			]
+		}
+
+
+	],
+	"subclassFeature": [
+		{
+			"name": "Destroy",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Destroy",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Extra Focus Spells|Animancer|stabbyanimancer|Destroy|stabbyanimancer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Essence Destruction|Animancer|stabbyanimancer|Destroy|stabbyanimancer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Weakness Detection|Animancer|stabbyanimancer|Destroy|stabbyanimancer|3"
+				}
+			]
+		},
+		{
+			"name": "Extra Focus Spells",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Destroy",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you choose your manipulation focus, you learn two additional spells as a result of your specialized study, one 1st level spell and one of 2nd level. These spells count as Animancer spells for you. You learn additional new spells at later levels.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Class Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell inflict wounds}, {@spell ray of enfeeblement}"
+						],
+						[
+							"5th",
+							"{@spell bestow curse}"
+						],
+						[
+							"7th",
+							"{@spell blight}"
+						],
+						[
+							"9th",
+							"{@spell contagion}"
+						],
+						[
+							"11th",
+							"{@spell disintegrate}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Essence Destruction",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Destroy",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"At 3rd level, you gain the ability to drain the life of others as you expend your own essence reserves.",
+				"When you spend any essence points, you can distribute an amount of necrotic damage equal to the number of spent essence points between any creatures you see within 30 feet of you."
+			]
+		},
+		{
+			"name": "Weakness Detection",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Destroy",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Also at 3rd level, your sensitivity to other's constitutions allows you to gain useful information as to how best to harm them.",
+				"While your Sense Essence is active, you can use a bonus action to make a Wisdom (Insight) ability check against their Constitution ability check. If you succeed, you learn of a damage type it is resistant to, a damage type it is immune to, and a damage type it is vulnerable to, if any, that you have not already discovered through uses of this feature."
+			]
+		},
+		{
+			"name": "Essence Penetration",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Destroy",
+			"subclassSource": "stabbyanimancer",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, you can use your spent essence when using offensive magic to weaken them.",
+				"Once per short or long rest, when you use essence points to cast a damage-dealing spell, after you roll for damage but before the damage is applied, you may choose to ignore all resistances for all affected creatures, and to treat any immunities as though they were only resistance. Your damage-dealing class features, namely your Essence Conversion, Essence Destruction and Essence Drain, also gain this benefit as a permanent bonus.",
+				"Additionally, your damaging cantrips gain a damage bonus equal to your Constitution modifier."
+			]
+		},
+		{
+			"name": "Master of Destruction",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Destroy",
+			"subclassSource": "stabbyanimancer",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"At 18th level, your Essence Drain feature is improved: its range increases to 60ft, its dice change to d10, and you can select more than one creature as a target, assigning dice to each creature as you choose (assignment is done before rolling)."
+			]
+		},
+
+
+
+
+
+
+
+		{
+			"name": "Sustain",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Sustain",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Extra Focus Spells|Animancer|stabbyanimancer|Sustain|stabbyanimancer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Essence Transfer|Animancer|stabbyanimancer|Sustain|stabbyanimancer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Vital Recharge|Animancer|stabbyanimancer|Sustain|stabbyanimancer|3"
+				}
+			]
+		},
+		{
+			"name": "Extra Focus Spells",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Sustain",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you choose your manipulation focus, you learn two additional spells as a result of your specialized study, one 1st level spell and one of 2nd level. These spells count as Animancer spells for you. You learn additional new spells at later levels.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Class Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell cure wounds}, {@spell aid}"
+						],
+						[
+							"5th",
+							"{@spell aura of vitality}"
+						],
+						[
+							"7th",
+							"{@spell aura of life}"
+						],
+						[
+							"9th",
+							"{@spell mass cure wounds}"
+						],
+						[
+							"11th",
+							"{@spell heal}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Essence Transfer",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Sustain",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"At 3rd level, you gain the ability to fuel your allies with your essence.",
+				"As an action, select a creature you can see other than yourself within 30 ft. Spend X essence points (minimum 1): the creature regains Xd4 + your Constitution modifier (minimum Xd4+0) hit points."
+			]
+		},
+		{
+			"name": "Vital Recharge",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Sustain",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Also at 3rd level, you learn to restore your own life force as you expend the essence taken from it.",
+				"When you roll any number of essence dice, you simultaneously regain 1 HP per die rolled."
+			]
+		},
+		{
+			"name": "Improved Vital Recharge",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Sustain",
+			"subclassSource": "stabbyanimancer",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, you gain the ability to redistribute your life force restoration.",
+				"When you spend roll essence dice, you can distribute the healing you would receive from your Vital Recharge between yourself and any number of creatures of your choice within 20 feet. Each creature targeted this way regains additional HP equal to your Constitution modifier.",
+				"Once you use this feature in this way, you must finish a short or long rest before you can do so again."
+			]
+		},
+		{
+			"name": "Master of Sustenance",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Sustain",
+			"subclassSource": "stabbyanimancer",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"At 18th level, your mastery of essence manipulation reaches a stage where you can often reintegrate and preserve this vital energy even as you expend it. After you spend any number of essence points, you regain half of the essence points spent (rounded down)."
+			]
+		},
+		
+		
+		
+		
+		
+		{
+			"name": "Leech",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Leech",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Extra Focus Spells|Animancer|stabbyanimancer|Leech|stabbyanimancer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Aura of the Leech|Animancer|stabbyanimancer|Leech|stabbyanimancer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Repulsive Retort|Animancer|stabbyanimancer|Leech|stabbyanimancer|3"
+				}
+			]
+		},
+		{
+			"name": "Extra Focus Spells",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Leech",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you choose your manipulation focus, you learn two additional spells as a result of your specialized study, one 1st level spell and one of 2nd level. These spells count as Animancer spells for you. You learn additional new spells at later levels.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Class Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell cause fear|xge}, {@spell darkness}"
+						],
+						[
+							"5th",
+							"{@spell hunger of hadar}"
+						],
+						[
+							"7th",
+							"{@spell confusion}"
+						],
+						[
+							"9th",
+							"{@spell negative energy flood|xge}"
+						],
+						[
+							"11th",
+							"{@spell eyebite}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Aura of the Leech",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Leech",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Starting at 3rd level, whenever your Sense Essence is active and a creature starts its turn in its area of effect, you may deal 1 necrotic damage to that creature. If you do, you regain 1 HP. Does not affect undead nor constructs."
+			]
+		},
+		{
+			"name": "Repulsive Retort",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Leech",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Also starting at 3rd level, whenever you are attacked in melee, you can use a reaction to twist your attacker's mind through its essence, causing an overwhelming flow of negative emotions and fear to come over it. It must make a Wisdom saving throw against your spell save DC. On a failure, it makes the triggering attack with disadvantage, and becomes {@condition frightened} of you until the end of its next turn. Once you have used this feature, you can't use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Skulker in the Dark",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Leech",
+			"subclassSource": "stabbyanimancer",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, your abilities are improved while hidden.",
+				"While you are heavily obscured or in darkness, your spell save DC and spell attack modifier are increased by 2, and hit point loss from your Essence Conversion feature is halved."
+			]
+		},
+		{
+			"name": "Greater Aura of the Leech",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Leech",
+			"subclassSource": "stabbyanimancer",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Starting at 18th level, your Aura of the Leech is improved: the damage and healing now equal your Constitution modifier (minimum 1), and affected creatures gain one level of exhaustion after each consecutive minute they spend being drained by it."
+			]
+		},
+
+
+
+
+
+
+		{
+			"name": "Tame",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Tame",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Extra Focus Spells|Animancer|stabbyanimancer|Tame|stabbyanimancer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Animal Handler|Animancer|stabbyanimancer|Tame|stabbyanimancer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Spirit Beast|Animancer|stabbyanimancer|Tame|stabbyanimancer|3"
+				}
+			]
+		},
+		{
+			"name": "Extra Focus Spells",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Tame",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you choose your manipulation focus, you learn two additional spells as a result of your specialized study, one 1st level spell and one of 2nd level. These spells count as Animancer spells for you. You learn additional new spells at later levels.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Class Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell beast bond|xge}, {@spell beast sense}"
+						],
+						[
+							"5th",
+							"{@spell conjure animals}"
+						],
+						[
+							"7th",
+							"{@spell dominate beast}"
+						],
+						[
+							"9th",
+							"{@spell conjure elemental}"
+						],
+						[
+							"11th",
+							"{@spell conjure fey}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Animal Handler",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Tame",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"At 3rd level, you gain proficiency in Animal Handling. If you already have it, you instead gain expertise in Animal Handling.",
+				"Whenever you make a Wisdom (Animal Handling) ability check, you can spend 1 or more essence points to give yourself a bonus: for each essence point spent, you can roll a 1d4 and add it to the ability check. You can do this after you have rolled the dice, but before you know the outcome."
+			]
+		},
+		{
+			"name": "Spirit Beast",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Tame",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Also starting at 3rd level, you bond with an animal spirit, which accompanies you on your adventures. It could be a spirit you have encountered in your travels, or it may be be a semi-physical manifestation of your own inner beast.",
+				"Your animal spirit may take the form of any Beast of your choice from the list below, but its statistics are independent of its form ({@creature spirit beast|stabbyanimancer}). It has the appearance of the chosen Beast, but is partly transparent, and its nature is only not wholly physical, granting it resistance to some physical effects. Both of you gain additional benefits which depend on its form. Your Spirit Beast grows with you: whenever you unlock an Ability Score Improvement as an Animancer feature, you can increase any one of its ability scores by 2 points. Additionally, its proficiency bonus is always equal to yours.",
+				"Your spirit beast rolls its own initiative and acts on its own turn in combat. It sees you as its closest ally in the Material world and as someone under its patronage, but has its own personality and sense of self, and it has a mind of its own; it may typically follow your commands, but is not forced to.",
+				"Once per short or long rest, when you spend essence points, you can redirect the damage taken as a consequence to your Spirit Beast. The same conditions regarding resistance and immunity to the damage apply. It accepts this as part of its bond with you.",
+				"When your spirit beast dies, its body nearly instantaneously disappears into a thin mist, and you lose half of your remaining essence points (rounded up), taking damage as though you had spent it. While it is dead, you lose any benefits its form had granted you.",
+				"As part of a long rest, you can perform the necessary rites to cause it to take shape again and summon it at your location, but you must spend a number of essence points equal to your Constitution modifier at the end of this long rest. When bringing it back, you can change its form to another one of your choice; even if it is alive, you can perform this rite to change its form, at the same cost.",
+				{
+					"type": "entries",
+					"name": "Eagle, Owl, Raven or Bat",
+					"entries": [
+						"Benefits:",
+						{
+							"type": "list",
+							"items": [
+								"Spirit Beast: Your Spirit Beast gains a flying speed of 60 ft, but its walk speed is reduced to 10 ft.",
+								"Animancer: You add its Wisdom modifier to your Wisdom (Perception) ability checks."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Goat, Elk or Horse",
+					"entries": [
+						"Benefits:",
+						{
+							"type": "list",
+							"items": [
+								"Spirit Beast: Your Spirit Beast gains the Charge ability: if it moves at least 20 feet straight toward a target and then hits it with a Spirit Slam on the same turn, the target takes an extra 7 (2d6) force damage.",
+								"Animancer: You ignore any movement penalties incurred because of natural difficult terrain, and your walking speed increases by 5 feet."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wolf or Panther",
+					"entries": [
+						"Benefits:",
+						{
+							"type": "list",
+							"items": [
+								"Spirit Beast: It has proficiency in the Stealth skill.",
+								"Animancer: You add its Dexterity to your Dexterity (Stealth) ability checks."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bear or Boar",
+					"entries": [
+						"Benefits:",
+						{
+							"type": "list",
+							"items": [
+								"Spirit Beast: Your Spirit Beast has 2 additional HP for each level you have taken as an Animancer.",
+								"Animancer: You add its Charisma to your Strength (Athletics) ability checks."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spider or Lizard",
+					"entries": [
+						"Benefits:",
+						{
+							"type": "list",
+							"items": [
+								"Spirit Beast and Animancer: You can both climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. You both have a climbing speed of 20 feet."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Frog or Grasshopper",
+					"entries": [
+						"Benefits:",
+						{
+							"type": "list",
+							"items": [
+								"Spirit Beast and Animancer: You both have a long jump of up to 30 ft., and a high jump of up to 15 ft., with or without a running start."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Crocodile or Snake",
+					"entries": [
+						"Benefits:",
+						{
+							"type": "list",
+							"items": [
+								"Spirit Beast and Animancer: You both have a swimming speed of 30 ft., and you can both hold your breath for 15 minutes."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Improved Spirit Beast",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Tame",
+			"subclassSource": "stabbyanimancer",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th level, your Spirit Beast grows stronger. It adds its Charisma modifier to its AC and saving throws, and its Spirit Slam damage dice increase to 2d6.",
+				"Additionally, it gains a Phase Shift ability: as an action, it can phase into or out of the Border Ethereal and Astral planes, from or into the Material plane."
+			]
+		},
+		{
+			"name": "Spirit Link",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Tame",
+			"subclassSource": "stabbyanimancer",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Starting at 18th level, when your Spirit Beast is on the same plane as you and shifts to a different plane, you can have it bring you and any number of willing creatures of your choice within 10 feet of it along. You must spend 1 essence point for each creature it brings along, including yourself. Any creatures going with it will also be forced to Phase Shift back. If it dies while any creatures other than itself are phase shifted, those creatures are jaunted back into the Material plane.",
+				"You additionally gain a permanent telepathic link to it, as long as you both remain on the same plane, or you are both in one of the planes accessible through its Phase Shift. You can freely and instantaneously communicate any thoughts, emotions, images or other information with each other."
+			]
+		},
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		{
+			"name": "Learn",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Learn",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Extra Focus Spells|Animancer|stabbyanimancer|Learn|stabbyanimancer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Additional Proficiencies|Animancer|stabbyanimancer|Learn|stabbyanimancer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Lifeline|Animancer|stabbyanimancer|Learn|stabbyanimancer|3"
+				}
+			]
+		},
+		{
+			"name": "Extra Focus Spells",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Learn",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you choose your manipulation focus, you learn two additional spells as a result of your specialized study, one 1st level spell and one of 2nd level. These spells count as Animancer spells for you. You learn additional new spells at later levels.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Class Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell identify}, {@spell locate object}"
+						],
+						[
+							"5th",
+							"{@spell clairvoyance}"
+						],
+						[
+							"7th",
+							"{@spell locate creature}"
+						],
+						[
+							"9th",
+							"{@spell legend lore}"
+						],
+						[
+							"11th",
+							"{@spell minor glimpse|stabbyspells}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Additional Proficiencies",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Learn",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"At 3rd level, you gain proficiency in two skills of your choice from Arcana, History, Nature, and Religion. If you already have proficiency in three or four of them, you can choose the remaining proficiencies from your Animancer class skill list.",
+				"You also gain proficiency with one language or tool of your choice."
+			]
+		},
+		{
+			"name": "Lifeline",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Learn",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Also at 3rd level, when making a ability check to attempt to study, memorise or recollect something, you can spend 1 or more essence points to give yourself a bonus: for each essence point spent, you can roll a 1d4 and add it to the ability check. You can do this after you have made the ability check, but before you know the outcome."
+			]
+		},
+		{
+			"name": "Extended Lifeline",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Learn",
+			"subclassSource": "stabbyanimancer",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th level, while your Sense Essence is active, you can extend your Lifeline feature to any creature within its radius, using it as a reaction when you perceive a creature is making a mental effort for one of the purposes described in the feature. You automatically perceive this mental effort as long as the creature is within range of your Sense Essence, and can freely choose whether to act on it. You additionally get a vague sense of the topic or direction of these mental efforts."
+			]
+		},
+		{
+			"name": "Bodily Memory",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Learn",
+			"subclassSource": "stabbyanimancer",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Starting at 18th level, your body and its vital energies gain a semblance of memory and its learning ability is improved, both physically and intelectually, and it become adept in all situations it is thrust into, new or old.",
+				"You may add your Constitution modifier to any ability check you make."
+			]
+		},
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		{
+			"name": "Subdue",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Subdue",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Extra Focus Spells|Animancer|stabbyanimancer|Subdue|stabbyanimancer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Alluring Aura|Animancer|stabbyanimancer|Subdue|stabbyanimancer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Instill Doubt|Animancer|stabbyanimancer|Subdue|stabbyanimancer|3"
+				}
+			]
+		},
+		{
+			"name": "Extra Focus Spells",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Subdue",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you choose your manipulation focus, you learn two additional spells as a result of your specialized study; in the case of this focus, they are both 1st level spells. These spells count as Animancer spells for you. You learn an additional new spell when you reach 5th level and then another when you reach 9th level.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Class Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell charm person}, {@spell deflect attention|stabbyspells}"
+						],
+						[
+							"5th",
+							"{@spell catnap|xge}"
+						],
+						[
+							"7th",
+							"{@spell charm monster|xge}"
+						],
+						[
+							"9th",
+							"{@spell geas}"
+						],
+						[
+							"11th",
+							"{@spell mass suggestion}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Alluring Aura",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Subdue",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"At 3rd-level, your focus when using your Sense Essence feature evolves, and begins to emanate an outward aura of attraction.",
+				"When you first use an action to activate your Sense Essences feature and whenever a living creature starts its turn in combat within its area of effect, that creature makes a Wisdom saving throw against your spellcasting save DC. On a failure, that creature is {@condition charmed} by you until the start of its next turn. A creature has advantage on this save if it is in combat. Once a creature has succeeded in its save, it is immune to this effect until the next dawn."
+			]
+		},
+		{
+			"name": "Instill Doubt",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Subdue",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Also at 3rd-level, you gain the ability to momentarily instill doubt about a creature's desire to harm you or your companions when you see them make an attack. As a reaction when a creature you can see would be hit with a melee attack by an attacker you can see within 30 feet of you, you can spend 1 or more essence points, and reduce the attack roll by 1d4 for each essence point spent."
+			]
+		},
+		{
+			"name": "Puppeteer",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Subdue",
+			"subclassSource": "stabbyanimancer",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Starting at 10th-level, while a creature currently {@condition charmed} by you is within 30 feet of you, you can use an action to take complete control of it on its next turn. You spend a number of essence points equal to a quarter of its level or CR (rounded down, minimum 1), and it makes a Constitution saving throw against your spellcasting save DC. On a failure, the creature is under your complete control on its next turn. If it succeeds by 5 or more, it is no longer {@condition charmed} by you and becomes immune to being {@condition charmed} by you for 1 minute."
+			]
+		},
+		{
+			"name": "Master Puppeteer",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Subdue",
+			"subclassSource": "stabbyanimancer",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Starting at 18th-level, your Puppeteering is taken to new heights.",
+				"Whenever a creature is dominated by you, you can maintain complete control of it for up to 1 hour, but must use an action each turn to achieve this. If you fail to use an action on your turn to maintain this effect, you lose control of the dominated creature.",
+				"Additionally, as part of the same action, you can force your will on an additional creature, and can maintain control over several of them with the same action, although the remaining total control time is divided equally between them. You can simultaneously control a number of creatures up to your Constitution modifier (minimum 1), and can release any of them at will."
+			]
+		},
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+		{
+			"name": "Cleanse",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Cleanse",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Extra Focus Spells|Animancer|stabbyanimancer|Cleanse|stabbyanimancer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Cleansing Aura|Animancer|stabbyanimancer|Cleanse|stabbyanimancer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Sense Counter-essence|Animancer|stabbyanimancer|Cleanse|stabbyanimancer|3"
+				}
+			]
+		},
+		{
+			"name": "Extra Focus Spells",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Cleanse",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you choose your manipulation focus, you learn two additional spells as a result of your specialized study, one 1st level spell and one of 2nd level. These spells count as Animancer spells for you. You learn additional new spells at later levels.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Class Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell shield of faith}, {@spell gentle repose}"
+						],
+						[
+							"5th",
+							"{@spell remove curse}"
+						],
+						[
+							"7th",
+							"{@spell aura of purity}"
+						],
+						[
+							"9th",
+							"{@spell hallow}"
+						],
+						[
+							"11th",
+							"{@spell heal}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Cleansing Aura",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Cleanse",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Starting at 3rd-level, whenever your Sense Essence is active and an undead or construct starts its turn within its area of effect, you deal 1 radiant damage to it. Whenever a conscious creature of a different type starts its turn within its area of effect, you may have that creature recover 1 hit point.",
+				"Additionally, whenever an undead or construct in this area of effect suffers a critical hit, the damage it suffers is doubled; and creatures of other types of your choice within the area have advantage on saving throws against poison and disease."
+			]
+		},
+		{
+			"name": "Sense Counter-essence",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Cleanse",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Also at 3rd-level, your Sense Essence feature is further improved: you can now detect Undead and Constructs with that feature, even if they currently appear inanimate, and their presence registers as a subtle yet offensive bend to the natural flows of essence in the world, a noticeably different presence from that of living creatures.",
+				"When you unlock your Deeper Insights class feature at 5th-level, you can use it on Undead and Constructs.",
+				"When you unlock your Essence Drain class feature at 6th-level, you can also use it on Undead and Constructs, but do not regain any essence points when you do so."
+			]
+		},
+		{
+			"name": "Positive Energy Overflow",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Cleanse",
+			"subclassSource": "stabbyanimancer",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th-level, your focused distaste for Undead and Constructs, creatures who offend the flow of Essence via their artificial animation, allows you to assault them with positive energy flows.",
+				"As an action, you can choose a creature you can see other than yourself within 30 feet, and spend any number of essence points: if the creature is an Undead or Construct, you deal 1d8 radiant damage for each essence point spent. Otherwise, you heal the creature for 1d8 for each essence point spent. Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Greater Cleansing Aura",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Cleanse",
+			"subclassSource": "stabbyanimancer",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Starting at 18th-level, the damage taken by Undead and Constructs from your Cleansing Aura, and the healing received by others, is increased to your Constitution modifier (minimum 1), and its area of effect becomes magical difficult terrain for Undead and Constructs.",
+				"Additionally, whenever a friendly creature (or you) starts its turn within your Cleansing Aura, you can cause one of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"You remove one condition or curse effect currently affecting it, other than exhaustion.",
+						"It has advantage on the next saving throw it makes before the start of its next turn.",
+						"It ignores magical difficult terrain until the start of its next turn."
+					]
+				}
+			]
+		},
+		
+		
+		
+		
+		
+		{
+			"name": "Corrupt",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Corrupt",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Extra Focus Spells|Animancer|stabbyanimancer|Corrupt|stabbyanimancer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Aura of Decay|Animancer|stabbyanimancer|Corrupt|stabbyanimancer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Momentary Frailty|Animancer|stabbyanimancer|Corrupt|stabbyanimancer|3"
+				}
+			]
+		},
+		{
+			"name": "Extra Focus Spells",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Corrupt",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you choose your manipulation focus, you learn two additional spells as a result of your specialized study, one 1st level spell and one of 2nd level. These spells count as Animancer spells for you. You learn additional new spells at later levels.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Class Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell ray of sickness}, {@spell ray of enfeeblement}"
+						],
+						[
+							"5th",
+							"{@spell animate dead}"
+						],
+						[
+							"7th",
+							"{@spell gangrenous touch|stabbyspells}"
+						],
+						[
+							"9th",
+							"{@spell danse macabre|xge}"
+						],
+						[
+							"11th",
+							"{@spell harm}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Aura of Decay",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Corrupt",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Starting at 3rd level, whenever your Sense Essence is active and a living creature starts its turn within its area of effect, you may deal 1 necrotic damage to it.",
+				"Additionally, whenever a living creature in this area of effect other than yourself suffers a critical hit, the damage it suffers is doubled."
+			]
+		},
+		{
+			"name": "Momentary Frailty",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Corrupt",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Also at 3rd level, you can disturb the natural homeostasis of a creature at key moments and throw its constitution out of balance.",
+				"As a reaction when a creature within 30 feet of you makes a Constitution saving throw, you can spend 1 essence point to force it to make the saving throw with disadvantage."
+			]
+		},
+		{
+			"name": "Negative Energy Overflow",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Corrupt",
+			"subclassSource": "stabbyanimancer",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"At 10th-level, your focused distaste for life, creatures who offend the flow of Essence by not directly bowing to your command of it, allows you to assault them with negative energy flows.",
+				"As an action, you can choose a creature you can see within 30 feet, and spend any number of essence points: if the creature is neither Undead nor Construct, you deal 1d8 necrotic damage for each essence point spent. Otherwise, you heal the creature for 1d8 for each essence point spent. Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Greater Aura of Decay",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Corrupt",
+			"subclassSource": "stabbyanimancer",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Starting at 18th-level, the damage taken by living creatures from your Aura of Decay is increased to your Constitution modifier (minimum 1), and its area of effect becomes magical difficult terrain for them.",
+				"Additionally, whenever a creature starts its turn within your Cleansing Aura, you may cause one of the following effects:",
+				{
+					"type": "list",
+					"items": [
+						"You force it to make a Constitution saving throw or be afflicted with one of the following conditions until the end of its next turn: Blinded, Deafened, or Poisoned.",
+						"Its speed is reduced by 10 feet on its next turn.",
+						"If it is Undead or Construct, it regains hit points equal to your Constitution modifier (minimum 1)."
+					]
+				}
+			]
+		},
+		
+
+
+
+
+
+
+
+
+		{
+			"name": "Harvest",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Harvest",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Extra Focus Spells|Animancer|stabbyanimancer|Harvest|stabbyanimancer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Soul Reaper|Animancer|stabbyanimancer|Harvest|stabbyanimancer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Death's Edge|Animancer|stabbyanimancer|Harvest|stabbyanimancer|3"
+				}
+			]
+		},
+		{
+			"name": "Extra Focus Spells",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Harvest",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you choose your manipulation focus, you learn two additional spells as a result of your specialized study, one 1st level spell and one of 2nd level. These spells count as Animancer spells for you. You learn additional new spells at later levels.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Class Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell false life}, {@spell gentle repose}"
+						],
+						[
+							"5th",
+							"{@spell speak with dead}"
+						],
+						[
+							"7th",
+							"{@spell death ward}"
+						],
+						[
+							"9th",
+							"{@spell raise dead}"
+						],
+						[
+							"11th",
+							"{@spell soul cage|xge}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Soul Reaper",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Harvest",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"At 3rd level, you have developed a sinister connection to the essences of the dead and dying, and the ability to harvest whisps of it as it escapes them.",
+				"When a non-Undead non-Construct creature you can see dies within 30 feet of you, you can use a reaction to harvest its fading essence. Roll one of its hit dice: you gain that many essence points.",
+				"If the creature is affected by your Sense Essence feature, you do not need to use a reaction for this effect.",
+				"You can only harvest essence this way a number of times per long rest equal to your proficiency modifier."
+			]
+		},
+		{
+			"name": "Death's Edge",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Harvest",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Also at 3rd level, you gain the ability to subtly influence the fate of the dying. Whenever a creature makes a death saving throw within 30 feet of you, you may choose to give it your choice of advantage or disadvantage.",
+				"Additionally, if the creature is currently affected by your Sense Essence, you can instead use a reaction and spend up to 3 essence points to have it forego the roll this turn and instead gain that many death save successes or failures (your choice)."
+			]
+		},
+		{
+			"name": "Harvester of Secrets",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Harvest",
+			"subclassSource": "stabbyanimancer",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"Whenever you harvest a creature's essence with your Soul Reaper feature, you may choose one of the following benefits. Temporary benefits end when you use the feature again for a new temporary benefit or finish a long rest.",
+				{
+					"type": "list",
+					"items": [
+						"You learn one of the creatures memories, pertaining to a specific event, habit or object of your choice.",
+						"You gain proficiency in a skill, language or tool that the creature was proficient with (the DM tells you your options, if any). Temporary benefit.",
+						"You gain a bonus of +1 to any ability checks you make using that creature's highest ability score (if a tie, the DM tells you the options and you choose). Temporary benefit.",
+						"You take in part of the creature's personality and innate way of thinking and interacting, granting you advantage on ability checks made to mimick it or understand it. Temporary benefit."	
+					]
+				}
+
+			]
+		},
+		{
+			"name": "Arbiter of Fates",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Harvest",
+			"subclassSource": "stabbyanimancer",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"At 18th level, you become both judge and executioner in the cycle of life and death.",
+				"Whenever a creature targetable by your Soul Reaper feature would die, you may spend 5 essence points to have it stay alive and restore it to 1 hit point if it had fewer. That creature cannot be killed or have its hit points reduced below 1 until the start of its next turn.",
+				"Whenever you harvest a creature's essence with your Soul Reaper feature, you may choose to harvest its soul completely, preventing it from being resurrected or revived except by a Wish spell or similar effect. If you do so, you roll an additional one of its hit dice to determine the essence points gained.",
+				"Additionally, you gain an alternative use for your Soul Reaper feature: as an action, you can attempt to prematurely harvest a non-Undead non-Construct creature. Spend a number of essence points up to your Constitution modifier. The creature rolls that many of its hit dice, and loses hit points equal to the result. Its hit point maximum is reduced by the same amount, until it finishes a long rest. If it dies, you can use your Soul Harvest feature as normal as part of the same use of the feature."
+			]
+		},
+		
+		
+		
+		
+		{
+			"name": "Isolate",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Isolate",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Extra Focus Spells|Animancer|stabbyanimancer|Isolate|stabbyanimancer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "?|Animancer|stabbyanimancer|Isolate|stabbyanimancer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "?|Animancer|stabbyanimancer|Isolate|stabbyanimancer|3"
+				}
+			]
+		},
+		{
+			"name": "Extra Focus Spells",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Isolate",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you choose your manipulation focus, you learn two additional spells as a result of your specialized study, one 1st level spell and one of 2nd level. These spells count as Animancer spells for you. You learn additional new spells at later levels.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Class Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell protection from evil and good}, {@spell repel|stabbyspells}"
+						],
+						[
+							"5th",
+							"{@spell magic circle}"
+						],
+						[
+							"7th",
+							"{@spell banishment}"
+						],
+						[
+							"9th",
+							"{@spell wall of force}"
+						],
+						[
+							"11th",
+							"{@spell true seeing}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "?",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Isolate",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "?",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Isolate",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "?",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Isolate",
+			"subclassSource": "stabbyanimancer",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				""
+			]
+		},
+		{
+			"name": "?",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Isolate",
+			"subclassSource": "stabbyanimancer",
+			"level": 18,
+			"header": 2,
+			"entries": [
+				""
+			]
+		},
+
+
+
+
+
+
+
+
+		{
+			"name": "Bleed",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Bleed",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"entries": [
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Extra Focus Spells|Animancer|stabbyanimancer|Bleed|stabbyanimancer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "?|Animancer|stabbyanimancer|Bleed|stabbyanimancer|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "?|Animancer|stabbyanimancer|Bleed|stabbyanimancer|3"
+				}
+			]
+		},
+		{
+			"name": "Extra Focus Spells",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Bleed",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"When you choose your manipulation focus, you learn two additional spells as a result of your specialized study, one 1st level spell and one of 2nd level. These spells count as Animancer spells for you. You learn additional new spells at later levels.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Class Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell identify}, {@spell identify}"
+						],
+						[
+							"5th",
+							"{@spell vampiric touch}"
+						],
+						[
+							"7th",
+							"{@spell identify}"
+						],
+						[
+							"9th",
+							"{@spell enervation|xge}"
+						],
+						[
+							"11th",
+							"{@spell identify}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "?",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"className": "Animancer",
+			"classSource": "stabbyanimancer",
+			"subclassShortName": "Bleed",
+			"subclassSource": "stabbyanimancer",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"A blood-focused subclass. TODO. Probably create some new blood-related spells for it."
+			]
+		}
+		
+		
+	],
+	"monster": [
+		{
+			"name": "Spirit Beast",
+			"source": "stabbyanimancer",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "fey"
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"special": "equal your class level times the sum of its Constitution modifier and your Constitution modifier (minimum 1 per level)"
+			},
+			"speed": {
+				"walk": 40,
+				"fly": {
+					"number": 20,
+					"condition": "(hover)"
+				},
+				"canHover": true
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 10,
+			"int": 8,
+			"wis": 16,
+			"cha": 16,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"skill": {
+				"perception": "+5"
+			},
+			"passive": 15,
+			"languages": [
+				"Sylvan",
+				"every language you speak (it understands but does not speak them)"
+			],
+			"conditionImmune": [
+				"charmed",
+				"exhaustion",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained"
+			],
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks",
+					"cond": true
+				}
+			],
+			"trait": [
+				{
+					"name": "Spirit Beast",
+					"entries": [
+						"Your Spirit Beast also counts as a Beast for the purpose of spell targeting, such as when using your {@spell beast bond|xge} and {@spell beast sense}, as well as for any class features you may have.",
+						"Additionally, it does not need to eat nor drink, but it does require sleep and breathable air."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Spirit Slam",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 3}) force damage. (Charisma is the ability score for this attack.)"
+					]
+				}
+			],
+			"languageTags": [
+				"S",
+				"OTH"
+			],
+			"damageTags": [
+				"F"
+			]
+		}
+	]
+}

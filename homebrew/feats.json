@@ -1,0 +1,217 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "stabbyfeats",
+				"abbreviation": "Stabby",
+				"full": "Stabby's Feats",
+				"version": "1",
+				"url": "none",
+				"authors": [
+					"Francisco \"Stabby\" Pesquita"
+				],
+				"convertedBy": [
+					"Francisco \"Stabby\" Pesquita"
+				]
+			}
+		],
+		"dateAdded": 1586966344, 
+		"dateLastModified": 1657399173,
+		"_dateLastModifiedHash": "aa8d6f9bda"
+	},
+	"feat": [
+		{
+			"name": "Blood Magic Ritualist",
+			"source": "stabbyfeats",
+			"page": 0,
+			"prerequisite": [
+				{
+					"spellcasting": true
+				}
+			],
+			"entries": [
+				"You have learned occult rituals which you can perform with your own fresh blood to recover magical power.",
+				"You may perform a 1-hour long ritual, as part of which you may spend your hit points to regain spell slots, with the costs specified below. Your hit point maximum is reduced by a quarter of the hit points lost this way until you finish a long rest. If any of the damage you would suffer this way is prevented, the ritual fails, and you recover no spell slots. Once you have used this feature, you can't use it again until you finish a long rest.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Slot Level",
+						"HP Cost",
+						"Additional effects"
+					],
+					"colStyles": [
+						"col-3",
+						"col-3",
+						"col-6"
+					],
+					"rows": [
+						[
+							"1",
+							"5",
+							""
+						],
+						[
+							"2",
+							"11",
+							""
+						],
+						[
+							"3",
+							"18",
+							""
+						],
+						[
+							"4",
+							"26",
+							""
+						],
+						[
+							"5",
+							"35",
+							""
+						],
+						[
+							"6",
+							"45",
+							"You gain one level of {@condition exhaustion}."
+						],
+						[
+							"7",
+							"60",
+							"You gain one level of {@condition exhaustion}."
+						],
+						[
+							"8",
+							"80",
+							"You gain two levels of {@condition exhaustion}."
+						],
+						[
+							"9",
+							"110",
+							"You gain two levels of {@condition exhaustion}."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Dual Shielder",
+			"source": "stabbyfeats",
+			"page": 0,
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Proficiency with shields",
+						"entrySummary": "Prof shield"
+					}
+				}
+			],
+			"entries": [
+				"In your hands, shields become weapons, and your mastery over the usage of shields also grants you insight into how to make it past the defenses of shielded opponents. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Shields are considered melee weapons with which you're proficient, dealing 1d6 + your Strength modifier bludgeoning damage. You still get the bonus to AC for wielding a shield.",
+						"When dual wielding shields, the second shield now grants you half of its bonus to AC, rounded up (including magic modifiers), in addition to any additional magical benefits it has.",
+						"You add +2 to attack rolls against creatures wielding a shield."
+					]
+				},
+				"Co-created with Tiago Cavaleiro."
+			]
+		},
+		{
+			"name": "Expert Gunner",
+			"source": "stabbyfeats",
+			"page": 0,
+			"prerequisite": [
+				{
+					"otherSummary": {
+						"entry": "Proficiency with firearms",
+						"entrySummary": "Prof firearms"
+					}
+				}
+			],
+			"entries": [
+				"Your experience and continued practice with firearms has made you reach an astonishing level of dexterity with them.",
+				{
+					"type": "list",
+					"items": [
+						"You can use firearms as though they had the loading property instead of slow loading.",
+						"Being within 5 feet of a hostile creature does not impose disadvantage on your ranged attack rolls.",
+						"When you use the Attack action and attack with a one-handed weapon, you can use a bonus action to attack with a one-handed firearm you are holding."
+					]
+				},
+				"Co-created with Guilherme Raposo, based on official content."
+			]
+		},
+		{
+			"name": "Healer",
+			"source": "stabbyfeats",
+			"page": 0,
+			"skillProficiencies": [
+				{
+					"medicine": true
+				}
+			],
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"entries": [
+				"You are an able physician, allowing you to mend wounds quickly and get your allies back in the fight. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Increase your Wisdom score by 1, to a maximum of 20.",
+						"You gain proficiency in Medicine. If you already have proficiency, you instead gain Expertise.",
+						"When you use a healer’s kit to stabilize a dying creature and beat the DC by 10 or more, that creature regains 1 hit point.",
+						"When you use a healer's kit to heal people as part of a rest, you can use up to 10 charges instead of only 4."
+					]
+				},
+				"Based on official content, also sort of replaces Medic feat from UA, to work with with healing homerules."
+			]
+		},
+		{
+			"name": "Heavy Wielder",
+			"source": "stabbyfeats",
+			"page": 0,
+			"prerequisite": [
+				{
+					"ability": [
+						{
+							"str": 19,
+							"dex": 13
+						}
+					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"medicine": true
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Your herculean strength and fighting experience allow you to effectively one-hand weapons that would normally be too heavy to do so. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Increase your Strength or Dexterity by 1, to a maximum of 20.",
+						"You ignore the Heavy property of weapons you are proficient with. Note that if you have the Dual Wielder feat, this means you can also dual wield them."
+					]
+				}
+			]
+		}
+	]
+}

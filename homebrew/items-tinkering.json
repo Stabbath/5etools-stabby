@@ -1,0 +1,843 @@
+{
+	"_meta": 
+	{
+		"sources": 
+		[
+			{
+				"json": "stabbytinkering",
+				"abbreviation": "Tinker",
+				"full": "Stabby's Tinkering",
+				"version": "1",
+				"url": "none",
+				"authors": [
+					"Francisco \"Stabby\" Pesquita"
+				],
+				"convertedBy": [
+					"Francisco \"Stabby\" Pesquita"
+				]
+			}
+		],
+		"dateAdded": 1586966344, 
+		"dateLastModified": 1657399173,
+		"_dateLastModifiedHash": "aa8d6f9bda"
+	},
+	"itemProperty": [
+		{
+			"abbreviation": "TNK",
+			"source": "stabbytinkering",
+			"page": 0,
+			"name": "Tinkering Device",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Tinkering Device",
+					"entries": [
+						"This item is a tinkering device and can likely be combined with other tinkering devices."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "SLD",
+			"source": "stabbytinkering",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Slow Loading",
+					"entries": [
+						"Because of the time required to load this weapon, you can only make one attack with it when you use an action, bonus action, or reaction to shoot it, regardless of the number of attacks you can normally make. You must then use an action to reload it before you can attack with it again."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "EX",
+			"source": "stabbytinkering",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Exotic",
+					"entries": [
+						"This weapon is exotic. It is not included in general weapon proficiencies, requiring specialized training to master."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "MOD",
+			"source": "stabbytinkering",
+			"page": 0,
+			"name": "Weapon Mod",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Mod",
+					"entries": [
+						"This item can be added by a tinker onto another non-magical item of some specified type in order to modify its function."
+					]
+				}
+			]
+		}
+	],
+	"baseitem": [
+		{
+			"name": "Hand Gun",
+			"source": "stabbytinkering",
+			"page": 0,
+			"type": "R",
+			"rarity": "rare",
+			"mundane": true,
+			"weight": 3,
+			"value": 51000,
+			"weaponCategory": "special",
+			"property": [
+				"AF",
+				"SLD",
+				"EX",
+				"TNK"
+			],
+			"range": "100/400",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "gun shot",
+			"entries": [
+				"A hand gun is an exotic non-magical weapon. It is rare to find one."
+			]
+		},
+		{
+			"name": "Long Gun",
+			"source": "stabbytinkering",
+			"page": 0,
+			"type": "R",
+			"rarity": "uncommon",
+			"mundane": true,
+			"weight": 15,
+			"value": 20000,
+			"weaponCategory": "special",
+			"property": [
+				"AF",
+				"SLD",
+				"EX",
+				"TNK",
+				"2H"
+			],
+			"range": "150/600",
+			"dmg1": "1d12",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "gun shot",
+			"entries": [
+				"A long gun is an exotic non-magical weapon. It is uncommon to find one."
+			]
+		},
+		{
+			"name": "Gun Shot",
+			"source": "stabbytinkering",
+			"page": 0,
+			"type": "AF",
+			"property": [
+				"EX",
+				"TNK"
+			],
+			"rarity": "uncommon",
+			"mundane": true,
+			"weight": 0.1,
+			"value": 50,
+			"entries": [
+				"Used by firearms, namely long guns and hand guns. They are an uncommon find."
+			]
+		},
+		{
+			"name": "Gun Shot (20)",
+			"source": "stabbytinkering",
+			"page": 0,
+			"type": "AF",
+			"property": [
+				"EX",
+				"TNK"
+			],
+			"rarity": "uncommon",
+			"mundane": true,
+			"weight": 2,
+			"value": 1000,
+			"packContents": [
+				{
+					"item": "gun shot",
+					"quantity": 20
+				}
+			],
+			"entries": [
+				"Used by firearms, namely long guns and hand guns. They are an uncommon find."
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "Delayed-Release Container",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 2250,
+			"rarity": "common",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"When crafted, you choose a time range of your choice: round, minute, hour, or day. You can later change this setting as an action.",
+				"When used, the timer starts ticking down, being perceptible within 15 feet by any creature with a passive Wisdom (Perception) of 12 or higher. You can spend an additional 10 gp worth of tinker’s parts to make it more silent, increasing the DC to 20.",
+				"After 1d6 periods of the chosen type, the container explodes, releasing the contained bomb or flask as if it had been activated or thrown forcefully at the device’s position."
+			]
+		},
+		{
+			"name": "Delayed-Release Container (Muffled)",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 3750,
+			"rarity": "common",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK"
+			],
+			"baseItem": "delayed-release container|stabbytinkering",
+			"entries": [
+				"When crafted, you choose a time range of your choice: round, minute, hour, or day. You can later change this setting as an action.",
+				"When used, the timer starts ticking down, being perceptible within 15 feet by any creature with a passive Wisdom (Perception) of 20 or higher.",
+				"After 1d6 periods of the chosen type, the container explodes, releasing the contained bomb or flask as if it had been thrown forcefully at the device’s position."
+			]
+		},
+		{
+			"name": "Shrapnel Bomb",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 4500,
+			"rarity": "common",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"You can activate this small metallic sphere as an action, and then throw it at a point up to 60 feet away. It then explodes, casting shrapnel in all directions. All creatures within 20 feet of the point not behind total cover must succeed on a Dexterity saving throw against a DC of 13 or take 2d8 piercing damage."
+			]
+		},
+		{
+			"name": "Advanced Shrapnel Bomb",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 12000,
+			"rarity": "uncommon",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"You can activate this small metallic sphere as an action, and then throw it at a point up to 60 feet away. It then explodes, casting shrapnel in all directions. All creatures within 30 feet of the point not behind total cover must succeed on a Dexterity saving throw against a DC of 15 or take 3d8 piercing damage."
+			]
+		},
+		{
+			"name": "Sonic Bomb",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 14000,
+			"rarity": "uncommon",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"You can activate this small metallic sphere as an action, and then throw it at a point up to 60 feet away. It then explodes, emitting a very powerful sound. All creatures within 20 feet of the point must succeed on a Constitution saving throw against a DC of 13 or take 2d8 thunder damage, and become deafened until the end of their next turn. They take half as much damage on a success."
+			]
+		},
+		{
+			"name": "Advanced Sonic Bomb",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 40000,
+			"rarity": "rare",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"You can activate this small metallic sphere as an action, and then throw it at a point up to 60 feet away. It then explodes, emitting a very powerful sound. All creatures within 30 feet of the point must succeed on a Dexterity saving throw against a DC of 15 or take 3d8 thunder damage and become deafened until the end of their next turn. They take half as much damage on a success."
+			]
+		},
+		{
+			"name": "Fire Bomb",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 25000,
+			"rarity": "uncommon",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"You can activate this small metallic sphere as an action, and then throw it at a point up to 60 feet away. It then explodes, unleashing a ball of fire. All creatures within 20 feet of the point not behind total cover must succeed on a Dexterity saving throw against a DC of 13 or take 4d6 fire damage. They take half as much on a success."
+			]
+		},
+		{
+			"name": "Acid Bomb",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 25000,
+			"rarity": "uncommon",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"You can activate this small metallic sphere as an action, and then throw it at a point up to 60 feet away. It then explodes, splashing acid all around it. All creatures within 20 feet of the point not behind total cover must succeed on a Dexterity saving throw against a DC of 13 or take 2d12 acid damage. They take half as much on a success."
+			]
+		},
+		{
+			"name": "Holy Water Bomb",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 25000,
+			"rarity": "uncommon",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"You can activate this small metallic sphere as an action, and then throw it at a point up to 60 feet away. It then explodes, splashing holy water all around it. All undead creatures and fiends within 20 feet of the point not behind total cover must succeed on a Dexterity saving throw against a DC of 13 or take 3d6 radiant damage. They take half as much on a success."
+			]
+		},
+		{
+			"name": "Compass",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 2250,
+			"rarity": "common",
+			"mundane": true,
+			"type": "G",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"This item allows you to always know which way is North."
+			]
+		},
+		{
+			"name": "Hunting Trap (Modded)",
+			"source": "stabbytinkering",
+			"page": 0,
+			"type": "G",
+			"property": [
+				"TNK"
+			],
+			"rarity": "common",
+			"mundane": true,
+			"weight": 25,
+			"value": 500,
+			"entries": [
+				"When you use your action to set it, this trap forms a saw-toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take {@damage 1d4} piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 piercing damage to the trapped creature."
+			]
+		},
+		{
+			"name": "Spyglass (Modded)",
+			"source": "stabbytinkering",
+			"page": 0,
+			"weight": 1,
+			"value": 13500,
+			"rarity": "common",
+			"mundane": true,
+			"type": "G",
+			"property": [
+				"MOD",
+				"TNK"
+			],
+			"entries": [
+				"Objects viewed through a spyglass are magnified to twice their size.",
+				"Additionally, it can also be added onto a long gun as a scope. While attached, it doubles the weapon's ranges."
+			]
+		},
+		{
+			"name": "Clockwork Toy",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 750,
+			"rarity": "common",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier.",
+				"When wound and placed on the ground as an action, the toy thereafter moves 5 feet in a random direction on each of its turns, for 1 minute. If it contains a noise box, it makes that noise each round.",
+				"Adapted from PHB, Rock Gnome."
+			]
+		},
+		{
+			"name": "Clockwork Toy (w/ Noise Box)",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 1500,
+			"rarity": "common",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK"
+			],
+			"baseItem": "clockwork toy|stabbytinkering",
+			"entries": [
+				"This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier.",
+				"When wound and placed on the ground as an action, the toy thereafter moves 5 feet in a random direction on each of its turns, for 1 minute. It makes a noise each round appropriate to the creature it represents.",
+				"Adapted from PHB, Rock Gnome."
+			]
+		},
+		{
+			"name": "Firestarter",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 1500,
+			"rarity": "common",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"This device produces a small flame when used as an action.",
+				"Adapted from PHB, Rock Gnome."
+			]
+		},
+		{
+			"name": "Music Box",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 3750,
+			"rarity": "common",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"After wound as an action, this musicbox plays a single song at a moderate volume, no longer than 1 minute, with a clear metallic timbre and uniform intensity, but which can have any harmony, melody and rhythm you want. The box stops playing when it reaches the song’s end.",
+				"Adapted from PHB, Rock Gnome."
+			]
+		},
+		{
+			"name": "Noise Box",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 750,
+			"rarity": "common",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"When activated, this device makes a noise for 6 seconds, which is chosen by you upon its creation. The noise must be simple and monotonic, but can vaguely resemble things such as a creature’s roar or bird’s chirp or other simple creature sounds (no language), a ringing bell, or a metallic clank.",
+				"Adapted from PHB, Rock Gnome."
+			]
+		},
+		{
+			"name": "Prosthetic Limb, Small",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 12000,
+			"rarity": "common",
+			"type": "PRO",
+			"wondrous": true,
+			"entries": [
+				"Light prosthetic limbs include, for example, fingers and toes. When attached to an appropriate body part in place of an appropriate missing part, it locks onto the body and becomes functionally usable."
+			]
+		},
+		{
+			"name": "Prosthetic Limb, Medium",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 24000,
+			"rarity": "common",
+			"type": "PRO",
+			"wondrous": true,
+			"entries": [
+				"Medium prosthetic limbs include, for example, hands and feet. When attached to an appropriate body part in place of an appropriate missing part, it locks onto the body and becomes functionally usable."
+			]
+		},
+		{
+			"name": "Prosthetic Limb, Large",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 36000,
+			"rarity": "common",
+			"type": "PRO",
+			"wondrous": true,
+			"entries": [
+				"Large prosthetic limbs include, for example, arms and legs. When attached to an appropriate body part in place of an appropriate missing part, it locks onto the body and becomes functionally usable."
+			]
+		},
+		{
+			"name": "Simple Lock",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 750,
+			"rarity": "common",
+			"mundane": true,
+			"type": "G",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"When you craft this object, make an Intelligence (Tinker’s Tools) ability check. The DC to lockpick or break it is equal to your result (minimum 15)."
+			]
+		},
+		{
+			"name": "Toggle Switch",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 750,
+			"rarity": "common",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"Added onto other devices, allowing an object interaction with the object to enable or disable one or more of its features (chosen upon addition)."
+			]
+		},
+		
+		
+		
+		
+		
+		
+		{
+			"name": "Gun Biped",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 4400,
+			"weight": 0.6,
+			"rarity": "uncommon",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK",
+				"MOD"
+			],
+			"entries": [
+				"Added onto a long gun. Doubles the range up to which it can make attacks without disadvantage."
+			]
+		},
+		{
+			"name": "Bayonet",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 1500,
+			"rarity": "uncommon",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK",
+				"MOD"
+			],
+			"entries": [
+				"Added onto a firearm or crossbow. Causes melee attacks with the weapon to deal 1d4 + Strength modifier piercing damage."
+			]
+		},
+		{
+			"name": "Adamantine Lock",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 8000,
+			"rarity": "uncommon",
+			"mundane": true,
+			"type": "G",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"When you craft this object, make an Intelligence (Tinker’s Tools) ability check. The DC to lockpick it is equal to your result (minimum 15). The DC to break it is equal to your result plus 5 (minimum 20).",
+				"If you also know the Complex Lock recipe, you can consume an additional 20 gp worth of tinkering parts. If you do, you make the check with advantage, and the minimum lockpicking DC becomes 20, while the minimum DC to break it becomes 25."
+			]
+		},
+		{
+			"name": "Complex Lock",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 4000,
+			"rarity": "uncommon",
+			"mundane": true,
+			"type": "G",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"When you craft this object, make an Intelligence (Tinker’s Tools) ability check with advantage. The DC to lockpick or break it is equal to your result (minimum 20)."
+			]
+		},
+		{
+			"name": "Complex Adamantine Lock",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 13000,
+			"rarity": "uncommon",
+			"mundane": true,
+			"type": "G",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"When you craft this object, make an Intelligence (Tinker’s Tools) ability check with advantage. The DC to lockpick it is equal to your result (minimum 20). The DC to break it is equal to your result plus 5 (minimum 25)."
+			]
+		},
+		{
+			"name": "Proximity Sensor",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 20000,
+			"rarity": "uncommon",
+			"type": "OTH",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"At the end of the crafting process, you may designate creatures that won’t set off the sensor. All other creatures, upon entering a space within 20 feet of it, trigger a connected tinker object, such as a Noise Box."
+			]
+		},
+		{
+			"name": "Small Clock",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 10000,
+			"rarity": "uncommon",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"A small time-telling device. It keeps precise count of time, down to the second, and is on a 24-hour cycle. You can combine it with a wristband, chain, or other similar item to make it wearable."
+			]
+		},
+		{
+			"name": "Timer",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 10000,
+			"rarity": "uncommon",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"A clock which can be set to trigger an effect when an input period has elapsed. The delay can be specified by you exactly (but with a maximum granularity of 1 second) upon crafting it. You can later, using your Tinker’s tools, spend 1 minute working on the timer in order to change that period. You can combine it with a music box or noise box to trigger a sound at the end of the delay period. If combined with a delayed-release container, you can instead, upon crafting it, specify the exact time it takes to trigger (anywhere between 1 round to 6 days), rather than it being a randomised delay."
+			]
+		},
+
+
+
+
+
+
+
+		{
+			"name": "Antimagic Bomb",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 39000,
+			"rarity": "rare",
+			"type": "OTH",
+			"property": [
+				"TNK"
+			],
+			"entries": [
+				"A small metallic sphere, which from its size fits comfortably in a gnome, halfling, or child's hand. Mostly plain and smooth, aside from 2 protruding riveted edges which divide it hemispherically at 90º angles, and a circular hole at the upmost tip of one of those hemispheres, inside which is a spherical button. If the button is pushed a few centimeres in as an action, the subtances inside the bomb will begin to mix, and an audible bubbly sound will begin. The bomb activates after a delay of 1d2-1 rounds, at the end of the user’s turn. It can be thrown as part of the same action to a distance of up to 60 feet.",
+				"On activation, a glittery, mostly-transparent dust cloud will cover a 30ft radius sphere around the activated bomb, lasting 3+1d4 rounds. Creatures inside this cloud have disadvantage on concentration checks and spell attack rolls, and must pass a concentration check in order to succeed at casting a spell. If a magical effect originating from a point inside the cloud would affect a creature outside it or vice-versa, that creature has advantage on its saving throws against it.",
+				"Simple localized spells like minor illusion are suspended and cannot be cast nor take effect within the radius.",
+				"Invented by Snollo Shiffles, recipe published in his rare tome Mechanical Wonders, along with many other recipes of his invention."
+			]
+		},
+		{
+			"name": "Variable-Zoom Spyglass",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 102000,
+			"rarity": "rare",
+			"mundane": true,
+			"baseItem": "spyglass|phb",
+			"type": "G",
+			"property": [
+				"TNK",
+				"MOD"
+			],
+			"entries": [
+				"This special spyglass allows one to adjust its lenses through simple mechanical inputs in order to change its zoom level, one level up or down at a time as an object interaction. It allows you zoom levels of x1, x2, x4, x8 and x16.",
+				"The weapon’s ranges are increased by the scope’s current zoom level multiplier, but attacks below half of its effective range are made with disadvantage if it is set to x2 or higher."
+			]
+		},		
+		{
+			"name": "Shot Feeder",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 90000,
+			"rarity": "rare",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK",
+				"MOD"
+			],
+			"entries": [
+				"Added onto a firearm. Replaces the firearm’s slow loading property with a normal loading property. If you roll a natural 1 on an attack with the weapon, it jams, becoming unusable until you spend an action to unjam it."
+			]
+		},
+		{
+			"name": "Bolt Feeder",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 120000,
+			"rarity": "rare",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK",
+				"MOD"
+			],
+			"entries": [
+				"Added onto a crossbow. Removes the crossbow’s loading property. If you roll a natural 1 on an attack with the weapon, it jams, becoming unusable until you spend an action to unjam it."
+			]
+		},
+
+
+
+
+
+
+
+		{
+			"name": "Advanced Shot Feeder",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 400000,
+			"rarity": "very rare",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK",
+				"MOD"
+			],
+			"entries": [
+				"Added onto a firearm. Removes its slow loading property. If you roll a natural 1 on an attack with the weapon, it jams, becoming unusable until you spend an action to unjam it."
+			]
+		},
+		{
+			"name": "Repeating Trigger",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 300000,
+			"rarity": "very rare",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK",
+				"MOD"
+			],
+			"entries": [
+				"Added onto a firearm or crossbow which already has a shot or bolt feeder, or one which otherwise lacks both the slow loading and loading properties. Adds an additional damage die to the attack’s damage, but increases the weapon’s jam range by 1 (e.g. instead of on a roll of 1, it happens on a roll of 1-2). Also causes each attack to use twice as much ammunition. All ammunition used in such an attack must be of the same type, e.g. with the same enchantment if magical. If possessing only 1 unit of the ammunition chosen for an attack, then no damage dice are added."
+			]
+		},
+		{
+			"name": "Repeating Trigger, Double",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 425000,
+			"rarity": "very rare",
+			"mundane": true,
+			"type": "OTH",
+			"property": [
+				"TNK",
+				"MOD"
+			],
+			"entries": [
+				"Added onto a firearm or crossbow which already has a shot or bolt feeder, or one which otherwise lacks both the slow loading and loading properties. Adds two additional damage dice to the attack’s damage, but increases the weapon’s jam range by 3 (e.g. instead of on a roll of 1, it happens on a roll of 1-4). Also causes each attack to use three times as much ammunition. All ammunition used in such an attack must be of the same type, e.g. with the same enchantment if magical. If possessing only 1 or 2 units of the ammunition chosen for an attack, then instead 0 or 1 damage dice are added, respectively."
+			]
+		},
+		{
+			"name": "Shock Barrel",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 1075000,
+			"rarity": "very rare",
+			"type": "OTH",
+			"property": [
+				"TNK",
+				"MOD"
+			],
+			"entries": [
+				"Replaces the standard barrel in a long gun or handgun. A weapon with this device deals lightning damage instead of piercing."
+			]
+		},
+		{
+			"name": "Silencer",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 300000,
+			"rarity": "very rare",
+			"type": "OTH",
+			"property": [
+				"TNK",
+				"MOD"
+			],
+			"entries": [
+				"Added onto a firearm or crossbow. Makes the weapon completely soundless."
+			]
+		},
+		{
+			"name": "Rod of Magical Amplification",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 560000,
+			"rarity": "very rare",
+			"type": "OTH",
+			"wondrous": true,
+			"property": [
+				"TNK",
+				"MOD"
+			],
+			"entries": [
+				"A metallic rod, resembling a short but thick quarterstaff. Mostly plain and smooth, except for engraved runes and symbols which appear evenly spaced throughout its entire length. At the top of it is a small crystal orb, which can used as an arcane focus. Its other end ends in a truncated cone, to make it easier to plant firmly on dirt ground and the like.",
+				"As an action, you can rub the orb while holding the rod until it starts emitting a steady turquoise glow, to activate it. You can take an action in the same way to stop the glowing and deactivate it.",
+				"While activated, it generates an invisible (but sensible, as your hairs stand on end) magic-amplification field in a 10 ft radius sphere around the orb. Creatures within the sphere have disadvantage on Int, Wis and Cha saving throws against magic, but advantage on spell attack rolls. Creatures targeted by spells originating from a point or cast by a caster within the sphere also have the mentioned disadvantage. The staff can be planted on the ground, and will remain vertical, sustained by magical forces. At the start of each of the activator's turns, if any spell was cast that was affected by the rod, roll a d20. On a 3 or lower, a magical surge overpowers the rod, and the orb bursts into shards, permanently deactivating it. Any creature within 5 feet of the orb must make a DC 15 Dexterity saving throw, or suffer 2d6 piercing + 2d6 force damage.",
+				"If the rod is \"permanently\" deactivated, it can be fixed by a creature who has proficiency with tinker’s tools using an action to attach a new orb to it.",
+				"Invented by Snollo Shiffles, recipe published in his rare tome Mechanical Wonders, along with many other recipes of his invention."
+			]
+		},
+		{
+			"name": "Fragmenting Shot",
+			"source": "stabbytinkering",
+			"page": 0,
+			"value": 6500,
+			"rarity": "very rare",
+			"baseItem": "gun shot|stabbytinkering",
+			"type": "AF",
+			"property": [
+				"EX",
+				"TNK"
+			],
+			"entries": [
+				"When using an attack with a firearm to fire this shot, instead of a normal attack choose a 20-foot cone originating from you. All creatures in that area must succeed on a Dexterity saving throw against a DC of 15, taking the weapon's normal attack damage on a failure, or half as much on a success."
+			]
+		}
+	]
+}

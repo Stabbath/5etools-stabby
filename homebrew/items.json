@@ -1,0 +1,4666 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "stabbyitems",
+				"abbreviation": "Stabby",
+				"full": "Stabby's Items",
+				"version": "1",
+				"url": "none",
+				"authors": [
+					"Francisco \"Stabby\" Pesquita"
+				],
+				"convertedBy": [
+					"Francisco \"Stabby\" Pesquita"
+				]
+			}
+		],
+		"dateAdded": 1586966344, 
+		"dateLastModified": 1657399173,
+		"_dateLastModifiedHash": "aa8d6f9bda"
+	},
+	"itemType": [
+		{
+			"abbreviation": "BLT",
+			"source": "stabbyitems",
+			"page": 0,
+			"name": "belt",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Belt",
+					"entries": [
+						"This item is worn around the waist, typically to aid in keeping lower body garments in place."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "HW",
+			"source": "stabbyitems",
+			"page": 0,
+			"name": "headwear",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Headwear",
+					"entries": [
+						"This item is worn on the head."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "HNDW",
+			"source": "stabbyitems",
+			"page": 0,
+			"name": "handwear",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Handwear",
+					"entries": [
+						"This item is worn on the hands."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "FW",
+			"source": "stabbyitems",
+			"page": 0,
+			"name": "footwear",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Footwear",
+					"entries": [
+						"This item is worn on the feet."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "NW",
+			"source": "stabbyitems",
+			"page": 0,
+			"name": "neckwear",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Neckwear",
+					"entries": [
+						"This item is worn around the neck."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "CLO",
+			"source": "stabbyitems",
+			"page": 0,
+			"name": "cloak",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Cloak",
+					"entries": [
+						"This item is tied around the neck and draped over the shoulders."
+					]
+				}
+			]
+		},		
+		{
+			"abbreviation": "PRO",
+			"source": "stabbyitems",
+			"page": 0,
+			"name": "prosthetic",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Prosthetic",
+					"entries": [
+						"This item replaces a body part."
+					]
+				}
+			]
+		}
+	],
+	"itemProperty": [
+		{
+			"abbreviation": "VOR",
+			"source": "stabbyitems",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Voracious",
+					"entries": [
+						"This weapon deals increased damage against creatures its wielder considers edible."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.dmg2}})"
+		}
+	],
+	"itemEntry": [
+		{
+			"name": "Shield of Resistance",
+			"source": "stabbyitems",
+			"entriesTemplate": [
+				"You have resistance to {{item.resist}} damage while wielding this shield."
+			]
+		},
+		{
+			"name": "Cloak of Resistance",
+			"source": "stabbyitems",
+			"entriesTemplate": [
+				"You have resistance to {{item.resist}} damage while wearing this cloak."
+			]
+		},
+		{
+			"name": "Armor of Immunity",
+			"source": "stabbyitems",
+			"entriesTemplate": [
+				"You are immune to {{item.resist}} damage while you wear this armor."
+			]
+		},
+		{
+			"name": "Figurine of Wondrous Power",
+			"source": "stabbyitems",
+			"entriesTemplate": [
+				"A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature.",
+				"The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions.",
+				"The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description."
+			]
+		}
+	],
+	"itemGroup": [
+		{
+			"name": "Shield of Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "S",
+			"wondrous": true,
+			"rarity": "rare",
+			"reqAttune": true,
+			"value": 376000,
+			"entries": [
+				"You have resistance to one damage type while wielding this shield.  The DM chooses the type or determines it randomly from the options below.",
+				{
+					"type": "table",
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"colLabels": [
+						"d10",
+						"Damage Type"
+					],
+					"rows": [
+						[
+							"1",
+							"{@item Shield of acid resistance|stabbyitems|Acid}"
+						],
+						[
+							"2",
+							"{@item Shield of cold resistance|stabbyitems|Cold}"
+						],
+						[
+							"3",
+							"{@item Shield of fire resistance|stabbyitems|Fire}"
+						],
+						[
+							"4",
+							"{@item Shield of force resistance|stabbyitems|Force}"
+						],
+						[
+							"5",
+							"{@item Shield of lightning resistance|stabbyitems|Lightning}"
+						],
+						[
+							"6",
+							"{@item Shield of necrotic resistance|stabbyitems|Necrotic}"
+						],
+						[
+							"7",
+							"{@item Shield of poison resistance|stabbyitems|Poison}"
+						],
+						[
+							"8",
+							"{@item Shield of psychic resistance|stabbyitems|Psychic}"
+						],
+						[
+							"9",
+							"{@item Shield of radiant resistance|stabbyitems|Radiant}"
+						],
+						[
+							"10",
+							"{@item Shield of thunder resistance|stabbyitems|Thunder}"
+						]
+					]
+				}
+			],
+			"items": [
+				"Shield of Acid Resistance|stabbyitems",
+				"Shield of Cold Resistance|stabbyitems",
+				"Shield of Fire Resistance|stabbyitems",
+				"Shield of Force Resistance|stabbyitems",
+				"Shield of Lightning Resistance|stabbyitems",
+				"Shield of Necrotic Resistance|stabbyitems",
+				"Shield of Poison Resistance|stabbyitems",
+				"Shield of Psychic Resistance|stabbyitems",
+				"Shield of Radiant Resistance|stabbyitems",
+				"Shield of Thunder Resistance|stabbyitems"
+			]
+		},
+		{
+			"name": "Cloak of Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "CLO",
+			"wondrous": true,
+			"rarity": "rare",
+			"reqAttune": true,
+			"entries": [
+				"You have resistance to one damage type while wearing this cloak.  The DM chooses the type or determines it randomly from the options below.",
+				{
+					"type": "table",
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"colLabels": [
+						"d10",
+						"Damage Type"
+					],
+					"rows": [
+						[
+							"1",
+							"{@item cloak of acid resistance|stabbyitems|Acid}"
+						],
+						[
+							"2",
+							"{@item cloak of cold resistance|stabbyitems|Cold}"
+						],
+						[
+							"3",
+							"{@item cloak of fire resistance|stabbyitems|Fire}"
+						],
+						[
+							"4",
+							"{@item cloak of force resistance|stabbyitems|Force}"
+						],
+						[
+							"5",
+							"{@item cloak of lightning resistance|stabbyitems|Lightning}"
+						],
+						[
+							"6",
+							"{@item cloak of necrotic resistance|stabbyitems|Necrotic}"
+						],
+						[
+							"7",
+							"{@item cloak of poison resistance|stabbyitems|Poison}"
+						],
+						[
+							"8",
+							"{@item cloak of psychic resistance|stabbyitems|Psychic}"
+						],
+						[
+							"9",
+							"{@item cloak of radiant resistance|stabbyitems|Radiant}"
+						],
+						[
+							"10",
+							"{@item cloak of thunder resistance|stabbyitems|Thunder}"
+						]
+					]
+				}
+			],
+			"items": [
+				"Cloak of Acid Resistance|stabbyitems",
+				"Cloak of Cold Resistance|stabbyitems",
+				"Cloak of Fire Resistance|stabbyitems",
+				"Cloak of Force Resistance|stabbyitems",
+				"Cloak of Lightning Resistance|stabbyitems",
+				"Cloak of Necrotic Resistance|stabbyitems",
+				"Cloak of Poison Resistance|stabbyitems",
+				"Cloak of Psychic Resistance|stabbyitems",
+				"Cloak of Radiant Resistance|stabbyitems",
+				"Cloak of Thunder Resistance|stabbyitems"
+			]
+		},
+		{
+			"name": "Armor of Immunity",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "GV",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"value": 8200000,
+			"entries": [
+				"You are immune to one type of damage while you wear this armor. The DM chooses the type or determines it randomly from the options below.",
+				{
+					"type": "table",
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"colLabels": [
+						"d10",
+						"Damage Type"
+					],
+					"rows": [
+						[
+							"1",
+							"{@item armor of acid immunity|stabbyitems|Acid}"
+						],
+						[
+							"2",
+							"{@item armor of cold immunity|stabbyitems|Cold}"
+						],
+						[
+							"3",
+							"{@item armor of fire immunity|stabbyitems|Fire}"
+						],
+						[
+							"4",
+							"{@item armor of force immunity|stabbyitems|Force}"
+						],
+						[
+							"5",
+							"{@item armor of lightning immunity|stabbyitems|Lightning}"
+						],
+						[
+							"6",
+							"{@item armor of necrotic immunity|stabbyitems|Necrotic}"
+						],
+						[
+							"7",
+							"{@item armor of poison immunity|stabbyitems|Poison}"
+						],
+						[
+							"8",
+							"{@item armor of psychic immunity|stabbyitems|Psychic}"
+						],
+						[
+							"9",
+							"{@item armor of radiant immunity|stabbyitems|Radiant}"
+						],
+						[
+							"10",
+							"{@item armor of thunder immunity|stabbyitems|Thunder}"
+						]
+					]
+				}
+			],
+			"items": [
+				"Armor of Acid Immunity|stabbyitems",
+				"Armor of Cold Immunity|stabbyitems",
+				"Armor of Fire Immunity|stabbyitems",
+				"Armor of Force Immunity|stabbyitems",
+				"Armor of Lightning Immunity|stabbyitems",
+				"Armor of Necrotic Immunity|stabbyitems",
+				"Armor of Poison Immunity|stabbyitems",
+				"Armor of Psychic Immunity|stabbyitems",
+				"Armor of Radiant Immunity|stabbyitems",
+				"Armor of Thunder Immunity|stabbyitems"
+			]
+		},
+		{
+			"name": "Figurine of Wondrous Power, Dragon",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "GV",
+			"rarity": "legendary",
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry figurine of wondrous power|stabbyitems}",
+				"These statuettes, though exceedingly rare, are known to come in several different materials. When one is used, it becomes a young dragon of a given type, as listed below, for up to 8 hours. Once it has been used, it can't be used again until 30 days have passed.",
+				{
+					"type": "table",
+					"colStyles": [
+						"col-2 text-center",
+						"col-3",
+						"col-7"
+					],
+					"colLabels": [
+						"d10",
+						"Material",
+						"Dragon"
+					],
+					"rows": [
+						[
+							"1",
+							"{@item figurine of wondrous power, black onyx dragon|stabbyitems|Black Onyx}",
+							"{@creature Young Black Dragon}"
+						],
+						[
+							"2",
+							"{@item figurine of wondrous power, blue topaz dragon|stabbyitems|Blue Topaz}",
+							"{@creature Young Blue Dragon}"
+						],
+						[
+							"3",
+							"{@item figurine of wondrous power, emerald dragon|stabbyitems|Emerald}",
+							"{@creature Young Green Dragon}"
+						],
+						[
+							"4",
+							"{@item figurine of wondrous power, ruby dragon|stabbyitems|Ruby}",
+							"{@creature Young Red Dragon}"
+						],
+						[
+							"5",
+							"{@item figurine of wondrous power, pale sapphire dragon|stabbyitems|Pale Sapphire}",
+							"{@creature Young White Dragon}"
+						],
+						[
+							"6",
+							"{@item figurine of wondrous power, brass dragon|stabbyitems|Brass}",
+							"{@creature Young Brass Dragon}"
+						],
+						[
+							"7",
+							"{@item figurine of wondrous power, bronze dragon|stabbyitems|Bronze}",
+							"{@creature Young Bronze Dragon}"
+						],
+						[
+							"8",
+							"{@item figurine of wondrous power, copper dragon|stabbyitems|Copper}",
+							"{@creature Young Copper Dragon}"
+						],
+						[
+							"9",
+							"{@item figurine of wondrous power, gold dragon|stabbyitems|Gold}",
+							"{@creature Young Gold Dragon}"
+						],
+						[
+							"10",
+							"{@item figurine of wondrous power, silver dragon|stabbyitems|Silver}",
+							"{@creature Young Silver Dragon}"
+						]
+					]
+				}
+			],
+			"items": [
+				"Figurine of Wondrous Power, Black Onyx Dragon|stabbyitems",
+				"Figurine of Wondrous Power, Blue Topaz Dragon|stabbyitems",
+				"Figurine of Wondrous Power, Emerald Dragon|stabbyitems",
+				"Figurine of Wondrous Power, Ruby Dragon|stabbyitems",
+				"Figurine of Wondrous Power, Pale Sapphire Dragon|stabbyitems",
+				"Figurine of Wondrous Power, Brass Dragon|stabbyitems",
+				"Figurine of Wondrous Power, Bronze Dragon|stabbyitems",
+				"Figurine of Wondrous Power, Copper Dragon|stabbyitems",
+				"Figurine of Wondrous Power, Gold Dragon|stabbyitems",
+				"Figurine of Wondrous Power, Silver Dragon|stabbyitems"
+			]
+		}
+	],
+	"baseitem": [
+		{
+			"name": "Katar",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 3000,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"weapon": true,
+			"entries": [
+				"Attacks with this weapon can count as unarmed attacks, at the attacker's discretion."
+			]
+		},
+		{
+			"name": "Pata",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 3500,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"weapon": true,
+			"entries": [
+				"Attacks with this weapon can count as unarmed attacks, at the attacker's discretion."
+			]
+		},
+		{
+			"name": "Knuckleduster",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "M",
+			"rarity": "none",
+			"weight": 0.7,
+			"value": 200,
+			"weaponCategory": "simple",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"weapon": true,
+			"entries": [
+				"Attacks with this weapon count as unarmed attacks."
+			]
+		},
+		{
+			"name": "Push Dagger",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 450,
+			"weaponCategory": "simple",
+			"property": [
+				"L",
+				"F"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"weapon": true,
+			"entries": [
+				"Attacks with this weapon count as unarmed attacks."
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "Ring of Exposure",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "RG",
+			"rarity": "rare",
+			"reqAttune": true,
+			"curse": true,
+			"bonusAc": "-1",
+			"bonusSavingThrow": "-1",
+			"value": 300000,
+			"entries": [
+				"This ring appears to be in all ways like a {@item ring of protection}.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This ring is cursed, with a Curse DC of 15, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unable to unattune or remove the ring from your finger unless you sever it."
+					]
+				},
+				"You gain a -1 bonus to AC and saving throws while wearing this ring."
+			]
+		},
+		{
+			"name": "+2 Ring of Exposure",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "RG",
+			"rarity": "rare",
+			"reqAttune": true,
+			"curse": true,
+			"bonusAc": "-2",
+			"bonusSavingThrow": "-2",
+			"value": 1890000,
+			"entries": [
+				"This ring appears to be in all ways like a {@item +2 ring of protection|stabbyitems}.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This ring is cursed, with a Curse DC of 17, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unable to unattune or remove the ring from your finger unless you sever it."
+					]
+				},
+				"You gain a -2 malus to AC and saving throws while wearing this ring."
+			]
+		},
+		{
+			"name": "Choker of Choking",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "NW",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"curse": true,
+			"wondrous": true,
+			"value": 200000,
+			"entries": [
+				"This choker appears to be in all ways like a {@item choker of charisma|stabbyitems}.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This choker is cursed, with a Curse DC of 15, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unable to unattune or remove the choker."
+					]
+				},
+				"You can only wheeze out words while you wear this choker, and take 1 piercing damage any time you speak. You cannot cast spells with a verbal component while you wear this choker."
+			]
+		},
+		{
+			"name": "Gemstone of Arcane Shortage",
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"curse": true,
+			"type": "NW",
+			"rarity": "uncommon",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"value": 130000,
+			"entries": [
+				"This gemstone appears to be in all ways like a {@item gemstone of arcane supply|stabbyitems}.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This gemstone is cursed, with a Curse DC of 12, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unable to unattune or remove the pendant."
+					]
+				},
+				"While you wear this item, you have one fewer 1st level spell slot, or one fewer of your highest level spell slots if you do not have any 1st level spell slots."
+			]
+		},		
+		{
+			"name": "+1 Gemstone of Arcane Shortage",
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"curse": true,
+			"type": "NW",
+			"rarity": "uncommon",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"value": 240000,
+			"entries": [
+				"This gemstone appears to be in all ways like a {@item +1 gemstone of arcane supply|stabbyitems}.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This gemstone is cursed, with a Curse DC of 13, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unable to unattune or remove the pendant."
+					]
+				},
+				"While you wear this item, you have one fewer 2nd level spell slot, or one fewer of your highest level spell slots if you do not have any 2nd level spell slots."
+			]
+		},		
+		{
+			"name": "+2 Gemstone of Arcane Shortage",
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"curse": true,
+			"type": "NW",
+			"rarity": "rare",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"value": 700000,
+			"entries": [
+				"This gemstone appears to be in all ways like a {@item +2 gemstone of arcane supply|stabbyitems}.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This gemstone is cursed, with a Curse DC of 15, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unable to unattune or remove the pendant."
+					]
+				},
+				"While you wear this item, you have one fewer 3rd level spell slot, or one fewer of your highest level spell slots if you do not have any 3rd level spell slots."
+			]
+		},		
+		{
+			"name": "+3 Gemstone of Arcane Shortage",
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"curse": true,
+			"type": "NW",
+			"rarity": "very rare",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"value": 1600000,
+			"entries": [
+				"This gemstone appears to be in all ways like a {@item +3 gemstone of arcane supply|stabbyitems}.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This gemstone is cursed, with a Curse DC of 17, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unable to unattune or remove the pendant."
+					]
+				},
+				"While you wear this item, you have one fewer 4th level spell slot, or one fewer of your highest level spell slots if you do not have any 4th level spell slots."
+			]
+		},		
+		{
+			"name": "+4 Gemstone of Arcane Shortage",
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"curse": true,
+			"type": "NW",
+			"rarity": "legendary",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"value": 4000000,
+			"entries": [
+				"This gemstone appears to be in all ways like a {@item +4 gemstone of arcane supply|stabbyitems}.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This gemstone is cursed, with a Curse DC of 19, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unable to unattune or remove the pendant."
+					]
+				},
+				"While you wear this item, you have one fewer 5th level spell slot, or one fewer of your highest level spell slots if you do not have any 5th level spell slots."
+			]
+		},		
+		{
+			"name": "Ring of Blunders",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "RG",
+			"rarity": "rare",
+			"reqAttune": true,
+			"recharge": "dawn",
+			"charges": 3,
+			"value": 480000,
+			"entries": [
+				"This ring appears to be in all ways like a {@item ring of evasion}.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This item is cursed, with a Curse DC of 17, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unable to unattune or remove the ring from your finger, unless you sever it."
+					]
+				},
+				"This ring has 3 charges, and it regains {@dice 1d3} expended charges daily at dawn. When you make a Dexterity saving throw while wearing it, if the ring has any charges, you automatically fail it and the ring loses 1 charge."
+			]
+		},
+		{
+			"name": "Amulet of Frailty",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "rare",
+			"type": "NW",
+			"reqAttune": true,
+			"wondrous": true,
+			"ability": {
+				"static": {
+					"con": 9
+				}
+			},
+			"value": 400000,
+			"entries": [
+				"This amulet appears to be in all ways like an {@item amulet of health}.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This amulet is cursed, with a Curse DC of 16, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unable to unattune or remove the amulet."
+					]
+				},
+				"Your Constitution score is 9 while you wear this amulet. It has no effect on you if your Constitution is already 9 or lower. Additionally, you gain vulnerability to all damage."
+			]
+		},
+		{
+			"name": "Headband of Headaches",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "NW",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"curse": true,
+			"wondrous": true,
+			"ability": {
+				"static": {
+					"int": 9
+				}
+			},
+			"value": 200000,
+			"entries": [
+				"This headband appears to be in all ways like a {@item headband of intellect}.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"This headband is cursed, with a Curse DC of 15, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unable to unattune or remove the headband."
+					]
+				},
+				"This headband causes you 1d4 psychic damage each time you make an Intelligence-based ability check, attack roll, or saving throw. If this damage reduces you to 0 hit points, you are automatically stable."
+			]
+		},		
+		
+		
+		
+		
+		
+		
+		
+		
+		{
+			"name": "+2 Ring of Protection",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "RG",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"bonusAc": "+2",
+			"bonusSavingThrow": "+2",
+			"value": 1890000,
+			"entries": [
+				"You gain a +2 bonus to AC and saving throws while wearing this ring."
+			]
+		},
+		{
+			"name": "Gemstone of Arcane Supply",
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"type": "NW",
+			"rarity": "uncommon",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"value": 130000,
+			"entries": [
+				"While you wear this item, you have an additional 1st level spell slot."
+			]
+		},
+		{
+			"name": "+1 Gemstone of Arcane Supply",
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"type": "NW",
+			"rarity": "uncommon",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"value": 240000,
+			"entries": [
+				"While you wear this item, you have an additional 2nd level spell slot."
+			]
+		},
+		{
+			"name": "+2 Gemstone of Arcane Supply",
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"type": "NW",
+			"rarity": "rare",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"value": 700000,
+			"entries": [
+				"While you wear this item, you have an additional 3rd level spell slot."
+			]
+		},
+		{
+			"name": "+3 Gemstone of Arcane Supply",
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"type": "NW",
+			"rarity": "very rare",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"value": 1600000,
+			"entries": [
+				"While you wear this item, you have an additional 4th level spell slot."
+			]
+		},
+		{
+			"name": "+4 Gemstone of Arcane Supply",
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"type": "NW",
+			"rarity": "legendary",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"value": 4000000,
+			"entries": [
+				"While you wear this item, you have an additional 5th level spell slot."
+			]
+		},
+		{
+			"name": "Stormcast Armor",
+			"source": "stabbyitems",
+			"page": 0,
+			"baseItem": "plate armor",
+			"type": "HA",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"weight": 65,
+			"value": 11980000,
+			"ac": 18,
+			"strength": "15",
+			"armor": true,
+			"stealth": true,
+			"entries": [
+				"This lightning-infused heavy suit of plate armor may occasionally arc lightning between its plates or emit sparks during movement.",
+				"This armor grants a +2 bonus to AC and saving throws while worn.",
+				"This armor also grants resistance to thunder damage. Whenever its wearer would take lightning damage, it instead gains temporary hit points equal to the damage it would have taken.",
+				"Whenever its wearer deals lightning damage, it deals 1 additional lightning damage per damage die rolled."
+			]
+		},
+
+
+
+
+
+		{
+			"name": "Walking Stick",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "none",
+			"type": "G",
+			"entries": [
+				"A walking stick, whether a common one, an ornately carved one, or just a trimmed tree branch.",
+				"Grants a +3 bonus on Constitution checks and saves forced as a result of walking long distances, or while movement-impaired."
+			]
+		},
+		{
+			"name": "Snowshoes",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "none",
+			"type": "G",
+			"entries": [
+				"While these are strapped to your normal shoes, you ignore difficult terrain penalties that are a consequence of moving on snow."
+			]
+		},
+		{
+			"name": "Ice Skates",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "none",
+			"type": "G",
+			"entries": [
+				"A creature proficient with this footwear halves its movement speed off ice and doubles its movement speed on ice while wearing it.",
+				"A creature lacking proficiency does not benefit from the movement speed increase and must succeed on a DC 10 Dexterity (Acrobatics) check whenever it moves or is forcefully moved, falling prone in place on a failure."
+			]
+		},
+		{
+			"name": "Farmer's Tools",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "T",
+			"rarity": "none",
+			"weight": 10,
+			"value": 600,
+			"entries": [
+				"A set of common farmwork tools essential to one working fields."
+			],
+			"additionalEntries": [
+				"Having proficiency with farmer's tools implies a background in agriculture, and some associated knowledge.",
+				{
+					"type": "entries",
+					"name": "Components",
+					"entries": [
+						"A set of farmer's tools typically contains includes a pitchfork, a hoe, a sickle, shears, and a wooden bucket."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Animal Handling",
+					"entries": [
+						"A farmer is likely to have worked with many different animals, and as such to understand them better and know how to better handle them."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Nature",
+					"entries": [
+						"A farmer is likely to be able to identify common flora and fauna, and to know some of their properties."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Survival",
+					"entries": [
+						"Living and working in nature endows one with knowledge of weather patterns and other natural knowledge important for survivalism."
+					]
+				}
+			]
+		},
+		{
+			"name": "Implements of Torture",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "T",
+			"rarity": "none",
+			"entries": [
+				"A set of tools and devices meant to extract the truth from someone, at any cost. There are many different kinds, the limit to them being only human creativity and cruelty."
+			],
+			"additionalEntries": [
+				{
+					"type": "entries",
+					"name": "Components",
+					"entries": [
+						"Many different things may serve as an implement of torture, from mundane objects to even large untransportable specialized devices. Use your imagination (or wikipedia)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Insight",
+					"entries": [
+						"A torturer may have some experience in knowing when one is telling the truth."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Intimidation",
+					"entries": [
+						"A torturer is a capable intimidator, knowing how to break people apart with more than physical action."
+					]
+				}
+			]
+		},
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+		{
+			"name": "Helm of the Messenger",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "common",
+			"type": "HW",
+			"wondrous": true,
+			"value": 15000,
+			"entries": [
+				"A plate helm adorned with small bird-like wings on its sides and a visor covering the face that can be raised or lowered to cover or uncover the wearer’s face.",
+				"The helm has 3 charges. While the visor is lowered, the user can use an action to cast the Message spell.",
+				"Created by Tiago Neves."
+			],
+			"attachedSpells": [
+				"message"
+			],
+			"charges": 3
+		},
+		
+		
+		
+		
+		
+		
+		
+		{
+			"name": "Antimagic Manacles",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "uncommon",
+			"type": "G",
+			"baseItem": "manacles|phb",
+			"wondrous": true,
+			"value": 165000,
+			"entries": [
+				"A creature cuffed with these manacles is incapable of casting spells until they are removed or destroyed. They have 20 hit points, AC 19, and they are immune to magical damage and resistant to all other damage. Escaping them, breaking them, or picking the lock all have a DC of 25. They also come with a key, which can be used to unlock them as an action."
+			]
+		},
+		{
+			"name": "Boots of Escape",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "uncommon",
+			"type": "FW",
+			"wondrous": true,
+			"value": 200000,
+			"entries": [
+				"While attuned to this item and wearing it on your feet, you can take the Dash or Disengage actions as a bonus action."
+			],
+			"reqAttune": true
+		},
+		{
+			"name": "Charged Whetstone",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"value": 30000,
+			"entries": [
+				"This whetstone visibly emanates an elemental energy when touched by a creature attuned to it: for example, a lightning-charged whestone may emit visible (but harmless) sparks or lightning arcs along its surface when held. A charged whetstone is infused with an element granting damage of one of the following types: acid, cold, fire, lightning, thunder.",
+				"You can use a bonus action to run the whetstone along a weapon (even a wooden or ranged one). Doing so causes attacks made with that weapon do deal 1d4 additional damage of the item's damage type on every hit for 1 minute.",
+				"Once you have used this item, you can't use it again until the next dawn, and its visual effects disappear until then, having been passed onto the weapon."
+			],
+			"reqAttune": true,
+			"recharge": "dawn"
+		},
+		{
+			"name": "Choker of Charisma",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "uncommon",
+			"type": "NW",
+			"wondrous": true,
+			"value": 200000,
+			"entries": [
+				"This lavish bejeweled choker fills you with confidence and determination when attuned to and worn. Your Charisma score is 19 while you wear this choker. It has no effect on you if your Charisma is already 19 or higher."
+			],
+			"reqAttune": true,
+			"ability": {
+				"static": {
+					"cha": 19
+				}
+			}
+		},
+		{
+			"name": "Compass of the Navigator",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "uncommon",
+			"type": "T",
+			"baseItem": "navigator's tools|phb",
+			"wondrous": true,
+			"value": 160000,
+			"entries": [
+				"This item can be used as part of a set of navigator's tools.",
+				"As an action, a creature proficient with navigator's tools can use this item's magical leanings to know the exact distance to the nearest shore in a direction of its choice."
+			]
+		},
+		{
+			"name": "Ersatz Eye of Awareness",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "uncommon",
+			"type": "PRO",
+			"wondrous": true,
+			"value": 83500,
+			"entries": [
+				"This artificial eye replaces a real one that was lost or removed. While the ersatz eye is embedded in your eye socket, it can't be removed by anyone other than you, and you can see through the tiny orb as though it were a normal eye.",
+				"While within your eye socket and attuned to, you remain aware of your visual surroundings even while sleeping. You also have advantage on Wisdom (Perception) checks that rely on sight, and you cannot be surprised."
+			],
+			"reqAttune": true
+		},
+		{
+			"name": "Festival Cup",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"value": 12000,
+			"entries": [
+				"A magic cup, or sometimes a mug or other fluid container.",
+				"While upright, the magic cup automatically keeps itself full with whichever non-magical beverage the creature holding it desires. The fluid magically changes if the creature's desire changes. When tipped over, the cup dries up, and nothing spills out.",
+				"Fluids produced by this cup do not sate a creature's thirst, but can get it drunk if alcoholic."
+			]
+		},
+		{
+			"name": "Gauntlets of Force Gripping",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "uncommon",
+			"type": "HNDW",
+			"wondrous": true,
+			"value": 61500,
+			"entries": [
+				"While wearing these gauntlets, you can cast mage hand at will, and the spectral hand you summon is invisible.",
+				"You can also use either gauntlet to grapple a creature from a distance of up to 30 feet. You can use each gauntlet to grapple a different creature, though not in place of the same attack. Grappling this way works as normal in all other regards."
+			],
+			"reqAttune": true,
+			"attachedSpells": [
+				"mage hand"
+			]
+		},
+		{
+			"name": "Gauntlets of Smithing",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "uncommon",
+			"type": "HNDW",
+			"baseItem": "smith's tools|phb",
+			"wondrous": true,
+			"value": 61500,
+			"entries": [
+				"Despite looking somewhat heavy, when you wear these fingered gauntlets you feel your hands become stronger and more dextrous while smithing, moving with ease. The wearer gets +1 bonus to ability checks relating to using the smith’s tools.",
+				"Created by Tiago Neves."
+			]
+		},
+		{
+			"name": "Globe of Darkness",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"value": 86000,
+			"entries": [
+				"This large black sphere seems to absorb all light and not reflect so much as a glint, causing it to look like a flat circle from any angle. It feels warm to the touch.",
+				"As an action, you can speak its command word and cause it to absorb all natural light within 60 feet of it, causing natural darkness in that area that moves with it. You can stop this at any time by speaking its command word again as an action."
+			]
+		},
+		{
+			"name": "Lockpick of Urgency",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "uncommon",
+			"type": "T",
+			"baseItem": "thieves' tools|phb",
+			"wondrous": true,
+			"value": 140000,
+			"entries": [
+				"This item can be used as part of a set of thieves' tools, has 4 charges, and can only be used by a creature proficient with thieves' tools.",
+				"A creature proficient with thieves' tools can spend 1 charge to cast knock, or 1 charge to use it as a wand of secrets: if a secret door or trap is within 30 feet of it, the lockpick pulses and points at the one nearest to it. ",
+				"Such a creature can also spend 1 charge while using this item to perform a lockpicking skill check to grant itself a bonus of +10 to the check (must decide before the roll is made). If a creature spends a charge this way, the maximum number of charges it can hold is permanently reduced by 1.",
+				"The lockpick regains 1 expended charge daily at dawn. If you would expend its last charge, the lockpick disintegrates"
+			],
+			"attachedSpells": [
+				"knock"
+			],
+			"charges": 4,
+			"recharge": "dawn"
+		},
+		{
+			"name": "Net of Aerial Capture",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "R",
+			"rarity": "uncommon",
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"S",
+				"T"
+			],
+			"range": "5/15",
+			"net": true,
+			"weapon": true,
+			"baseItem": "net|phb",
+			"value": 35000,
+			"entries": [
+				"When you make an attack roll with this weapon against a creature that is currently flying, you have advantage on the attack roll, and its range is extended to 30/60. Such a creature, if hit, safely descends to the ground at a rate of 60 feet per turn as long as it remains restrained by the net. Additionally, this net has an increased DC of 13 for Strength checks made to free a creature restrained by it, and it cannot be destroyed by normal attacks.",
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"A Large or smaller creature hit by a net is {@condition restrained} until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make."
+					]
+				}
+			]
+		},
+		{
+			"name": "Rod of Command",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "uncommon",
+			"type": "RD",
+			"value": 270000,
+			"entries": [
+				"This rod has 5 charges. The rod recovers {@dice 1d4 + 1} charges daily at dawn. You can spend them to cause the following effects:",
+				{
+					"name": "Spells",
+					"type": "entries",
+					"entries": [
+						"While holding this staff, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC and spell attack bonus: {@spell command} (1 charge), {@spell gag order} (1 charge), or {@spell suggestion} (3 charges)."
+					]
+				},
+				{
+					"name": "Sway",
+					"type": "entries",
+					"entries": [
+						"While holding this staff, you can alternatively use an action to raise the rod and expend 4 of its charges. All creatures within 30 feet who can see you must make a Wisdom saving throw against your spell save DC. For the next 8 hours, while you hold the rod, you have advantage on all Charisma ability checks made against all creatures who fail."
+					]
+				}
+				
+			],
+			"charges": 5,
+			"recharge": "dawn",
+			"attachedSpells": [
+				"command",
+				"gag order",
+				"suggestion"
+			],
+			"reqAttune": true
+		},
+		{
+			"name": "Rod of Marking",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "uncommon",
+			"type": "RD",
+			"value": 210000,
+			"entries": [
+				"This rod has 5 charges. You can spend any number of charges from it to cast {@spell hunter's mark} at a level equal to the number of charges spent.",
+				"The rod recovers {@dice 1d4 + 1} charges daily at dawn."
+			],
+			"charges": 5,
+			"recharge": "dawn",
+			"attachedSpells": [
+				"hunter's mark"
+			],
+			"reqAttune": true
+		},
+		{
+			"name": "Sling Bullet of Booming Impetus",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "uncommon",
+			"type": "A",
+			"entries": [
+				"These bullets fly at an astounding speed once shot, arriving nearly instantly at their target, and causing a minor sonic burst as they tear through the air. Whenever you use one, creatures within 10 feet of the bullet's trajectory must succeed on a Constitution saving throw against a DC of 10 or take {@damage 1d8} thunder damage. Attacks with this ammunition do not trigger any reactions that would otherwise be triggered on a similar attack with normal ammunition.",
+				"This attack also ignores effects such as strong winds that would force disadvantage on a ranged weapon attack as a result of passing through an area."
+			],
+			"weight": 0.075,
+			"value": 2000,
+			"baseItem": "sling bullet|phb"
+		},
+		{
+			"name": "Staff of Understanding",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "SCF",
+			"rarity": "uncommon",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": "true"
+				}
+			],
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"recharge": "dawn",
+			"charges": 10,
+			"staff": true,
+			"value": 1250000,
+			"entries": [
+				"The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: {@spell comprehend languages} (1 charge), {@spell identify} (1 charge), {@spell clairvoyance} (3 charges), {@spell speak with plants} (3 charges), {@spell tongues} (3 charges).",
+				"The staff regains {@dice 1d6 + 4} charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff fades into nothingness and is lost forever."
+			],
+			"attachedSpells": [
+				"comprehend languages",
+				"identify",
+				"clairvoyance",
+				"speak with plants",
+				"tongues"
+			]
+		},
+		{
+			"name": "Whirling Hammer",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "M",
+			"rarity": "uncommon",
+			"weight": 2,
+			"weaponCategory": "simple",
+			"property": [
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"hammer": true,
+			"weapon": true,
+			"baseItem": "light hammer",
+			"value": 196000,
+			"entries": [
+				"You can use an action to throw this hammer in a circle around you. It orbits you at a fixed distance of your choice up to 20 feet, and moves with you if you move. Whenever a creature enters a space at that distance from you or starts its turn on it, it must succeed on a Dexterity saving throw against a DC equal to 8 + your attack bonus with the hammer, or take {@damage 1d4} bludgeoning damage."
+			]
+		},
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		{
+			"name": "Amulet of Adaptable Protection",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "rare",
+			"type": "NW",
+			"wondrous": true,
+			"value": 1000000,
+			"entries": [
+				"When equipped and attuned to, its wearer feels an aura of protection around him. After each instance of damage taken by the wearer, the amulet starts providing its wearer resistance to damage of that type, and stops providing resistance to the previous resistant damage type."
+			],
+			"reqAttune": true
+		},
+		{
+			"name": "Shield of Acid Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "S",
+			"wondrous": true,
+			"resist": [
+				"acid"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Shield of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Shield of Cold Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "S",
+			"wondrous": true,
+			"resist": [
+				"cold"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Shield of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Shield of Fire Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "S",
+			"wondrous": true,
+			"resist": [
+				"fire"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Shield of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Shield of Force Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "S",
+			"wondrous": true,
+			"resist": [
+				"force"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Shield of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Shield of Lightning Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "S",
+			"wondrous": true,
+			"resist": [
+				"lightning"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Shield of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Shield of Necrotic Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "S",
+			"wondrous": true,
+			"resist": [
+				"necrotic"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Shield of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Shield of Poison Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "S",
+			"wondrous": true,
+			"resist": [
+				"poison"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Shield of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Shield of Psychic Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "S",
+			"wondrous": true,
+			"resist": [
+				"psychic"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Shield of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Shield of Radiant Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "S",
+			"wondrous": true,
+			"resist": [
+				"radiant"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Shield of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Shield of Thunder Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "S",
+			"wondrous": true,
+			"resist": [
+				"thunder"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Shield of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Cloak of Acid Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "CLO",
+			"wondrous": true,
+			"resist": [
+				"acid"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Cloak of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Cloak of Cold Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "CLO",
+			"wondrous": true,
+			"resist": [
+				"cold"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Cloak of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Cloak of Fire Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "CLO",
+			"wondrous": true,
+			"resist": [
+				"fire"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Cloak of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Cloak of Force Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "CLO",
+			"wondrous": true,
+			"resist": [
+				"force"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Cloak of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Cloak of Lightning Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "CLO",
+			"wondrous": true,
+			"resist": [
+				"lightning"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Cloak of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Cloak of Necrotic Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "CLO",
+			"wondrous": true,
+			"resist": [
+				"necrotic"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Cloak of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Cloak of Poison Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "CLO",
+			"wondrous": true,
+			"resist": [
+				"poison"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Cloak of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Cloak of Psychic Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "CLO",
+			"wondrous": true,
+			"resist": [
+				"psychic"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Cloak of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Cloak of Radiant Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "CLO",
+			"wondrous": true,
+			"resist": [
+				"radiant"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Cloak of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Cloak of Thunder Resistance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "CLO",
+			"wondrous": true,
+			"resist": [
+				"thunder"
+			],
+			"rarity": "rare",
+			"reqAttune": true,
+			"hasRefs": true,
+			"value": 376000,
+			"entries": [
+				"{#itemEntry Cloak of Resistance|stabbyitems}"
+			]
+		},
+		{
+			"name": "Coach of Luxurious Means",
+			"value": 1840000,
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "VEH",
+			"rarity": "rare",
+			"entries": [
+				"This vehicle is a normal carriage in most ways, and must be pulled in order to move. It is a coach, closed off on all sides except for the driver's seat, with a very small window in the front behind the driver's seat, a medium-sized window on each side, and a door with a tiny square window at the back. All windows are covered completely by a pattern of regular criss-crossing small wooden beams. A creature trying to peek through them only sees its own reflection in a glass behind it, and can by no physical means see anything beyond it.",
+				"The interior of the carriage is an extradimensional space, with a height of 10 feet, a length of 60 feet and a width of 30 feet. The same windows as can be seen on the outside are present on the inside, in the middle of each wall. A creature inside this space looking out through the window can see unobstructed as though it were looking out through the windows of the coach.",
+				"It has an AC of 18 and 80 hit points. Whenever the carriage would take damage, reduce it by 30. If the carriage is destroyed, all of its contents, including creatures, are forced out through the door and dumped onto the nearest unoccupied space."
+			]
+		},
+		{
+			"name": "Figurine of Wondrous Power, Aquamarine Toad",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "rare",
+			"wondrous": true,
+			"hasRefs": true,
+			"value": 104000,
+			"entries": [
+				"{#itemEntry Figurine of Wondrous Power|stabbyitems}",
+				"This aquamarine statuette is of a crouching toad. It can become a {@creature giant toad} for up to 8 hours. Once it has been used, it can't be used again until 5 days have passed."
+			]
+		},
+		{
+			"name": "Figurine of Wondrous Power, Cobalt Sea Horse",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "rare",
+			"wondrous": true,
+			"hasRefs": true,
+			"value": 220000,
+			"entries": [
+				"{#itemEntry Figurine of Wondrous Power|stabbyitems}",
+				"This cobalt statuette is of a slick sea horse. It can become a {@creature giant sea horse} for as long as it remains underwater. Once it has been used, it can't be used again until 7 days have passed."
+			]
+		},
+		{
+			"name": "Guardian Amulet",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "rare",
+			"type": "NW",
+			"wondrous": true,
+			"value": 700000,
+			"entries": [
+				"If you fall asleep while wearing this amulet and attuned to it, you are protected by a {@spell guardian of faith}, which ends prematurely when you wake up. Once the guardian has dealt its maximum damage, it disappears and will not be able to reappear until the next dawn."
+			],
+			"reqAttune": true,
+			"recharge": "dawn",
+			"attachedSpells": [
+				"guardian of faith"
+			]
+		},
+		{
+			"name": "Instant Bridge",
+			"value": 2800000,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"You can use an action to place this tiny carved stone rectangle on the ground near a chasm or river and speaks its command word. The rectangle rapidly transforms into a bridge and expands across the chasm or river to the nearest point on the opposite side of it. If the gap being bridged would be greater than 200 feet, nothing happens, and the item remains in its miniature form. If used successfully, it remains in its bridge form until you use an action to speak the command word that dismisses it, which works only if there is no creature on top of it. The bridge shrinks into the original item on whichever side of the gap you are on.",
+				"The bridge is made of stone, and has an AC of 18 and 200 hit points, and resistance to all damage except siege damage. If it reaches 0 hit points, the entire bridge crumbles and the item is destroyed."
+			]
+		},
+		{
+			"name": "Knife of the Voracious Cook",
+			"value": 1780000,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "rare",
+			"type": "M",
+			"entries": [
+				"This weapon is a dagger and has a +2 bonus to attack and damage rolls when used against targets that are unarmored or have natural armor. It deals slashing instead of piercing damage, and its damage is increased from {@damage 1d4} to {@damage 2d4} when used to attack a creature its wielder views as edible.",
+				"Can be used as part of a Cook's Utensils. Once per day, when using this item to prepare a meal for up to 10 people, you can infuse the meal with restorative energy. If you do, any creature eating at least one full portion of the meal within 2 hours of confection regains 2d8 hit points and gains that many temporary hit points for 8 hours."
+			],
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T",
+				"VOR"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmg2": "2d4",
+			"dmgType": "S",
+			"dagger": true,
+			"weapon": true,
+			"bonusWeapon": "+2",
+			"baseItem": "cook's utensils|phb"
+		},
+		{
+			"name": "Orb of Shared Enlightenment",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "SCF",
+			"rarity": "rare",
+			"reqAttune": "by a spellcaster capable of using it as a focus",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"wondrous": true,
+			"bonusSpellAttack": "+1",
+			"bonusSpellSaveDc": "+1",
+			"baseItem": "orb|phb",
+			"sfcType": "arcane",
+			"value": 980000,
+			"entries": [
+				"While one or more spellcasters friendly to you remain within 30 feet of you, you have a +1 to your save DC and spell attack bonus.",
+				"Once per day, as an action, you can tap into the item's energies to recover spellslots for any number of creatures of your choice within 15 feet other than yourself. The combined spellslot level of all slots recovered this way cannot exceed 5.",
+				"Whenever a friendly character other than you within 10 feet of you casts a spell of 6th lever or higher, there is a 25% chance per level above 5th that the orb's active ability instantly recharges."
+			]
+		},
+		{
+			"name": "Robe of Vines",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "rare",
+			"wondrous": true,
+			"value": 900000,
+			"entries": [
+				"This tangled robe of natural fibres appears almost alive when worn by one attuned to it, a vibrant mass of leaf and bramble.",
+				"While wearing this robe, if you aren't wearing armor, you can calculate your AC as 13 + your Wisdom modifier, and you receive a +1 bonus to your saving throws. Additionally, whenever you are hit by a melee attack made by a creature within 5 feet of you, the attacker takes piercing damage equal to your Wisdom modifier, as the robe sprouts thorns and lashes out in retaliation.",
+				"As an action, you can cause vines to grow and extend from the robe, causing the effects of your choice of an {@spell entangle} spell, an {@spell earthbind} spell, or a {@spell grasping vine} spell. You can use this property twice, and recover any expended uses each day at dawn."
+			],
+			"reqAttune": true,
+			"reqAttuneTags": [
+				{
+					"class": "druid"
+				}
+			],
+			"recharge": "dawn",
+			"bonusSavingThrow": "+1",
+			"acSpecial": "13 + Wisdom mod"
+		},
+		{
+			"name": "Rod of Awakening",
+			"value": 2000000,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "rare",
+			"type": "RD",
+			"entries": [
+				"This rod has 10 charges. The rod recovers 1 charge daily at dawn. You can activate the rod in the following manners:",
+				{
+					"name": "End Sleep",
+					"type": "entries",
+					"entries": [
+						"Spend 1 charge and touch it to a sleeping creature, causing it to awaken from its slumber, even if it was put to sleep by magic."
+					]
+				},
+				{
+					"name": "Animate",
+					"type": "entries",
+					"entries": [
+						"Spend 6 charges to cast {@spell animate objects} from the rod. You do not need to maintain concentration on it."
+					]
+				},
+				{
+					"name": "Awaken",
+					"type": "entries",
+					"entries": [
+						"Spend 10 charges to cast {@spell awaken}, requiring no material components."
+					]
+				}
+			],
+			"charges": 10,
+			"recharge": "dawn",
+			"attachedSpells": [
+				"animate objects",
+				"awaken"
+			]
+		},
+		{
+			"name": "Saddle of Summoning",
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"rarity": "rare",
+			"reqAttune": true,
+			"recharge": "dawn",
+			"attachedSpells": [
+				"find steed"
+			],
+			"value": 1250000,
+			"entries": [
+				"This ornate saddle, with brightly coloured linings and illustrations appropriate for the creature associated with it, can be used to cast {@spell find steed} at will, with a casting time of only one action. When you do so, the creature summoned appears adjacent to you, underneath the saddle, and the saddle equips itself on it.",
+				"The creature is always the same for a given saddle of summoning, as decided or rolled by your DM with the tables below. Regardless of the creature's normal statistics, its size scales with yours: its size is one category higher than that of the creature attuned to the item. Additionally, its AC becomes 16, it gains 30 additional hit points, and it has advantage on saving throws against spells and other magical effects.",
+				"This saddle also functions as a {@item saddle of the cavalier|dmg}, causing attack rolls against the steed to have disadvantage, and preventing you from being dismounted against your will as long as you're conscious.",
+				"If the steed disappears as a result of reaching 0 hit points, the saddle's colours fade and you cannot summon it again. Each day at dawn, if you are attuned to this item, roll a d6. On a 6, the saddle regains its colour and you regain the ability to summon the steed.",
+				{
+					"type": "table",
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"colLabels": [
+						"d10",
+						"Creature Stat Block"
+					],
+					"rows": [
+						[
+							"1",
+							"{@creature Warhorse} (CR 1/2, 60 ft.)"
+						],
+						[
+							"2",
+							"{@creature Camel} (CR 1/8, 50 ft.)"
+						],
+						[
+							"3",
+							"{@creature Elk} (CR 1/4, 50 ft.)"
+						],
+						[
+							"4",
+							"{@creature Mastiff} (CR 1/8, 40 ft.)"
+						],
+						[
+							"5",
+							"{@creature Black Bear} (CR 1/2, 40 ft., climb 30 ft.)"
+						],
+						[
+							"6",
+							"{@creature Crocodile} (CR 1/2, 20 ft., swim 30 ft.)"
+						],
+						[
+							"7",
+							"{@creature Panther} (CR 1/4, 50 ft., climb 40 ft.)"
+						],
+						[
+							"8",
+							"{@creature Giant Goat} (CR 1/2, 40ft.)"
+						],
+						[
+							"9",
+							"{@creature Giant Badger} (CR 1/4, 30 ft., burrow 10ft.)"
+						],
+						[
+							"10",
+							"{@creature Boar} (CR 1/4, 40 ft.)"
+						]
+					]
+				},
+				{
+					"type": "table",
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"colLabels": [
+						"d6",
+						"Creature Type"
+					],
+					"rows": [
+						[
+							"1",
+							"Fiend"
+						],
+						[
+							"2-5",
+							"Fey"
+						],
+						[
+							"6",
+							"Celestial"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Seer Stone",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "rare",
+			"wondrous": true,
+			"reqAttune": true,
+			"value": 600000,
+			"entries": [
+				"A creature attuned to this item can use an action to cast {@spell commune} through it, contacting a shapeless voiceless universal energy. The stone then loses its magic. Each day at dawn, if you are attuned to this item, roll a d6. On a result of 5-6, the stone recovers its magic."
+			],
+			"attachedSpells": [
+				"commune"
+			]
+		},
+		{
+			"name": "Soul Rod",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "rare",
+			"type": "RD",
+			"value": 450000,
+			"entries": [
+				"This rod can hold up to 20 charges.  As part of a short rest, you can hold the jagged rod against your chest to fuel it with your life force. You can spend any number of your hit dice, and the rod gains a number of charges equal to the result. You do not recover hit points from hit dice spent this way.",
+				"You can use the rod and expend its charges as an action to activate one of the following effects:",
+				{
+					"name": "Transference",
+					"type": "entries",
+					"entries": [
+						"You cast {@spell life transference} through the rod (4 charges)."
+					]
+				},
+				{
+					"name": "Magical Recharge",
+					"type": "entries",
+					"entries": [
+						"You recover a spent spell slot of 1st-level (5 charges), 2nd-level (11 charges) or 3rd-level (18 charges)."
+					]
+				},
+				{
+					"name": "Vital Recharge",
+					"type": "entries",
+					"entries": [
+						"Expend any number of charges: you regain that many hit points."
+					]
+				}
+			],
+			"charges": 20,
+			"recharge": "restShort",
+			"attachedSpells": [
+				"life transference"
+			]
+		},
+		{
+			"name": "Staff of the Artisan",
+			"value": 1800000,
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "SCF",
+			"rarity": "rare",
+			"reqAttune": "by an artificer, cleric, sorcerer, warlock, or wizard",
+			"reqAttuneTags": [
+				{
+					"class": "artificer|tce"
+				},
+				{
+					"class": "cleric"
+				},
+				{
+					"class": "sorcerer"
+				},
+				{
+					"class": "warlock"
+				},
+				{
+					"class": "wizard"
+				}
+			],
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"recharge": "dawn",
+			"charges": 10,
+			"staff": true,
+			"entries": [
+				"The staff has 10 charges. While holding it, you can use an action to expend 1 or more of its charges to cast one of the following spells from it, using your spell save DC: {@spell mage armor} (1 charge), {@spell heat metal} (2 charges), {@spell magic weapon} (2 charges), {@spell conjure armaments} (3 charges), {@spell elemental weapon} (3 charges), {@spell flame arrows} (3 charges).",
+				"The staff regains {@dice 1d6 + 4} charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff fades into nothingness and is lost forever."
+			],
+			"attachedSpells": [
+				"mage armor",
+				"heat metal",
+				"magic weapon",
+				"conjure armaments",
+				"elemental weapon",
+				"flame arrows"
+			]
+		},
+		{
+			"name": "Mask of Graz'zt",
+			"value": 10000000,
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "SCF",
+			"rarity": "legendary",
+			"reqAttune": true,
+			"recharge": "dawn",
+			"charges": 3,
+			"entries": [
+				"IMPORTANT NOTE: This is an unfinished brainstormy item. Just kind of threw some things together. It's not a real item.",
+				"This ornate carnival mask is emotionally evocative, light and unnaturally sturdy for its thickness.",
+				"While you wear the mask, your Charisma score is 5 points higher than it would otherwise be. This is on top of any effects that might set your Charisma score to a specific number, and your Charisma score is allowed to exceed 20 with this bonus.",
+				"Also while wearing it, you can cast {@spell charm person} and {@spell command} at will. Your spellcasting ability for them is Charisma.",
+				"The mask has 3 charges. You can spend one charge whenever you would force a creature to make a saving throw against {@condition charmed} to force that creature to fail that save. Alternatively, you can spend one charge when you make a Deception, Persuasion or Performance check to automatically succeed on the check.",
+				"The mask regains all of its charges daily at dawn."
+			]
+		},
+		{
+			"name": "Staff of Deep Lights",
+			"value": 325000,
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "SCF",
+			"rarity": "rare",
+			"reqAttune": "by a spellcaster",
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"recharge": "dawn",
+			"charges": 10,
+			"staff": true,
+			"entries": [
+				"This staff also counts as a {@item +1 quarterstaff}.",
+				"The staff has 10 charges. While holding it, you can cast light at will, targetting the head of the staff.",
+				"Whenever you hit a melee attack with it, you can spend 1 charge. If you do, then your target must make a Dexterity save against a DC of 15. On a failure, it is covered in magical spores, having the same effect as that of a {@spell faerie fire}.",
+				"Additionally, you can spend 4 charges while holding the staff to emit a cloud of photoabsorbent spores which covers every creature within 10 feet of you. The spores manipulate light, making each affected creature invisible for 1 minute or until it casts a spell or makes an attack.",
+				"The staff regains {@dice 1d6 + 4} charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff rots away and is lost forever.",
+				"A creation of Vincenzo \"Handy\" Buonimani."
+			],
+			"attachedSpells": [
+				"faerie fire"
+			]
+		},
+		{
+			"name": "Wand of Destruction",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "WD",
+			"rarity": "rare",
+			"reqAttune": "by an artificer, sorcerer, warlock, or wizard",
+			"reqAttuneTags": [
+				{
+					"class": "artificer|tce"
+				},
+				{
+					"class": "sorcerer"
+				},
+				{
+					"class": "warlock"
+				},
+				{
+					"class": "wizard"
+				}
+			],
+			"recharge": "dawn",
+			"charges": 7,
+			"value": 810000,
+			"entries": [
+				"This wand has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to blast a creature or object you can sense or see with a destructive beam. The target makes a Dexterity saving throw against a DC of 12 + 1 for each charge spent and, takes {@damage 2d8} force damage plus an additional {@damage 2d8} for each charge used on a failure, or half as much on a success.",
+				"The wand regains {@dice 1d6 + 1} expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed."
+			]
+		},
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		{
+			"name": "Cartographer's Tools of Discovery",
+			"value": 2400000,
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "AT",
+			"baseItem": "cartographer's tools|phb",
+			"wondrous": true,
+			"rarity": "very rare",
+			"entries": [
+				"This full set of cartographer's tools has been enchanted to provide insight into the hidden secrets of mapped areas.",
+				"Whenever you draw an accurate map of an area from your own experience within the space, if you are proficient with cartographer's tools, any hidden doors, rooms, passages, traps, etc inside what you've drawn or directly adjacent to it are magically revealed and added to your map, and are magically highlighted until the map has come within 5 feet of them.",
+				"Any creature can spend a minute focusing on a map drawn by this item to reveal the location and type of all sentient creatures within its boundaries. This lasts until the creature obscures it by closing the map as an action. A creature can only use the map this way if it is aware that it has this ability.",
+				"After 24 hours, the map loses its magic, and although the hidden spaces remain on the map, they are no longer highlighted, and the second feature can no longer be used. The effect can be made permanent by reinking the map using this same item every day for 60 days.",
+				"Creatures and objects hidden from Divination spells are hidden from the map."
+			]
+		},
+		{
+			"name": "Carver's Knife of Perceiving",
+			"value": 2650000,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "very rare",
+			"type": "M",
+			"entries": [
+				"This weapon is a dagger with a vaguely human-appearing carving of a head for a pommel. It can be used as part of a set of woodcarver's tools. A creature proficient with woodcarver's tools can use it to carve an ear, eye, nose, or mouth onto wood, such as a wooden object it is crafting, a table in a private office, or even a tree in the forest. You can disguise it, for example as part of an otherwise non-magical wooden bust, but the form of the carved feature must be unequivocal. For the carving to have any magical effect it must be at least as large as a 2 inch square.",
+				"As an action while holding the knife, you can look into its pommel, or hold it against your nose, mouth, or ear. As long as you maintain it in that position, you can perceive through the appropriate sense at one of the carvings created by this knife and currently connected to it. For example, you can see through one an eye carved onto a wooden bust you gave a creature as a gift, or an ear you carved into the underside of a table in a meeting room. If holding it to your mouth, anything you say is also heard in your voice at its location.",
+				"This item can only maintain connection with 2 eyes, 2 ears, 1 nose and 1 mouth. As an action, you can also hold the knife and look into its pommel and cover one such feature on your face to remove the connection."
+			],
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"dagger": true,
+			"weapon": true,
+			"baseItem": "woodcarver's tools|phb"
+		},
+		{
+			"name": "Cobbler's Tools of Improvement",
+			"value": 4200000,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "very rare",
+			"type": "AT",
+			"wondrous": true,
+			"entries": [
+				"Once per day, when you craft, modify or repair a set of non-magical footwear, you can permanently imbue them with any one of the following magical properties:",
+				{
+					"name": "Levitation",
+					"type": "entries",
+					"entries": [
+						"As a bonus action, you can activate or deactivate these boots. While activated, you hover 6 inches off the ground. You can hover-walk on the surface of fluids."
+					]
+				},
+				{
+					"name": "Speed",
+					"type": "entries",
+					"entries": [
+						"Your walking speed is increased by 10ft."
+					]
+				},
+				{
+					"name": "Proofing",
+					"type": "entries",
+					"entries": [
+						"Grants resistance to a damage type (which you choose when you're working on the footwear) between fire, acid and lightning. If the source of damage is something you're stepping on, you are instead immune to it."
+					]
+				},
+				{
+					"name": "Swimming Fins",
+					"type": "entries",
+					"entries": [
+						"You gain a swimming speed equal to your walking speed."
+					]
+				},
+				{
+					"name": "Climbing Spikes",
+					"type": "entries",
+					"entries": [
+						"You gain a climbing speed equal to your walking speed."
+					]
+				},
+				{
+					"name": "Stability",
+					"type": "entries",
+					"entries": [
+						"You have advantage on saving throws against effects that would move you against your will or knock you prone."
+					]
+				},
+				{
+					"name": "Muffling",
+					"type": "entries",
+					"entries": [
+						"Your movement makes no sound."
+					]
+				},
+				"If you apply this to a pair of boots that you had already imbued, the previous effect is replaced by the new one. A creature without proficiency cannot use this item, and a creature with expertise with cobbler's tools can apply two effects to the same footwear."
+			],
+			"baseItem": "cobbler's tools|phb"
+		},
+		{
+			"name": "Dagger of Invisible Assailance",
+			"value": 3200000,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "very rare",
+			"type": "M",
+			"entries": [
+				"This dagger has +1 bonus to attack and damage rolls, and 3 charges.",
+				"As an action, you can tap into the blade's power to turn yourself along with anything you are carrying invisible for 1 minute. This invisibility ends early if you attack or cast a spell, or if you drop or put away the dagger. If you break invisibility by making an attack roll with this weapon and you hit, the attack is an automatic critical and you triple the damage dice for this attack instead of doubling them.",
+				"The dagger regains all expended charges daily at midnight."
+			],
+			"weight": 1,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"dagger": true,
+			"weapon": true,
+			"baseItem": "dagger|phb",
+			"bonusWeapon": "+1",
+			"recharge": "midnight"
+		},
+		{
+			"name": "Disguise Kit of Veritable Transformation",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "very rare",
+			"type": "T",
+			"wondrous": true,
+			"value": 1000000,
+			"entries": [
+				"Whenever someone dons a disguise you make with this kit, their very physical shape is reformed as though they had cast an {@spell alter self} spell on themselves. This effect lasts until they doff the disguise as an action."
+			],
+			"baseItem": "disguise kit|phb",
+			"attachedSpells": [
+				"alter self"
+			]
+		},
+		{
+			"name": "Essence Vessel",
+			"value": 5800000,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "very rare",
+			"type": "SCF",
+			"reqAttune": "by an animancer, cleric, druid, warlock, or wizard",
+			"reqAttuneTags": [
+				{
+					"class": "animancer"
+				},
+				{
+					"class": "cleric"
+				},
+				{
+					"class": "druid"
+				},
+				{
+					"class": "warlock"
+				},
+				{
+					"class": "wizard"
+				}
+			],
+			"entries": [
+				"A small opaque container, typically a vase, jar, or similar vessel. It can be used as a universal spellcasting focus by any attuned character, and grants a +1 bonus to its wielders's spellcasting save DC and spell attack rolls.",
+				"This item can hold up to 40 charges. As an action, you can capture some energy from the soul of a dead creature whose body is within 10ft of this item, whose soul was free, and who died within the last minute. This item gains charges equal to its challenge rating.",
+				"As a separate action or as part of the same action, you can choose a creature you can see within 60ft of you and use up to 20 of the vessel's charges to cause the following effect: the creature either takes necrotic damage equal to half the number of charges spent or regains the same amount of hit points (your choice). At the start of its each subsequent turn after that, it regains HP or takes necrotic damage equal to the damage taken or hit points gained this way the previous turn, minus 1. If you choose to do damage, the creature may attempt to succeed on a DC 15 Constitution saving throw to halve the initial damage.",
+				"When you do so, you can opt to reduce its initial damage or healing by 3 but instantly inflict either Paralysis or Blindness and Deafness for 1 minute if you're harming it, or instantly cure it of either Paralysis or Blindness and Deafness if you are healing it. If the target is an enemy and succeeds on its save, it resists these conditions. Otherwise, it repeats the save at the end of each of its turns and ends the effects early on a success.",
+				"Once targetted by this item, a creature cannot be targetted by it again until the next dawn."
+			],
+			"bonusSpellAttack": "+1",
+			"bonusSpellSaveDc": "+1"
+		},
+		{
+			"name": "Figurine of Wondrous Power, Brass Scorpion",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "very rare",
+			"wondrous": true,
+			"hasRefs": true,
+			"value": 450000,
+			"entries": [
+				"{#itemEntry Figurine of Wondrous Power|stabbyitems}",
+				"This brass statuette is of a threatening scorpion. It can become a {@creature giant scorpion} for up to 8 hours. Once it has been used, it can't be used again until 2 days have passed."
+			]
+		},
+		{
+			"name": "Figurine of Wondrous Power, Hematite Spiders",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "very rare",
+			"wondrous": true,
+			"hasRefs": true,
+			"value": 459000,
+			"valueNotes": "- 1,530 gp per missing spider",
+			"entries": [
+				"{#itemEntry Figurine of Wondrous Power|stabbyitems}",
+				"These hematite statuettes are always made in sets of three. You can use one figurine or more than one simultaneously. Each can become a {@creature giant spider} for up to 12 hours. Once it has been used, it can't be used again until 5 days have passed."
+			]
+		},
+		{
+			"name": "Figurine of Wondrous Power, Hematite Spider (single)",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "very rare",
+			"wondrous": true,
+			"hasRefs": true,
+			"value": 153000,
+			"entries": [
+				"{#itemEntry Figurine of Wondrous Power|stabbyitems}",
+				"These hematite statuettes are always made in sets of three. You can use one figurine or more than one simultaneously. Each can become a {@creature giant spider} for up to 12 hours. Once it has been used, it can't be used again until 5 days have passed."
+			]
+		},
+		{
+			"name": "Figurine of Wondrous Power, Turquoise Orca",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "very rare",
+			"wondrous": true,
+			"hasRefs": true,
+			"value": 465000,
+			"entries": [
+				"{#itemEntry Figurine of Wondrous Power|stabbyitems}",
+				"This turquoise statuette is of an imposing orca. It can become a {@creature killer whale} for up to 4 hours. Once it has been used, it can't be used again until 2 days have passed."
+			]
+		},
+		{
+			"name": "Guardian Aegis",
+			"value": 3600000,
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "S",
+			"rarity": "very rare",
+			"acSpecial": "+3 or more",
+			"entries": [
+				"You gain a bonus of +1 to your AC, plus another +1 for each enemy within 5ft of you beyond the first.",
+				"As a reaction, you can force a creature you can see attacking another creature within 5ft of you to instead attack you."
+			],
+			"reqAttune": true
+		},
+		{
+			"name": "Instant Galley",
+			"value": 6000000,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "very rare",
+			"type": "SHP",
+			"wondrous": true,
+			"entries": [
+				"You can use an action to place this miniature galley on water and speak its command word. The miniature rapidly grows into a full-sized galley if there is room for it in the water, expanding away from the nearest shore. It remains in this form until you use an action to speak the command word that reshrinks it, which works only if the galley is empty. Creatures within the area the galley expands into are pushed harmlessly to the nearest unoccupied space nearby.",
+				"The galley is manned by 100 unseen servants (as described in {@spell unseen servant}, who obey you as their captain and can fully operate the vessel and its defenses. These unseen servants cannot be slain, but disappear if the boat is ever destroyed. The boat has 300 hit points, AC 15, and resistance to all damage except siege. It ignores all instances of damage below 15 hit points. If it reaches 0 hit points, the boat loses its magic, and sinks. It has a base speed of 5 mph from rowing, with a bonus of up to plus 4 mph from favourable winds, and a malus of up to minus 1 from unfavourable winds."
+			],
+			"crew": 100,
+			"vehAc": 15,
+			"vehHp": 300,
+			"vehDmgThresh": 15,
+			"vehSpeed": 5,
+			"capPassenger": 40,
+			"capCargo": 50
+		},
+		{
+			"name": "Keg of Potency",
+			"value": 1900000,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "very rare",
+			"type": "AT",
+			"wondrous": true,
+			"entries": [
+				"A creature proficient with brewer's supplies can speak a magic word as it pours a drinkable alcoholic liquid into this keg to start a magical process to enchant the liquid. After 8 hours, the liquid gains the ability to have one of the following effects on any creature who drinks it, depending on the word spoken:",
+				{
+					"name": "Drowsiness",
+					"type": "entries",
+					"entries": [
+						"If the target has less than 40 HP, it falls asleep. Else it must make a DC 10 Constitution saving throw. On a failure, it falls asleep. For 2+1d6 hours, it cannot be awoken unless it takes damage, in which case it instantly wakes up."
+					]
+				},
+				{
+					"name": "Joy",
+					"type": "entries",
+					"entries": [
+						"The target must make a DC 15 Constitution saving throw. On a failure, for the next hour, the target is {@condition charmed} by the first 5 creatures it speaks to, and it views strangers as friendly acquaintances, friendly acquaintances as friends, and friends as very close and trusted friends."
+					]
+				},
+				{
+					"name": "Anger",
+					"type": "entries",
+					"entries": [
+						"The target must make a DC 15 Constitution saving throw. On a failure, for the next 30 minutes, the target is irrationally angry and prone to violence."
+					]
+				},
+				{
+					"name": "Spiked",
+					"type": "entries",
+					"entries": [
+						"The target must succeed on a DC 15 Constitution saving throw or become drunk and {@condition poisoned} for 1 hour after consuming just one dose of the liquid."
+					]
+				},
+				"If the liquid is poured from the keg and not consumed within 1 hour, the poured contents lose their magic."
+			],
+			"baseItem": "brewer's supplies|phb"
+		},
+		{
+			"name": "Mirror of Telecommunication",
+			"value": 2450000,
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"rarity": "very rare",
+			"entries": [
+				"These mirrors may come in many forms – a hand mirror, a freestanding one, one meant to be hung, or even one built into a dresser –, but all function in the same manner. Each mirror has a rune combination that uniquely identifies it.",
+				"You can use an action while holding the mirror and looking into it to draw a rune combination that is known to you, attempting to establish a connection with its corresponding mirror, causing the mirror to glow faintly if the combination is valid. Your mirror also glows faintly when another is attempting to establish a connection with it, and the runic combination of the connecting mirror materializes on the surface of yours. You can use an action while holding it and looking into it to permit the connection. Likewise, you can also close an already established connection as an action.",
+				"Once a two-way connection has been established, any creature looking into one of the two mirrors sees out of the other one, and any sound that reaches one is emitted through the other."
+			]
+		},
+		{
+			"name": "Pendant of Invigorating Casting",
+			"value": 4100000,
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"type": "NW",
+			"rarity": "very rare",
+			"reqAttune": true,
+			"entries": [
+				"Whenever you expend a spell slot, you regain HP equal to its level."
+			]
+		},
+		{
+			"name": "Ravenplates",
+			"value": 2800000,
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"rarity": "very rare",
+			"reqAttune": true,
+			"entries": [
+				"This item consists of a pair of circular plates, with symmetrical etchings of a raven's head, with a wing that curves downwards and around the curvature of each plate.",
+				"As an action, you can touch these 2 small round plates to the skin on your upper back, causing them to shift to an appropriate position and fuse to your body. Wings sprout from them, and you gain a flying speed of 40ft.",
+				"While the wings are expanded from the plates or while holding one of the plates in your hand, you can also mimic any simple sound you've heard, such as a person whispering, a baby crying, or an animal chittering, with creatures who hear you requiring a successful Wisdom (Insight) check to tell they are imitations vs your Charisma (Performance).",
+				"As an action, you can fold your wings and pop the plates off your back, returning the wings to the plates and causing the plates to come loose off your body."
+			]
+		},
+		{
+			"name": "Ring of Inconspicuousness",
+			"value": 4000000,
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"type": "RG",
+			"rarity": "very rare",
+			"entries": [
+				"When you put on the ring, your form changes to that of whichever humanoid species is most dominantly present in the region you are in, in accordance with the description of the {@spell alter self} spell. Facial features and features of your skin remain the same in your new form, however, unless they would make you seem not a member of that species. Additionally, if your height or girth are outside the regular parameters for that species, you shrink or expand to the value within the regular range that is closest to your real dimensions. As long as your normal appearance remains the same, so will your appearance a given race, across activations of this ring. The dwarf version of you will look the same each time you become a dwarf, as long as the real you looks the same.",
+				"Your shape stays the same as long as you are wearing it. If you put it on in a human settlement and move to a dwarven mountainhome, you'll still appear as a human. But if you take it off and then put it on again, you will likely find yourself shapeshifted into a dwarf."
+			],
+			"attachedSpells": [
+				"alter self"
+			]
+		},
+		{
+			"name": "Sending Stones of Warning",
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"baseItem": "sending stones|dmg",
+			"rarity": "very rare",
+			"entries": [
+				"Sending stones come in pairs, with each smooth stone carved to match the other so the pairing is easily recognized. While you touch one stone, you can use an action to cast the {@spell sending} spell from it. The target is the bearer of the other stone. If no creature bears the other stone, you know that fact as soon as you use the stone and don't cast the spell.",
+				"Once {@spell sending} is cast through the stones, they can't be used again until the next dawn. If one of the stones in a pair is destroyed, the other one becomes nonmagical.",
+				"This rarer version of the sending stone has special properties. Upon being contacted by its pair, but unanswered, it acquires a faint, but noticeable, blue glow, that lasts until picked up, but no longer than 5 days from the last attempted contact.",
+				"In the Teolian Empire, these are crafted exclusively for the Silent Wardens by certain craftsmen in Kharazdun Klast, through methods developed at the Wardens' request in ages past. They universally have the sigil of the wardens carved into one of the sides of the stones, with unique runic inscriptions on the other side to match the pair."
+			]
+		},
+		{
+			"name": "Staff of Personal Space",
+			"value": 2880000,
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "SCF",
+			"rarity": "very rare",
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"recharge": "dawn",
+			"charges": 7,
+			"staff": true,
+			"entries": [
+				"The staff has 7 charges. While holding it, you can use an action to expend 1 or more of its charges to activate one of the following effects.",
+				{
+					"name": "Make Distance",
+					"type": "entries",
+					"entries": [
+						"You expend 1 or more charges, causing you and a creature you can see within 15 feet to each be pushed 15ft away from each other. Increase the distance you are both pushed by 5ft per spent charge beyond the first."
+					]
+				},
+				{
+					"name": "Personal Bubble",
+					"type": "entries",
+					"entries": [
+						"You expend 4 or more charges, every creature within 15ft of you to be pushed away from you so that they end up at a distance of 30ft from you. causing you and a creature you can see within 15 feet to each be pushed 15ft away from each other. Increase the range and distance by 5ft per spent charge beyond the fourth."
+					]
+				},
+				"Regardless of the effect used, each creature affected can attempt a DC 20 Strength saving throw to resist being pushed, halving the distance they are pushed on a success.",
+				"Any creature that hits a hard object or surface after being pushed at least 10ft takes 1d6 damage for every 10ft it moved.",
+				"Any creature hit by a creature that's being pushed must succeed on a DC 10 Acrobatics check or be knocked back 5 feet and knocked prone.",
+				"The staff regains {@dice 1d6 + 4} charges daily at dawn."
+			]
+		},
+		{
+			"name": "Instrument of the Bards, Felderoth Drum",
+			"value": 3764500,
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "INS",
+			"rarity": "very rare",
+			"reqAttune": "by a bard",
+			"reqAttuneTags": [
+				{
+					"class": "bard"
+				}
+			],
+			"wondrous": true,
+			"entries": [
+				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Several types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take {@damage 2d4} psychic damage.",
+				"You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
+				"You can play the instrument while casting a spell that causes any of its targets to be {@condition charmed} on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.",
+				"All instruments of the bards can be used to cast the following spells: {@spell fly}, {@spell invisibility}, {@spell levitate}, and {@spell protection from evil and good}.",
+				"In addition, the Felderoth drum can be used to cast {@spell heroism} (4th level), {@spell delayed blast fireball}, and {@spell earthquake}."
+			],
+			"attachedSpells": [
+				"fly",
+				"invisibility",
+				"levitate",
+				"protection from evil and good",
+				"heroism",
+				"delayed blast fireball",
+				"earthquake"
+			]
+		},
+		{
+			"name": "Instrument of the Bards, Balowin Flute",
+			"value": 3560500,
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "INS",
+			"rarity": "very rare",
+			"reqAttune": "by a bard",
+			"reqAttuneTags": [
+				{
+					"class": "bard"
+				}
+			],
+			"wondrous": true,
+			"entries": [
+				"An instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Several types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take {@damage 2d4} psychic damage.",
+				"You can use an action to play the instrument and cast one of its spells. Once the instrument has been used to cast a spell, it can't be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.",
+				"You can play the instrument while casting a spell that causes any of its targets to be {@condition charmed} on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.",
+				"All instruments of the bards can be used to cast the following spells: {@spell fly}, {@spell invisibility}, {@spell levitate}, and {@spell protection from evil and good}.",
+				"In addition, the Balowin flute can be used to cast {@spell charm person} (5th level), {@spell irresistible dance}, and {@spell dominate monster}."
+			],
+			"attachedSpells": [
+				"fly",
+				"invisibility",
+				"levitate",
+				"protection from evil and good",
+				"charm person",
+				"irresistible dance",
+				"dominate monster"
+			]
+		},
+
+
+
+
+		
+		
+		
+		
+		{
+			"name": "Bracers of Fiendish Might",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "HNDW",
+			"wondrous": true,
+			"rarity": "legendary",
+			"reqAttune": true,
+			"value": 8200000,
+			"entries": [
+				"As an action, you can use this item's command word to activate it. When activated, it digs into your flesh, dealing {@damage 1d6} piercing damage, and pumps your blood with dark energy. It then grants you 20 temporary HP. While activated, at the end of each of your turns, it deals {@damage 1d10} necrotic damage to you. It also grants you the following benefits:",
+				{
+					"name": "Fiendish Strength",
+					"type": "entries",
+					"entries": [
+						"Your Strength increases by 4, and you double your Strength bonus to attack and damage for any attack you make that uses Strength as the ability score."
+					]
+				},
+				{
+					"name": "Fiendish Endurance",
+					"type": "entries",
+					"entries": [
+						"You have advantage on Constitution saving throws, and each instance of damage you would take - whose source is something other than this item - is reduced by 2."
+					]
+				},
+				"After 1 minute (and not before), you can use a bonus action to speak the item's command word again and deactivate it. It withdraws its claws from your flesh and its previous effects end.",
+				"On deactivation, you feel drained and lightheaded, and you lose any temporary HP remaining from the item's activation. You also have disadvantage on Strength ability checks and saving throws for 10 minutes.",
+				"If you activate the item again before those 10 minutes have passed, you take {@damage 3d10} necrotic damage, but the item otherwise works as normal and the consequences of deactivating it are removed (until you disable it again).",
+				"The necrotic self-damage ignores damage resistances. While you are immune to necrotic damage, all of the item's ongoing effects are suspended, but you still suffer the consequences of deactivation."
+			]
+		},
+		{
+			"name": "Boots of the Planeswalker",
+			"value": 14000000,
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "FW",
+			"wondrous": true,
+			"rarity": "legendary",
+			"reqAttune": true,
+			"entries": [
+				"The wearer of these boots can use them to cast {@spell plane shift} at will, selecting only itself as a target."
+			],
+			"attachedSpells": [
+				"plane shift"
+			]
+		},
+		{
+			"name": "Chalice of Sanctuary",
+			"value": 7500000,
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"rarity": "legendary",
+			"entries": [
+				"Only usable by Clerics and Paladins, this bejeweled chalice can be used to cast {@spell temple of the gods} once per day, creating a safe haven centered on the position of the chalice. It recharges at dawn."
+			],
+			"recharge": "dawn",
+			"attachedSpells": [
+				"temple of the gods"
+			]
+		},
+		{
+			"name": "+4 All-Purpose Tool",
+			"value": 10000000,
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "AT",
+			"rarity": "legendary",
+			"reqAttune": "by an artificer",
+			"reqAttuneTags": [
+				{
+					"class": "artificer|tce"
+				}
+			],
+			"wondrous": true,
+			"bonusSpellAttack": "+4",
+			"bonusSpellSaveDc": "+4",
+			"focus": [
+				"Artificer"
+			],
+			"entries": [
+				"This simple screwdriver can transform into a variety of tools; as an action, you can touch the item and transform it into any type of artisan's tool of your choice (see the \"Equipment\" chapter in the {@book Player's Handbook|PHB} for a list of {@item artisan's tools|PHB}). Whatever form the tool takes, you are proficient with it.",
+				"While holding this tool, you gain a +4 bonus to the spell attack rolls and the saving throw DCs of your artificer spells.",
+				"As an action, you can focus on the tool to channel your creative forces. Choose a cantrip that you don't know from any class list. For 8 hours, you can cast that cantrip, and it counts as an artificer cantrip for you. Once this property is used, it can't be used again until the next dawn."
+			]
+		},
+		{
+			"name": "+4 Amulet of the Devout",
+			"value": 10000000,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "legendary",
+			"reqAttune": "by a cleric or paladin",
+			"reqAttuneTags": [
+				{
+					"class": "cleric"
+				},
+				{
+					"class": "paladin"
+				}
+			],
+			"wondrous": true,
+			"weight": 1,
+			"bonusSpellAttack": "+4",
+			"bonusSpellSaveDc": "+4",
+			"entries": [
+				"This amulet bears the symbol of a deity inlaid with precious stones or metals. While you wear the holy symbol, you gain a +4 bonus to spell attack rolls and the saving throw DCs of your spells.",
+				"While you wear this amulet, you can use your Channel Divinity feature without expending one of the feature's uses. Once this property is used, it can't be used again until the next dawn."
+			]
+		},
+		{
+			"name": "+4 Arcane Grimoire",
+			"value": 10000000,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "legendary",
+			"reqAttune": "by a wizard",
+			"reqAttuneTags": [
+				{
+					"class": "wizard"
+				}
+			],
+			"wondrous": true,
+			"weight": 3,
+			"bonusSpellAttack": "+4",
+			"bonusSpellSaveDc": "+4",
+			"focus": [
+				"Wizard"
+			],
+			"entries": [
+				"While you are holding this leather-bound book, you can use it as a spellcasting focus for your wizard spells, and you gain a +4 bonus to spell attack rolls and to the saving throw DCs of your wizard spells.",
+				"You can use this book as a spellbook. In addition, when you use your Arcane Recovery feature, you can increase the number of spell slot levels you regain by 1."
+			]
+		},
+		{
+			"name": "+4 Bloodwell Vial",
+			"value": 10000000,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "legendary",
+			"reqAttune": "by a sorcerer",
+			"reqAttuneTags": [
+				{
+					"class": "sorcerer"
+				}
+			],
+			"wondrous": true,
+			"weight": 0.01,
+			"bonusSpellAttack": "+4",
+			"bonusSpellSaveDc": "+4",
+			"focus": [
+				"Sorcerer"
+			],
+			"entries": [
+				"To attune to this vial, you must place a few drops of your blood into it. The vial can't be opened while your attunement to it lasts. If your attunement to the vial ends, the contained blood turns to ash. You can use the vial as a spellcasting focus for your spells while wearing or holding it, and you gain a +4 bonus to spell attack rolls and to the saving throw DCs of your sorcerer spells.",
+				"In addition, when you roll any Hit Dice to recover hit points while you are carrying the vial, you can regain 5 sorcery points. This property of the vial can't be used again until the next dawn."
+			]
+		},
+		{
+			"name": "+4 Dragonhide Belt",
+			"type": "BLT",
+			"value": 10000000,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "legendary",
+			"reqAttune": "by a monk",
+			"reqAttuneTags": [
+				{
+					"class": "monk"
+				}
+			],
+			"wondrous": true,
+			"entries": [
+				"This finely detailed belt is made of dragonhide. While wearing it, you gain a +4 bonus to the saving throw DCs of your ki features. In addition, you can use an action to regain ki points equal to a roll of your Martial Arts die. You can't use this action again until the next dawn."
+			]
+		},
+		{
+			"name": "+4 Moon Sickle",
+			"value": 11250000,
+			"source": "stabbyitems",
+			"page": 0,
+			"baseItem": "sickle|PHB",
+			"type": "M",
+			"rarity": "legendary",
+			"reqAttune": "by a druid or ranger",
+			"reqAttuneTags": [
+				{
+					"class": "druid"
+				},
+				{
+					"class": "ranger"
+				}
+			],
+			"weight": 2,
+			"weaponCategory": "simple",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"bonusWeapon": "+4",
+			"bonusSpellAttack": "+4",
+			"bonusSpellSaveDc": "+4",
+			"focus": [
+				"Druid",
+				"Ranger"
+			],
+			"weapon": true,
+			"entries": [
+				"This silver-bladed sickle glimmers softly with moonlight. While holding this magic weapon, you gain a +4 bonus to attack and damage rolls made with it, and you gain a +4 bonus to spell attack rolls and the saving throw DCs of your druid and ranger spells. In addition, you can use the sickle as a spellcasting focus for your druid and ranger spells.",
+				"When you cast a spell that restores hit points, you can roll a {@dice d4} and add the number rolled to the amount of hit points restored, provided you are holding the sickle."
+			]
+		},
+		{
+			"name": "+4 Rhythm-Maker's Drum",
+			"value": 10000000,
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "INS",
+			"rarity": "legendary",
+			"reqAttune": "by a bard",
+			"reqAttuneTags": [
+				{
+					"class": "bard"
+				}
+			],
+			"wondrous": true,
+			"weight": 3,
+			"grantsProficiency": true,
+			"bonusSpellAttack": "+1",
+			"bonusSpellSaveDc": "+1",
+			"entries": [
+				"While holding this {@item drum|PHB}, you gain a +4 bonus to spell attack rolls and to the saving throw DCs of your bard spells.",
+				"As an action, you can play the {@item drum|PHB} to regain one use of your Bardic Inspiration feature. This property of the {@item drum|PHB} can't be used again until the next dawn."
+			]
+		},
+		{
+			"name": "+4 Rod of the Pact Keeper",
+			"value": 10000000,
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "RD",
+			"rarity": "legendary",
+			"reqAttune": "by a warlock",
+			"reqAttuneTags": [
+				{
+					"class": "warlock"
+				}
+			],
+			"weight": 2,
+			"bonusSpellAttack": "+1",
+			"bonusSpellSaveDc": "+1",
+			"entries": [
+				"While holding this rod, you gain a +4 bonus to spell attack rolls and to the saving throw DCs of your warlock spells.",
+				"In addition, you can regain one warlock spell slot as an action while holding the rod. You can't use this property again until you finish a long rest."
+			]
+		},
+		{
+			"name": "+4 Wand of the War Mage",
+			"value": 5500000,
+			"source": "stabbyitems",
+			"page": 0,
+			"srd": true,
+			"type": "WD",
+			"rarity": "legendary",
+			"reqAttune": "by a spellcaster",
+			"reqAttuneTags": [
+				{
+					"spellcasting": true
+				}
+			],
+			"weight": 1,
+			"bonusSpellAttack": "+4",
+			"entries": [
+				"While you are holding this wand, you gain a +4 bonus to spell attack rolls. In addition, you ignore half cover when making a spell attack."
+			]
+		},
+		{
+			"name": "Enchanted Ankh",
+			"value": 7432000,
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "NW",
+			"reqAttune": true,
+			"wondrous": true,
+			"rarity": "legendary",
+			"entries": [
+				"This small amulet channels life into its wearer.",
+				"Whenever its wearer is targeted by an effect that would cause it to regain hit points, it automatically regains the maximum number of hit points possible for the effect.",
+				"For 1 minute after dying, the wearer's soul floats invisibly over their corpse. They can perceive their surroundings as normal, but cannot move, and cannot be seen even by creatures with truesight. At any time before that minute expires, they may bring themselves back into their body, returning to life with 1 hit point. If they do so, the ankh loses its magic forever, and cannot have it restored except by a {@spell wish} spell."
+			]
+		},
+		{
+			"name": "Figurine of Wondrous Power, Black Onyx Dragon",
+			"value": 4867500,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "legendary",
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Figurine of Wondrous Power|stabbyitems}",
+				"This black onyx statuette is of a fierce dragon. It can become a {@creature young black dragon} for up to 8 hours. Once it has been used, it can't be used again until 30 days have passed."
+			]
+		},
+		{
+			"name": "Figurine of Wondrous Power, Blue Topaz Dragon",
+			"value": 9200000,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "legendary",
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Figurine of Wondrous Power|stabbyitems}",
+				"This blue topaz statuette is of a fierce dragon. It can become a {@creature young blue dragon} for up to 8 hours. Once it has been used, it can't be used again until 30 days have passed."
+			]
+		},
+		{
+			"name": "Figurine of Wondrous Power, Emerald Dragon",
+			"value": 6535000,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "legendary",
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Figurine of Wondrous Power|stabbyitems}",
+				"This emerald statuette is of a fierce dragon. It can become a {@creature young green dragon} for up to 8 hours. Once it has been used, it can't be used again until 30 days have passed."
+			]
+		},
+		{
+			"name": "Figurine of Wondrous Power, Ruby Dragon",
+			"value": 15867500,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "legendary",
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Figurine of Wondrous Power|stabbyitems}",
+				"This ruby statuette is of a fierce dragon. It can become a {@creature young red dragon} for up to 8 hours. Once it has been used, it can't be used again until 30 days have passed."
+			]
+		},
+		{
+			"name": "Figurine of Wondrous Power, Pale Sapphire Dragon",
+			"value": 3867500,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "legendary",
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Figurine of Wondrous Power|stabbyitems}",
+				"This pale sapphire statuette is of a fierce dragon. It can become a {@creature young white dragon} for up to 8 hours. Once it has been used, it can't be used again until 30 days have passed."
+			]
+		},
+		{
+			"name": "Figurine of Wondrous Power, Brass Dragon",
+			"value": 3867500,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "legendary",
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Figurine of Wondrous Power|stabbyitems}",
+				"This brass statuette is of a fierce dragon. It can become a {@creature young brass dragon} for up to 8 hours. Once it has been used, it can't be used again until 30 days have passed."
+			]
+		},
+		{
+			"name": "Figurine of Wondrous Power, Bronze Dragon",
+			"value": 6535000,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "legendary",
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Figurine of Wondrous Power|stabbyitems}",
+				"This bronze statuette is of a fierce dragon. It can become a {@creature young bronze dragon} for up to 8 hours. Once it has been used, it can't be used again until 30 days have passed."
+			]
+		},
+		{
+			"name": "Figurine of Wondrous Power, Copper Dragon",
+			"value": 4867500,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "legendary",
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Figurine of Wondrous Power|stabbyitems}",
+				"This copper statuette is of a fierce dragon. It can become a {@creature young copper dragon} for up to 8 hours. Once it has been used, it can't be used again until 30 days have passed."
+			]
+		},
+		{
+			"name": "Figurine of Wondrous Power, Gold Dragon",
+			"value": 15867500,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "legendary",
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Figurine of Wondrous Power|stabbyitems}",
+				"This golden statuette is of a fierce dragon. It can become a {@creature young gold dragon} for up to 8 hours. Once it has been used, it can't be used again until 30 days have passed."
+			]
+		},
+		{
+			"name": "Figurine of Wondrous Power, Silver Dragon",
+			"value": 9200000,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "legendary",
+			"wondrous": true,
+			"hasRefs": true,
+			"entries": [
+				"{#itemEntry Figurine of Wondrous Power|stabbyitems}",
+				"This silver statuette is of a fierce dragon. It can become a {@creature young silver dragon} for up to 8 hours. Once it has been used, it can't be used again until 30 days have passed."
+			]
+		},
+		{
+			"name": "Hook of a Forgotten One",
+			"value": 18000000,
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "M",
+			"rarity": "legendary",
+			"weight": 2,
+			"weaponCategory": "simple",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"weapon": true,
+			"baseItem": "Sickle",
+			"bonusWeapon": "+3",
+			"entries": [
+				"You have a +3 bonus to attack and damage rolls made with this weapon.",
+				"As an action, you can cause the weapon to shine a small bright light very briefly, and you remove yourself entirely from the memory of a creature you can see. Its memories adapt in whichever way is simplest and most convenient to fill in any blanks left by having forgotten you. For example, if you saved them from a dragon, they might just think they escaped on their own, or a friendly stranger helped them, whose face they never saw. Any holes left in their memory will be typically rationalized away by the character, in circumstances similar to those described in the {@spell modify memory} spell.",
+				"This action has no effect if the creature is hostile to you and has actively thought about you within the last 8 hours, for example if it is in combat with you or searching for you."
+			],
+			"attachedSpells": [
+				"modify memory"
+			]
+		},
+		{
+			"name": "Master Wand",
+			"value": 12000000,
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "WD",
+			"rarity": "legendary",
+			"reqAttune": "by an artificer, sorcerer, warlock, or wizard",
+			"reqAttuneTags": [
+				{
+					"class": "artificer|tce"
+				},
+				{
+					"class": "sorcerer"
+				},
+				{
+					"class": "warlock"
+				},
+				{
+					"class": "wizard"
+				}
+			],
+			"recharge": "dawn",
+			"charges": 14,
+			"entries": [
+				"This intricately-carved wand is part of a set made by a master carver and enchanter in ages past.",
+				"While attuned to this wand, you gain a +3 bonus to spell attack rolls and to your saving throw DC. Additionally, it has 14 charges, and recovers {@dice 1d6 + 1} daily at dawn. These charges can be spent in the following ways:",
+				{
+					"name": "Malleability",
+					"type": "entries",
+					"entries": [
+						"You may spend 1 charge (or more) as part of casting a spell, thereby changing all instances of damage of one damage type of your choice dealt by the spell into another damage type of your choice. You can use this effect multiple times as part of the same spellcast, selecting a different pair of damage types and spending 1 additional charge for each repetition."
+					]
+				},
+				{
+					"name": "Penetration",
+					"type": "entries",
+					"entries": [
+						"You may spend 1 charge (or more) as part of casting a spell, causes one target affected by it to have disadvantage on its saving throw to resist the spell's effects if one is made, and grants you advantage on the spell attack roll if one is made. You can trigger this effect multiple times as part of the same spellcast, selecting a different creature and spending 1 additional charge for each repetition."
+					]
+				},
+				{
+					"name": "Acceleration",
+					"type": "entries",
+					"entries": [
+						"You may spend 3 charges as part of casting a spell with a casting time of 1 action, to instead cast that spell as a bonus action. This bonus action casting ignores the rule limiting the number of non-cantrip spells you can cast on the same turn."
+					]
+				},
+				{
+					"name": "Empowerment",
+					"type": "entries",
+					"entries": [
+						"You may spend 4 charges as part of casting a spell, doubling all damage and healing done by the spell."
+					]
+				},
+				{
+					"name": "Empowerment",
+					"type": "entries",
+					"entries": [
+						"You may spend 7 charges as part of casting a single-target spell, thereby forcing that target to forego rolling its saving throw (if one is made) and instead fail it. This failure cannot be undone nor prevented by any other feature, such as a creature's Legendary Resistance."
+					]
+				},
+				"As part of the same spellcast, you can trigger multiple of these abilities together, as long as the wand has enough charges and the combined number of charges to be spent does not exceed 7.",
+				"If you expend the wand's last charge, roll a d20. On a 1, it disappears in an explosion of magical energy and is destroyed forever. Creatures within 60 feet of the wand make a Constitution saving throw, taking {@damage 8d6} force damage on a failure or half as much on a success."
+			]
+		},
+		{
+			"name": "Mirror Shield",
+			"value": 15000000,
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "S",
+			"rarity": "legendary",
+			"ac": 2,
+			"bonusAc": "+1",
+			"bonusSavingThrow": "+1",
+			"baseItem": "shield",
+			"reqAttune": true,
+			"entries": [
+				"The outer surface of this silvery shield is as a smooth mirror.",
+				"This shield grants you a +1 bonus to AC and saving throws.",
+				"As a reaction when you are targeted by a {@spell magic missile} spell, a line spell, or a spell that requires a ranged attack roll, you may hold the shield firmly in its path and turn it to reflect the triggering spell in a direction of your choice, including back towards the source. You are unaffected, and the line of the line spell is redirected after your position along that angle, while the {@spell magic missile} spell or spell that requires a ranged attack roll are instead made against the first creature along the chosen direction, if any remain within range - otherwise, the reflected spell simply flickers out as it reaches its maximum range.",
+				"Also as a reaction, when a creature targets you with an eye-contact-based feature such as a {@creature basilisk}'s petrifying gaze, you can do the same and cause it to gaze at a different creature, including the source itself."
+			]
+		},
+		{
+			"name": "Painter's Supplies of Reality",
+			"value": 13000000,
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "AT",
+			"rarity": "legendary",
+			"baseItem": "painter's supplies",
+			"wondrous": true,
+			"charges": 10,
+			"recharge": "dawn",
+			"entries": [
+				"These painter's supplies can be used to turn art into reality. Whenever a creature proficienct with painter's supplies paints an object onto a surface using these tools, the object takes 3-dimensional shape and becomes real. The item's surface feels like a thick layer of dry ink to the touch, but it otherwise functions as normal. You can create an inky copy of any non-magical item of your choice this way, as long as it is no larger than 5 feet in any dimension, and spend an amount of ink proportional to its size (DM's discretion).",
+				"Alternatively, you may also paint a hole, window or door into a surface, and if that surface is at most 5 feet thick, the area is hollowed out, and the hole, window or door becomes real, leading from one side to the other.",
+				"This item has 10 charges, and each charge allows you to paint up to 5-square-foot worth of a flat surface, or one-tenth of a 5-foot cube. Its inks magically refill, and the item regains up to 1d10 charges each day at dawn."
+			]
+		},
+		{
+			"name": "Seven-League Boots",
+			"value": 28000000,
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "FW",
+			"wondrous": true,
+			"rarity": "legendary",
+			"entries": [
+				"A character wearing these boots can use 5 feet of movement to take a step and be teleported to an unoccupied aboveground point 24 miles in the direction of the step taken, along with anything it is wearing or carrying."
+			]
+		},
+		{
+			"name": "Shining Opal",
+			"value": 4000000,
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"rarity": "legendary",
+			"entries": [
+				"This bright multicolored gemstone can be used as a casting material to substitute any gemstone or pearl with a GP cost.",
+				"If the item would be consumed, it instead loses its magic, which it regains after 1d6 days at dawn. Increase this time by 1 day for every 500 gp the spell's materials would have cost (rounded down)."
+			]
+		},
+		{
+			"name": "Staunch Heart",
+			"value": 15000000,
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "PRO",
+			"wondrous": true,
+			"rarity": "legendary",
+			"reqAttune": true,
+			"entries": [
+				"In order to attune to this item, you must undergo an operation to replace your heart with this prosthetic.",
+				"While attuned to this item, your Wisdom and Constitution scores and their maximum values increase by 3, and you have proficiency in Constitution saving throws. You also become adapted to high altitude climates.",
+				"Once you have been attuned to this item for 5 consecutive years, it stops counting towards your attunement slots."
+			]
+		},
+		{
+			"name": "Talisman of Absolute Balance",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "NW",
+			"wondrous": true,
+			"rarity": "legendary",
+			"reqAttune": "by a creature of neutral alignment",
+			"charges": 8,
+			"value": 28000000,
+			"entries": [
+				"This item symbolizes neutrality and balance. A creature that is either good or evil in alignment takes 8d6 necrotic damage upon touching the talisman. Either sort of creature takes the damage again each time it ends its turn holding or carrying the talisman.",
+				"If you are a neutral cleric or paladin, you can use the talisman as a holy symbol, and you gain a +2 bonus to spell attack rolls while you wear or hold it.",
+				"The talisman has 8 charges. If you are wearing or holding it, you can use an action to expend 1 charge from the talisman and choose one creature you can see on the ground within 120 feet of you. If the target is of good or evil alignment, a flaming fissure opens under it. The target must succeed on a DC 20 Dexterity saving throw or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman fades into transparency and vanishes without a trace, destroyed."
+			]
+		},
+		{
+			"name": "Throne of Far Sight",
+			"value": 30000000,
+			"source": "stabbyitems",
+			"page": 0,
+			"wondrous": true,
+			"rarity": "legendary",
+			"reqAttune": true,
+			"entries": [
+				"This ornate stone throne adorned with gold and inlaid with gemstones always weighs several hundred pounds, even though its size magically adjusts to one comfortable one for the creature attuned to it.",
+				"A creature sitting on this throne while attuned to it can use it at will to cast {@spell scrying} and {@spell commune}, with a casting time of only one action."
+			],
+			"attachedSpells": [
+				"scrying",
+				"commune"
+			]
+		},
+		{
+			"name": "Unicorn Horn Scepter",
+			"value": 8200000,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "legendary",
+			"reqAttune": true,
+			"wondrous": true,
+			"charges": 5,
+			"recharge": "dawn",
+			"entries": [
+				"This pearly white scepter was sculpted from a unicorn horn. It can be used as spellcasting focus by druids and rangers.",
+				"A creature attuned to the scepter gains advantage on saving throws against spells and other magical effects.",
+				"This item has 5 charges, and regains all of them each day at dawn. You can spend 1 charge and use an action to touch the scepter to a creature, causing it to regain {@dice 2d8 + 2} hit points and curing it of all diseases and poisons. You can also spend 1 charge to cast {@spell calm emotions}, {@spell dispel evil and good} or {@spell entangle} through the scepter, without expending a spell slot.",
+				"The scepter also allows you to cast {@spell detect evil and good}, {@spell druidcraft}, and {@spell pass without a trace} at will."
+			],
+			"attachedSpells": [
+				"detect evil and good",
+				"druidcraft",
+				"pass without a trace",
+				"calm emotions",
+				"dispel evil and good",
+				"entangle"
+			]
+		},
+		{
+			"name": "Unicorn Horn Scepter (Cursed)",
+			"value": 8200000,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "legendary",
+			"reqAttune": true,
+			"wondrous": true,
+			"curse": true,
+			"charges": 5,
+			"recharge": "dawn",
+			"entries": [
+				"This pearly white scepter was sculpted from a unicorn horn. It can be used as spellcasting focus by druids and rangers.",
+				"A creature attuned to the scepter gains advantage on saving throws against spells and other magical effects.",
+				"This item has 5 charges, and regains all of them each day at dawn. You can spend 1 charge and use an action to touch the scepter to a creature, causing it to regain {@dice 2d8 + 2} hit points and curing it of all diseases and poisons. You can also spend 1 charge to cast {@spell calm emotions}, {@spell dispel evil and good} or {@spell entangle} through the scepter, without expending a spell slot.",
+				"The scepter also allows you to cast {@spell detect evil and good}, {@spell druidcraft}, and {@spell pass without a trace} at will.",
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"A unicorn horn scepter crafted from a horn harvested from a living unicorn, one who has died an unnatural death, or one whose death was natural but whose permission for harvest was not obtained in life, is cursed, and imposes its curse upon its bearer on attunement. Its true nature reveals itself when attuned to. A {@spell remove curse} spell cast on the scepter can break the creature's attunement to it and save the creature from the curse, but nothing short of a {@spell wish} spell can cleanse the scepter.",
+						"A creature cursed this way cannot break its attunement from the scepter, and has disadvantage on all ability checks and saving throws, and does not benefit from the spell resistance normally granted by the scepter.",
+						"A cursed unicorn horn scepter has a Curse DC of 20."
+					]
+				}
+			],
+			"attachedSpells": [
+				"detect evil and good",
+				"druidcraft",
+				"pass without a trace",
+				"calm emotions",
+				"dispel evil and good",
+				"entangle"
+			]
+		},
+		{
+			"name": "Instant Galleon",
+			"value": 120000,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "legendary",
+			"type": "SHP",
+			"wondrous": true,
+			"entries": [
+				"You can use an action to place this miniature galleon on water and speak its command word. The miniature rapidly grows into a full-sized warship if there is room for it in the water, expanding away from the nearest shore. It remains in this form until you use an action to speak the command word that dismisses it, which works only if the galleon is empty.",
+				"Creatures within the area the galleon expands into are pushed harmlessly to the nearest unoccupied space nearby.",
+				"The galleon is manned by 300 unseen servants, who obey you as their captain and can fully operate the vessel and its defenses. These unseen servants cannot be slain, but disappear if the boat is ever destroyed. The boat has 600 hit points, AC 15, and resistance to all damage except siege. It ignores all instances of damage below 10 hit points. If it reaches 0 hit points, the boat loses its magic, and sinks. It has a base speed of 6 mph from rowing, with a bonus of up to plus 8 mph from favourable winds, and a malus of up to minus 1 from unfavourable winds."
+			],
+			"crew": 300,
+			"vehAc": 15,
+			"vehHp": 600,
+			"vehDmgThresh": 15,
+			"vehSpeed": 6,
+			"capPassenger": 120,
+			"capCargo": 150
+		},
+		{
+			"name": "+4 Shield",
+			"source": "stabbyitems",
+			"page": 0,
+			"type": "S",
+			"rarity": "legendary",
+			"value": 7630000,
+			"weight": 6,
+			"ac": 2,
+			"bonusAc": "+4",
+			"entries": [
+				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
+				"A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time."
+			]
+		},
+		{
+			"name": "+1 Veteran's Cane",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "uncommon",
+			"type": "M",
+			"wondrous": true,
+			"value": 120000,
+			"entries": [
+				"When you grasp this walking cane and use a bonus action to speak the command word, it transforms into a {@item +1 longsword}. While in sword form, you can use another bonus action to speak the command word again and transform it back into a walking cane."
+			]
+		},
+		{
+			"name": "+1 Belt of the Martial Artist",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "uncommon",
+			"type": "BLT",
+			"wondrous": true,
+			"reqAttune": true,
+			"value": 85000,
+			"bonusWeaponDamage": "+1",
+			"entries": [
+				"While wearing this belt, you gain a +1 bonus to damage rolls with your unarmed attacks. Additionally, when you take the Dodge action on your turn, damage you take from attacks is halved until the start of your next turn."
+			]
+		},
+		{
+			"name": "+2 Belt of the Martial Artist",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "rare",
+			"type": "BLT",
+			"wondrous": true,
+			"reqAttune": true,
+			"value": 535500,
+			"bonusWeaponDamage": "+2",
+			"entries": [
+				"While wearing this belt, you gain a +2 bonus to damage rolls with your unarmed attacks. Additionally, when you take the Dodge action on your turn, damage you take from attacks is halved until the start of your next turn."
+			]
+		},
+		{
+			"name": "+3 Belt of the Martial Artist",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "very rare",
+			"type": "BLT",
+			"wondrous": true,
+			"reqAttune": true,
+			"value": 2592500,
+			"bonusWeaponDamage": "+3",
+			"entries": [
+				"While wearing this belt, you gain a +3 bonus to damage rolls with your unarmed attacks. Additionally, when you take the Dodge action on your turn, damage you take from attacks is halved until the start of your next turn."
+			]
+		},
+		{
+			"name": "+4 Belt of the Martial Artist",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "legendary",
+			"type": "BLT",
+			"wondrous": true,
+			"reqAttune": true,
+			"value": 6481500,
+			"bonusWeaponDamage": "+4",
+			"entries": [
+				"While wearing this belt, you gain a +4 bonus to damage rolls with your unarmed attacks. Additionally, when you take the Dodge action on your turn, damage you take from attacks is halved until the start of your next turn."
+			]
+		},
+		{
+			"name": "Shock Gloves",
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "uncommon",
+			"type": "HNDW",
+			"wondrous": true,
+			"value": 95000,
+			"entries": [
+				"While wearing these gloves, you can convert the damage type of any unarmed attack you make to lightning. Additionally, you can cast the {@spell shocking grasp} cantrip at will through them."
+			]
+		},
+		{
+			"name": "Pendant of Hellfire",
+			"value": 6800000,
+			"source": "stabbyitems",
+			"page": 0,
+			"rarity": "legendary",
+			"reqAttune": true,
+			"wondrous": true,
+			"weight": 0.5,
+			"focus": true,
+			"entries": [
+				"This pendant of gold and onyx on a steel chain bears a carving of a fiery hellscape on its front, and an insignia of a fiery whip on its back. It feels hot to the touch.",
+				"While worn around your neck, this pendant can be used as a spellcasting focus. Whenever you use it to cast a spell that deals fire damage, if it has an area of effect, increase it by 5 ft.",
+				"Additionally, whenever you deal any fire damage (including non-spell), increase that damage by 1d6."
+			]
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+	],
+	"magicvariant": [
+		{
+			"name": "Armor of Many Fashions",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"value": 7500,
+			"inherits": {
+				"nameSuffix": " of Many Fashions",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "common",
+				"valueExpression": "[[baseItem.value]] + 7500",
+				"entries": [
+					"While wearing this armor, you can use a bonus action to change the style, color, and apparent quality of the garment. The armor’s weight doesn’t change.",
+					"Regardless of its appearance, the armor can’t be anything other than the type of armor it is. Although it can duplicate the appearance of other magic amors, it doesn’t gain their magical properties.",
+					"Created by Tiago Neves, based on official content."
+				]
+			}
+		},
+		{
+			"name": "Sword of Conducting",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Shortsword"
+				},
+				{
+					"name": "Rapier"
+				}
+			],
+			"value": 3000,
+			"inherits": {
+				"nameSuffix": " of Conducting",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "common",
+				"valueExpression": "[[baseItem.value]] + 3000",
+				"entries": [
+					"This sword has 3 charges. While holding it, you can use an action to expend 1 of its charges and create orchestral music by waving it around. The music can be heard out to a range of 60 feet and ends when you stop waving the shortsword.",
+					"The wand regains all expended charges daily at dawn. If you expend the sword’s last charge, roll a d20. On a 1, a sad tuba sound plays as the sword crumbles to dust and is destroyed.",
+					"Created by Tiago Neves, based on official content."
+				]
+			}
+		},
+		
+		
+		
+		
+		
+		
+		
+		
+		{
+			"name": "Armor of Acceleration",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"value": 152000,
+			"inherits": {
+				"nameSuffix": " of Acceleration",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "uncommon",
+				"valueExpression": "[[baseItem.value]] + 152000",
+				"entries": [
+					"While wearing this armor, you can use an action to receive the benefits of a {@spell haste} spell, for a duration of 1 minute, requiring no concentration. Once you have used this feature, you can’t use it again until the next dawn.",
+					"Created by Tiago Neves, edited by Francisco Pesquita."
+				],
+				"attachedSpells": [
+					"haste"
+				],
+				"recharge": "dawn",
+				"reqAttune": true
+			}
+		},
+		{
+			"name": "Axe of the Logger",
+			"type": "GV",
+			"requires": [
+				{
+					"axe": true
+				}
+			],
+			"value": 280000,
+			"inherits": {
+				"nameSuffix": " of the Logger",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "uncommon",
+				"valueExpression": "[[baseItem.value]] + 280000",
+				"entries": [
+					"You have a +1 bonus to attack and damage rolls with this weapon. This bonus improves to +3 against Plants and wood-based Constructs. Additionally, you can forego attack rolls against inanimate wooden objects, replacing the roll with a natural 20."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Grappling Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Whip"
+				},
+				{
+					"name": "Flail"
+				}
+			],
+			"value": 12000,
+			"inherits": {
+				"namePrefix": "Grappling ",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "uncommon",
+				"valueExpression": "[[baseItem.value]] + 12000",
+				"entries": [
+					"This weapon can stretch as you attack, doubling its reach (on top of the standard increase of 5 feet if it has reach). It also allows you to shove creatures within reach in place of a weapon attack, as described in the Player's Handbook, but you choose between knocking them prone and pulling them 5 feet towards you or in a lateral direction, rather than pushing them away.",
+					"This weapon can additionally be used as a grappling hook: in place of a weapon attack with this weapon, you can target a steady surface or a loose object within reach. The point will attach itself securely to a targeted steady surface, allowing you to pull yourself a distance of your choice towards it as a bonus action. If you target a loose object you may pull it towards you as a bonus action, and if it is light enough you can pull it through the air all the way to your position as part of the same bonus action."
+				],
+				"reqAttune": true,
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "Multiform Weapon",
+			"type": "GV",
+			"value": 28000,
+			"requires": [
+				{
+					"type": "M"
+				},
+				{
+					"type": "R"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Multiform ",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "uncommon",
+				"value": 28000,
+				"entries": [
+					"You can change the shape of this weapon by thought as a bonus action, converting it into a simple or martial weapon of a different type of your choice, which retains this magical property."
+				]
+			}
+		},
+		{
+			"name": "+1 Musical Instrument",
+			"type": "INS",
+			"requires": [
+				{
+					"type": "INS"
+				}
+			],
+			"value": 50000,
+			"inherits": {
+				"namePrefix": "+1 ",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "uncommon",
+				"valueExpression": "[[baseItem.value]] + 50000",
+				"entries": [
+					"You have a bonus of +1 to ability checks made with this musical instrument."
+				]
+			}
+		},
+		{
+			"name": "+1 Tool",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "T"
+				},
+				{
+					"type": "AT"
+				}
+			],
+			"value": 50000,
+			"inherits": {
+				"namePrefix": "+1 ",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "uncommon",
+				"valueExpression": "[[baseItem.value]] + 50000",
+				"entries": [
+					"You have a bonus of +1 to ability checks made with this magic tool."
+				]
+			}
+		},
+		{
+			"name": "Weapon of Glowing",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M"
+				}
+			],
+			"value": 110000,
+			"inherits": {
+				"nameSuffix": " of Glowing",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "uncommon",
+				"valueExpression": "[[baseItem.value]] + 110000",
+				"entries": [
+					"When you hit an attack with this weapon with a natural roll of 19 or higher, your target makes a Dexterity saving throw against a DC of 12. On a failure, it's covered in sparkling glowing dust that emits dim blue light to a range of 10ft for up to 1 minute.",
+					"While affected by this effect, any attack roll against the creature has advantage if the attacker can see it, and the creature does not benefit from invisibility.",
+					"If the creature uses any of its movement on its turn, it can repeat the saving throw at the end of its turn, ending the effect on a success."
+				],
+				"reqAttune": true
+			}
+		},
+		{
+			"name": "Weapon of Violence",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "M"
+				}
+			],
+			"value": 460000,
+			"inherits": {
+				"nameSuffix": " of Violence",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "uncommon",
+				"curse": true,
+				"valueExpression": "[[baseItem.value]] + 460000",
+				"reqAttune": true,
+				"bonusWeapon": "+1",
+				"entries": [
+					"This weapon appears to be in all ways like a {@item +1 weapon}.",
+					{
+						"type": "entries",
+						"name": "Curse",
+						"entries": [
+							"This weapon is cursed, with a Curse DC of 13, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unwilling to part with the weapon."
+						]
+					},
+					"This weapon has a +1 bonus to attack and damage rolls.",
+					"You have disadvantage with all other weapons while attuned to this weapon. Whenever you start your turn and there is an enemy creature within 10 feet of you, you must move towards it and take the attack action to attack it with this weapon. You can take no other action on that turn until you have taken that action.",
+					"Whenever you hit an attack with this weapon, you gain temporary hit points equal to the damage dealt by the weapon on the attack, which last 1 minute or until the weapon leaves your hand, whichever comes first.",
+					"Whenever you miss an attack with this weapon, you take 1d4 psychic damage."
+				]
+			}
+		},
+
+		
+		
+		
+		
+		
+		
+		
+		{
+			"name": "Brutal Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"value": 483000,
+			"inherits": {
+				"namePrefix": "Brutal ",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "rare",
+				"valueExpression": "[[baseItem.value]] + 483000",
+				"entries": [
+					"Attacks with this weapon have a -5 penalty to hit, but deal 10 extra damage on a successful hit."
+				],
+				"reqAttune": true,
+				"bonusWeaponAttack": "-5",
+				"bonusWeaponDamage": "+10"
+
+			}
+		},
+		{
+			"name": "Echoing Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"excludes": {
+				"name": [
+					"Net"
+				]
+			},
+			"value": 290000,
+			"inherits": {
+				"namePrefix": "Echoing ",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "uncommon",
+				"valueExpression": "[[baseItem.value]] + 290000",
+				"entries": [
+					"When you make an attack roll with this weapon and score a natural roll of 18 or higher, as long as the weapon remains in your hands, you forcibly make an additional free attack on the same target with this weapon immediately after resolving the triggering attack. This attack is an automatic hit, and consumes additional ammunition if the weapon has the ammunition property. This feature can only trigger once per turn."
+				]
+			}
+		},
+		{
+			"name": "+1 Echoing Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"value": 590000,
+			"inherits": {
+				"namePrefix": "+1 Echoing ",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "rare",
+				"valueExpression": "[[baseItem.value]] + 590000",
+				"entries": [
+					"Attacks with this weapon receive a +1 bonus to attack and damage rolls.",
+					"Additionally, when you make an attack roll with this weapon and score a natural roll of 18 or higher, as long as the weapon remains in your hands, you forcibly make an additional free attack on the same target with this weapon immediately after resolving the triggering attack. This attack is an automatic hit, and consumes additional ammunition if the weapon has the ammunition property. This feature can only trigger once per turn."
+				],
+				"bonusWeaponAttack": "+1",
+				"bonusWeaponDamage": "+1"
+			}
+		},
+		{
+			"name": "Spellcasting Focus of Extended Reach",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "SCF"
+				}
+			],
+			"value": 210000,
+			"inherits": {
+				"nameSuffix": " of Extended Reach",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "rare",
+				"valueExpression": "[[baseItem.value]] + 210000",
+				"entries": [
+					"All spells you cast using this spellcasting focus with a range of 5ft or higher have their range doubled."
+				]
+			}
+		},
+		{
+			"name": "+2 Musical Instrument",
+			"type": "INS",
+			"requires": [
+				{
+					"type": "INS"
+				}
+			],
+			"value": 315000,
+			"inherits": {
+				"namePrefix": "+2 ",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "rare",
+				"valueExpression": "[[baseItem.value]] + 315000",
+				"entries": [
+					"You have a bonus of +2 to ability checks made with this musical instrument."
+				]
+			}
+		},
+		{
+			"name": "+2 Tool",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "T"
+				},
+				{
+					"type": "AT"
+				}
+			],
+			"value": 315000,
+			"inherits": {
+				"namePrefix": "+2 ",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "rare",
+				"valueExpression": "[[baseItem.value]] + 315000",
+				"entries": [
+					"You have a bonus of +2 to ability checks made with this magic tool."
+				]
+			}
+		},
+		{
+			"name": "Weapon of Bashing",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"dmgType": "B"
+				}
+			],
+			"value": 290000,
+			"inherits": {
+				"nameSuffix": " of Bashing",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "rare",
+				"valueExpression": "[[baseItem.value]] + 290000",
+				"entries": [
+					"Whenever you roll a natural 19-20 on an attack roll with this weapon, your target must make a Constitution saving throw against a DC equal to the bludgeoning damage dealt by the attack. On a failure, it is {@condition stunned} until the end of its next turn."
+				]
+			}
+		},
+		{
+			"name": "Weapon of Deanimation",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"dmgType": "B"
+				}
+			],
+			"value": 932500,
+			"inherits": {
+				"nameSuffix": " of Deanimation",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "rare",
+				"valueExpression": "[[baseItem.value]] + 932500",
+				"entries": [
+					"Deals {@damage 2d6} extra force damage against undead and constructs.",
+					"On a natural attack roll of 20, the target must make a Constitution saving throw against a DC of 16. On a failure, it becomes {@condition paralyzed} until the end of the attacker's next turn."
+				]
+			}
+		},
+		{
+			"name": "Weapon of Recklessness",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"type": "M"
+				}
+			],
+			"value": 800000,
+			"inherits": {
+				"nameSuffix": " of Recklessness",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "rare",
+				"valueExpression": "[[baseItem.value]] + 800000",
+				"entries": [
+					"When you first make an attack on your turn with this weapon, you can opt to give yourself advantage on all attack rolls you make with this weapon but also give everyone who attacks you advantage on their attack rolls to hit you until the start of your next turn."
+				]
+			}
+		},
+		{
+			"name": "Wizardsbane Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"value": 495000,
+			"inherits": {
+				"namePrefix": "Wizardsbane ",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "rare",
+				"reqAttune": true,
+				"valueExpression": "[[baseItem.value]] + 495000",
+				"entries": [
+					"Whenever you score a critical hit against a creature who has spell slots, the creature loses one of its highest level spell slots up to level {@dice 1d4 + 1}. The attack deals extra force damage equal to the level of the lost spell slot."
+				]
+			}
+		},
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		{
+			"name": "Armor of Caution",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"value": 1600000,
+			"inherits": {
+				"nameSuffix": " of Caution",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "very rare",
+				"reqAttune": true,
+				"valueExpression": "[[baseItem.value]] + 1600000",
+				"entries": [
+					"When a creature makes an attack against you, you can use your reaction to force disadvantage on that attack. If you do, all attacks against you until the end of your next turn are made with disadvantage, but so are all attacks you make."
+				]
+			}
+		},
+		{
+			"name": "Echoing Spellcasting Focus",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "SCF"
+				}
+			],
+			"value": 3400000,
+			"inherits": {
+				"namePrefix": "Echoing ",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "very rare",
+				"valueExpression": "[[baseItem.value]] + 3400000",
+				"entries": [
+					"Whenever you cast a spell with this focus, roll a {@dice d12}. On a 12, cast a copy of the spell without expending a spellslot or any material components; you may select different targets for it, but you must cast it. If you do not wish to cast the echo, it is cast regardless, with the same targets as the original instance of the spell.",
+					"The echo is cast after the original spell's immediate effects have been resolved - for example, if the original spell kills its target, that target is no longer valid for the echo.",
+					"An echoed spell cannot cause other echoes of itself via this feature."
+				]
+			}
+		},
+		{
+			"name": "+3 Musical Instrument",
+			"type": "INS",
+			"requires": [
+				{
+					"type": "INS"
+				}
+			],
+			"value": 1525000,
+			"inherits": {
+				"namePrefix": "+3 ",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "very rare",
+				"valueExpression": "[[baseItem.value]] + 1525000",
+				"entries": [
+					"You have a bonus of +3 to ability checks made with this musical instrument."
+				]
+			}
+		},
+		{
+			"name": "+3 Tool",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "T"
+				},
+				{
+					"type": "AT"
+				}
+			],
+			"value": 1525000,
+			"inherits": {
+				"namePrefix": "+3 ",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "very rare",
+				"valueExpression": "[[baseItem.value]] + 1525000",
+				"entries": [
+					"You have a bonus of +3 to ability checks made with this magic tool."
+				]
+			}
+		},
+		{
+			"name": "Weapon of Arc Lightning",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"value": 2250000,
+			"inherits": {
+				"nameSuffix": " of Arc Lightning",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "very rare",
+				"reqAttune": true,
+				"valueExpression": "[[baseItem.value]] + 2250000",
+				"entries": [
+					"Whenever you hit an attack with a roll of 19-20, your target takes {@damage 4d6} lightning damage. Keep the results of each die rolled.",
+					"Drop the lowest die. The nearest creature to your target within 20 ft. of it that is hostile to you makes a Dexterity saving throw. On a failure, it takes lightning damage equal to the remaining dice. On a success, it takes half damage. Also on a failure, if more than one die remains, you repeat the process within 20 ft. of the last hit creature, jumping to a new creature that has not yet been hurt by this same chain."
+				]
+			}
+		},
+		{
+			"name": "+4 Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A"
+				},
+				{
+					"type": "AF"
+				}
+			],
+			"ammo": true,
+			"value": 190000,
+			"inherits": {
+				"namePrefix": "+4 ",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "legendary",
+				"bonusWeapon": "+4",
+				"valueExpression": "[[baseItem.value]] + 190000",
+				"entries": [
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical."
+				]
+			}
+		},
+		{
+			"name": "+4 Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"value": 7625000,
+			"inherits": {
+				"namePrefix": "+4 ",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "legendary",
+				"bonusAc": "+4",
+				"valueExpression": "[[baseItem.value]] + 7625000",
+				"entries": [
+					"You have a {=bonusAc} bonus to AC while wearing this armor."
+				]
+			}
+		},
+		{
+			"name": "+4 Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"value": 7625000,
+			"inherits": {
+				"namePrefix": "+4 ",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "legendary",
+				"bonusWeapon": "+4",
+				"valueExpression": "[[baseItem.value]] + 7625000",
+				"entries": [
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon."
+				]
+			}
+		},
+		{
+			"name": "Armor of Acid Immunity",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"value": 8200000,
+			"inherits": {
+				"nameSuffix": " of Acid Immunity",
+				"source": "stabbyitems",
+				"page": 0,
+				"resist": [
+					"acid"
+				],
+				"rarity": "legendary",
+				"reqAttune": true,
+				"hasRefs": true,
+				"valueExpression": "[[baseItem.value]] + 8200000",
+				"entries": [
+					"{#itemEntry Armor of immunity|stabbyitems}"
+				]
+			}
+		},
+		{
+			"name": "Armor of Cold Immunity",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"value": 8200000,
+			"inherits": {
+				"nameSuffix": " of Cold Immunity",
+				"source": "stabbyitems",
+				"page": 0,
+				"resist": [
+					"cold"
+				],
+				"rarity": "legendary",
+				"reqAttune": true,
+				"hasRefs": true,
+				"valueExpression": "[[baseItem.value]] + 8200000",
+				"entries": [
+					"{#itemEntry Armor of immunity|stabbyitems}"
+				]
+			}
+		},
+		{
+			"name": "Armor of Fire Immunity",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"value": 8200000,
+			"inherits": {
+				"nameSuffix": " of Fire Immunity",
+				"source": "stabbyitems",
+				"page": 0,
+				"resist": [
+					"fire"
+				],
+				"rarity": "legendary",
+				"reqAttune": true,
+				"hasRefs": true,
+				"valueExpression": "[[baseItem.value]] + 8200000",
+				"entries": [
+					"{#itemEntry Armor of immunity|stabbyitems}"
+				]
+			}
+		},
+		{
+			"name": "Armor of Force Immunity",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"value": 8200000,
+			"inherits": {
+				"nameSuffix": " of Force Immunity",
+				"source": "stabbyitems",
+				"page": 0,
+				"resist": [
+					"force"
+				],
+				"rarity": "legendary",
+				"reqAttune": true,
+				"hasRefs": true,
+				"valueExpression": "[[baseItem.value]] + 8200000",
+				"entries": [
+					"{#itemEntry Armor of immunity|stabbyitems}"
+				]
+			}
+		},
+		{
+			"name": "Armor of Lightning Immunity",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"value": 8200000,
+			"inherits": {
+				"nameSuffix": " of Lightning Immunity",
+				"source": "stabbyitems",
+				"page": 0,
+				"resist": [
+					"lightning"
+				],
+				"rarity": "legendary",
+				"reqAttune": true,
+				"hasRefs": true,
+				"valueExpression": "[[baseItem.value]] + 8200000",
+				"entries": [
+					"{#itemEntry Armor of immunity|stabbyitems}"
+				]
+			}
+		},
+		{
+			"name": "Armor of Necrotic Immunity",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"value": 8200000,
+			"inherits": {
+				"nameSuffix": " of Necrotic Immunity",
+				"source": "stabbyitems",
+				"page": 0,
+				"resist": [
+					"necrotic"
+				],
+				"rarity": "legendary",
+				"reqAttune": true,
+				"hasRefs": true,
+				"valueExpression": "[[baseItem.value]] + 8200000",
+				"entries": [
+					"{#itemEntry Armor of immunity|stabbyitems}"
+				]
+			}
+		},
+		{
+			"name": "Armor of Poison Immunity",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"value": 8200000,
+			"inherits": {
+				"nameSuffix": " of Poison Immunity",
+				"source": "stabbyitems",
+				"page": 0,
+				"resist": [
+					"poison"
+				],
+				"rarity": "legendary",
+				"reqAttune": true,
+				"hasRefs": true,
+				"valueExpression": "[[baseItem.value]] + 8200000",
+				"entries": [
+					"{#itemEntry Armor of immunity|stabbyitems}"
+				]
+			}
+		},
+		{
+			"name": "Armor of Psychic Immunity",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"value": 8200000,
+			"inherits": {
+				"nameSuffix": " of Psychic Immunity",
+				"source": "stabbyitems",
+				"page": 0,
+				"resist": [
+					"psychic"
+				],
+				"rarity": "legendary",
+				"reqAttune": true,
+				"hasRefs": true,
+				"valueExpression": "[[baseItem.value]] + 8200000",
+				"entries": [
+					"{#itemEntry Armor of immunity|stabbyitems}"
+				]
+			}
+		},
+		{
+			"name": "Armor of Radiant Immunity",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"value": 8200000,
+			"inherits": {
+				"nameSuffix": " of Radiant Immunity",
+				"source": "stabbyitems",
+				"page": 0,
+				"resist": [
+					"radiant"
+				],
+				"rarity": "legendary",
+				"reqAttune": true,
+				"hasRefs": true,
+				"valueExpression": "[[baseItem.value]] + 8200000",
+				"entries": [
+					"{#itemEntry Armor of immunity|stabbyitems}"
+				]
+			}
+		},
+		{
+			"name": "Armor of Thunder Immunity",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true
+				}
+			],
+			"value": 8200000,
+			"inherits": {
+				"nameSuffix": " of Thunder Immunity",
+				"source": "stabbyitems",
+				"page": 0,
+				"resist": [
+					"thunder"
+				],
+				"rarity": "legendary",
+				"reqAttune": true,
+				"hasRefs": true,
+				"valueExpression": "[[baseItem.value]] + 8200000",
+				"entries": [
+					"{#itemEntry Armor of immunity|stabbyitems}"
+				]
+			}
+		},
+		{
+			"name": "Fortunate Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true
+				}
+			],
+			"value": 16500000,
+			"inherits": {
+				"namePrefix": "Fortunate ",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "legendary",
+				"reqAttune": true,
+				"valueExpression": "[[baseItem.value]] + 16500000",
+				"entries": [
+					"These legendary weapons of extreme rarity come in all varieties. They are said to have been blessed by the gods of Luck themselves.",
+					"This weapon has a +1 bonus to attack and damage rolls. Additionally, you may treat any result of 1-4 on an attack roll as a 5, and any result of 17-19 as a 20."
+				],
+				"bonusWeapon": "+1"
+			}
+		},
+		{
+			"name": "+4 Musical Instrument",
+			"type": "INS",
+			"requires": [
+				{
+					"type": "INS"
+				}
+			],
+			"value": 3812500,
+			"inherits": {
+				"namePrefix": "+4 ",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "legendary",
+				"valueExpression": "[[baseItem.value]] + 3812500",
+				"entries": [
+					"You have a bonus of +4 to ability checks made with this musical instrument."
+				]
+			}
+		},
+		{
+			"name": "+4 Tool",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "T"
+				},
+				{
+					"type": "AT"
+				}
+			],
+			"value": 3812500,
+			"inherits": {
+				"namePrefix": "+4 ",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "legendary",
+				"valueExpression": "[[baseItem.value]] + 3812500",
+				"entries": [
+					"You have a bonus of +4 to ability checks made with this magic tool."
+				]
+			}
+		},
+		{
+			"name": "Tools of Space Creation",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "carpenter's tools"
+				},
+				{
+					"name": "mason's tools"
+				},
+				{
+					"name": "smith's tools"
+				}
+			],
+			"value": 26000000,
+			"inherits": {
+				"nameSuffix": " of Space Creation",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "legendary",
+				"recharge": "dawn",
+				"charges": 100,
+				"valueExpression": "[[baseItem.value]] + 26000000",
+				"entries": [
+					"Carpenter's Tools, Mason's Tools, or Smith's Tools.",
+					"A creature proficient with the appropriate tools can create extradimensional space inside drawers, cabinets, chests, boxes, and other containers, or even a door. Each dawn, the item gains 5 charges. It can hold up to 100.",
+					"When you create such an item, you can use any number of charges you want, giving the extradimensional space a volume of up to one 5-foot cube per charge used. The shape/structure of the area is up to you. When opened, the container or door opens straight into this extradimensional space. The walls, ground and ceiling inside take on the same appearance as the normal material of the item. If the container or door is closed while a creature is inside it, the exit is apparent to the creature, and it can push through it to force it open as long as it is not locked. If there is a lock, it is also present on the inside, and the creature can attempt to lockpick it. If barred shut some other way, the creature can attempt any ability check to break it that it would be able to do from the outside."
+				]
+			}
+		},
+		{
+			"name": "Weapon of Peerless Precision",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"type": "R"
+				},
+				{
+					"weapon": true,
+					"property": "T"
+				}
+			],
+			"value": 6800000,
+			"inherits": {
+				"nameSuffix": " of Peerless Precision",
+				"source": "stabbyitems",
+				"page": 0,
+				"rarity": "legendary",
+				"reqAttune": true,
+				"valueExpression": "[[baseItem.value]] + 6800000",
+				"entries": [
+					"Attacking targets at long range, targets within 5ft of you, or prone targets, does not impose disadvantage on your ranged weapon attack rolls with this weapon.",
+					"Your ranged weapon attacks ignore half cover and three-quarters cover.",
+					"Whenever you make an attack roll with this weapon, you can roll an additional d20 and take the highest result (even on top of advantage or disadvantage).",
+					"Whenever you score a critical hit with this weapon, you triple its damage dice instead of doubling them."
+				]
+			}
+		}
+	]
+}

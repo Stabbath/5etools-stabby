@@ -1,0 +1,149 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "stabbyrogue",
+				"abbreviation": "Stabby",
+				"full": "Stabby's Classes",
+				"version": "1",
+				"url": "none",
+				"authors": [
+					"Francisco \"Stabby\" Pesquita"
+				],
+				"convertedBy": [
+					"Francisco \"Stabby\" Pesquita"
+				]
+			}
+		],
+		"dateAdded": 1586966344, 
+		"dateLastModified": 1657399173,
+		"_dateLastModifiedHash": "aa8d6f9bda"
+	},
+	"subclass": [
+		{
+			"name": "Two-Faced Scoundrel",
+			"shortName": "Two-Faced Scoundrel",
+			"source": "stabbyrogue",
+			"page": 0,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassFeatures": [
+				"Two-Faced Scoundrel|Rogue||Two-Faced Scoundrel|stabbyrogue|3",
+				"Master of Movement|Rogue||Two-Faced Scoundrel|stabbyrogue|9",
+				"When Least Expected|Rogue||Two-Faced Scoundrel|stabbyrogue|13",
+				"Strike Unseen|Rogue||Two-Faced Scoundrel|stabbyrogue|17"
+			]
+		}
+	],
+	
+	
+	
+	
+	
+	
+	
+
+	
+	"subclassFeature": [
+		{
+			"name": "Two-Faced Scoundrel",
+			"source": "stabbyrogue",
+			"page": 0,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Two-Faced Scoundrel",
+			"subclassSource": "stabbyrogue",
+			"level": 3,
+			"entries": [
+				"To a two-faced scoundrel, everything is an act concealing a more profound purpose. Whether you moonlight as a thief or as a vigilante, you keep that life separate and hidden, and present yourself as an upstanding member of society during daytime. A two-faced scoundrel may be an actor, a simple shopkeeper, or a wealthy business owner, but is almost unfailingly a charismatic persona, one whose acquaintances and friends would never imagine could be capable of the nightly lifestyle it secretly leads.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "In the Shadows...|Rogue||Two-Faced Scoundrel|stabbyrogue|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "... and in the Limelight|Rogue||Two-Faced Scoundrel|stabbyrogue|3"
+				}
+			]
+		},
+		{
+			"name": "In the Shadows...",
+			"source": "stabbyrogue",
+			"page": 0,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Two-Faced Scoundrel",
+			"subclassSource": "stabbyrogue",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Starting at 3rd level, you become an expert at moving unseen.",
+				"You gain proficiency in Stealth, or expertise if you already have it.",
+				"If you are hidden, you can move up to half of your speed in the open without being detected, as long as you end your movement in a position where you are not clearly visible (e.g. dim light, darkness, or behind partial or full cover)."
+			]
+		},
+		{
+			"name": "... and in the Limelight",
+			"source": "stabbyrogue",
+			"page": 0,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Two-Faced Scoundrel",
+			"subclassSource": "stabbyrogue",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"Also at 3rd level, your charismatic personality is enough to enrapture and distract most who listen to you speak.",
+				"You gain proficiency in Performance, or expertise if you already have it.",
+				"You can spend 1 minute talking to a number of characters that can understand you up to your charisma modifier (min 1), weaving tales of heroic or otherwise impressive deeds from your past (or your imagination) in such an enrapturing way that they can hardly pay attention to anything else. After 1 minute talking this way, make a Charisma (Performance) contest against their Wisdom (Insight). If you win or match them, they become charmed by you, and have disadvantage perceiving anything other than you. This effect lasts as long as you continue talking to them, and for 10 minutes after you are done."
+			]
+		},
+		{
+			"name": "Master of Movement",
+			"source": "stabbyrogue",
+			"page": 0,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Two-Faced Scoundrel",
+			"subclassSource": "stabbyrogue",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"At 9th level, you start to really see the benefits of your endless nights scouring through city alleyways and up and down its edifices.",
+				"Your speed increases by 10 feet, and climbing doesn't cost you extra movement.",
+				"Additionally, you can use stealth while traveling at a normal pace."
+			]
+		},
+		{
+			"name": "When Least Expected",
+			"source": "stabbyrogue",
+			"page": 0,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Two-Faced Scoundrel",
+			"subclassSource": "stabbyrogue",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"Starting at 13th level, you can jump out in the nick of time and interrupt an attack, and move to take down the attacker.",
+				"As a reaction when a character you can see but who you are hidden from attempts an attack within 30 feet of you, you may launch an emergency offensive to harm and distract it. You impose disadvantage on the attack being made, and make an attack of your own against it. You may move up to half your movement speed towards the target before making this attack."
+			]
+		},
+		{
+			"name": "Strike Unseen",
+			"source": "stabbyrogue",
+			"page": 0,
+			"className": "Rogue",
+			"classSource": "PHB",
+			"subclassShortName": "Two-Faced Scoundrel",
+			"subclassSource": "stabbyrogue",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Starting at 17th level, you can strike your foes when least expected and greatly benefit from it.",
+				"If you are undetected by an enemy or an enemy is charmed by you as you attack it, you have advantage on that attack and your critical range for that attack is expanded to 18-20."
+			]
+		}
+	]
+}
+		

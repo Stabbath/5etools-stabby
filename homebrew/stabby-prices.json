@@ -1,0 +1,5190 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "StabbyHomebrew",
+				"abbreviation": "Stabby",
+				"full": "Stabby's Custom Prices",
+				"authors": [
+					"User"
+				],
+				"version": "1.0.0",
+				"url": "",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1769089952
+	},
+	"item": [
+		{
+			"name": "+1 All-Purpose Tool",
+			"source": "TCE",
+			"_copy": {
+				"name": "+1 All-Purpose Tool",
+				"source": "TCE",
+				"_mod": {
+					"value": 340000
+				}
+			}
+		},
+		{
+			"name": "+1 Amulet of the Devout",
+			"source": "TCE",
+			"_copy": {
+				"name": "+1 Amulet of the Devout",
+				"source": "TCE",
+				"_mod": {
+					"value": 225000
+				}
+			}
+		},
+		{
+			"name": "+1 Arcane Grimoire",
+			"source": "TCE",
+			"_copy": {
+				"name": "+1 Arcane Grimoire",
+				"source": "TCE",
+				"_mod": {
+					"value": 225000
+				}
+			}
+		},
+		{
+			"name": "+1 Bloodwell Vial",
+			"source": "TCE",
+			"_copy": {
+				"name": "+1 Bloodwell Vial",
+				"source": "TCE",
+				"_mod": {
+					"value": 225000
+				}
+			}
+		},
+		{
+			"name": "+1 Dragonhide Belt",
+			"source": "FTD",
+			"_copy": {
+				"name": "+1 Dragonhide Belt",
+				"source": "FTD",
+				"_mod": {
+					"value": 225000
+				}
+			}
+		},
+		{
+			"name": "+1 Moon Sickle",
+			"source": "TCE",
+			"_copy": {
+				"name": "+1 Moon Sickle",
+				"source": "TCE",
+				"_mod": {
+					"value": 350000
+				}
+			}
+		},
+		{
+			"name": "+1 Rhythm-Maker's Drum",
+			"source": "TCE",
+			"_copy": {
+				"name": "+1 Rhythm-Maker's Drum",
+				"source": "TCE",
+				"_mod": {
+					"value": 225000
+				}
+			}
+		},
+		{
+			"name": "+1 Rod of the Pact Keeper",
+			"source": "DMG",
+			"_copy": {
+				"name": "+1 Rod of the Pact Keeper",
+				"source": "DMG",
+				"_mod": {
+					"value": 225000
+				}
+			}
+		},
+		{
+			"name": "+1 Wand of the War Mage",
+			"source": "DMG",
+			"_copy": {
+				"name": "+1 Wand of the War Mage",
+				"source": "DMG",
+				"_mod": {
+					"value": 100000
+				}
+			}
+		},
+		{
+			"name": "+2 All-Purpose Tool",
+			"source": "TCE",
+			"_copy": {
+				"name": "+2 All-Purpose Tool",
+				"source": "TCE",
+				"_mod": {
+					"value": 1170000
+				}
+			}
+		},
+		{
+			"name": "+2 Amulet of the Devout",
+			"source": "TCE",
+			"_copy": {
+				"name": "+2 Amulet of the Devout",
+				"source": "TCE",
+				"_mod": {
+					"value": 1000000
+				}
+			}
+		},
+		{
+			"name": "+2 Arcane Grimoire",
+			"source": "TCE",
+			"_copy": {
+				"name": "+2 Arcane Grimoire",
+				"source": "TCE",
+				"_mod": {
+					"value": 1000000
+				}
+			}
+		},
+		{
+			"name": "+2 Bloodwell Vial",
+			"source": "TCE",
+			"_copy": {
+				"name": "+2 Bloodwell Vial",
+				"source": "TCE",
+				"_mod": {
+					"value": 1000000
+				}
+			}
+		},
+		{
+			"name": "+2 Dragonhide Belt",
+			"source": "FTD",
+			"_copy": {
+				"name": "+2 Dragonhide Belt",
+				"source": "FTD",
+				"_mod": {
+					"value": 1000000
+				}
+			}
+		},
+		{
+			"name": "+2 Moon Sickle",
+			"source": "TCE",
+			"_copy": {
+				"name": "+2 Moon Sickle",
+				"source": "TCE",
+				"_mod": {
+					"value": 1500000
+				}
+			}
+		},
+		{
+			"name": "+2 Rhythm-Maker's Drum",
+			"source": "TCE",
+			"_copy": {
+				"name": "+2 Rhythm-Maker's Drum",
+				"source": "TCE",
+				"_mod": {
+					"value": 1000000
+				}
+			}
+		},
+		{
+			"name": "+2 Rod of the Pact Keeper",
+			"source": "DMG",
+			"_copy": {
+				"name": "+2 Rod of the Pact Keeper",
+				"source": "DMG",
+				"_mod": {
+					"value": 1000000
+				}
+			}
+		},
+		{
+			"name": "+2 Wand of the War Mage",
+			"source": "DMG",
+			"_copy": {
+				"name": "+2 Wand of the War Mage",
+				"source": "DMG",
+				"_mod": {
+					"value": 600000
+				}
+			}
+		},
+		{
+			"name": "+3 All-Purpose Tool",
+			"source": "TCE",
+			"_copy": {
+				"name": "+3 All-Purpose Tool",
+				"source": "TCE",
+				"_mod": {
+					"value": 4000000
+				}
+			}
+		},
+		{
+			"name": "+3 Amulet of the Devout",
+			"source": "TCE",
+			"_copy": {
+				"name": "+3 Amulet of the Devout",
+				"source": "TCE",
+				"_mod": {
+					"value": 4000000
+				}
+			}
+		},
+		{
+			"name": "+3 Arcane Grimoire",
+			"source": "TCE",
+			"_copy": {
+				"name": "+3 Arcane Grimoire",
+				"source": "TCE",
+				"_mod": {
+					"value": 4000000
+				}
+			}
+		},
+		{
+			"name": "+3 Bloodwell Vial",
+			"source": "TCE",
+			"_copy": {
+				"name": "+3 Bloodwell Vial",
+				"source": "TCE",
+				"_mod": {
+					"value": 4000000
+				}
+			}
+		},
+		{
+			"name": "+3 Dragonhide Belt",
+			"source": "FTD",
+			"_copy": {
+				"name": "+3 Dragonhide Belt",
+				"source": "FTD",
+				"_mod": {
+					"value": 4000000
+				}
+			}
+		},
+		{
+			"name": "+3 Moon Sickle",
+			"source": "TCE",
+			"_copy": {
+				"name": "+3 Moon Sickle",
+				"source": "TCE",
+				"_mod": {
+					"value": 4500000
+				}
+			}
+		},
+		{
+			"name": "+3 Rhythm-Maker's Drum",
+			"source": "TCE",
+			"_copy": {
+				"name": "+3 Rhythm-Maker's Drum",
+				"source": "TCE",
+				"_mod": {
+					"value": 4000000
+				}
+			}
+		},
+		{
+			"name": "+3 Rod of the Pact Keeper",
+			"source": "DMG",
+			"_copy": {
+				"name": "+3 Rod of the Pact Keeper",
+				"source": "DMG",
+				"_mod": {
+					"value": 4000000
+				}
+			}
+		},
+		{
+			"name": "+3 Wand of the War Mage",
+			"source": "DMG",
+			"_copy": {
+				"name": "+3 Wand of the War Mage",
+				"source": "DMG",
+				"_mod": {
+					"value": 2250000
+				}
+			}
+		},
+		{
+			"name": "Acid Absorbing Tattoo",
+			"source": "TCE",
+			"_copy": {
+				"name": "Acid Absorbing Tattoo",
+				"source": "TCE",
+				"_mod": {
+					"value": 750000
+				}
+			}
+		},
+		{
+			"name": "Alchemical Compendium",
+			"source": "TCE",
+			"_copy": {
+				"name": "Alchemical Compendium",
+				"source": "TCE",
+				"_mod": {
+					"value": 1727000
+				}
+			}
+		},
+		{
+			"name": "Alchemy Jug",
+			"source": "DMG",
+			"_copy": {
+				"name": "Alchemy Jug",
+				"source": "DMG",
+				"_mod": {
+					"value": 40000
+				}
+			}
+		},
+		{
+			"name": "Amulet of Health",
+			"source": "DMG",
+			"_copy": {
+				"name": "Amulet of Health",
+				"source": "DMG",
+				"_mod": {
+					"value": 400000
+				}
+			}
+		},
+		{
+			"name": "Amulet of Proof against Detection and Location",
+			"source": "DMG",
+			"_copy": {
+				"name": "Amulet of Proof against Detection and Location",
+				"source": "DMG",
+				"_mod": {
+					"value": 200000
+				}
+			}
+		},
+		{
+			"name": "Amulet of the Planes",
+			"source": "DMG",
+			"_copy": {
+				"name": "Amulet of the Planes",
+				"source": "DMG",
+				"_mod": {
+					"value": 2300000
+				}
+			}
+		},
+		{
+			"name": "Animated Shield",
+			"source": "DMG",
+			"_copy": {
+				"name": "Animated Shield",
+				"source": "DMG",
+				"_mod": {
+					"value": 650000
+				}
+			}
+		},
+		{
+			"name": "Apparatus of Kwalish",
+			"source": "DMG",
+			"_copy": {
+				"name": "Apparatus of Kwalish",
+				"source": "DMG",
+				"_mod": {
+					"value": 10000000
+				}
+			}
+		},
+		{
+			"name": "Armor of Invulnerability",
+			"source": "DMG",
+			"_copy": {
+				"name": "Armor of Invulnerability",
+				"source": "DMG",
+				"_mod": {
+					"value": 3500000
+				}
+			}
+		},
+		{
+			"name": "Armor of Vulnerability (Bludgeoning)",
+			"source": "DMG",
+			"_copy": {
+				"name": "Armor of Vulnerability (Bludgeoning)",
+				"source": "DMG",
+				"_mod": {
+					"value": 500000
+				}
+			}
+		},
+		{
+			"name": "Armor of Vulnerability (Piercing)",
+			"source": "DMG",
+			"_copy": {
+				"name": "Armor of Vulnerability (Piercing)",
+				"source": "DMG",
+				"_mod": {
+					"value": 500000
+				}
+			}
+		},
+		{
+			"name": "Armor of Vulnerability (Slashing)",
+			"source": "DMG",
+			"_copy": {
+				"name": "Armor of Vulnerability (Slashing)",
+				"source": "DMG",
+				"_mod": {
+					"value": 500000
+				}
+			}
+		},
+		{
+			"name": "Arrow-Catching Shield",
+			"source": "DMG",
+			"_copy": {
+				"name": "Arrow-Catching Shield",
+				"source": "DMG",
+				"_mod": {
+					"value": 721000
+				}
+			}
+		},
+		{
+			"name": "Astral Shard",
+			"source": "TCE",
+			"_copy": {
+				"name": "Astral Shard",
+				"source": "TCE",
+				"_mod": {
+					"value": 240000
+				}
+			}
+		},
+		{
+			"name": "Astromancy Archive",
+			"source": "TCE",
+			"_copy": {
+				"name": "Astromancy Archive",
+				"source": "TCE",
+				"_mod": {
+					"value": 4713000
+				}
+			}
+		},
+		{
+			"name": "Atlas of Endless Horizons",
+			"source": "TCE",
+			"_copy": {
+				"name": "Atlas of Endless Horizons",
+				"source": "TCE",
+				"_mod": {
+					"value": 4774000
+				}
+			}
+		},
+		{
+			"name": "Bag of Beans",
+			"source": "DMG",
+			"_copy": {
+				"name": "Bag of Beans",
+				"source": "DMG",
+				"_mod": {
+					"value": 50000
+				}
+			}
+		},
+		{
+			"name": "Bag of Devouring",
+			"source": "DMG",
+			"_copy": {
+				"name": "Bag of Devouring",
+				"source": "DMG",
+				"_mod": {
+					"value": 2100000
+				}
+			}
+		},
+		{
+			"name": "Bag of Holding",
+			"source": "DMG",
+			"_copy": {
+				"name": "Bag of Holding",
+				"source": "DMG",
+				"_mod": {
+					"value": 340000
+				}
+			}
+		},
+		{
+			"name": "Bag of Tricks, Gray",
+			"source": "DMG",
+			"_copy": {
+				"name": "Bag of Tricks, Gray",
+				"source": "DMG",
+				"_mod": {
+					"value": 240000
+				}
+			}
+		},
+		{
+			"name": "Bag of Tricks, Rust",
+			"source": "DMG",
+			"_copy": {
+				"name": "Bag of Tricks, Rust",
+				"source": "DMG",
+				"_mod": {
+					"value": 240000
+				}
+			}
+		},
+		{
+			"name": "Bag of Tricks, Tan",
+			"source": "DMG",
+			"_copy": {
+				"name": "Bag of Tricks, Tan",
+				"source": "DMG",
+				"_mod": {
+					"value": 240000
+				}
+			}
+		},
+		{
+			"name": "Barrier Tattoo (Large)",
+			"source": "TCE",
+			"_copy": {
+				"name": "Barrier Tattoo (Large)",
+				"source": "TCE",
+				"_mod": {
+					"value": 800000
+				}
+			}
+		},
+		{
+			"name": "Barrier Tattoo (Medium)",
+			"source": "TCE",
+			"_copy": {
+				"name": "Barrier Tattoo (Medium)",
+				"source": "TCE",
+				"_mod": {
+					"value": 400000
+				}
+			}
+		},
+		{
+			"name": "Barrier Tattoo (Small)",
+			"source": "TCE",
+			"_copy": {
+				"name": "Barrier Tattoo (Small)",
+				"source": "TCE",
+				"_mod": {
+					"value": 200000
+				}
+			}
+		},
+		{
+			"name": "Bead of Force",
+			"source": "DMG",
+			"_copy": {
+				"name": "Bead of Force",
+				"source": "DMG",
+				"_mod": {
+					"value": 175000
+				}
+			}
+		},
+		{
+			"name": "Bead of Nourishment",
+			"source": "XGE",
+			"_copy": {
+				"name": "Bead of Nourishment",
+				"source": "XGE",
+				"_mod": {
+					"value": 500
+				}
+			}
+		},
+		{
+			"name": "Bead of Refreshment",
+			"source": "XGE",
+			"_copy": {
+				"name": "Bead of Refreshment",
+				"source": "XGE",
+				"_mod": {
+					"value": 500
+				}
+			}
+		},
+		{
+			"name": "Bell Branch",
+			"source": "TCE",
+			"_copy": {
+				"name": "Bell Branch",
+				"source": "TCE",
+				"_mod": {
+					"value": 80000
+				}
+			}
+		},
+		{
+			"name": "Belt of Cloud Giant Strength",
+			"source": "DMG",
+			"_copy": {
+				"name": "Belt of Cloud Giant Strength",
+				"source": "DMG",
+				"_mod": {
+					"value": 8000000
+				}
+			}
+		},
+		{
+			"name": "Belt of Dwarvenkind",
+			"source": "DMG",
+			"_copy": {
+				"name": "Belt of Dwarvenkind",
+				"source": "DMG",
+				"_mod": {
+					"value": 520000
+				}
+			}
+		},
+		{
+			"name": "Belt of Fire Giant Strength",
+			"source": "DMG",
+			"_copy": {
+				"name": "Belt of Fire Giant Strength",
+				"source": "DMG",
+				"_mod": {
+					"value": 3000000
+				}
+			}
+		},
+		{
+			"name": "Belt of Frost Giant Strength",
+			"source": "DMG",
+			"_copy": {
+				"name": "Belt of Frost Giant Strength",
+				"source": "DMG",
+				"_mod": {
+					"value": 1000000
+				}
+			}
+		},
+		{
+			"name": "Belt of Hill Giant Strength",
+			"source": "DMG",
+			"_copy": {
+				"name": "Belt of Hill Giant Strength",
+				"source": "DMG",
+				"_mod": {
+					"value": 400000
+				}
+			}
+		},
+		{
+			"name": "Belt of Stone Giant Strength",
+			"source": "DMG",
+			"_copy": {
+				"name": "Belt of Stone Giant Strength",
+				"source": "DMG",
+				"_mod": {
+					"value": 1000000
+				}
+			}
+		},
+		{
+			"name": "Belt of Storm Giant Strength",
+			"source": "DMG",
+			"_copy": {
+				"name": "Belt of Storm Giant Strength",
+				"source": "DMG",
+				"_mod": {
+					"value": 20000000
+				}
+			}
+		},
+		{
+			"name": "Black Dragon Scale Mail",
+			"source": "DMG",
+			"_copy": {
+				"name": "Black Dragon Scale Mail",
+				"source": "DMG",
+				"_mod": {
+					"value": 1000000
+				}
+			}
+		},
+		{
+			"name": "Blood Fury Tattoo",
+			"source": "TCE",
+			"_copy": {
+				"name": "Blood Fury Tattoo",
+				"source": "TCE",
+				"_mod": {
+					"value": 6500000
+				}
+			}
+		},
+		{
+			"name": "Blue Dragon Scale Mail",
+			"source": "DMG",
+			"_copy": {
+				"name": "Blue Dragon Scale Mail",
+				"source": "DMG",
+				"_mod": {
+					"value": 1000000
+				}
+			}
+		},
+		{
+			"name": "Boots of Elvenkind",
+			"source": "DMG",
+			"_copy": {
+				"name": "Boots of Elvenkind",
+				"source": "DMG",
+				"_mod": {
+					"value": 120000
+				}
+			}
+		},
+		{
+			"name": "Boots of False Tracks",
+			"source": "XGE",
+			"_copy": {
+				"name": "Boots of False Tracks",
+				"source": "XGE",
+				"_mod": {
+					"value": 5500
+				}
+			}
+		},
+		{
+			"name": "Boots of Levitation",
+			"source": "DMG",
+			"_copy": {
+				"name": "Boots of Levitation",
+				"source": "DMG",
+				"_mod": {
+					"value": 80000
+				}
+			}
+		},
+		{
+			"name": "Boots of Speed",
+			"source": "DMG",
+			"_copy": {
+				"name": "Boots of Speed",
+				"source": "DMG",
+				"_mod": {
+					"value": 260000
+				}
+			}
+		},
+		{
+			"name": "Boots of Striding and Springing",
+			"source": "DMG",
+			"_copy": {
+				"name": "Boots of Striding and Springing",
+				"source": "DMG",
+				"_mod": {
+					"value": 58000
+				}
+			}
+		},
+		{
+			"name": "Boots of the Winterlands",
+			"source": "DMG",
+			"_copy": {
+				"name": "Boots of the Winterlands",
+				"source": "DMG",
+				"_mod": {
+					"value": 395000
+				}
+			}
+		},
+		{
+			"name": "Bowl of Commanding Water Elementals",
+			"source": "DMG",
+			"_copy": {
+				"name": "Bowl of Commanding Water Elementals",
+				"source": "DMG",
+				"_mod": {
+					"value": 470000
+				}
+			}
+		},
+		{
+			"name": "Bracers of Archery",
+			"source": "DMG",
+			"_copy": {
+				"name": "Bracers of Archery",
+				"source": "DMG",
+				"_mod": {
+					"value": 175000
+				}
+			}
+		},
+		{
+			"name": "Bracers of Defense",
+			"source": "DMG",
+			"_copy": {
+				"name": "Bracers of Defense",
+				"source": "DMG",
+				"_mod": {
+					"value": 320000
+				}
+			}
+		},
+		{
+			"name": "Brass Dragon Scale Mail",
+			"source": "DMG",
+			"_copy": {
+				"name": "Brass Dragon Scale Mail",
+				"source": "DMG",
+				"_mod": {
+					"value": 1000000
+				}
+			}
+		},
+		{
+			"name": "Brazier of Commanding Fire Elementals",
+			"source": "DMG",
+			"_copy": {
+				"name": "Brazier of Commanding Fire Elementals",
+				"source": "DMG",
+				"_mod": {
+					"value": 470000
+				}
+			}
+		},
+		{
+			"name": "Bronze Dragon Scale Mail",
+			"source": "DMG",
+			"_copy": {
+				"name": "Bronze Dragon Scale Mail",
+				"source": "DMG",
+				"_mod": {
+					"value": 1000000
+				}
+			}
+		},
+		{
+			"name": "Brooch of Shielding",
+			"source": "DMG",
+			"_copy": {
+				"name": "Brooch of Shielding",
+				"source": "DMG",
+				"_mod": {
+					"value": 550000
+				}
+			}
+		},
+		{
+			"name": "Broom of Flying",
+			"source": "DMG",
+			"_copy": {
+				"name": "Broom of Flying",
+				"source": "DMG",
+				"_mod": {
+					"value": 440000
+				}
+			}
+		},
+		{
+			"name": "Candle of Invocation",
+			"source": "DMG",
+			"_copy": {
+				"name": "Candle of Invocation",
+				"source": "DMG",
+				"_mod": {
+					"value": 3750000
+				}
+			}
+		},
+		{
+			"name": "Candle of the Deep",
+			"source": "XGE",
+			"_copy": {
+				"name": "Candle of the Deep",
+				"source": "XGE",
+				"_mod": {
+					"value": 250
+				}
+			}
+		},
+		{
+			"name": "Cap of Water Breathing",
+			"source": "DMG",
+			"_copy": {
+				"name": "Cap of Water Breathing",
+				"source": "DMG",
+				"_mod": {
+					"value": 100000
+				}
+			}
+		},
+		{
+			"name": "Cape of the Mountebank",
+			"source": "DMG",
+			"_copy": {
+				"name": "Cape of the Mountebank",
+				"source": "DMG",
+				"_mod": {
+					"value": 425000
+				}
+			}
+		},
+		{
+			"name": "Cauldron of Rebirth",
+			"source": "TCE",
+			"_copy": {
+				"name": "Cauldron of Rebirth",
+				"source": "TCE",
+				"_mod": {
+					"value": 5600000
+				}
+			}
+		},
+		{
+			"name": "Censer of Controlling Air Elementals",
+			"source": "DMG",
+			"_copy": {
+				"name": "Censer of Controlling Air Elementals",
+				"source": "DMG",
+				"_mod": {
+					"value": 470000
+				}
+			}
+		},
+		{
+			"name": "Charlatan's Die",
+			"source": "XGE",
+			"_copy": {
+				"name": "Charlatan's Die",
+				"source": "XGE",
+				"_mod": {
+					"value": 500
+				}
+			}
+		},
+		{
+			"name": "Chime of Opening",
+			"source": "DMG",
+			"_copy": {
+				"name": "Chime of Opening",
+				"source": "DMG",
+				"_mod": {
+					"value": 180000
+				}
+			}
+		},
+		{
+			"name": "Circlet of Blasting",
+			"source": "DMG",
+			"_copy": {
+				"name": "Circlet of Blasting",
+				"source": "DMG",
+				"_mod": {
+					"value": 136000
+				}
+			}
+		},
+		{
+			"name": "Cloak of Arachnida",
+			"source": "DMG",
+			"_copy": {
+				"name": "Cloak of Arachnida",
+				"source": "DMG",
+				"_mod": {
+					"value": 760000
+				}
+			}
+		},
+		{
+			"name": "Cloak of Billowing",
+			"source": "XGE",
+			"_copy": {
+				"name": "Cloak of Billowing",
+				"source": "XGE",
+				"_mod": {
+					"value": 1600
+				}
+			}
+		},
+		{
+			"name": "Cloak of Displacement",
+			"source": "DMG",
+			"_copy": {
+				"name": "Cloak of Displacement",
+				"source": "DMG",
+				"_mod": {
+					"value": 2000000
+				}
+			}
+		},
+		{
+			"name": "Cloak of Elvenkind",
+			"source": "DMG",
+			"_copy": {
+				"name": "Cloak of Elvenkind",
+				"source": "DMG",
+				"_mod": {
+					"value": 250000
+				}
+			}
+		},
+		{
+			"name": "Cloak of Invisibility",
+			"source": "DMG",
+			"_copy": {
+				"name": "Cloak of Invisibility",
+				"source": "DMG",
+				"_mod": {
+					"value": 24000000
+				}
+			}
+		},
+		{
+			"name": "Cloak of Many Fashions",
+			"source": "XGE",
+			"_copy": {
+				"name": "Cloak of Many Fashions",
+				"source": "XGE",
+				"_mod": {
+					"value": 7000
+				}
+			}
+		},
+		{
+			"name": "Cloak of Protection",
+			"source": "DMG",
+			"_copy": {
+				"name": "Cloak of Protection",
+				"source": "DMG",
+				"_mod": {
+					"value": 220000
+				}
+			}
+		},
+		{
+			"name": "Cloak of the Bat",
+			"source": "DMG",
+			"_copy": {
+				"name": "Cloak of the Bat",
+				"source": "DMG",
+				"_mod": {
+					"value": 520000
+				}
+			}
+		},
+		{
+			"name": "Cloak of the Manta Ray",
+			"source": "DMG",
+			"_copy": {
+				"name": "Cloak of the Manta Ray",
+				"source": "DMG",
+				"_mod": {
+					"value": 145000
+				}
+			}
+		},
+		{
+			"name": "Clockwork Amulet",
+			"source": "XGE",
+			"_copy": {
+				"name": "Clockwork Amulet",
+				"source": "XGE",
+				"_mod": {
+					"value": 42000
+				}
+			}
+		},
+		{
+			"name": "Clothes of Mending",
+			"source": "XGE",
+			"_copy": {
+				"name": "Clothes of Mending",
+				"source": "XGE",
+				"_mod": {
+					"value": 4000
+				}
+			}
+		},
+		{
+			"name": "Coiling Grasp Tattoo",
+			"source": "TCE",
+			"_copy": {
+				"name": "Coiling Grasp Tattoo",
+				"source": "TCE",
+				"_mod": {
+					"value": 200000
+				}
+			}
+		},
+		{
+			"name": "Cold Absorbing Tattoo",
+			"source": "TCE",
+			"_copy": {
+				"name": "Cold Absorbing Tattoo",
+				"source": "TCE",
+				"_mod": {
+					"value": 750000
+				}
+			}
+		},
+		{
+			"name": "Copper Dragon Scale Mail",
+			"source": "DMG",
+			"_copy": {
+				"name": "Copper Dragon Scale Mail",
+				"source": "DMG",
+				"_mod": {
+					"value": 1000000
+				}
+			}
+		},
+		{
+			"name": "Crystal Ball",
+			"source": "DMG",
+			"_copy": {
+				"name": "Crystal Ball",
+				"source": "DMG",
+				"_mod": {
+					"value": 2300000
+				}
+			}
+		},
+		{
+			"name": "Crystal Ball of Mind Reading",
+			"source": "DMG",
+			"_copy": {
+				"name": "Crystal Ball of Mind Reading",
+				"source": "DMG",
+				"_mod": {
+					"value": 7200000
+				}
+			}
+		},
+		{
+			"name": "Crystal Ball of Telepathy",
+			"source": "DMG",
+			"_copy": {
+				"name": "Crystal Ball of Telepathy",
+				"source": "DMG",
+				"_mod": {
+					"value": 8400000
+				}
+			}
+		},
+		{
+			"name": "Crystal Ball of True Seeing",
+			"source": "DMG",
+			"_copy": {
+				"name": "Crystal Ball of True Seeing",
+				"source": "DMG",
+				"_mod": {
+					"value": 6500000
+				}
+			}
+		},
+		{
+			"name": "Crystalline Chronicle",
+			"source": "TCE",
+			"_copy": {
+				"name": "Crystalline Chronicle",
+				"source": "TCE",
+				"_mod": {
+					"value": 3957500
+				}
+			}
+		},
+		{
+			"name": "Cube of Force",
+			"source": "DMG",
+			"_copy": {
+				"name": "Cube of Force",
+				"source": "DMG",
+				"_mod": {
+					"value": 1380000
+				}
+			}
+		},
+		{
+			"name": "Cubic Gate",
+			"source": "DMG",
+			"_copy": {
+				"name": "Cubic Gate",
+				"source": "DMG",
+				"_mod": {
+					"value": 14000000
+				}
+			}
+		},
+		{
+			"name": "Daern's Instant Fortress",
+			"source": "DMG",
+			"_copy": {
+				"name": "Daern's Instant Fortress",
+				"source": "DMG",
+				"_mod": {
+					"value": 4000000
+				}
+			}
+		},
+		{
+			"name": "Dagger of Venom",
+			"source": "DMG",
+			"_copy": {
+				"name": "Dagger of Venom",
+				"source": "DMG",
+				"_mod": {
+					"value": 580000
+				}
+			}
+		},
+		{
+			"name": "Dark Shard Amulet",
+			"source": "XGE",
+			"_copy": {
+				"name": "Dark Shard Amulet",
+				"source": "XGE",
+				"_mod": {
+					"value": 24000
+				}
+			}
+		},
+		{
+			"name": "Decanter of Endless Water",
+			"source": "DMG",
+			"_copy": {
+				"name": "Decanter of Endless Water",
+				"source": "DMG",
+				"_mod": {
+					"value": 85000
+				}
+			}
+		},
+		{
+			"name": "Deck of Illusions",
+			"source": "DMG",
+			"_copy": {
+				"name": "Deck of Illusions",
+				"source": "DMG",
+				"_mod": {
+					"value": 68000
+				}
+			}
+		},
+		{
+			"name": "Demon Armor",
+			"source": "DMG",
+			"_copy": {
+				"name": "Demon Armor",
+				"source": "DMG",
+				"_mod": {
+					"value": 640000
+				}
+			}
+		},
+		{
+			"name": "Devotee's Censer",
+			"source": "TCE",
+			"_copy": {
+				"name": "Devotee's Censer",
+				"source": "TCE",
+				"_mod": {
+					"value": 875000
+				}
+			}
+		},
+		{
+			"name": "Dimensional Shackles",
+			"source": "DMG",
+			"_copy": {
+				"name": "Dimensional Shackles",
+				"source": "DMG",
+				"_mod": {
+					"value": 215000
+				}
+			}
+		},
+		{
+			"name": "Dread Helm",
+			"source": "XGE",
+			"_copy": {
+				"name": "Dread Helm",
+				"source": "XGE",
+				"_mod": {
+					"value": 4000
+				}
+			}
+		},
+		{
+			"name": "Driftglobe",
+			"source": "DMG",
+			"_copy": {
+				"name": "Driftglobe",
+				"source": "DMG",
+				"_mod": {
+					"value": 86000
+				}
+			}
+		},
+		{
+			"name": "Duplicitous Manuscript",
+			"source": "TCE",
+			"_copy": {
+				"name": "Duplicitous Manuscript",
+				"source": "TCE",
+				"_mod": {
+					"value": 485000
+				}
+			}
+		},
+		{
+			"name": "Dust of Disappearance",
+			"source": "DMG",
+			"_copy": {
+				"name": "Dust of Disappearance",
+				"source": "DMG",
+				"_mod": {
+					"value": 40000
+				}
+			}
+		},
+		{
+			"name": "Dust of Dryness",
+			"source": "DMG",
+			"_copy": {
+				"name": "Dust of Dryness",
+				"source": "DMG",
+				"_mod": {
+					"value": 60000
+				}
+			}
+		},
+		{
+			"name": "Dust of Sneezing and Choking",
+			"source": "DMG",
+			"_copy": {
+				"name": "Dust of Sneezing and Choking",
+				"source": "DMG",
+				"_mod": {
+					"value": 120000
+				}
+			}
+		},
+		{
+			"name": "Dwarven Plate",
+			"source": "DMG",
+			"_copy": {
+				"name": "Dwarven Plate",
+				"source": "DMG",
+				"_mod": {
+					"value": 690000
+				}
+			}
+		},
+		{
+			"name": "Dwarven Thrower",
+			"source": "DMG",
+			"_copy": {
+				"name": "Dwarven Thrower",
+				"source": "DMG",
+				"_mod": {
+					"value": 3800000
+				}
+			}
+		},
+		{
+			"name": "Ear Horn of Hearing",
+			"source": "XGE",
+			"_copy": {
+				"name": "Ear Horn of Hearing",
+				"source": "XGE",
+				"_mod": {
+					"value": 8500
+				}
+			}
+		},
+		{
+			"name": "Efreeti Bottle",
+			"source": "DMG",
+			"_copy": {
+				"name": "Efreeti Bottle",
+				"source": "DMG",
+				"_mod": {
+					"value": 4750000
+				}
+			}
+		},
+		{
+			"name": "Efreeti Chain",
+			"source": "DMG",
+			"_copy": {
+				"name": "Efreeti Chain",
+				"source": "DMG",
+				"_mod": {
+					"value": 5200000
+				}
+			}
+		},
+		{
+			"name": "Eldritch Claw Tattoo",
+			"source": "TCE",
+			"_copy": {
+				"name": "Eldritch Claw Tattoo",
+				"source": "TCE",
+				"_mod": {
+					"value": 200000
+				}
+			}
+		},
+		{
+			"name": "Elemental Essence Shard",
+			"source": "TCE",
+			"_copy": {
+				"name": "Elemental Essence Shard",
+				"source": "TCE",
+				"_mod": {
+					"value": 240000
+				}
+			}
+		},
+		{
+			"name": "Elemental Gem, Blue Sapphire",
+			"source": "DMG",
+			"_copy": {
+				"name": "Elemental Gem, Blue Sapphire",
+				"source": "DMG",
+				"_mod": {
+					"value": 100000
+				}
+			}
+		},
+		{
+			"name": "Elemental Gem, Emerald",
+			"source": "DMG",
+			"_copy": {
+				"name": "Elemental Gem, Emerald",
+				"source": "DMG",
+				"_mod": {
+					"value": 100000
+				}
+			}
+		},
+		{
+			"name": "Elemental Gem, Red Corundum",
+			"source": "DMG",
+			"_copy": {
+				"name": "Elemental Gem, Red Corundum",
+				"source": "DMG",
+				"_mod": {
+					"value": 100000
+				}
+			}
+		},
+		{
+			"name": "Elemental Gem, Yellow Diamond",
+			"source": "DMG",
+			"_copy": {
+				"name": "Elemental Gem, Yellow Diamond",
+				"source": "DMG",
+				"_mod": {
+					"value": 100000
+				}
+			}
+		},
+		{
+			"name": "Elixir of Health",
+			"source": "DMG",
+			"_copy": {
+				"name": "Elixir of Health",
+				"source": "DMG",
+				"_mod": {
+					"value": 100000
+				}
+			}
+		},
+		{
+			"name": "Elven Chain",
+			"source": "DMG",
+			"_copy": {
+				"name": "Elven Chain",
+				"source": "DMG",
+				"_mod": {
+					"value": 450000
+				}
+			}
+		},
+		{
+			"name": "Enduring Spellbook",
+			"source": "XGE",
+			"_copy": {
+				"name": "Enduring Spellbook",
+				"source": "XGE",
+				"_mod": {
+					"value": 20000
+				}
+			}
+		},
+		{
+			"name": "Ersatz Eye",
+			"source": "XGE",
+			"_copy": {
+				"name": "Ersatz Eye",
+				"source": "XGE",
+				"_mod": {
+					"value": 18500
+				}
+			}
+		},
+		{
+			"name": "Eversmoking Bottle",
+			"source": "DMG",
+			"_copy": {
+				"name": "Eversmoking Bottle",
+				"source": "DMG",
+				"_mod": {
+					"value": 94000
+				}
+			}
+		},
+		{
+			"name": "Eyes of Charming",
+			"source": "DMG",
+			"_copy": {
+				"name": "Eyes of Charming",
+				"source": "DMG",
+				"_mod": {
+					"value": 40000
+				}
+			}
+		},
+		{
+			"name": "Eyes of Minute Seeing",
+			"source": "DMG",
+			"_copy": {
+				"name": "Eyes of Minute Seeing",
+				"source": "DMG",
+				"_mod": {
+					"value": 120000
+				}
+			}
+		},
+		{
+			"name": "Eyes of the Eagle",
+			"source": "DMG",
+			"_copy": {
+				"name": "Eyes of the Eagle",
+				"source": "DMG",
+				"_mod": {
+					"value": 60000
+				}
+			}
+		},
+		{
+			"name": "Far Realm Shard",
+			"source": "TCE",
+			"_copy": {
+				"name": "Far Realm Shard",
+				"source": "TCE",
+				"_mod": {
+					"value": 240000
+				}
+			}
+		},
+		{
+			"name": "Feywild Shard",
+			"source": "TCE",
+			"_copy": {
+				"name": "Feywild Shard",
+				"source": "TCE",
+				"_mod": {
+					"value": 75000
+				}
+			}
+		},
+		{
+			"name": "Figurine of Wondrous Power, Bronze Griffon",
+			"source": "DMG",
+			"_copy": {
+				"name": "Figurine of Wondrous Power, Bronze Griffon",
+				"source": "DMG",
+				"_mod": {
+					"value": 166000
+				}
+			}
+		},
+		{
+			"name": "Figurine of Wondrous Power, Ebony Fly",
+			"source": "DMG",
+			"_copy": {
+				"name": "Figurine of Wondrous Power, Ebony Fly",
+				"source": "DMG",
+				"_mod": {
+					"value": 406000
+				}
+			}
+		},
+		{
+			"name": "Figurine of Wondrous Power, Golden Lions",
+			"source": "DMG",
+			"_copy": {
+				"name": "Figurine of Wondrous Power, Golden Lions",
+				"source": "DMG",
+				"_mod": {
+					"value": 50000
+				}
+			}
+		},
+		{
+			"name": "Figurine of Wondrous Power, Ivory Goats",
+			"source": "DMG",
+			"_copy": {
+				"name": "Figurine of Wondrous Power, Ivory Goats",
+				"source": "DMG",
+				"_mod": {
+					"value": 367000
+				}
+			}
+		},
+		{
+			"name": "Figurine of Wondrous Power, Marble Elephant",
+			"source": "DMG",
+			"_copy": {
+				"name": "Figurine of Wondrous Power, Marble Elephant",
+				"source": "DMG",
+				"_mod": {
+					"value": 418000
+				}
+			}
+		},
+		{
+			"name": "Figurine of Wondrous Power, Obsidian Steed",
+			"source": "DMG",
+			"_copy": {
+				"name": "Figurine of Wondrous Power, Obsidian Steed",
+				"source": "DMG",
+				"_mod": {
+					"value": 713000
+				}
+			}
+		},
+		{
+			"name": "Figurine of Wondrous Power, Onyx Dog",
+			"source": "DMG",
+			"_copy": {
+				"name": "Figurine of Wondrous Power, Onyx Dog",
+				"source": "DMG",
+				"_mod": {
+					"value": 145000
+				}
+			}
+		},
+		{
+			"name": "Figurine of Wondrous Power, Serpentine Owl",
+			"source": "DMG",
+			"_copy": {
+				"name": "Figurine of Wondrous Power, Serpentine Owl",
+				"source": "DMG",
+				"_mod": {
+					"value": 456000
+				}
+			}
+		},
+		{
+			"name": "Figurine of Wondrous Power, Silver Raven",
+			"source": "DMG",
+			"_copy": {
+				"name": "Figurine of Wondrous Power, Silver Raven",
+				"source": "DMG",
+				"_mod": {
+					"value": 126000
+				}
+			}
+		},
+		{
+			"name": "Fire Absorbing Tattoo",
+			"source": "TCE",
+			"_copy": {
+				"name": "Fire Absorbing Tattoo",
+				"source": "TCE",
+				"_mod": {
+					"value": 750000
+				}
+			}
+		},
+		{
+			"name": "Folding Boat",
+			"source": "DMG",
+			"_copy": {
+				"name": "Folding Boat",
+				"source": "DMG",
+				"_mod": {
+					"value": 2280000
+				}
+			}
+		},
+		{
+			"name": "Force Absorbing Tattoo",
+			"source": "TCE",
+			"_copy": {
+				"name": "Force Absorbing Tattoo",
+				"source": "TCE",
+				"_mod": {
+					"value": 750000
+				}
+			}
+		},
+		{
+			"name": "Fulminating Treatise",
+			"source": "TCE",
+			"_copy": {
+				"name": "Fulminating Treatise",
+				"source": "TCE",
+				"_mod": {
+					"value": 2116000
+				}
+			}
+		},
+		{
+			"name": "Gauntlets of Ogre Power",
+			"source": "DMG",
+			"_copy": {
+				"name": "Gauntlets of Ogre Power",
+				"source": "DMG",
+				"_mod": {
+					"value": 111500
+				}
+			}
+		},
+		{
+			"name": "Gem of Brightness",
+			"source": "DMG",
+			"_copy": {
+				"name": "Gem of Brightness",
+				"source": "DMG",
+				"_mod": {
+					"value": 35000
+				}
+			}
+		},
+		{
+			"name": "Gem of Seeing",
+			"source": "DMG",
+			"_copy": {
+				"name": "Gem of Seeing",
+				"source": "DMG",
+				"_mod": {
+					"value": 840000
+				}
+			}
+		},
+		{
+			"name": "Ghost Step Tattoo",
+			"source": "TCE",
+			"_copy": {
+				"name": "Ghost Step Tattoo",
+				"source": "TCE",
+				"_mod": {
+					"value": 700000
+				}
+			}
+		},
+		{
+			"name": "Glamoured Studded Leather",
+			"source": "DMG",
+			"_copy": {
+				"name": "Glamoured Studded Leather",
+				"source": "DMG",
+				"_mod": {
+					"value": 350000
+				}
+			}
+		},
+		{
+			"name": "Gloves of Missile Snaring",
+			"source": "DMG",
+			"_copy": {
+				"name": "Gloves of Missile Snaring",
+				"source": "DMG",
+				"_mod": {
+					"value": 85000
+				}
+			}
+		},
+		{
+			"name": "Gloves of Swimming and Climbing",
+			"source": "DMG",
+			"_copy": {
+				"name": "Gloves of Swimming and Climbing",
+				"source": "DMG",
+				"_mod": {
+					"value": 70000
+				}
+			}
+		},
+		{
+			"name": "Gloves of Thievery",
+			"source": "DMG",
+			"_copy": {
+				"name": "Gloves of Thievery",
+				"source": "DMG",
+				"_mod": {
+					"value": 280000
+				}
+			}
+		},
+		{
+			"name": "Goggles of Night",
+			"source": "DMG",
+			"_copy": {
+				"name": "Goggles of Night",
+				"source": "DMG",
+				"_mod": {
+					"value": 190000
+				}
+			}
+		},
+		{
+			"name": "Gold Dragon Scale Mail",
+			"source": "DMG",
+			"_copy": {
+				"name": "Gold Dragon Scale Mail",
+				"source": "DMG",
+				"_mod": {
+					"value": 1000000
+				}
+			}
+		},
+		{
+			"name": "Green Dragon Scale Mail",
+			"source": "DMG",
+			"_copy": {
+				"name": "Green Dragon Scale Mail",
+				"source": "DMG",
+				"_mod": {
+					"value": 1000000
+				}
+			}
+		},
+		{
+			"name": "Guardian Emblem",
+			"source": "TCE",
+			"_copy": {
+				"name": "Guardian Emblem",
+				"source": "TCE",
+				"_mod": {
+					"value": 46000
+				}
+			}
+		},
+		{
+			"name": "Hammer of Thunderbolts",
+			"source": "DMG",
+			"_copy": {
+				"name": "Hammer of Thunderbolts",
+				"source": "DMG",
+				"_mod": {
+					"value": 6500000
+				}
+			}
+		},
+		{
+			"name": "Hat of Disguise",
+			"source": "DMG",
+			"_copy": {
+				"name": "Hat of Disguise",
+				"source": "DMG",
+				"_mod": {
+					"value": 60000
+				}
+			}
+		},
+		{
+			"name": "Hat of Vermin",
+			"source": "XGE",
+			"_copy": {
+				"name": "Hat of Vermin",
+				"source": "XGE",
+				"_mod": {
+					"value": 12000
+				}
+			}
+		},
+		{
+			"name": "Hat of Wizardry",
+			"source": "XGE",
+			"_copy": {
+				"name": "Hat of Wizardry",
+				"source": "XGE",
+				"_mod": {
+					"value": 24000
+				}
+			}
+		},
+		{
+			"name": "Headband of Intellect",
+			"source": "DMG",
+			"_copy": {
+				"name": "Headband of Intellect",
+				"source": "DMG",
+				"_mod": {
+					"value": 200000
+				}
+			}
+		},
+		{
+			"name": "Heart Weaver's Primer",
+			"source": "TCE",
+			"_copy": {
+				"name": "Heart Weaver's Primer",
+				"source": "TCE",
+				"_mod": {
+					"value": 1466000
+				}
+			}
+		},
+		{
+			"name": "Helm of Brilliance",
+			"source": "DMG",
+			"_copy": {
+				"name": "Helm of Brilliance",
+				"source": "DMG",
+				"_mod": {
+					"value": 2150000
+				}
+			}
+		},
+		{
+			"name": "Helm of Comprehending Languages",
+			"source": "DMG",
+			"_copy": {
+				"name": "Helm of Comprehending Languages",
+				"source": "DMG",
+				"_mod": {
+					"value": 120000
+				}
+			}
+		},
+		{
+			"name": "Helm of Telepathy",
+			"source": "DMG",
+			"_copy": {
+				"name": "Helm of Telepathy",
+				"source": "DMG",
+				"_mod": {
+					"value": 250000
+				}
+			}
+		},
+		{
+			"name": "Helm of Teleportation",
+			"source": "DMG",
+			"_copy": {
+				"name": "Helm of Teleportation",
+				"source": "DMG",
+				"_mod": {
+					"value": 1890000
+				}
+			}
+		},
+		{
+			"name": "Heward's Handy Haversack",
+			"source": "DMG",
+			"_copy": {
+				"name": "Heward's Handy Haversack",
+				"source": "DMG",
+				"_mod": {
+					"value": 432000
+				}
+			}
+		},
+		{
+			"name": "Heward's Handy Spice Pouch",
+			"source": "XGE",
+			"_copy": {
+				"name": "Heward's Handy Spice Pouch",
+				"source": "XGE",
+				"_mod": {
+					"value": 9600
+				}
+			}
+		},
+		{
+			"name": "Horn of Blasting",
+			"source": "DMG",
+			"_copy": {
+				"name": "Horn of Blasting",
+				"source": "DMG",
+				"_mod": {
+					"value": 125000
+				}
+			}
+		},
+		{
+			"name": "Horn of Silent Alarm",
+			"source": "XGE",
+			"_copy": {
+				"name": "Horn of Silent Alarm",
+				"source": "XGE",
+				"_mod": {
+					"value": 15500
+				}
+			}
+		},
+		{
+			"name": "Horn of Valhalla, Brass",
+			"source": "DMG",
+			"_copy": {
+				"name": "Horn of Valhalla, Brass",
+				"source": "DMG",
+				"_mod": {
+					"value": 1000000
+				}
+			}
+		},
+		{
+			"name": "Horn of Valhalla, Bronze",
+			"source": "DMG",
+			"_copy": {
+				"name": "Horn of Valhalla, Bronze",
+				"source": "DMG",
+				"_mod": {
+					"value": 2400000
+				}
+			}
+		},
+		{
+			"name": "Horn of Valhalla, Iron",
+			"source": "DMG",
+			"_copy": {
+				"name": "Horn of Valhalla, Iron",
+				"source": "DMG",
+				"_mod": {
+					"value": 5200000
+				}
+			}
+		},
+		{
+			"name": "Horn of Valhalla, Silver",
+			"source": "DMG",
+			"_copy": {
+				"name": "Horn of Valhalla, Silver",
+				"source": "DMG",
+				"_mod": {
+					"value": 700000
+				}
+			}
+		},
+		{
+			"name": "Horseshoes of a Zephyr",
+			"source": "DMG",
+			"_copy": {
+				"name": "Horseshoes of a Zephyr",
+				"source": "DMG",
+				"_mod": {
+					"value": 1600000
+				}
+			}
+		},
+		{
+			"name": "Horseshoes of Speed",
+			"source": "DMG",
+			"_copy": {
+				"name": "Horseshoes of Speed",
+				"source": "DMG",
+				"_mod": {
+					"value": 320000
+				}
+			}
+		},
+		{
+			"name": "Illuminator's Tattoo",
+			"source": "TCE",
+			"_copy": {
+				"name": "Illuminator's Tattoo",
+				"source": "TCE",
+				"_mod": {
+					"value": 20000
+				}
+			}
+		},
+		{
+			"name": "Immovable Rod",
+			"source": "DMG",
+			"_copy": {
+				"name": "Immovable Rod",
+				"source": "DMG",
+				"_mod": {
+					"value": 100000
+				}
+			}
+		},
+		{
+			"name": "Instrument of Illusions",
+			"source": "XGE",
+			"_copy": {
+				"name": "Instrument of Illusions",
+				"source": "XGE",
+				"_mod": {
+					"value": 13000
+				}
+			}
+		},
+		{
+			"name": "Instrument of Scribing",
+			"source": "XGE",
+			"_copy": {
+				"name": "Instrument of Scribing",
+				"source": "XGE",
+				"_mod": {
+					"value": 13000
+				}
+			}
+		},
+		{
+			"name": "Instrument of the Bards, Anstruth Harp",
+			"source": "DMG",
+			"_copy": {
+				"name": "Instrument of the Bards, Anstruth Harp",
+				"source": "DMG",
+				"_mod": {
+					"value": 2360500
+				}
+			}
+		},
+		{
+			"name": "Instrument of the Bards, Canaith Mandolin",
+			"source": "DMG",
+			"_copy": {
+				"name": "Instrument of the Bards, Canaith Mandolin",
+				"source": "DMG",
+				"_mod": {
+					"value": 492000
+				}
+			}
+		},
+		{
+			"name": "Instrument of the Bards, Cli Lyre",
+			"source": "DMG",
+			"_copy": {
+				"name": "Instrument of the Bards, Cli Lyre",
+				"source": "DMG",
+				"_mod": {
+					"value": 585500
+				}
+			}
+		},
+		{
+			"name": "Instrument of the Bards, Doss Lute",
+			"source": "DMG",
+			"_copy": {
+				"name": "Instrument of the Bards, Doss Lute",
+				"source": "DMG",
+				"_mod": {
+					"value": 277500
+				}
+			}
+		},
+		{
+			"name": "Instrument of the Bards, Fochlucan Bandore",
+			"source": "DMG",
+			"_copy": {
+				"name": "Instrument of the Bards, Fochlucan Bandore",
+				"source": "DMG",
+				"_mod": {
+					"value": 260000
+				}
+			}
+		},
+		{
+			"name": "Instrument of the Bards, Mac-Fuirmidh Cittern",
+			"source": "DMG",
+			"_copy": {
+				"name": "Instrument of the Bards, Mac-Fuirmidh Cittern",
+				"source": "DMG",
+				"_mod": {
+					"value": 277000
+				}
+			}
+		},
+		{
+			"name": "Instrument of the Bards, Ollamh Harp",
+			"source": "DMG",
+			"_copy": {
+				"name": "Instrument of the Bards, Ollamh Harp",
+				"source": "DMG",
+				"_mod": {
+					"value": 3764500
+				}
+			}
+		},
+		{
+			"name": "Ioun Stone, Absorption",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ioun Stone, Absorption",
+				"source": "DMG",
+				"_mod": {
+					"value": 540000
+				}
+			}
+		},
+		{
+			"name": "Ioun Stone, Agility",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ioun Stone, Agility",
+				"source": "DMG",
+				"_mod": {
+					"value": 720000
+				}
+			}
+		},
+		{
+			"name": "Ioun Stone, Awareness",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ioun Stone, Awareness",
+				"source": "DMG",
+				"_mod": {
+					"value": 60000
+				}
+			}
+		},
+		{
+			"name": "Ioun Stone, Fortitude",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ioun Stone, Fortitude",
+				"source": "DMG",
+				"_mod": {
+					"value": 720000
+				}
+			}
+		},
+		{
+			"name": "Ioun Stone, Greater Absorption",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ioun Stone, Greater Absorption",
+				"source": "DMG",
+				"_mod": {
+					"value": 3600000
+				}
+			}
+		},
+		{
+			"name": "Ioun Stone, Insight",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ioun Stone, Insight",
+				"source": "DMG",
+				"_mod": {
+					"value": 720000
+				}
+			}
+		},
+		{
+			"name": "Ioun Stone, Intellect",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ioun Stone, Intellect",
+				"source": "DMG",
+				"_mod": {
+					"value": 720000
+				}
+			}
+		},
+		{
+			"name": "Ioun Stone, Leadership",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ioun Stone, Leadership",
+				"source": "DMG",
+				"_mod": {
+					"value": 720000
+				}
+			}
+		},
+		{
+			"name": "Ioun Stone, Mastery",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ioun Stone, Mastery",
+				"source": "DMG",
+				"_mod": {
+					"value": 2550000
+				}
+			}
+		},
+		{
+			"name": "Ioun Stone, Protection",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ioun Stone, Protection",
+				"source": "DMG",
+				"_mod": {
+					"value": 180000
+				}
+			}
+		},
+		{
+			"name": "Ioun Stone, Regeneration",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ioun Stone, Regeneration",
+				"source": "DMG",
+				"_mod": {
+					"value": 2100000
+				}
+			}
+		},
+		{
+			"name": "Ioun Stone, Reserve",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ioun Stone, Reserve",
+				"source": "DMG",
+				"_mod": {
+					"value": 1560000
+				}
+			}
+		},
+		{
+			"name": "Ioun Stone, Strength",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ioun Stone, Strength",
+				"source": "DMG",
+				"_mod": {
+					"value": 720000
+				}
+			}
+		},
+		{
+			"name": "Ioun Stone, Sustenance",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ioun Stone, Sustenance",
+				"source": "DMG",
+				"_mod": {
+					"value": 255000
+				}
+			}
+		},
+		{
+			"name": "Iron Bands of Bilarro",
+			"source": "DMG",
+			"_copy": {
+				"name": "Iron Bands of Bilarro",
+				"source": "DMG",
+				"_mod": {
+					"value": 120000
+				}
+			}
+		},
+		{
+			"name": "Iron Flask",
+			"source": "DMG",
+			"_copy": {
+				"name": "Iron Flask",
+				"source": "DMG",
+				"_mod": {
+					"value": 6200000
+				}
+			}
+		},
+		{
+			"name": "Javelin of Lightning",
+			"source": "DMG",
+			"_copy": {
+				"name": "Javelin of Lightning",
+				"source": "DMG",
+				"_mod": {
+					"value": 80000
+				}
+			}
+		},
+		{
+			"name": "Keoghtom's Ointment",
+			"source": "DMG",
+			"_copy": {
+				"name": "Keoghtom's Ointment",
+				"source": "DMG",
+				"_mod": {
+					"value": 20000
+				}
+			}
+		},
+		{
+			"name": "Lantern of Revealing",
+			"source": "DMG",
+			"_copy": {
+				"name": "Lantern of Revealing",
+				"source": "DMG",
+				"_mod": {
+					"value": 150000
+				}
+			}
+		},
+		{
+			"name": "Libram of Souls and Flesh",
+			"source": "TCE",
+			"_copy": {
+				"name": "Libram of Souls and Flesh",
+				"source": "TCE",
+				"_mod": {
+					"value": 1131500
+				}
+			}
+		},
+		{
+			"name": "Lifewell Tattoo",
+			"source": "TCE",
+			"_copy": {
+				"name": "Lifewell Tattoo",
+				"source": "TCE",
+				"_mod": {
+					"value": 800000
+				}
+			}
+		},
+		{
+			"name": "Lightning Absorbing Tattoo",
+			"source": "TCE",
+			"_copy": {
+				"name": "Lightning Absorbing Tattoo",
+				"source": "TCE",
+				"_mod": {
+					"value": 750000
+				}
+			}
+		},
+		{
+			"name": "Lock of Trickery",
+			"source": "XGE",
+			"_copy": {
+				"name": "Lock of Trickery",
+				"source": "XGE",
+				"_mod": {
+					"value": 20000
+				}
+			}
+		},
+		{
+			"name": "Lyre of Building",
+			"source": "TCE",
+			"_copy": {
+				"name": "Lyre of Building",
+				"source": "TCE",
+				"_mod": {
+					"value": 788000
+				}
+			}
+		},
+		{
+			"name": "Mace of Disruption",
+			"source": "DMG",
+			"_copy": {
+				"name": "Mace of Disruption",
+				"source": "DMG",
+				"_mod": {
+					"value": 920000
+				}
+			}
+		},
+		{
+			"name": "Mace of Smiting",
+			"source": "DMG",
+			"_copy": {
+				"name": "Mace of Smiting",
+				"source": "DMG",
+				"_mod": {
+					"value": 750000
+				}
+			}
+		},
+		{
+			"name": "Mace of Terror",
+			"source": "DMG",
+			"_copy": {
+				"name": "Mace of Terror",
+				"source": "DMG",
+				"_mod": {
+					"value": 460000
+				}
+			}
+		},
+		{
+			"name": "Mantle of Spell Resistance",
+			"source": "DMG",
+			"_copy": {
+				"name": "Mantle of Spell Resistance",
+				"source": "DMG",
+				"_mod": {
+					"value": 4000000
+				}
+			}
+		},
+		{
+			"name": "Manual of Bodily Health",
+			"source": "DMG",
+			"_copy": {
+				"name": "Manual of Bodily Health",
+				"source": "DMG",
+				"_mod": {
+					"value": 6000000
+				}
+			}
+		},
+		{
+			"name": "Manual of Clay Golems",
+			"source": "DMG",
+			"_copy": {
+				"name": "Manual of Clay Golems",
+				"source": "DMG",
+				"_mod": {
+					"value": 1560000
+				}
+			}
+		},
+		{
+			"name": "Manual of Flesh Golems",
+			"source": "DMG",
+			"_copy": {
+				"name": "Manual of Flesh Golems",
+				"source": "DMG",
+				"_mod": {
+					"value": 1200000
+				}
+			}
+		},
+		{
+			"name": "Manual of Gainful Exercise",
+			"source": "DMG",
+			"_copy": {
+				"name": "Manual of Gainful Exercise",
+				"source": "DMG",
+				"_mod": {
+					"value": 6000000
+				}
+			}
+		},
+		{
+			"name": "Manual of Iron Golems",
+			"source": "DMG",
+			"_copy": {
+				"name": "Manual of Iron Golems",
+				"source": "DMG",
+				"_mod": {
+					"value": 2400000
+				}
+			}
+		},
+		{
+			"name": "Manual of Quickness of Action",
+			"source": "DMG",
+			"_copy": {
+				"name": "Manual of Quickness of Action",
+				"source": "DMG",
+				"_mod": {
+					"value": 6000000
+				}
+			}
+		},
+		{
+			"name": "Manual of Stone Golems",
+			"source": "DMG",
+			"_copy": {
+				"name": "Manual of Stone Golems",
+				"source": "DMG",
+				"_mod": {
+					"value": 1920000
+				}
+			}
+		},
+		{
+			"name": "Masquerade Tattoo",
+			"source": "TCE",
+			"_copy": {
+				"name": "Masquerade Tattoo",
+				"source": "TCE",
+				"_mod": {
+					"value": 20000
+				}
+			}
+		},
+		{
+			"name": "Medallion of Thoughts",
+			"source": "DMG",
+			"_copy": {
+				"name": "Medallion of Thoughts",
+				"source": "DMG",
+				"_mod": {
+					"value": 78000
+				}
+			}
+		},
+		{
+			"name": "Mirror of Life Trapping",
+			"source": "DMG",
+			"_copy": {
+				"name": "Mirror of Life Trapping",
+				"source": "DMG",
+				"_mod": {
+					"value": 8000000
+				}
+			}
+		},
+		{
+			"name": "Moonblade",
+			"source": "DMG",
+			"_copy": {
+				"name": "Moonblade",
+				"source": "DMG",
+				"_mod": {
+					"value": 110000
+				}
+			}
+		},
+		{
+			"name": "Mystery Key",
+			"source": "XGE",
+			"_copy": {
+				"name": "Mystery Key",
+				"source": "XGE",
+				"_mod": {
+					"value": 35000
+				}
+			}
+		},
+		{
+			"name": "Nature's Mantle",
+			"source": "TCE",
+			"_copy": {
+				"name": "Nature's Mantle",
+				"source": "TCE",
+				"_mod": {
+					"value": 90000
+				}
+			}
+		},
+		{
+			"name": "Necklace of Adaptation",
+			"source": "DMG",
+			"_copy": {
+				"name": "Necklace of Adaptation",
+				"source": "DMG",
+				"_mod": {
+					"value": 125000
+				}
+			}
+		},
+		{
+			"name": "Necklace of Fireballs",
+			"source": "DMG",
+			"_copy": {
+				"name": "Necklace of Fireballs",
+				"source": "DMG",
+				"_mod": {
+					"value": 35000
+				}
+			}
+		},
+		{
+			"name": "Necklace of Prayer Beads",
+			"source": "DMG",
+			"_copy": {
+				"name": "Necklace of Prayer Beads",
+				"source": "DMG",
+				"_mod": {
+					"value": 10000
+				}
+			}
+		},
+		{
+			"name": "Necrotic Absorbing Tattoo",
+			"source": "TCE",
+			"_copy": {
+				"name": "Necrotic Absorbing Tattoo",
+				"source": "TCE",
+				"_mod": {
+					"value": 750000
+				}
+			}
+		},
+		{
+			"name": "Nolzur's Marvelous Pigments",
+			"source": "DMG",
+			"_copy": {
+				"name": "Nolzur's Marvelous Pigments",
+				"source": "DMG",
+				"_mod": {
+					"value": 500000
+				}
+			}
+		},
+		{
+			"name": "Oathbow",
+			"source": "DMG",
+			"_copy": {
+				"name": "Oathbow",
+				"source": "DMG",
+				"_mod": {
+					"value": 720000
+				}
+			}
+		},
+		{
+			"name": "Oil of Etherealness",
+			"source": "DMG",
+			"_copy": {
+				"name": "Oil of Etherealness",
+				"source": "DMG",
+				"_mod": {
+					"value": 275000
+				}
+			}
+		},
+		{
+			"name": "Oil of Sharpness",
+			"source": "DMG",
+			"_copy": {
+				"name": "Oil of Sharpness",
+				"source": "DMG",
+				"_mod": {
+					"value": 610000
+				}
+			}
+		},
+		{
+			"name": "Oil of Slipperiness",
+			"source": "DMG",
+			"_copy": {
+				"name": "Oil of Slipperiness",
+				"source": "DMG",
+				"_mod": {
+					"value": 60000
+				}
+			}
+		},
+		{
+			"name": "Orb of Direction",
+			"source": "XGE",
+			"_copy": {
+				"name": "Orb of Direction",
+				"source": "XGE",
+				"_mod": {
+					"value": 6000
+				}
+			}
+		},
+		{
+			"name": "Orb of Time",
+			"source": "XGE",
+			"_copy": {
+				"name": "Orb of Time",
+				"source": "XGE",
+				"_mod": {
+					"value": 7500
+				}
+			}
+		},
+		{
+			"name": "Outer Essence Shard",
+			"source": "TCE",
+			"_copy": {
+				"name": "Outer Essence Shard",
+				"source": "TCE",
+				"_mod": {
+					"value": 240000
+				}
+			}
+		},
+		{
+			"name": "Pearl of Power",
+			"source": "DMG",
+			"_copy": {
+				"name": "Pearl of Power",
+				"source": "DMG",
+				"_mod": {
+					"value": 249000
+				}
+			}
+		},
+		{
+			"name": "Perfume of Bewitching",
+			"source": "XGE",
+			"_copy": {
+				"name": "Perfume of Bewitching",
+				"source": "XGE",
+				"_mod": {
+					"value": 20000
+				}
+			}
+		},
+		{
+			"name": "Periapt of Health",
+			"source": "DMG",
+			"_copy": {
+				"name": "Periapt of Health",
+				"source": "DMG",
+				"_mod": {
+					"value": 560000
+				}
+			}
+		},
+		{
+			"name": "Periapt of Proof against Poison",
+			"source": "DMG",
+			"_copy": {
+				"name": "Periapt of Proof against Poison",
+				"source": "DMG",
+				"_mod": {
+					"value": 940000
+				}
+			}
+		},
+		{
+			"name": "Periapt of Wound Closure",
+			"source": "DMG",
+			"_copy": {
+				"name": "Periapt of Wound Closure",
+				"source": "DMG",
+				"_mod": {
+					"value": 120000
+				}
+			}
+		},
+		{
+			"name": "Philter of Love",
+			"source": "DMG",
+			"_copy": {
+				"name": "Philter of Love",
+				"source": "DMG",
+				"_mod": {
+					"value": 6000
+				}
+			}
+		},
+		{
+			"name": "Pipe of Smoke Monsters",
+			"source": "XGE",
+			"_copy": {
+				"name": "Pipe of Smoke Monsters",
+				"source": "XGE",
+				"_mod": {
+					"value": 800
+				}
+			}
+		},
+		{
+			"name": "Pipes of Haunting",
+			"source": "DMG",
+			"_copy": {
+				"name": "Pipes of Haunting",
+				"source": "DMG",
+				"_mod": {
+					"value": 450000
+				}
+			}
+		},
+		{
+			"name": "Pipes of the Sewers",
+			"source": "DMG",
+			"_copy": {
+				"name": "Pipes of the Sewers",
+				"source": "DMG",
+				"_mod": {
+					"value": 75000
+				}
+			}
+		},
+		{
+			"name": "Planecaller's Codex",
+			"source": "TCE",
+			"_copy": {
+				"name": "Planecaller's Codex",
+				"source": "TCE",
+				"_mod": {
+					"value": 2911000
+				}
+			}
+		},
+		{
+			"name": "Poison Absorbing Tattoo",
+			"source": "TCE",
+			"_copy": {
+				"name": "Poison Absorbing Tattoo",
+				"source": "TCE",
+				"_mod": {
+					"value": 750000
+				}
+			}
+		},
+		{
+			"name": "Pole of Angling",
+			"source": "XGE",
+			"_copy": {
+				"name": "Pole of Angling",
+				"source": "XGE",
+				"_mod": {
+					"value": 1200
+				}
+			}
+		},
+		{
+			"name": "Pole of Collapsing",
+			"source": "XGE",
+			"_copy": {
+				"name": "Pole of Collapsing",
+				"source": "XGE",
+				"_mod": {
+					"value": 1000
+				}
+			}
+		},
+		{
+			"name": "Portable Hole",
+			"source": "DMG",
+			"_copy": {
+				"name": "Portable Hole",
+				"source": "DMG",
+				"_mod": {
+					"value": 970000
+				}
+			}
+		},
+		{
+			"name": "Pot of Awakening",
+			"source": "XGE",
+			"_copy": {
+				"name": "Pot of Awakening",
+				"source": "XGE",
+				"_mod": {
+					"value": 6000
+				}
+			}
+		},
+		{
+			"name": "Potion of Acid Resistance",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Acid Resistance",
+				"source": "DMG",
+				"_mod": {
+					"value": 60000
+				}
+			}
+		},
+		{
+			"name": "Potion of Animal Friendship",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Animal Friendship",
+				"source": "DMG",
+				"_mod": {
+					"value": 18000
+				}
+			}
+		},
+		{
+			"name": "Potion of Clairvoyance",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Clairvoyance",
+				"source": "DMG",
+				"_mod": {
+					"value": 120000
+				}
+			}
+		},
+		{
+			"name": "Potion of Climbing",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Climbing",
+				"source": "DMG",
+				"_mod": {
+					"value": 3200
+				}
+			}
+		},
+		{
+			"name": "Potion of Cloud Giant Strength",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Cloud Giant Strength",
+				"source": "DMG",
+				"_mod": {
+					"value": 800000
+				}
+			}
+		},
+		{
+			"name": "Potion of Cold Resistance",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Cold Resistance",
+				"source": "DMG",
+				"_mod": {
+					"value": 60000
+				}
+			}
+		},
+		{
+			"name": "Potion of Diminution",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Diminution",
+				"source": "DMG",
+				"_mod": {
+					"value": 60000
+				}
+			}
+		},
+		{
+			"name": "Potion of Fire Breath",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Fire Breath",
+				"source": "DMG",
+				"_mod": {
+					"value": 33000
+				}
+			}
+		},
+		{
+			"name": "Potion of Fire Giant Strength",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Fire Giant Strength",
+				"source": "DMG",
+				"_mod": {
+					"value": 300000
+				}
+			}
+		},
+		{
+			"name": "Potion of Fire Resistance",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Fire Resistance",
+				"source": "DMG",
+				"_mod": {
+					"value": 60000
+				}
+			}
+		},
+		{
+			"name": "Potion of Flying",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Flying",
+				"source": "DMG",
+				"_mod": {
+					"value": 90000
+				}
+			}
+		},
+		{
+			"name": "Potion of Force Resistance",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Force Resistance",
+				"source": "DMG",
+				"_mod": {
+					"value": 60000
+				}
+			}
+		},
+		{
+			"name": "Potion of Frost Giant Strength",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Frost Giant Strength",
+				"source": "DMG",
+				"_mod": {
+					"value": 100000
+				}
+			}
+		},
+		{
+			"name": "Potion of Gaseous Form",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Gaseous Form",
+				"source": "DMG",
+				"_mod": {
+					"value": 85000
+				}
+			}
+		},
+		{
+			"name": "Potion of Greater Healing",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Greater Healing",
+				"source": "DMG",
+				"_mod": {
+					"value": 15000
+				}
+			}
+		},
+		{
+			"name": "Potion of Growth",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Growth",
+				"source": "DMG",
+				"_mod": {
+					"value": 60000
+				}
+			}
+		},
+		{
+			"name": "Potion of Heroism",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Heroism",
+				"source": "DMG",
+				"_mod": {
+					"value": 42000
+				}
+			}
+		},
+		{
+			"name": "Potion of Hill Giant Strength",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Hill Giant Strength",
+				"source": "DMG",
+				"_mod": {
+					"value": 40000
+				}
+			}
+		},
+		{
+			"name": "Potion of Invisibility",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Invisibility",
+				"source": "DMG",
+				"_mod": {
+					"value": 225000
+				}
+			}
+		},
+		{
+			"name": "Potion of Invulnerability",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Invulnerability",
+				"source": "DMG",
+				"_mod": {
+					"value": 700000
+				}
+			}
+		},
+		{
+			"name": "Potion of Lightning Resistance",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Lightning Resistance",
+				"source": "DMG",
+				"_mod": {
+					"value": 60000
+				}
+			}
+		},
+		{
+			"name": "Potion of Longevity",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Longevity",
+				"source": "DMG",
+				"_mod": {
+					"value": 450000
+				}
+			}
+		},
+		{
+			"name": "Potion of Mind Reading",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Mind Reading",
+				"source": "DMG",
+				"_mod": {
+					"value": 72000
+				}
+			}
+		},
+		{
+			"name": "Potion of Necrotic Resistance",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Necrotic Resistance",
+				"source": "DMG",
+				"_mod": {
+					"value": 60000
+				}
+			}
+		},
+		{
+			"name": "Potion of Poison",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Poison",
+				"source": "DMG",
+				"_mod": {
+					"value": 10000
+				}
+			}
+		},
+		{
+			"name": "Potion of Poison Resistance",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Poison Resistance",
+				"source": "DMG",
+				"_mod": {
+					"value": 60000
+				}
+			}
+		},
+		{
+			"name": "Potion of Psychic Resistance",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Psychic Resistance",
+				"source": "DMG",
+				"_mod": {
+					"value": 60000
+				}
+			}
+		},
+		{
+			"name": "Potion of Radiant Resistance",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Radiant Resistance",
+				"source": "DMG",
+				"_mod": {
+					"value": 60000
+				}
+			}
+		},
+		{
+			"name": "Potion of Speed",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Speed",
+				"source": "DMG",
+				"_mod": {
+					"value": 80000
+				}
+			}
+		},
+		{
+			"name": "Potion of Stone Giant Strength",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Stone Giant Strength",
+				"source": "DMG",
+				"_mod": {
+					"value": 100000
+				}
+			}
+		},
+		{
+			"name": "Potion of Storm Giant Strength",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Storm Giant Strength",
+				"source": "DMG",
+				"_mod": {
+					"value": 3000000
+				}
+			}
+		},
+		{
+			"name": "Potion of Superior Healing",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Superior Healing",
+				"source": "DMG",
+				"_mod": {
+					"value": 50000
+				}
+			}
+		},
+		{
+			"name": "Potion of Supreme Healing",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Supreme Healing",
+				"source": "DMG",
+				"_mod": {
+					"value": 200000
+				}
+			}
+		},
+		{
+			"name": "Potion of Thunder Resistance",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Thunder Resistance",
+				"source": "DMG",
+				"_mod": {
+					"value": 60000
+				}
+			}
+		},
+		{
+			"name": "Potion of Vitality",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Vitality",
+				"source": "DMG",
+				"_mod": {
+					"value": 585000
+				}
+			}
+		},
+		{
+			"name": "Potion of Water Breathing",
+			"source": "DMG",
+			"_copy": {
+				"name": "Potion of Water Breathing",
+				"source": "DMG",
+				"_mod": {
+					"value": 25000
+				}
+			}
+		},
+		{
+			"name": "Protective Verses",
+			"source": "TCE",
+			"_copy": {
+				"name": "Protective Verses",
+				"source": "TCE",
+				"_mod": {
+					"value": 1096000
+				}
+			}
+		},
+		{
+			"name": "Psychic Absorbing Tattoo",
+			"source": "TCE",
+			"_copy": {
+				"name": "Psychic Absorbing Tattoo",
+				"source": "TCE",
+				"_mod": {
+					"value": 750000
+				}
+			}
+		},
+		{
+			"name": "Quaal's Feather Token, Anchor",
+			"source": "DMG",
+			"_copy": {
+				"name": "Quaal's Feather Token, Anchor",
+				"source": "DMG",
+				"_mod": {
+					"value": 30000
+				}
+			}
+		},
+		{
+			"name": "Quaal's Feather Token, Bird",
+			"source": "DMG",
+			"_copy": {
+				"name": "Quaal's Feather Token, Bird",
+				"source": "DMG",
+				"_mod": {
+					"value": 180000
+				}
+			}
+		},
+		{
+			"name": "Quaal's Feather Token, Fan",
+			"source": "DMG",
+			"_copy": {
+				"name": "Quaal's Feather Token, Fan",
+				"source": "DMG",
+				"_mod": {
+					"value": 80000
+				}
+			}
+		},
+		{
+			"name": "Quaal's Feather Token, Swan Boat",
+			"source": "DMG",
+			"_copy": {
+				"name": "Quaal's Feather Token, Swan Boat",
+				"source": "DMG",
+				"_mod": {
+					"value": 120000
+				}
+			}
+		},
+		{
+			"name": "Quaal's Feather Token, Tree",
+			"source": "DMG",
+			"_copy": {
+				"name": "Quaal's Feather Token, Tree",
+				"source": "DMG",
+				"_mod": {
+					"value": 20000
+				}
+			}
+		},
+		{
+			"name": "Quaal's Feather Token, Whip",
+			"source": "DMG",
+			"_copy": {
+				"name": "Quaal's Feather Token, Whip",
+				"source": "DMG",
+				"_mod": {
+					"value": 60000
+				}
+			}
+		},
+		{
+			"name": "Quiver of Ehlonna",
+			"source": "DMG",
+			"_copy": {
+				"name": "Quiver of Ehlonna",
+				"source": "DMG",
+				"_mod": {
+					"value": 37500
+				}
+			}
+		},
+		{
+			"name": "Radiant Absorbing Tattoo",
+			"source": "TCE",
+			"_copy": {
+				"name": "Radiant Absorbing Tattoo",
+				"source": "TCE",
+				"_mod": {
+					"value": 750000
+				}
+			}
+		},
+		{
+			"name": "Red Dragon Scale Mail",
+			"source": "DMG",
+			"_copy": {
+				"name": "Red Dragon Scale Mail",
+				"source": "DMG",
+				"_mod": {
+					"value": 1000000
+				}
+			}
+		},
+		{
+			"name": "Reveler's Concertina",
+			"source": "TCE",
+			"_copy": {
+				"name": "Reveler's Concertina",
+				"source": "TCE",
+				"_mod": {
+					"value": 990000
+				}
+			}
+		},
+		{
+			"name": "Ring of Acid Resistance",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Acid Resistance",
+				"source": "DMG",
+				"_mod": {
+					"value": 415000
+				}
+			}
+		},
+		{
+			"name": "Ring of Air Elemental Command",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Air Elemental Command",
+				"source": "DMG",
+				"_mod": {
+					"value": 8750000
+				}
+			}
+		},
+		{
+			"name": "Ring of Animal Influence",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Animal Influence",
+				"source": "DMG",
+				"_mod": {
+					"value": 150000
+				}
+			}
+		},
+		{
+			"name": "Ring of Cold Resistance",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Cold Resistance",
+				"source": "DMG",
+				"_mod": {
+					"value": 415000
+				}
+			}
+		},
+		{
+			"name": "Ring of Djinni Summoning",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Djinni Summoning",
+				"source": "DMG",
+				"_mod": {
+					"value": 6400000
+				}
+			}
+		},
+		{
+			"name": "Ring of Earth Elemental Command",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Earth Elemental Command",
+				"source": "DMG",
+				"_mod": {
+					"value": 8750000
+				}
+			}
+		},
+		{
+			"name": "Ring of Evasion",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Evasion",
+				"source": "DMG",
+				"_mod": {
+					"value": 480000
+				}
+			}
+		},
+		{
+			"name": "Ring of Feather Falling",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Feather Falling",
+				"source": "DMG",
+				"_mod": {
+					"value": 98000
+				}
+			}
+		},
+		{
+			"name": "Ring of Fire Elemental Command",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Fire Elemental Command",
+				"source": "DMG",
+				"_mod": {
+					"value": 8750000
+				}
+			}
+		},
+		{
+			"name": "Ring of Fire Resistance",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Fire Resistance",
+				"source": "DMG",
+				"_mod": {
+					"value": 415000
+				}
+			}
+		},
+		{
+			"name": "Ring of Force Resistance",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Force Resistance",
+				"source": "DMG",
+				"_mod": {
+					"value": 415000
+				}
+			}
+		},
+		{
+			"name": "Ring of Free Action",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Free Action",
+				"source": "DMG",
+				"_mod": {
+					"value": 780000
+				}
+			}
+		},
+		{
+			"name": "Ring of Invisibility",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Invisibility",
+				"source": "DMG",
+				"_mod": {
+					"value": 7500000
+				}
+			}
+		},
+		{
+			"name": "Ring of Jumping",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Jumping",
+				"source": "DMG",
+				"_mod": {
+					"value": 60000
+				}
+			}
+		},
+		{
+			"name": "Ring of Lightning Resistance",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Lightning Resistance",
+				"source": "DMG",
+				"_mod": {
+					"value": 415000
+				}
+			}
+		},
+		{
+			"name": "Ring of Mind Shielding",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Mind Shielding",
+				"source": "DMG",
+				"_mod": {
+					"value": 180000
+				}
+			}
+		},
+		{
+			"name": "Ring of Necrotic Resistance",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Necrotic Resistance",
+				"source": "DMG",
+				"_mod": {
+					"value": 415000
+				}
+			}
+		},
+		{
+			"name": "Ring of Poison Resistance",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Poison Resistance",
+				"source": "DMG",
+				"_mod": {
+					"value": 415000
+				}
+			}
+		},
+		{
+			"name": "Ring of Protection",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Protection",
+				"source": "DMG",
+				"_mod": {
+					"value": 300000
+				}
+			}
+		},
+		{
+			"name": "Ring of Psychic Resistance",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Psychic Resistance",
+				"source": "DMG",
+				"_mod": {
+					"value": 415000
+				}
+			}
+		},
+		{
+			"name": "Ring of Radiant Resistance",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Radiant Resistance",
+				"source": "DMG",
+				"_mod": {
+					"value": 415000
+				}
+			}
+		},
+		{
+			"name": "Ring of Regeneration",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Regeneration",
+				"source": "DMG",
+				"_mod": {
+					"value": 1450000
+				}
+			}
+		},
+		{
+			"name": "Ring of Shooting Stars",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Shooting Stars",
+				"source": "DMG",
+				"_mod": {
+					"value": 960000
+				}
+			}
+		},
+		{
+			"name": "Ring of Spell Storing",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Spell Storing",
+				"source": "DMG",
+				"_mod": {
+					"value": 1900000
+				}
+			}
+		},
+		{
+			"name": "Ring of Spell Turning",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Spell Turning",
+				"source": "DMG",
+				"_mod": {
+					"value": 9500000
+				}
+			}
+		},
+		{
+			"name": "Ring of Swimming",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Swimming",
+				"source": "DMG",
+				"_mod": {
+					"value": 80000
+				}
+			}
+		},
+		{
+			"name": "Ring of Telekinesis",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Telekinesis",
+				"source": "DMG",
+				"_mod": {
+					"value": 845000
+				}
+			}
+		},
+		{
+			"name": "Ring of the Ram",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of the Ram",
+				"source": "DMG",
+				"_mod": {
+					"value": 350000
+				}
+			}
+		},
+		{
+			"name": "Ring of Three Wishes",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Three Wishes",
+				"source": "DMG",
+				"_mod": {
+					"value": 46000000
+				}
+			}
+		},
+		{
+			"name": "Ring of Thunder Resistance",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Thunder Resistance",
+				"source": "DMG",
+				"_mod": {
+					"value": 415000
+				}
+			}
+		},
+		{
+			"name": "Ring of Warmth",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Warmth",
+				"source": "DMG",
+				"_mod": {
+					"value": 420000
+				}
+			}
+		},
+		{
+			"name": "Ring of Water Elemental Command",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Water Elemental Command",
+				"source": "DMG",
+				"_mod": {
+					"value": 8750000
+				}
+			}
+		},
+		{
+			"name": "Ring of Water Walking",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of Water Walking",
+				"source": "DMG",
+				"_mod": {
+					"value": 80000
+				}
+			}
+		},
+		{
+			"name": "Ring of X-ray Vision",
+			"source": "DMG",
+			"_copy": {
+				"name": "Ring of X-ray Vision",
+				"source": "DMG",
+				"_mod": {
+					"value": 400000
+				}
+			}
+		},
+		{
+			"name": "Robe of Eyes",
+			"source": "DMG",
+			"_copy": {
+				"name": "Robe of Eyes",
+				"source": "DMG",
+				"_mod": {
+					"value": 1160000
+				}
+			}
+		},
+		{
+			"name": "Robe of Scintillating Colors",
+			"source": "DMG",
+			"_copy": {
+				"name": "Robe of Scintillating Colors",
+				"source": "DMG",
+				"_mod": {
+					"value": 3100000
+				}
+			}
+		},
+		{
+			"name": "Robe of Stars",
+			"source": "DMG",
+			"_copy": {
+				"name": "Robe of Stars",
+				"source": "DMG",
+				"_mod": {
+					"value": 4500000
+				}
+			}
+		},
+		{
+			"name": "Robe of the Archmagi",
+			"source": "DMG",
+			"_copy": {
+				"name": "Robe of the Archmagi",
+				"source": "DMG",
+				"_mod": {
+					"value": 12000000
+				}
+			}
+		},
+		{
+			"name": "Robe of Useful Items",
+			"source": "DMG",
+			"_copy": {
+				"name": "Robe of Useful Items",
+				"source": "DMG",
+				"_mod": {
+					"value": 17000
+				}
+			}
+		},
+		{
+			"name": "Rod of Absorption",
+			"source": "DMG",
+			"_copy": {
+				"name": "Rod of Absorption",
+				"source": "DMG",
+				"_mod": {
+					"value": 3800000
+				}
+			}
+		},
+		{
+			"name": "Rod of Alertness",
+			"source": "DMG",
+			"_copy": {
+				"name": "Rod of Alertness",
+				"source": "DMG",
+				"_mod": {
+					"value": 2500000
+				}
+			}
+		},
+		{
+			"name": "Rod of Lordly Might",
+			"source": "DMG",
+			"_copy": {
+				"name": "Rod of Lordly Might",
+				"source": "DMG",
+				"_mod": {
+					"value": 10500000
+				}
+			}
+		},
+		{
+			"name": "Rod of Resurrection",
+			"source": "DMG",
+			"_copy": {
+				"name": "Rod of Resurrection",
+				"source": "DMG",
+				"_mod": {
+					"value": 35000000
+				}
+			}
+		},
+		{
+			"name": "Rod of Rulership",
+			"source": "DMG",
+			"_copy": {
+				"name": "Rod of Rulership",
+				"source": "DMG",
+				"_mod": {
+					"value": 1240000
+				}
+			}
+		},
+		{
+			"name": "Rod of Security",
+			"source": "DMG",
+			"_copy": {
+				"name": "Rod of Security",
+				"source": "DMG",
+				"_mod": {
+					"value": 7400000
+				}
+			}
+		},
+		{
+			"name": "Rope of Climbing",
+			"source": "DMG",
+			"_copy": {
+				"name": "Rope of Climbing",
+				"source": "DMG",
+				"_mod": {
+					"value": 31500
+				}
+			}
+		},
+		{
+			"name": "Rope of Entanglement",
+			"source": "DMG",
+			"_copy": {
+				"name": "Rope of Entanglement",
+				"source": "DMG",
+				"_mod": {
+					"value": 60000
+				}
+			}
+		},
+		{
+			"name": "Rope of Mending",
+			"source": "XGE",
+			"_copy": {
+				"name": "Rope of Mending",
+				"source": "XGE",
+				"_mod": {
+					"value": 9000
+				}
+			}
+		},
+		{
+			"name": "Ruby of the War Mage",
+			"source": "XGE",
+			"_copy": {
+				"name": "Ruby of the War Mage",
+				"source": "XGE",
+				"_mod": {
+					"value": 6000
+				}
+			}
+		},
+		{
+			"name": "Saddle of the Cavalier",
+			"source": "DMG",
+			"_copy": {
+				"name": "Saddle of the Cavalier",
+				"source": "DMG",
+				"_mod": {
+					"value": 25000
+				}
+			}
+		},
+		{
+			"name": "Scarab of Protection",
+			"source": "DMG",
+			"_copy": {
+				"name": "Scarab of Protection",
+				"source": "DMG",
+				"_mod": {
+					"value": 8000000
+				}
+			}
+		},
+		{
+			"name": "Scimitar of Speed",
+			"source": "DMG",
+			"_copy": {
+				"name": "Scimitar of Speed",
+				"source": "DMG",
+				"_mod": {
+					"value": 850000
+				}
+			}
+		},
+		{
+			"name": "Scroll of Protection from Aberrations",
+			"source": "DMG",
+			"_copy": {
+				"name": "Scroll of Protection from Aberrations",
+				"source": "DMG",
+				"_mod": {
+					"value": 58000
+				}
+			}
+		},
+		{
+			"name": "Scroll of Protection from Beasts",
+			"source": "DMG",
+			"_copy": {
+				"name": "Scroll of Protection from Beasts",
+				"source": "DMG",
+				"_mod": {
+					"value": 30000
+				}
+			}
+		},
+		{
+			"name": "Scroll of Protection from Celestials",
+			"source": "DMG",
+			"_copy": {
+				"name": "Scroll of Protection from Celestials",
+				"source": "DMG",
+				"_mod": {
+					"value": 60000
+				}
+			}
+		},
+		{
+			"name": "Scroll of Protection from Elementals",
+			"source": "DMG",
+			"_copy": {
+				"name": "Scroll of Protection from Elementals",
+				"source": "DMG",
+				"_mod": {
+					"value": 60000
+				}
+			}
+		},
+		{
+			"name": "Scroll of Protection from Fey",
+			"source": "DMG",
+			"_copy": {
+				"name": "Scroll of Protection from Fey",
+				"source": "DMG",
+				"_mod": {
+					"value": 60000
+				}
+			}
+		},
+		{
+			"name": "Scroll of Protection from Fiends",
+			"source": "DMG",
+			"_copy": {
+				"name": "Scroll of Protection from Fiends",
+				"source": "DMG",
+				"_mod": {
+					"value": 60000
+				}
+			}
+		},
+		{
+			"name": "Scroll of Protection from Plants",
+			"source": "DMG",
+			"_copy": {
+				"name": "Scroll of Protection from Plants",
+				"source": "DMG",
+				"_mod": {
+					"value": 35000
+				}
+			}
+		},
+		{
+			"name": "Scroll of Protection from Undead",
+			"source": "DMG",
+			"_copy": {
+				"name": "Scroll of Protection from Undead",
+				"source": "DMG",
+				"_mod": {
+					"value": 45000
+				}
+			}
+		},
+		{
+			"name": "Sending Stones",
+			"source": "DMG",
+			"_copy": {
+				"name": "Sending Stones",
+				"source": "DMG",
+				"_mod": {
+					"value": 20000
+				}
+			}
+		},
+		{
+			"name": "Sentinel Shield",
+			"source": "DMG",
+			"_copy": {
+				"name": "Sentinel Shield",
+				"source": "DMG",
+				"_mod": {
+					"value": 72000
+				}
+			}
+		},
+		{
+			"name": "Shadowfell Brand Tattoo",
+			"source": "TCE",
+			"_copy": {
+				"name": "Shadowfell Brand Tattoo",
+				"source": "TCE",
+				"_mod": {
+					"value": 400000
+				}
+			}
+		},
+		{
+			"name": "Shadowfell Shard",
+			"source": "TCE",
+			"_copy": {
+				"name": "Shadowfell Shard",
+				"source": "TCE",
+				"_mod": {
+					"value": 240000
+				}
+			}
+		},
+		{
+			"name": "Shield of Expression",
+			"source": "XGE",
+			"_copy": {
+				"name": "Shield of Expression",
+				"source": "XGE",
+				"_mod": {
+					"value": 2000
+				}
+			}
+		},
+		{
+			"name": "Shield of Missile Attraction",
+			"source": "DMG",
+			"_copy": {
+				"name": "Shield of Missile Attraction",
+				"source": "DMG",
+				"_mod": {
+					"value": 510000
+				}
+			}
+		},
+		{
+			"name": "Silver Dragon Scale Mail",
+			"source": "DMG",
+			"_copy": {
+				"name": "Silver Dragon Scale Mail",
+				"source": "DMG",
+				"_mod": {
+					"value": 1000000
+				}
+			}
+		},
+		{
+			"name": "Slippers of Spider Climbing",
+			"source": "DMG",
+			"_copy": {
+				"name": "Slippers of Spider Climbing",
+				"source": "DMG",
+				"_mod": {
+					"value": 30000
+				}
+			}
+		},
+		{
+			"name": "Sovereign Glue",
+			"source": "DMG",
+			"_copy": {
+				"name": "Sovereign Glue",
+				"source": "DMG",
+				"_mod": {
+					"value": 140000
+				}
+			}
+		},
+		{
+			"name": "Spell Scroll (1st Level)",
+			"source": "DMG",
+			"_copy": {
+				"name": "Spell Scroll (1st Level)",
+				"source": "DMG",
+				"_mod": {
+					"value": 10000
+				}
+			}
+		},
+		{
+			"name": "Spell Scroll (2nd Level)",
+			"source": "DMG",
+			"_copy": {
+				"name": "Spell Scroll (2nd Level)",
+				"source": "DMG",
+				"_mod": {
+					"value": 25000
+				}
+			}
+		},
+		{
+			"name": "Spell Scroll (3rd Level)",
+			"source": "DMG",
+			"_copy": {
+				"name": "Spell Scroll (3rd Level)",
+				"source": "DMG",
+				"_mod": {
+					"value": 42500
+				}
+			}
+		},
+		{
+			"name": "Spell Scroll (4th Level)",
+			"source": "DMG",
+			"_copy": {
+				"name": "Spell Scroll (4th Level)",
+				"source": "DMG",
+				"_mod": {
+					"value": 70000
+				}
+			}
+		},
+		{
+			"name": "Spell Scroll (5th Level)",
+			"source": "DMG",
+			"_copy": {
+				"name": "Spell Scroll (5th Level)",
+				"source": "DMG",
+				"_mod": {
+					"value": 100000
+				}
+			}
+		},
+		{
+			"name": "Spell Scroll (6th Level)",
+			"source": "DMG",
+			"_copy": {
+				"name": "Spell Scroll (6th Level)",
+				"source": "DMG",
+				"_mod": {
+					"value": 200000
+				}
+			}
+		},
+		{
+			"name": "Spell Scroll (7th Level)",
+			"source": "DMG",
+			"_copy": {
+				"name": "Spell Scroll (7th Level)",
+				"source": "DMG",
+				"_mod": {
+					"value": 350000
+				}
+			}
+		},
+		{
+			"name": "Spell Scroll (8th Level)",
+			"source": "DMG",
+			"_copy": {
+				"name": "Spell Scroll (8th Level)",
+				"source": "DMG",
+				"_mod": {
+					"value": 750000
+				}
+			}
+		},
+		{
+			"name": "Spell Scroll (9th Level)",
+			"source": "DMG",
+			"_copy": {
+				"name": "Spell Scroll (9th Level)",
+				"source": "DMG",
+				"_mod": {
+					"value": 2000000
+				}
+			}
+		},
+		{
+			"name": "Spell Scroll (Cantrip)",
+			"source": "DMG",
+			"_copy": {
+				"name": "Spell Scroll (Cantrip)",
+				"source": "DMG",
+				"_mod": {
+					"value": 5000
+				}
+			}
+		},
+		{
+			"name": "Spellguard Shield",
+			"source": "DMG",
+			"_copy": {
+				"name": "Spellguard Shield",
+				"source": "DMG",
+				"_mod": {
+					"value": 5000000
+				}
+			}
+		},
+		{
+			"name": "Spellwrought Tattoo (1st Level)",
+			"source": "TCE",
+			"_copy": {
+				"name": "Spellwrought Tattoo (1st Level)",
+				"source": "TCE",
+				"_mod": {
+					"value": 12000
+				}
+			}
+		},
+		{
+			"name": "Spellwrought Tattoo (2nd Level)",
+			"source": "TCE",
+			"_copy": {
+				"name": "Spellwrought Tattoo (2nd Level)",
+				"source": "TCE",
+				"_mod": {
+					"value": 30000
+				}
+			}
+		},
+		{
+			"name": "Spellwrought Tattoo (3rd Level)",
+			"source": "TCE",
+			"_copy": {
+				"name": "Spellwrought Tattoo (3rd Level)",
+				"source": "TCE",
+				"_mod": {
+					"value": 51000
+				}
+			}
+		},
+		{
+			"name": "Spellwrought Tattoo (4th Level)",
+			"source": "TCE",
+			"_copy": {
+				"name": "Spellwrought Tattoo (4th Level)",
+				"source": "TCE",
+				"_mod": {
+					"value": 84000
+				}
+			}
+		},
+		{
+			"name": "Spellwrought Tattoo (5th Level)",
+			"source": "TCE",
+			"_copy": {
+				"name": "Spellwrought Tattoo (5th Level)",
+				"source": "TCE",
+				"_mod": {
+					"value": 120000
+				}
+			}
+		},
+		{
+			"name": "Spellwrought Tattoo (Cantrip)",
+			"source": "TCE",
+			"_copy": {
+				"name": "Spellwrought Tattoo (Cantrip)",
+				"source": "TCE",
+				"_mod": {
+					"value": 6000
+				}
+			}
+		},
+		{
+			"name": "Sphere of Annihilation",
+			"source": "DMG",
+			"_copy": {
+				"name": "Sphere of Annihilation",
+				"source": "DMG",
+				"_mod": {
+					"value": 40000000
+				}
+			}
+		},
+		{
+			"name": "Spider Staff",
+			"source": "LMoP",
+			"_copy": {
+				"name": "Spider Staff",
+				"source": "LMoP",
+				"_mod": {
+					"value": 550000
+				}
+			}
+		},
+		{
+			"name": "Staff of Adornment",
+			"source": "XGE",
+			"_copy": {
+				"name": "Staff of Adornment",
+				"source": "XGE",
+				"_mod": {
+					"value": 1500
+				}
+			}
+		},
+		{
+			"name": "Staff of Birdcalls",
+			"source": "XGE",
+			"_copy": {
+				"name": "Staff of Birdcalls",
+				"source": "XGE",
+				"_mod": {
+					"value": 2500
+				}
+			}
+		},
+		{
+			"name": "Staff of Charming",
+			"source": "DMG",
+			"_copy": {
+				"name": "Staff of Charming",
+				"source": "DMG",
+				"_mod": {
+					"value": 260000
+				}
+			}
+		},
+		{
+			"name": "Staff of Defense",
+			"source": "LMoP",
+			"_copy": {
+				"name": "Staff of Defense",
+				"source": "LMoP",
+				"_mod": {
+					"value": 570000
+				}
+			}
+		},
+		{
+			"name": "Staff of Fire",
+			"source": "DMG",
+			"_copy": {
+				"name": "Staff of Fire",
+				"source": "DMG",
+				"_mod": {
+					"value": 2650000
+				}
+			}
+		},
+		{
+			"name": "Staff of Flowers",
+			"source": "XGE",
+			"_copy": {
+				"name": "Staff of Flowers",
+				"source": "XGE",
+				"_mod": {
+					"value": 2000
+				}
+			}
+		},
+		{
+			"name": "Staff of Frost",
+			"source": "DMG",
+			"_copy": {
+				"name": "Staff of Frost",
+				"source": "DMG",
+				"_mod": {
+					"value": 2650000
+				}
+			}
+		},
+		{
+			"name": "Staff of Healing",
+			"source": "DMG",
+			"_copy": {
+				"name": "Staff of Healing",
+				"source": "DMG",
+				"_mod": {
+					"value": 1750000
+				}
+			}
+		},
+		{
+			"name": "Staff of Power",
+			"source": "DMG",
+			"_copy": {
+				"name": "Staff of Power",
+				"source": "DMG",
+				"_mod": {
+					"value": 7800000
+				}
+			}
+		},
+		{
+			"name": "Staff of Striking",
+			"source": "DMG",
+			"_copy": {
+				"name": "Staff of Striking",
+				"source": "DMG",
+				"_mod": {
+					"value": 3850000
+				}
+			}
+		},
+		{
+			"name": "Staff of Swarming Insects",
+			"source": "DMG",
+			"_copy": {
+				"name": "Staff of Swarming Insects",
+				"source": "DMG",
+				"_mod": {
+					"value": 1650000
+				}
+			}
+		},
+		{
+			"name": "Staff of the Adder",
+			"source": "DMG",
+			"_copy": {
+				"name": "Staff of the Adder",
+				"source": "DMG",
+				"_mod": {
+					"value": 125000
+				}
+			}
+		},
+		{
+			"name": "Staff of the Magi",
+			"source": "DMG",
+			"_copy": {
+				"name": "Staff of the Magi",
+				"source": "DMG",
+				"_mod": {
+					"value": 22500000
+				}
+			}
+		},
+		{
+			"name": "Staff of the Python",
+			"source": "DMG",
+			"_copy": {
+				"name": "Staff of the Python",
+				"source": "DMG",
+				"_mod": {
+					"value": 420000
+				}
+			}
+		},
+		{
+			"name": "Staff of the Woodlands",
+			"source": "DMG",
+			"_copy": {
+				"name": "Staff of the Woodlands",
+				"source": "DMG",
+				"_mod": {
+					"value": 2400000
+				}
+			}
+		},
+		{
+			"name": "Staff of Thunder and Lightning",
+			"source": "DMG",
+			"_copy": {
+				"name": "Staff of Thunder and Lightning",
+				"source": "DMG",
+				"_mod": {
+					"value": 2250000
+				}
+			}
+		},
+		{
+			"name": "Staff of Withering",
+			"source": "DMG",
+			"_copy": {
+				"name": "Staff of Withering",
+				"source": "DMG",
+				"_mod": {
+					"value": 245000
+				}
+			}
+		},
+		{
+			"name": "Stone of Controlling Earth Elementals",
+			"source": "DMG",
+			"_copy": {
+				"name": "Stone of Controlling Earth Elementals",
+				"source": "DMG",
+				"_mod": {
+					"value": 470000
+				}
+			}
+		},
+		{
+			"name": "Stone of Good Luck",
+			"source": "DMG",
+			"_copy": {
+				"name": "Stone of Good Luck",
+				"source": "DMG",
+				"_mod": {
+					"value": 320000
+				}
+			}
+		},
+		{
+			"name": "Sun Blade",
+			"source": "DMG",
+			"_copy": {
+				"name": "Sun Blade",
+				"source": "DMG",
+				"_mod": {
+					"value": 1200000
+				}
+			}
+		},
+		{
+			"name": "Sword of Answering (Answerer)",
+			"source": "DMG",
+			"_copy": {
+				"name": "Sword of Answering (Answerer)",
+				"source": "DMG",
+				"_mod": {
+					"value": 12600000
+				}
+			}
+		},
+		{
+			"name": "Sword of Answering (Back Talker)",
+			"source": "DMG",
+			"_copy": {
+				"name": "Sword of Answering (Back Talker)",
+				"source": "DMG",
+				"_mod": {
+					"value": 12600000
+				}
+			}
+		},
+		{
+			"name": "Sword of Answering (Concluder)",
+			"source": "DMG",
+			"_copy": {
+				"name": "Sword of Answering (Concluder)",
+				"source": "DMG",
+				"_mod": {
+					"value": 12600000
+				}
+			}
+		},
+		{
+			"name": "Sword of Answering (Last Quip)",
+			"source": "DMG",
+			"_copy": {
+				"name": "Sword of Answering (Last Quip)",
+				"source": "DMG",
+				"_mod": {
+					"value": 12600000
+				}
+			}
+		},
+		{
+			"name": "Sword of Answering (Rebutter)",
+			"source": "DMG",
+			"_copy": {
+				"name": "Sword of Answering (Rebutter)",
+				"source": "DMG",
+				"_mod": {
+					"value": 12600000
+				}
+			}
+		},
+		{
+			"name": "Sword of Answering (Replier)",
+			"source": "DMG",
+			"_copy": {
+				"name": "Sword of Answering (Replier)",
+				"source": "DMG",
+				"_mod": {
+					"value": 12600000
+				}
+			}
+		},
+		{
+			"name": "Sword of Answering (Retorter)",
+			"source": "DMG",
+			"_copy": {
+				"name": "Sword of Answering (Retorter)",
+				"source": "DMG",
+				"_mod": {
+					"value": 12600000
+				}
+			}
+		},
+		{
+			"name": "Sword of Answering (Scather)",
+			"source": "DMG",
+			"_copy": {
+				"name": "Sword of Answering (Scather)",
+				"source": "DMG",
+				"_mod": {
+					"value": 12600000
+				}
+			}
+		},
+		{
+			"name": "Sword of Answering (Squelcher)",
+			"source": "DMG",
+			"_copy": {
+				"name": "Sword of Answering (Squelcher)",
+				"source": "DMG",
+				"_mod": {
+					"value": 12600000
+				}
+			}
+		},
+		{
+			"name": "Talisman of Pure Good",
+			"source": "DMG",
+			"_copy": {
+				"name": "Talisman of Pure Good",
+				"source": "DMG",
+				"_mod": {
+					"value": 24000000
+				}
+			}
+		},
+		{
+			"name": "Talisman of the Sphere",
+			"source": "DMG",
+			"_copy": {
+				"name": "Talisman of the Sphere",
+				"source": "DMG",
+				"_mod": {
+					"value": 6000000
+				}
+			}
+		},
+		{
+			"name": "Talisman of Ultimate Evil",
+			"source": "DMG",
+			"_copy": {
+				"name": "Talisman of Ultimate Evil",
+				"source": "DMG",
+				"_mod": {
+					"value": 24000000
+				}
+			}
+		},
+		{
+			"name": "Talking Doll",
+			"source": "XGE",
+			"_copy": {
+				"name": "Talking Doll",
+				"source": "XGE",
+				"_mod": {
+					"value": 1800
+				}
+			}
+		},
+		{
+			"name": "Tankard of Sobriety",
+			"source": "XGE",
+			"_copy": {
+				"name": "Tankard of Sobriety",
+				"source": "XGE",
+				"_mod": {
+					"value": 5000
+				}
+			}
+		},
+		{
+			"name": "Tentacle Rod",
+			"source": "DMG",
+			"_copy": {
+				"name": "Tentacle Rod",
+				"source": "DMG",
+				"_mod": {
+					"value": 985000
+				}
+			}
+		},
+		{
+			"name": "Thunder Absorbing Tattoo",
+			"source": "TCE",
+			"_copy": {
+				"name": "Thunder Absorbing Tattoo",
+				"source": "TCE",
+				"_mod": {
+					"value": 750000
+				}
+			}
+		},
+		{
+			"name": "Tome of Clear Thought",
+			"source": "DMG",
+			"_copy": {
+				"name": "Tome of Clear Thought",
+				"source": "DMG",
+				"_mod": {
+					"value": 6000000
+				}
+			}
+		},
+		{
+			"name": "Tome of Leadership and Influence",
+			"source": "DMG",
+			"_copy": {
+				"name": "Tome of Leadership and Influence",
+				"source": "DMG",
+				"_mod": {
+					"value": 6000000
+				}
+			}
+		},
+		{
+			"name": "Tome of the Stilled Tongue",
+			"source": "DMG",
+			"_copy": {
+				"name": "Tome of the Stilled Tongue",
+				"source": "DMG",
+				"_mod": {
+					"value": 13500000
+				}
+			}
+		},
+		{
+			"name": "Tome of Understanding",
+			"source": "DMG",
+			"_copy": {
+				"name": "Tome of Understanding",
+				"source": "DMG",
+				"_mod": {
+					"value": 6000000
+				}
+			}
+		},
+		{
+			"name": "Trident of Fish Command",
+			"source": "DMG",
+			"_copy": {
+				"name": "Trident of Fish Command",
+				"source": "DMG",
+				"_mod": {
+					"value": 20500
+				}
+			}
+		},
+		{
+			"name": "Unbreakable Arrow",
+			"source": "XGE",
+			"_copy": {
+				"name": "Unbreakable Arrow",
+				"source": "XGE",
+				"_mod": {
+					"value": 100
+				}
+			}
+		},
+		{
+			"name": "Universal Solvent",
+			"source": "DMG",
+			"_copy": {
+				"name": "Universal Solvent",
+				"source": "DMG",
+				"_mod": {
+					"value": 120000
+				}
+			}
+		},
+		{
+			"name": "Veteran's Cane",
+			"source": "XGE",
+			"_copy": {
+				"name": "Veteran's Cane",
+				"source": "XGE",
+				"_mod": {
+					"value": 16500
+				}
+			}
+		},
+		{
+			"name": "Wand of Binding",
+			"source": "DMG",
+			"_copy": {
+				"name": "Wand of Binding",
+				"source": "DMG",
+				"_mod": {
+					"value": 415000
+				}
+			}
+		},
+		{
+			"name": "Wand of Conducting",
+			"source": "XGE",
+			"_copy": {
+				"name": "Wand of Conducting",
+				"source": "XGE",
+				"_mod": {
+					"value": 4000
+				}
+			}
+		},
+		{
+			"name": "Wand of Enemy Detection",
+			"source": "DMG",
+			"_copy": {
+				"name": "Wand of Enemy Detection",
+				"source": "DMG",
+				"_mod": {
+					"value": 280000
+				}
+			}
+		},
+		{
+			"name": "Wand of Fear",
+			"source": "DMG",
+			"_copy": {
+				"name": "Wand of Fear",
+				"source": "DMG",
+				"_mod": {
+					"value": 480000
+				}
+			}
+		},
+		{
+			"name": "Wand of Fireballs",
+			"source": "DMG",
+			"_copy": {
+				"name": "Wand of Fireballs",
+				"source": "DMG",
+				"_mod": {
+					"value": 780000
+				}
+			}
+		},
+		{
+			"name": "Wand of Lightning Bolts",
+			"source": "DMG",
+			"_copy": {
+				"name": "Wand of Lightning Bolts",
+				"source": "DMG",
+				"_mod": {
+					"value": 780000
+				}
+			}
+		},
+		{
+			"name": "Wand of Magic Detection",
+			"source": "DMG",
+			"_copy": {
+				"name": "Wand of Magic Detection",
+				"source": "DMG",
+				"_mod": {
+					"value": 60000
+				}
+			}
+		},
+		{
+			"name": "Wand of Magic Missiles",
+			"source": "DMG",
+			"_copy": {
+				"name": "Wand of Magic Missiles",
+				"source": "DMG",
+				"_mod": {
+					"value": 248000
+				}
+			}
+		},
+		{
+			"name": "Wand of Paralysis",
+			"source": "DMG",
+			"_copy": {
+				"name": "Wand of Paralysis",
+				"source": "DMG",
+				"_mod": {
+					"value": 1120000
+				}
+			}
+		},
+		{
+			"name": "Wand of Polymorph",
+			"source": "DMG",
+			"_copy": {
+				"name": "Wand of Polymorph",
+				"source": "DMG",
+				"_mod": {
+					"value": 1880000
+				}
+			}
+		},
+		{
+			"name": "Wand of Pyrotechnics",
+			"source": "XGE",
+			"_copy": {
+				"name": "Wand of Pyrotechnics",
+				"source": "XGE",
+				"_mod": {
+					"value": 9000
+				}
+			}
+		},
+		{
+			"name": "Wand of Scowls",
+			"source": "XGE",
+			"_copy": {
+				"name": "Wand of Scowls",
+				"source": "XGE",
+				"_mod": {
+					"value": 3500
+				}
+			}
+		},
+		{
+			"name": "Wand of Secrets",
+			"source": "DMG",
+			"_copy": {
+				"name": "Wand of Secrets",
+				"source": "DMG",
+				"_mod": {
+					"value": 66000
+				}
+			}
+		},
+		{
+			"name": "Wand of Smiles",
+			"source": "XGE",
+			"_copy": {
+				"name": "Wand of Smiles",
+				"source": "XGE",
+				"_mod": {
+					"value": 3500
+				}
+			}
+		},
+		{
+			"name": "Wand of Web",
+			"source": "DMG",
+			"_copy": {
+				"name": "Wand of Web",
+				"source": "DMG",
+				"_mod": {
+					"value": 235000
+				}
+			}
+		},
+		{
+			"name": "Wand of Wonder",
+			"source": "DMG",
+			"_copy": {
+				"name": "Wand of Wonder",
+				"source": "DMG",
+				"_mod": {
+					"value": 125000
+				}
+			}
+		},
+		{
+			"name": "Well of Many Worlds",
+			"source": "DMG",
+			"_copy": {
+				"name": "Well of Many Worlds",
+				"source": "DMG",
+				"_mod": {
+					"value": 9000000
+				}
+			}
+		},
+		{
+			"name": "White Dragon Scale Mail",
+			"source": "DMG",
+			"_copy": {
+				"name": "White Dragon Scale Mail",
+				"source": "DMG",
+				"_mod": {
+					"value": 1000000
+				}
+			}
+		},
+		{
+			"name": "Wind Fan",
+			"source": "DMG",
+			"_copy": {
+				"name": "Wind Fan",
+				"source": "DMG",
+				"_mod": {
+					"value": 25000
+				}
+			}
+		},
+		{
+			"name": "Winged Boots",
+			"source": "DMG",
+			"_copy": {
+				"name": "Winged Boots",
+				"source": "DMG",
+				"_mod": {
+					"value": 172500
+				}
+			}
+		},
+		{
+			"name": "Wings of Flying",
+			"source": "DMG",
+			"_copy": {
+				"name": "Wings of Flying",
+				"source": "DMG",
+				"_mod": {
+					"value": 740000
+				}
+			}
+		}
+	]
+}

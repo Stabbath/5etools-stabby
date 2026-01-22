@@ -1,0 +1,276 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "stabbybard",
+				"abbreviation": "Stabby",
+				"full": "Stabby's Classes",
+				"version": "1",
+				"url": "none",
+				"authors": [
+					"Francisco \"Stabby\" Pesquita"
+				],
+				"convertedBy": [
+					"Francisco \"Stabby\" Pesquita"
+				]
+			}
+		],
+		"dateAdded": 1586966344, 
+		"dateLastModified": 1657399173,
+		"_dateLastModifiedHash": "aa8d6f9bda"
+	},
+	"subclass": [
+		{
+			"name": "College of Jugglers",
+			"shortName": "Juggler",
+			"source": "stabbybard",
+			"page": 0,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassFeatures": [
+				"College of Jugglers|Bard||Juggler|stabbybard|3",
+				"Chain Attacks|Bard||Juggler|stabbybard|6",
+				"Grand Finale|Bard||Juggler|stabbybard|14"
+			]
+		},
+		{
+			"name": "College of Dancers",
+			"shortName": "Dancer",
+			"source": "stabbybard",
+			"page": 0,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassFeatures": [
+				"College of Dancers|Bard||Dancer|stabbybard|3",
+				"Dance of War|Bard||Dancer|stabbybard|6",
+				"Dance of Madness|Bard||Dancer|stabbybard|14"
+			]
+		}
+	],
+	
+	
+	
+	
+	
+	
+	
+
+	
+	"subclassFeature": [
+		{
+			"name": "College of Jugglers",
+			"source": "stabbybard",
+			"page": 0,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Juggler",
+			"subclassSource": "stabbybard",
+			"level": 3,
+			"entries": [
+				"A bard adept at juggling and throwing light objects and weapons, who uses magic to enhance his skills.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Intense Focus|Bard||Juggler|stabbybard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Quick Draw|Bard||Juggler|stabbybard|3"
+				}
+			]
+		},
+		{
+			"name": "Intense Focus",
+			"source": "stabbybard",
+			"page": 0,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Juggler",
+			"subclassSource": "stabbybard",
+			"level": 3,
+			"entries": [
+				"When you take this subclass at 3rd level, you gain the ability to magically heighten your accuracy with your thrown implements, for a brief spurt, to aid you in your most daring performances.",
+				"At any time during your turn, you can expend one use of your bardic inspiration dice in focusing your senses and harnessing the power of the weave to enhance your attacks with weapons that have both the Light and Thrown properties. Roll the bardic inspiration die. Until the end of your turn, you add the roll value to all attack rolls made with weapons that have the mentioned properties.",
+				"Once you have used this feature, you cannot use it again until you finish a short or long rest."
+			]
+		},
+		{
+			"name": "Quick Draw",
+			"source": "stabbybard",
+			"page": 0,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Juggler",
+			"subclassSource": "stabbybard",
+			"level": 3,
+			"entries": [
+				"Also at 3rd level, beyond attaining a higher level of dexterity in reaching for them, you also learn how to magically call your thrown items back to your hand.",
+				"When you make a ranged attack roll with a weapon that has the Light and Thrown properties, you can freely draw or grab another weapon, or alternatively, magically have the thrown weapon fly back to your hand.",
+				"If you have the weapon fly back to you, you cannot use it on your next attack this round."
+			]
+		},
+		{
+			"name": "Chain Attacks",
+			"source": "stabbybard",
+			"page": 0,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Juggler",
+			"subclassSource": "stabbybard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, your deftness reaches a new height. You can attack twice, instead of once, whenever you take the {@action Attack} action on your turn.",
+				"Additionally, if you hit 2 consecutive attacks against a single target on your turn, every further consecutive hit against the same target is an automatic critical. This effect lasts until the end of your next turn or until you miss an attack."
+			]
+		},
+		{
+			"name": "Grand Finale",
+			"source": "stabbybard",
+			"page": 0,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Juggler",
+			"subclassSource": "stabbybard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"At 14th level, you learn a masterful, gravity and logic-defying magically-enhanced display of juggling prowess, as your weapons seemingly duplicates themselves and float around you at high speeds in intricate patterns, before piercing the air towards your targets, which you can perform as an action on your turn.",
+				"Select any number of creatures within 10 feet of you that you can see. They make a Dexterity saving throw against a DC equal to 8 + your proficiency modifier + your Dexterity modifier. On a failure, they take {@damage 4d10} force damage and have their movement reduced by half on their next turn. On a success, they take half as much damage, and do not have their movement reduced.",
+				"Select any number of creatures you can see within attack range of a weapon you are wielding or carrying with the Light and Thrown properties. Make an attack against each one as if using that weapon. Attacks made as a part of this feature benefit from an enhanced Chain Attacks feature: you score automatic criticals on each consecutive hit after the first two against any creature, rather than having to chain the attacks against a single creature to gain this benefit.",
+				"Once you have used this feature you can't use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "College of Dancers",
+			"source": "stabbybard",
+			"page": 0,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Dancer",
+			"subclassSource": "stabbybard",
+			"level": 3,
+			"entries": [
+				"A bard whose magic-laced dance routines can go so far as to drive their audience to madness.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Deft Movement|Bard||Dancer|stabbybard|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dance of Seduction|Bard||Dancer|stabbybard|3"
+				}
+			]
+		},
+		{
+			"name": "Deft Movement",
+			"source": "stabbybard",
+			"page": 0,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Dancer",
+			"subclassSource": "stabbybard",
+			"level": 3,
+			"entries": [
+				"While wearing light or no armor, you receive the following benefits: your AC is increased by 1, your walking speed is increased by 5 feet, and you have advantage on Dexterity saving throws against sources that you can see. Additionally, you can use your body as a spellcasting focus, casting Bard spells through dance."
+			]
+		},
+		{
+			"name": "Dance of Seduction",
+			"source": "stabbybard",
+			"page": 0,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Dancer",
+			"subclassSource": "stabbybard",
+			"level": 3,
+			"entries": [
+				"Also at 3rd level, you master a dance to wow and woo all those around you.",
+				"You can use an action to start the dance, and can use your action on each turn afterwards to continue it. Any creature who stays within 60 feet and can see you for 1 uninterrupted minute must make a Wisdom saving throw against your spell save DC.",
+				"On a failure, they become {@condition charmed} by you until you interrupt or end your dance, and for an additional hour afterwards.",
+				"While {@condition charmed} this way, as long as they can see you, they have disadvantage on Wisdom (Perception) and Wisdom (Insight) checks.",
+				"You can use this feature a number of times equal to your Charisma modifier, and you recover all spent uses after you finish a long rest."
+			]
+		},
+		{
+			"name": "Dance of War",
+			"source": "stabbybard",
+			"page": 0,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Dancer",
+			"subclassSource": "stabbybard",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can perform a dance that hypes up your allies and gets them hungry for the blood of your enemies.",
+				"You can use an action to start the dance, and can use your action on each turn afterwards to continue it. Any creature within 60 feet that watches you for 1 uninterrupted minute receives the following benefits for 1 hour:",
+				{
+					"type": "list",
+					"items": [
+						"It gains a bonus of 1 to its attack and damage rolls.",
+						"It gains temporary HP equal to your level + your charisma modifier.",
+						"Once before the effect expires, it can choose to give itself advantage on an attack roll or saving throw."
+					]
+				},
+				"After you use this feature, you can't use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Dance of Madness",
+			"source": "stabbybard",
+			"page": 0,
+			"className": "Bard",
+			"classSource": "PHB",
+			"subclassShortName": "Dancer",
+			"subclassSource": "stabbybard",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, you can perform a dance to heat up tempers and drive people to impulsive and incoherent acts. You can use an action to start the dance, and can use your action on each turn afterwards to continue it. After interrupting your dance, you can no longer use this feature until you finish a long rest.",
+				"Any creature who starts its turn with sight of you and within 60 feet of you must make a Wisdom saving throw against your spell save DC. Whenever a creature fails, roll a d20 to determine the effect of the dance on it for that turn:",
+				{
+					"type": "table",
+					"colLabels": [
+						"d20",
+						"Effect"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1-5",
+							"Dancing. It must use its movement this turn to dance in place."
+						],
+						[
+							"6-9",
+							"Laughter. It must use its action this turn to randomly either laugh hysterically, or gasp and cheer at you while staring in amazement."
+						],
+						[
+							"10-12",
+							"Love. It is Charmed by you, using its turn to either charge someone it deems a threat to you and try to stop them, or if no such threats exists, nervously walk towards you and attempt to touch you."
+						],
+						[
+							"13-15",
+							"Fear. It is Frightened of you, dropping anything it may be carrying and fleeing from you to the best of its ability."
+						],
+						[
+							"16-17",
+							"Stupefaction. It is stunned."
+						],
+						[
+							"18-19",
+							"Paranoia. It sees all creatures other than itself as equal enemies to itself and equal threats to its wellbeing."
+						],
+						[
+							"20",
+							"Lunacy. It randomly selects an action to take on its turn from those available to it. It randomly selects a target for its action, where applicable. It randomy selects a point to move to after it takes its action, which could even be one that causes it to fall or otherwise hurt itself."
+						]
+					]
+				}
+			]
+		}
+	]
+}
+		
