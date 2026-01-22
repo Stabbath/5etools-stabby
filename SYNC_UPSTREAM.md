@@ -2,7 +2,29 @@
 
 This repository is a fork of [5etools-mirror-3/5etools-src](https://github.com/5etools-mirror-3/5etools-src/). This guide explains how to sync your fork with the upstream repository to keep it up-to-date.
 
+## Quick Sync with Helper Script
+
+The easiest way to sync is to use the provided helper script:
+
+```bash
+./sync-upstream.sh
+```
+
+Or to sync a specific branch:
+
+```bash
+./sync-upstream.sh branch-name
+```
+
+The script will:
+- Add the upstream remote if it doesn't exist
+- Fetch upstream changes
+- Merge upstream changes into your branch
+- Push the updated branch to your fork
+
 ## Manual Sync Process
+
+If you prefer to sync manually or need more control, follow these steps:
 
 ### 1. Add the Upstream Remote (One-time setup)
 

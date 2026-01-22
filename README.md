@@ -12,6 +12,14 @@ This fork is kept in sync with the upstream repository. For instructions on how 
 
 ### Quick Sync Guide
 
+The easiest way to sync is to use the provided helper script:
+
+```bash
+./sync-upstream.sh
+```
+
+Or manually:
+
 ```bash
 # Add upstream remote (first time only)
 git remote add upstream https://github.com/5etools-mirror-3/5etools-src.git
